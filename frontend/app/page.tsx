@@ -190,27 +190,27 @@ function HomePageContent() {
               </div>
             </section>
 
-            {/* 4 KHỐI CHỨC NĂNG CHÍNH ĐIỀU HƯỚNG */}
+            {/* 3 KHỐI CHỨC NĂNG CHÍNH ĐIỀU HƯỚNG */}
             <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-10 relative z-10 mb-12">
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
                 {/* 1. Thủ tục hành chính */}
                 <div
                   onClick={() => setActiveTab('procedures')}
-                  className="bg-white rounded-3xl p-5 shadow-lg border border-slate-200 hover:border-police-500 hover:shadow-xl transition cursor-pointer flex flex-col justify-between group"
+                  className="bg-white rounded-3xl p-6 shadow-lg border border-slate-200 hover:border-police-500 hover:shadow-xl transition cursor-pointer flex flex-col justify-between group"
                 >
                   <div>
-                    <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-blue-600 to-police-700 text-white flex items-center justify-center shadow-md mb-3 group-hover:scale-110 transition">
+                    <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-blue-600 to-police-700 text-white flex items-center justify-center shadow-md mb-4 group-hover:scale-110 transition">
                       <FileText className="w-6 h-6" />
                     </div>
-                    <h3 className="font-extrabold text-base text-slate-900 group-hover:text-police-700 transition mb-1">
+                    <h3 className="font-extrabold text-base sm:text-lg text-slate-900 group-hover:text-police-700 transition mb-1.5">
                       Thủ tục hành chính & Biểu mẫu
                     </h3>
-                    <p className="text-xs text-slate-500 line-clamp-2">
-                      Đăng ký cư trú, cấp Căn cước VNeID, đăng ký xe máy cấp xã, cam kết PCCC.
+                    <p className="text-xs sm:text-sm text-slate-500 line-clamp-2">
+                      Đăng ký cư trú, cấp Căn cước VNeID, đăng ký xe máy cấp xã, cam kết PCCC kèm kho biểu mẫu tờ khai.
                     </p>
                   </div>
-                  <div className="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-police-600">
-                    <span>Xem danh sách & tải mẫu</span>
+                  <div className="mt-5 pt-3.5 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-police-600">
+                    <span>Xem danh sách thủ tục</span>
                     <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition" />
                   </div>
                 </div>
@@ -218,68 +218,46 @@ function HomePageContent() {
                 {/* 2. Cảnh báo tội phạm & Lừa đảo */}
                 <div
                   onClick={() => setActiveTab('scam')}
-                  className="bg-white rounded-3xl p-5 shadow-lg border border-slate-200 hover:border-red-500 hover:shadow-xl transition cursor-pointer flex flex-col justify-between group"
+                  className="bg-white rounded-3xl p-6 shadow-lg border border-slate-200 hover:border-red-500 hover:shadow-xl transition cursor-pointer flex flex-col justify-between group"
                 >
                   <div>
-                    <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-red-600 to-rose-700 text-white flex items-center justify-center shadow-md mb-3 group-hover:scale-110 transition">
+                    <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-red-600 to-rose-700 text-white flex items-center justify-center shadow-md mb-4 group-hover:scale-110 transition">
                       <AlertTriangle className="w-6 h-6" />
                     </div>
-                    <h3 className="font-extrabold text-base text-slate-900 group-hover:text-red-700 transition mb-1">
+                    <h3 className="font-extrabold text-base sm:text-lg text-slate-900 group-hover:text-red-700 transition mb-1.5">
                       Cảnh báo tội phạm mạng
                     </h3>
-                    <p className="text-xs text-slate-500 line-clamp-2">
-                      Nhận diện các thủ đoạn lừa đảo qua mạng: Giả danh công an, Deepfake, bẫy hoa hồng.
+                    <p className="text-xs sm:text-sm text-slate-500 line-clamp-2">
+                      Nhận diện các thủ đoạn lừa đảo qua mạng: Giả danh công an, Deepfake, bẫy việc làm hoa hồng.
                     </p>
                   </div>
-                  <div className="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-red-600">
+                  <div className="mt-5 pt-3.5 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-red-600">
                     <span>Xem cẩm nang cảnh giác</span>
                     <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition" />
                   </div>
                 </div>
 
-                {/* 3. Kiểm tra kiến thức pháp luật (MỚI) */}
+                {/* 3. Kiểm tra kiến thức pháp luật */}
                 <div
                   onClick={() => setActiveTab('quiz')}
-                  className="bg-white rounded-3xl p-5 shadow-lg border border-slate-200 hover:border-amber-500 hover:shadow-xl transition cursor-pointer flex flex-col justify-between group"
+                  className="bg-white rounded-3xl p-6 shadow-lg border border-slate-200 hover:border-amber-500 hover:shadow-xl transition cursor-pointer flex flex-col justify-between group"
                 >
                   <div>
-                    <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-amber-600 to-orange-700 text-white flex items-center justify-center shadow-md mb-3 group-hover:scale-110 transition">
+                    <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-amber-600 to-orange-700 text-white flex items-center justify-center shadow-md mb-4 group-hover:scale-110 transition">
                       <GraduationCap className="w-6 h-6" />
                     </div>
-                    <h3 className="font-extrabold text-base text-slate-900 group-hover:text-amber-700 transition mb-1">
+                    <h3 className="font-extrabold text-base sm:text-lg text-slate-900 group-hover:text-amber-700 transition mb-1.5">
                       Kiểm tra kiến thức & Thi trắc nghiệm
                     </h3>
-                    <p className="text-xs text-slate-500 line-clamp-2">
-                      10 câu hỏi tình huống thực tế, nhận diện bẫy lừa đảo và cấp chứng nhận online.
+                    <p className="text-xs sm:text-sm text-slate-500 line-clamp-2">
+                      Ngân hàng hàng trăm câu hỏi tình huống thực tế, nhận diện bẫy lừa đảo và cấp chứng nhận online.
                     </p>
                   </div>
-                  <div className="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-amber-700">
+                  <div className="mt-5 pt-3.5 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-amber-700">
                     <span>Làm bài kiểm tra ngay</span>
                     <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition" />
                   </div>
                 </div>
-
-                {/* 4. Mã QR Tuyên truyền */}
-                <Link
-                  href="/tuyen-truyen-qr"
-                  className="bg-white rounded-3xl p-5 shadow-lg border border-slate-200 hover:border-emerald-500 hover:shadow-xl transition flex flex-col justify-between group"
-                >
-                  <div>
-                    <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-emerald-600 to-teal-700 text-white flex items-center justify-center shadow-md mb-3 group-hover:scale-110 transition">
-                      <QrCode className="w-6 h-6" />
-                    </div>
-                    <h3 className="font-extrabold text-base text-slate-900 group-hover:text-emerald-700 transition mb-1">
-                      Mã QR Tuyên truyền tại thôn
-                    </h3>
-                    <p className="text-xs text-slate-500 line-clamp-2">
-                      Bản in decal mã QR chuẩn cho các thôn Nho Lâm, Đức Hợp dán tại nhà văn hóa.
-                    </p>
-                  </div>
-                  <div className="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-emerald-600">
-                    <span>Xem & In mã QR</span>
-                    <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition" />
-                  </div>
-                </Link>
               </div>
             </section>
 

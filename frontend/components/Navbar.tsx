@@ -1,18 +1,17 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { 
-  Phone, 
   FileText, 
   AlertTriangle, 
   Menu, 
   X, 
-  QrCode, 
   Lock, 
   GraduationCap, 
-  Home
+  Home,
+  UserCheck
 } from 'lucide-react';
 
 export type NavTabType = 'home' | 'procedures' | 'scam' | 'quiz';
@@ -24,7 +23,25 @@ interface NavbarProps {
 
 export default function Navbar({ activeTab = 'home', onSelectTab }: NavbarProps) {
   const [isOpen, setIsOpen] = useState(false);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [officerName, setOfficerName] = useState('');
   const router = useRouter();
+
+  useEffect(() => {
+    const token = localStorage.getItem('admin_token');
+    const userStr = localStorage.getItem('admin_user');
+    if (token) {
+      setIsLoggedIn(true);
+      if (userStr) {
+        try {
+          const user = JSON.parse(userStr);
+          setOfficerName(user.full_name || 'Cán bộ');
+        } catch {
+          setOfficerName('Cán bộ');
+        }
+      }
+    }
+  }, []);
 
   const handleTabClick = (tab: NavTabType) => {
     setIsOpen(false);
@@ -37,23 +54,15 @@ export default function Navbar({ activeTab = 'home', onSelectTab }: NavbarProps)
 
   return (
     <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md shadow-sm border-b border-slate-200">
-      {/* Top Banner Tiêu đề Cơ quan cấp trên và Hotline */}
+      {/* Top Banner Tiêu đề Cơ quan cấp trên */}
       <div className="bg-gradient-to-r from-red-700 via-red-600 to-red-700 text-white text-xs sm:text-sm py-1.5 px-4 font-semibold tracking-wide shadow-inner">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <span className="inline-block w-2.5 h-2.5 rounded-full bg-yellow-400 animate-pulse"></span>
             <span className="font-bold">CÔNG AN TỈNH HƯNG YÊN • CÔNG AN XÃ ĐỨC HỢP</span>
           </div>
-          <div className="hidden md:flex items-center space-x-4">
-            <span className="text-yellow-200">Trụ sở: Thôn Nho Lâm, xã Đức Hợp, tỉnh Hưng Yên</span>
-            <span>•</span>
-            <a 
-              href="tel:02213815999" 
-              className="flex items-center space-x-1.5 bg-red-800 hover:bg-red-900 px-3 py-0.5 rounded-full text-yellow-300 font-extrabold transition"
-            >
-              <Phone className="w-3.5 h-3.5" />
-              <span>Trực ban 24/7: 02213.815.999</span>
-            </a>
+          <div className="hidden md:flex items-center space-x-2">
+            <span className="text-yellow-200">Trụ sở Công an xã: Thôn Nho Lâm, xã Đức Hợp, tỉnh Hưng Yên</span>
           </div>
         </div>
       </div>
@@ -94,7 +103,7 @@ export default function Navbar({ activeTab = 'home', onSelectTab }: NavbarProps)
             <button
               type="button"
               onClick={() => handleTabClick('home')}
-              className={`px-3.5 py-2 rounded-full border transition flex items-center space-x-1.5 whitespace-nowrap shadow-xs ${
+              className={`px-4 py-2 rounded-full border transition flex items-center space-x-1.5 whitespace-nowrap shadow-xs ${
                 activeTab === 'home'
                   ? 'bg-police-700 text-white border-police-700 shadow-sm'
                   : 'bg-white border-slate-200 text-slate-700 hover:border-police-400 hover:text-police-700 hover:bg-slate-50'
@@ -108,7 +117,7 @@ export default function Navbar({ activeTab = 'home', onSelectTab }: NavbarProps)
             <button
               type="button"
               onClick={() => handleTabClick('procedures')}
-              className={`px-3.5 py-2 rounded-full border transition flex items-center space-x-1.5 whitespace-nowrap shadow-xs ${
+              className={`px-4 py-2 rounded-full border transition flex items-center space-x-1.5 whitespace-nowrap shadow-xs ${
                 activeTab === 'procedures'
                   ? 'bg-police-700 text-white border-police-700 shadow-sm'
                   : 'bg-white border-slate-200 text-slate-700 hover:border-police-400 hover:text-police-700 hover:bg-slate-50'
@@ -122,7 +131,7 @@ export default function Navbar({ activeTab = 'home', onSelectTab }: NavbarProps)
             <button
               type="button"
               onClick={() => handleTabClick('scam')}
-              className={`px-3.5 py-2 rounded-full border transition flex items-center space-x-1.5 whitespace-nowrap shadow-xs ${
+              className={`px-4 py-2 rounded-full border transition flex items-center space-x-1.5 whitespace-nowrap shadow-xs ${
                 activeTab === 'scam'
                   ? 'bg-red-600 text-white border-red-600 shadow-sm'
                   : 'bg-white border-slate-200 text-red-600 hover:border-red-400 hover:bg-red-50'
@@ -132,11 +141,11 @@ export default function Navbar({ activeTab = 'home', onSelectTab }: NavbarProps)
               <span>Cảnh báo tội phạm</span>
             </button>
 
-            {/* 4. Học tập & Kiểm tra kiến thức pháp luật (MỚI) */}
+            {/* 4. Học tập & Kiểm tra kiến thức pháp luật */}
             <button
               type="button"
               onClick={() => handleTabClick('quiz')}
-              className={`px-3.5 py-2 rounded-full border transition flex items-center space-x-1.5 whitespace-nowrap shadow-xs ${
+              className={`px-4 py-2 rounded-full border transition flex items-center space-x-1.5 whitespace-nowrap shadow-xs ${
                 activeTab === 'quiz'
                   ? 'bg-amber-600 text-white border-amber-600 shadow-sm'
                   : 'bg-white border-slate-200 text-amber-700 hover:border-amber-400 hover:bg-amber-50'
@@ -145,38 +154,29 @@ export default function Navbar({ activeTab = 'home', onSelectTab }: NavbarProps)
               <GraduationCap className="w-4 h-4" />
               <span>Kiểm tra kiến thức</span>
             </button>
-
-            {/* 5. Mã QR Tuyên truyền */}
-            <Link
-              href="/tuyen-truyen-qr"
-              className="px-3 py-2 rounded-full border border-slate-200 bg-white text-slate-700 hover:border-emerald-400 hover:text-emerald-700 hover:bg-emerald-50 transition flex items-center space-x-1.5 whitespace-nowrap shadow-xs"
-            >
-              <QrCode className="w-4 h-4 text-emerald-600" />
-              <span>Mã QR</span>
-            </Link>
           </nav>
 
-          {/* Action Buttons: Đăng nhập Cán bộ + Hotline Trực ban */}
+          {/* Action Buttons: Đăng nhập Cán bộ */}
           <div className="flex items-center space-x-2 shrink-0">
-            {/* Nút Đăng nhập Cán bộ */}
-            <Link
-              href="/admin/login"
-              className="inline-flex items-center space-x-1.5 px-3.5 py-2 rounded-full border border-police-300 text-police-800 hover:bg-police-50 font-bold text-xs lg:text-sm transition shadow-2xs whitespace-nowrap"
-            >
-              <Lock className="w-3.5 h-3.5 text-police-700" />
-              <span className="hidden sm:inline">Đăng nhập Cán bộ</span>
-              <span className="sm:hidden">Cán bộ</span>
-            </Link>
-
-            {/* Hotline Call Button */}
-            <a 
-              href="tel:02213815999" 
-              className="inline-flex items-center space-x-1.5 bg-red-600 hover:bg-red-700 text-white px-3.5 py-2 rounded-full text-xs lg:text-sm font-extrabold shadow-md hover:shadow-lg transition transform active:scale-95 shrink-0 whitespace-nowrap"
-            >
-              <Phone className="w-3.5 h-3.5" />
-              <span className="hidden md:inline">02213.815.999</span>
-              <span className="md:hidden">Trực ban</span>
-            </a>
+            {isLoggedIn ? (
+              <Link
+                href="/admin/dashboard"
+                className="inline-flex items-center space-x-1.5 px-4 py-2 rounded-full bg-emerald-50 border border-emerald-300 text-emerald-800 hover:bg-emerald-100 font-bold text-xs lg:text-sm transition shadow-2xs whitespace-nowrap"
+              >
+                <UserCheck className="w-4 h-4 text-emerald-600" />
+                <span className="hidden sm:inline">Quản trị: {officerName}</span>
+                <span className="sm:hidden">Quản trị</span>
+              </Link>
+            ) : (
+              <Link
+                href="/admin/login"
+                className="inline-flex items-center space-x-1.5 px-4 py-2 rounded-full border border-police-300 text-police-800 hover:bg-police-50 font-bold text-xs lg:text-sm transition shadow-2xs whitespace-nowrap"
+              >
+                <Lock className="w-4 h-4 text-police-700" />
+                <span className="hidden sm:inline">Đăng nhập Cán bộ</span>
+                <span className="sm:hidden">Cán bộ</span>
+              </Link>
+            )}
 
             {/* Mobile Hamburger Toggle */}
             <button 
@@ -214,7 +214,7 @@ export default function Navbar({ activeTab = 'home', onSelectTab }: NavbarProps)
             }`}
           >
             <FileText className="w-5 h-5 text-police-600" />
-            <span>Thủ tục hành chính (Kèm Biểu mẫu tờ khai)</span>
+            <span>Thủ tục hành chính (Kèm Biểu mẫu)</span>
           </button>
 
           <button
@@ -241,18 +241,8 @@ export default function Navbar({ activeTab = 'home', onSelectTab }: NavbarProps)
             <span>Học tập & Kiểm tra kiến thức pháp luật</span>
           </button>
 
-          <Link
-            href="/tuyen-truyen-qr"
-            onClick={() => setIsOpen(false)}
-            className="flex items-center space-x-3 px-4 py-3 rounded-2xl text-emerald-800 hover:bg-emerald-50 font-bold text-sm transition border border-emerald-200"
-          >
-            <QrCode className="w-5 h-5 text-emerald-600" />
-            <span>Mã QR Tuyên truyền tại Thôn/Xã</span>
-          </Link>
-
           <div className="pt-3 border-t border-slate-100 text-xs text-slate-500 space-y-1">
-            <p>Trụ sở Công an xã Đức Hợp: Thôn Nho Lâm, xã Đức Hợp</p>
-            <p>Đường dây nóng: <strong>02213.815.999</strong></p>
+            <p>Trụ sở Công an xã Đức Hợp: Thôn Nho Lâm, xã Đức Hợp, tỉnh Hưng Yên</p>
           </div>
         </div>
       )}

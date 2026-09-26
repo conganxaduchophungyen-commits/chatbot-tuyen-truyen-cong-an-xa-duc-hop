@@ -1,16 +1,65 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import { Shield, Printer, Phone, Download, QrCode, CheckCircle2, MapPin } from 'lucide-react';
+import { Shield, Printer, Phone, Download, QrCode, CheckCircle2, MapPin, Lock, ArrowLeft } from 'lucide-react';
+import Link from 'next/link';
 
 export default function PropagandaQRPage() {
+  const router = useRouter();
+  const [isAuthorized, setIsAuthorized] = useState<boolean | null>(null);
   const [appUrl, setAppUrl] = useState('https://conganxaduchop.hungyen.gov.vn');
+
+  useEffect(() => {
+    const token = localStorage.getItem('admin_token');
+    if (!token) {
+      setIsAuthorized(false);
+    } else {
+      setIsAuthorized(true);
+    }
+  }, []);
 
   const handlePrint = () => {
     window.print();
   };
+
+  if (isAuthorized === false) {
+    return (
+      <>
+        <Navbar />
+        <main className="min-h-[70vh] flex items-center justify-center p-4 bg-slate-50">
+          <div className="max-w-md w-full bg-white p-8 rounded-3xl border border-slate-200 shadow-xl text-center space-y-4">
+            <div className="w-16 h-16 rounded-full bg-amber-100 text-amber-800 flex items-center justify-center mx-auto">
+              <Lock className="w-8 h-8" />
+            </div>
+            <h2 className="text-xl font-black text-slate-900">
+              Khu Vực Dành Cho Cán Bộ
+            </h2>
+            <p className="text-xs text-slate-600 leading-relaxed">
+              Tính năng tạo và in ấn ấn phẩm Mã QR tuyên truyền tại các thôn chỉ dành riêng cho Cán bộ Công an xã Đức Hợp. Vui lòng đăng nhập tài khoản nghiệp vụ để tiếp tục.
+            </p>
+            <div className="pt-2 flex flex-col gap-2">
+              <Link
+                href="/admin/login"
+                className="w-full bg-police-700 hover:bg-police-800 text-white font-bold py-2.5 rounded-xl text-xs transition"
+              >
+                Đăng nhập tài khoản Cán bộ
+              </Link>
+              <Link
+                href="/"
+                className="w-full bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold py-2.5 rounded-xl text-xs transition"
+              >
+                Quay về Trang chủ
+              </Link>
+            </div>
+          </div>
+        </main>
+        <Footer />
+      </>
+    );
+  }
 
   const qrImageUrl = `https://quickchart.io/qr?text=${encodeURIComponent(appUrl)}&size=300&margin=1&ecLevel=H`;
 
