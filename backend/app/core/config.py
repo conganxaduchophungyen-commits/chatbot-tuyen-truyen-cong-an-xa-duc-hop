@@ -23,11 +23,10 @@ class Settings(BaseSettings):
     
     # Thông tin đơn vị
     COMMUNE_NAME: str = "Công an xã Đức Hợp"
-    DISTRICT_NAME: str = "Kim Động"
     PROVINCE_NAME: str = "Hưng Yên"
-    HOTLINE_NUMBER: str = "02213.811.xxx"
-    HOTLINE_OFFICER: str = "0988.xxx.xxx"
-    ADDRESS: str = "Xã Đức Hợp, huyện Kim Động, tỉnh Hưng Yên"
+    HOTLINE_NUMBER: str = "02213.815.999"
+    HOTLINE_OFFICER: str = "02213.815.999"
+    ADDRESS: str = "Thôn Nho Lâm, xã Đức Hợp, tỉnh Hưng Yên"
 
     class Config:
         env_file = ".env"

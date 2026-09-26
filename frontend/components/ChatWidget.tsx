@@ -143,10 +143,11 @@ export default function ChatWidget() {
       {isOpen && (
         <div className="fixed inset-0 sm:inset-auto sm:bottom-5 sm:right-5 sm:w-[420px] sm:h-[620px] bg-white sm:rounded-3xl shadow-2xl flex flex-col z-50 border border-slate-200 overflow-hidden animate-in fade-in slide-in-from-bottom-5 duration-200">
           {/* Header */}
-          <div className="bg-gradient-to-r from-police-800 via-police-700 to-police-900 text-white p-4 flex items-center justify-between shadow-md shrink-0">
+          <div className="bg-gradient-to-r from-red-700 via-police-800 to-police-900 text-white p-4 flex items-center justify-between shadow-md shrink-0">
             <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 rounded-full bg-yellow-400 text-police-900 flex items-center justify-center font-bold shadow">
-                <Bot className="w-6 h-6" />
+              <div className="w-10 h-10 rounded-full bg-white p-0.5 flex items-center justify-center font-bold shadow shrink-0">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src="/logo-cong-an.png" alt="Logo Công an" className="w-full h-full object-contain" />
               </div>
               <div>
                 <h3 className="font-bold text-sm sm:text-base flex items-center space-x-1.5">
@@ -155,7 +156,7 @@ export default function ChatWidget() {
                 </h3>
                 <div className="flex items-center space-x-1.5 text-xs text-yellow-200">
                   <span className="w-2 h-2 rounded-full bg-emerald-400"></span>
-                  <span>Công an xã Đức Hợp trực tuyến</span>
+                  <span>Công an xã Đức Hợp, tỉnh Hưng Yên</span>
                 </div>
               </div>
             </div>
@@ -175,8 +176,8 @@ export default function ChatWidget() {
               <PhoneCall className="w-3.5 h-3.5 text-red-600" />
               <span>Trực ban Công an xã:</span>
             </span>
-            <a href="tel:02213811000" className="font-bold text-red-700 hover:underline">
-              02213.811.xxx (24/24h)
+            <a href="tel:02213815999" className="font-bold text-red-700 hover:underline">
+              02213.815.999 (24/24h)
             </a>
           </div>
 

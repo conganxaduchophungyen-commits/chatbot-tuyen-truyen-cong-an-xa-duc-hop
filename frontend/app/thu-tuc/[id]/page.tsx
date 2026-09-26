@@ -151,7 +151,7 @@ export default function ProcedureDetailPage() {
                 <Building2 className="w-6 h-6 text-amber-600 shrink-0 mt-0.5" />
                 <div>
                   <div className="text-xs font-semibold text-slate-400">Địa điểm tiếp nhận</div>
-                  <div className="font-bold text-slate-800">Trụ sở Công an xã Đức Hợp</div>
+                  <div className="font-bold text-slate-800">Thôn Nho Lâm, xã Đức Hợp</div>
                 </div>
               </div>
             </div>
@@ -306,14 +306,14 @@ export default function ProcedureDetailPage() {
                   <span>Cần cán bộ hỗ trợ trực tiếp?</span>
                 </h3>
                 <p className="text-xs text-slate-600 leading-relaxed mb-4">
-                  Bà con có thể đến trực tiếp Bộ phận Một cửa Công an xã Đức Hợp để được hướng dẫn điền tờ khai và nộp hồ sơ.
+                  Bà con có thể đến trực tiếp Bộ phận Một cửa Công an xã Đức Hợp (Thôn Nho Lâm) để được hướng dẫn điền tờ khai và nộp hồ sơ.
                 </p>
                 <a
-                  href="tel:02213811000"
+                  href="tel:02213815999"
                   className="w-full inline-flex items-center justify-center space-x-2 bg-red-600 hover:bg-red-700 text-white font-bold px-4 py-2.5 rounded-xl text-xs shadow transition"
                 >
                   <PhoneCall className="w-3.5 h-3.5" />
-                  <span>Gọi Trực ban: 02213.811.xxx</span>
+                  <span>Gọi Trực ban: 02213.815.999</span>
                 </a>
               </div>
             </div>

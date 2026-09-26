@@ -12,7 +12,6 @@ export default function PropagandaQRPage() {
     window.print();
   };
 
-  // Tạo URL SVG QR Code nhanh qua API QuickChart QR chuẩn nét
   const qrImageUrl = `https://quickchart.io/qr?text=${encodeURIComponent(appUrl)}&size=300&margin=1&ecLevel=H`;
 
   return (
@@ -27,7 +26,7 @@ export default function PropagandaQRPage() {
               Bộ Ấn Phẩm Tuyên Truyền Mã QR - Công An Xã Đức Hợp
             </h1>
             <p className="text-xs sm:text-sm text-slate-600 mb-6">
-              Công cụ tạo mẫu Decal / Standee chuẩn kích thước để in ấn dán tại Bàn tiếp dân Công an xã và Bảng tin Nhà văn hóa 5 thôn (Thôn Đức Hợp, Thôn Nam Tiến, Thôn Thọ Bình, Thôn Phú Mỹ, Thôn An Cảnh).
+              Công cụ tạo mẫu Decal / Standee chuẩn kích thước để in ấn dán tại Bàn tiếp dân Công an xã (Thôn Nho Lâm) và Bảng tin Nhà văn hóa các thôn.
             </p>
 
             <div className="flex flex-col sm:flex-row items-center gap-4">
@@ -57,11 +56,12 @@ export default function PropagandaQRPage() {
           <div className="bg-white border-4 border-red-600 rounded-3xl shadow-2xl overflow-hidden print:border-4 print:shadow-none print:m-0 print:rounded-none">
             {/* Top Red Banner Header */}
             <div className="bg-gradient-to-r from-red-700 via-red-600 to-red-700 text-white text-center p-6 sm:p-8 border-b-4 border-yellow-400">
-              <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-yellow-400 text-police-950 flex items-center justify-center mx-auto mb-3 shadow-lg border-2 border-white">
-                <Shield className="w-10 h-10 sm:w-12 sm:h-12 text-police-900" />
+              <div className="w-20 h-20 rounded-full bg-white p-1 flex items-center justify-center mx-auto mb-3 shadow-lg border-2 border-white">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src="/logo-cong-an.png" alt="Logo Công an" className="w-full h-full object-contain" />
               </div>
               <h2 className="text-sm sm:text-base font-bold tracking-widest uppercase text-yellow-300">
-                CÔNG AN TỈNH HƯNG YÊN - CÔNG AN HUYỆN KIM ĐỘNG
+                CÔNG AN TỈNH HƯNG YÊN
               </h2>
               <h3 className="text-xl sm:text-3xl font-black tracking-wide uppercase mt-1">
                 CÔNG AN XÃ ĐỨC HỢP
@@ -122,13 +122,13 @@ export default function PropagandaQRPage() {
                   </div>
                   <div>
                     <div className="text-xs font-bold uppercase text-red-600">Đường dây nóng Trực ban tiếp dân (24/24h)</div>
-                    <div className="text-lg sm:text-xl font-black text-red-800">02213.811.xxx - 0988.xxx.xxx</div>
+                    <div className="text-lg sm:text-xl font-black text-red-800">02213.815.999</div>
                   </div>
                 </div>
 
                 <div className="text-right text-xs text-slate-600 flex items-center space-x-1.5 shrink-0">
                   <MapPin className="w-4 h-4 text-red-600" />
-                  <span>Trụ sở Công an xã Đức Hợp, Kim Động, Hưng Yên</span>
+                  <span>Trụ sở: Thôn Nho Lâm, xã Đức Hợp, tỉnh Hưng Yên</span>
                 </div>
               </div>
             </div>

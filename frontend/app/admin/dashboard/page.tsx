@@ -166,12 +166,13 @@ export default function AdminDashboardPage() {
       <header className="bg-gradient-to-r from-police-900 via-police-800 to-red-900 text-white shadow-md">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
           <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 rounded-full bg-yellow-400 text-police-950 flex items-center justify-center shadow">
-              <Shield className="w-6 h-6" />
+            <div className="w-12 h-12 rounded-full bg-white p-0.5 flex items-center justify-center shadow shrink-0">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/logo-cong-an.png" alt="Logo Công an" className="w-full h-full object-contain" />
             </div>
             <div>
-              <h1 className="font-extrabold text-sm sm:text-base leading-tight">
-                BẢNG QUẢN TRỊ - CÔNG AN XÃ ĐỨC HỢP
+              <h1 className="font-black text-sm sm:text-base leading-tight">
+                CÔNG AN XÃ ĐỨC HỢP, TỈNH HƯNG YÊN
               </h1>
               <p className="text-xs text-yellow-300">
                 Đ/c: {adminUser?.full_name || 'Cán bộ quản trị'} ({adminUser?.badge_number || 'CAND'})

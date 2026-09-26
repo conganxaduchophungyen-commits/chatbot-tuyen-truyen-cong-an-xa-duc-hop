@@ -27,7 +27,11 @@ import {
   ExternalLink,
   ChevronRight,
   AlertTriangle,
-  FolderOpen
+  FolderOpen,
+  Download,
+  FileText,
+  MapPin,
+  Sparkles
 } from 'lucide-react';
 
 export default function HomePage() {
@@ -36,7 +40,7 @@ export default function HomePage() {
   const [articles, setArticles] = useState<Article[]>([]);
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     async function initData() {
@@ -92,23 +96,23 @@ export default function HomePage() {
 
       <main className="flex-1">
         {/* HERO SECTION */}
-        <section className="relative bg-gradient-to-b from-police-900 via-police-800 to-slate-900 text-white pt-12 pb-24 px-4 sm:px-6 lg:px-8 overflow-hidden">
+        <section className="relative bg-gradient-to-b from-police-950 via-police-900 to-slate-900 text-white pt-10 pb-24 px-4 sm:px-6 lg:px-8 overflow-hidden">
           <div className="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]"></div>
 
           <div className="relative max-w-4xl mx-auto text-center">
             {/* Đơn vị Tag */}
-            <div className="inline-flex items-center space-x-2 bg-police-700/80 border border-police-500/40 text-yellow-300 px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-semibold mb-6 shadow-sm">
-              <span className="w-2 h-2 rounded-full bg-yellow-400"></span>
-              <span>CÔNG AN XÃ ĐỨC HỢP • PHỤC VỤ NHÂN DÂN 24/7</span>
+            <div className="inline-flex items-center space-x-2 bg-police-800/90 border border-police-500/40 text-yellow-300 px-4 py-1.5 rounded-full text-xs sm:text-sm font-semibold mb-6 shadow-sm">
+              <span className="w-2.5 h-2.5 rounded-full bg-yellow-400"></span>
+              <span>CÔNG AN XÃ ĐỨC HỢP, TỈNH HƯNG YÊN • VÌ NHÂN DÂN PHỤC VỤ</span>
             </div>
 
-            <h1 className="text-2xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight leading-tight mb-4">
+            <h1 className="text-2xl sm:text-4xl lg:text-5xl font-black tracking-tight leading-tight mb-4">
               Trợ Lý Số Pháp Luật & <br className="hidden sm:inline" />
               <span className="text-yellow-400">Thủ Tục Hành Chính Cho Người Dân</span>
             </h1>
 
-            <p className="text-sm sm:text-base text-slate-300 max-w-2xl mx-auto mb-8 leading-relaxed">
-              Tra cứu nhanh thành phần hồ sơ, quy trình, nơi tiếp nhận và hướng dẫn nộp hồ sơ trực tuyến tại Công an xã Đức Hợp, Kim Động, Hưng Yên.
+            <p className="text-xs sm:text-base text-slate-300 max-w-2xl mx-auto mb-8 leading-relaxed">
+              Tra cứu nhanh hồ sơ giấy tờ cần chuẩn bị, quy trình các bước và hướng dẫn nộp hồ sơ trực tuyến tại Trụ sở Công an xã Đức Hợp (Thôn Nho Lâm, xã Đức Hợp, tỉnh Hưng Yên).
             </p>
 
             {/* Thanh Tìm Kiếm Trung Tâm */}
@@ -117,14 +121,14 @@ export default function HomePage() {
                 <Search className="w-6 h-6 text-slate-400 ml-3 shrink-0" />
                 <input
                   type="text"
-                  placeholder="Nhập thủ tục cần tìm (VD: thường trú, căn cước, đăng ký xe máy...)"
+                  placeholder="Nhập thủ tục cần tìm (VD: thường trú, tạm trú, làm căn cước, xe máy, CT01...)"
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  className="w-full px-3 py-2.5 text-sm sm:text-base text-slate-800 placeholder-slate-400 bg-transparent focus:outline-none"
+                  className="w-full px-3 py-2.5 text-xs sm:text-sm text-slate-800 placeholder-slate-400 bg-transparent focus:outline-none"
                 />
                 <button
                   type="submit"
-                  className="bg-police-600 hover:bg-police-700 text-white px-5 py-2.5 rounded-xl font-bold text-sm shadow-md transition shrink-0"
+                  className="bg-red-600 hover:bg-red-700 text-white px-5 py-2.5 rounded-xl font-bold text-xs sm:text-sm shadow-md transition shrink-0"
                 >
                   Tìm kiếm
                 </button>
@@ -132,8 +136,8 @@ export default function HomePage() {
 
               {/* Gợi ý tìm nhanh */}
               <div className="flex flex-wrap items-center justify-center gap-2 mt-3 text-xs text-slate-300">
-                <span className="text-slate-400">Gợi ý:</span>
-                {['Đăng ký thường trú', 'Đăng ký xe máy', 'Mẫu CT01', 'Căn cước VNeID'].map((term, i) => (
+                <span className="text-slate-400">Gợi ý nhanh:</span>
+                {['Đăng ký thường trú', 'Đăng ký xe máy', 'Căn cước VNeID', 'Mẫu CT01', 'An toàn PCCC'].map((term, i) => (
                   <button
                     key={i}
                     type="button"
@@ -141,7 +145,7 @@ export default function HomePage() {
                       setSearchQuery(term);
                       getProcedures(selectedCategory || undefined, term).then(setProcedures);
                     }}
-                    className="bg-police-800/60 hover:bg-police-700 px-2.5 py-1 rounded-full transition border border-police-600/40"
+                    className="bg-police-800/70 hover:bg-police-700 px-3 py-1 rounded-full transition border border-police-600/40"
                   >
                     {term}
                   </button>
@@ -166,7 +170,7 @@ export default function HomePage() {
                   className={`bg-white rounded-3xl p-5 shadow-lg border transition transform cursor-pointer flex flex-col justify-between group ${
                     isSelected
                       ? 'ring-4 ring-police-500 border-police-500'
-                      : 'border-slate-100 hover:shadow-xl hover:-translate-y-1'
+                      : 'border-slate-200/80 hover:shadow-xl hover:-translate-y-1'
                   }`}
                 >
                   <div>
@@ -180,7 +184,7 @@ export default function HomePage() {
                         </span>
                       )}
                     </div>
-                    <h3 className="font-bold text-base text-slate-900 group-hover:text-police-700 transition mb-1">
+                    <h3 className="font-extrabold text-base text-slate-900 group-hover:text-police-700 transition mb-1">
                       {cat.name}
                     </h3>
                     <p className="text-xs text-slate-500 line-clamp-2">
@@ -188,8 +192,8 @@ export default function HomePage() {
                     </p>
                   </div>
 
-                  <div className="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-xs font-semibold text-police-600 group-hover:text-police-700">
-                    <span>{isSelected ? 'Bỏ lọc danh mục' : 'Lọc thủ tục'}</span>
+                  <div className="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-police-600 group-hover:text-police-700">
+                    <span>{isSelected ? 'Bỏ lọc danh mục' : 'Xem các thủ tục'}</span>
                     <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition" />
                   </div>
                 </div>
@@ -201,15 +205,15 @@ export default function HomePage() {
         {/* CẢNH BÁO LỪA ĐẢO NỔI BẬT */}
         {featuredAlert && (
           <section id="canh-bao" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
-            <div className="bg-gradient-to-r from-red-50 via-rose-50 to-red-50 border-2 border-red-200 rounded-3xl p-6 sm:p-8 shadow-sm">
+            <div className="bg-gradient-to-r from-red-50 via-rose-50 to-red-50 border-2 border-red-300 rounded-3xl p-6 sm:p-8 shadow-sm">
               <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-4">
                 <div className="flex items-center space-x-3">
                   <div className="w-12 h-12 rounded-2xl bg-red-600 text-white flex items-center justify-center shrink-0 shadow-md">
                     <AlertTriangle className="w-7 h-7 animate-pulse" />
                   </div>
                   <div>
-                    <span className="text-xs font-bold text-red-600 tracking-wider uppercase">Cảnh giác tội phạm mạng</span>
-                    <h2 className="text-lg sm:text-2xl font-extrabold text-red-950">
+                    <span className="text-xs font-bold text-red-600 tracking-wider uppercase">Cảnh giác tội phạm công nghệ cao</span>
+                    <h2 className="text-lg sm:text-2xl font-black text-red-950">
                       {featuredAlert.title}
                     </h2>
                   </div>
@@ -224,13 +228,13 @@ export default function HomePage() {
                 </Link>
               </div>
 
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed mb-4">
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed mb-4 font-medium">
                 {featuredAlert.summary}
               </p>
 
               <div className="flex flex-wrap gap-2 text-xs">
-                {featuredAlert.scam_tricks.slice(0, 2).map((trick, i) => (
-                  <span key={i} className="bg-white/80 text-red-900 border border-red-200 px-3 py-1 rounded-xl">
+                {featuredAlert.scam_tricks.map((trick, i) => (
+                  <span key={i} className="bg-white text-red-950 border border-red-200 px-3 py-1.5 rounded-xl shadow-2xs font-semibold">
                     ⚠️ {trick}
                   </span>
                 ))}
@@ -239,110 +243,194 @@ export default function HomePage() {
           </section>
         )}
 
-        {/* DANH SÁCH THỦ TỤC HÀNH CHÍNH (DYNAMIC PROCEDURE CARDS) */}
+        {/* DANH SÁCH THỦ TỤC HÀNH CHÍNH (6 THỦ TỤC CƠ SỞ CHUẨN) */}
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
           <div className="flex items-center justify-between mb-6">
             <div>
-              <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900">
+              <h2 className="text-xl sm:text-2xl font-black text-slate-900">
                 Danh Sách Thủ Tục Hành Chính Cấp Xã
               </h2>
               <p className="text-xs sm:text-sm text-slate-500">
-                Thẩm quyền tiếp nhận và giải quyết tại Công an xã Đức Hợp
+                Thẩm quyền tiếp nhận và giải quyết tại Trụ sở Công an xã Đức Hợp (Thôn Nho Lâm)
               </p>
             </div>
             {selectedCategory && (
               <button
                 onClick={() => handleSelectCategory(null)}
-                className="text-xs text-police-600 hover:text-police-800 font-semibold"
+                className="text-xs bg-slate-200 hover:bg-slate-300 text-slate-800 font-bold px-3 py-1.5 rounded-lg transition"
               >
-                Hiển thị tất cả
+                Hiển thị tất cả thủ tục
               </button>
             )}
           </div>
 
-          {loading ? (
-            <div className="text-center py-12">
-              <div className="w-8 h-8 border-4 border-police-600 border-t-transparent rounded-full animate-spin mx-auto mb-2"></div>
-              <p className="text-xs text-slate-500">Đang tải danh sách thủ tục...</p>
-            </div>
-          ) : procedures.length === 0 ? (
-            <div className="bg-white rounded-3xl p-8 text-center border border-slate-200">
-              <FolderOpen className="w-12 h-12 text-slate-400 mx-auto mb-2" />
-              <p className="text-sm font-semibold text-slate-700">Không tìm thấy thủ tục nào phù hợp</p>
-              <p className="text-xs text-slate-400 mt-1">Xin vui lòng thử lại với từ khóa khác hoặc bấm Trợ lý AI để được hỗ trợ.</p>
-            </div>
-          ) : (
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {procedures.map((p) => (
-                <div
-                  key={p.id}
-                  className="bg-white rounded-3xl p-6 border border-slate-200 hover:border-police-400 hover:shadow-lg transition flex flex-col justify-between"
-                >
-                  <div>
-                    <div className="flex items-center justify-between gap-2 mb-2">
-                      <span className="text-[11px] font-bold text-police-700 bg-police-50 px-2.5 py-0.5 rounded-full border border-police-200">
-                        {p.code || 'TTHC Cấp Xã'}
-                      </span>
-                      <span className="text-xs text-slate-400 flex items-center space-x-1">
-                        <Clock className="w-3.5 h-3.5" />
-                        <span>{p.processing_time}</span>
-                      </span>
-                    </div>
-
-                    <Link href={`/thu-tuc/${p.id}`}>
-                      <h3 className="font-extrabold text-base text-slate-900 hover:text-police-700 transition leading-snug mb-2">
-                        {p.title}
-                      </h3>
-                    </Link>
-
-                    <div className="space-y-1.5 text-xs text-slate-600 mb-4">
-                      <div className="flex items-center space-x-1.5">
-                        <CreditCard className="w-4 h-4 text-emerald-600 shrink-0" />
-                        <span><strong>Lệ phí:</strong> {p.fee}</span>
-                      </div>
-                      <div className="flex items-center space-x-1.5">
-                        <FileCheck2 className="w-4 h-4 text-police-600 shrink-0" />
-                        <span><strong>Hồ sơ:</strong> {p.required_documents?.length || 0} loại giấy tờ cần chuẩn bị</span>
-                      </div>
-                    </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+            {procedures.map((p) => (
+              <div
+                key={p.id}
+                className="bg-white rounded-3xl p-6 border border-slate-200 hover:border-police-500 hover:shadow-xl transition flex flex-col justify-between"
+              >
+                <div>
+                  <div className="flex items-center justify-between gap-2 mb-3">
+                    <span className="text-[11px] font-bold text-police-700 bg-police-50 px-2.5 py-0.5 rounded-full border border-police-200">
+                      {p.code || 'TTHC Cấp Xã'}
+                    </span>
+                    <span className="text-xs text-slate-400 flex items-center space-x-1">
+                      <Clock className="w-3.5 h-3.5 text-police-600" />
+                      <span>{p.processing_time}</span>
+                    </span>
                   </div>
 
-                  <div className="pt-4 border-t border-slate-100 flex items-center justify-between text-xs">
-                    <Link
-                      href={`/thu-tuc/${p.id}`}
-                      className="font-bold text-police-600 hover:text-police-700 flex items-center space-x-1"
-                    >
-                      <span>Xem chi tiết hồ sơ & biểu mẫu</span>
-                      <ChevronRight className="w-4 h-4" />
-                    </Link>
+                  <Link href={`/thu-tuc/${p.id}`}>
+                    <h3 className="font-extrabold text-base text-slate-900 hover:text-police-700 transition leading-snug mb-3">
+                      {p.title}
+                    </h3>
+                  </Link>
 
-                    {p.online_url && (
-                      <a
-                        href={p.online_url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-slate-500 hover:text-slate-800 flex items-center space-x-1"
-                      >
-                        <span>Nộp online</span>
-                        <ExternalLink className="w-3.5 h-3.5" />
-                      </a>
-                    )}
+                  <div className="space-y-2 text-xs text-slate-600 mb-5">
+                    <div className="flex items-center space-x-2">
+                      <CreditCard className="w-4 h-4 text-emerald-600 shrink-0" />
+                      <span><strong>Lệ phí:</strong> {p.fee}</span>
+                    </div>
+                    <div className="flex items-center space-x-2">
+                      <FileCheck2 className="w-4 h-4 text-police-600 shrink-0" />
+                      <span><strong>Hồ sơ:</strong> {p.required_documents?.length || 0} giấy tờ cần chuẩn bị</span>
+                    </div>
                   </div>
                 </div>
-              ))}
+
+                <div className="pt-4 border-t border-slate-100 flex items-center justify-between text-xs">
+                  <Link
+                    href={`/thu-tuc/${p.id}`}
+                    className="font-bold text-police-700 hover:text-police-800 flex items-center space-x-1"
+                  >
+                    <span>Xem checklist hồ sơ</span>
+                    <ChevronRight className="w-4 h-4" />
+                  </Link>
+
+                  {p.online_url && (
+                    <a
+                      href={p.online_url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-slate-500 hover:text-red-700 flex items-center space-x-1 font-semibold"
+                    >
+                      <span>Nộp online</span>
+                      <ExternalLink className="w-3.5 h-3.5" />
+                    </a>
+                  )}
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* MỤC BIỂU MẪU TỜ KHAI (AN CHOR: #bieu-mau) */}
+        <section id="bieu-mau" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+          <div className="bg-white rounded-3xl p-6 sm:p-8 border border-slate-200 shadow-sm">
+            <div className="flex items-center space-x-3 mb-6">
+              <div className="w-12 h-12 rounded-2xl bg-police-100 text-police-700 flex items-center justify-center shrink-0">
+                <FileText className="w-6 h-6" />
+              </div>
+              <div>
+                <h2 className="text-xl sm:text-2xl font-black text-slate-900">
+                  Kho Biểu Mẫu Tờ Khai Hành Chính
+                </h2>
+                <p className="text-xs sm:text-sm text-slate-500">
+                  Bà con có thể tải về in sẵn hoặc xem hướng dẫn điền trước khi lên Trụ sở Công an xã Đức Hợp
+                </p>
+              </div>
             </div>
-          )}
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              <div className="p-4 bg-slate-50 rounded-2xl border border-slate-200 flex flex-col justify-between">
+                <div>
+                  <span className="text-[10px] font-bold uppercase bg-blue-100 text-police-800 px-2 py-0.5 rounded-full">
+                    Cư trú
+                  </span>
+                  <h4 className="font-bold text-sm text-slate-900 mt-2 mb-1">
+                    Tờ khai thay đổi thông tin cư trú (Mẫu CT01)
+                  </h4>
+                  <p className="text-xs text-slate-500">
+                    Sử dụng cho thủ tục Đăng ký thường trú, tạm trú, khai báo tạm vắng, điều chỉnh thông tin hộ khẩu.
+                  </p>
+                </div>
+                <div className="mt-4 pt-3 border-t border-slate-200 flex items-center justify-between text-xs">
+                  <a 
+                    href="https://dichvucong.bocongan.gov.vn" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center space-x-1 text-police-700 font-bold hover:underline"
+                  >
+                    <Download className="w-3.5 h-3.5" />
+                    <span>Tải mẫu CT01</span>
+                  </a>
+                  <span className="text-slate-400">Ban hành kèm TT BCA</span>
+                </div>
+              </div>
+
+              <div className="p-4 bg-slate-50 rounded-2xl border border-slate-200 flex flex-col justify-between">
+                <div>
+                  <span className="text-[10px] font-bold uppercase bg-emerald-100 text-emerald-800 px-2 py-0.5 rounded-full">
+                    Đăng ký xe
+                  </span>
+                  <h4 className="font-bold text-sm text-slate-900 mt-2 mb-1">
+                    Giấy khai đăng ký xe mô tô, xe gắn máy
+                  </h4>
+                  <p className="text-xs text-slate-500">
+                    Dùng cho thủ tục đăng ký xe lần đầu tại Công an xã Đức Hợp hoặc sang tên đổi chủ.
+                  </p>
+                </div>
+                <div className="mt-4 pt-3 border-t border-slate-200 flex items-center justify-between text-xs">
+                  <a 
+                    href="https://dichvucong.bocongan.gov.vn" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center space-x-1 text-police-700 font-bold hover:underline"
+                  >
+                    <Download className="w-3.5 h-3.5" />
+                    <span>Tải mẫu kê khai xe</span>
+                  </a>
+                  <span className="text-slate-400">Theo Thông tư 24/2023</span>
+                </div>
+              </div>
+
+              <div className="p-4 bg-slate-50 rounded-2xl border border-slate-200 flex flex-col justify-between">
+                <div>
+                  <span className="text-[10px] font-bold uppercase bg-amber-100 text-amber-800 px-2 py-0.5 rounded-full">
+                    PCCC
+                  </span>
+                  <h4 className="font-bold text-sm text-slate-900 mt-2 mb-1">
+                    Bản cam kết an toàn PCCC hộ gia đình
+                  </h4>
+                  <p className="text-xs text-slate-500">
+                    Dùng cho các hộ gia đình và nhà ở kết hợp sản xuất kinh doanh ký cam kết với Công an xã Đức Hợp.
+                  </p>
+                </div>
+                <div className="mt-4 pt-3 border-t border-slate-200 flex items-center justify-between text-xs">
+                  <a 
+                    href="tel:02213815999" 
+                    className="inline-flex items-center space-x-1 text-police-700 font-bold hover:underline"
+                  >
+                    <Download className="w-3.5 h-3.5" />
+                    <span>Liên hệ nhận mẫu</span>
+                  </a>
+                  <span className="text-slate-400">Trực tiếp tại Thôn Nho Lâm</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
 
         {/* TIỆN ÍCH DVC QUỐC GIA & BỘ CÔNG AN */}
         <section className="bg-slate-100 py-12 px-4 sm:px-6 lg:px-8 border-t border-slate-200">
           <div className="max-w-7xl mx-auto">
             <div className="text-center max-w-2xl mx-auto mb-8">
-              <h2 className="text-xl sm:text-2xl font-bold text-slate-900 mb-2">
-                Liên Kết Dịch Vụ Công Trực Tuyến Chính Thức
+              <h2 className="text-xl sm:text-2xl font-black text-slate-900 mb-2">
+                Hệ Thống Dịch Vụ Công Trực Tuyến Chính Thức
               </h2>
               <p className="text-xs sm:text-sm text-slate-600">
-                Truy cập an toàn đến các hệ thống một cửa điện tử của Chính phủ và Bộ Công an
+                Truy cập an toàn đến các Cổng dịch vụ công của Chính phủ và Bộ Công an
               </p>
             </div>
 

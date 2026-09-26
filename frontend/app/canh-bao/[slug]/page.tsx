@@ -162,15 +162,15 @@ export default function ScamArticleDetailPage() {
                   Đã lỡ chuyển tiền hoặc nghi ngờ bị lừa đảo?
                 </h3>
                 <p className="text-xs text-slate-200">
-                  Hãy liên hệ ngay Trực ban Công an xã Đức Hợp hoặc cơ quan Công an gần nhất để phong tỏa tài khoản và tiếp nhận tin báo.
+                  Hãy liên hệ ngay Trực ban Công an xã Đức Hợp (Thôn Nho Lâm) hoặc cơ quan Công an gần nhất để phong tỏa tài khoản và tiếp nhận tin báo.
                 </p>
               </div>
               <a
-                href="tel:02213811000"
+                href="tel:02213815999"
                 className="inline-flex items-center space-x-2 bg-yellow-400 hover:bg-yellow-300 text-red-950 font-extrabold px-5 py-3 rounded-xl text-xs sm:text-sm shadow-md transition transform active:scale-95 shrink-0"
               >
                 <PhoneCall className="w-4 h-4 text-red-900" />
-                <span>Báo án ngay: 02213.811.xxx</span>
+                <span>Báo án ngay: 02213.815.999</span>
               </a>
             </div>
           </article>

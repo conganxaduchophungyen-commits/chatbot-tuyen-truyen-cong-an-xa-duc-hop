@@ -48,8 +48,9 @@ async def health_check(db: AsyncSession = Depends(get_db)):
     return {
         "status": "ok",
         "commune": settings.COMMUNE_NAME,
-        "district": settings.DISTRICT_NAME,
         "province": settings.PROVINCE_NAME,
+        "address": settings.ADDRESS,
+        "hotline": settings.HOTLINE_NUMBER,
         "database": db_status,
         "environment": settings.ENVIRONMENT
     }

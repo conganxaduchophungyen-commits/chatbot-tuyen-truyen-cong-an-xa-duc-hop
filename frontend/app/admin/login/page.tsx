@@ -53,11 +53,12 @@ export default function AdminLoginPage() {
             <ArrowLeft className="w-4 h-4" />
           </Link>
 
-          <div className="w-16 h-16 rounded-full bg-yellow-400 text-police-900 flex items-center justify-center mx-auto mb-3 shadow-lg">
-            <Shield className="w-10 h-10 text-police-900" />
+          <div className="w-20 h-20 rounded-full bg-white p-1 flex items-center justify-center mx-auto mb-3 shadow-lg">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/logo-cong-an.png" alt="Logo Công an" className="w-full h-full object-contain" />
           </div>
-          <h2 className="text-xl font-extrabold tracking-wide uppercase">CÔNG AN XÃ ĐỨC HỢP</h2>
-          <p className="text-xs text-yellow-200 mt-1">Cổng Quản Trị Hệ Thống Số & Tri Thức AI</p>
+          <h2 className="text-xl font-black tracking-wide uppercase">CÔNG AN XÃ ĐỨC HỢP</h2>
+          <p className="text-xs text-yellow-200 mt-1 font-semibold">Tỉnh Hưng Yên • Cổng Quản Trị Hệ Thống Số</p>
         </div>
 
         {/* Form Body */}
