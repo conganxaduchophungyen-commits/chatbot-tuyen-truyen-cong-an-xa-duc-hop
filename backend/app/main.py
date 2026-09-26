@@ -7,6 +7,7 @@ import os
 
 from app.core.config import settings
 from app.core.database import get_db
+from app.api import api_router
 
 app = FastAPI(
     title=f"API Trợ lý Pháp luật & TTHC - {settings.COMMUNE_NAME}",
@@ -31,6 +32,9 @@ os.makedirs(static_dir, exist_ok=True)
 os.makedirs(os.path.join(static_dir, "forms"), exist_ok=True)
 os.makedirs(os.path.join(static_dir, "images"), exist_ok=True)
 app.mount("/static", StaticFiles(directory=static_dir), name="static")
+
+# Mount API Routers
+app.include_router(api_router, prefix="/api")
 
 @app.get("/api/health")
 async def health_check(db: AsyncSession = Depends(get_db)):
