@@ -74,7 +74,13 @@ export default function Navbar() {
               href="/#bieu-mau" 
               className="px-3 py-2 rounded-lg hover:bg-police-50 hover:text-police-700 transition"
             >
-              Biểu mẫu tờ khai
+              Biểu mẫu
+            </Link>
+            <Link 
+              href="/tuyen-truyen-qr" 
+              className="px-3 py-2 rounded-lg bg-yellow-50 hover:bg-yellow-100 text-police-900 font-bold transition border border-yellow-200"
+            >
+              Mã QR Tuyên truyền
             </Link>
             <a 
               href="https://dichvucong.bocongan.gov.vn" 
