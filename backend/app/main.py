@@ -17,6 +17,11 @@ async def lifespan(app: FastAPI):
         from app.init_db import init_models, seed_data
         await init_models()
         await seed_data()
+        try:
+            from app.seed_full_data import seed_full_knowledge
+            await seed_full_knowledge()
+        except Exception as se:
+            print(f"Bổ sung tri thức: {se}")
         print("-> Khởi tạo Database thành công.")
     except Exception as e:
         print(f"Lỗi khởi tạo Database: {e}")

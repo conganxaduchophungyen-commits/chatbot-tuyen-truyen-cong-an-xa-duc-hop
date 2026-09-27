@@ -152,7 +152,15 @@ async def seed_data():
             role="admin",
             is_active=True
         )
-        session.add(admin_user)
+        admin_user2 = AdminUser(
+            username="admin",
+            password_hash=get_password_hash("admin123"),
+            full_name="Quản trị viên Công an xã Đức Hợp",
+            badge_number="CA-DH-02",
+            role="admin",
+            is_active=True
+        )
+        session.add_all([admin_user, admin_user2])
 
         await session.commit()
         print("-> Đã nạp thành công toàn bộ dữ liệu mẫu ban đầu!")
