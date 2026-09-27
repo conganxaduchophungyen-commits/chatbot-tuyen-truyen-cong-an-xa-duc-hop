@@ -23,6 +23,21 @@ export interface ProcedureStep {
   desc: string;
 }
 
+export interface OnlineGuideStep {
+  step_num: number;
+  title: string;
+  description: string;
+  sub_steps?: string[];
+}
+
+export interface OnlineGuide {
+  platform: string;
+  portal_name: string;
+  prerequisites: string[];
+  steps: OnlineGuideStep[];
+  important_notes: string[];
+}
+
 export interface Procedure {
   id: string;
   category_id: string;
@@ -38,6 +53,7 @@ export interface Procedure {
   online_url?: string;
   views_count: number;
   forms: ProcedureForm[];
+  online_guide?: OnlineGuide;
 }
 
 export interface Article {

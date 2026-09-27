@@ -20,6 +20,19 @@ class Settings(BaseSettings):
     GEMINI_API_KEY: Optional[str] = None
     GEMINI_MODEL: str = "gemini-1.5-flash"
     EMBEDDING_MODEL: str = "text-embedding-004"
+    EMBEDDING_DIM: int = 768
+    USE_LOCAL_EMBEDDINGS: bool = True
+    LOCAL_EMBEDDING_MODEL: str = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+    
+    # RAG Settings
+    MAX_CONTEXT_CHUNKS: int = 5
+    MAX_CONTEXT_TOKENS: int = 3000
+    SIMILARITY_THRESHOLD: float = 0.45
+    RERANK_TOP_K: int = 3
+    
+    # Conversation Settings
+    MAX_HISTORY_TURNS: int = 5
+    CONTEXT_WINDOW_TOKENS: int = 4000
     
     # Thông tin đơn vị
     COMMUNE_NAME: str = "Công an xã Đức Hợp"

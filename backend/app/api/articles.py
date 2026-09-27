@@ -12,7 +12,7 @@ async def list_articles(
     category_id: Optional[str] = Query(None, description="Lọc theo ID danh mục"),
     is_scam_alert: Optional[bool] = Query(None, description="Lọc riêng tin cảnh báo lừa đảo"),
     q: Optional[str] = Query(None, description="Từ khóa tìm kiếm"),
-    limit: int = Query(20, ge=1, le=50),
+    limit: int = Query(50, ge=1, le=100),
     offset: int = Query(0, ge=0),
     db: AsyncSession = Depends(get_db)
 ):

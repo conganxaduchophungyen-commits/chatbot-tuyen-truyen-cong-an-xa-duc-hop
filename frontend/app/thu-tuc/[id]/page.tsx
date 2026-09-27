@@ -22,7 +22,16 @@ import {
   Square, 
   HelpCircle,
   PhoneCall,
-  Share2
+  Share2,
+  Smartphone,
+  Globe,
+  ShieldCheck,
+  CheckCircle2,
+  AlertCircle,
+  Info,
+  Sparkles,
+  ListOrdered,
+  ChevronRight
 } from 'lucide-react';
 
 export default function ProcedureDetailPage() {
@@ -32,6 +41,7 @@ export default function ProcedureDetailPage() {
   const [procedure, setProcedure] = useState<Procedure | null>(null);
   const [loading, setLoading] = useState(true);
   const [checkedDocs, setCheckedDocs] = useState<Record<number, boolean>>({});
+  const [guideMode, setGuideMode] = useState<'online' | 'documents'>('online');
 
   useEffect(() => {
     async function loadData() {
@@ -90,6 +100,7 @@ export default function ProcedureDetailPage() {
 
   const docs = procedure.required_documents || [];
   const completedDocsCount = Object.values(checkedDocs).filter(Boolean).length;
+  const guide = procedure.online_guide;
 
   return (
     <>
@@ -101,7 +112,7 @@ export default function ProcedureDetailPage() {
           <div className="flex items-center space-x-2 text-xs text-slate-500 mb-6 overflow-x-auto whitespace-nowrap">
             <Link href="/" className="hover:text-police-700">Trang chủ</Link>
             <span>/</span>
-            <Link href="/#thu-tuc" className="hover:text-police-700">Thủ tục hành chính</Link>
+            <Link href="/?tab=procedures" className="hover:text-police-700">Thủ tục hành chính</Link>
             <span>/</span>
             <span className="text-slate-800 font-medium truncate max-w-xs">{procedure.title}</span>
           </div>
@@ -116,8 +127,14 @@ export default function ProcedureDetailPage() {
               )}
               <span className="bg-emerald-100 text-emerald-800 text-xs font-semibold px-3 py-1 rounded-full flex items-center space-x-1">
                 <Building2 className="w-3.5 h-3.5" />
-                <span>Thẩm quyền: {procedure.competent_authority || 'Công an xã Đức Hợp'}</span>
+                <span>Thẩm quyền: {procedure.competent_authority || 'Công an xã Đức Hợp, tỉnh Hưng Yên'}</span>
               </span>
+              {guide && (
+                <span className="bg-amber-100 text-amber-900 text-xs font-bold px-3 py-1 rounded-full flex items-center space-x-1 border border-amber-300">
+                  <Smartphone className="w-3.5 h-3.5 text-amber-700" />
+                  <span>Có hướng dẫn nộp qua {guide.platform}</span>
+                </span>
+              )}
             </div>
 
             <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-900 leading-tight mb-4">
@@ -151,89 +168,230 @@ export default function ProcedureDetailPage() {
                 <Building2 className="w-6 h-6 text-amber-600 shrink-0 mt-0.5" />
                 <div>
                   <div className="text-xs font-semibold text-slate-400">Địa điểm tiếp nhận</div>
-                  <div className="font-bold text-slate-800">Thôn Nho Lâm, xã Đức Hợp</div>
+                  <div className="font-bold text-slate-800">Thôn Nho Lâm, xã Đức Hợp, Hưng Yên</div>
                 </div>
               </div>
             </div>
+
+            {/* CHUYỂN ĐỔI CHẾ ĐỘ XEM HƯỚNG DẪN */}
+            {guide && (
+              <div className="mt-6 pt-6 border-t border-slate-100 flex flex-wrap items-center gap-3">
+                <span className="text-xs font-bold text-slate-500 uppercase tracking-wider">
+                  Chế độ xem:
+                </span>
+                <button
+                  type="button"
+                  onClick={() => setGuideMode('online')}
+                  className={`px-4 py-2 rounded-2xl text-xs sm:text-sm font-bold transition flex items-center space-x-2 border ${
+                    guideMode === 'online'
+                      ? 'bg-police-700 text-white border-police-700 shadow-sm'
+                      : 'bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100'
+                  }`}
+                >
+                  <Smartphone className="w-4 h-4" />
+                  <span>Hướng dẫn thao tác trên VNeID / Cổng DVC</span>
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setGuideMode('documents')}
+                  className={`px-4 py-2 rounded-2xl text-xs sm:text-sm font-bold transition flex items-center space-x-2 border ${
+                    guideMode === 'documents'
+                      ? 'bg-police-700 text-white border-police-700 shadow-sm'
+                      : 'bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100'
+                  }`}
+                >
+                  <FileCheck2 className="w-4 h-4" />
+                  <span>Hồ sơ giấy tờ & Quy trình Một cửa</span>
+                </button>
+              </div>
+            )}
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-            {/* CỘT TRÁI (2/3): HỒ SƠ & QUY TRÌNH BƯỚC */}
+            {/* CỘT TRÁI (2/3): NỘI DUNG CHÍNH */}
             <div className="lg:col-span-2 space-y-6">
-              {/* CHECKLIST HỒ SƠ GIẤY TỜ */}
-              <div className="bg-white rounded-3xl p-6 sm:p-8 shadow-sm border border-slate-200">
-                <div className="flex items-center justify-between mb-4">
-                  <div className="flex items-center space-x-2">
-                    <FileCheck2 className="w-6 h-6 text-police-600" />
-                    <h2 className="text-lg font-bold text-slate-900">
-                      Hồ sơ giấy tờ cần chuẩn bị
-                    </h2>
+
+              {/* PHẦN 1: HƯỚNG DẪN CHI TIẾT THAO TÁC TRÊN ỨNG DỤNG VNeID & CỔNG DVC */}
+              {guide && guideMode === 'online' && (
+                <div className="bg-white rounded-3xl p-6 sm:p-8 shadow-sm border-2 border-police-600/30 space-y-6 animate-in fade-in duration-200">
+                  {/* Banner Đầu Mục */}
+                  <div className="bg-gradient-to-r from-police-900 via-police-800 to-police-950 text-white p-5 rounded-2xl shadow-sm flex items-start space-x-4">
+                    <div className="w-12 h-12 rounded-2xl bg-yellow-400 text-police-950 flex items-center justify-center shrink-0 font-black shadow">
+                      <Smartphone className="w-6 h-6" />
+                    </div>
+                    <div>
+                      <span className="text-[11px] font-extrabold uppercase tracking-wider text-yellow-300">
+                        Nền tảng thực hiện: {guide.platform}
+                      </span>
+                      <h2 className="text-lg sm:text-xl font-black mt-1 text-white">
+                        Quy Trình Kê Khai & Đăng Ký Trực Tuyến
+                      </h2>
+                      <p className="text-xs text-slate-300 mt-1">
+                        Thực hiện nộp hồ sơ từ xa qua {guide.portal_name} giúp tiết kiệm tối đa thời gian chờ đợi.
+                      </p>
+                    </div>
                   </div>
-                  {docs.length > 0 && (
-                    <span className="text-xs font-bold text-police-700 bg-police-50 px-2.5 py-1 rounded-full border border-police-200">
-                      Đã chuẩn bị: {completedDocsCount}/{docs.length}
-                    </span>
+
+                  {/* 1. ĐIỀU KIỆN CHUẨN BỊ */}
+                  {guide.prerequisites && guide.prerequisites.length > 0 && (
+                    <div className="bg-amber-50/70 border border-amber-200 rounded-2xl p-5 space-y-3">
+                      <h3 className="text-sm font-black text-amber-900 flex items-center space-x-2">
+                        <ShieldCheck className="w-4 h-4 text-amber-700" />
+                        <span>Điều kiện chuẩn bị trước khi thao tác:</span>
+                      </h3>
+                      <ul className="space-y-2">
+                        {guide.prerequisites.map((req, idx) => (
+                          <li key={idx} className="text-xs sm:text-sm text-amber-950 font-medium flex items-start space-x-2">
+                            <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
+                            <span>{req}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
                   )}
-                </div>
 
-                <p className="text-xs text-slate-500 mb-4">
-                  Bấm vào từng ô để đánh dấu những giấy tờ Bác/Anh/Chị đã chuẩn bị sẵn sàng trước khi nộp:
-                </p>
+                  {/* 2. CÁC BƯỚC THAO TÁC CỤ THỂ */}
+                  <div className="space-y-5">
+                    <h3 className="text-base font-black text-slate-900 flex items-center space-x-2 border-b border-slate-200 pb-3">
+                      <ListOrdered className="w-5 h-5 text-police-600" />
+                      <span>Các bước thao tác chi tiết:</span>
+                    </h3>
 
-                <div className="space-y-3">
-                  {docs.map((docText, idx) => {
-                    const isChecked = !!checkedDocs[idx];
-                    return (
-                      <div
-                        key={idx}
-                        onClick={() => toggleCheck(idx)}
-                        className={`p-3.5 rounded-2xl border transition flex items-start space-x-3 cursor-pointer select-none ${
-                          isChecked
-                            ? 'bg-emerald-50 border-emerald-300 text-emerald-950 shadow-xs'
-                            : 'bg-slate-50 border-slate-200 hover:bg-slate-100 text-slate-800'
-                        }`}
-                      >
-                        <div className="mt-0.5 shrink-0 text-emerald-600">
-                          {isChecked ? (
-                            <CheckSquare className="w-5 h-5 text-emerald-600" />
-                          ) : (
-                            <Square className="w-5 h-5 text-slate-400" />
+                    <div className="space-y-5">
+                      {guide.steps.map((st) => (
+                        <div 
+                          key={st.step_num} 
+                          className="p-5 rounded-2xl border border-slate-200 bg-slate-50/60 hover:bg-white hover:border-police-400 hover:shadow-md transition space-y-2.5"
+                        >
+                          <div className="flex items-start space-x-3">
+                            <span className="w-7 h-7 rounded-xl bg-police-700 text-white font-black text-xs flex items-center justify-center shrink-0 shadow-xs">
+                              {st.step_num}
+                            </span>
+                            <div className="flex-1">
+                              <h4 className="font-extrabold text-sm sm:text-base text-slate-900">
+                                {st.title}
+                              </h4>
+                              <p className="text-xs text-slate-600 mt-0.5">
+                                {st.description}
+                              </p>
+                            </div>
+                          </div>
+
+                          {/* Các bước con / Hướng dẫn bấm nút */}
+                          {st.sub_steps && st.sub_steps.length > 0 && (
+                            <div className="pl-10 space-y-1.5 pt-1">
+                              {st.sub_steps.map((sub, sIdx) => (
+                                <div key={sIdx} className="text-xs text-slate-700 flex items-start space-x-2">
+                                  <span className="text-police-600 font-bold">•</span>
+                                  <span className="leading-relaxed font-medium">{sub}</span>
+                                </div>
+                              ))}
+                            </div>
                           )}
                         </div>
-                        <div className={`text-sm leading-relaxed ${isChecked ? 'line-through text-slate-500' : ''}`}>
-                          {docText}
-                        </div>
-                      </div>
-                    );
-                  })}
-                </div>
-              </div>
-
-              {/* TRÌNH TỰ CÁC BƯỚC THỰC HIỆN */}
-              <div className="bg-white rounded-3xl p-6 sm:p-8 shadow-sm border border-slate-200">
-                <h2 className="text-lg font-bold text-slate-900 mb-6 flex items-center space-x-2">
-                  <span className="w-2 h-2 rounded-full bg-police-600"></span>
-                  <span>Trình tự các bước thực hiện</span>
-                </h2>
-
-                <div className="relative pl-6 space-y-6 before:content-[''] before:absolute before:left-2.5 before:top-2 before:bottom-2 before:w-0.5 before:bg-police-200">
-                  {(procedure.steps || []).map((stepItem, idx) => (
-                    <div key={idx} className="relative">
-                      <div className="absolute -left-6 top-0 w-6 h-6 rounded-full bg-police-600 text-white flex items-center justify-center text-xs font-bold shadow">
-                        {stepItem.step || idx + 1}
-                      </div>
-                      <div className="pl-3">
-                        <h3 className="font-bold text-sm text-slate-900 mb-1">
-                          {stepItem.title}
-                        </h3>
-                        <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                          {stepItem.desc}
-                        </p>
-                      </div>
+                      ))}
                     </div>
-                  ))}
+                  </div>
+
+                  {/* 3. LƯU Ý QUAN TRỌNG KHI ĐI LÀM HOẶC NỘP HỒ SƠ */}
+                  {guide.important_notes && guide.important_notes.length > 0 && (
+                    <div className="p-5 bg-red-50 border border-red-200 rounded-2xl space-y-3">
+                      <h3 className="text-sm font-black text-red-950 flex items-center space-x-2">
+                        <AlertCircle className="w-4 h-4 text-red-600" />
+                        <span>Lưu ý quan trọng:</span>
+                      </h3>
+                      <ul className="space-y-2">
+                        {guide.important_notes.map((note, nIdx) => (
+                          <li key={nIdx} className="text-xs sm:text-sm text-red-900 flex items-start space-x-2">
+                            <span className="text-red-600 font-black">•</span>
+                            <span className="leading-relaxed font-medium">{note}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
                 </div>
-              </div>
+              )}
+
+              {/* PHẦN 2: CHECKLIST HỒ SƠ GIẤY TỜ & QUY TRÌNH NỘP */}
+              {(guideMode === 'documents' || !guide) && (
+                <>
+                  {/* CHECKLIST HỒ SƠ GIẤY TỜ */}
+                  <div className="bg-white rounded-3xl p-6 sm:p-8 shadow-sm border border-slate-200">
+                    <div className="flex items-center justify-between mb-4">
+                      <div className="flex items-center space-x-2">
+                        <FileCheck2 className="w-6 h-6 text-police-600" />
+                        <h2 className="text-lg font-bold text-slate-900">
+                          Hồ sơ giấy tờ cần chuẩn bị
+                        </h2>
+                      </div>
+                      {docs.length > 0 && (
+                        <span className="text-xs font-bold text-police-700 bg-police-50 px-2.5 py-1 rounded-full border border-police-200">
+                          Đã chuẩn bị: {completedDocsCount}/{docs.length}
+                        </span>
+                      )}
+                    </div>
+
+                    <p className="text-xs text-slate-500 mb-4">
+                      Bấm vào từng ô để đánh dấu những giấy tờ Bác/Anh/Chị đã chuẩn bị sẵn sàng trước khi nộp:
+                    </p>
+
+                    <div className="space-y-3">
+                      {docs.map((docText, idx) => {
+                        const isChecked = !!checkedDocs[idx];
+                        return (
+                          <div
+                            key={idx}
+                            onClick={() => toggleCheck(idx)}
+                            className={`p-3.5 rounded-2xl border transition flex items-start space-x-3 cursor-pointer select-none ${
+                              isChecked
+                                ? 'bg-emerald-50 border-emerald-300 text-emerald-950 shadow-xs'
+                                : 'bg-slate-50 border-slate-200 hover:bg-slate-100 text-slate-800'
+                            }`}
+                          >
+                            <div className="mt-0.5 shrink-0 text-emerald-600">
+                              {isChecked ? (
+                                <CheckSquare className="w-5 h-5 text-emerald-600" />
+                              ) : (
+                                <Square className="w-5 h-5 text-slate-400" />
+                              )}
+                            </div>
+                            <div className={`text-sm leading-relaxed ${isChecked ? 'line-through text-slate-500' : ''}`}>
+                              {docText}
+                            </div>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  </div>
+
+                  {/* TRÌNH TỰ CÁC BƯỚC THỰC HIỆN TỔNG QUÁT */}
+                  <div className="bg-white rounded-3xl p-6 sm:p-8 shadow-sm border border-slate-200">
+                    <h2 className="text-lg font-bold text-slate-900 mb-6 flex items-center space-x-2">
+                      <span className="w-2 h-2 rounded-full bg-police-600"></span>
+                      <span>Trình tự các bước thực hiện tổng quát</span>
+                    </h2>
+
+                    <div className="relative pl-6 space-y-6 before:content-[''] before:absolute before:left-2.5 before:top-2 before:bottom-2 before:w-0.5 before:bg-police-200">
+                      {(procedure.steps || []).map((stepItem, idx) => (
+                        <div key={idx} className="relative">
+                          <div className="absolute -left-6 top-0 w-6 h-6 rounded-full bg-police-600 text-white flex items-center justify-center text-xs font-bold shadow">
+                            {stepItem.step || idx + 1}
+                          </div>
+                          <div className="pl-3">
+                            <h3 className="font-bold text-sm text-slate-900 mb-1">
+                              {stepItem.title}
+                            </h3>
+                            <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                              {stepItem.desc}
+                            </p>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </>
+              )}
             </div>
 
             {/* CỘT PHẢI (1/3): BIỂU MẪU & LIÊN HỆ */}
@@ -241,7 +399,11 @@ export default function ProcedureDetailPage() {
               {/* NỘP TRỰC TUYẾN CTA CARD */}
               {procedure.online_url && (
                 <div className="bg-gradient-to-br from-police-800 to-police-950 text-white rounded-3xl p-6 shadow-lg border border-police-700">
-                  <h3 className="font-bold text-base text-yellow-300 mb-2">
+                  <div className="inline-flex items-center space-x-1.5 bg-yellow-400/20 text-yellow-300 px-3 py-1 rounded-full text-[11px] font-bold mb-3 border border-yellow-400/30">
+                    <Sparkles className="w-3.5 h-3.5" />
+                    <span>Dịch vụ công trực tuyến</span>
+                  </div>
+                  <h3 className="font-black text-base text-yellow-300 mb-2">
                     Nộp Hồ Sơ Trực Tuyến
                   </h3>
                   <p className="text-xs text-slate-300 leading-relaxed mb-4">
@@ -253,7 +415,7 @@ export default function ProcedureDetailPage() {
                     rel="noopener noreferrer"
                     className="w-full inline-flex items-center justify-center space-x-2 bg-yellow-400 hover:bg-yellow-300 text-police-950 font-extrabold px-4 py-3 rounded-2xl text-xs sm:text-sm shadow-md transition transform active:scale-95"
                   >
-                    <span>Nộp hồ sơ ngay</span>
+                    <span>Truy cập Cổng DVC nộp ngay</span>
                     <ExternalLink className="w-4 h-4" />
                   </a>
                 </div>

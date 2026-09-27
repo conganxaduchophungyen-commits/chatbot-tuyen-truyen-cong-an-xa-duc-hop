@@ -93,7 +93,7 @@ class ArticleResponse(ArticleBase):
 
 # Chatbot schemas
 class ChatQueryRequest(BaseModel):
-    session_id: str
+    session_id: Optional[str] = "default_session"
     query: str
     history: Optional[List[Dict[str, str]]] = Field(default_factory=list)
 
