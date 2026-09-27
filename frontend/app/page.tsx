@@ -664,7 +664,7 @@ function HomePageContent() {
                 Nhận Diện Các Phương Thức & Thủ Đoạn Lừa Đảo
               </h1>
               <p className="text-xs sm:text-base text-red-100 max-w-2xl leading-relaxed">
-                Tổng hợp 10+ phương thức lừa đảo tinh vi nhất trên không gian mạng và các vụ việc đã xảy ra. Bà con nâng cao cảnh giác, tuyệt đối không làm theo lời dụ dỗ của kẻ xấu!
+                Tổng hợp 22 phương thức & thủ đoạn lừa đảo phổ biến nhất trên không gian mạng hiện nay theo khuyến cáo của Bộ Công an. Bà con nâng cao cảnh giác, tuyệt đối không làm theo lời dụ dỗ của kẻ xấu!
               </p>
 
               {/* Tìm kiếm bài cảnh báo */}

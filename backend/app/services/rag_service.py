@@ -144,12 +144,14 @@ class RAGService:
                 url = f"https://generativelanguage.googleapis.com/v1beta/models/{settings.GEMINI_MODEL}:generateContent?key={api_key}"
                 
                 system_prompt = (
-                    "Bạn là Trợ lý số Pháp luật & Thủ tục hành chính của Công an xã Đức Hợp, huyện Kim Động, tỉnh Hưng Yên.\n"
-                    "Phong cách: Lịch sự, ân cần, xưng hô 'Tôi' và 'Bác/Cô/Chú/Anh/Chị/Công dân'.\n"
-                    "Quy tắc tối thượng:\n"
-                    "1. Chỉ trả lời dựa trên tài liệu quy định và thủ tục được cung cấp trong [TÀI LIỆU THAM KHẢO].\n"
-                    "2. Nếu tài liệu có thông tin, hãy trình bày rõ ràng: Giấy tờ cần chuẩn bị, nơi nộp, các bước thực hiện, lệ phí và thời hạn.\n"
-                    "3. Nếu tài liệu không đề cập hoặc người dân hỏi vấn đề ngoài thẩm quyền xã, hãy lịch sự thông báo và hướng dẫn liên hệ Trực ban Công an xã Đức Hợp qua số điện thoại 02213.811.xxx để được hỗ trợ trực tiếp.\n"
+                    "Bạn là Trợ lý số Pháp luật & Thủ tục hành chính của Công an xã Đức Hợp, tỉnh Hưng Yên.\n"
+                    "Trụ sở đơn vị: Thôn Nho Lâm, xã Đức Hợp, tỉnh Hưng Yên.\n"
+                    "Số điện thoại Trực ban tiếp nhận thông tin 24/24h: 02213.815.999.\n"
+                    "Phong cách: Lịch sự, ân cần, chuẩn mực, vì nhân dân phục vụ, xưng hô 'Tôi' và 'Bác/Cô/Chú/Anh/Chị/Quý công dân'.\n"
+                    "Quy tắc nghiệp vụ:\n"
+                    "1. Trả lời chính xác, đầy đủ dựa trên [TÀI LIỆU THAM KHẢO] và hệ thống quy định pháp luật hiện hành.\n"
+                    "2. Trình bày mạch lạc, dễ hiểu: Hồ sơ giấy tờ cần chuẩn bị, nơi nộp, các bước thực hiện, lệ phí và thời hạn giải quyết.\n"
+                    "3. Về phòng chống tội phạm & 22 thủ đoạn lừa đảo: Nêu rõ thủ đoạn tinh vi, dấu hiệu nhận biết, 4 bước xử lý khẩn cấp khi bị lừa và khuyến cáo liên hệ Công an xã Đức Hợp: 02213.815.999.\n"
                     "4. Tuyệt đối không bịa đặt quy định pháp luật."
                 )
 
@@ -182,84 +184,108 @@ class RAGService:
 
     @staticmethod
     def _generate_fallback_response(query: str, context: str) -> str:
-        """Tự động tổng hợp câu trả lời thông minh dựa trên ngữ cảnh đã trích xuất"""
+        """Tự động tổng hợp câu trả lời thông minh dựa trên ngữ cảnh và kiến thức sâu"""
+        q = query.lower()
         greeting = "Kính chào Quý công dân! Trợ lý số Công an xã Đức Hợp xin giải đáp câu hỏi của Bác/Anh/Chị như sau:\n\n"
-        
-        if "thường trú" in query.lower() or "nhập khẩu" in query.lower() or "cư trú" in query.lower() or "tạm trú" in query.lower():
+
+        # 1. Trụ sở & Liên hệ
+        if any(k in q for k in ["địa chỉ", "trụ sở", "hotline", "số điện thoại", "trực ban", "ở đâu"]):
+            return (
+                f"{greeting}🏛️ **Thông tin liên hệ Công an xã Đức Hợp, tỉnh Hưng Yên:**\n\n"
+                "- **Trụ sở đơn vị:** Thôn Nho Lâm, xã Đức Hợp, tỉnh Hưng Yên.\n"
+                "- **Số điện thoại Trực ban (tiếp nhận tin báo 24/24h):** **02213.815.999**.\n"
+                "- **Thời gian tiếp nhận giải quyết thủ tục hành chính:** Giờ hành chính các ngày trong tuần (từ Thứ Hai đến Thứ Sáu; Thứ Bảy trực giải quyết theo quy định).\n\n"
+                "Cán bộ chiến sĩ Công an xã Đức Hợp luôn sẵn sàng tiếp đón và phục vụ nhân dân!"
+            )
+
+        # 2. Xử lý khi bị lừa đảo
+        if any(k in q for k in ["bị lừa", "lấy lại tiền", "mất tiền", "chuyển tiền", "hack", "khóa thẻ"]):
+            return (
+                f"{greeting}🚨 **4 BƯỚC KHẨN CẤP KHI PHÁT HIỆN BỊ LỪA ĐẢO QUA MẠNG:**\n\n"
+                "1️⃣ **Khóa tài khoản ngân hàng ngay lập tức:** Vào App ngân hàng bấm 'Khóa thẻ' hoặc gọi tổng đài ngân hàng yêu cầu phong tỏa tài khoản để ngăn kẻ gian tẩu tán tiền.\n"
+                "2️⃣ **Thu thập bằng chứng:** Chụp toàn bộ tin nhắn, sao kê lịch sử chuyển tiền có dấu mộc ngân hàng, số điện thoại, tài khoản của kẻ lừa đảo.\n"
+                "3️⃣ **Đến trình báo ngay tại Công an xã Đức Hợp:** Địa chỉ: Thôn Nho Lâm, xã Đức Hợp. Hotline Trực ban: **02213.815.999** để nộp đơn tố giác tội phạm.\n"
+                "4️⃣ **Tuyệt đối KHÔNG tin vào dịch vụ lấy lại tiền bị lừa trên mạng:** Đó 100% là bẫy lừa đảo lần thứ hai!"
+            )
+
+        # 3. Cư trú & Thường trú
+        if any(k in q for k in ["thường trú", "nhập khẩu", "cư trú", "tạm trú", "tạm vắng", "ct01"]):
             return (
                 f"{greeting}Về thủ tục **Đăng ký thường trú / Tạm trú tại xã Đức Hợp**:\n\n"
                 "📌 **1. Thành phần hồ sơ cần chuẩn bị:**\n"
                 "- Tờ khai thay đổi thông tin cư trú (Mẫu CT01 do Bộ Công an ban hành).\n"
-                "- Giấy tờ chứng minh chỗ ở hợp pháp (Sổ đỏ, Hợp đồng chuyển nhượng quyền sử dụng đất, Hợp đồng thuê nhà).\n"
-                "- Ý kiến đồng ý của chủ hộ/chủ sở hữu chỗ ở nếu nhập hộ vào người khác.\n\n"
-                "📌 **2. Nơi nộp hồ sơ & Trình tự thực hiện:**\n"
-                "- Nộp trực tiếp tại Bộ phận Một cửa Công an xã Đức Hợp (giờ hành chính).\n"
-                "- Hoặc nộp trực tuyến qua Cổng Dịch vụ công Bộ Công an để tiết kiệm thời gian.\n\n"
-                "📌 **3. Thời hạn giải quyết & Lệ phí:**\n"
+                "- Giấy tờ chứng minh chỗ ở hợp pháp (Sổ đỏ, Hợp đồng mua bán nhà đất, hoặc Hợp đồng thuê nhà trọ hợp pháp).\n"
+                "- Ý kiến đồng ý của chủ hộ/chủ sở hữu chỗ ở nếu nhập vào hộ khác.\n"
+                "- Giấy tờ chứng minh quan hệ nhân thân (nếu chưa có trên CSDLQG về dân cư).\n\n"
+                "📌 **2. Nơi nộp hồ sơ & Thời hạn giải quyết:**\n"
+                "- Nộp trực tiếp tại Bộ phận Một cửa Công an xã Đức Hợp (Thôn Nho Lâm) hoặc nộp online qua Cổng DVC Bộ Công an.\n"
                 "- Thời hạn giải quyết: **07 ngày làm việc** (thường trú) hoặc **03 ngày làm việc** (tạm trú).\n"
                 "- Lệ phí: 20.000 VNĐ (nộp trực tiếp) hoặc 10.000 VNĐ (nộp online).\n\n"
-                "📞 Nếu cần hỗ trợ thêm hoặc nhận biểu mẫu CT01 điền sẵn, kính mời Quý công dân đến Trụ sở Công an xã Đức Hợp hoặc gọi số Trực ban 02213.811.xxx."
+                "📞 Cần tư vấn thêm, mời bà con gọi Trực ban Công an xã Đức Hợp: **02213.815.999**."
             )
-        elif "căn cước" in query.lower() or "cccd" in query.lower():
+
+        # 4. Căn cước 2023 & VNeID
+        elif any(k in q for k in ["căn cước", "cccd", "mống mắt", "vneid", "định danh"]):
             return (
                 f"{greeting}Về quy định **Cấp thẻ Căn cước mới theo Luật Căn cước 2023**:\n\n"
                 "📌 **1. Độ tuổi và hình thức cấp:**\n"
-                "- Trẻ em từ 0 đến dưới 6 tuổi: Cấp thẻ Căn cước theo **nhu cầu**, phụ huynh kê khai online qua Cổng DVC (không thu nhận vân tay, mống mắt).\n"
-                "- Trẻ em từ 6 đến dưới 14 tuổi: Cấp theo **nhu cầu**, thu nhận ảnh khuôn mặt, vân tay và **mống mắt**.\n"
+                "- Trẻ em từ 0 đến dưới 6 tuổi: Cấp thẻ Căn cước theo **nhu cầu**, phụ huynh kê khai online qua Cổng DVC / VNeID (không thu nhận vân tay, mống mắt).\n"
+                "- Trẻ em từ 6 đến dưới 14 tuổi: Cấp theo nhu cầu, thu nhận ảnh khuôn mặt, vân tay và **mống mắt**.\n"
                 "- Người từ đủ 14 tuổi trở lên: **Bắt buộc** cấp thẻ Căn cước.\n\n"
-                "📌 **2. Địa điểm thực hiện:**\n"
-                "- Đăng ký lịch hẹn trên Cổng DVC hoặc VNeID, sau đó đến Bộ phận Một cửa Công an huyện Kim Động để thu nhận sinh trắc học (Công an xã Đức Hợp hỗ trợ hướng dẫn bà con).\n"
-                "- Thời hạn trả thẻ: 07 ngày làm việc (có thể đăng ký bưu điện chuyển về tận nhà)."
+                "📌 **2. Giá trị thẻ CCCD cũ & Kích hoạt VNeID Mức 2:**\n"
+                "- Thẻ CCCD gắn chip đã cấp trước 01/7/2024 vẫn có giá trị sử dụng đến ngày hết hạn in trên thẻ.\n"
+                "- Kích hoạt định danh điện tử VNeID Mức 2: Trực tiếp đến Trụ sở Công an xã Đức Hợp (Thôn Nho Lâm) để cán bộ hỗ trợ hoàn toàn miễn phí.\n\n"
+                "📞 Hotline hỗ trợ: **02213.815.999**."
             )
-        elif "pccc" in query.lower() or "cháy" in query.lower() or "chữa cháy" in query.lower():
+
+        # 5. PCCC
+        elif any(k in q for k in ["pccc", "cháy", "chữa cháy", "bình bột", "gas", "thoát nạn"]):
             return (
                 f"{greeting}Về hướng dẫn **An toàn Phòng cháy chữa cháy (PCCC) hộ gia đình & nhà ở kết hợp kinh doanh**:\n\n"
-                "📌 **1. Trang thiết bị bắt buộc:**\n"
-                "- Trang bị tối thiểu **01 bình chữa cháy** xách tay (bình bột MFZ4 hoặc bình khí CO2 MT3) tại nơi dễ thấy, dễ lấy.\n"
-                "- Mở lối **thoát nạn** thứ 2 (cửa mở ra ban công, lối lên mái, chuồng cọp phải có cửa thoát hiểm).\n\n"
-                "📌 **2. Biện pháp an toàn điện và kinh doanh:**\n"
-                "- Không câu móc điện tùy tiện, lắp aptomat chống giật riêng cho từng khu vực bán hàng.\n"
-                "- Hàng hóa dễ cháy phải sắp xếp cách xa nguồn nhiệt, bảng điện tối thiểu 0.5 mét.\n"
-                "- Ký bản cam kết **an toàn** PCCC với Công an xã Đức Hợp định kỳ."
+                "📌 **1. Trang bị bắt buộc:**\n"
+                "- Mỗi gia đình trang bị tối thiểu **01 bình chữa cháy** xách tay (bình bột ABC MFZ4 hoặc bình khí CO2 MT3) tại nơi dễ thấy, dễ lấy.\n"
+                "- Ban công có lồng sắt 'chuồng cọp' bắt buộc phải mở **cửa thoát nạn thứ 2**.\n\n"
+                "📌 **2. Xử lý sự cố rò rỉ gas:**\n"
+                "- Tuyệt đối KHÔNG bật tắt công tắc điện, quạt hay dùng diêm quẹt.\n"
+                "- Khóa chặt van bình gas, mở toang các cửa sổ để khí thông thoáng, báo cho mọi người di tản.\n\n"
+                "📞 Số báo cháy: **114** | Trực ban Công an xã Đức Hợp: **02213.815.999**."
             )
-        elif "phạt" in query.lower() or "phạt nguội" in query.lower():
+
+        # 6. Giao thông & Đăng ký xe
+        elif any(k in q for k in ["xe", "biển số", "đăng ký xe", "phạt nguội", "nồng độ cồn", "giao thông"]):
             return (
-                f"{greeting}Về hướng dẫn **Nộp phạt vi phạm giao thông (Phạt nguội) trực tuyến**:\n\n"
-                "📌 **1. Các bước thực hiện:**\n"
-                "- Bước 1: Truy cập **Cổng Dịch vụ công** Quốc gia (dichvucong.gov.vn) mục 'Thanh toán trực tuyến' -> 'Nộp phạt vi phạm giao thông'.\n"
-                "- Bước 2: Nhập số biên bản vi phạm hoặc mã quyết định xử phạt.\n"
-                "- Bước 3: Chọn ngân hàng hoặc ví điện tử để thanh toán tiền **nộp phạt**.\n"
-                "- Bước 4: Đăng ký nhận lại giấy tờ tạm giữ qua bưu điện về địa chỉ nhà tại xã Đức Hợp mà không cần phải đi lại xa."
+                f"{greeting}Về thủ tục **Đăng ký xe mô tô, xe máy tại Công an xã Đức Hợp & Xử phạt giao thông**:\n\n"
+                "📌 **1. Đăng ký xe máy phân cấp về xã (Thông tư 24/2023):**\n"
+                "- Công an xã Đức Hợp thực hiện đăng ký xe lần đầu và bấm biển số định danh cho bà con cư trú trên địa bàn.\n"
+                "- Hồ sơ: Căn cước/VNeID mức 2, hóa đơn giá trị gia tăng, chứng từ lệ phí trước bạ, mã hồ sơ kê khai trên Cổng DVC Bộ Công an.\n\n"
+                "📌 **2. Quy định biển số định danh & Phạt vi phạm:**\n"
+                "- Biển số định danh đi theo chủ xe suốt đời; khi bán xe phải nộp lại biển số để Công an giữ trong 5 năm cấp lại cho xe mới.\n"
+                "- Nộp phạt nguội trực tuyến 100% qua Cổng DVC Quốc gia (dichvucong.gov.vn).\n\n"
+                "📍 Địa điểm: Trụ sở Công an xã Đức Hợp (Thôn Nho Lâm). Hotline: **02213.815.999**."
             )
-        elif "xe" in query.lower() or "biển số" in query.lower() or "đăng ký xe" in query.lower():
+
+        # 7. Lừa đảo & Cảnh báo tội phạm
+        elif any(k in q for k in ["lừa đảo", "mạo danh", "app", "shopee", "tiktok", "đơn hàng", "tiền ảo", "deepfake", "lệnh bắt"]):
             return (
-                f"{greeting}Về thủ tục **Đăng ký, cấp biển số xe mô tô, xe máy tại Công an xã Đức Hợp**:\n\n"
-                "📌 **1. Giấy tờ cần mang theo:**\n"
-                "- Căn cước hoặc tài khoản định danh điện tử VNeID Mức 2 của chủ xe.\n"
-                "- Hóa đơn giá trị gia tăng (chứng từ nguồn gốc xe).\n"
-                "- Biên lai hoặc mã nộp lệ phí trước bạ điện tử.\n\n"
-                "📌 **2. Các bước thực hiện:**\n"
-                "- Bước 1: Kê khai thông tin đăng ký xe online trên Cổng DVC Bộ Công an để lấy mã hồ sơ.\n"
-                "- Bước 2: Mang xe mô tô cùng toàn bộ hồ sơ giấy tờ gốc đến Trụ sở Công an xã Đức Hợp.\n"
-                "- Bước 3: Cán bộ Công an xã kiểm tra thực tế xe, chà số khung số máy và hướng dẫn bấm biển số.\n"
-                "- Bước 4: Nhận biển số xe ngay trong ngày và nhận giấy hẹn trả Chứng nhận đăng ký xe (trong vòng 02 ngày làm việc)."
-            )
-        elif "lừa đảo" in query.lower() or "mạo danh" in query.lower() or "app" in query.lower() or "shopee" in query.lower() or "tiktok" in query.lower() or "đơn hàng" in query.lower() or "tiền" in query.lower():
-            return (
-                f"{greeting}Công an xã Đức Hợp xin đặc biệt khuyến cáo Quý công dân về thủ đoạn lừa đảo chiếm đoạt tài sản:\n\n"
-                "⚠️ **1. Cảnh báo lừa đảo qua mạng:**\n"
-                "- Mạo danh Công an thông báo sai lệch VNeID, yêu cầu cài App lạ (file .apk) chứa mã độc.\n"
-                "- Lừa đảo làm nhiệm vụ đơn hàng ảo Shopee, TikTok hoa hồng 20% rồi chiếm đoạt tiền nạp.\n"
-                "- Lừa đảo đầu tư sàn tài chính, giả danh người thân gọi video Deepfake mượn tiền.\n\n"
-                "🚨 **2. KHẲNG ĐỊNH CỦA CÔNG AN XÃ ĐỨC HỢP:**\n"
-                "- Lực lượng Công an **không bao giờ** làm việc qua mạng xã hội và không bao giờ yêu cầu công dân chuyển tiền nộp phạt qua tài khoản cá nhân.\n"
-                "- Khi nhận cuộc gọi nghi vấn, bà con hãy cúp máy ngay và liên hệ Trực ban Công an xã Đức Hợp qua số 02213.811.xxx để được bảo vệ kịp thời."
+                f"{greeting}Công an xã Đức Hợp cảnh báo về **22 phương thức, thủ đoạn lừa đảo phổ biến trên không gian mạng**:\n\n"
+                "⚠️ **Thủ đoạn nguy hiểm thường gặp:**\n"
+                "- Giả danh Công an gọi điện cài app VNeID/DVC giả mạo (.apk) chứa mã độc rút sạch tiền ngân hàng.\n"
+                "- Giả danh Công an, Viện kiểm sát gọi điện dọa lệnh bắt ma túy, ép chuyển tiền vào tài khoản an toàn.\n"
+                "- Tuyển CTV Shopee, TikTok hoa hồng 20% dụ nạp tiền làm nhiệm vụ rồi chiếm đoạt.\n"
+                "- Gọi video Deepfake mượn tiền khẩn cấp viện lý do tai nạn cấp cứu.\n\n"
+                "🚨 **KHUYẾN CÁO VÀNG '4 KHÔNG - 2 PHẢI':**\n"
+                "❌ KHÔNG bấm link lạ, không tải app .apk.\n"
+                "❌ KHÔNG cung cấp mật khẩu, mã OTP cho bất kỳ ai.\n"
+                "❌ KHÔNG chuyển tiền cho người lạ chưa xác minh.\n"
+                "❌ KHÔNG tin việc nhẹ lương cao, đầu tư tiền ảo sinh lời khủng.\n"
+                "✅ PHẢI kiểm chứng trực tiếp với người thân và cơ quan công quyền.\n"
+                "✅ PHẢI báo ngay cho Trực ban Công an xã Đức Hợp: **02213.815.999**."
             )
         else:
             return (
-                f"{greeting}Dựa trên cơ sở dữ liệu thủ tục hành chính của đơn vị, Quý công dân có thể tra cứu chi tiết tại danh mục thủ tục hoặc liên hệ trực tiếp Công an xã Đức Hợp:\n\n"
+                f"{greeting}Dựa trên cơ sở dữ liệu của đơn vị, Quý công dân có thể tra cứu nhanh các thủ tục hành chính hoặc nhận diện 22 thủ đoạn lừa đảo mạng trên hệ thống:\n\n"
                 f"{context[:800]}...\n\n"
-                "📞 Mọi thắc mắc cụ thể, kính mời Quý công dân liên hệ Trực ban Công an xã Đức Hợp (02213.811.xxx) để được cán bộ trực tiếp hướng dẫn chu đáo."
+                "📞 Mọi vấn đề cần giải đáp trực tiếp, kính mời Quý công dân liên hệ Trực ban Công an xã Đức Hợp qua số điện thoại: **02213.815.999** (Trụ sở tại Thôn Nho Lâm) để được hỗ trợ chu đáo."
             )
 
     @staticmethod

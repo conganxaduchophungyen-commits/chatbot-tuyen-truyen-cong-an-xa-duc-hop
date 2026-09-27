@@ -59,7 +59,7 @@ async def seed_data():
             code="TTHC-BCA-01",
             title="Đăng ký thường trú tại xã Đức Hợp",
             target_audience="Công dân Việt Nam chuyển đến sinh sống hợp pháp tại xã Đức Hợp",
-            competent_authority="Công an xã Đức Hợp, huyện Kim Động, tỉnh Hưng Yên",
+            competent_authority="Công an xã Đức Hợp, tỉnh Hưng Yên",
             execution_method="Trực tiếp tại Trụ sở Công an xã Đức Hợp hoặc trực tuyến qua Cổng Dịch vụ công Bộ Công an",
             required_documents=[
                 "Tờ khai thay đổi thông tin cư trú (Mẫu CT01).",
