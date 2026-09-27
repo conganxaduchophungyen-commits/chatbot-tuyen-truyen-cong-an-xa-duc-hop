@@ -487,8 +487,8 @@ async def seed_full_knowledge():
                 session.add(a)
 
         # 3. Nạp tài liệu tri thức (Knowledge chunks) cho AI RAG & Chatbot
-        print("-> Đang kiểm tra và nạp đủ 20 Bộ tri thức AI chuyên sâu...")
-        json_knowledge_path = os.path.join(os.path.dirname(__file__), "data_20_knowledge.json")
+        print("-> Đang kiểm tra và nạp đủ 100 Bộ tri thức AI chuyên sâu...")
+        json_knowledge_path = os.path.join(os.path.dirname(__file__), "data_100_knowledge.json")
         if os.path.exists(json_knowledge_path):
             try:
                 with open(json_knowledge_path, "r", encoding="utf-8") as f:
@@ -521,7 +521,7 @@ async def seed_full_knowledge():
             except Exception as e:
                 print(f"Lỗi nạp knowledge_data: {e}")
         else:
-            print("Không tìm thấy file data_20_knowledge.json")
+            print("Không tìm thấy file data_100_knowledge.json")
 
         knowledge_texts = [
             ("Luật Cư trú số 68/2020/QH14", "law", "Công dân có quyền đăng ký thường trú tại chỗ ở hợp pháp thuộc quyền sở hữu của mình hoặc khi được chủ hộ, chủ sở hữu đồng ý. Thời hạn giải quyết đăng ký thường trú tối đa 07 ngày làm việc. Công an xã có trách nhiệm tiếp nhận, thẩm tra và cập nhật kết quả vào Cơ sở dữ liệu quốc gia về dân cư. Sổ hộ khẩu giấy đã hết giá trị sử dụng từ ngày 01/01/2023."),

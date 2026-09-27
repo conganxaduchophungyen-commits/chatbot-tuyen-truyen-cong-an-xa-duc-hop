@@ -49,63 +49,59 @@
       }
     ],
     "online_guide": {
-      "platform": "Cổng DVC Bộ Công an & Ứng dụng VNeID",
-      "portal_name": "Cổng Dịch vụ công Bộ Công an (dichvucong.bocongan.gov.vn)",
+      "platform": "Ứng dụng VNeID (Mức 2) & Cổng DVC Bộ Công an",
+      "portal_name": "Mục Thủ tục hành chính trên VNeID",
       "prerequisites": [
-        "Tài khoản Định danh điện tử VNeID Mức 2.",
-        "Ảnh chụp bản gốc Sổ đỏ/Hợp đồng mua bán/Hợp đồng thuê nhà và văn bản đồng ý của chủ sở hữu chỗ ở."
+        "Tài khoản Định danh điện tử VNeID Mức 2 đã kích hoạt.",
+        "Ảnh chụp bản chính Sổ đỏ/Hợp đồng mua bán/Hợp đồng thuê nhà hợp pháp tại xã Đức Hợp.",
+        "Ý kiến đồng ý của chủ hộ, chủ sở hữu chỗ ở hợp pháp."
       ],
       "steps": [
         {
           "step_num": 1,
-          "title": "Đăng nhập Cổng Dịch vụ công",
-          "description": "Truy cập Cổng DVC Bộ Công an (dichvucong.bocongan.gov.vn) hoặc mở app VNeID mục Thủ tục hành chính.",
+          "title": "Đăng nhập VNeID",
+          "description": "Mở ứng dụng VNeID trên điện thoại, đăng nhập tài khoản Mức 2 bằng mật khẩu hoặc xác thực sinh trắc học vân tay/FaceID.",
           "sub_steps": [
-            "Chọn Đăng nhập bằng Tài khoản định danh điện tử VNeID.",
-            "Quét mã QR hoặc nhập số CCCD và mật khẩu để vào hệ thống."
+            "Kiểm tra trạng thái tài khoản đã đạt Mức 2."
           ]
         },
         {
           "step_num": 2,
-          "title": "Tìm thủ tục Đăng ký thường trú",
-          "description": "Gõ \"Đăng ký thường trú\" vào thanh tìm kiếm trên trang chủ Cổng DVC.",
+          "title": "Chọn mục Thủ tục hành chính",
+          "description": "Tại trang chủ VNeID, chọn icon 'Thủ tục hành chính' -> Chọn nhóm 'Cư trú' -> Chọn 'Đăng ký thường trú'.",
           "sub_steps": [
-            "Chọn cơ quan thực hiện: Tỉnh Hưng Yên -> Xã Đức Hợp -> Công an xã Đức Hợp.",
-            "Bấm \"Nộp hồ sơ trực tuyến\"."
+            "Chọn cơ quan thực hiện: Công an xã Đức Hợp, tỉnh Hưng Yên."
           ]
         },
         {
           "step_num": 3,
-          "title": "Kê khai thông tin cư trú",
-          "description": "Hệ thống tự động điền thông tin nhân thân từ Cơ sở dữ liệu quốc gia về dân cư.",
+          "title": "Kê khai thông tin nơi cư trú mới",
+          "description": "Hệ thống tự động điền thông tin nhân thân từ Cơ sở dữ liệu quốc gia về dân cư. Công dân kê khai địa chỉ tại thôn Nho Lâm hoặc các thôn thuộc xã Đức Hợp.",
           "sub_steps": [
-            "Chọn trường hợp: Nhập hộ mới hoặc Nhập vào hộ đã có.",
-            "Điền địa chỉ chỗ ở hợp pháp tại xã Đức Hợp (Thôn Nho Lâm,...).",
-            "Kê khai thông tin chủ hộ và mối quan hệ với chủ hộ."
+            "Chọn Nhập hộ mới hoặc Nhập vào hộ đã có.",
+            "Điền thông tin chủ hộ và mối quan hệ với chủ hộ."
           ]
         },
         {
           "step_num": 4,
-          "title": "Đính kèm tệp tài liệu",
-          "description": "Tải lên hình ảnh rõ nét của các giấy tờ chứng minh chỗ ở hợp pháp.",
+          "title": "Đính kèm tệp tài liệu chứng minh",
+          "description": "Chụp ảnh bản chính Sổ đỏ hoặc Hợp đồng thuê nhà và văn bản đồng ý của chủ sở hữu chỗ ở.",
           "sub_steps": [
-            "Tải ảnh Sổ đỏ hoặc Hợp đồng thuê nhà.",
-            "Tải Tờ khai CT01 có chữ ký của chủ sở hữu chỗ ở (nếu có)."
+            "Ảnh chụp cần rõ nét, đủ 4 góc, không mờ nhòe."
           ]
         },
         {
           "step_num": 5,
-          "title": "Chọn hình thức nhận kết quả & Gửi hồ sơ",
-          "description": "Chọn nhận kết quả trực tuyến qua VNeID hoặc nhận trực tiếp tại trụ sở Công an xã Đức Hợp.",
+          "title": "Gửi hồ sơ và nhận kết quả",
+          "description": "Kiểm tra lại toàn bộ thông tin, bấm 'Gửi hồ sơ'. Nhận mã hồ sơ điện tử để theo dõi tiến độ.",
           "sub_steps": [
-            "Nhận mã hồ sơ qua tin nhắn SMS/Email để theo dõi tiến độ.",
-            "Cán bộ Công an xã thẩm duyệt hồ sơ trong thời hạn 07 ngày làm việc."
+            "Thời hạn giải quyết: 07 ngày làm việc. Kết quả gửi trực tiếp qua thông báo VNeID và cập nhật trên thẻ Căn cước điện tử."
           ]
         }
       ],
       "important_notes": [
-        "Mọi giấy tờ chứng minh chỗ ở hợp pháp phải là bản chính hoặc bản chụp rõ nét, không mờ nhòe, tẩy xóa.",
-        "Trường hợp ở trọ/thuê nhà phải có hợp đồng thuê hợp pháp và chữ ký đồng ý của chủ trọ cho phép đăng ký thường trú."
+        "Lực lượng Công an xã Đức Hợp KHÔNG BAO GIỜ gọi điện yêu cầu cài app qua link tải .apk. Chỉ thực hiện trên ứng dụng VNeID chính thức!",
+        "Hotline hỗ trợ cư trú Công an xã Đức Hợp: 02213.815.999."
       ]
     }
   },
@@ -147,7 +143,63 @@
     "fee": "Miễn phí",
     "online_url": "https://dichvucong.bocongan.gov.vn",
     "views_count": 520,
-    "forms": []
+    "forms": [],
+    "online_guide": {
+      "platform": "Ứng dụng VNeID (Mức 2) & Cổng DVC Bộ Công an",
+      "portal_name": "Mục Thủ tục hành chính trên VNeID",
+      "prerequisites": [
+        "Tài khoản Định danh điện tử VNeID Mức 2 đã kích hoạt.",
+        "Ảnh chụp bản chính Sổ đỏ/Hợp đồng mua bán/Hợp đồng thuê nhà hợp pháp tại xã Đức Hợp.",
+        "Ý kiến đồng ý của chủ hộ, chủ sở hữu chỗ ở hợp pháp."
+      ],
+      "steps": [
+        {
+          "step_num": 1,
+          "title": "Đăng nhập VNeID",
+          "description": "Mở ứng dụng VNeID trên điện thoại, đăng nhập tài khoản Mức 2 bằng mật khẩu hoặc xác thực sinh trắc học vân tay/FaceID.",
+          "sub_steps": [
+            "Kiểm tra trạng thái tài khoản đã đạt Mức 2."
+          ]
+        },
+        {
+          "step_num": 2,
+          "title": "Chọn mục Thủ tục hành chính",
+          "description": "Tại trang chủ VNeID, chọn icon 'Thủ tục hành chính' -> Chọn nhóm 'Cư trú' -> Chọn 'Đăng ký thường trú'.",
+          "sub_steps": [
+            "Chọn cơ quan thực hiện: Công an xã Đức Hợp, tỉnh Hưng Yên."
+          ]
+        },
+        {
+          "step_num": 3,
+          "title": "Kê khai thông tin nơi cư trú mới",
+          "description": "Hệ thống tự động điền thông tin nhân thân từ Cơ sở dữ liệu quốc gia về dân cư. Công dân kê khai địa chỉ tại thôn Nho Lâm hoặc các thôn thuộc xã Đức Hợp.",
+          "sub_steps": [
+            "Chọn Nhập hộ mới hoặc Nhập vào hộ đã có.",
+            "Điền thông tin chủ hộ và mối quan hệ với chủ hộ."
+          ]
+        },
+        {
+          "step_num": 4,
+          "title": "Đính kèm tệp tài liệu chứng minh",
+          "description": "Chụp ảnh bản chính Sổ đỏ hoặc Hợp đồng thuê nhà và văn bản đồng ý của chủ sở hữu chỗ ở.",
+          "sub_steps": [
+            "Ảnh chụp cần rõ nét, đủ 4 góc, không mờ nhòe."
+          ]
+        },
+        {
+          "step_num": 5,
+          "title": "Gửi hồ sơ và nhận kết quả",
+          "description": "Kiểm tra lại toàn bộ thông tin, bấm 'Gửi hồ sơ'. Nhận mã hồ sơ điện tử để theo dõi tiến độ.",
+          "sub_steps": [
+            "Thời hạn giải quyết: 07 ngày làm việc. Kết quả gửi trực tiếp qua thông báo VNeID và cập nhật trên thẻ Căn cước điện tử."
+          ]
+        }
+      ],
+      "important_notes": [
+        "Lực lượng Công an xã Đức Hợp KHÔNG BAO GIỜ gọi điện yêu cầu cài app qua link tải .apk. Chỉ thực hiện trên ứng dụng VNeID chính thức!",
+        "Hotline hỗ trợ cư trú Công an xã Đức Hợp: 02213.815.999."
+      ]
+    }
   },
   {
     "id": "proc_tam_tru",
@@ -188,7 +240,53 @@
     "fee": "15.000 VNĐ (Trực tiếp) / 7.000 VNĐ (Trực tuyến qua Cổng DVC)",
     "online_url": "https://dichvucong.bocongan.gov.vn/bocongan/bothutuc/tthc?matt=26291",
     "views_count": 980,
-    "forms": []
+    "forms": [],
+    "online_guide": {
+      "platform": "Ứng dụng VNeID (Mức 2) & Cổng DVC Bộ Công an",
+      "portal_name": "Mục Cư trú trên ứng dụng VNeID",
+      "prerequisites": [
+        "Tài khoản VNeID Mức 2 còn hiệu lực.",
+        "Hợp đồng thuê trọ/thuê nhà hoặc giấy tờ chứng minh chỗ ở hợp pháp tại xã Đức Hợp."
+      ],
+      "steps": [
+        {
+          "step_num": 1,
+          "title": "Đăng nhập VNeID",
+          "description": "Đăng nhập ứng dụng VNeID trên thiết bị di động cá nhân.",
+          "sub_steps": []
+        },
+        {
+          "step_num": 2,
+          "title": "Chọn Đăng ký tạm trú",
+          "description": "Vào 'Thủ tục hành chính' -> 'Cư trú' -> 'Đăng ký tạm trú' (hoặc Gia hạn tạm trú).",
+          "sub_steps": [
+            "Chọn địa chỉ thụ lý: Công an xã Đức Hợp, tỉnh Hưng Yên."
+          ]
+        },
+        {
+          "step_num": 3,
+          "title": "Nhập thông tin nơi tạm trú",
+          "description": "Điền địa chỉ nhà trọ tại xã Đức Hợp, họ tên chủ trọ và thời hạn tạm trú dự kiến (tối đa 02 năm).",
+          "sub_steps": []
+        },
+        {
+          "step_num": 4,
+          "title": "Tải ảnh hợp đồng thuê nhà",
+          "description": "Chụp ảnh rõ nét Hợp đồng thuê trọ có chữ ký của chủ nhà trọ.",
+          "sub_steps": []
+        },
+        {
+          "step_num": 5,
+          "title": "Nộp hồ sơ trực tuyến",
+          "description": "Nộp phí trực tuyến 7.000 VNĐ qua cổng thanh toán liên kết. Công an xã phê duyệt trong vòng 03 ngày làm việc.",
+          "sub_steps": []
+        }
+      ],
+      "important_notes": [
+        "Công dân đến sinh sống từ 30 ngày trở lên bắt buộc phải đăng ký tạm trú để đảm bảo quyền lợi khám chữa bệnh, xin học cho con.",
+        "Trước khi hết hạn tạm trú 15 ngày, công dân thực hiện gia hạn ngay trên VNeID."
+      ]
+    }
   },
   {
     "id": "proc_xoa_tam_tru",
@@ -223,7 +321,53 @@
     "fee": "Miễn phí",
     "online_url": "https://dichvucong.bocongan.gov.vn",
     "views_count": 410,
-    "forms": []
+    "forms": [],
+    "online_guide": {
+      "platform": "Ứng dụng VNeID (Mức 2) & Cổng DVC Bộ Công an",
+      "portal_name": "Mục Cư trú trên ứng dụng VNeID",
+      "prerequisites": [
+        "Tài khoản VNeID Mức 2 còn hiệu lực.",
+        "Hợp đồng thuê trọ/thuê nhà hoặc giấy tờ chứng minh chỗ ở hợp pháp tại xã Đức Hợp."
+      ],
+      "steps": [
+        {
+          "step_num": 1,
+          "title": "Đăng nhập VNeID",
+          "description": "Đăng nhập ứng dụng VNeID trên thiết bị di động cá nhân.",
+          "sub_steps": []
+        },
+        {
+          "step_num": 2,
+          "title": "Chọn Đăng ký tạm trú",
+          "description": "Vào 'Thủ tục hành chính' -> 'Cư trú' -> 'Đăng ký tạm trú' (hoặc Gia hạn tạm trú).",
+          "sub_steps": [
+            "Chọn địa chỉ thụ lý: Công an xã Đức Hợp, tỉnh Hưng Yên."
+          ]
+        },
+        {
+          "step_num": 3,
+          "title": "Nhập thông tin nơi tạm trú",
+          "description": "Điền địa chỉ nhà trọ tại xã Đức Hợp, họ tên chủ trọ và thời hạn tạm trú dự kiến (tối đa 02 năm).",
+          "sub_steps": []
+        },
+        {
+          "step_num": 4,
+          "title": "Tải ảnh hợp đồng thuê nhà",
+          "description": "Chụp ảnh rõ nét Hợp đồng thuê trọ có chữ ký của chủ nhà trọ.",
+          "sub_steps": []
+        },
+        {
+          "step_num": 5,
+          "title": "Nộp hồ sơ trực tuyến",
+          "description": "Nộp phí trực tuyến 7.000 VNĐ qua cổng thanh toán liên kết. Công an xã phê duyệt trong vòng 03 ngày làm việc.",
+          "sub_steps": []
+        }
+      ],
+      "important_notes": [
+        "Công dân đến sinh sống từ 30 ngày trở lên bắt buộc phải đăng ký tạm trú để đảm bảo quyền lợi khám chữa bệnh, xin học cho con.",
+        "Trước khi hết hạn tạm trú 15 ngày, công dân thực hiện gia hạn ngay trên VNeID."
+      ]
+    }
   },
   {
     "id": "proc_can_cuoc",
@@ -266,69 +410,48 @@
     "views_count": 2890,
     "forms": [],
     "online_guide": {
-      "platform": "Ứng dụng VNeID (Định danh điện tử Mức 2)",
-      "portal_name": "Ứng dụng VNeID & Cổng Dịch vụ công Bộ Công an",
+      "platform": "Ứng dụng VNeID (Mục Thẻ Căn cước)",
+      "portal_name": "Ứng dụng VNeID / Cổng DVC Bộ Công an",
       "prerequisites": [
-        "Tài khoản VNeID đã kích hoạt Định danh điện tử Mức 2.",
-        "Đã cập nhật ứng dụng VNeID lên phiên bản mới nhất."
+        "Tài khoản VNeID Mức 2 (đối với người đại diện kê khai cho con dưới 14 tuổi hoặc bản thân đặt lịch)."
       ],
       "steps": [
         {
           "step_num": 1,
-          "title": "Đăng nhập và truy cập thủ tục Căn cước",
-          "description": "Mở ứng dụng VNeID và hoàn tất đăng nhập bằng mật khẩu, Passcode hoặc sinh trắc học.",
-          "sub_steps": [
-            "Tại trang chủ, chọn \"Thủ tục hành chính\" (hoặc \"Dịch vụ công\").",
-            "Chọn mục \"Cấp, quản lý căn cước\" (hoặc \"Dịch vụ công Căn cước\")."
-          ]
+          "title": "Đăng nhập VNeID",
+          "description": "Mở ứng dụng VNeID trên điện thoại.",
+          "sub_steps": []
         },
         {
           "step_num": 2,
-          "title": "Chọn loại dịch vụ và đối tượng thực hiện",
-          "description": "Lựa chọn đúng diện thực hiện thủ tục tương ứng:",
+          "title": "Chọn Cấp thẻ Căn cước",
+          "description": "Vào 'Thủ tục hành chính' -> 'Thẻ Căn cước' -> Đăng ký cấp thẻ Căn cước.",
           "sub_steps": [
-            "Cấp thẻ Căn cước cho người dưới 14 tuổi (dành cho cha/mẹ/người giám hộ kê khai thay cho con).",
-            "Cấp thẻ Căn cước cho công dân từ đủ 14 tuổi trở lên.",
-            "Cấp đổi thẻ Căn cước (khi thẻ cũ hết hạn, sai sót hoặc thay đổi thông tin).",
-            "Cấp lại thẻ Căn cước (khi bị mất thẻ hoặc thẻ bị hư hỏng không sử dụng được)."
+            "Trẻ dưới 6 tuổi: Cha mẹ kê khai online 100%, không cần lấy vân tay, mống mắt, ảnh mặt.",
+            "Người từ đủ 6 tuổi trở lên: Đặt lịch hẹn đến thu nhận mống mắt, vân tay và ảnh khuôn mặt."
           ]
         },
         {
           "step_num": 3,
-          "title": "Kê khai thông tin người được cấp thẻ Căn cước",
-          "description": "Kiểm tra đối chiếu các thông tin hiển thị tự động từ Cơ sở dữ liệu quốc gia về dân cư.",
-          "sub_steps": [
-            "Nếu làm cho bản thân: Hệ thống sẽ tự động điền sẵn Họ tên, Số định danh, Ngày sinh, Quê quán, Địa chỉ thường trú/tạm trú.",
-            "Nếu kê khai cho con dưới 14 tuổi: Chọn thông tin của con đã được tích hợp trong mục \"Thông tin thành viên gia đình\".",
-            "Kiểm tra kỹ các trường dữ liệu và bổ sung thông tin người đại diện hợp pháp."
-          ]
+          "title": "Kê khai thông tin và đặt lịch",
+          "description": "Chọn ngày giờ làm việc thuận tiện tại Bộ phận Một cửa Công an huyện hoặc điểm lưu động tại xã Đức Hợp.",
+          "sub_steps": []
         },
         {
           "step_num": 4,
-          "title": "Lựa chọn nơi thực hiện thủ tục và đặt lịch hẹn",
-          "description": "Chọn địa điểm và thời gian làm thủ tục thuận tiện nhất cho Bác/Anh/Chị.",
-          "sub_steps": [
-            "Chọn Tỉnh/Thành phố: Tỉnh Hưng Yên -> Cơ quan Quản lý căn cước Công an cấp tỉnh hoặc Công an cấp tiếp nhận hồ sơ.",
-            "Chọn ngày hẹn và khung giờ hẹn phù hợp để tránh việc xếp hàng chờ đợi.",
-            "Chọn hình thức trả kết quả: Đến cơ quan Công an nhận trực tiếp hoặc Nhận qua dịch vụ bưu chính công ích chuyển phát về tận nhà."
-          ]
+          "title": "Đến thu nhận sinh trắc học",
+          "description": "Xuất trình mã hẹn trên VNeID để cán bộ thu nhận mống mắt công nghệ cao, lăn vân tay và chụp ảnh chân dung.",
+          "sub_steps": []
         },
         {
           "step_num": 5,
-          "title": "Xác nhận thông tin và nộp hồ sơ trực tuyến",
-          "description": "Kiểm tra lại toàn bộ thông tin trong tờ khai điện tử và cam đoan tính chính xác.",
-          "sub_steps": [
-            "Tích chọn \"Tôi xin cam đoan những thông tin kê khai trên là đúng sự thật\".",
-            "Nhập mã Passcode xác thực của ứng dụng VNeID (hoặc mã xác thực OTP gửi về SMS).",
-            "Bấm \"Gửi hồ sơ\" hoàn tất. Hệ thống sẽ cấp một Mã hồ sơ trực tuyến và Phiếu hẹn giờ điện tử."
-          ]
+          "title": "Nhận thẻ Căn cước",
+          "description": "Nhận thẻ tại trụ sở hoặc đăng ký chuyển phát nhanh bưu điện về tận nhà tại xã Đức Hợp sau 07 ngày làm việc.",
+          "sub_steps": []
         }
       ],
       "important_notes": [
-        "Trẻ em dưới 06 tuổi: Thủ tục được thực hiện HOÀN TOÀN TRÊN VNeID, cha mẹ chỉ cần kê khai online và KHÔNG PHẢI ĐƯA TRẺ ĐẾN CƠ QUAN CÔNG AN (không thu nhận vân tay, mống mắt, ảnh khuôn mặt).",
-        "Trẻ em từ đủ 06 đến dưới 14 tuổi: Sau khi cha/mẹ kê khai thành công trên VNeID, đưa trẻ đến cơ quan Công an theo đúng lịch hẹn để thu nhận vân tay, mống mắt và chụp ảnh khuôn mặt.",
-        "Người từ đủ 14 tuổi trở lên: Sau khi kê khai online, đến cơ quan Công an theo lịch hẹn để thu nhận vân tay, mống mắt và ảnh chân dung.",
-        "Khi đi làm căn cước trực tiếp: Hãy mặc trang phục lịch sự, đầu tóc gọn gàng để ảnh chụp thẻ căn cước đảm bảo tiêu chuẩn nhận diện."
+        "Thẻ CCCD cũ vẫn có giá trị sử dụng đến hết thời hạn ghi trên thẻ; cấp đổi sang thẻ Căn cước mới theo nhu cầu của công dân."
       ]
     }
   },
@@ -371,7 +494,52 @@
     "fee": "Miễn phí hoàn toàn",
     "online_url": "https://vneid.gov.vn",
     "views_count": 3100,
-    "forms": []
+    "forms": [],
+    "online_guide": {
+      "platform": "Ứng dụng VNeID (Mức 2) & Cổng DVC Bộ Công an",
+      "portal_name": "Ứng dụng VNeID (Mục Cư trú)",
+      "prerequisites": [
+        "Tài khoản Định danh điện tử VNeID Mức 2",
+        "Giấy tờ pháp lý có liên quan theo quy định"
+      ],
+      "steps": [
+        {
+          "step_num": 1,
+          "title": "Đăng nhập VNeID Mức 2",
+          "description": "Mở app VNeID trên điện thoại, đăng nhập tài khoản Mức 2.",
+          "sub_steps": []
+        },
+        {
+          "step_num": 2,
+          "title": "Chọn thủ tục: Đăng ký, kích hoạt tài khoản Định danh điện tử (VNeID Mức 1 & Mức 2)",
+          "description": "Vào mục 'Thủ tục hành chính' -> 'Cư trú' -> Chọn thủ tục tương ứng.",
+          "sub_steps": [
+            "Chọn cơ quan giải quyết: Công an xã Đức Hợp, tỉnh Hưng Yên."
+          ]
+        },
+        {
+          "step_num": 3,
+          "title": "Kê khai hồ sơ điện tử",
+          "description": "Kiểm tra thông tin cá nhân và điền các nội dung yêu cầu của thủ tục.",
+          "sub_steps": []
+        },
+        {
+          "step_num": 4,
+          "title": "Đính kèm tệp tài liệu minh chứng",
+          "description": "Chụp ảnh bản chính các giấy tờ liên quan rõ nét, không mất góc.",
+          "sub_steps": []
+        },
+        {
+          "step_num": 5,
+          "title": "Gửi phê duyệt và nhận kết quả",
+          "description": "Nhận thông báo tiến độ và kết quả giải quyết trực tiếp trên ứng dụng VNeID.",
+          "sub_steps": []
+        }
+      ],
+      "important_notes": [
+        "Mọi thông tin cư trú đều được số hóa trên Cơ sở dữ liệu quốc gia về dân cư, không cần mang theo sổ giấy."
+      ]
+    }
   },
   {
     "id": "proc_thong_bao_luu_tru",
@@ -406,7 +574,48 @@
     "fee": "Miễn phí",
     "online_url": "https://dichvucong.bocongan.gov.vn",
     "views_count": 890,
-    "forms": []
+    "forms": [],
+    "online_guide": {
+      "platform": "Ứng dụng VNeID (Tiện ích trực tuyến 24/7)",
+      "portal_name": "Mục Thông báo lưu trú trên VNeID",
+      "prerequisites": [
+        "Tài khoản VNeID Mức 2 của chủ nhà, chủ cơ sở lưu trú hoặc người đến lưu trú.",
+        "Số CCCD/Định danh cá nhân của người đến lưu trú qua đêm."
+      ],
+      "steps": [
+        {
+          "step_num": 1,
+          "title": "Mở VNeID chọn Thông báo lưu trú",
+          "description": "Tại trang chủ VNeID, chọn icon 'Thủ tục hành chính' -> 'Thông báo lưu trú'.",
+          "sub_steps": [
+            "Bấm 'Tạo mới yêu cầu thông báo lưu trú'."
+          ]
+        },
+        {
+          "step_num": 2,
+          "title": "Chọn cơ sở / địa chỉ lưu trú",
+          "description": "Chọn địa chỉ nhà riêng hoặc cơ sở trọ tại xã Đức Hợp từ danh mục tài khoản.",
+          "sub_steps": []
+        },
+        {
+          "step_num": 3,
+          "title": "Thêm thông tin người lưu trú",
+          "description": "Quét mã QR trên thẻ CCCD hoặc nhập 12 số định danh của khách/người thân đến ở nhờ.",
+          "sub_steps": [
+            "Chọn lý do lưu trú (thăm thân, công tác, du lịch...) và thời gian lưu trú."
+          ]
+        },
+        {
+          "step_num": 4,
+          "title": "Gửi thông báo",
+          "description": "Bấm 'Gửi yêu cầu'. Hệ thống tự động truyền dữ liệu đến máy nghiệp vụ Trực ban Công an xã Đức Hợp tức thì.",
+          "sub_steps": []
+        }
+      ],
+      "important_notes": [
+        "Thực hiện thông báo lưu trú trước 23h hàng ngày. Thủ tục hoàn toàn miễn phí 100%!"
+      ]
+    }
   },
   {
     "id": "proc_khai_bao_tam_vang",
@@ -441,7 +650,52 @@
     "fee": "Miễn phí",
     "online_url": "https://dichvucong.bocongan.gov.vn",
     "views_count": 360,
-    "forms": []
+    "forms": [],
+    "online_guide": {
+      "platform": "Ứng dụng VNeID (Mức 2) & Cổng DVC Bộ Công an",
+      "portal_name": "Ứng dụng VNeID (Mục Cư trú)",
+      "prerequisites": [
+        "Tài khoản Định danh điện tử VNeID Mức 2",
+        "Giấy tờ pháp lý có liên quan theo quy định"
+      ],
+      "steps": [
+        {
+          "step_num": 1,
+          "title": "Đăng nhập VNeID Mức 2",
+          "description": "Mở app VNeID trên điện thoại, đăng nhập tài khoản Mức 2.",
+          "sub_steps": []
+        },
+        {
+          "step_num": 2,
+          "title": "Chọn thủ tục: Khai báo tạm vắng đối với công dân",
+          "description": "Vào mục 'Thủ tục hành chính' -> 'Cư trú' -> Chọn thủ tục tương ứng.",
+          "sub_steps": [
+            "Chọn cơ quan giải quyết: Công an xã Đức Hợp, tỉnh Hưng Yên."
+          ]
+        },
+        {
+          "step_num": 3,
+          "title": "Kê khai hồ sơ điện tử",
+          "description": "Kiểm tra thông tin cá nhân và điền các nội dung yêu cầu của thủ tục.",
+          "sub_steps": []
+        },
+        {
+          "step_num": 4,
+          "title": "Đính kèm tệp tài liệu minh chứng",
+          "description": "Chụp ảnh bản chính các giấy tờ liên quan rõ nét, không mất góc.",
+          "sub_steps": []
+        },
+        {
+          "step_num": 5,
+          "title": "Gửi phê duyệt và nhận kết quả",
+          "description": "Nhận thông báo tiến độ và kết quả giải quyết trực tiếp trên ứng dụng VNeID.",
+          "sub_steps": []
+        }
+      ],
+      "important_notes": [
+        "Mọi thông tin cư trú đều được số hóa trên Cơ sở dữ liệu quốc gia về dân cư, không cần mang theo sổ giấy."
+      ]
+    }
   },
   {
     "id": "proc_xac_nhan_cu_tru",
@@ -476,7 +730,52 @@
     "fee": "10.000 VNĐ (trực tiếp) / Miễn phí hoặc 5.000 VNĐ (trực tuyến)",
     "online_url": "https://dichvucong.bocongan.gov.vn",
     "views_count": 1750,
-    "forms": []
+    "forms": [],
+    "online_guide": {
+      "platform": "Ứng dụng VNeID (Mức 2) & Cổng DVC Bộ Công an",
+      "portal_name": "Ứng dụng VNeID (Mục Cư trú)",
+      "prerequisites": [
+        "Tài khoản Định danh điện tử VNeID Mức 2",
+        "Giấy tờ pháp lý có liên quan theo quy định"
+      ],
+      "steps": [
+        {
+          "step_num": 1,
+          "title": "Đăng nhập VNeID Mức 2",
+          "description": "Mở app VNeID trên điện thoại, đăng nhập tài khoản Mức 2.",
+          "sub_steps": []
+        },
+        {
+          "step_num": 2,
+          "title": "Chọn thủ tục: Cấp Giấy xác nhận thông tin về cư trú (Mẫu CT07)",
+          "description": "Vào mục 'Thủ tục hành chính' -> 'Cư trú' -> Chọn thủ tục tương ứng.",
+          "sub_steps": [
+            "Chọn cơ quan giải quyết: Công an xã Đức Hợp, tỉnh Hưng Yên."
+          ]
+        },
+        {
+          "step_num": 3,
+          "title": "Kê khai hồ sơ điện tử",
+          "description": "Kiểm tra thông tin cá nhân và điền các nội dung yêu cầu của thủ tục.",
+          "sub_steps": []
+        },
+        {
+          "step_num": 4,
+          "title": "Đính kèm tệp tài liệu minh chứng",
+          "description": "Chụp ảnh bản chính các giấy tờ liên quan rõ nét, không mất góc.",
+          "sub_steps": []
+        },
+        {
+          "step_num": 5,
+          "title": "Gửi phê duyệt và nhận kết quả",
+          "description": "Nhận thông báo tiến độ và kết quả giải quyết trực tiếp trên ứng dụng VNeID.",
+          "sub_steps": []
+        }
+      ],
+      "important_notes": [
+        "Mọi thông tin cư trú đều được số hóa trên Cơ sở dữ liệu quốc gia về dân cư, không cần mang theo sổ giấy."
+      ]
+    }
   },
   {
     "id": "proc_dieu_chinh_cu_tru",
@@ -511,7 +810,52 @@
     "fee": "Miễn phí",
     "online_url": "https://dichvucong.bocongan.gov.vn",
     "views_count": 670,
-    "forms": []
+    "forms": [],
+    "online_guide": {
+      "platform": "Ứng dụng VNeID (Mức 2) & Cổng DVC Bộ Công an",
+      "portal_name": "Ứng dụng VNeID (Mục Cư trú)",
+      "prerequisites": [
+        "Tài khoản Định danh điện tử VNeID Mức 2",
+        "Giấy tờ pháp lý có liên quan theo quy định"
+      ],
+      "steps": [
+        {
+          "step_num": 1,
+          "title": "Đăng nhập VNeID Mức 2",
+          "description": "Mở app VNeID trên điện thoại, đăng nhập tài khoản Mức 2.",
+          "sub_steps": []
+        },
+        {
+          "step_num": 2,
+          "title": "Chọn thủ tục: Điều chỉnh thông tin về cư trú trong CSDL Quốc gia về dân cư",
+          "description": "Vào mục 'Thủ tục hành chính' -> 'Cư trú' -> Chọn thủ tục tương ứng.",
+          "sub_steps": [
+            "Chọn cơ quan giải quyết: Công an xã Đức Hợp, tỉnh Hưng Yên."
+          ]
+        },
+        {
+          "step_num": 3,
+          "title": "Kê khai hồ sơ điện tử",
+          "description": "Kiểm tra thông tin cá nhân và điền các nội dung yêu cầu của thủ tục.",
+          "sub_steps": []
+        },
+        {
+          "step_num": 4,
+          "title": "Đính kèm tệp tài liệu minh chứng",
+          "description": "Chụp ảnh bản chính các giấy tờ liên quan rõ nét, không mất góc.",
+          "sub_steps": []
+        },
+        {
+          "step_num": 5,
+          "title": "Gửi phê duyệt và nhận kết quả",
+          "description": "Nhận thông báo tiến độ và kết quả giải quyết trực tiếp trên ứng dụng VNeID.",
+          "sub_steps": []
+        }
+      ],
+      "important_notes": [
+        "Mọi thông tin cư trú đều được số hóa trên Cơ sở dữ liệu quốc gia về dân cư, không cần mang theo sổ giấy."
+      ]
+    }
   },
   {
     "id": "proc_dang_ky_xe",
@@ -554,7 +898,56 @@
     "fee": "Theo Thông tư 60/2023/TT-BTC của Bộ Tài chính (Khu vực xã Đức Hợp: 50.000 VNĐ - 100.000 VNĐ tùy giá trị xe)",
     "online_url": "https://dichvucong.bocongan.gov.vn/bocongan/bothutuc/tthc?matt=26292",
     "views_count": 2450,
-    "forms": []
+    "forms": [],
+    "online_guide": {
+      "platform": "Ứng dụng VNeID & Cổng DVC Bộ Công an",
+      "portal_name": "Ứng dụng VNeID (Mục Dịch vụ xe cơ giới)",
+      "prerequisites": [
+        "Tài khoản VNeID Mức 2 của chủ xe.",
+        "Chứng từ nộp lệ phí trước bạ điện tử tại cơ quan Thuế/Ngân hàng.",
+        "Phiếu kiểm tra chất lượng xuất xưởng hoặc Giấy chứng nhận thu hồi biển số."
+      ],
+      "steps": [
+        {
+          "step_num": 1,
+          "title": "Kê khai Giấy khai đăng ký xe trên VNeID",
+          "description": "Đăng nhập VNeID, vào 'Dịch vụ công' -> 'Đăng ký xe mô tô, xe gắn máy cấp xã'.",
+          "sub_steps": [
+            "Nhập số khung, số máy, mã lệ phí trước bạ điện tử. Hệ thống tự động đồng bộ hóa đơn điện tử."
+          ]
+        },
+        {
+          "step_num": 2,
+          "title": "Lấy mã hồ sơ trực tuyến",
+          "description": "Sau khi kê khai thành công, hệ thống cấp Mã hồ sơ điện tử và lịch hẹn mang xe đến Công an xã.",
+          "sub_steps": []
+        },
+        {
+          "step_num": 3,
+          "title": "Mang xe đến Trụ sở Công an xã Đức Hợp",
+          "description": "Đưa xe và phiếu chà số máy, số khung đến Trụ sở Công an xã Đức Hợp (Thôn Nho Lâm).",
+          "sub_steps": [
+            "Cán bộ kiểm tra thực tế xe trùng khớp với hồ sơ trên hệ thống."
+          ]
+        },
+        {
+          "step_num": 4,
+          "title": "Bấm biển số định danh trên máy",
+          "description": "Chủ xe thực hiện bấm biển số trên hệ thống máy vi tính Công an xã và nhận biển số ngay.",
+          "sub_steps": []
+        },
+        {
+          "step_num": 5,
+          "title": "Nhận Chứng nhận đăng ký xe",
+          "description": "Nhận Giấy hẹn và nhận Cà vẹt xe sau 02 ngày làm việc hoặc nhận qua chuyển phát Bưu điện về nhà.",
+          "sub_steps": []
+        }
+      ],
+      "important_notes": [
+        "Biển số định danh đi theo người; khi bán xe chủ xe phải giữ lại biển số và đăng ký nộp cho cơ quan Công an thu hồi.",
+        "Nghiêm cấm mua bán, sang nhượng biển số xe định danh (trừ biển trúng đấu giá)."
+      ]
+    }
   },
   {
     "id": "proc_sang_ten_xe",
@@ -591,7 +984,56 @@
     "fee": "Theo quy định hiện hành của Bộ Tài chính",
     "online_url": "https://dichvucong.bocongan.gov.vn",
     "views_count": 1120,
-    "forms": []
+    "forms": [],
+    "online_guide": {
+      "platform": "Ứng dụng VNeID & Cổng DVC Bộ Công an",
+      "portal_name": "Ứng dụng VNeID (Mục Dịch vụ xe cơ giới)",
+      "prerequisites": [
+        "Tài khoản VNeID Mức 2 của chủ xe.",
+        "Chứng từ nộp lệ phí trước bạ điện tử tại cơ quan Thuế/Ngân hàng.",
+        "Phiếu kiểm tra chất lượng xuất xưởng hoặc Giấy chứng nhận thu hồi biển số."
+      ],
+      "steps": [
+        {
+          "step_num": 1,
+          "title": "Kê khai Giấy khai đăng ký xe trên VNeID",
+          "description": "Đăng nhập VNeID, vào 'Dịch vụ công' -> 'Đăng ký xe mô tô, xe gắn máy cấp xã'.",
+          "sub_steps": [
+            "Nhập số khung, số máy, mã lệ phí trước bạ điện tử. Hệ thống tự động đồng bộ hóa đơn điện tử."
+          ]
+        },
+        {
+          "step_num": 2,
+          "title": "Lấy mã hồ sơ trực tuyến",
+          "description": "Sau khi kê khai thành công, hệ thống cấp Mã hồ sơ điện tử và lịch hẹn mang xe đến Công an xã.",
+          "sub_steps": []
+        },
+        {
+          "step_num": 3,
+          "title": "Mang xe đến Trụ sở Công an xã Đức Hợp",
+          "description": "Đưa xe và phiếu chà số máy, số khung đến Trụ sở Công an xã Đức Hợp (Thôn Nho Lâm).",
+          "sub_steps": [
+            "Cán bộ kiểm tra thực tế xe trùng khớp với hồ sơ trên hệ thống."
+          ]
+        },
+        {
+          "step_num": 4,
+          "title": "Bấm biển số định danh trên máy",
+          "description": "Chủ xe thực hiện bấm biển số trên hệ thống máy vi tính Công an xã và nhận biển số ngay.",
+          "sub_steps": []
+        },
+        {
+          "step_num": 5,
+          "title": "Nhận Chứng nhận đăng ký xe",
+          "description": "Nhận Giấy hẹn và nhận Cà vẹt xe sau 02 ngày làm việc hoặc nhận qua chuyển phát Bưu điện về nhà.",
+          "sub_steps": []
+        }
+      ],
+      "important_notes": [
+        "Biển số định danh đi theo người; khi bán xe chủ xe phải giữ lại biển số và đăng ký nộp cho cơ quan Công an thu hồi.",
+        "Nghiêm cấm mua bán, sang nhượng biển số xe định danh (trừ biển trúng đấu giá)."
+      ]
+    }
   },
   {
     "id": "proc_thu_hoi_bien_so",
@@ -627,7 +1069,46 @@
     "fee": "Miễn phí",
     "online_url": "https://dichvucong.bocongan.gov.vn",
     "views_count": 850,
-    "forms": []
+    "forms": [],
+    "online_guide": {
+      "platform": "Ứng dụng VNeID & Cổng DVC Bộ Công an",
+      "portal_name": "Ứng dụng VNeID (Giao thông)",
+      "prerequisites": [
+        "Tài khoản VNeID Mức 2",
+        "Hồ sơ đăng ký xe chính chủ"
+      ],
+      "steps": [
+        {
+          "step_num": 1,
+          "title": "Đăng nhập VNeID",
+          "description": "Mở ứng dụng VNeID, đăng nhập tài khoản Mức 2.",
+          "sub_steps": []
+        },
+        {
+          "step_num": 2,
+          "title": "Chọn dịch vụ: Thu hồi chứng nhận đăng ký xe, biển số xe định danh",
+          "description": "Vào 'Dịch vụ công' -> 'Giao thông' -> Chọn thủ tục tương ứng.",
+          "sub_steps": [
+            "Chọn Công an xã Đức Hợp tiếp nhận."
+          ]
+        },
+        {
+          "step_num": 3,
+          "title": "Kê khai và đính kèm giấy tờ",
+          "description": "Kê khai các thông số kỹ thuật xe và tải ảnh giấy tờ gốc.",
+          "sub_steps": []
+        },
+        {
+          "step_num": 4,
+          "title": "Nhận kết quả xử lý",
+          "description": "Công an xã xử lý trong vòng 02 ngày làm việc theo thẩm quyền.",
+          "sub_steps": []
+        }
+      ],
+      "important_notes": [
+        "Liên hệ Đội CSGT hoặc Công an xã Đức Hợp: 02213.815.999 khi cần giải đáp."
+      ]
+    }
   },
   {
     "id": "proc_cap_doi_bien_so",
@@ -663,7 +1144,46 @@
     "fee": "Theo biểu mức thu phí của Bộ Tài chính",
     "online_url": "https://dichvucong.bocongan.gov.vn",
     "views_count": 620,
-    "forms": []
+    "forms": [],
+    "online_guide": {
+      "platform": "Ứng dụng VNeID & Cổng DVC Bộ Công an",
+      "portal_name": "Ứng dụng VNeID (Giao thông)",
+      "prerequisites": [
+        "Tài khoản VNeID Mức 2",
+        "Hồ sơ đăng ký xe chính chủ"
+      ],
+      "steps": [
+        {
+          "step_num": 1,
+          "title": "Đăng nhập VNeID",
+          "description": "Mở ứng dụng VNeID, đăng nhập tài khoản Mức 2.",
+          "sub_steps": []
+        },
+        {
+          "step_num": 2,
+          "title": "Chọn dịch vụ: Cấp đổi, cấp lại chứng nhận đăng ký xe, biển số xe bị mất hoặc mờ, hỏng",
+          "description": "Vào 'Dịch vụ công' -> 'Giao thông' -> Chọn thủ tục tương ứng.",
+          "sub_steps": [
+            "Chọn Công an xã Đức Hợp tiếp nhận."
+          ]
+        },
+        {
+          "step_num": 3,
+          "title": "Kê khai và đính kèm giấy tờ",
+          "description": "Kê khai các thông số kỹ thuật xe và tải ảnh giấy tờ gốc.",
+          "sub_steps": []
+        },
+        {
+          "step_num": 4,
+          "title": "Nhận kết quả xử lý",
+          "description": "Công an xã xử lý trong vòng 02 ngày làm việc theo thẩm quyền.",
+          "sub_steps": []
+        }
+      ],
+      "important_notes": [
+        "Liên hệ Đội CSGT hoặc Công an xã Đức Hợp: 02213.815.999 khi cần giải đáp."
+      ]
+    }
   },
   {
     "id": "proc_phat_nguoi",
@@ -704,7 +1224,50 @@
     "fee": "Tiền phạt theo quyết định xử phạt vi phạm hành chính",
     "online_url": "https://dichvucong.gov.vn",
     "views_count": 2750,
-    "forms": []
+    "forms": [],
+    "online_guide": {
+      "platform": "Cổng DVC Quốc gia & Ứng dụng VNeID (Ví giấy tờ)",
+      "portal_name": "Ứng dụng VNeID / Cổng DVC Quốc gia (dichvucong.gov.vn)",
+      "prerequisites": [
+        "Tài khoản VNeID Mức 2 hoặc tài khoản Cổng DVC Quốc gia.",
+        "Số biên bản vi phạm hoặc Mã số quyết định xử phạt vi phạm hành chính.",
+        "Tài khoản ngân hàng có Internet Banking hoặc ví điện tử để thanh toán."
+      ],
+      "steps": [
+        {
+          "step_num": 1,
+          "title": "Tra cứu quyết định xử phạt trên VNeID",
+          "description": "Vào VNeID -> 'Ví giấy tờ' -> 'Thông tin vi phạm giao thông' hoặc truy cập dichvucong.gov.vn mục 'Nộp phạt vi phạm giao thông'.",
+          "sub_steps": [
+            "Nhập số biên bản hoặc mã quyết định xử phạt."
+          ]
+        },
+        {
+          "step_num": 2,
+          "title": "Kiểm tra mức phạt và chi tiết vi phạm",
+          "description": "Xem chi tiết lỗi vi phạm giao thông, hình ảnh vi phạm (phạt nguội) và số tiền phạt theo quy định.",
+          "sub_steps": []
+        },
+        {
+          "step_num": 3,
+          "title": "Thanh toán tiền phạt trực tuyến",
+          "description": "Chọn thanh toán qua ngân hàng (Vietcombank, BIDV, Agribank, Vietinbank,...) hoặc ví điện tử liên kết.",
+          "sub_steps": [
+            "Hệ thống xuất biên lai điện tử kho bạc nhà nước ngay lập tức."
+          ]
+        },
+        {
+          "step_num": 4,
+          "title": "Đăng ký nhận lại giấy tờ tại nhà",
+          "description": "Chọn hình thức nhận lại Giấy phép lái xe / Đăng ký xe tạm giữ gửi chuyển phát nhanh về tận địa chỉ tại xã Đức Hợp.",
+          "sub_steps": []
+        }
+      ],
+      "important_notes": [
+        "Cảnh sát giao thông KHÔNG BAO GIỜ gọi điện yêu cầu chuyển tiền phạt qua số tài khoản cá nhân!",
+        "Mọi khoản nộp phạt giao thông chỉ thực hiện qua Cổng DVC Quốc gia hoặc nộp trực tiếp tại Kho bạc Nhà nước."
+      ]
+    }
   },
   {
     "id": "proc_tra_lai_giay_to_xe",
@@ -740,7 +1303,46 @@
     "fee": "Phí lưu kho bãi theo quy định (nếu có)",
     "online_url": "https://dichvucong.gov.vn",
     "views_count": 730,
-    "forms": []
+    "forms": [],
+    "online_guide": {
+      "platform": "Ứng dụng VNeID & Cổng DVC Bộ Công an",
+      "portal_name": "Ứng dụng VNeID (Giao thông)",
+      "prerequisites": [
+        "Tài khoản VNeID Mức 2",
+        "Hồ sơ đăng ký xe chính chủ"
+      ],
+      "steps": [
+        {
+          "step_num": 1,
+          "title": "Đăng nhập VNeID",
+          "description": "Mở ứng dụng VNeID, đăng nhập tài khoản Mức 2.",
+          "sub_steps": []
+        },
+        {
+          "step_num": 2,
+          "title": "Chọn dịch vụ: Nhận lại giấy phép lái xe, phương tiện bị tạm giữ sau khi chấp hành xử phạt",
+          "description": "Vào 'Dịch vụ công' -> 'Giao thông' -> Chọn thủ tục tương ứng.",
+          "sub_steps": [
+            "Chọn Công an xã Đức Hợp tiếp nhận."
+          ]
+        },
+        {
+          "step_num": 3,
+          "title": "Kê khai và đính kèm giấy tờ",
+          "description": "Kê khai các thông số kỹ thuật xe và tải ảnh giấy tờ gốc.",
+          "sub_steps": []
+        },
+        {
+          "step_num": 4,
+          "title": "Nhận kết quả xử lý",
+          "description": "Công an xã xử lý trong vòng 02 ngày làm việc theo thẩm quyền.",
+          "sub_steps": []
+        }
+      ],
+      "important_notes": [
+        "Liên hệ Đội CSGT hoặc Công an xã Đức Hợp: 02213.815.999 khi cần giải đáp."
+      ]
+    }
   },
   {
     "id": "proc_pccc",
@@ -781,7 +1383,50 @@
     "fee": "Miễn phí hoàn toàn",
     "online_url": "https://pccc.gov.vn",
     "views_count": 1320,
-    "forms": []
+    "forms": [],
+    "online_guide": {
+      "platform": "Cổng DVC Bộ Công an & Trợ lý số Công an xã Đức Hợp / App Báo cháy 114",
+      "portal_name": "Ứng dụng VNeID & Trợ lý số Công an xã Đức Hợp",
+      "prerequisites": [
+        "Hộ gia đình, hộ kinh doanh, nhà ở kết hợp sản xuất kinh doanh tại xã Đức Hợp.",
+        "Trang bị tối thiểu 01 bình chữa cháy xách tay và mở lối thoát nạn thứ 2."
+      ],
+      "steps": [
+        {
+          "step_num": 1,
+          "title": "Truy cập chuyên mục An toàn PCCC",
+          "description": "Mở Trợ lý số Công an xã Đức Hợp hoặc Cổng DVC Bộ Công an mục Hướng dẫn an toàn PCCC hộ gia đình.",
+          "sub_steps": []
+        },
+        {
+          "step_num": 2,
+          "title": "Đăng ký cam kết an toàn PCCC",
+          "description": "Tải mẫu Bản cam kết an toàn PCCC hộ gia đình, điền thông tin và ký xác nhận.",
+          "sub_steps": [
+            "Kiểm tra bình chữa cháy định kỳ (kim đồng hồ chỉ vạch xanh).",
+            "Mở ô cửa thoát hiểm tại lồng sắt chuồng cọp ban công."
+          ]
+        },
+        {
+          "step_num": 3,
+          "title": "Tham gia mô hình Tổ liên gia an toàn PCCC",
+          "description": "Đăng ký tham gia Tổ liên gia an toàn PCCC và Điểm chữa cháy công cộng tại thôn xóm.",
+          "sub_steps": [
+            "Tham gia các buổi diễn tập kỹ năng thoát nạn và dập lửa do Công an xã tổ chức."
+          ]
+        },
+        {
+          "step_num": 4,
+          "title": "Kích hoạt danh bạ báo cháy khẩn cấp",
+          "description": "Lưu số Báo cháy Quốc gia 114 và số Trực ban Công an xã Đức Hợp 02213.815.999 vào danh bạ khẩn cấp.",
+          "sub_steps": []
+        }
+      ],
+      "important_notes": [
+        "Phong trào 'Nhà tôi có bình chữa cháy' nhằm đảm bảo 100% hộ gia đình trên địa bàn xã Đức Hợp an toàn phòng chống cháy nổ.",
+        "Khi phát hiện rò rỉ gas: Tuyệt đối KHÔNG bật tắt công tắc điện, khóa ngay van bình gas và mở toang cửa thông gió!"
+      ]
+    }
   },
   {
     "id": "proc_to_lien_gia_pccc",
@@ -822,7 +1467,50 @@
     "fee": "Nhà nước hỗ trợ; các hộ tự trang bị chuông báo động liên gia",
     "online_url": "https://pccc.gov.vn",
     "views_count": 940,
-    "forms": []
+    "forms": [],
+    "online_guide": {
+      "platform": "Cổng DVC Bộ Công an & Trợ lý số Công an xã Đức Hợp / App Báo cháy 114",
+      "portal_name": "Ứng dụng VNeID & Trợ lý số Công an xã Đức Hợp",
+      "prerequisites": [
+        "Hộ gia đình, hộ kinh doanh, nhà ở kết hợp sản xuất kinh doanh tại xã Đức Hợp.",
+        "Trang bị tối thiểu 01 bình chữa cháy xách tay và mở lối thoát nạn thứ 2."
+      ],
+      "steps": [
+        {
+          "step_num": 1,
+          "title": "Truy cập chuyên mục An toàn PCCC",
+          "description": "Mở Trợ lý số Công an xã Đức Hợp hoặc Cổng DVC Bộ Công an mục Hướng dẫn an toàn PCCC hộ gia đình.",
+          "sub_steps": []
+        },
+        {
+          "step_num": 2,
+          "title": "Đăng ký cam kết an toàn PCCC",
+          "description": "Tải mẫu Bản cam kết an toàn PCCC hộ gia đình, điền thông tin và ký xác nhận.",
+          "sub_steps": [
+            "Kiểm tra bình chữa cháy định kỳ (kim đồng hồ chỉ vạch xanh).",
+            "Mở ô cửa thoát hiểm tại lồng sắt chuồng cọp ban công."
+          ]
+        },
+        {
+          "step_num": 3,
+          "title": "Tham gia mô hình Tổ liên gia an toàn PCCC",
+          "description": "Đăng ký tham gia Tổ liên gia an toàn PCCC và Điểm chữa cháy công cộng tại thôn xóm.",
+          "sub_steps": [
+            "Tham gia các buổi diễn tập kỹ năng thoát nạn và dập lửa do Công an xã tổ chức."
+          ]
+        },
+        {
+          "step_num": 4,
+          "title": "Kích hoạt danh bạ báo cháy khẩn cấp",
+          "description": "Lưu số Báo cháy Quốc gia 114 và số Trực ban Công an xã Đức Hợp 02213.815.999 vào danh bạ khẩn cấp.",
+          "sub_steps": []
+        }
+      ],
+      "important_notes": [
+        "Phong trào 'Nhà tôi có bình chữa cháy' nhằm đảm bảo 100% hộ gia đình trên địa bàn xã Đức Hợp an toàn phòng chống cháy nổ.",
+        "Khi phát hiện rò rỉ gas: Tuyệt đối KHÔNG bật tắt công tắc điện, khóa ngay van bình gas và mở toang cửa thông gió!"
+      ]
+    }
   },
   {
     "id": "proc_diem_chua_chay_cong_cong",
@@ -857,7 +1545,50 @@
     "fee": "Kinh phí ngân sách và xã hội hóa",
     "online_url": "https://pccc.gov.vn",
     "views_count": 580,
-    "forms": []
+    "forms": [],
+    "online_guide": {
+      "platform": "Cổng DVC Bộ Công an & Trợ lý số Công an xã Đức Hợp / App Báo cháy 114",
+      "portal_name": "Ứng dụng VNeID & Trợ lý số Công an xã Đức Hợp",
+      "prerequisites": [
+        "Hộ gia đình, hộ kinh doanh, nhà ở kết hợp sản xuất kinh doanh tại xã Đức Hợp.",
+        "Trang bị tối thiểu 01 bình chữa cháy xách tay và mở lối thoát nạn thứ 2."
+      ],
+      "steps": [
+        {
+          "step_num": 1,
+          "title": "Truy cập chuyên mục An toàn PCCC",
+          "description": "Mở Trợ lý số Công an xã Đức Hợp hoặc Cổng DVC Bộ Công an mục Hướng dẫn an toàn PCCC hộ gia đình.",
+          "sub_steps": []
+        },
+        {
+          "step_num": 2,
+          "title": "Đăng ký cam kết an toàn PCCC",
+          "description": "Tải mẫu Bản cam kết an toàn PCCC hộ gia đình, điền thông tin và ký xác nhận.",
+          "sub_steps": [
+            "Kiểm tra bình chữa cháy định kỳ (kim đồng hồ chỉ vạch xanh).",
+            "Mở ô cửa thoát hiểm tại lồng sắt chuồng cọp ban công."
+          ]
+        },
+        {
+          "step_num": 3,
+          "title": "Tham gia mô hình Tổ liên gia an toàn PCCC",
+          "description": "Đăng ký tham gia Tổ liên gia an toàn PCCC và Điểm chữa cháy công cộng tại thôn xóm.",
+          "sub_steps": [
+            "Tham gia các buổi diễn tập kỹ năng thoát nạn và dập lửa do Công an xã tổ chức."
+          ]
+        },
+        {
+          "step_num": 4,
+          "title": "Kích hoạt danh bạ báo cháy khẩn cấp",
+          "description": "Lưu số Báo cháy Quốc gia 114 và số Trực ban Công an xã Đức Hợp 02213.815.999 vào danh bạ khẩn cấp.",
+          "sub_steps": []
+        }
+      ],
+      "important_notes": [
+        "Phong trào 'Nhà tôi có bình chữa cháy' nhằm đảm bảo 100% hộ gia đình trên địa bàn xã Đức Hợp an toàn phòng chống cháy nổ.",
+        "Khi phát hiện rò rỉ gas: Tuyệt đối KHÔNG bật tắt công tắc điện, khóa ngay van bình gas và mở toang cửa thông gió!"
+      ]
+    }
   },
   {
     "id": "proc_tap_huan_pccc_dan_phong",
@@ -897,7 +1628,50 @@
     "fee": "Theo quy định đào tạo nghiệp vụ",
     "online_url": "https://pccc.gov.vn",
     "views_count": 490,
-    "forms": []
+    "forms": [],
+    "online_guide": {
+      "platform": "Cổng DVC Bộ Công an & Trợ lý số Công an xã Đức Hợp / App Báo cháy 114",
+      "portal_name": "Ứng dụng VNeID & Trợ lý số Công an xã Đức Hợp",
+      "prerequisites": [
+        "Hộ gia đình, hộ kinh doanh, nhà ở kết hợp sản xuất kinh doanh tại xã Đức Hợp.",
+        "Trang bị tối thiểu 01 bình chữa cháy xách tay và mở lối thoát nạn thứ 2."
+      ],
+      "steps": [
+        {
+          "step_num": 1,
+          "title": "Truy cập chuyên mục An toàn PCCC",
+          "description": "Mở Trợ lý số Công an xã Đức Hợp hoặc Cổng DVC Bộ Công an mục Hướng dẫn an toàn PCCC hộ gia đình.",
+          "sub_steps": []
+        },
+        {
+          "step_num": 2,
+          "title": "Đăng ký cam kết an toàn PCCC",
+          "description": "Tải mẫu Bản cam kết an toàn PCCC hộ gia đình, điền thông tin và ký xác nhận.",
+          "sub_steps": [
+            "Kiểm tra bình chữa cháy định kỳ (kim đồng hồ chỉ vạch xanh).",
+            "Mở ô cửa thoát hiểm tại lồng sắt chuồng cọp ban công."
+          ]
+        },
+        {
+          "step_num": 3,
+          "title": "Tham gia mô hình Tổ liên gia an toàn PCCC",
+          "description": "Đăng ký tham gia Tổ liên gia an toàn PCCC và Điểm chữa cháy công cộng tại thôn xóm.",
+          "sub_steps": [
+            "Tham gia các buổi diễn tập kỹ năng thoát nạn và dập lửa do Công an xã tổ chức."
+          ]
+        },
+        {
+          "step_num": 4,
+          "title": "Kích hoạt danh bạ báo cháy khẩn cấp",
+          "description": "Lưu số Báo cháy Quốc gia 114 và số Trực ban Công an xã Đức Hợp 02213.815.999 vào danh bạ khẩn cấp.",
+          "sub_steps": []
+        }
+      ],
+      "important_notes": [
+        "Phong trào 'Nhà tôi có bình chữa cháy' nhằm đảm bảo 100% hộ gia đình trên địa bàn xã Đức Hợp an toàn phòng chống cháy nổ.",
+        "Khi phát hiện rò rỉ gas: Tuyệt đối KHÔNG bật tắt công tắc điện, khóa ngay van bình gas và mở toang cửa thông gió!"
+      ]
+    }
   },
   {
     "id": "proc_khai_bao_su_co_chay",
@@ -938,7 +1712,50 @@
     "fee": "Miễn phí",
     "online_url": "https://pccc.gov.vn",
     "views_count": 610,
-    "forms": []
+    "forms": [],
+    "online_guide": {
+      "platform": "Cổng DVC Bộ Công an & Trợ lý số Công an xã Đức Hợp / App Báo cháy 114",
+      "portal_name": "Ứng dụng VNeID & Trợ lý số Công an xã Đức Hợp",
+      "prerequisites": [
+        "Hộ gia đình, hộ kinh doanh, nhà ở kết hợp sản xuất kinh doanh tại xã Đức Hợp.",
+        "Trang bị tối thiểu 01 bình chữa cháy xách tay và mở lối thoát nạn thứ 2."
+      ],
+      "steps": [
+        {
+          "step_num": 1,
+          "title": "Truy cập chuyên mục An toàn PCCC",
+          "description": "Mở Trợ lý số Công an xã Đức Hợp hoặc Cổng DVC Bộ Công an mục Hướng dẫn an toàn PCCC hộ gia đình.",
+          "sub_steps": []
+        },
+        {
+          "step_num": 2,
+          "title": "Đăng ký cam kết an toàn PCCC",
+          "description": "Tải mẫu Bản cam kết an toàn PCCC hộ gia đình, điền thông tin và ký xác nhận.",
+          "sub_steps": [
+            "Kiểm tra bình chữa cháy định kỳ (kim đồng hồ chỉ vạch xanh).",
+            "Mở ô cửa thoát hiểm tại lồng sắt chuồng cọp ban công."
+          ]
+        },
+        {
+          "step_num": 3,
+          "title": "Tham gia mô hình Tổ liên gia an toàn PCCC",
+          "description": "Đăng ký tham gia Tổ liên gia an toàn PCCC và Điểm chữa cháy công cộng tại thôn xóm.",
+          "sub_steps": [
+            "Tham gia các buổi diễn tập kỹ năng thoát nạn và dập lửa do Công an xã tổ chức."
+          ]
+        },
+        {
+          "step_num": 4,
+          "title": "Kích hoạt danh bạ báo cháy khẩn cấp",
+          "description": "Lưu số Báo cháy Quốc gia 114 và số Trực ban Công an xã Đức Hợp 02213.815.999 vào danh bạ khẩn cấp.",
+          "sub_steps": []
+        }
+      ],
+      "important_notes": [
+        "Phong trào 'Nhà tôi có bình chữa cháy' nhằm đảm bảo 100% hộ gia đình trên địa bàn xã Đức Hợp an toàn phòng chống cháy nổ.",
+        "Khi phát hiện rò rỉ gas: Tuyệt đối KHÔNG bật tắt công tắc điện, khóa ngay van bình gas và mở toang cửa thông gió!"
+      ]
+    }
   },
   {
     "id": "proc_dang_ky_nha_tro",
@@ -974,7 +1791,56 @@
     "fee": "Miễn phí",
     "online_url": "https://dichvucong.bocongan.gov.vn",
     "views_count": 780,
-    "forms": []
+    "forms": [],
+    "online_guide": {
+      "platform": "Ứng dụng VNeID (Tính năng Kiến nghị, phản ánh về ANTT) & Trực ban 24/24",
+      "portal_name": "Ứng dụng VNeID / Đường dây nóng Công an xã Đức Hợp",
+      "prerequisites": [
+        "Mọi công dân có thông tin về tội phạm, hành vi vi phạm pháp luật, lừa đảo mạng hoặc bạo lực gia đình."
+      ],
+      "steps": [
+        {
+          "step_num": 1,
+          "title": "Mở VNeID vào mục Phản ánh ANTT",
+          "description": "Tại trang chủ VNeID, chọn icon 'Dịch vụ khác' -> Chọn 'Kiến nghị, phản ánh về ANTT'.",
+          "sub_steps": [
+            "Bấm nút 'Tạo mới yêu cầu phản ánh, tố giác'."
+          ]
+        },
+        {
+          "step_num": 2,
+          "title": "Chọn hình thức Ẩn danh hoặc Công khai",
+          "description": "Công dân có thể chọn 'Ẩn danh' để giữ bí mật tuyệt đối thông tin người báo tin.",
+          "sub_steps": [
+            "Bảo đảm an toàn tuyệt đối tính mạng, tài sản của người dân theo Luật Tố tụng hình sự."
+          ]
+        },
+        {
+          "step_num": 3,
+          "title": "Mô tả nội dung vụ việc",
+          "description": "Chọn loại hành vi vi phạm (Lừa đảo mạng, trộm cắp, ma túy, cờ bạc, bạo lực gia đình...), thời gian, địa điểm xảy ra tại xã Đức Hợp.",
+          "sub_steps": []
+        },
+        {
+          "step_num": 4,
+          "title": "Đính kèm hình ảnh/video/sao kê chứng cứ",
+          "description": "Tải lên ảnh chụp màn hình tin nhắn tống tiền/lừa đảo, clip ghi hình hoặc sao kê tài khoản ngân hàng.",
+          "sub_steps": []
+        },
+        {
+          "step_num": 5,
+          "title": "Gửi tin báo tới Công an xã Đức Hợp",
+          "description": "Chọn nơi nhận tin: Công an xã Đức Hợp, tỉnh Hưng Yên. Cán bộ trực ban tiếp nhận và xử lý trong vòng 24 giờ.",
+          "sub_steps": [
+            "Trường hợp khẩn cấp gọi ngay số Trực ban 24/24: 02213.815.999."
+          ]
+        }
+      ],
+      "important_notes": [
+        "Công an xã Đức Hợp bảo mật tuyệt đối danh tính người tố giác tội phạm.",
+        "Nghiêm cấm hành vi lợi dụng tố giác để vu khống, xúc phạm danh dự người khác."
+      ]
+    }
   },
   {
     "id": "proc_thu_hoi_vu_khi",
@@ -1008,7 +1874,56 @@
     "fee": "Miễn phí (Có chính sách biểu dương, khen thưởng người tự giác giao nộp)",
     "online_url": "https://dichvucong.bocongan.gov.vn",
     "views_count": 1040,
-    "forms": []
+    "forms": [],
+    "online_guide": {
+      "platform": "Ứng dụng VNeID (Tính năng Kiến nghị, phản ánh về ANTT) & Trực ban 24/24",
+      "portal_name": "Ứng dụng VNeID / Đường dây nóng Công an xã Đức Hợp",
+      "prerequisites": [
+        "Mọi công dân có thông tin về tội phạm, hành vi vi phạm pháp luật, lừa đảo mạng hoặc bạo lực gia đình."
+      ],
+      "steps": [
+        {
+          "step_num": 1,
+          "title": "Mở VNeID vào mục Phản ánh ANTT",
+          "description": "Tại trang chủ VNeID, chọn icon 'Dịch vụ khác' -> Chọn 'Kiến nghị, phản ánh về ANTT'.",
+          "sub_steps": [
+            "Bấm nút 'Tạo mới yêu cầu phản ánh, tố giác'."
+          ]
+        },
+        {
+          "step_num": 2,
+          "title": "Chọn hình thức Ẩn danh hoặc Công khai",
+          "description": "Công dân có thể chọn 'Ẩn danh' để giữ bí mật tuyệt đối thông tin người báo tin.",
+          "sub_steps": [
+            "Bảo đảm an toàn tuyệt đối tính mạng, tài sản của người dân theo Luật Tố tụng hình sự."
+          ]
+        },
+        {
+          "step_num": 3,
+          "title": "Mô tả nội dung vụ việc",
+          "description": "Chọn loại hành vi vi phạm (Lừa đảo mạng, trộm cắp, ma túy, cờ bạc, bạo lực gia đình...), thời gian, địa điểm xảy ra tại xã Đức Hợp.",
+          "sub_steps": []
+        },
+        {
+          "step_num": 4,
+          "title": "Đính kèm hình ảnh/video/sao kê chứng cứ",
+          "description": "Tải lên ảnh chụp màn hình tin nhắn tống tiền/lừa đảo, clip ghi hình hoặc sao kê tài khoản ngân hàng.",
+          "sub_steps": []
+        },
+        {
+          "step_num": 5,
+          "title": "Gửi tin báo tới Công an xã Đức Hợp",
+          "description": "Chọn nơi nhận tin: Công an xã Đức Hợp, tỉnh Hưng Yên. Cán bộ trực ban tiếp nhận và xử lý trong vòng 24 giờ.",
+          "sub_steps": [
+            "Trường hợp khẩn cấp gọi ngay số Trực ban 24/24: 02213.815.999."
+          ]
+        }
+      ],
+      "important_notes": [
+        "Công an xã Đức Hợp bảo mật tuyệt đối danh tính người tố giác tội phạm.",
+        "Nghiêm cấm hành vi lợi dụng tố giác để vu khống, xúc phạm danh dự người khác."
+      ]
+    }
   },
   {
     "id": "proc_khai_bao_karaoke",
@@ -1043,7 +1958,56 @@
     "fee": "Miễn phí",
     "online_url": "https://dichvucong.bocongan.gov.vn",
     "views_count": 530,
-    "forms": []
+    "forms": [],
+    "online_guide": {
+      "platform": "Ứng dụng VNeID (Tính năng Kiến nghị, phản ánh về ANTT) & Trực ban 24/24",
+      "portal_name": "Ứng dụng VNeID / Đường dây nóng Công an xã Đức Hợp",
+      "prerequisites": [
+        "Mọi công dân có thông tin về tội phạm, hành vi vi phạm pháp luật, lừa đảo mạng hoặc bạo lực gia đình."
+      ],
+      "steps": [
+        {
+          "step_num": 1,
+          "title": "Mở VNeID vào mục Phản ánh ANTT",
+          "description": "Tại trang chủ VNeID, chọn icon 'Dịch vụ khác' -> Chọn 'Kiến nghị, phản ánh về ANTT'.",
+          "sub_steps": [
+            "Bấm nút 'Tạo mới yêu cầu phản ánh, tố giác'."
+          ]
+        },
+        {
+          "step_num": 2,
+          "title": "Chọn hình thức Ẩn danh hoặc Công khai",
+          "description": "Công dân có thể chọn 'Ẩn danh' để giữ bí mật tuyệt đối thông tin người báo tin.",
+          "sub_steps": [
+            "Bảo đảm an toàn tuyệt đối tính mạng, tài sản của người dân theo Luật Tố tụng hình sự."
+          ]
+        },
+        {
+          "step_num": 3,
+          "title": "Mô tả nội dung vụ việc",
+          "description": "Chọn loại hành vi vi phạm (Lừa đảo mạng, trộm cắp, ma túy, cờ bạc, bạo lực gia đình...), thời gian, địa điểm xảy ra tại xã Đức Hợp.",
+          "sub_steps": []
+        },
+        {
+          "step_num": 4,
+          "title": "Đính kèm hình ảnh/video/sao kê chứng cứ",
+          "description": "Tải lên ảnh chụp màn hình tin nhắn tống tiền/lừa đảo, clip ghi hình hoặc sao kê tài khoản ngân hàng.",
+          "sub_steps": []
+        },
+        {
+          "step_num": 5,
+          "title": "Gửi tin báo tới Công an xã Đức Hợp",
+          "description": "Chọn nơi nhận tin: Công an xã Đức Hợp, tỉnh Hưng Yên. Cán bộ trực ban tiếp nhận và xử lý trong vòng 24 giờ.",
+          "sub_steps": [
+            "Trường hợp khẩn cấp gọi ngay số Trực ban 24/24: 02213.815.999."
+          ]
+        }
+      ],
+      "important_notes": [
+        "Công an xã Đức Hợp bảo mật tuyệt đối danh tính người tố giác tội phạm.",
+        "Nghiêm cấm hành vi lợi dụng tố giác để vu khống, xúc phạm danh dự người khác."
+      ]
+    }
   },
   {
     "id": "proc_quan_ly_cam_do",
@@ -1078,7 +2042,56 @@
     "fee": "Miễn phí",
     "online_url": "https://dichvucong.bocongan.gov.vn",
     "views_count": 480,
-    "forms": []
+    "forms": [],
+    "online_guide": {
+      "platform": "Ứng dụng VNeID (Tính năng Kiến nghị, phản ánh về ANTT) & Trực ban 24/24",
+      "portal_name": "Ứng dụng VNeID / Đường dây nóng Công an xã Đức Hợp",
+      "prerequisites": [
+        "Mọi công dân có thông tin về tội phạm, hành vi vi phạm pháp luật, lừa đảo mạng hoặc bạo lực gia đình."
+      ],
+      "steps": [
+        {
+          "step_num": 1,
+          "title": "Mở VNeID vào mục Phản ánh ANTT",
+          "description": "Tại trang chủ VNeID, chọn icon 'Dịch vụ khác' -> Chọn 'Kiến nghị, phản ánh về ANTT'.",
+          "sub_steps": [
+            "Bấm nút 'Tạo mới yêu cầu phản ánh, tố giác'."
+          ]
+        },
+        {
+          "step_num": 2,
+          "title": "Chọn hình thức Ẩn danh hoặc Công khai",
+          "description": "Công dân có thể chọn 'Ẩn danh' để giữ bí mật tuyệt đối thông tin người báo tin.",
+          "sub_steps": [
+            "Bảo đảm an toàn tuyệt đối tính mạng, tài sản của người dân theo Luật Tố tụng hình sự."
+          ]
+        },
+        {
+          "step_num": 3,
+          "title": "Mô tả nội dung vụ việc",
+          "description": "Chọn loại hành vi vi phạm (Lừa đảo mạng, trộm cắp, ma túy, cờ bạc, bạo lực gia đình...), thời gian, địa điểm xảy ra tại xã Đức Hợp.",
+          "sub_steps": []
+        },
+        {
+          "step_num": 4,
+          "title": "Đính kèm hình ảnh/video/sao kê chứng cứ",
+          "description": "Tải lên ảnh chụp màn hình tin nhắn tống tiền/lừa đảo, clip ghi hình hoặc sao kê tài khoản ngân hàng.",
+          "sub_steps": []
+        },
+        {
+          "step_num": 5,
+          "title": "Gửi tin báo tới Công an xã Đức Hợp",
+          "description": "Chọn nơi nhận tin: Công an xã Đức Hợp, tỉnh Hưng Yên. Cán bộ trực ban tiếp nhận và xử lý trong vòng 24 giờ.",
+          "sub_steps": [
+            "Trường hợp khẩn cấp gọi ngay số Trực ban 24/24: 02213.815.999."
+          ]
+        }
+      ],
+      "important_notes": [
+        "Công an xã Đức Hợp bảo mật tuyệt đối danh tính người tố giác tội phạm.",
+        "Nghiêm cấm hành vi lợi dụng tố giác để vu khống, xúc phạm danh dự người khác."
+      ]
+    }
   },
   {
     "id": "proc_xac_nhan_ly_lich_tu_phap",
@@ -1118,7 +2131,52 @@
     "fee": "200.000 VNĐ / lần cấp (Giảm 50% cho học sinh, sinh viên, người có công)",
     "online_url": "https://vneid.gov.vn",
     "views_count": 2150,
-    "forms": []
+    "forms": [],
+    "online_guide": {
+      "platform": "Ứng dụng VNeID (Mức 2) & Cổng DVC Bộ Công an",
+      "portal_name": "Ứng dụng VNeID (Mục Cư trú)",
+      "prerequisites": [
+        "Tài khoản Định danh điện tử VNeID Mức 2",
+        "Giấy tờ pháp lý có liên quan theo quy định"
+      ],
+      "steps": [
+        {
+          "step_num": 1,
+          "title": "Đăng nhập VNeID Mức 2",
+          "description": "Mở app VNeID trên điện thoại, đăng nhập tài khoản Mức 2.",
+          "sub_steps": []
+        },
+        {
+          "step_num": 2,
+          "title": "Chọn thủ tục: Hướng dẫn cấp Phiếu Lý lịch tư pháp trên ứng dụng VNeID",
+          "description": "Vào mục 'Thủ tục hành chính' -> 'Cư trú' -> Chọn thủ tục tương ứng.",
+          "sub_steps": [
+            "Chọn cơ quan giải quyết: Công an xã Đức Hợp, tỉnh Hưng Yên."
+          ]
+        },
+        {
+          "step_num": 3,
+          "title": "Kê khai hồ sơ điện tử",
+          "description": "Kiểm tra thông tin cá nhân và điền các nội dung yêu cầu của thủ tục.",
+          "sub_steps": []
+        },
+        {
+          "step_num": 4,
+          "title": "Đính kèm tệp tài liệu minh chứng",
+          "description": "Chụp ảnh bản chính các giấy tờ liên quan rõ nét, không mất góc.",
+          "sub_steps": []
+        },
+        {
+          "step_num": 5,
+          "title": "Gửi phê duyệt và nhận kết quả",
+          "description": "Nhận thông báo tiến độ và kết quả giải quyết trực tiếp trên ứng dụng VNeID.",
+          "sub_steps": []
+        }
+      ],
+      "important_notes": [
+        "Mọi thông tin cư trú đều được số hóa trên Cơ sở dữ liệu quốc gia về dân cư, không cần mang theo sổ giấy."
+      ]
+    }
   },
   {
     "id": "proc_to_giac_toi_pham",
@@ -1153,7 +2211,56 @@
     "fee": "Miễn phí hoàn toàn (Bảo vệ tuyệt đối bí mật danh tính người tố giác)",
     "online_url": "https://vneid.gov.vn",
     "views_count": 1850,
-    "forms": []
+    "forms": [],
+    "online_guide": {
+      "platform": "Ứng dụng VNeID (Tính năng Kiến nghị, phản ánh về ANTT) & Trực ban 24/24",
+      "portal_name": "Ứng dụng VNeID / Đường dây nóng Công an xã Đức Hợp",
+      "prerequisites": [
+        "Mọi công dân có thông tin về tội phạm, hành vi vi phạm pháp luật, lừa đảo mạng hoặc bạo lực gia đình."
+      ],
+      "steps": [
+        {
+          "step_num": 1,
+          "title": "Mở VNeID vào mục Phản ánh ANTT",
+          "description": "Tại trang chủ VNeID, chọn icon 'Dịch vụ khác' -> Chọn 'Kiến nghị, phản ánh về ANTT'.",
+          "sub_steps": [
+            "Bấm nút 'Tạo mới yêu cầu phản ánh, tố giác'."
+          ]
+        },
+        {
+          "step_num": 2,
+          "title": "Chọn hình thức Ẩn danh hoặc Công khai",
+          "description": "Công dân có thể chọn 'Ẩn danh' để giữ bí mật tuyệt đối thông tin người báo tin.",
+          "sub_steps": [
+            "Bảo đảm an toàn tuyệt đối tính mạng, tài sản của người dân theo Luật Tố tụng hình sự."
+          ]
+        },
+        {
+          "step_num": 3,
+          "title": "Mô tả nội dung vụ việc",
+          "description": "Chọn loại hành vi vi phạm (Lừa đảo mạng, trộm cắp, ma túy, cờ bạc, bạo lực gia đình...), thời gian, địa điểm xảy ra tại xã Đức Hợp.",
+          "sub_steps": []
+        },
+        {
+          "step_num": 4,
+          "title": "Đính kèm hình ảnh/video/sao kê chứng cứ",
+          "description": "Tải lên ảnh chụp màn hình tin nhắn tống tiền/lừa đảo, clip ghi hình hoặc sao kê tài khoản ngân hàng.",
+          "sub_steps": []
+        },
+        {
+          "step_num": 5,
+          "title": "Gửi tin báo tới Công an xã Đức Hợp",
+          "description": "Chọn nơi nhận tin: Công an xã Đức Hợp, tỉnh Hưng Yên. Cán bộ trực ban tiếp nhận và xử lý trong vòng 24 giờ.",
+          "sub_steps": [
+            "Trường hợp khẩn cấp gọi ngay số Trực ban 24/24: 02213.815.999."
+          ]
+        }
+      ],
+      "important_notes": [
+        "Công an xã Đức Hợp bảo mật tuyệt đối danh tính người tố giác tội phạm.",
+        "Nghiêm cấm hành vi lợi dụng tố giác để vu khống, xúc phạm danh dự người khác."
+      ]
+    }
   },
   {
     "id": "proc_to_giac_lua_dao_mang",
@@ -1190,7 +2297,56 @@
     "fee": "Miễn phí",
     "online_url": "https://canhbao.ncsc.gov.vn",
     "views_count": 3200,
-    "forms": []
+    "forms": [],
+    "online_guide": {
+      "platform": "Ứng dụng VNeID (Tính năng Kiến nghị, phản ánh về ANTT) & Trực ban 24/24",
+      "portal_name": "Ứng dụng VNeID / Đường dây nóng Công an xã Đức Hợp",
+      "prerequisites": [
+        "Mọi công dân có thông tin về tội phạm, hành vi vi phạm pháp luật, lừa đảo mạng hoặc bạo lực gia đình."
+      ],
+      "steps": [
+        {
+          "step_num": 1,
+          "title": "Mở VNeID vào mục Phản ánh ANTT",
+          "description": "Tại trang chủ VNeID, chọn icon 'Dịch vụ khác' -> Chọn 'Kiến nghị, phản ánh về ANTT'.",
+          "sub_steps": [
+            "Bấm nút 'Tạo mới yêu cầu phản ánh, tố giác'."
+          ]
+        },
+        {
+          "step_num": 2,
+          "title": "Chọn hình thức Ẩn danh hoặc Công khai",
+          "description": "Công dân có thể chọn 'Ẩn danh' để giữ bí mật tuyệt đối thông tin người báo tin.",
+          "sub_steps": [
+            "Bảo đảm an toàn tuyệt đối tính mạng, tài sản của người dân theo Luật Tố tụng hình sự."
+          ]
+        },
+        {
+          "step_num": 3,
+          "title": "Mô tả nội dung vụ việc",
+          "description": "Chọn loại hành vi vi phạm (Lừa đảo mạng, trộm cắp, ma túy, cờ bạc, bạo lực gia đình...), thời gian, địa điểm xảy ra tại xã Đức Hợp.",
+          "sub_steps": []
+        },
+        {
+          "step_num": 4,
+          "title": "Đính kèm hình ảnh/video/sao kê chứng cứ",
+          "description": "Tải lên ảnh chụp màn hình tin nhắn tống tiền/lừa đảo, clip ghi hình hoặc sao kê tài khoản ngân hàng.",
+          "sub_steps": []
+        },
+        {
+          "step_num": 5,
+          "title": "Gửi tin báo tới Công an xã Đức Hợp",
+          "description": "Chọn nơi nhận tin: Công an xã Đức Hợp, tỉnh Hưng Yên. Cán bộ trực ban tiếp nhận và xử lý trong vòng 24 giờ.",
+          "sub_steps": [
+            "Trường hợp khẩn cấp gọi ngay số Trực ban 24/24: 02213.815.999."
+          ]
+        }
+      ],
+      "important_notes": [
+        "Công an xã Đức Hợp bảo mật tuyệt đối danh tính người tố giác tội phạm.",
+        "Nghiêm cấm hành vi lợi dụng tố giác để vu khống, xúc phạm danh dự người khác."
+      ]
+    }
   },
   {
     "id": "proc_hoa_giai_mauchuan",
@@ -1225,7 +2381,56 @@
     "fee": "Miễn phí",
     "online_url": "https://dichvucong.bocongan.gov.vn",
     "views_count": 510,
-    "forms": []
+    "forms": [],
+    "online_guide": {
+      "platform": "Ứng dụng VNeID (Tính năng Kiến nghị, phản ánh về ANTT) & Trực ban 24/24",
+      "portal_name": "Ứng dụng VNeID / Đường dây nóng Công an xã Đức Hợp",
+      "prerequisites": [
+        "Mọi công dân có thông tin về tội phạm, hành vi vi phạm pháp luật, lừa đảo mạng hoặc bạo lực gia đình."
+      ],
+      "steps": [
+        {
+          "step_num": 1,
+          "title": "Mở VNeID vào mục Phản ánh ANTT",
+          "description": "Tại trang chủ VNeID, chọn icon 'Dịch vụ khác' -> Chọn 'Kiến nghị, phản ánh về ANTT'.",
+          "sub_steps": [
+            "Bấm nút 'Tạo mới yêu cầu phản ánh, tố giác'."
+          ]
+        },
+        {
+          "step_num": 2,
+          "title": "Chọn hình thức Ẩn danh hoặc Công khai",
+          "description": "Công dân có thể chọn 'Ẩn danh' để giữ bí mật tuyệt đối thông tin người báo tin.",
+          "sub_steps": [
+            "Bảo đảm an toàn tuyệt đối tính mạng, tài sản của người dân theo Luật Tố tụng hình sự."
+          ]
+        },
+        {
+          "step_num": 3,
+          "title": "Mô tả nội dung vụ việc",
+          "description": "Chọn loại hành vi vi phạm (Lừa đảo mạng, trộm cắp, ma túy, cờ bạc, bạo lực gia đình...), thời gian, địa điểm xảy ra tại xã Đức Hợp.",
+          "sub_steps": []
+        },
+        {
+          "step_num": 4,
+          "title": "Đính kèm hình ảnh/video/sao kê chứng cứ",
+          "description": "Tải lên ảnh chụp màn hình tin nhắn tống tiền/lừa đảo, clip ghi hình hoặc sao kê tài khoản ngân hàng.",
+          "sub_steps": []
+        },
+        {
+          "step_num": 5,
+          "title": "Gửi tin báo tới Công an xã Đức Hợp",
+          "description": "Chọn nơi nhận tin: Công an xã Đức Hợp, tỉnh Hưng Yên. Cán bộ trực ban tiếp nhận và xử lý trong vòng 24 giờ.",
+          "sub_steps": [
+            "Trường hợp khẩn cấp gọi ngay số Trực ban 24/24: 02213.815.999."
+          ]
+        }
+      ],
+      "important_notes": [
+        "Công an xã Đức Hợp bảo mật tuyệt đối danh tính người tố giác tội phạm.",
+        "Nghiêm cấm hành vi lợi dụng tố giác để vu khống, xúc phạm danh dự người khác."
+      ]
+    }
   },
   {
     "id": "proc_bao_ve_antt_co_so",
@@ -1262,6 +2467,55 @@
     "fee": "Miễn phí hoàn toàn; Lực lượng được hưởng phụ cấp hàng tháng theo Nghị quyết HĐND tỉnh Hưng Yên",
     "online_url": "https://bocongan.gov.vn",
     "views_count": 1210,
-    "forms": []
+    "forms": [],
+    "online_guide": {
+      "platform": "Ứng dụng VNeID (Tính năng Kiến nghị, phản ánh về ANTT) & Trực ban 24/24",
+      "portal_name": "Ứng dụng VNeID / Đường dây nóng Công an xã Đức Hợp",
+      "prerequisites": [
+        "Mọi công dân có thông tin về tội phạm, hành vi vi phạm pháp luật, lừa đảo mạng hoặc bạo lực gia đình."
+      ],
+      "steps": [
+        {
+          "step_num": 1,
+          "title": "Mở VNeID vào mục Phản ánh ANTT",
+          "description": "Tại trang chủ VNeID, chọn icon 'Dịch vụ khác' -> Chọn 'Kiến nghị, phản ánh về ANTT'.",
+          "sub_steps": [
+            "Bấm nút 'Tạo mới yêu cầu phản ánh, tố giác'."
+          ]
+        },
+        {
+          "step_num": 2,
+          "title": "Chọn hình thức Ẩn danh hoặc Công khai",
+          "description": "Công dân có thể chọn 'Ẩn danh' để giữ bí mật tuyệt đối thông tin người báo tin.",
+          "sub_steps": [
+            "Bảo đảm an toàn tuyệt đối tính mạng, tài sản của người dân theo Luật Tố tụng hình sự."
+          ]
+        },
+        {
+          "step_num": 3,
+          "title": "Mô tả nội dung vụ việc",
+          "description": "Chọn loại hành vi vi phạm (Lừa đảo mạng, trộm cắp, ma túy, cờ bạc, bạo lực gia đình...), thời gian, địa điểm xảy ra tại xã Đức Hợp.",
+          "sub_steps": []
+        },
+        {
+          "step_num": 4,
+          "title": "Đính kèm hình ảnh/video/sao kê chứng cứ",
+          "description": "Tải lên ảnh chụp màn hình tin nhắn tống tiền/lừa đảo, clip ghi hình hoặc sao kê tài khoản ngân hàng.",
+          "sub_steps": []
+        },
+        {
+          "step_num": 5,
+          "title": "Gửi tin báo tới Công an xã Đức Hợp",
+          "description": "Chọn nơi nhận tin: Công an xã Đức Hợp, tỉnh Hưng Yên. Cán bộ trực ban tiếp nhận và xử lý trong vòng 24 giờ.",
+          "sub_steps": [
+            "Trường hợp khẩn cấp gọi ngay số Trực ban 24/24: 02213.815.999."
+          ]
+        }
+      ],
+      "important_notes": [
+        "Công an xã Đức Hợp bảo mật tuyệt đối danh tính người tố giác tội phạm.",
+        "Nghiêm cấm hành vi lợi dụng tố giác để vu khống, xúc phạm danh dự người khác."
+      ]
+    }
   }
 ]

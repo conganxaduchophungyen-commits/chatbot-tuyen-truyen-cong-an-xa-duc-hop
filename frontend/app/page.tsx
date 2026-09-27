@@ -38,7 +38,9 @@ import {
   Award,
   BookOpen,
   Filter,
-  QrCode
+  QrCode,
+  Smartphone,
+  ChevronLeft
 } from 'lucide-react';
 
 function HomePageContent() {
@@ -51,6 +53,8 @@ function HomePageContent() {
   const [searchQuery, setSearchQuery] = useState('');
   const [scamSearchQuery, setScamSearchQuery] = useState('');
   const [loading, setLoading] = useState(false);
+  const [procPage, setProcPage] = useState(1);
+  const PROCEDURES_PER_PAGE = 6;
 
   // Đồng bộ tab từ URL search params (VD: ?tab=procedures, ?tab=scam, ?tab=quiz)
   useEffect(() => {
@@ -78,6 +82,7 @@ function HomePageContent() {
 
   const handleSearch = async (e?: React.FormEvent) => {
     if (e) e.preventDefault();
+    setProcPage(1);
     setLoading(true);
     const data = await getProcedures(selectedCategory || undefined, searchQuery);
     setProcedures(data);
@@ -86,6 +91,7 @@ function HomePageContent() {
 
   const handleSelectCategory = async (catId: string | null) => {
     setSelectedCategory(catId);
+    setProcPage(1);
     setLoading(true);
     const data = await getProcedures(catId || undefined, searchQuery);
     setProcedures(data);
@@ -476,22 +482,33 @@ function HomePageContent() {
               </div>
             </div>
 
-            {/* DANH SÁCH 6 THỦ TỤC HÀNH CHÍNH */}
+            {/* DANH SÁCH 6 THỦ TỤC HÀNH CHÍNH (3 TRÊN, 3 DƯỚI - PHÂN TRANG) */}
             <div>
-              <div className="flex items-center justify-between mb-4">
-                <h2 className="text-lg sm:text-xl font-black text-slate-900">
-                  Danh Sách Thủ Tục Tiếp Nhận Tại Công An Xã ({procedures.length})
-                </h2>
-                <span className="text-xs text-slate-500">
-                  Cập nhật theo quy định mới nhất của Bộ Công an
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-4">
+                <div>
+                  <h2 className="text-lg sm:text-xl font-black text-slate-900 flex items-center space-x-2">
+                    <span>Danh Sách Thủ Tục Tiếp Nhận Tại Công An Xã</span>
+                    <span className="text-xs bg-police-100 text-police-800 font-bold px-2.5 py-0.5 rounded-full">
+                      {procedures.length} thủ tục
+                    </span>
+                  </h2>
+                  <p className="text-xs text-slate-500 mt-0.5">
+                    Mỗi trang gồm 6 thủ tục (3 thủ tục hàng trên, 3 thủ tục hàng dưới) • Có hướng dẫn thao tác trên VNeID
+                  </p>
+                </div>
+                <span className="text-xs text-slate-400 self-start sm:self-auto font-medium">
+                  Trang {procPage} / {Math.ceil(procedures.length / PROCEDURES_PER_PAGE) || 1}
                 </span>
               </div>
 
+              {/* GRID 3 TRÊN - 3 DƯỚI */}
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-                {procedures.map((p) => (
+                {procedures
+                  .slice((procPage - 1) * PROCEDURES_PER_PAGE, procPage * PROCEDURES_PER_PAGE)
+                  .map((p) => (
                   <div
                     key={p.id}
-                    className="bg-white rounded-3xl p-6 border border-slate-200 hover:border-police-500 hover:shadow-xl transition flex flex-col justify-between"
+                    className="bg-white rounded-3xl p-6 border border-slate-200 hover:border-police-500 hover:shadow-xl transition flex flex-col justify-between group"
                   >
                     <div>
                       <div className="flex items-center justify-between gap-2 mb-3">
@@ -505,10 +522,16 @@ function HomePageContent() {
                       </div>
 
                       <Link href={`/thu-tuc/${p.id}`}>
-                        <h3 className="font-extrabold text-base text-slate-900 hover:text-police-700 transition leading-snug mb-3">
+                        <h3 className="font-extrabold text-base text-slate-900 group-hover:text-police-700 transition leading-snug mb-3 line-clamp-2">
                           {p.title}
                         </h3>
                       </Link>
+
+                      {/* Badge Có hướng dẫn VNeID */}
+                      <div className="mb-4 inline-flex items-center space-x-1.5 bg-amber-50 text-amber-800 border border-amber-200/80 px-2.5 py-1 rounded-xl text-[11px] font-bold">
+                        <Smartphone className="w-3.5 h-3.5 text-amber-600 shrink-0" />
+                        <span>Có hướng dẫn nộp trên VNeID</span>
+                      </div>
 
                       <div className="space-y-2 text-xs text-slate-600 mb-5">
                         <div className="flex items-center space-x-2">
@@ -527,7 +550,7 @@ function HomePageContent() {
                         href={`/thu-tuc/${p.id}`}
                         className="font-bold text-police-700 hover:text-police-800 flex items-center space-x-1"
                       >
-                        <span>Xem chi tiết hồ sơ</span>
+                        <span>Xem chi tiết hồ sơ & VNeID</span>
                         <ChevronRight className="w-4 h-4" />
                       </Link>
 
@@ -546,6 +569,51 @@ function HomePageContent() {
                   </div>
                 ))}
               </div>
+
+              {/* PHÂN TRANG: 6 THỦ TỤC / TRANG */}
+              {Math.ceil(procedures.length / PROCEDURES_PER_PAGE) > 1 && (
+                <div className="mt-8 flex flex-col sm:flex-row items-center justify-between gap-4 bg-white p-4 sm:p-5 rounded-2xl border border-slate-200 shadow-2xs">
+                  <div className="text-xs text-slate-600 font-medium">
+                    Hiển thị thủ tục <span className="font-bold text-slate-900">{(procPage - 1) * PROCEDURES_PER_PAGE + 1} - {Math.min(procPage * PROCEDURES_PER_PAGE, procedures.length)}</span> trên tổng số <span className="font-bold text-slate-900">{procedures.length}</span> thủ tục (Trang {procPage}/{Math.ceil(procedures.length / PROCEDURES_PER_PAGE)})
+                  </div>
+                  <div className="flex items-center space-x-1.5">
+                    <button
+                      type="button"
+                      onClick={() => setProcPage((prev) => Math.max(1, prev - 1))}
+                      disabled={procPage === 1}
+                      className="px-3 py-1.5 rounded-xl border border-slate-200 text-xs font-bold text-slate-700 hover:bg-slate-100 disabled:opacity-40 disabled:hover:bg-transparent transition flex items-center space-x-1"
+                    >
+                      <ChevronLeft className="w-4 h-4" />
+                      <span>Trước</span>
+                    </button>
+
+                    {Array.from({ length: Math.ceil(procedures.length / PROCEDURES_PER_PAGE) }, (_, i) => i + 1).map((num) => (
+                      <button
+                        key={num}
+                        type="button"
+                        onClick={() => setProcPage(num)}
+                        className={`w-8 h-8 rounded-xl text-xs font-bold transition flex items-center justify-center ${
+                          procPage === num
+                            ? 'bg-police-700 text-white shadow-xs'
+                            : 'border border-slate-200 text-slate-700 hover:bg-slate-100'
+                        }`}
+                      >
+                        {num}
+                      </button>
+                    ))}
+
+                    <button
+                      type="button"
+                      onClick={() => setProcPage((prev) => Math.min(Math.ceil(procedures.length / PROCEDURES_PER_PAGE), prev + 1))}
+                      disabled={procPage === Math.ceil(procedures.length / PROCEDURES_PER_PAGE)}
+                      className="px-3 py-1.5 rounded-xl border border-slate-200 text-xs font-bold text-slate-700 hover:bg-slate-100 disabled:opacity-40 disabled:hover:bg-transparent transition flex items-center space-x-1"
+                    >
+                      <span>Sau</span>
+                      <ChevronRight className="w-4 h-4" />
+                    </button>
+                  </div>
+                </div>
+              )}
             </div>
 
             {/* KHO BIỂU MẪU TỜ KHAI CHUẨN ĐƯỢC GỘP TRỰC TIẾP TẠI ĐÂY */}

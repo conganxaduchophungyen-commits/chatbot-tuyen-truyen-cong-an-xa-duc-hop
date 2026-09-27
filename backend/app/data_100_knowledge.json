@@ -1,15 +1,4 @@
-export interface AIKnowledgeTopic {
-  id: string;
-  topic: string;
-  category: string;
-  legal_basis: string;
-  keywords: string[];
-  summary: string;
-  content: string;
-  qa_pairs?: { q: string; a: string }[];
-}
-
-export const FULL_20_AI_KNOWLEDGE: AIKnowledgeTopic[] = [
+[
   {
     "id": "kb_001",
     "topic": "Luật Cư trú số 68/2020/QH14: Bỏ sổ hộ khẩu giấy, quản lý bằng định danh cá nhân",
@@ -3313,6 +3302,4 @@ export const FULL_20_AI_KNOWLEDGE: AIKnowledgeTopic[] = [
       }
     ]
   }
-];
-
-export const FULL_100_AI_KNOWLEDGE = FULL_20_AI_KNOWLEDGE;
+]

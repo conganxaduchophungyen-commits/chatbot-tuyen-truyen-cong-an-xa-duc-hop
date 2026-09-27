@@ -171,7 +171,7 @@ async def list_knowledge(
     db: AsyncSession = Depends(get_db)
 ):
     """Lấy danh sách các tài liệu tri thức đã nạp"""
-    stmt = select(KnowledgeChunk).order_by(desc(KnowledgeChunk.created_at)).limit(50)
+    stmt = select(KnowledgeChunk).order_by(desc(KnowledgeChunk.created_at)).limit(300)
     res = await db.execute(stmt)
     chunks = res.scalars().all()
     return [
