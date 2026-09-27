@@ -1,4 +1,13 @@
 import asyncio
+import os
+import sys
+import json
+
+if sys.stdout and hasattr(sys.stdout, "reconfigure"):
+    try:
+        sys.stdout.reconfigure(encoding="utf-8")
+    except Exception:
+        pass
 from sqlalchemy import select
 from app.core.database import AsyncSessionLocal
 from app.models import Category, Procedure, ProcedureForm, Article, KnowledgeChunk
@@ -12,107 +21,62 @@ async def seed_full_knowledge():
             print("Chưa có danh mục, vui lòng chạy init_db trước.")
             return
 
-        print("-> Đang nạp bổ sung 10 kịch bản thủ đoạn lừa đảo và các thủ tục hành chính nâng cao...")
-
-        # 1. Bổ sung thủ tục hành chính
-        new_procedures = [
-            Procedure(
-                category_id=cats.get("cu_tru"),
-                code="TTHC-BCA-03",
-                title="Đăng ký tạm trú, gia hạn tạm trú tại xã Đức Hợp",
-                target_audience="Công dân đến sinh sống tại xã Đức Hợp ngoài nơi thường trú từ 30 ngày trở lên",
-                competent_authority="Công an xã Đức Hợp",
-                execution_method="Trực tiếp tại Công an xã hoặc trực tuyến qua Cổng DVC Bộ Công an / Ứng dụng VNeID",
-                required_documents=[
-                    "Tờ khai thay đổi thông tin cư trú (Mẫu CT01).",
-                    "Giấy tờ chứng minh chỗ ở hợp pháp (Hợp đồng thuê nhà, mượn nhà hoặc văn bản đồng ý của chủ trọ).",
-                    "Căn cước công dân hoặc số định danh cá nhân của người đăng ký."
-                ],
-                steps=[
-                    {"step": 1, "title": "Kê khai hồ sơ", "desc": "Điền mẫu CT01 và xin xác nhận của chủ nhà trọ/chỗ ở hợp pháp."},
-                    {"step": 2, "title": "Nộp hồ sơ", "desc": "Nộp trực tiếp tại Bộ phận Một cửa Công an xã Đức Hợp hoặc nộp online qua Cổng DVC."},
-                    {"step": 3, "title": "Kiểm tra thẩm duyệt", "desc": "Cán bộ kiểm tra hồ sơ, xuống địa bàn xác minh thực tế nơi ở trọ."},
-                    {"step": 4, "title": "Trả kết quả", "desc": "Nhận kết quả đăng ký tạm trú (thời hạn tạm trú tối đa 02 năm/lần gia hạn)."}
-                ],
-                processing_time="03 ngày làm việc kể từ ngày nhận đủ hồ sơ",
-                fee="15.000 VNĐ (trực tiếp) / 7.000 VNĐ (trực tuyến)",
-                online_url="https://dichvucong.bocongan.gov.vn/bocongan/bothutuc/tthc?matt=26291",
-                is_active=True
-            ),
-            Procedure(
-                category_id=cats.get("cu_tru"),
-                code="TTHC-BCA-04",
-                title="Cấp thẻ Căn cước cho người dân theo Luật Căn cước 2023",
-                target_audience="Công dân từ đủ 14 tuổi trở lên bắt buộc; Công dân từ 0 - 14 tuổi cấp theo nhu cầu",
-                competent_authority="Công an huyện Kim Động tiếp nhận hồ sơ; Công an xã Đức Hợp hỗ trợ hướng dẫn",
-                execution_method="Đăng ký lịch hẹn online trên Cổng DVC, đến thu nhận vân tay, mống mắt, ảnh tại Bộ phận Một cửa",
-                required_documents=[
-                    "Đối với trẻ em dưới 6 tuổi: Người đại diện hợp pháp kê khai qua Cổng DVC (không thu nhận sinh trắc học).",
-                    "Đối với công dân từ 6 tuổi trở lên: Đến trực tiếp cơ quan Công an để thu nhận hình ảnh khuôn mặt, vân tay và mống mắt.",
-                    "Không cần mang theo giấy tờ nếu thông tin đã đầy đủ trên Cơ sở dữ liệu quốc gia về dân cư."
-                ],
-                steps=[
-                    {"step": 1, "title": "Đặt lịch hẹn", "desc": "Đặt lịch trên Cổng DVC hoặc VNeID để chọn ngày giờ làm việc thuận tiện."},
-                    {"step": 2, "title": "Thu nhận sinh trắc học", "desc": "Thu nhận vân tay, ảnh chân dung và quét mống mắt công nghệ cao."},
-                    {"step": 3, "title": "Kiểm tra thông tin", "desc": "Ký biên bản xác nhận thông tin in trên thẻ Căn cước."},
-                    {"step": 4, "title": "Nhận thẻ", "desc": "Nhận thẻ Căn cước trực tiếp hoặc qua dịch vụ chuyển phát bưu điện về tận nhà."}
-                ],
-                processing_time="07 ngày làm việc",
-                fee="Miễn lệ phí cấp lần đầu cho công dân đủ 14 tuổi; Đổi/Cấp lại thu theo Thông tư Bộ Tài chính",
-                online_url="https://dichvucong.bocongan.gov.vn",
-                is_active=True
-            ),
-            Procedure(
-                category_id=cats.get("giao_thong"),
-                code="TTHC-BCA-05",
-                title="Nộp phạt vi phạm giao thông (Phạt nguội) trực tuyến",
-                target_audience="Cá nhân, tổ chức bị xử phạt vi phạm hành chính trong lĩnh vực giao thông đường bộ",
-                competent_authority="Công an cấp xã / Đội CSGT Công an huyện",
-                execution_method="Trực tuyến 100% trên Cổng Dịch vụ công Quốc gia",
-                required_documents=[
-                    "Biên bản vi phạm hành chính hoặc Thông báo vi phạm giao thông (kèm mã số quyết định).",
-                    "Tài khoản định danh điện tử VNeID hoặc tài khoản Cổng DVC Quốc gia.",
-                    "Thẻ ngân hàng hoặc tài khoản thanh toán online để nộp tiền."
-                ],
-                steps=[
-                    {"step": 1, "title": "Tra cứu quyết định", "desc": "Vào Cổng DVC Quốc gia -> Tra cứu xử phạt VPHC -> Nhập số biên bản."},
-                    {"step": 2, "title": "Thanh toán", "desc": "Chọn ngân hàng/ví điện tử để thanh toán tiền phạt trực tuyến."},
-                    {"step": 3, "title": "Nhận giấy tờ", "desc": "Đăng ký nhận lại giấy tờ tạm giữ (nếu có) qua dịch vụ bưu chính công ích."}
-                ],
-                processing_time="Giải quyết ngay trên môi trường điện tử",
-                fee="Theo số tiền ghi trên Quyết định xử phạt vi phạm hành chính",
-                online_url="https://dichvucong.gov.vn/p/home/dvc-thanh-toan-vi-pham-giao-thong.html",
-                is_active=True
-            ),
-            Procedure(
-                category_id=cats.get("pccc"),
-                code="TTHC-BCA-06",
-                title="Hướng dẫn an toàn PCCC đối với hộ gia đình, nhà ở kết hợp kinh doanh",
-                target_audience="Toàn thể các hộ gia đình sinh sống và kinh doanh trên địa bàn xã Đức Hợp",
-                competent_authority="Công an xã Đức Hợp phối hợp UBND xã Đức Hợp",
-                execution_method="Đăng ký cam kết an toàn PCCC trực tiếp tại Trụ sở Công an xã Đức Hợp",
-                required_documents=[
-                    "Bản cam kết bảo đảm an toàn PCCC của chủ hộ gia đình.",
-                    "Sơ đồ phương án thoát nạn khi xảy ra sự cố cháy nổ.",
-                    "Biên bản kiểm tra an toàn PCCC định kỳ."
-                ],
-                steps=[
-                    {"step": 1, "title": "Trang bị phương tiện", "desc": "Trang bị tối thiểu 01 bình chữa cháy xách tay và mở lối thoát nạn thứ 2 (chuồng cọp có cửa thoát)."},
-                    {"step": 2, "title": "Ký cam kết", "desc": "Liên hệ Cán bộ phụ trách PCCC Công an xã để nhận mẫu và ký bản cam kết an toàn."},
-                    {"step": 3, "title": "Tập huấn kỹ năng", "desc": "Tham gia các buổi tuyên truyền, diễn tập PCCC tổ liên gia tại thôn xóm."}
-                ],
-                processing_time="Trong ngày",
-                fee="Miễn phí",
-                online_url=None,
-                is_active=True
+        # Đảm bảo có đủ 6 danh mục nghiệp vụ
+        if "trat_tu" not in cats:
+            c_trattu = Category(
+                code="trat_tu",
+                name="Quản lý HC & Trật tự xã hội",
+                description="Thủ tục ngành nghề kinh doanh có điều kiện, con dấu, vũ khí VLN & CCHT",
+                icon="ShieldCheck",
+                order_num=5
             )
-        ]
+            session.add(c_trattu)
+            await session.flush()
+            cats["trat_tu"] = c_trattu.id
 
-        # Kiểm tra xem thủ tục đã có chưa trước khi thêm
-        for p in new_procedures:
-            exist = (await session.execute(select(Procedure).where(Procedure.code == p.code))).scalars().first()
-            if not exist:
-                session.add(p)
+        if "to_giac" not in cats:
+            c_togiac = Category(
+                code="to_giac",
+                name="Tố giác & Tin báo ANTT",
+                description="Quy trình tiếp nhận tin báo, tố giác tội phạm và bảo đảm ANTT tại cơ sở",
+                icon="AlertCircle",
+                order_num=6
+            )
+            session.add(c_togiac)
+            await session.flush()
+            cats["to_giac"] = c_togiac.id
+
+        print("-> Đang kiểm tra và nạp đủ 30 Thủ tục hành chính chuẩn hóa...")
+        json_proc_path = os.path.join(os.path.dirname(__file__), "data_30_procedures.json")
+        if os.path.exists(json_proc_path):
+            try:
+                with open(json_proc_path, "r", encoding="utf-8") as f:
+                    procedures_data = json.load(f)
+                for item in procedures_data:
+                    exist = (await session.execute(select(Procedure).where(Procedure.code == item.get("code")))).scalars().first()
+                    if not exist:
+                        cat_id = cats.get(item.get("category_id"), cats.get("cu_tru"))
+                        p = Procedure(
+                            category_id=cat_id,
+                            code=item.get("code"),
+                            title=item.get("title"),
+                            target_audience=item.get("target_audience", "Công dân Việt Nam"),
+                            competent_authority=item.get("competent_authority", "Công an xã Đức Hợp, tỉnh Hưng Yên"),
+                            execution_method=item.get("execution_method"),
+                            required_documents=item.get("required_documents", []),
+                            steps=item.get("steps", []),
+                            processing_time=item.get("processing_time", "Theo quy định"),
+                            fee=item.get("fee", "Miễn phí hoặc theo quy định"),
+                            online_url=item.get("online_url"),
+                            is_active=True
+                        )
+                        session.add(p)
+                print(f"-> Đã quét {len(procedures_data)} thủ tục hành chính thành công.")
+            except Exception as e:
+                print(f"Lỗi nạp procedures_data: {e}")
+        else:
+            print("Không tìm thấy file data_30_procedures.json")
+
 
         # 2. Bổ sung 9 kịch bản cảnh báo lừa đảo (Cộng bài 1 đã có thành 10 bài hoàn chỉnh)
         scam_alerts = [
@@ -522,7 +486,43 @@ async def seed_full_knowledge():
             if not exist:
                 session.add(a)
 
-        # 3. Nạp tài liệu tri thức (Knowledge chunks) cho RAG
+        # 3. Nạp tài liệu tri thức (Knowledge chunks) cho AI RAG & Chatbot
+        print("-> Đang kiểm tra và nạp đủ 20 Bộ tri thức AI chuyên sâu...")
+        json_knowledge_path = os.path.join(os.path.dirname(__file__), "data_20_knowledge.json")
+        if os.path.exists(json_knowledge_path):
+            try:
+                with open(json_knowledge_path, "r", encoding="utf-8") as f:
+                    knowledge_data = json.load(f)
+                for item in knowledge_data:
+                    title = item.get("topic") or item.get("title")
+                    content = item.get("content") or item.get("full_content", "")
+                    if not title:
+                        continue
+                    exist = (await session.execute(select(KnowledgeChunk).where(KnowledgeChunk.source_title == title))).scalars().first()
+                    if not exist:
+                        chunk = KnowledgeChunk(
+                            source_title=title,
+                            source_type="law_knowledge",
+                            chunk_text=content,
+                            metadata_json={
+                                "id": item.get("id"),
+                                "topic": item.get("topic"),
+                                "category": item.get("category"),
+                                "keywords": item.get("keywords", []),
+                                "legal_basis": item.get("legal_basis"),
+                                "authority": item.get("authority", "Công an xã Đức Hợp, tỉnh Hưng Yên"),
+                                "hotline": item.get("hotline", "02213.815.999"),
+                                "summary": item.get("summary", ""),
+                                "qa_pairs": item.get("qa_pairs", [])
+                            }
+                        )
+                        session.add(chunk)
+                print(f"-> Đã quét {len(knowledge_data)} bộ tri thức AI thành công.")
+            except Exception as e:
+                print(f"Lỗi nạp knowledge_data: {e}")
+        else:
+            print("Không tìm thấy file data_20_knowledge.json")
+
         knowledge_texts = [
             ("Luật Cư trú số 68/2020/QH14", "law", "Công dân có quyền đăng ký thường trú tại chỗ ở hợp pháp thuộc quyền sở hữu của mình hoặc khi được chủ hộ, chủ sở hữu đồng ý. Thời hạn giải quyết đăng ký thường trú tối đa 07 ngày làm việc. Công an xã có trách nhiệm tiếp nhận, thẩm tra và cập nhật kết quả vào Cơ sở dữ liệu quốc gia về dân cư. Sổ hộ khẩu giấy đã hết giá trị sử dụng từ ngày 01/01/2023."),
             ("Luật Căn cước số 26/2023/QH15", "law", "Thẻ Căn cước chính thức thay thế thẻ Căn cước công dân từ ngày 01/7/2024. Người từ đủ 14 tuổi bắt buộc cấp thẻ Căn cước. Người từ 0 đến dưới 14 tuổi được cấp theo nhu cầu. Thẻ Căn cước tích hợp thông tin sinh trắc học gồm mống mắt, vân tay và ảnh khuôn mặt. VNeID Mức 2 có giá trị tương đương xuất trình giấy tờ bản gốc."),
@@ -535,16 +535,18 @@ async def seed_full_knowledge():
         ]
 
         for title, stype, text in knowledge_texts:
-            chunk = KnowledgeChunk(
-                source_title=title,
-                source_type=stype,
-                chunk_text=text,
-                metadata_json={"official": True}
-            )
-            session.add(chunk)
+            chunk_exist = (await session.execute(select(KnowledgeChunk).where(KnowledgeChunk.source_title == title))).scalars().first()
+            if not chunk_exist:
+                chunk = KnowledgeChunk(
+                    source_title=title,
+                    source_type=stype,
+                    chunk_text=text,
+                    metadata_json={"official": True}
+                )
+                session.add(chunk)
 
         await session.commit()
-        print("-> ĐÃ NẠP XONG 22 KỊCH BẢN CẢNH BÁO LỪA ĐẢO & TRI THỨC PHÁP LUẬT CHUẨN!")
+        print("-> ĐÃ NẠP TOÀN BỘ 30 THỦ TỤC HÀNH CHÍNH & 20 BỘ TRI THỨC AI CÔNG AN XÃ ĐỨC HỢP!")
 
 if __name__ == "__main__":
     asyncio.run(seed_full_knowledge())
