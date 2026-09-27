@@ -15,6 +15,9 @@ export default function Footer() {
                 <img
                   src="/logo-cong-an.png"
                   alt="Logo Công an nhân dân"
+                  width={48}
+                  height={48}
+                  style={{ width: '48px', height: '48px', objectFit: 'contain' }}
                   className="w-full h-full object-contain"
                 />
               </div>

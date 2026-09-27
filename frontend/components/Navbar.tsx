@@ -81,6 +81,9 @@ export default function Navbar({ activeTab = 'home', onSelectTab }: NavbarProps)
               <img
                 src="/logo-cong-an.png"
                 alt="Logo Công an nhân dân"
+                width={56}
+                height={56}
+                style={{ width: '56px', height: '56px', maxWidth: '100%', objectFit: 'contain' }}
                 className="w-full h-full object-contain drop-shadow"
               />
             </div>

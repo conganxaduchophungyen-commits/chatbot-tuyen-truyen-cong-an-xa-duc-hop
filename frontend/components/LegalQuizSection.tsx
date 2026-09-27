@@ -255,7 +255,7 @@ export default function LegalQuizSection() {
               <div className="text-center space-y-3 max-w-xl mx-auto">
                 <div className="w-16 h-16 mx-auto rounded-full bg-red-50 p-1 border-2 border-red-500 shadow-xs">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src="/logo-cong-an.png" alt="Logo Công an" className="w-full h-full object-contain" />
+                  <img src="/logo-cong-an.png" alt="Logo Công an" width={64} height={64} style={{ width: '64px', height: '64px', objectFit: 'contain' }} className="w-full h-full object-contain" />
                 </div>
                 <div className="text-xs uppercase font-black tracking-widest text-red-700">
                   CÔNG AN TỈNH HƯNG YÊN • CÔNG AN XÃ ĐỨC HỢP

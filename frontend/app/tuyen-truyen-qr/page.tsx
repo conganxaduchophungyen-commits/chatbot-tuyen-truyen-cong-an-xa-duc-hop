@@ -107,7 +107,7 @@ export default function PropagandaQRPage() {
             <div className="bg-gradient-to-r from-red-700 via-red-600 to-red-700 text-white text-center p-6 sm:p-8 border-b-4 border-yellow-400">
               <div className="w-20 h-20 rounded-full bg-white p-1 flex items-center justify-center mx-auto mb-3 shadow-lg border-2 border-white">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="/logo-cong-an.png" alt="Logo Công an" className="w-full h-full object-contain" />
+                <img src="/logo-cong-an.png" alt="Logo Công an" width={80} height={80} style={{ width: '80px', height: '80px', objectFit: 'contain' }} className="w-full h-full object-contain" />
               </div>
               <h2 className="text-sm sm:text-base font-bold tracking-widest uppercase text-yellow-300">
                 CÔNG AN TỈNH HƯNG YÊN

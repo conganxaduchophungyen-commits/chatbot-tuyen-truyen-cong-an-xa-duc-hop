@@ -525,7 +525,7 @@ export default function AdminDashboardPage() {
             </Link>
             <div className="w-10 h-10 rounded-full bg-white p-0.5 flex items-center justify-center shrink-0">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/logo-cong-an.png" alt="Logo Công an" className="w-full h-full object-contain" />
+              <img src="/logo-cong-an.png" alt="Logo Công an" width={40} height={40} style={{ width: '40px', height: '40px', objectFit: 'contain' }} className="w-full h-full object-contain" />
             </div>
             <div>
               <div className="font-black text-sm sm:text-base leading-tight uppercase">
