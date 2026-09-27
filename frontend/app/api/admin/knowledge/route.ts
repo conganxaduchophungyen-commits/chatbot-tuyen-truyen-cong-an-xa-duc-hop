@@ -5,7 +5,7 @@ import { IN_MEMORY_KNOWLEDGE } from '@/lib/knowledgeStore';
 export async function GET(req: NextRequest) {
   try {
     const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), 1500);
+    const timeoutId = setTimeout(() => controller.abort(), 10000);
     const authHeader = req.headers.get('authorization') || '';
     const res = await fetch(`${BACKEND_URL}/api/admin/knowledge`, {
       headers: { Authorization: authHeader },

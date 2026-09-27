@@ -17,7 +17,7 @@ export async function PUT(
   // 1. Thử gửi lên Python backend
   try {
     const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), 1500);
+    const timeoutId = setTimeout(() => controller.abort(), 10000);
     const authHeader = req.headers.get('authorization') || '';
     const res = await fetch(`${BACKEND_URL}/api/admin/procedures/${id}`, {
       method: 'PUT',
@@ -58,7 +58,7 @@ export async function DELETE(
 
   try {
     const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), 1500);
+    const timeoutId = setTimeout(() => controller.abort(), 10000);
     const authHeader = req.headers.get('authorization') || '';
     const res = await fetch(`${BACKEND_URL}/api/admin/procedures/${id}`, {
       method: 'DELETE',

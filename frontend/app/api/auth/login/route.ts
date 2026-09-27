@@ -69,7 +69,7 @@ export async function POST(req: NextRequest) {
   // 1. Thử forward đến FastAPI backend trước
   try {
     const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), 2000);
+    const timeoutId = setTimeout(() => controller.abort(), 15000);
     const res = await fetch(`${BACKEND_URL}/api/auth/login`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },

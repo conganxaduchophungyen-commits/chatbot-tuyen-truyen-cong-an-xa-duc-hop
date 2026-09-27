@@ -11,7 +11,7 @@ export async function POST(req: NextRequest) {
 
   try {
     const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), 1500);
+    const timeoutId = setTimeout(() => controller.abort(), 10000);
     await fetch(`${BACKEND_URL}/api/chat/feedback`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },

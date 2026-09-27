@@ -10,7 +10,7 @@ export async function GET(
 
   try {
     const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), 1500);
+    const timeoutId = setTimeout(() => controller.abort(), 10000);
     const backendUrl = `${BACKEND_URL}/api/articles/${slug}`;
     const res = await fetch(backendUrl, { 
       cache: 'no-store',
