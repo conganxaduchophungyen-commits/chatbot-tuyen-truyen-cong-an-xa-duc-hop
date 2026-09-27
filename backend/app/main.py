@@ -8,13 +8,27 @@ import os
 from app.core.config import settings
 from app.core.database import get_db
 from app.api import api_router
+from contextlib import asynccontextmanager
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    # Khởi tạo bảng và dữ liệu mẫu nếu chưa có (khi chạy trên cloud hoặc máy chủ mới)
+    try:
+        from app.init_db import init_models, seed_data
+        await init_models()
+        await seed_data()
+        print("-> Khởi tạo Database thành công.")
+    except Exception as e:
+        print(f"Lỗi khởi tạo Database: {e}")
+    yield
 
 app = FastAPI(
     title=f"API Trợ lý Pháp luật & TTHC - {settings.COMMUNE_NAME}",
     description="Hệ thống cung cấp API tra cứu thủ tục hành chính, bài viết tuyên truyền phòng chống tội phạm và hỗ trợ trợ lý AI cho người dân.",
     version="1.0.0",
     docs_url="/api/docs",
-    openapi_url="/api/openapi.json"
+    openapi_url="/api/openapi.json",
+    lifespan=lifespan
 )
 
 # CORS Middleware (Hỗ trợ truy cập từ frontend và các thiết bị di động)
