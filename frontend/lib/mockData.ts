@@ -6,34 +6,42 @@ export const MOCK_CATEGORIES: Category[] = [
   {
     id: 'cu_tru',
     code: 'cu_tru',
-    name: 'Cư trú & Căn cước VNeID',
-    description: 'Thủ tục đăng ký thường trú, tạm trú, cấp thẻ Căn cước và tài khoản định danh điện tử',
+    name: 'Cư trú & Định danh VNeID',
+    description: 'Thông báo lưu trú, đăng ký thường trú, tạm trú trực tuyến trên VNeID',
     icon: 'UserCheck',
     order_num: 1,
+  },
+  {
+    id: 'dvc_lien_thong',
+    code: 'dvc_lien_thong',
+    name: 'DVC Liên thông & Tư pháp',
+    description: 'Liên thông Khai sinh - Thường trú - BHYT; Khai tử; Cấp Phiếu lý lịch tư pháp',
+    icon: 'FileText',
+    order_num: 2,
   },
   {
     id: 'giao_thong',
     code: 'giao_thong',
     name: 'Giao thông & Đăng ký xe',
-    description: 'Thủ tục đăng ký, cấp biển số xe mô tô, xe máy cấp xã; nộp phạt giao thông trực tuyến',
+    description: 'Kê khai đăng ký xe lần đầu (ô tô, xe máy, xe máy điện) cấp xã trên VNeID',
     icon: 'Bike',
-    order_num: 2,
+    order_num: 3,
   },
   {
-    id: 'pccc',
-    code: 'pccc',
-    name: 'Phòng cháy chữa cháy (PCCC)',
-    description: 'Hướng dẫn an toàn PCCC hộ gia đình, nhà ở kết hợp sản xuất kinh doanh tại địa phương',
-    icon: 'Flame',
-    order_num: 3,
+    id: 'tich_hop_giay_to',
+    code: 'tich_hop_giay_to',
+    name: 'Tích hợp Giấy tờ & Tiện ích VNeID',
+    description: 'Tích hợp GPLX, Đăng ký xe, BHYT, Sổ BHXH, Mã số thuế và xuất trình giấy tờ',
+    icon: 'Shield',
+    order_num: 4,
   },
   {
     id: 'canh_bao',
     code: 'canh_bao',
     name: 'Cảnh báo Tội phạm & Lừa đảo',
-    description: 'Tuyên truyền nhận diện các thủ đoạn tội phạm công nghệ cao và lừa đảo chiếm đoạt tài sản',
+    description: 'Tuyên truyền nhận diện 22 thủ đoạn lừa đảo qua mạng và xử lý khẩn cấp',
     icon: 'ShieldAlert',
-    order_num: 4,
+    order_num: 5,
   },
 ];
 
@@ -546,7 +554,48 @@ export function getSmartLocalChatAnswer(query: string): { answer: string; source
     };
   }
 
-  // 3. XỬ LÝ KHẨN CẤP KHI BỊ LỪA ĐẢO / BỊ RÚT TIỀN / MẮC BẪY
+  // 3. XỬ LÝ KHẨN CẤP: BẠO LỰC GIA ĐÌNH, BỊ CHỒNG/VỢ ĐÁNH ĐẬP, BỊ HÀNH HUNG, BỊ ĐE DỌA
+  if (
+    q.includes('chồng đánh') ||
+    q.includes('vợ đánh') ||
+    q.includes('bị đánh') ||
+    q.includes('bị bạo hành') ||
+    q.includes('bạo lực gia đình') ||
+    q.includes('hành hung') ||
+    q.includes('đánh đập') ||
+    q.includes('bị đe dọa') ||
+    q.includes('bạo hành') ||
+    q.includes('cứu tôi') ||
+    q.includes('đánh người') ||
+    q.includes('cố ý gây thương tích')
+  ) {
+    return {
+      answer: `🚨 **CÔNG AN XÃ ĐỨC HỢP - HƯỚNG DẪN XỬ LÝ KHẨN CẤP KHI BỊ BẠO LỰC GIA ĐÌNH (BỊ ĐÁNH ĐẬP, HÀNH HUNG):**\n\n` +
+        `Công an xã Đức Hợp chia sẻ và khẩn thiết đề nghị Bác/Chị/Anh hãy đặt **sự an toàn tính mạng và sức khỏe lên hàng đầu**:\n\n` +
+        `1️⃣ **BƯỚC 1: LẬP TỨC LÁNH NẠN AN TOÀN:**\n` +
+        `- Chạy thoát ngay sang nhà hàng xóm, người thân hoặc nơi đông người để cầu cứu. Tránh xa các vật dụng sắc nhọn, nguy hiểm.\n` +
+        `- Nếu bị nhốt hoặc không kịp thoát ra ngoài: Hãy khóa chặt cửa phòng kiên cố, hô hoán thật to để người xung quanh nghe thấy.\n\n` +
+        `2️⃣ **BƯỚC 2: GỌI KHẨN CẤP CÔNG AN XÃ ĐỨC HỢP (24/24H):**\n` +
+        `- Gọi ngay số điện thoại **Trực ban Công an xã Đức Hợp**: **02213.815.999**.\n` +
+        `- Hoặc gọi Cảnh sát phản ứng nhanh: **113** | Tổng đài Quốc gia bảo vệ Phụ nữ & Trẻ em: **111**.\n` +
+        `👉 *Cán bộ chiến sĩ Công an xã Đức Hợp sẽ có mặt ngay tại hiện trường (các thôn trong xã) để khống chế đối tượng, ngăn chặn hành vi bạo lực và bảo vệ nạn nhân an toàn.*\n\n` +
+        `3️⃣ **BƯỚC 3: ĐẾN CƠ SỞ Y TẾ SƠ CỨU & LẬP HỒ SƠ THƯƠNG TÍCH:**\n` +
+        `- Đến ngay Trạm Y tế xã Đức Hợp hoặc Trung tâm Y tế huyện Kim Động để khám, điều trị vết thương và xin cấp **Giấy chứng nhận thương tích / Bệnh án y khoa**. Đây là chứng cứ pháp lý quyết định để xử lý đối tượng.\n` +
+        `- Giữ lại ảnh chụp vết thương, quần áo rách, đồ đạc bị đập phá, tin nhắn/ghi âm đe dọa.\n\n` +
+        `4️⃣ **BƯỚC 4: ÁP DỤNG CÁC BIỆN PHÁP BẢO VỆ PHÁP LUẬT:**\n` +
+        `- **Ra Quyết định cấm tiếp xúc:** Theo Điều 25 Luật Phòng, chống bạo lực gia đình năm 2022, Chủ tịch UBND xã Đức Hợp hoặc Tòa án có quyền ra Quyết định cấm người có hành vi bạo lực đến gần nạn nhân (dưới 30m).\n` +
+        `- **Xử phạt hành chính:** Theo Điều 52 Nghị định 144/2021/NĐ-CP, phạt tiền từ **5.000.000đ - 20.000.000đ** đối với hành vi đánh đập, hành hạ thành viên gia đình.\n` +
+        `- **Khởi tố hình sự:** Người có hành vi bạo hành dã man hoặc gây thương tích sẽ bị khởi tố theo **Điều 134 Bộ luật Hình sự** (Tội Cố ý gây thương tích) hoặc **Điều 185 Bộ luật Hình sự** (Tội Ngược đãi, hành hạ vợ/chồng/con) với khung hình phạt tù từ 06 tháng đến 05 năm.\n\n` +
+        `📍 **Trụ sở tiếp nhận tin báo:** Công an xã Đức Hợp (Thôn Nho Lâm, xã Đức Hợp, huyện Kim Động, tỉnh Hưng Yên). Lực lượng Công an luôn đồng hành bảo vệ người dân!`,
+      sources: [
+        { type: 'knowledge', id: 'kb_blgd_01', title: 'Hướng dẫn khẩn cấp khi bị bạo lực gia đình (Luật PCBLGĐ 2022)' },
+        { type: 'knowledge', id: 'kb_blgd_04', title: 'Mức phạt tiền và hình sự hành vi đánh đập vợ/chồng (NĐ 144/2021 & BLHS)' },
+        { type: 'knowledge', id: 'kb_blgd_02', title: 'Quy định Biện pháp Cấm tiếp xúc bảo vệ nạn nhân' }
+      ]
+    };
+  }
+
+  // 4. XỬ LÝ KHẨN CẤP KHI BỊ LỪA ĐẢO / BỊ RÚT TIỀN / MẮC BẪY
   if (q.includes('bị lừa') || q.includes('lấy lại tiền') || q.includes('mất tiền') || q.includes('lỡ chuyển tiền') || q.includes('hack') || q.includes('bị lộ otp') || q.includes('khóa tài khoản')) {
     return {
       answer: `🚨 **CÔNG AN XÃ ĐỨC HỢP HƯỚNG DẪN 4 BƯỚC KHẨN CẤP KHI BỊ LỪA ĐẢO QUA MẠNG:**\n\n` +
@@ -851,8 +900,8 @@ export function getSmartLocalChatAnswer(query: string): { answer: string; source
       `📍 Trụ sở tiếp dân: **Thôn Nho Lâm, xã Đức Hợp, tỉnh Hưng Yên**.\n` +
       `📞 Đường dây nóng Trực ban phục vụ nhân dân 24/24h: **02213.815.999**.`,
     sources: [
-      { type: 'procedure', id: 'proc_thuong_tru', title: 'Đăng ký thường trú tại xã Đức Hợp', code: 'TTHC-BCA-01' },
-      { type: 'procedure', id: 'proc_dang_ky_xe', title: 'Đăng ký xe máy cấp xã', code: 'TTHC-BCA-02' }
+      { type: 'procedure', id: 'proc_dang_ky_thuong_tru', title: 'Đăng ký thường trú trực tuyến trên VNeID', code: 'TTHC-VNEID-02' },
+      { type: 'knowledge', id: 'kb_scam_01', title: 'Cẩm nang 22 thủ đoạn lừa đảo & Bộ quy tắc 4 Không - 2 Phải' }
     ]
   };
 }

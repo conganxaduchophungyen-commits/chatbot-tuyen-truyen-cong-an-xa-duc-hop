@@ -1,745 +1,321 @@
 export interface KnowledgeItem {
   id: string;
+  category_id: string;
+  category_name: string;
   source_title: string;
   source_type: string;
+  legal_basis: string;
   chunk_preview: string;
+  full_content: string;
+  keywords: string[];
   created_at: string;
 }
 
+export const KNOWLEDGE_CATEGORIES = [
+  {
+    "id": "all",
+    "name": "Tất cả lĩnh vực"
+  },
+  {
+    "id": "cu_tru",
+    "name": "Cư trú & Căn cước VNeID"
+  },
+  {
+    "id": "giao_thong",
+    "name": "Giao thông & Đăng ký xe"
+  },
+  {
+    "id": "pccc",
+    "name": "Phòng cháy chữa cháy (PCCC)"
+  },
+  {
+    "id": "bao_luc_gia_dinh_antt",
+    "name": "Bạo lực gia đình & An ninh trật tự"
+  },
+  {
+    "id": "phong_chong_lua_dao",
+    "name": "Phòng chống lừa đảo công nghệ cao"
+  },
+  {
+    "id": "quan_ly_nganh_nghe",
+    "name": "Quản lý ngành nghề & VK-VLN-CCHT"
+  }
+];
+
 export const IN_MEMORY_KNOWLEDGE: KnowledgeItem[] = [
   {
-    "id": "kb_001",
-    "source_title": "Luật Cư trú số 68/2020/QH14: Bỏ sổ hộ khẩu giấy, quản lý bằng định danh cá nhân",
+    "id": "kb_blgd_01",
+    "category_id": "bao_luc_gia_dinh_antt",
+    "category_name": "Bạo lực gia đình & An ninh trật tự",
+    "source_title": "Hướng dẫn xử lý khẩn cấp khi bị chồng/vợ đánh đập, bạo lực gia đình và bảo vệ an toàn tính mạng",
     "source_type": "law",
-    "chunk_preview": "Từ ngày 01/01/2023, toàn bộ Sổ hộ khẩu, Sổ tạm trú giấy đã hết giá trị sử dụng. Mọi thông tin cư trú của công dân xã Đức Hợp được quản lý số...",
-    "created_at": "203/09/2026"
+    "legal_basis": "Luật Phòng, chống bạo lực gia đình năm 2022; Điều 52 Nghị định số 144/2021/NĐ-CP; Điều 134, Điều 185 Bộ luật Hình sự 2015 (sửa đổi, bổ sung 2017)",
+    "chunk_preview": "Khi bị chồng hoặc người thân đánh đập, bạo hành: Ưu tiên bảo vệ tính mạng, lánh nạn an toàn và gọi ngay Hotline Trực ban Công an xã Đức Hợp 02213.815.999 hoặc 113. Khám thương tích tại cơ sở y tế để thu thập chứng cứ. Hành vi đánh đập bị phạt tiền từ 5 - 20 triệu đồng hoặc khởi tố hình sự.",
+    "full_content": "HƯỚNG DẪN XỬ LÝ KHẨN CẤP KHI BỊ BẠO LỰC GIA ĐÌNH (BỊ CHỒNG/VỢ/NGƯỜI THÂN ĐÁNH ĐẬP)\n\n1. BẢO ĐẢM TÍNH MẠNG VÀ AN TOÀN BẢN THÂN LÊN HÀNG ĐẦU:\n- Khi đối tượng đang trong cơn kích động, say xỉn hoặc có hung khí: Nạn nhân cần lập tức tìm cách thoát ra khỏi nhà, chạy sang nhà hàng xóm, nhà người thân hoặc nơi đông người để cầu cứu. Tuyệt đối không đôi co, thách thức.\n- Nếu không thể thoát ra: Khóa chặt cửa phòng kiên cố, gọi to để hàng xóm xung quanh nghe thấy và ứng cứu.\n\n2. LIÊN HỆ KHẨN CẤP LỰC LƯỢNG CHỨC NĂNG CAN THIỆP NGAY LẬP TỨC:\n- Hotline Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999 (Cán bộ chiến sĩ Công an xã sẽ có mặt ngay tại hiện trường để khống chế đối tượng, ngăn chặn bạo lực và bảo vệ nạn nhân).\n- Tổng đài Cảnh sát phản ứng nhanh: 113.\n- Tổng đài Quốc gia bảo vệ Phụ nữ và Trẻ em: 111 (miễn phí cước cuộc gọi 24/7).\n- Báo Trưởng thôn hoặc Hội Phụ nữ xã Đức Hợp để được hỗ trợ chỗ tạm lánh an toàn.\n\n3. KHÁM CHỮA THƯƠNG TÍCH VÀ THU THẬP CHỨNG CỨ PHÁP LÝ:\n- Đến ngay Trạm Y tế xã Đức Hợp hoặc Trung tâm Y tế huyện Kim Động để được điều trị, sơ cứu và lập Bệnh án/Giấy chứng nhận thương tích. Đây là chứng cứ pháp lý quyết định để xử lý đối tượng.\n- Lưu lại ảnh chụp vết thương, đồ vật bị đập phá, ghi âm/video hoặc tin nhắn đe dọa (nếu có).\n\n4. CÁC BIỆN PHÁP BẢO VỆ NẠN NHÂN VÀ XỬ LÝ THEO PHÁP LUẬT:\n- Quyết định Cấm tiếp xúc: Theo Điều 25 Luật Phòng, chống bạo lực gia đình 2022, Chủ tịch UBND cấp xã hoặc Tòa án có quyền ra Quyết định cấm người có hành vi bạo lực đến gần nạn nhân trong phạm vi dưới 30m và cấm sử dụng điện thoại, mạng xã hội để đe dọa nạn nhân.\n- Xử phạt vi phạm hành chính: Theo Điều 52 Nghị định 144/2021/NĐ-CP, phạt tiền từ 5.000.000 đồng đến 10.000.000 đồng đối với hành vi đánh đập gây thương tích cho thành viên gia đình; phạt từ 10.000.000 đồng đến 20.000.000 đồng nếu sử dụng công cụ, hung khí.\n- Xử lý hình sự: Khởi tố theo Điều 134 Bộ luật Hình sự (Tội cố ý gây thương tích) hoặc Điều 185 Bộ luật Hình sự (Tội ngược đãi hoặc hành hạ ông bà, cha mẹ, vợ chồng, con, cháu) với mức phạt tù lên đến 05 năm.",
+    "keywords": [
+      "bị chồng đánh",
+      "chồng đánh",
+      "vợ đánh",
+      "bạo lực gia đình",
+      "bị đánh đập",
+      "bị bạo hành",
+      "hành hung",
+      "đánh vợ",
+      "đánh con",
+      "cấm tiếp xúc",
+      "bị đe dọa"
+    ],
+    "created_at": "27/09/2026"
   },
   {
-    "id": "kb_002",
-    "source_title": "Quy định Đăng ký thường trú tại chỗ ở hợp pháp xã Đức Hợp",
+    "id": "kb_blgd_02",
+    "category_id": "bao_luc_gia_dinh_antt",
+    "category_name": "Bạo lực gia đình & An ninh trật tự",
+    "source_title": "Biện pháp Cấm tiếp xúc và Bảo vệ người bị bạo lực gia đình theo Luật Phòng, chống bạo lực gia đình 2022",
     "source_type": "law",
-    "chunk_preview": "Công dân có chỗ ở hợp pháp thuộc quyền sở hữu của mình hoặc được chủ hộ, chủ sở hữu chỗ ở hợp pháp đồng ý cho đăng ký thường trú tại xã Đức ...",
-    "created_at": "204/09/2026"
-  },
-  {
-    "id": "kb_003",
-    "source_title": "Quy định Đăng ký tạm trú và Gia hạn tạm trú (Từ 30 ngày trở lên)",
-    "source_type": "law",
-    "chunk_preview": "Công dân đến sinh sống tại chỗ ở hợp pháp ngoài phạm vi đơn vị hành chính cấp xã nơi đã đăng ký thường trú để lao động, học tập từ 30 ngày t...",
-    "created_at": "205/09/2026"
-  },
-  {
-    "id": "kb_004",
-    "source_title": "Quy định Thông báo lưu trú qua VNeID (Thực hiện trước 23 giờ)",
-    "source_type": "law",
-    "chunk_preview": "Lưu trú là việc công dân ở lại một địa điểm không phải nơi thường trú hoặc tạm trú trong thời gian dưới 30 ngày. Khi có người đến lưu trú, c...",
-    "created_at": "206/09/2026"
-  },
-  {
-    "id": "kb_005",
-    "source_title": "Quy định Khai báo tạm vắng theo Điều 31 Luật Cư trú",
-    "source_type": "law",
-    "chunk_preview": "Công dân có nghĩa vụ khai báo tạm vắng khi đi khỏi nơi cư trú thuộc các trường hợp bị can, bị cáo đang tại ngoại, người bị quản chế, hoặc ng...",
-    "created_at": "207/09/2026"
-  },
-  {
-    "id": "kb_006",
-    "source_title": "9 Trường hợp bị Xóa đăng ký thường trú theo Luật Cư trú 2020",
-    "source_type": "law",
-    "chunk_preview": "Công dân bị xóa đăng ký thường trú trong 9 trường hợp: Chết; định cư nước ngoài; vắng mặt liên tục 12 tháng không khai báo; hủy bỏ đăng ký t...",
-    "created_at": "203/09/2026"
-  },
-  {
-    "id": "kb_007",
-    "source_title": "Thủ tục Tách hộ trong cùng một chỗ ở hợp pháp tại xã Đức Hợp",
-    "source_type": "law",
-    "chunk_preview": "Thành viên hộ gia đình được tách hộ để đăng ký thường trú tại cùng một chỗ ở hợp pháp khi có năng lực hành vi dân sự đầy đủ và được chủ hộ, ...",
-    "created_at": "204/09/2026"
-  },
-  {
-    "id": "kb_008",
-    "source_title": "Giấy xác nhận thông tin về cư trú (Mẫu CT07) và Thời hạn sử dụng",
-    "source_type": "law",
-    "chunk_preview": "Giấy xác nhận thông tin về cư trú (CT07) có giá trị xác nhận nơi cư trú của cá nhân hoặc hộ gia đình. Từ ngày 01/01/2024, Giấy CT07 có giá t...",
-    "created_at": "205/09/2026"
-  },
-  {
-    "id": "kb_009",
-    "source_title": "Điều chỉnh thông tin cư trú và Đổi chủ hộ khi chủ hộ qua đời",
-    "source_type": "law",
-    "chunk_preview": "Khi có sự thay đổi về chủ hộ hoặc thông tin nhân thân trong Cơ sở dữ liệu về cư trú, thành viên hộ gia đình phải làm thủ tục điều chỉnh tron...",
-    "created_at": "206/09/2026"
-  },
-  {
-    "id": "kb_010",
-    "source_title": "Chế tài xử phạt vi phạm hành chính về Cư trú theo Nghị định 144/2021",
-    "source_type": "law",
-    "chunk_preview": "Nghị định 144/2021/NĐ-CP quy định mức phạt tiền từ 500.000đ đến 2.000.000đ đối với các hành vi không đăng ký thường trú, tạm trú, không thôn...",
-    "created_at": "207/09/2026"
-  },
-  {
-    "id": "kb_011",
-    "source_title": "Quy định mới của Luật Căn cước 2023 (Có hiệu lực từ ngày 01/7/2024)",
-    "source_type": "law",
-    "chunk_preview": "Chính thức đổi tên 'Căn cước công dân' thành 'Thẻ Căn cước'; bổ sung thu nhận mống mắt bắt buộc từ đủ 6 tuổi; cấp thẻ cho trẻ dưới 14 tuổi t...",
-    "created_at": "203/09/2026"
-  },
-  {
-    "id": "kb_012",
-    "source_title": "Thu nhận Mống mắt, Vân tay và ADN trong Luật Căn cước 2023",
-    "source_type": "law",
-    "chunk_preview": "Thu nhận mống mắt là bắt buộc đối với người từ đủ 6 tuổi trở lên. Thu nhận ADN và giọng nói là thủ tục tự nguyện để tích hợp vào Cơ sở dữ li...",
-    "created_at": "204/09/2026"
-  },
-  {
-    "id": "kb_013",
-    "source_title": "Quy trình Cấp thẻ Căn cước cho trẻ em từ 0 đến dưới 14 tuổi",
-    "source_type": "law",
-    "chunk_preview": "Trẻ em dưới 14 tuổi được cấp thẻ Căn cước theo nhu cầu. Thẻ Căn cước của trẻ em có giá trị đi máy bay, khám chữa bệnh BHYT, làm thủ tục học ...",
-    "created_at": "205/09/2026"
-  },
-  {
-    "id": "kb_014",
-    "source_title": "Tài khoản Định danh điện tử VNeID Mức 1 và Mức 2",
-    "source_type": "law",
-    "chunk_preview": "VNeID Mức 1 có thể tự đăng ký tại nhà trên điện thoại. VNeID Mức 2 bắt buộc phải đến Trụ sở Công an thu nhận ảnh mặt và vân tay. Mức 2 có gi...",
-    "created_at": "206/09/2026"
-  },
-  {
-    "id": "kb_015",
-    "source_title": "Tích hợp Giấy phép lái xe (GPLX) và Đăng ký xe trên VNeID",
-    "source_type": "law",
-    "chunk_preview": "Thông tư 28/2024/TT-BCA chính thức có hiệu lực từ ngày 01/7/2024 quy định: Việc xuất trình GPLX, Đăng ký xe trên ứng dụng VNeID có giá trị p...",
-    "created_at": "207/09/2026"
-  },
-  {
-    "id": "kb_016",
-    "source_title": "Tích hợp Thẻ BHYT và Sổ sức khỏe điện tử trên VNeID",
-    "source_type": "law",
-    "chunk_preview": "100% cơ sở khám chữa bệnh BHYT trên địa bàn tỉnh Hưng Yên và toàn quốc đã chấp nhận khám chữa bệnh bằng thẻ Căn cước công dân gắn chip hoặc ...",
-    "created_at": "203/09/2026"
-  },
-  {
-    "id": "kb_017",
-    "source_title": "Cấp Phiếu Lý lịch tư pháp trực tuyến qua ứng dụng VNeID",
-    "source_type": "law",
-    "chunk_preview": "Người dân xã Đức Hợp có thể làm thủ tục cấp Phiếu Lý lịch tư pháp trực tuyến 100% tại nhà qua VNeID, nhận bản điện tử trên ví giấy tờ hoặc b...",
-    "created_at": "204/09/2026"
-  },
-  {
-    "id": "kb_018",
-    "source_title": "Bảo mật tài khoản VNeID và Xử lý khẩn cấp khi mất điện thoại",
-    "source_type": "law",
-    "chunk_preview": "Khi bị mất điện thoại có cài VNeID, công dân phải lập tức yêu cầu khóa tài khoản qua tổng đài 1900.0368 hoặc đến Công an xã Đức Hợp để khóa ...",
-    "created_at": "205/09/2026"
-  },
-  {
-    "id": "kb_019",
-    "source_title": "Quy định Đăng ký khai sinh, Khai tử và Đăng ký kết hôn trên môi trường số",
-    "source_type": "law",
-    "chunk_preview": "Người dân xã Đức Hợp có thể đăng ký khai sinh, khai tử, cấp bản sao trích lục hộ tịch trực tuyến qua Cổng DVC, dữ liệu tự động đồng bộ sang ...",
-    "created_at": "206/09/2026"
-  },
-  {
-    "id": "kb_020",
-    "source_title": "Quy tắc '4 Không - 2 Phải' phòng ngừa tội phạm trên không gian mạng",
-    "source_type": "anti_scam",
-    "chunk_preview": "Cẩm nang cốt lõi bảo vệ người dân xã Đức Hợp trước mọi thủ đoạn lừa đảo mạng: KHÔNG bấm link lạ; KHÔNG cung cấp OTP; KHÔNG chuyển tiền cho n...",
-    "created_at": "207/09/2026"
-  },
-  {
-    "id": "kb_021",
-    "source_title": "Luật Trật tự, an toàn giao thông đường bộ 2024: Các điểm mới áp dụng",
-    "source_type": "traffic",
-    "chunk_preview": "Luật TTATGT đường bộ 2024 tách biệt rõ ràng trách nhiệm bảo đảm an toàn giao thông; quy định hệ thống 12 điểm GPLX; phân hạng giấy phép lái ...",
-    "created_at": "203/09/2026"
-  },
-  {
-    "id": "kb_022",
-    "source_title": "Hệ thống Trừ điểm Giấy phép lái xe (12 điểm/năm) và Cơ chế phục hồi điểm",
-    "source_type": "traffic",
-    "chunk_preview": "Mỗi Giấy phép lái xe có 12 điểm trong 1 năm. Khi vi phạm các lỗi nghiêm trọng sẽ bị trừ điểm trực tiếp trên hệ thống số. Nếu không bị trừ hế...",
-    "created_at": "204/09/2026"
-  },
-  {
-    "id": "kb_023",
-    "source_title": "Quy định xử phạt vi phạm Nồng độ cồn đối với người lái xe máy, ô tô",
-    "source_type": "traffic",
-    "chunk_preview": "Mức phạt vi phạm nồng độ cồn đối với xe máy từ 2.000.000đ đến 8.000.000đ, tước GPLX từ 10 đến 24 tháng; đối với ô tô từ 6.000.000đ đến 40.00...",
-    "created_at": "205/09/2026"
-  },
-  {
-    "id": "kb_024",
-    "source_title": "Quy trình Đăng ký xe máy lần đầu tại Công an xã Đức Hợp",
-    "source_type": "traffic",
-    "chunk_preview": "Công an xã Đức Hợp có thẩm quyền đăng ký, cấp biển số xe mô tô, xe gắn máy, xe máy điện cho cá nhân cư trú tại xã. Bấm biển định danh trực t...",
-    "created_at": "206/09/2026"
-  },
-  {
-    "id": "kb_025",
-    "source_title": "Quy định Biển số định danh theo Thông tư 24/2023/TT-BCA",
-    "source_type": "traffic",
-    "chunk_preview": "Biển số định danh được cấp và quản lý theo mã định danh của chủ xe. Biển số đi theo người, không đi theo xe. Khi bán xe, chủ xe phải nộp lại...",
-    "created_at": "207/09/2026"
-  },
-  {
-    "id": "kb_026",
-    "source_title": "Thủ tục Sang tên, đổi chủ xe mô tô, xe máy cũ tại xã Đức Hợp",
-    "source_type": "traffic",
-    "chunk_preview": "Mua bán xe máy bắt buộc phải làm 2 bước: Bước 1 - Chủ cũ làm thủ tục thu hồi đăng ký, biển số; Bước 2 - Chủ mới làm thủ tục đăng ký sang tên...",
-    "created_at": "203/09/2026"
-  },
-  {
-    "id": "kb_027",
-    "source_title": "Quy trình Nộp phạt nguội giao thông trực tuyến 100% trên Cổng DVC Quốc gia",
-    "source_type": "traffic",
-    "chunk_preview": "Công dân tra cứu vi phạm phạt nguội, nộp tiền phạt trực tuyến qua tài khoản ngân hàng và đăng ký nhận lại giấy tờ tạm giữ chuyển phát bưu đi...",
-    "created_at": "204/09/2026"
-  },
-  {
-    "id": "kb_028",
-    "source_title": "Quy định tốc độ và đội Mũ bảo hiểm đạt chuẩn tại đường giao thông nông thôn",
-    "source_type": "traffic",
-    "chunk_preview": "Người điều khiển và người ngồi trên xe máy, xe đạp điện bắt buộc phải đội mũ bảo hiểm có cài quai đúng quy cách khi tham gia giao thông trên...",
-    "created_at": "205/09/2026"
-  },
-  {
-    "id": "kb_029",
-    "source_title": "Trách nhiệm của cha mẹ khi giao xe cho người chưa đủ tuổi lái xe",
-    "source_type": "traffic",
-    "chunk_preview": "Cha mẹ, chủ xe giao xe máy cho người chưa đủ tuổi điều khiển phương tiện bị phạt tiền từ 800.000đ đến 2.000.000đ. Nếu gây tai nạn nghiêm trọ...",
-    "created_at": "206/09/2026"
-  },
-  {
-    "id": "kb_030",
-    "source_title": "Xử phạt hành vi tự ý Thay đổi kết cấu xe, 'Độ pô', lạng lách đánh võng",
-    "source_type": "traffic",
-    "chunk_preview": "Nghiêm cấm hành vi tự ý thay đổi khung, máy, hình dáng, kích thước của xe; lắp ống xả pô nổ to gây mất ANTT thôn xóm. Phạt từ 800.000đ đến 2...",
-    "created_at": "207/09/2026"
-  },
-  {
-    "id": "kb_031",
-    "source_title": "Phong trào 'Nhà tôi có bình chữa cháy' theo Chỉ thị 01/CT-TTg",
-    "source_type": "pccc",
-    "chunk_preview": "Mục tiêu 100% hộ gia đình trên địa bàn xã Đức Hợp tự trang bị tối thiểu 01 bình chữa cháy xách tay, mở lối thoát nạn thứ 2 và có ít nhất 01 ...",
-    "created_at": "203/09/2026"
-  },
-  {
-    "id": "kb_032",
-    "source_title": "Phân biệt Bình bột ABC và Bình khí CO2 & Kỹ thuật dập lửa",
-    "source_type": "pccc",
-    "chunk_preview": "Bình bột ABC có đồng hồ đo áp suất (kim chỉ vạch xanh là dùng tốt), dập được chất cháy rắn, lỏng, khí. Bình khí CO2 không có đồng hồ, thân b...",
-    "created_at": "204/09/2026"
-  },
-  {
-    "id": "kb_033",
-    "source_title": "Quy tắc 4 Bước xử lý Khẩn cấp khi phát hiện Rò rỉ khí gas",
-    "source_type": "pccc",
-    "chunk_preview": "Khi ngửi thấy mùi gas nồng nặc trong nhà: 1-Tuyệt đối KHÔNG bật/tắt công tắc điện hay quẹt lửa; 2-Khóa chặt van bình gas; 3-Mở toang các cửa...",
-    "created_at": "205/09/2026"
-  },
-  {
-    "id": "kb_034",
-    "source_title": "Kỹ năng dập tắt đám cháy Chảo dầu mỡ trong gian bếp gia đình",
-    "source_type": "pccc",
-    "chunk_preview": "Tuyệt đối KHÔNG dội nước vào chảo dầu mỡ đang bốc cháy (nước làm dầu sôi bắn tung tóe bùng cháy thành cầu lửa khổng lồ). Cách xử lý: Đậy nắp...",
-    "created_at": "206/09/2026"
-  },
-  {
-    "id": "kb_035",
-    "source_title": "Mở Lối thoát nạn thứ 2 cho nhà ống, nhà có Lồng sắt 'Chuồng cọp'",
-    "source_type": "pccc",
-    "chunk_preview": "Nhà ở dạng ống, nhà có hàn lồng sắt ban công bắt buộc phải cắt mở ô cửa thoát hiểm (kích thước tối thiểu 0.6m x 0.8m), khóa để chìa sẵn nơi ...",
-    "created_at": "207/09/2026"
-  },
-  {
-    "id": "kb_036",
-    "source_title": "Kỹ năng Thoát nạn an toàn trong đám cháy nhiều khói độc",
-    "source_type": "pccc",
-    "chunk_preview": "Khói độc khí CO, CO2 bốc lên cao là nguyên nhân gây tử vong hàng đầu trong hỏa hoạn. Kỹ năng sống còn: Cúi thấp người, bò sát mặt sàn nơi có...",
-    "created_at": "203/09/2026"
-  },
-  {
-    "id": "kb_037",
-    "source_title": "Mô hình 'Tổ liên gia an toàn PCCC' tại các thôn xóm xã Đức Hợp",
-    "source_type": "pccc",
-    "chunk_preview": "Tổ liên gia gồm 5-15 hộ liền kề. Mỗi nhà lắp 1 chuông và 1 nút bấm kết nối liên hoàn. Khi 1 nhà có sự cố bấm chuông, toàn bộ các nhà trong n...",
-    "created_at": "204/09/2026"
-  },
-  {
-    "id": "kb_038",
-    "source_title": "Mô hình 'Điểm chữa cháy công cộng' tại các ngõ sâu",
-    "source_type": "pccc",
-    "chunk_preview": "Bố trí tại các ngõ hẹp sâu trên 50m xe cứu hỏa không vào được. Trang bị hộp phương tiện gắn tường gồm: 02 bình bột ABC, kìm cộng lực, búa tạ...",
-    "created_at": "205/09/2026"
-  },
-  {
-    "id": "kb_039",
-    "source_title": "An toàn sử dụng Điện sinh hoạt và Sạc xe máy điện, xe đạp điện",
-    "source_type": "pccc",
-    "chunk_preview": "Chập điện chiếm trên 70% nguyên nhân các vụ cháy. Quy tắc: Lắp aptomat chống giật, chống quá tải; không cắm sạc xe điện qua đêm gần lối thoá...",
-    "created_at": "206/09/2026"
-  },
-  {
-    "id": "kb_040",
-    "source_title": "Tổng đài 114 và Tiếp nhận tin báo cháy tại Công an xã Đức Hợp",
-    "source_type": "pccc",
-    "chunk_preview": "Gọi ngay Tổng đài 114 (miễn cước cuộc gọi) hoặc gọi số Trực ban Công an xã Đức Hợp: 02213.815.999 khi phát hiện cháy, nổ, đuối nước, sập đổ ...",
-    "created_at": "207/09/2026"
-  },
-  {
-    "id": "kb_041",
-    "source_title": "Lừa đảo Giả danh Công an hướng dẫn cài app VNeID/Dịch vụ công giả mạo (.apk)",
-    "source_type": "scam_alert",
-    "chunk_preview": "Kẻ xấu gọi điện thông báo VNeID bị lỗi, gửi link tải app .apk giả mạo Cổng DVC. Khi cấp quyền Trợ năng (Accessibility), mã độc tự chụp màn h...",
-    "created_at": "203/09/2026"
-  },
-  {
-    "id": "kb_042",
-    "source_title": "Lừa đảo Giả danh Cơ quan Điều tra, Viện kiểm sát gọi điện dọa 'Lệnh bắt giam'",
-    "source_type": "scam_alert",
-    "chunk_preview": "Kẻ xấu dọa nạn nhân liên quan đường dây rửa tiền, buôn ma túy xuyên quốc gia; gửi lệnh bắt giả qua Zalo ép chuyển tiền vào 'tài khoản an toà...",
-    "created_at": "204/09/2026"
-  },
-  {
-    "id": "kb_043",
-    "source_title": "Lừa đảo Tuyển Cộng tác viên xử lý đơn hàng ảo Shopee, TikTok, Lazada",
-    "source_type": "scam_alert",
-    "chunk_preview": "Quảng cáo việc nhẹ lương cao nạp tiền mua đơn hàng hưởng hoa hồng 10-20%. Vài đơn đầu 100k-500k trả tiền sòng phẳng. Đơn lớn hàng chục triệu...",
-    "created_at": "205/09/2026"
-  },
-  {
-    "id": "kb_044",
-    "source_title": "Lừa đảo Cuộc gọi video Deepfake AI giả mặt, giả giọng người thân mượn tiền",
-    "source_type": "scam_alert",
-    "chunk_preview": "Đối tượng hack tài khoản Facebook/Zalo, dùng công nghệ AI ghép mặt và nhại giọng người thân gọi video vài giây rồi cúp máy (bảo sóng yếu), s...",
-    "created_at": "206/09/2026"
-  },
-  {
-    "id": "kb_045",
-    "source_title": "Lừa đảo Đầu tư sàn tài chính Forex, Tiền ảo, Chứng khoán quốc tế cam kết siêu lợi nhuận",
-    "source_type": "scam_alert",
-    "chunk_preview": "Lập các sàn giao dịch ảo, cam kết lợi nhuận 30-50%/tháng bao lỗ. Ban đầu cho rút tiền nhỏ để tạo lòng tin, khi nộp số tiền lớn thì khóa tài ...",
-    "created_at": "207/09/2026"
-  },
-  {
-    "id": "kb_046",
-    "source_title": "Lừa đảo Cho vay tiền online qua App đen: Lãi suất 0%, dụ nộp phí bảo hiểm khoản vay",
-    "source_type": "scam_alert",
-    "chunk_preview": "Quảng cáo vay tiền giải ngân trong 5 phút không cần thế chấp. Sau khi đăng ký, kẻ xấu báo 'sai số tài khoản ngân hàng' hoặc 'chưa đóng phí b...",
-    "created_at": "203/09/2026"
-  },
-  {
-    "id": "kb_047",
-    "source_title": "Lừa đảo Bẫy tình cảm xuyên biên giới (Romance Scam) gửi thùng quà ngoại tệ",
-    "source_type": "scam_alert",
-    "chunk_preview": "Đối tượng đóng giả sĩ quan quân đội, kỹ sư dầu khí nước ngoài góa vợ kết bạn tán tỉnh yêu đương, hứa gửi thùng quà chứa hàng triệu USD về Vi...",
-    "created_at": "204/09/2026"
-  },
-  {
-    "id": "kb_048",
-    "source_title": "Lừa đảo Thông báo Trúng thưởng xe SH, Sổ tiết kiệm yêu cầu nộp thuế trước",
-    "source_type": "scam_alert",
-    "chunk_preview": "Nhắn tin hoặc gọi điện chúc mừng trúng thưởng xe máy SH, sổ tiết kiệm 500 triệu dịp tri ân khách hàng; yêu cầu chuyển khoản từ vài triệu đến...",
-    "created_at": "205/09/2026"
-  },
-  {
-    "id": "kb_049",
-    "source_title": "Lừa đảo Chiếm đoạt SIM 4G/5G và Dụ bấm cú pháp chuyển tiếp cuộc gọi (**21*)",
-    "source_type": "scam_alert",
-    "chunk_preview": "Kẻ xấu giả nhân viên nhà mạng gọi điện hỗ trợ nâng cấp SIM 4G/5G miễn phí, dụ nạn nhân nhắn cú pháp **21*Số_điện_thoại# trên bàn phím. Cú ph...",
-    "created_at": "206/09/2026"
-  },
-  {
-    "id": "kb_050",
-    "source_title": "Lừa đảo Dịch vụ 'Thu hồi tiền treo, cam kết lấy lại tiền bị lừa qua mạng' (Bẫy lừa lần 2)",
-    "source_type": "scam_alert",
-    "chunk_preview": "Nạn nhân vừa bị lừa tiền lên mạng tìm kiếm cách lấy lại thì gặp các trang 'Văn phòng Luật sư, Cục An ninh mạng hỗ trợ thu hồi tiền treo'. Kẻ...",
-    "created_at": "207/09/2026"
-  },
-  {
-    "id": "kb_051",
-    "source_title": "Lừa đảo Quét mã QR độc hại (QR Phishing) dán đè tại quán ăn, cửa hàng, bưu phẩm",
-    "source_type": "scam_alert",
-    "chunk_preview": "Đối tượng in mã QR độc hại dán đè lên mã QR thanh toán của cửa hàng, quán ăn hoặc gửi kèm bưu phẩm tri ân. Khi người dân quét mã, điện thoại...",
-    "created_at": "203/09/2026"
-  },
-  {
-    "id": "kb_052",
-    "source_title": "Hành vi Mua bán, Cho thuê tài khoản ngân hàng: Tiếp tay tội phạm rửa tiền",
-    "source_type": "scam_alert",
-    "chunk_preview": "Dụ dỗ sinh viên, người dân mở tài khoản ngân hàng rồi bán lại với giá 500k - 1 triệu/tài khoản. Các tài khoản này được bọn tội phạm dùng để ...",
-    "created_at": "204/09/2026"
-  },
-  {
-    "id": "kb_053",
-    "source_title": "Lừa đảo Giả mạo Biên lai chuyển tiền thành công (Fake Bill) chiếm đoạt hàng hóa",
-    "source_type": "scam_alert",
-    "chunk_preview": "Khách vào mua hàng dùng các trang web/app tạo bill chuyển tiền giả có logo ngân hàng, số tiền, tên người nhận y như thật rồi giục giao hàng ...",
-    "created_at": "205/09/2026"
-  },
-  {
-    "id": "kb_054",
-    "source_title": "Lừa đảo Mạo danh Nhân viên Điện lực, Viễn thông, BHXH dọa cắt dịch vụ đòi nợ",
-    "source_type": "scam_alert",
-    "chunk_preview": "Gọi điện tự xưng nhân viên điện lực thông báo khách hàng chưa đóng tiền điện tháng trước, dọa cắt điện trong 2 giờ tới; yêu cầu bấm link tải...",
-    "created_at": "206/09/2026"
-  },
-  {
-    "id": "kb_055",
-    "source_title": "Quy trình 4 Bước khẩn cấp khi người dân phát hiện bị lừa đảo hoặc đã lỡ chuyển tiền",
-    "source_type": "anti_scam",
-    "chunk_preview": "1-Khóa tài khoản ngân hàng lập tức; 2-Sao lưu toàn bộ tin nhắn, bằng chứng lừa đảo; 3-In bản sao kê ngân hàng có mộc đỏ; 4-Đến ngay Trụ sở C...",
-    "created_at": "207/09/2026"
-  },
-  {
-    "id": "kb_056",
-    "source_title": "Luật Phòng, chống ma túy: Trách nhiệm gia đình và Quy trình cai nghiện",
-    "source_type": "law",
-    "chunk_preview": "Gia đình có trách nhiệm phát hiện, khai báo người nghiện ma túy; phối hợp quản lý người cai nghiện tại gia đình và cộng đồng. Quy trình đăng...",
-    "created_at": "203/09/2026"
-  },
-  {
-    "id": "kb_057",
-    "source_title": "Nhận diện Ma túy 'núp bóng' thực phẩm: Nước vui, Trà sữa, Bánh cần sa",
-    "source_type": "anti_scam",
-    "chunk_preview": "Các đối tượng pha trộn ma túy tổng hợp Methamphetamine, Ketamine vào các gói đồ uống có bao bì sặc sỡ in chữ Crispy Fruit, Mango, Trà sữa......",
-    "created_at": "204/09/2026"
-  },
-  {
-    "id": "kb_058",
-    "source_title": "Tác hại của Thuốc lá điện tử pha Tinh dầu ma túy (Pod chill, Pod hút)",
-    "source_type": "anti_scam",
-    "chunk_preview": "Nhiều loại tinh dầu thuốc lá điện tử Pod chill bị tẩm ướp chất cần sa tổng hợp (ADB-BUTINACA). Người hút bị co giật, ảo giác, hôn mê, suy ti...",
-    "created_at": "205/09/2026"
-  },
-  {
-    "id": "kb_059",
-    "source_title": "Nhận diện và Tác hại của Khí cười N2O (Bóng cười) đối với hệ thần kinh",
-    "source_type": "anti_scam",
-    "chunk_preview": "Khí N2O gây tê liệt tủy sống, tổn thương não vĩnh viễn, suy giảm trí nhớ và liệt chi. Hành vi kinh doanh khí N2O phục vụ mục đích vui chơi g...",
-    "created_at": "206/09/2026"
-  },
-  {
-    "id": "kb_060",
-    "source_title": "Biện pháp phòng ngừa Tội phạm Trộm cắp tài sản tại địa bàn nông thôn xã Đức Hợp",
-    "source_type": "anti_scam",
-    "chunk_preview": "Đối tượng thường lợi dụng sơ hở dựng xe máy ngoài ngõ không người trông coi, chìa khóa cắm sẵn ở ổ, cửa nhà ban đêm không khóa chắc chắn. Kh...",
-    "created_at": "207/09/2026"
-  },
-  {
-    "id": "kb_061",
-    "source_title": "Phòng ngừa Tội phạm 'Tín dụng đen' và Cho vay nặng lãi trong giao dịch dân sự",
-    "source_type": "law",
-    "chunk_preview": "Lãi suất cho vay trong giao dịch dân sự không được vượt quá 20%/năm. Hành vi cho vay với lãi suất gấp 5 lần trở lên thu lợi bất chính từ 30 ...",
-    "created_at": "203/09/2026"
-  },
-  {
-    "id": "kb_062",
-    "source_title": "Chế tài xử phạt Tệ nạn Cờ bạc, Đánh số đề, Cá độ bóng đá qua mạng",
-    "source_type": "law",
-    "chunk_preview": "Đánh bạc dưới mọi hình thức (tiền, hiện vật) từ 5.000.000đ trở lên hoặc dưới 5 triệu nhưng đã bị kết án chưa xóa án tích sẽ bị phạt tù từ 06...",
-    "created_at": "204/09/2026"
-  },
-  {
-    "id": "kb_063",
-    "source_title": "Công tác Giúp đỡ người chấp hành xong án phạt tù Tái hòa nhập cộng đồng",
-    "source_type": "law",
-    "chunk_preview": "Chính sách hỗ trợ người chấp hành xong án phạt tù về cư trú tại xã Đức Hợp: Tạo điều kiện nhập lại hộ khẩu, cấp CCCD, hỗ trợ học nghề và đượ...",
-    "created_at": "205/09/2026"
-  },
-  {
-    "id": "kb_064",
-    "source_title": "Quy trình Quản lý và Xét nghiệm chất ma túy đối với người sử dụng tại xã Đức Hợp",
-    "source_type": "law",
-    "chunk_preview": "Công an xã Đức Hợp có thẩm quyền phối hợp Trạm Y tế xã triệu tập và tiến hành xét nghiệm chất ma túy trong cơ thể đối với người có biểu hiện...",
-    "created_at": "206/09/2026"
-  },
-  {
-    "id": "kb_065",
-    "source_title": "Xử lý hành vi sử dụng Xung điện, Kích điện đánh bắt thủy sản trái phép",
-    "source_type": "law",
-    "chunk_preview": "Nghiêm cấm sử dụng công cụ kích điện, xung điện để khai thác thủy sản trên các tuyến sông, mương, kênh rạch tại xã Đức Hợp. Phạt tiền từ 3.0...",
-    "created_at": "207/09/2026"
-  },
-  {
-    "id": "kb_066",
-    "source_title": "Luật Quản lý, sử dụng vũ khí, vật liệu nổ và CCHT năm 2024",
-    "source_type": "law",
-    "chunk_preview": "Luật mới năm 2024 bổ sung dao có tính sát thương cao (lưỡi dài từ 20cm trở lên có đầu nhọn) vào nhóm vũ khí khi sử dụng với mục đích xâm phạ...",
-    "created_at": "203/09/2026"
-  },
-  {
-    "id": "kb_067",
-    "source_title": "Phân loại Súng tự chế (Súng cồn, súng kíp, súng săn, súng hơi PCP) và Mức xử phạt",
-    "source_type": "law",
-    "chunk_preview": "Súng cồn, súng hơi PCP bắn đạn chì có sức sát thương tương đương vũ khí quân dụng. Hành vi chế tạo, tàng trữ, sử dụng bị phạt tiền từ 10 - 2...",
-    "created_at": "204/09/2026"
-  },
-  {
-    "id": "kb_068",
-    "source_title": "Phân biệt Pháo hoa hợp pháp (Z121) và Pháo hoa nổ bị nghiêm cấm",
-    "source_type": "law",
-    "chunk_preview": "Pháo hoa hợp pháp chỉ phát ra hiệu ứng ánh sáng, màu sắc, âm thanh rít nhưng KHÔNG gây tiếng nổ (do Nhà máy Z121 sản xuất). Pháo hoa nổ là l...",
-    "created_at": "205/09/2026"
-  },
-  {
-    "id": "kb_069",
-    "source_title": "Điều kiện sử dụng Pháo hoa Z121 trong dịp Tết, Cưới hỏi, Sinh nhật",
-    "source_type": "law",
-    "chunk_preview": "Cá nhân từ đủ 18 tuổi có năng lực hành vi dân sự được phép sử dụng pháo hoa Z121 trong các dịp lễ, tết, sinh nhật, cưới hỏi. Phải mua tại cử...",
-    "created_at": "206/09/2026"
-  },
-  {
-    "id": "kb_070",
-    "source_title": "Chế tài xử phạt hành vi Đốt pháo nổ trái phép đêm Giao thừa",
-    "source_type": "law",
-    "chunk_preview": "Đốt pháo nổ trái phép bị phạt tiền từ 5.000.000đ đến 10.000.000đ và tịch thu tang vật. Nếu đốt pháo gây ảnh hưởng nghiêm trọng đến ANTT sẽ b...",
-    "created_at": "207/09/2026"
-  },
-  {
-    "id": "kb_071",
-    "source_title": "Chế tài xử lý hành vi Mua bán, Vận chuyển, Tàng trữ Pháo nổ nhập lậu",
-    "source_type": "law",
-    "chunk_preview": "Pháo nổ là hàng cấm. Hành vi tàng trữ, vận chuyển từ 06 kg pháo nổ trở lên bị khởi tố hình sự (phạt tù từ 01 năm đến 05 năm). Mua bán từ 40k...",
-    "created_at": "203/09/2026"
-  },
-  {
-    "id": "kb_072",
-    "source_title": "Chính sách Vận động, Tiếp nhận và Miễn trách nhiệm khi Giao nộp Vũ khí, Pháo",
-    "source_type": "law",
-    "chunk_preview": "Người dân tự giác mang súng tự chế, dao kiếm, đạn dược, pháo nổ đến giao nộp tại Trụ sở Công an xã Đức Hợp được MIỄN HOÀN TOÀN trách nhiệm x...",
-    "created_at": "204/09/2026"
-  },
-  {
-    "id": "kb_073",
-    "source_title": "Quy định Quản lý Dao có tính sát thương cao theo Luật năm 2024",
-    "source_type": "law",
-    "chunk_preview": "Dao có chiều dài lưỡi từ 20cm trở lên có mũi nhọn hoặc sắc bén được quản lý chặt chẽ. Khi sử dụng vào mục đích lao động sản xuất thì hợp phá...",
-    "created_at": "205/09/2026"
-  },
-  {
-    "id": "kb_074",
-    "source_title": "Quy định Quản lý và Sử dụng Công cụ hỗ trợ (Bình xịt cay, Dùi cui điện)",
-    "source_type": "law",
-    "chunk_preview": "Công cụ hỗ trợ chỉ được trang bị cho các lực lượng chuyên trách được cấp phép (Công an, Quân đội, Lực lượng bảo vệ ANTT cơ sở...). Cá nhân t...",
-    "created_at": "206/09/2026"
-  },
-  {
-    "id": "kb_075",
-    "source_title": "Thủ tục Cấp giấy phép Vận chuyển Pháo hoa Z121 phục vụ sự kiện",
-    "source_type": "law",
-    "chunk_preview": "Doanh nghiệp, tổ chức vận chuyển pháo hoa số lượng lớn phục vụ lễ hội phải có Giấy phép vận chuyển do cơ quan Công an có thẩm quyền cấp. Xe ...",
-    "created_at": "207/09/2026"
-  },
-  {
-    "id": "kb_076",
-    "source_title": "Luật Lực lượng tham gia bảo vệ an ninh, trật tự ở cơ sở số 30/2023/QH15",
-    "source_type": "law",
-    "chunk_preview": "Luật kiện toàn, hợp nhất 3 lực lượng: Bảo vệ dân phố, Công an xã bán chuyên trách và Đội trưởng, Đội phó Dân phòng thành một lực lượng thống...",
-    "created_at": "203/09/2026"
-  },
-  {
-    "id": "kb_077",
-    "source_title": "6 Nhiệm vụ nòng cốt của Tổ bảo vệ ANTT tại thôn Nho Lâm và các thôn xã Đức Hợp",
-    "source_type": "law",
-    "chunk_preview": "1-Nắm tình hình ANTT; 2-Xây dựng phong trào toàn dân bảo vệ ANTQ; 3-Phòng cháy, chữa cháy và CNCH; 4-Quản lý hành chính về trật tự xã hội; 5...",
-    "created_at": "204/09/2026"
-  },
-  {
-    "id": "kb_078",
-    "source_title": "Cơ cấu tổ chức của Tổ bảo vệ ANTT tại cơ sở thôn",
-    "source_type": "law",
-    "chunk_preview": "Mỗi thôn thuộc xã Đức Hợp (thôn Nho Lâm,...) thành lập 01 Tổ bảo vệ ANTT gồm: 01 Tổ trưởng, 01 Tổ phó và các Tổ viên do Chủ tịch UBND xã Đức...",
-    "created_at": "205/09/2026"
-  },
-  {
-    "id": "kb_079",
-    "source_title": "Tiêu chuẩn, điều kiện tuyển chọn tham gia Lực lượng bảo vệ ANTT cơ sở",
-    "source_type": "law",
-    "chunk_preview": "Công dân từ đủ 18 tuổi đến 70 tuổi (trường hợp trên 70 tuổi có sức khỏe tốt có thể được xem xét), có lý lịch trong sạch, có bằng tốt nghiệp ...",
-    "created_at": "206/09/2026"
-  },
-  {
-    "id": "kb_080",
-    "source_title": "Chế độ phụ cấp, trang phục và bảo hiểm của Lực lượng bảo vệ ANTT cơ sở",
-    "source_type": "law",
-    "chunk_preview": "Lực lượng được hưởng mức hỗ trợ tiền hàng tháng theo quy định HĐND tỉnh Hưng Yên; được hỗ trợ tiền đóng BHXH tự nguyện, BHYT; được cấp phát ...",
-    "created_at": "207/09/2026"
-  },
-  {
-    "id": "kb_081",
-    "source_title": "Quy chế phối hợp Tuần tra đêm phòng chống tội phạm giữa Công an xã và Tổ ANTT",
-    "source_type": "law",
-    "chunk_preview": "Tổ bảo vệ ANTT thôn phối hợp Cán bộ Công an xã tuần tra khép kín các tuyến đường đê, ngõ xóm, khu vực giáp ranh từ 22h đêm đến 5h sáng nhằm ...",
-    "created_at": "203/09/2026"
-  },
-  {
-    "id": "kb_082",
-    "source_title": "Vai trò của Lực lượng ANTT cơ sở trong PCCC và Phòng chống thiên tai, bão lũ",
-    "source_type": "law",
-    "chunk_preview": "Là lực lượng tại chỗ có mặt đầu tiên khi xảy ra cháy nổ, bão lũ tràn đê; hướng dẫn người già trẻ nhỏ sơ tán, vận hành Điểm chữa cháy công cộ...",
-    "created_at": "204/09/2026"
-  },
-  {
-    "id": "kb_083",
-    "source_title": "Hỗ trợ Công an xã nắm tình hình dư luận và Giải quyết mâu thuẫn xóm làng",
-    "source_type": "law",
-    "chunk_preview": "Tổ viên ANTT sinh sống gắn bó với bà con thôn Nho Lâm, kịp thời phát hiện các xích mích đất đai, tranh chấp lối đi, mâu thuẫn gia đình để hò...",
-    "created_at": "205/09/2026"
-  },
-  {
-    "id": "kb_084",
-    "source_title": "Vận động, cảm hóa, giáo dục người lầm lỗi và thanh thiếu niên hư tại cơ sở",
-    "source_type": "law",
-    "chunk_preview": "Phối hợp với gia đình, dòng họ, đoàn thanh niên gặp gỡ động viên người mãn hạn tù, thanh niên lêu lổng có nguy cơ vi phạm pháp luật; giới th...",
-    "created_at": "206/09/2026"
-  },
-  {
-    "id": "kb_085",
-    "source_title": "Phong trào Toàn dân bảo vệ An ninh Tổ quốc và Biểu dương gương người tốt việc tốt",
-    "source_type": "law",
-    "chunk_preview": "Phát động phong trào nhân dân tham gia tố giác tội phạm, lắp đặt camera an ninh gia đình hướng ra đường làng; khen thưởng người dân dũng cảm...",
-    "created_at": "207/09/2026"
-  },
-  {
-    "id": "kb_086",
-    "source_title": "Luật Phòng, chống bạo lực gia đình năm 2022: 16 Hành vi bạo lực bị nghiêm cấm",
-    "source_type": "law",
-    "chunk_preview": "Luật mở rộng nhận diện 16 hành vi bạo lực gồm: Bạo lực thể xác (đánh đập), bạo lực tinh thần (lăng mạ, sỉ nhục, cô lập), bạo lực kinh tế (ch...",
-    "created_at": "203/09/2026"
-  },
-  {
-    "id": "kb_087",
-    "source_title": "Quy trình Tiếp nhận tin báo Bạo lực gia đình tại Công an xã Đức Hợp",
-    "source_type": "law",
-    "chunk_preview": "Khi nhận tin báo bạo lực gia đình qua số 02213.815.999 hoặc VNeID, Cán bộ Công an xã lập tức có mặt tại hiện trường trong thời gian nhanh nh...",
-    "created_at": "204/09/2026"
-  },
-  {
-    "id": "kb_088",
-    "source_title": "Biện pháp Cấm tiếp xúc theo quyết định của Chủ tịch UBND xã Đức Hợp",
-    "source_type": "law",
-    "chunk_preview": "Chủ tịch UBND xã Đức Hợp ra quyết định Cấm tiếp xúc trong thời hạn không quá 03 ngày khi có đơn yêu cầu của nạn nhân bạo lực. Người có hành ...",
-    "created_at": "205/09/2026"
-  },
-  {
-    "id": "kb_089",
-    "source_title": "Xử lý hành vi Bạo lực tinh thần, Lăng mạ, Chửi bới, Cô lập kinh tế trong gia đình",
-    "source_type": "law",
-    "chunk_preview": "Hành vi lăng mạ, chửi bới, xúc phạm danh dự nhân phẩm thành viên gia đình bị phạt tiền từ 5.000.000đ đến 10.000.000đ. Hành vi cấm đoán người...",
-    "created_at": "206/09/2026"
-  },
-  {
-    "id": "kb_090",
-    "source_title": "Chế tài xử phạt Đánh đập, Bạo hành thể xác vợ, chồng, con cái theo Nghị định 144",
-    "source_type": "law",
-    "chunk_preview": "Hành vi đánh đập, gây thương tích cho thành viên gia đình bị phạt tiền từ 5.000.000đ đến 10.000.000đ. Sử dụng hung khí nguy hiểm đánh đập ph...",
-    "created_at": "207/09/2026"
-  },
-  {
-    "id": "kb_091",
-    "source_title": "Vai trò của Hội Phụ nữ và Tổ hòa giải cơ sở trong phòng chống bạo lực",
-    "source_type": "law",
-    "chunk_preview": "Mô hình 'Địa chỉ tin cậy tại cộng đồng' tại xã Đức Hợp hỗ trợ nơi ăn chốn ở khẩn cấp cho phụ nữ, trẻ em bị bạo hành; các buổi hòa giải, tư v...",
-    "created_at": "203/09/2026"
-  },
-  {
-    "id": "kb_092",
-    "source_title": "Quy trình Bố trí Nơi tạm lánh an toàn cho Nạn nhân bạo lực gia đình",
-    "source_type": "law",
-    "chunk_preview": "Quy định UBND xã Đức Hợp phối hợp Trạm Y tế, nhà văn hóa thôn hoặc gia đình uy tín bố trí nơi tạm lánh, hỗ trợ nhu yếu phẩm thiết yếu, giữ b...",
-    "created_at": "204/09/2026"
-  },
-  {
-    "id": "kb_093",
-    "source_title": "Phòng chống Xâm hại tình dục trẻ em và Đường dây nóng Bảo vệ trẻ em 111",
-    "source_type": "law",
-    "chunk_preview": "Giáo dục quy tắc 5 ngón tay, quy tắc đồ lót phòng chống xâm hại cho học sinh; khuyến cáo phụ huynh quan tâm các biểu hiện tâm lý bất thường ...",
-    "created_at": "205/09/2026"
-  },
-  {
-    "id": "kb_094",
-    "source_title": "Trách nhiệm Phụng dưỡng cha mẹ già và Xử lý hành vi Ngược đãi người cao tuổi",
-    "source_type": "law",
-    "chunk_preview": "Con cái có nghĩa vụ chăm sóc, phụng dưỡng cha mẹ khi về già. Hành vi ngược đãi, bỏ đói, không chăm sóc, chửi bới cha mẹ già yếu bị phạt tiền...",
-    "created_at": "206/09/2026"
-  },
-  {
-    "id": "kb_095",
-    "source_title": "Kỹ năng Hòa giải mâu thuẫn gia đình: Giữ gìn hạnh phúc xóm làng",
-    "source_type": "law",
-    "chunk_preview": "Phương pháp lắng nghe hai bên, phân tích đúng sai trên cơ sở pháp luật và đạo lý; tìm kiếm tiếng nói chung để hàn gắn rạn nứt hôn nhân, gìn ...",
-    "created_at": "207/09/2026"
-  },
-  {
-    "id": "kb_096",
-    "source_title": "Đề án 06/CP của Chính phủ: Mục tiêu số hóa và Tiện ích cho nhân dân xã Đức Hợp",
-    "source_type": "law",
-    "chunk_preview": "Đề án phát triển ứng dụng dữ liệu về dân cư, định danh và xác thực điện tử phục vụ chuyển đổi số quốc gia giai đoạn 2022 - 2025. Người dân x...",
-    "created_at": "203/09/2026"
-  },
-  {
-    "id": "kb_097",
-    "source_title": "Danh mục 25 Dịch vụ công thiết yếu toàn trình thực hiện trực tuyến",
+    "legal_basis": "Điều 25, 26, 27 Luật Phòng, chống bạo lực gia đình năm 2022; Thông tư liên tịch của Bộ Công an",
+    "chunk_preview": "Chủ tịch UBND xã Đức Hợp có thẩm quyền ra Quyết định cấm tiếp xúc có hiệu lực đến 03 ngày khi có hành vi bạo lực đe dọa tính mạng. Công an xã Đức Hợp chịu trách nhiệm phân công cán bộ giám sát việc thi hành lệnh cấm tiếp xúc và can thiệp ngay khi vi phạm.",
+    "full_content": "QUY ĐỊNH VỀ BIỆN PHÁP CẤM TIẾP XÚC THEO YÊU CẦU CỦA NGƯỜI BỊ BẠO LỰC GIA ĐÌNH\n\n1. Thẩm quyền ban hành Quyết định Cấm tiếp xúc cấp Xã:\n- Chủ tịch UBND xã Đức Hợp ra quyết định cấm tiếp xúc có thời hạn không quá 03 ngày khi:\n  + Có đơn yêu cầu của người bị bạo lực gia đình, người giám hộ hoặc cơ quan, tổ chức có thẩm quyền.\n  + Hành vi bạo lực gia đình gây tổn hại hoặc đe dọa gây tổn hại đến sức khỏe, tính mạng.\n  + Người có hành vi bạo lực và nạn nhân không cùng nơi cư trú hoặc nạn nhân đã có chỗ tạm lánh an toàn.\n\n2. Trách nhiệm giám sát của Công an xã Đức Hợp:\n- Trưởng Công an xã Đức Hợp phân công cán bộ công an phối hợp Trưởng thôn, Hội Phụ nữ giám sát việc thực hiện quyết định cấm tiếp xúc.\n- Khi người bị áp dụng biện pháp cấm tiếp xúc cố tình tiếp cận nạn nhân trong phạm vi dưới 30 mét: Nạn nhân lập tức gọi Hotline Công an xã 02213.815.999. Lực lượng Công an sẽ có mặt khống chế, đưa về trụ sở lập biên bản xử lý nghiêm.\n\n3. Chỗ tạm lánh an toàn và hỗ trợ khẩn cấp:\n- Xã Đức Hợp bố trí Nhà văn hóa thôn, Trạm y tế hoặc cơ sở bảo trợ xã hội làm nơi tạm lánh an toàn cho nạn nhân trong thời gian khẩn cấp.\n- Nạn nhân được hỗ trợ chăm sóc y tế, tâm lý và pháp lý miễn phí.",
+    "keywords": [
+      "cấm tiếp xúc",
+      "bảo vệ nạn nhân bạo lực gia đình",
+      "chỗ tạm lánh an toàn",
+      "can thiệp bạo lực",
+      "luật bạo lực gia đình 2022"
+    ],
+    "created_at": "27/09/2026"
+  },
+  {
+    "id": "kb_blgd_03",
+    "category_id": "bao_luc_gia_dinh_antt",
+    "category_name": "Bạo lực gia đình & An ninh trật tự",
+    "source_title": "Quy trình Công an xã Đức Hợp tiếp nhận, giải quyết tố giác tin báo tội phạm và cố ý gây thương tích",
     "source_type": "procedure",
-    "chunk_preview": "Bao gồm các thủ tục cốt lõi: Đăng ký thường trú, tạm trú, khai báo tạm vắng, cấp thẻ Căn cước, đăng ký xe máy cấp xã, nộp phạt giao thông, c...",
-    "created_at": "204/09/2026"
+    "legal_basis": "Thông tư số 129/2021/TT-BCA của Bộ Công an; Điều 145, 146 Bộ luật Tố tụng hình sự",
+    "chunk_preview": "Công an xã Đức Hợp tiếp nhận tố giác tội phạm, bạo lực, đánh người gây thương tích 24/24h qua điện thoại 02213.815.999 hoặc tại trụ sở Thôn Nho Lâm. Cán bộ lập biên bản tiếp nhận, phân loại, bảo vệ hiện trường và giải quyết kịp thời theo quy định.",
+    "full_content": "QUY TRÌNH TIẾP NHẬN VÀ GIẢI QUYẾT TỐ GIÁC TỘI PHẠM TẠI CÔNG AN XÃ ĐỨC HỢP\n\n1. Hình thức tiếp nhận:\n- Trực tiếp bằng văn bản hoặc lời khai tại Trụ sở Công an xã Đức Hợp (Thôn Nho Lâm, xã Đức Hợp, huyện Kim Động, tỉnh Hưng Yên).\n- Trực tiếp qua điện thoại Trực ban 24/24h: 02213.815.999.\n- Qua chức năng 'Gửi tin báo ANTT' trên ứng dụng VNeID (Mức 2).\n\n2. Trách nhiệm của Cán bộ trực ban Công an xã:\n- Tiếp nhận đầy đủ thông tin tố giác, lập Biên bản tiếp nhận tin báo, vào Sổ theo dõi tiếp nhận tố giác tội phạm.\n- Cấp Giấy biên nhận tiếp nhận nguồn tin cho người tố giác.\n- Lập tức cử lực lượng đến hiện trường để ngăn chặn hành vi phạm tội, cấp cứu người bị hại, bảo vệ hiện trường và tạm giữ đối tượng, hung khí (nếu có).\n\n3. Thời hạn giải quyết:\n- Trong vòng 24 giờ kể từ khi tiếp nhận, Công an xã tiến hành kiểm tra, xác minh sơ bộ và báo cáo Thủ trưởng Cơ quan Cảnh sát điều tra Công an huyện Kim Động xử lý theo thẩm quyền tố tụng.",
+    "keywords": [
+      "tố giác tội phạm",
+      "báo công an",
+      "đánh người gây thương tích",
+      "tin báo an ninh trật tự",
+      "trực ban công an xã"
+    ],
+    "created_at": "27/09/2026"
   },
   {
-    "id": "kb_098",
-    "source_title": "Thủ tục Liên thông điện tử: Khai sinh - Đăng ký thường trú - Cấp thẻ BHYT",
-    "source_type": "procedure",
-    "chunk_preview": "Chỉ cần 1 lần nộp hồ sơ trực tuyến duy nhất trên Cổng DVC Quốc gia, giải quyết đồng thời 3 thủ tục cho trẻ sơ sinh; nhận Giấy khai sinh, cập...",
-    "created_at": "205/09/2026"
-  },
-  {
-    "id": "kb_099",
-    "source_title": "Thủ tục Liên thông điện tử: Khai tử - Xóa thường trú - Trợ cấp mai táng",
-    "source_type": "procedure",
-    "chunk_preview": "Giải quyết đồng thời thủ tục Đăng ký khai tử tại Tư pháp xã, Xóa đăng ký thường trú tại Công an xã Đức Hợp và Giải quyết chế độ trợ cấp mai ...",
-    "created_at": "206/09/2026"
-  },
-  {
-    "id": "kb_100",
-    "source_title": "Đăng ký tạm trú, Thông báo lưu trú qua VNeID phục vụ công nhân, sinh viên",
-    "source_type": "procedure",
-    "chunk_preview": "Hướng dẫn người lao động, công nhân làm việc tại các nhà máy, cụm công nghiệp xung quanh xã Đức Hợp tự khai báo tạm trú và thông báo lưu trú...",
-    "created_at": "207/09/2026"
-  },
-  {
-    "id": "kb_101",
-    "source_title": "Quy trình Tiếp nhận và Phân loại Tố giác, Tin báo về tội phạm tại Công an xã",
+    "id": "kb_blgd_04",
+    "category_id": "bao_luc_gia_dinh_antt",
+    "category_name": "Bạo lực gia đình & An ninh trật tự",
+    "source_title": "Xử phạt hành chính và xử lý hình sự đối với hành vi xúc phạm danh dự, đánh đập thành viên gia đình",
     "source_type": "law",
-    "chunk_preview": "Công an xã Đức Hợp có trách nhiệm tiếp nhận, phân loại và tiến hành kiểm tra, xác minh sơ bộ tố giác, tin báo tội phạm trong thời hạn không ...",
-    "created_at": "203/09/2026"
+    "legal_basis": "Nghị định số 144/2021/NĐ-CP; Điều 185 Bộ luật Hình sự 2015",
+    "chunk_preview": "Hành vi lăng mạ, xúc phạm danh dự thành viên gia đình bị phạt tiền từ 5 - 10 triệu đồng. Hành vi đánh đập, hành hạ bị phạt từ 10 - 20 triệu đồng hoặc phạt tù từ 02 đến 05 năm theo Bộ luật Hình sự.",
+    "full_content": "MỨC XỬ PHẠT CỤ THỂ ĐỐI VỚI CÁC HÀNH VI BẠO HÀNH GIA ĐÌNH\n\n1. Bạo lực về tinh thần (lăng mạ, xúc phạm, đe dọa):\n- Phạt tiền từ 5.000.000 đồng đến 10.000.000 đồng đối với hành vi lăng mạ, chì chiết, xúc phạm danh dự, nhân phẩm thành viên gia đình (Điều 54 Nghị định 144/2021/NĐ-CP).\n- Phạt tiền từ 10.000.000 đồng đến 20.000.000 đồng đối với hành vi đe dọa giết người hoặc đe dọa xâm hại sức khỏe nếu chưa đến mức truy cứu hình sự.\n\n2. Bạo lực về kinh tế:\n- Phạt tiền từ 20.000.000 đồng đến 30.000.000 đồng đối với hành vi chiếm đoạt tài sản riêng của thành viên gia đình; ép buộc thành viên gia đình lao động quá sức hoặc đóng góp tài chính quá khả năng.\n\n3. Xử lý hình sự về Tội ngược đãi hoặc hành hạ ông bà, cha mẹ, vợ chồng, con, cháu (Điều 185 BLHS):\n- Người nào đối xử tàn ác hoặc làm nhục thành viên gia đình gây đau đớn về thể xác hoặc tinh thần: Bị phạt cảnh cáo, phạt cải tạo không giam giữ đến 03 năm hoặc phạt tù từ 06 tháng đến 03 năm.\n- Phạm tội đối với phụ nữ mà biết là có thai, người già yếu, khuyết tật hoặc trẻ em: Phạt tù từ 02 năm đến 05 năm.",
+    "keywords": [
+      "xử phạt bạo hành gia đình",
+      "đánh vợ bị phạt bao nhiêu",
+      "ngược đãi vợ chồng",
+      "nghị định 144/2021",
+      "điều 185 bộ luật hình sự"
+    ],
+    "created_at": "27/09/2026"
   },
   {
-    "id": "kb_102",
-    "source_title": "Chế độ Bảo vệ tính mạng, sức khỏe, tài sản của Người tố giác tội phạm",
+    "id": "kb_cutru_01",
+    "category_id": "cu_tru",
+    "category_name": "Cư trú & Căn cước VNeID",
+    "source_title": "Luật Cư trú số 68/2020/QH14: Bỏ Sổ hộ khẩu giấy, quản lý cư trú hoàn toàn bằng công nghệ số",
     "source_type": "law",
-    "chunk_preview": "Người dân tố giác tội phạm được giữ bí mật danh tính tuyệt đối; khi bị đe dọa trả thù được cơ quan Công an áp dụng ngay các biện pháp bảo vệ...",
-    "created_at": "204/09/2026"
+    "legal_basis": "Luật Cư trú năm 2020; Thông tư số 55/2021/TT-BCA và Thông tư 56/2021/TT-BCA của Bộ Công an",
+    "chunk_preview": "Từ 01/01/2023, toàn bộ Sổ hộ khẩu giấy hết giá trị. Thông tin cư trú của người dân xã Đức Hợp được xác thực qua Căn cước công dân gắn chip, ứng dụng VNeID Mức 2 và Giấy xác nhận thông tin cư trú (CT07).",
+    "full_content": "QUY ĐỊNH BỎ SỔ HỘ KHẨU GIẤY VÀ PHƯƠNG THỨC SỬ DỤNG THÔNG TIN CƯ TRÚ\n\n1. Sổ hộ khẩu và Sổ tạm trú giấy đã chính thức hết giá trị sử dụng từ ngày 01/01/2023 theo Điều 38 Luật Cư trú 2020.\n2. Các phương thức chứng minh cư trú thay thế sổ hộ khẩu:\n- Sử dụng Thẻ Căn cước công dân gắn chip hoặc Thẻ Căn cước mới.\n- Sử dụng ứng dụng VNeID Mức độ 2 (phần Thông tin cư trú cá nhân và chủ hộ).\n- Sử dụng Giấy xác nhận thông tin cư trú (Mẫu CT07) do Công an xã Đức Hợp cấp khi cơ quan ngoài ngành yêu cầu.\n3. Cơ quan nhà nước không được yêu cầu người dân nộp hoặc xuất trình sổ hộ khẩu giấy khi giải quyết thủ tục hành chính.",
+    "keywords": [
+      "bỏ sổ hộ khẩu",
+      "luật cư trú 2020",
+      "chứng minh cư trú",
+      "vneid thay hộ khẩu",
+      "mẫu ct07"
+    ],
+    "created_at": "27/09/2026"
   },
   {
-    "id": "kb_103",
-    "source_title": "Tính năng Kiến nghị, Phản ánh về ANTT trực tiếp trên ứng dụng VNeID",
+    "id": "kb_cutru_02",
+    "category_id": "cu_tru",
+    "category_name": "Cư trú & Căn cước VNeID",
+    "source_title": "Luật Căn cước số 26/2023/QH15: Đổi tên thành Thẻ Căn cước và cấp cho trẻ em dưới 14 tuổi",
+    "source_type": "law",
+    "legal_basis": "Luật Căn cước năm 2023 có hiệu lực từ ngày 01/07/2024",
+    "chunk_preview": "Từ ngày 01/07/2024, chính thức cấp Thẻ Căn cước thay thế CCCD. Trẻ em từ 0 đến dưới 6 tuổi được cấp Căn cước online qua VNeID mà không cần thu nhận sinh trắc học. Trẻ từ 6 đến dưới 14 tuổi cấp theo nhu cầu.",
+    "full_content": "ĐIỂM MỚI NỔI BẬT CỦA LUẬT CĂN CƯỚC NĂM 2023\n\n1. Đổi tên từ 'Căn cước công dân' thành 'Thẻ Căn cước'. Các thẻ CCCD gắn chip đã cấp trước ngày 01/07/2024 vẫn giữ nguyên giá trị sử dụng đến hết thời hạn ghi trên thẻ.\n2. Cấp thẻ Căn cước cho trẻ em:\n- Trẻ em dưới 6 tuổi: Cha, mẹ hoặc người giám hộ thực hiện nộp hồ sơ trực tuyến qua Cổng DVC hoặc VNeID; không thu nhận thông tin sinh trắc học (vân tay, mống mắt, ảnh mặt).\n- Trẻ em từ 6 đến dưới 14 tuổi: Đến cơ quan Công an cùng cha mẹ để thu nhận vân tay, mống mắt và ảnh khuôn mặt.\n3. Tích hợp mống mắt và ADN, giọng nói: Bổ sung thu nhận sinh trắc học mống mắt cho toàn bộ công dân từ 6 tuổi trở lên khi làm thẻ Căn cước mới.",
+    "keywords": [
+      "luật căn cước 2023",
+      "thẻ căn cước mới",
+      "làm căn cước cho trẻ em",
+      "thu nhận mống mắt",
+      "thời hạn cccd"
+    ],
+    "created_at": "27/09/2026"
+  },
+  {
+    "id": "kb_cutru_03",
+    "category_id": "cu_tru",
+    "category_name": "Cư trú & Căn cước VNeID",
+    "source_title": "Quy định điều kiện và hồ sơ Đăng ký thường trú tại xã Đức Hợp",
+    "source_type": "law",
+    "legal_basis": "Điều 20, 21 Luật Cư trú năm 2020",
+    "chunk_preview": "Công dân có chỗ ở hợp pháp thuộc quyền sở hữu của mình hoặc được chủ hộ, chủ sở hữu chỗ ở đồng ý thì được đăng ký thường trú. Thời hạn giải quyết trong 07 ngày làm việc.",
+    "full_content": "HỒ SƠ VÀ THỦ TỤC ĐĂNG KÝ THƯỜNG TRÚ TẠI ĐỊA BÀN XÃ ĐỨC HỢP\n\n1. Trường hợp chỗ ở hợp pháp thuộc sở hữu cá nhân:\n- Tờ khai thay đổi thông tin cư trú (Mẫu CT01).\n- Giấy tờ chứng minh chỗ ở hợp pháp (Sổ đỏ, Hợp đồng mua bán nhà, Giấy phép xây dựng).\n\n2. Trường hợp nhập hộ về gia đình người thân (vợ về với chồng, con về với cha mẹ, ông bà về với cháu):\n- Tờ khai CT01 có ý kiến đồng ý của chủ hộ và chủ sở hữu chỗ ở hợp pháp.\n- Giấy tờ chứng minh quan hệ nhân thân (Giấy đăng ký kết hôn, Giấy khai sinh - nếu chưa có trên dữ liệu quốc gia).\n\n3. Nộp hồ sơ: Nộp trực tuyến qua VNeID Mức 2 hoặc trực tiếp tại Bộ phận Một cửa Công an xã Đức Hợp (Thôn Nho Lâm). Lệ phí: 10.000đ (online) / 20.000đ (trực tiếp).",
+    "keywords": [
+      "hồ sơ thường trú",
+      "đăng ký thường trú xã đức hợp",
+      "nhập khẩu",
+      "chỗ ở hợp pháp"
+    ],
+    "created_at": "27/09/2026"
+  },
+  {
+    "id": "kb_gt_01",
+    "category_id": "giao_thong",
+    "category_name": "Giao thông & Đăng ký xe",
+    "source_title": "Quy định phân cấp Đăng ký xe mô tô, xe máy, xe máy điện tại Công an xã Đức Hợp",
     "source_type": "procedure",
-    "chunk_preview": "Bà con nhân dân mở VNeID -> 'Dịch vụ khác' -> 'Kiến nghị, phản ánh về ANTT' để gửi tin báo trộm cắp, cờ bạc, ma túy, lừa đảo mạng kèm hình ả...",
-    "created_at": "205/09/2026"
+    "legal_basis": "Thông tư số 24/2023/TT-BCA và Thông tư số 28/2024/TT-BCA của Bộ Công an",
+    "chunk_preview": "Công an xã Đức Hợp thực hiện đăng ký, cấp biển số định danh cho xe mô tô, xe gắn máy, xe máy điện của cá nhân, cơ quan, tổ chức có trụ sở hoặc cư trú tại xã Đức Hợp.",
+    "full_content": "QUY TRÌNH ĐĂNG KÝ XE MÁY CẤP XÃ TẠI CÔNG AN XÃ ĐỨC HỢP\n\n1. Thẩm quyền: Công an xã Đức Hợp được Bộ Công an và Giám đốc Công an tỉnh Hưng Yên phân cấp đăng ký, cấp biển số định danh cho toàn bộ xe mô tô, xe gắn máy, xe máy điện của công dân thường trú hoặc tạm trú tại xã Đức Hợp.\n2. Quy trình thực hiện:\n- Bước 1: Chủ xe nộp lệ phí trước bạ tại cơ quan Thuế hoặc nộp điện tử qua Cổng DVC / App ngân hàng.\n- Bước 2: Kê khai Giấy khai đăng ký xe trên Cổng DVC Bộ Công an hoặc kê khai lần đầu trên VNeID.\n- Bước 3: Mang xe và hóa đơn, phiếu xuất xưởng đến Trụ sở Công an xã Đức Hợp (Thôn Nho Lâm) để cán bộ kiểm tra xe, chà số khung số máy.\n- Bước 4: Bấm biển số trên phần mềm đăng ký xe và nhận biển số định danh ngay trong ngày. Giấy đăng ký xe nhận sau 02 ngày làm việc hoặc chuyển phát qua bưu điện.",
+    "keywords": [
+      "đăng ký xe máy xã đức hợp",
+      "bấm biển số xe",
+      "biển số định danh",
+      "lệ phí trước bạ xe máy",
+      "thông tư 24/2023"
+    ],
+    "created_at": "27/09/2026"
   },
   {
-    "id": "kb_104",
-    "source_title": "Lịch trực ban, Tiếp công dân và Hotline 24/24 Công an xã Đức Hợp",
-    "source_type": "faq",
-    "chunk_preview": "Trực ban 24/24h tiếp nhận tin báo ANTT và sự cố khẩn cấp: 02213.815.999. Địa chỉ Trụ sở: Thôn Nho Lâm, xã Đức Hợp, tỉnh Hưng Yên. Giờ tiếp d...",
-    "created_at": "206/09/2026"
+    "id": "kb_gt_02",
+    "category_id": "giao_thong",
+    "category_name": "Giao thông & Đăng ký xe",
+    "source_title": "Quy định xuất trình Giấy phép lái xe và Đăng ký xe trên VNeID thay thế bản cứng khi CSGT kiểm tra",
+    "source_type": "law",
+    "legal_basis": "Thông tư số 28/2024/TT-BCA của Bộ Công an có hiệu lực từ 01/07/2024",
+    "chunk_preview": "Từ ngày 01/07/2024, thông tin GPLX, Đăng ký xe đã tích hợp trên VNeID có giá trị tương đương bản giấy. CSGT kiểm soát, kiểm tra trực tiếp qua ứng dụng VNeID và thực hiện tước GPLX trên môi trường điện tử.",
+    "full_content": "GIÁ TRỊ PHÁP LÝ CỦA GIẤY TỜ XE TRÊN VNEID THEO THÔNG TƯ 28/2024/TT-BCA\n\n1. Khi cảnh sát giao thông dừng phương tiện kiểm tra, người điều khiển xe được xuất trình thông tin của các loại giấy tờ sau trên ứng dụng VNeID:\n- Giấy phép lái xe (GPLX).\n- Giấy chứng nhận đăng ký xe (Cà vẹt).\n- Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường (đối với ô tô).\n- Bảo hiểm bắt buộc trách nhiệm dân sự của chủ xe cơ giới.\n2. Việc xuất trình giấy tờ trên VNeID có giá trị pháp lý tương đương việc xuất trình bản giấy trực tiếp.\n3. Khi phát hiện vi phạm cần tạm giữ giấy tờ, lực lượng CSGT sẽ thực hiện việc tạm giữ hoặc tước quyền sử dụng giấy tờ trên hệ thống phần mềm xử lý vi phạm giao thông và đồng bộ trạng thái 'Đang bị tước' lên VNeID của người vi phạm.",
+    "keywords": [
+      "xuất trình gplx trên vneid",
+      "thông tư 28/2024/tt-bca",
+      "giấy tờ xe điện tử",
+      "tước gplx trên vneid",
+      "kiểm tra nồng độ cồn"
+    ],
+    "created_at": "27/09/2026"
   },
   {
-    "id": "kb_105",
-    "source_title": "Cẩm nang An toàn số cho Người cao tuổi và Phụ nữ nông thôn xã Đức Hợp",
-    "source_type": "anti_scam",
-    "chunk_preview": "Hướng dẫn cô bác lớn tuổi, người già ở làng quê: Nhờ con cháu cài đặt sinh trắc học ngân hàng; tuyệt đối không nghe điện thoại số lạ tự xưng...",
-    "created_at": "207/09/2026"
+    "id": "kb_gt_03",
+    "category_id": "giao_thong",
+    "category_name": "Giao thông & Đăng ký xe",
+    "source_title": "Hướng dẫn tra cứu và nộp phạt nguội vi phạm giao thông trực tuyến qua Cổng Dịch vụ công",
+    "source_type": "procedure",
+    "legal_basis": "Nghị định 100/2019/NĐ-CP (sửa đổi bởi Nghị định 123/2021/NĐ-CP); Cổng DVC Bộ Công an",
+    "chunk_preview": "Người dân tra cứu phạt nguội tại csgt.vn hoặc Cổng DVC Quốc gia. Nộp phạt trực tuyến 100% không cần đến trụ sở đội CSGT, giấy tờ được trả qua bưu điện.",
+    "full_content": "QUY TRÌNH NỘP PHẠT NGUỘI GIAO THÔNG TRỰC TUYẾN\n\n1. Tra cứu lỗi phạt nguội:\n- Truy cập Cổng thông tin điện tử Cục Cảnh sát giao thông: www.csgt.vn -> Mục 'Tra cứu phương tiện vi phạm giao thông qua hình ảnh'.\n- Nhập Biển kiểm soát, chọn loại phương tiện (Ô tô/Xe máy) và mã bảo mật.\n\n2. Nộp phạt trực tuyến:\n- Khi nhận được Thông báo vi phạm hoặc Quyết định xử phạt, truy cập Cổng DVC Quốc gia (dichvucong.gov.vn).\n- Nhập Số biên bản / Số quyết định xử phạt -> Chọn nộp tiền phạt trực tuyến qua Cổng thanh toán ngân hàng.\n- Sau khi thanh toán, hệ thống kho bạc đối soát thành công và tự động giải tỏa cảnh báo trên hệ thống đăng kiểm xe.",
+    "keywords": [
+      "phạt nguội",
+      "tra cứu phạt nguội",
+      "nộp phạt giao thông online",
+      "dichvucong.gov.vn phạt nguội"
+    ],
+    "created_at": "27/09/2026"
+  },
+  {
+    "id": "kb_pccc_01",
+    "category_id": "pccc",
+    "category_name": "Phòng cháy chữa cháy (PCCC)",
+    "source_title": "Chỉ thị số 01/CT-TTg của Thủ tướng Chính phủ: Quy định an toàn PCCC hộ gia đình và nhà ống kết hợp kinh doanh",
+    "source_type": "law",
+    "legal_basis": "Chỉ thị số 01/CT-TTg ngày 03/01/2023 của Thủ tướng Chính phủ; Luật Phòng cháy và chữa cháy",
+    "chunk_preview": "100% hộ gia đình trên địa bàn xã Đức Hợp phải trang bị tối thiểu 01 bình chữa cháy xách tay, mở lối thoát hiểm thứ 2 (lồng sắt chuồng cọp) và có người được tập huấn kỹ năng chữa cháy.",
+    "full_content": "TIÊU CHÍ AN TOÀN PCCC HỘ GIA ĐÌNH TẠI XÃ ĐỨC HỢP\n\n1. Phong trào 'Nhà tôi có bình chữa cháy':\n- Mỗi hộ gia đình tại các thôn trên địa bàn xã Đức Hợp chủ động trang bị tối thiểu 01 bình bột chữa cháy (MFZ4) hoặc bình khí CO2 (MT3) đặt tại nơi dễ thấy, dễ lấy.\n- Kiểm tra kim đồng hồ áp suất định kỳ (kim chỉ vạch xanh là bình còn hoạt động tốt).\n\n2. Mở lối thoát hiểm khẩn cấp thứ hai:\n- Đối với nhà ống có lồng sắt, ban công 'chuồng cọp': Bắt buộc phải cắt mở cửa thoát hiểm kích thước tối thiểu 0.6m x 0.8m có khóa gài bên trong và để chìa khóa ở vị trí cố định đã thống nhất giữa các thành viên gia đình.\n\n3. An toàn sử dụng điện và bình gas:\n- Không sạc xe điện, pin điện thoại qua đêm gần vật liệu dễ cháy.\n- Khóa van cổ bình gas ngay sau khi nấu nướng xong.\n- Số điện thoại Báo cháy khẩn cấp Quốc gia: 114 | Hotline Công an xã Đức Hợp: 02213.815.999.",
+    "keywords": [
+      "bình chữa cháy gia đình",
+      "chỉ thị 01 thủ tướng",
+      "thoát hiểm chuồng cọp",
+      "an toàn pccc xã đức hợp",
+      "số điện thoại 114"
+    ],
+    "created_at": "27/09/2026"
+  },
+  {
+    "id": "kb_pccc_02",
+    "category_id": "pccc",
+    "category_name": "Phòng cháy chữa cháy (PCCC)",
+    "source_title": "Kỹ năng xử lý khẩn cấp khi phát hiện rò rỉ khí gas trong gian bếp gia đình",
+    "source_type": "procedure",
+    "legal_basis": "Khuyến cáo an toàn PCCC & CNCH của Cục Cảnh sát PCCC và CNCH (C07) - Bộ Công an",
+    "chunk_preview": "Khi ngửi thấy mùi gas: Tuyệt đối KHÔNG bật/tắt công tắc điện, quẹt lửa. Khóa ngay van bình gas, mở toàn bộ cửa sổ để thông thoáng khí, dùng quạt nan phẩy nhẹ đẩy khí gas ra ngoài.",
+    "full_content": "QUY TẮC SỐNG CÒN KHI BỊ RÒ RỈ KHÍ GAS GIA ĐÌNH\n\n1. NGUYÊN TẮC '4 KHÔNG':\n- KHÔNG bật hoặc tắt bất kỳ công tắc điện, aptomat nào trong nhà (tia lửa điện li ti khi đóng ngắt mạch có thể kích nổ đám khí gas tích tụ).\n- KHÔNG bật diêm, quẹt lửa, châm thuốc lá.\n- KHÔNG sử dụng điện thoại di động trong gian bếp.\n- KHÔNG cắm hoặc rút bất kỳ phích cắm thiết bị điện nào.\n\n2. CÁC BƯỚC XỬ LÝ KHẨN CẤP:\n- Bước 1: Dùng khăn ướt bịt mũi miệng, lập tức tiếp cận bình gas và KHÓA chặt van cổ bình gas theo chiều kim đồng hồ.\n- Bước 2: Nhẹ nhàng mở rộng toàn bộ các cánh cửa sổ, cửa chính để gió tự nhiên lùa vào làm loãng nồng độ khí gas.\n- Bước 3: Dùng quạt nan, bìa carton hoặc quạt tay phẩy ngang tầm thấp để đẩy khí gas nặng hơn không khí ra ngoài.\n- Bước 4: Di chuyển ra xa khu vực bếp và gọi điện cho đại lý cung cấp gas kiểm tra hoặc gọi Công an xã Đức Hợp 02213.815.999 hỗ trợ.",
+    "keywords": [
+      "rò rỉ gas",
+      "kỹ năng thoát hiểm cháy nổ",
+      "khóa van gas",
+      "xử lý khí gas bị rò rỉ",
+      "chữa cháy bếp gas"
+    ],
+    "created_at": "27/09/2026"
+  },
+  {
+    "id": "kb_scam_01",
+    "category_id": "phong_chong_lua_dao",
+    "category_name": "Phòng chống lừa đảo công nghệ cao",
+    "source_title": "Cảnh báo 22 thủ đoạn tội phạm lừa đảo chiếm đoạt tài sản trên không gian mạng và Bộ quy tắc '4 Không - 2 Phải'",
+    "source_type": "scam_alert",
+    "legal_basis": "Cục An toàn thông tin (Bộ TT&TT) phối hợp Cục An ninh mạng và PCTP sử dụng công nghệ cao (A05) - Bộ Công an",
+    "chunk_preview": "Tổng hợp 22 thủ đoạn lừa đảo phổ biến: Giả danh Công an gọi điện dọa lệnh bắt, cài app VNeID giả mạo chứa mã độc .apk, tuyển CTV Shopee/TikTok, Deepfake gọi video, bẫy đầu tư tài chính. Khuyến cáo 4 Không - 2 Phải.",
+    "full_content": "CẨM NANG 22 THỦ ĐOẠN LỪA ĐẢO QUA MẠNG & BỘ QUY TẮC PHÒNG NGỪA\n\n1. NHẬN DIỆN CÁC THỦ ĐOẠN ĐANG TẤN CÔNG NGƯỜI DÂN:\n(1) Giả danh Công an gọi điện yêu cầu cài đặt app VNeID giả mạo (.apk) chứa mã độc rút tiền.\n(2) Giả danh Công an, Viện kiểm sát gọi dọa dính án ma túy, rửa tiền ép chuyển tiền vào 'tài khoản an toàn'.\n(3) Tuyển cộng tác viên xử lý đơn hàng Shopee, TikTok, Lazada hưởng hoa hồng ảo.\n(4) Hack tài khoản mạng xã hội dùng công nghệ video Deepfake mượn tiền người thân.\n(5) Dụ dỗ đầu tư tài chính, sàn chứng khoán quốc tế, tiền ảo cam kết lợi nhuận khủng bao lỗ.\n(6) Cho vay tiền online lãi suất 0% rồi lừa nộp tiền bảo hiểm khoản vay, phí giải ngân.\n(7) Bẫy tình cảm gửi quà ngoại tệ kẹt hải quan (Romance Scam).\n(8) Bẫy thông báo trúng thưởng xe SH, sổ tiết kiệm bắt nộp thuế trước.\n(9) Tin nhắn giả mạo thương hiệu ngân hàng (SMS Brandname giả).\n(10) Cuộc gọi báo tin con đang cấp cứu tại bệnh viện cần nộp tiền mổ gấp.\n(11) Bán vé máy bay, combo du lịch giá siêu rẻ dịp lễ.\n(12) Lừa nâng cấp SIM 4G/5G dụ gõ cú pháp chuyển cuộc gọi (**21*) để cướp OTP.\n(13) Giả mạo biên lai chuyển tiền thành công (Fake Bill).\n(14) Bình chọn cuộc thi ảnh, người mẫu nhí để dụ nạp tiền.\n(15) Dịch vụ thu hồi tiền treo, cam kết lấy lại tiền bị lừa (Bẫy lừa lần 2).\n(16) Dán mã QR độc hại đè lên mã thanh toán tại quán ăn, bưu phẩm.\n(17) Thuê, mượn hoặc mua bán tài khoản ngân hàng để rửa tiền.\n(18) Gửi bưu phẩm trúng thưởng thu tiền ship COD lừa đảo.\n(19) Vờ chuyển tiền nhầm vào tài khoản rồi đòi nợ tín dụng đen.\n(20) Giả danh nhân viên điện lực dọa cắt điện đòi tiền cước.\n(21) Giả mạo Trại hè Quân đội, Khóa tu mùa hè miễn phí dụ làm nhiệm vụ.\n(22) Giả văn bản tuyển dụng công chức, hứa hẹn chạy biên chế nhận tiền đặt cọc.\n\n2. BỘ QUY TẮC '4 KHÔNG - 2 PHẢI' CỦA CÔNG AN XÃ ĐỨC HỢP:\n❌ KHÔNG bấm vào link lạ, không tải file .apk ngoài kho Google Play / App Store.\n❌ KHÔNG cung cấp mật khẩu ngân hàng, mã OTP, số CCCD cho bất kỳ ai qua điện thoại.\n❌ KHÔNG chuyển tiền cho bất kỳ cá nhân nào xưng là cán bộ cơ quan nhà nước.\n❌ KHÔNG tin vào các lời mời chào việc nhẹ lương cao hay đầu tư siêu lợi nhuận.\n✅ PHẢI bình tĩnh kiểm tra, xác minh lại với người thân, cơ quan chức năng.\n✅ PHẢI gọi ngay Trực ban Công an xã Đức Hợp (02213.815.999) để được trợ giúp kịp thời.",
+    "keywords": [
+      "22 thủ đoạn lừa đảo",
+      "lừa đảo qua mạng",
+      "giả danh công an",
+      "app vneid giả",
+      "chiếm đoạt tài sản",
+      "4 không 2 phải"
+    ],
+    "created_at": "27/09/2026"
+  },
+  {
+    "id": "kb_scam_02",
+    "category_id": "phong_chong_lua_dao",
+    "category_name": "Phòng chống lừa đảo công nghệ cao",
+    "source_title": "Hướng dẫn 4 bước khẩn cấp khi người dân phát hiện bị lừa đảo hoặc chuyển tiền cho kẻ gian",
+    "source_type": "procedure",
+    "legal_basis": "Quy trình ứng phó sự cố an ninh mạng của Bộ Công an và Ngân hàng Nhà nước Việt Nam",
+    "chunk_preview": "4 bước vàng: 1. Khóa thẻ/đóng băng tài khoản ngân hàng ngay lập tức; 2. Thu thập toàn bộ chứng cứ (tin nhắn, số tài khoản nhận tiền); 3. Trình báo ngay tại Công an xã Đức Hợp; 4. Tuyệt đối không thuê dịch vụ lấy lại tiền trên mạng.",
+    "full_content": "HÀNH ĐỘNG KHẨN CẤP TRONG 15 PHÚT VÀNG KHI PHÁT HIỆN BỊ LỪA QUA MẠNG\n\n1. BƯỚC 1: KHÓA TÀI KHOẢN VÀ THẺ NGÂN HÀNG LẬP TỨC\n- Mở ngay ứng dụng Mobile Banking của ngân hàng, chọn tính năng 'Khóa thẻ khẩn cấp' hoặc nhập sai mã PIN/mật khẩu nhiều lần để khóa tạm thời.\n- Gọi ngay đến đường dây nóng Hotline in ở mặt sau thẻ ngân hàng của bạn, yêu cầu điện thoại viên khóa chiều chuyển tiền và phong tỏa tài khoản để ngăn kẻ gian tẩu tán tiền.\n\n2. BƯỚC 2: SAO LƯU CHỨNG CỨ\n- Chụp ảnh màn hình toàn bộ tin nhắn Zalo, Facebook, số điện thoại, đường link lừa đảo.\n- Đến chi nhánh ngân hàng gần nhất in 'Bản sao kê giao dịch chuyển tiền' có đóng dấu mộc tròn đỏ của ngân hàng.\n\n3. BƯỚC 3: ĐẾN TRÌNH BÁO CÔNG AN XÃ ĐỨC HỢP\n- Trực tiếp đến Trụ sở Công an xã Đức Hợp (Thôn Nho Lâm) hoặc gọi Hotline 02213.815.999.\n- Cán bộ Công an xã sẽ tiếp nhận hồ sơ, lập biên bản và phối hợp ngân hàng truy vết dòng tiền theo quy trình nghiệp vụ.\n\n4. BƯỚC 4: CẢNH GIÁC BẪY LỪA LẦN 2\n- Tuyệt đối KHÔNG tìm kiếm hoặc thuê các trang Facebook, TikTok 'Luật sư thu hồi tiền treo', 'An ninh mạng hỗ trợ lấy lại tiền'. 100% các trang này đều là bọn lừa đảo tiếp tục bẫy nạn nhân nộp thêm tiền phí hồ sơ.",
+    "keywords": [
+      "bị lừa tiền",
+      "cách lấy lại tiền bị lừa",
+      "khóa tài khoản ngân hàng khẩn cấp",
+      "báo công an khi bị lừa",
+      "thu hồi tiền treo"
+    ],
+    "created_at": "27/09/2026"
+  },
+  {
+    "id": "kb_qn_01",
+    "category_id": "quan_ly_nganh_nghe",
+    "category_name": "Quản lý ngành nghề & VK-VLN-CCHT",
+    "source_title": "Nghị định 96/2016/NĐ-CP: Quy định điều kiện về an ninh, trật tự đối với cơ sở kinh doanh nhà trọ, cầm đồ",
+    "source_type": "law",
+    "legal_basis": "Nghị định số 96/2016/NĐ-CP (sửa đổi, bổ sung bởi Nghị định 56/2023/NĐ-CP)",
+    "chunk_preview": "Chủ cơ sở kinh doanh cho thuê lưu trú, nhà trọ, dịch vụ cầm đồ tại xã Đức Hợp phải có Giấy chứng nhận đủ điều kiện về ANTT và thực hiện nghiêm ngặt việc thông báo lưu trú qua VNeID.",
+    "full_content": "ĐIỀU KIỆN AN NINH TRẬT TỰ ĐỐI VỚI CƠ SỞ KINH DOANH TẠI XÃ ĐỨC HỢP\n\n1. Cơ sở cho thuê lưu trú (Nhà nghỉ, Nhà trọ có từ 10 phòng trở lên):\n- Phải làm thủ tục cấp Giấy chứng nhận đủ điều kiện về ANTT tại Công an huyện Kim Động.\n- Người chịu trách nhiệm về ANTT không có tiền án tiền sự về các tội xâm phạm an ninh quốc gia, trật tự xã hội.\n- Bắt buộc thực hiện việc thông báo lưu trú của toàn bộ khách trọ đến Công an xã Đức Hợp trước 23h hàng ngày qua phần mềm VNeID hoặc Cổng DVC.\n\n2. Quản lý vũ khí, vật liệu nổ, công cụ hỗ trợ và pháo nổ:\n- Nghiêm cấm mọi hành vi tàng trữ, mua bán, sử dụng trái phép pháo nổ, pháo hoa nổ, súng tự chế, dao kiếm có tính sát thương cao.\n- Công an xã Đức Hợp duy trì điểm tiếp nhận, thu hồi vũ khí, vật liệu nổ tại Trụ sở Công an xã Đức Hợp (Thôn Nho Lâm). Bà con nhân dân tự nguyện giao nộp sẽ được miễn trách nhiệm pháp lý.",
+    "keywords": [
+      "nghị định 96/2016",
+      "kinh doanh nhà trọ",
+      "an ninh trật tự nhà trọ",
+      "giao nộp vũ khí",
+      "cấm pháo nổ"
+    ],
+    "created_at": "27/09/2026"
   }
 ];

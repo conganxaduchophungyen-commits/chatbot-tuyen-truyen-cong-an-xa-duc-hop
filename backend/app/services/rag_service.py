@@ -56,74 +56,100 @@ class RAGService:
         """Tìm kiếm tài liệu và thủ tục phù hợp với câu hỏi của người dân"""
         sources: List[Dict[str, Any]] = []
         context_parts: List[str] = []
+        query_lower = query.lower()
+
+        # 0. ƯU TIÊN SỐ 1: BẠO LỰC GIA ĐÌNH & AN NINH TRẬT TỰ KHẨN CẤP
+        is_dv = any(k in query_lower for k in [
+            "chồng đánh", "vợ đánh", "bị đánh", "bị bạo hành", "bạo lực gia đình",
+            "hành hung", "đánh đập", "bị đe dọa", "bạo hành", "cứu tôi", "đánh người", "cố ý gây thương tích"
+        ])
+        if is_dv:
+            dv_text = (
+                "### CHỈ ĐẠO NGHIỆP VỤ KHẨN CẤP: PHÒNG CHỐNG BẠO LỰC GIA ĐÌNH VÀ BẢO VỆ TÍNH MẠNG CÔNG DÂN\n"
+                "- Cơ quan giải quyết: Công an xã Đức Hợp, tỉnh Hưng Yên.\n"
+                "- Hotline Trực ban khẩn cấp 24/24h: 02213.815.999 | Khẩn cấp: 113 | Bảo vệ Phụ nữ & Trẻ em: 111.\n"
+                "- 4 bước khẩn cấp: 1. Lập tức lánh nạn bảo vệ tính mạng an toàn; 2. Gọi ngay Trực ban Công an xã Đức Hợp can thiệp hiện trường khống chế đối tượng; 3. Đến Trạm Y tế xã Đức Hợp/TTYT huyện khám thương tích lấy giấy chứng nhận; 4. Áp dụng Quyết định cấm tiếp xúc theo Điều 25 Luật PCBLGĐ 2022; xử phạt hành chính 5 - 20 triệu (Điều 52 NĐ 144/2021) hoặc khởi tố hình sự (Điều 134, 185 BLHS)."
+            )
+            context_parts.append(dv_text)
+            sources = [
+                {"type": "knowledge", "title": "Hướng dẫn khẩn cấp khi bị bạo lực gia đình (Luật PCBLGĐ 2022)"},
+                {"type": "knowledge", "title": "Xử phạt hành chính và hình sự hành vi đánh đập vợ/chồng (NĐ 144/2021 & BLHS)"},
+                {"type": "knowledge", "title": "Biện pháp Cấm tiếp xúc bảo vệ nạn nhân tại xã Đức Hợp"}
+            ]
+            return dv_text, sources
 
         # Tách từ khóa tìm kiếm
         keywords = [w.strip() for w in re.split(r'[,.\s]+', query.lower()) if len(w.strip()) > 1]
         
-        # 1. Tìm trong bảng Thủ tục hành chính (Procedures)
-        stmt_proc = select(Procedure).where(Procedure.is_active == True)
-        if keywords:
-            conditions = []
-            for kw in keywords[:4]:
-                pattern = f"%{kw}%"
-                conditions.append(Procedure.title.ilike(pattern))
-                conditions.append(Procedure.target_audience.ilike(pattern))
-            stmt_proc = stmt_proc.where(or_(*conditions))
-            
-        res_proc = await db.execute(stmt_proc.limit(3))
-        matched_procedures = list(res_proc.scalars().all())
+        # 1. Tìm trong bảng Thủ tục hành chính (Procedures) - Chỉ tìm khi có từ khóa liên quan
+        is_proc_query = any(k in query_lower for k in [
+            "thủ tục", "hồ sơ", "làm", "đăng ký", "cư trú", "thường trú", "tạm trú", 
+            "vneid", "gplx", "bằng lái", "đăng ký xe", "khai sinh", "khai tử", "bhyt", "thuế", "lý lịch tư pháp", "biểu mẫu"
+        ])
+        
+        if is_proc_query:
+            stmt_proc = select(Procedure).where(Procedure.is_active == True)
+            if keywords:
+                conditions = []
+                for kw in keywords[:4]:
+                    pattern = f"%{kw}%"
+                    conditions.append(Procedure.title.ilike(pattern))
+                    conditions.append(Procedure.target_audience.ilike(pattern))
+                stmt_proc = stmt_proc.where(or_(*conditions))
+                
+            res_proc = await db.execute(stmt_proc.limit(3))
+            matched_procedures = list(res_proc.scalars().all())
 
-        # Nếu không khớp từ khóa chi tiết, lấy các thủ tục phổ biến nhất
-        if not matched_procedures:
-            res_default = await db.execute(select(Procedure).where(Procedure.is_active == True).limit(2))
-            matched_procedures = list(res_default.scalars().all())
+            for p in matched_procedures:
+                doc_list = "\n".join([f"  - {d}" for d in (p.required_documents or [])])
+                step_list = "\n".join([f"  - Bước {s.get('step')}: {s.get('title')} ({s.get('desc')})" for s in (p.steps or [])])
+                
+                p_text = (
+                    f"### Thủ tục: {p.title}\n"
+                    f"- Mã TTHC: {p.code}\n"
+                    f"- Thẩm quyền giải quyết: {p.competent_authority}\n"
+                    f"- Thời hạn giải quyết: {p.processing_time}\n"
+                    f"- Phí, lệ phí: {p.fee}\n"
+                    f"- Hồ sơ cần chuẩn bị:\n{doc_list}\n"
+                    f"- Trình tự các bước thực hiện:\n{step_list}\n"
+                    f"- Nộp trực tuyến: {p.online_url or 'Chưa hỗ trợ trực tuyến'}\n"
+                )
+                context_parts.append(p_text)
+                sources.append({
+                    "type": "procedure",
+                    "id": p.id,
+                    "title": p.title,
+                    "code": p.code,
+                    "url": p.online_url
+                })
 
-        for p in matched_procedures:
-            doc_list = "\n".join([f"  - {d}" for d in (p.required_documents or [])])
-            step_list = "\n".join([f"  - Bước {s.get('step')}: {s.get('title')} ({s.get('desc')})" for s in (p.steps or [])])
-            
-            p_text = (
-                f"### Thủ tục: {p.title}\n"
-                f"- Mã TTHC: {p.code}\n"
-                f"- Thẩm quyền giải quyết: {p.competent_authority}\n"
-                f"- Thời hạn giải quyết: {p.processing_time}\n"
-                f"- Phí, lệ phí: {p.fee}\n"
-                f"- Hồ sơ cần chuẩn bị:\n{doc_list}\n"
-                f"- Trình tự các bước thực hiện:\n{step_list}\n"
-                f"- Nộp trực tuyến: {p.online_url or 'Chưa hỗ trợ trực tuyến'}\n"
-            )
-            context_parts.append(p_text)
-            sources.append({
-                "type": "procedure",
-                "id": p.id,
-                "title": p.title,
-                "code": p.code,
-                "url": p.online_url
-            })
-
-        # 2. Tìm trong bảng Cảnh báo lừa đảo & Tuyên truyền (Articles)
-        stmt_art = select(Article).where(Article.is_published == True)
-        if any(k in query.lower() for k in ["lừa đảo", "giả danh", "tiền", "mạng", "cuộc gọi", "vneid"]):
+        # 2. Tìm trong bảng Cảnh báo lừa đảo & Tuyên truyền (Articles) - Chỉ khi hỏi về lừa đảo/tội phạm
+        is_scam_query = any(k in query_lower for k in [
+            "lừa", "tiền", "mạng", "scam", "otp", "tài khoản", "chiếm đoạt", 
+            "mã độc", "apk", "việc nhẹ", "shopee", "tiktok", "hoa hồng", "deepfake", "dọa bắt", "công an gọi"
+        ])
+        if is_scam_query:
+            stmt_art = select(Article).where(Article.is_published == True)
             stmt_art = stmt_art.where(Article.is_scam_alert == True)
-        res_art = await db.execute(stmt_art.limit(2))
-        matched_articles = list(res_art.scalars().all())
+            res_art = await db.execute(stmt_art.limit(2))
+            matched_articles = list(res_art.scalars().all())
 
-        for a in matched_articles:
-            tricks = "\n".join([f"  - {t}" for t in (a.scam_tricks or [])])
-            advices = "\n".join([f"  - {ad}" for ad in (a.prevention_advice or [])])
-            a_text = (
-                f"### Cảnh báo: {a.title}\n"
-                f"- Tóm tắt: {a.summary}\n"
-                f"- Dấu hiệu nhận biết:\n{tricks}\n"
-                f"- Khuyến cáo phòng ngừa từ Công an xã Đức Hợp:\n{advices}\n"
-            )
-            context_parts.append(a_text)
-            sources.append({
-                "type": "article",
-                "id": a.id,
-                "title": a.title,
-                "slug": a.slug
-            })
+            for a in matched_articles:
+                tricks = "\n".join([f"  - {t}" for t in (a.scam_tricks or [])])
+                advices = "\n".join([f"  - {ad}" for ad in (a.prevention_advice or [])])
+                a_text = (
+                    f"### Cảnh báo: {a.title}\n"
+                    f"- Tóm tắt: {a.summary}\n"
+                    f"- Dấu hiệu nhận biết:\n{tricks}\n"
+                    f"- Khuyến cáo phòng ngừa từ Công an xã Đức Hợp:\n{advices}\n"
+                )
+                context_parts.append(a_text)
+                sources.append({
+                    "type": "article",
+                    "id": a.id,
+                    "title": a.title,
+                    "slug": a.slug
+                })
 
         full_context = "\n\n".join(context_parts)
         return full_context, sources
@@ -187,6 +213,23 @@ class RAGService:
         """Tự động tổng hợp câu trả lời thông minh dựa trên ngữ cảnh và kiến thức sâu"""
         q = query.lower()
         greeting = "Kính chào Quý công dân! Trợ lý số Công an xã Đức Hợp xin giải đáp câu hỏi của Bác/Anh/Chị như sau:\n\n"
+
+        # 0. Bạo lực gia đình & Cứu trợ khẩn cấp (Ưu tiên cao nhất)
+        if any(k in q for k in ["bị chồng đánh", "chồng đánh", "vợ đánh", "đánh đập", "bạo lực gia đình", "bị đánh", "hành hung", "ngược đãi", "cấm tiếp xúc", "bạo hành", "đánh người"]):
+            return (
+                f"{greeting}🚨 **HƯỚNG DẪN XỬ LÝ KHẨN CẤP KHI BỊ BẠO LỰC GIA ĐÌNH / HÀNH HUNG:**\n\n"
+                "Hành vi đánh đập, xâm phạm thân thể vợ/chồng là hành vi vi phạm pháp luật nghiêm trọng theo **Luật Phòng, chống bạo lực gia đình năm 2022** và **Nghị định 144/2021/NĐ-CP** (bị phạt tiền từ 5.000.000đ đến 20.000.000đ hoặc bị truy cứu trách nhiệm hình sự theo Điều 134, Điều 185 Bộ luật Hình sự).\n\n"
+                "📌 **4 BƯỚC TỰ BẢO VỆ AN TOÀN NGAY LẬP TỨC:**\n"
+                "1️⃣ **Ưu tiên an toàn tính mạng:** Nhanh chóng rời khỏi nơi nguy hiểm, chạy sang nhà hàng xóm, người thân để tạm lánh và kêu gọi trợ giúp.\n"
+                "2️⃣ **Gọi điện báo ngay cho Công an xã Đức Hợp:**\n"
+                "- Số điện thoại Trực ban Công an xã Đức Hợp (24/24h): **02213.815.999**\n"
+                "- Đường dây nóng phản ứng nhanh: **113**\n"
+                "- Tổng đài Quốc gia bảo vệ nạn nhân: **111**\n"
+                "Cán bộ Công an xã sẽ có mặt kịp thời để khống chế hành vi bạo lực, lập biên bản và bảo vệ an toàn cho Bác/Anh/Chị.\n"
+                "3️⃣ **Khám thương tích & Lưu giữ bằng chứng:** Đến ngay Trạm y tế xã Đức Hợp hoặc cơ sở y tế gần nhất để điều trị và xin Giấy xác nhận thương tích; chụp lại vết thương, hiện trường làm bằng chứng.\n"
+                "4️⃣ **Đề nghị áp dụng biện pháp CẤM TIẾP XÚC:** Làm đơn đề nghị Chủ tịch UBND xã Đức Hợp ra quyết định cấm người có hành vi bạo lực tiếp xúc với nạn nhân.\n\n"
+                "Cán bộ chiến sĩ Công an xã Đức Hợp luôn đồng hành và bảo vệ quyền lợi hợp pháp của công dân!"
+            )
 
         # 1. Trụ sở & Liên hệ
         if any(k in q for k in ["địa chỉ", "trụ sở", "hotline", "số điện thoại", "trực ban", "ở đâu"]):

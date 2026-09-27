@@ -24,6 +24,62 @@ interface Message {
   timestamp: string;
 }
 
+function parseInlineMarkdown(line: string, isUser: boolean): React.ReactNode[] {
+  const regex = /(\*\*[^*]+\*\*|\*[^*]+\*|`[^`]+`)/g;
+  const parts = line.split(regex);
+
+  return parts.map((part, index) => {
+    if (part.startsWith('**') && part.endsWith('**')) {
+      const content = part.slice(2, -2);
+      return (
+        <strong key={index} className={`font-bold ${isUser ? 'text-yellow-200' : 'text-slate-900'}`}>
+          {content}
+        </strong>
+      );
+    }
+    if (part.startsWith('*') && part.endsWith('*')) {
+      const content = part.slice(1, -1);
+      return (
+        <em key={index} className={`italic ${isUser ? 'text-blue-100' : 'text-slate-700'}`}>
+          {content}
+        </em>
+      );
+    }
+    if (part.startsWith('`') && part.endsWith('`')) {
+      const content = part.slice(1, -1);
+      return (
+        <code
+          key={index}
+          className={`px-1 py-0.5 rounded font-mono text-[11px] font-semibold ${
+            isUser ? 'bg-police-800 text-yellow-300' : 'bg-slate-100 text-police-800'
+          }`}
+        >
+          {content}
+        </code>
+      );
+    }
+    return part;
+  });
+}
+
+function FormattedMessageText({ text, isUser = false }: { text: string; isUser?: boolean }) {
+  const lines = text.split('\n');
+  return (
+    <div className="space-y-1.5 leading-relaxed">
+      {lines.map((line, idx) => {
+        if (!line.trim()) {
+          return <div key={idx} className="h-1.5" />;
+        }
+        return (
+          <p key={idx} className="leading-relaxed">
+            {parseInlineMarkdown(line, isUser)}
+          </p>
+        );
+      })}
+    </div>
+  );
+}
+
 export default function ChatWidget() {
   const [isOpen, setIsOpen] = useState(false);
   const [inputQuery, setInputQuery] = useState('');
@@ -204,7 +260,7 @@ export default function ChatWidget() {
                         : 'bg-white text-slate-800 border border-slate-200 rounded-tl-none'
                     }`}
                   >
-                    {m.text}
+                    <FormattedMessageText text={m.text} isUser={m.sender === 'user'} />
 
                     {/* Sources citations */}
                     {m.sources && m.sources.length > 0 && (

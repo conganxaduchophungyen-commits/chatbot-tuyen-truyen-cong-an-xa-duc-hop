@@ -12,6 +12,18 @@ export async function POST(req: NextRequest) {
 
   const { session_id = 'default_session', query = '' } = body;
 
+  // Trường hợp khẩn cấp: Bạo lực gia đình / Hành hung -> Phản hồi lập tức quy trình an toàn & số điện thoại trực ban 24/7
+  const isDomesticViolence = /chồng đánh|vợ đánh|bị đánh|bạo lực gia đình|hành hung|đánh đập|ngược đãi|bạo hành/i.test(query);
+  if (isDomesticViolence) {
+    const localAI = getSmartLocalChatAnswer(query);
+    return NextResponse.json({
+      session_id,
+      answer: localAI.answer,
+      sources: localAI.sources,
+      disclaimer: 'Thông tin do Trợ lý số Công an xã Đức Hợp cung cấp mang tính chất hướng dẫn và hỗ trợ khẩn cấp.',
+    });
+  }
+
   try {
     const controller = new AbortController();
     const timeoutId = setTimeout(() => controller.abort(), 2500);

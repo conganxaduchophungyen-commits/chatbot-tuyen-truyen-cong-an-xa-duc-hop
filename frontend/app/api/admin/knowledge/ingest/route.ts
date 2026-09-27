@@ -49,9 +49,14 @@ export async function POST(req: NextRequest) {
 
   IN_MEMORY_KNOWLEDGE.unshift({
     id: `k_${Date.now()}`,
+    category_id: body.category_id || 'cu_tru',
+    category_name: body.category_name || 'Cư trú & Căn cước VNeID',
     source_title: source_title.trim(),
     source_type,
-    chunk_preview: content.trim().slice(0, 150) + (content.length > 150 ? '...' : ''),
+    legal_basis: body.legal_basis || source_title.trim(),
+    chunk_preview: content.trim().slice(0, 160) + (content.length > 160 ? '...' : ''),
+    full_content: content.trim(),
+    keywords: body.keywords || [source_title.trim()],
     created_at: new Date().toLocaleDateString('vi-VN')
   });
 

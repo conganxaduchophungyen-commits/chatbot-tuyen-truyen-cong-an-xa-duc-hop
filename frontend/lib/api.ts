@@ -24,9 +24,13 @@ export interface ProcedureStep {
 }
 
 export interface OnlineGuideStep {
-  step_num: number;
+  step_num?: number;
+  step?: number;
   title: string;
-  description: string;
+  description?: string;
+  action?: string;
+  desc?: string;
+  note?: string;
   sub_steps?: string[];
 }
 
@@ -35,7 +39,9 @@ export interface OnlineGuide {
   portal_name: string;
   prerequisites: string[];
   steps: OnlineGuideStep[];
-  important_notes: string[];
+  important_notes?: string[];
+  result_format?: string;
+  tips?: string[];
 }
 
 export interface Procedure {

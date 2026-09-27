@@ -54,6 +54,13 @@ export default function AdminDashboardPage() {
   const [quizSearch, setQuizSearch] = useState('');
   const [quizCatFilter, setQuizCatFilter] = useState('all');
 
+  // Knowledge filters & modal
+  const [knowledgeCatFilter, setKnowledgeCatFilter] = useState('all');
+  const [knowledgeSearch, setKnowledgeSearch] = useState('');
+  const [selectedKnowledgeModal, setSelectedKnowledgeModal] = useState<any | null>(null);
+  const [ingestCategory, setIngestCategory] = useState('cu_tru');
+  const [legalBasisInput, setLegalBasisInput] = useState('');
+
   // Form states cho nạp tri thức
   const [sourceTitle, setSourceTitle] = useState('');
   const [sourceType, setSourceType] = useState('law');
@@ -474,6 +481,15 @@ export default function AdminDashboardPage() {
     setIsSubmitting(true);
     setIngestSuccess('');
 
+    const categoryNames: Record<string, string> = {
+      cu_tru: 'Cư trú & Căn cước VNeID',
+      giao_thong: 'Giao thông & Đăng ký xe',
+      pccc: 'Phòng cháy chữa cháy (PCCC)',
+      bao_luc_gia_dinh_antt: 'Bạo lực gia đình & An ninh trật tự',
+      phong_chong_lua_dao: 'Phòng chống lừa đảo công nghệ cao',
+      quan_ly_nganh_nghe: 'Quản lý ngành nghề & VK-VLN-CCHT'
+    };
+
     try {
       const res = await fetch('/api/admin/knowledge/ingest', {
         method: 'POST',
@@ -484,6 +500,9 @@ export default function AdminDashboardPage() {
         body: JSON.stringify({
           source_title: sourceTitle,
           source_type: sourceType,
+          category_id: ingestCategory,
+          category_name: categoryNames[ingestCategory] || 'Cư trú & Căn cước VNeID',
+          legal_basis: legalBasisInput.trim() || sourceTitle.trim(),
           content: knowledgeContent,
         }),
       });
@@ -492,6 +511,7 @@ export default function AdminDashboardPage() {
       if (res.ok) {
         setIngestSuccess(data.message || 'Đã nạp tri thức thành công!');
         setSourceTitle('');
+        setLegalBasisInput('');
         setKnowledgeContent('');
         if (token) loadDashboard(token);
       } else {
@@ -503,6 +523,17 @@ export default function AdminDashboardPage() {
       setIsSubmitting(false);
     }
   };
+
+  // Lọc tri thức theo lĩnh vực và từ khóa tìm kiếm
+  const filteredKnowledge = knowledgeList.filter((k) => {
+    const matchCat = knowledgeCatFilter === 'all' || k.category_id === knowledgeCatFilter;
+    const matchSearch = !knowledgeSearch.trim() || 
+      (k.source_title && k.source_title.toLowerCase().includes(knowledgeSearch.toLowerCase())) ||
+      (k.legal_basis && k.legal_basis.toLowerCase().includes(knowledgeSearch.toLowerCase())) ||
+      (k.chunk_preview && k.chunk_preview.toLowerCase().includes(knowledgeSearch.toLowerCase())) ||
+      (k.category_name && k.category_name.toLowerCase().includes(knowledgeSearch.toLowerCase()));
+    return matchCat && matchSearch;
+  });
 
   // Lọc câu hỏi trong tab Quản lý ngân hàng câu hỏi
   const filteredQuestions = questionBank.filter(q => {
@@ -863,7 +894,7 @@ export default function AdminDashboardPage() {
           </div>
         )}
 
-        {/* TAB 4: NẠP TRI THỨC CHO AI (ĐÃ SỬA LỖI HOÀN TOÀN) */}
+        {/* TAB 4: NẠP & QUẢN LÝ TRI THỨC AI THEO LĨNH VỰC */}
         {activeTab === 'knowledge' && (
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
             <div className="lg:col-span-1 bg-white p-6 rounded-3xl border border-slate-200 shadow-sm space-y-4">
@@ -885,14 +916,45 @@ export default function AdminDashboardPage() {
               <form onSubmit={handleIngestKnowledge} className="space-y-4">
                 <div>
                   <label className="block text-xs font-bold text-slate-700 mb-1">
+                    Nhóm lĩnh vực tri thức:
+                  </label>
+                  <select
+                    value={ingestCategory}
+                    onChange={(e) => setIngestCategory(e.target.value)}
+                    className="w-full px-3 py-2 border border-slate-200 rounded-xl text-xs focus:outline-none focus:ring-2 focus:ring-police-500 bg-white"
+                  >
+                    <option value="cu_tru">Cư trú & Căn cước VNeID</option>
+                    <option value="giao_thong">Giao thông & Đăng ký xe</option>
+                    <option value="pccc">Phòng cháy chữa cháy (PCCC)</option>
+                    <option value="bao_luc_gia_dinh_antt">Bạo lực gia đình & An ninh trật tự</option>
+                    <option value="phong_chong_lua_dao">Phòng chống lừa đảo công nghệ cao</option>
+                    <option value="quan_ly_nganh_nghe">Quản lý ngành nghề & VK-VLN-CCHT</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label className="block text-xs font-bold text-slate-700 mb-1">
                     Tiêu đề tài liệu / Số hiệu văn bản:
                   </label>
                   <input
                     type="text"
                     required
-                    placeholder="VD: Thông tư 24/2023/TT-BCA..."
+                    placeholder="VD: Luật Phòng, chống bạo lực gia đình 2022..."
                     value={sourceTitle}
                     onChange={(e) => setSourceTitle(e.target.value)}
+                    className="w-full px-3 py-2 border border-slate-200 rounded-xl text-xs focus:outline-none focus:ring-2 focus:ring-police-500"
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-xs font-bold text-slate-700 mb-1">
+                    Căn cứ pháp lý (Điều khoản, Luật, Nghị định):
+                  </label>
+                  <input
+                    type="text"
+                    placeholder="VD: Điều 25 Luật PCBLGĐ 2022; Điều 52 NĐ 144/2021..."
+                    value={legalBasisInput}
+                    onChange={(e) => setLegalBasisInput(e.target.value)}
                     className="w-full px-3 py-2 border border-slate-200 rounded-xl text-xs focus:outline-none focus:ring-2 focus:ring-police-500"
                   />
                 </div>
@@ -940,25 +1002,111 @@ export default function AdminDashboardPage() {
             </div>
 
             <div className="lg:col-span-2 bg-white p-6 rounded-3xl border border-slate-200 shadow-sm space-y-4">
-              <h3 className="font-black text-base text-slate-900">
-                Kho Tri Thức Hiện Có Của Trợ Lý Số AI ({knowledgeList.length})
-              </h3>
-              <p className="text-xs text-slate-500">
-                Các đoạn dữ liệu đang được hệ thống AI tham chiếu trực tiếp khi tư vấn cho người dân
-              </p>
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                <div>
+                  <h3 className="font-black text-base text-slate-900 flex items-center space-x-2">
+                    <span>Kho Tri Thức AI Theo Nhóm Lĩnh Vực</span>
+                    <span className="text-xs font-bold bg-police-100 text-police-800 px-2.5 py-0.5 rounded-full">
+                      {knowledgeList.length} tài liệu
+                    </span>
+                  </h3>
+                  <p className="text-xs text-slate-500 mt-0.5">
+                    Hệ thống đã phân nhóm theo từng lĩnh vực. Bấm 'Xem chi tiết nguồn' để đọc toàn văn và căn cứ pháp lý.
+                  </p>
+                </div>
+              </div>
 
-              <div className="space-y-3 max-h-[500px] overflow-y-auto pr-1">
-                {knowledgeList.map((k) => (
-                  <div key={k.id} className="p-4 rounded-2xl border border-slate-200 bg-slate-50/50 space-y-2">
-                    <div className="flex items-center justify-between">
-                      <h5 className="font-extrabold text-xs text-police-900">{k.source_title}</h5>
+              {/* BỘ LỌC THEO NHÓM LĨNH VỰC */}
+              <div className="flex flex-wrap gap-1.5 pt-1">
+                {[
+                  { id: 'all', label: `Tất cả (${knowledgeList.length})` },
+                  { id: 'cu_tru', label: `Cư trú & VNeID (${knowledgeList.filter(k => k.category_id === 'cu_tru').length})` },
+                  { id: 'giao_thong', label: `Giao thông & Xe (${knowledgeList.filter(k => k.category_id === 'giao_thong').length})` },
+                  { id: 'pccc', label: `PCCC & CNCH (${knowledgeList.filter(k => k.category_id === 'pccc').length})` },
+                  { id: 'bao_luc_gia_dinh_antt', label: `Bạo lực gia đình & ANTT (${knowledgeList.filter(k => k.category_id === 'bao_luc_gia_dinh_antt').length})` },
+                  { id: 'phong_chong_lua_dao', label: `Lừa đảo qua mạng (${knowledgeList.filter(k => k.category_id === 'phong_chong_lua_dao').length})` },
+                  { id: 'quan_ly_nganh_nghe', label: `Quản lý ngành nghề (${knowledgeList.filter(k => k.category_id === 'quan_ly_nganh_nghe').length})` },
+                ].map((tab) => (
+                  <button
+                    key={tab.id}
+                    onClick={() => setKnowledgeCatFilter(tab.id)}
+                    className={`px-3 py-1.5 rounded-xl text-xs font-bold transition border ${
+                      knowledgeCatFilter === tab.id
+                        ? 'bg-police-700 text-white border-police-700 shadow-xs'
+                        : 'bg-slate-50 text-slate-600 border-slate-200 hover:bg-slate-100'
+                    }`}
+                  >
+                    {tab.label}
+                  </button>
+                ))}
+              </div>
+
+              {/* TÌM KIẾM TRI THỨC */}
+              <div className="relative">
+                <Search className="w-4 h-4 text-slate-400 absolute left-3 top-2.5" />
+                <input
+                  type="text"
+                  placeholder="Tìm kiếm theo tiêu đề, căn cứ pháp lý hoặc nội dung quy định..."
+                  value={knowledgeSearch}
+                  onChange={(e) => setKnowledgeSearch(e.target.value)}
+                  className="w-full pl-9 pr-3 py-2 bg-slate-50 border border-slate-200 rounded-xl text-xs focus:outline-none focus:ring-2 focus:ring-police-500 focus:bg-white"
+                />
+              </div>
+
+              {/* DANH SÁCH TÀI LIỆU TRI THỨC */}
+              <div className="space-y-3 max-h-[560px] overflow-y-auto pr-1">
+                {filteredKnowledge.map((k) => (
+                  <div key={k.id} className="p-4 rounded-2xl border border-slate-200 bg-slate-50/50 hover:bg-white transition space-y-2.5 shadow-2xs">
+                    <div className="flex flex-wrap items-center justify-between gap-2">
+                      <div className="flex items-center space-x-2">
+                        <span className="text-[11px] font-bold bg-amber-50 text-amber-800 border border-amber-200 px-2.5 py-0.5 rounded-md">
+                          {k.category_name || 'Lĩnh vực ANTT'}
+                        </span>
+                        <span className="text-[10px] font-mono font-bold bg-slate-200 text-slate-700 px-2 py-0.5 rounded-md">
+                          {k.id}
+                        </span>
+                      </div>
                       <span className="text-[10px] font-mono text-slate-400">{k.created_at}</span>
                     </div>
-                    <p className="text-xs text-slate-600 leading-relaxed font-medium">
+
+                    <h5 className="font-extrabold text-xs sm:text-sm text-police-950 leading-snug">
+                      {k.source_title}
+                    </h5>
+
+                    {k.legal_basis && (
+                      <div className="text-[11px] text-slate-600 italic bg-white p-2 rounded-xl border border-slate-100 line-clamp-1">
+                        <span className="font-bold text-police-800 not-italic">⚖️ Căn cứ: </span>
+                        {k.legal_basis}
+                      </div>
+                    )}
+
+                    <p className="text-xs text-slate-600 leading-relaxed font-medium line-clamp-2">
                       {k.chunk_preview}
                     </p>
+
+                    <div className="pt-2 border-t border-slate-100 flex items-center justify-between">
+                      <div className="flex flex-wrap gap-1">
+                        {(k.keywords || []).slice(0, 3).map((kw: string, idx: number) => (
+                          <span key={idx} className="text-[10px] bg-slate-100 text-slate-600 px-2 py-0.5 rounded">
+                            #{kw}
+                          </span>
+                        ))}
+                      </div>
+                      <button
+                        onClick={() => setSelectedKnowledgeModal(k)}
+                        className="px-3 py-1.5 rounded-xl bg-police-50 text-police-700 hover:bg-police-100 font-bold text-xs flex items-center space-x-1.5 shrink-0"
+                      >
+                        <Search className="w-3.5 h-3.5" />
+                        <span>Xem chi tiết nguồn</span>
+                      </button>
+                    </div>
                   </div>
                 ))}
+                {filteredKnowledge.length === 0 && (
+                  <div className="text-center py-8 text-slate-400 text-xs font-semibold">
+                    Không tìm thấy tài liệu phù hợp với điều kiện lọc.
+                  </div>
+                )}
               </div>
             </div>
           </div>
@@ -1390,6 +1538,90 @@ export default function AdminDashboardPage() {
                 </button>
               </div>
             </form>
+          </div>
+        </div>
+      )}
+
+      {/* 4. MODAL XEM CHI TIẾT NGUỒN TRI THỨC & CĂN CỨ PHÁP LÝ */}
+      {selectedKnowledgeModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-xs">
+          <div className="bg-white rounded-3xl max-w-2xl w-full p-6 sm:p-8 space-y-5 shadow-2xl border border-slate-200 animate-in fade-in zoom-in duration-150 max-h-[90vh] overflow-y-auto">
+            <div className="flex items-start justify-between gap-4 border-b border-slate-100 pb-4">
+              <div className="space-y-1">
+                <div className="flex items-center space-x-2">
+                  <span className="text-[11px] font-bold bg-amber-100 text-amber-900 border border-amber-300 px-2.5 py-0.5 rounded-md">
+                    {selectedKnowledgeModal.category_name || 'Lĩnh vực pháp luật'}
+                  </span>
+                  <span className="text-xs font-mono font-bold text-slate-400">
+                    Mã: {selectedKnowledgeModal.id}
+                  </span>
+                </div>
+                <h3 className="text-base sm:text-lg font-black text-slate-900 leading-snug">
+                  {selectedKnowledgeModal.source_title}
+                </h3>
+              </div>
+              <button
+                onClick={() => setSelectedKnowledgeModal(null)}
+                className="p-1.5 rounded-full hover:bg-slate-100 text-slate-400 hover:text-slate-600 transition shrink-0"
+              >
+                <X className="w-5 h-5" />
+              </button>
+            </div>
+
+            <div className="space-y-4 text-xs sm:text-sm">
+              {/* Căn cứ pháp lý */}
+              <div className="bg-amber-50/70 border border-amber-200/80 rounded-2xl p-4 space-y-1">
+                <div className="text-xs font-bold text-amber-900 flex items-center space-x-1.5">
+                  <span>⚖️ CĂN CỨ PHÁP LÝ & VĂN BẢN TRÍCH DẪN:</span>
+                </div>
+                <p className="text-xs font-semibold text-slate-800 leading-relaxed">
+                  {selectedKnowledgeModal.legal_basis || 'Văn bản quy phạm pháp luật của Quốc hội, Chính phủ, Bộ Công an'}
+                </p>
+                <div className="text-[11px] text-slate-500 pt-1">
+                  Cơ quan ban hành / hỗ trợ: <strong>Công an xã Đức Hợp, tỉnh Hưng Yên</strong> • Cập nhật: <strong>{selectedKnowledgeModal.created_at}</strong>
+                </div>
+              </div>
+
+              {/* Tóm tắt */}
+              <div className="space-y-1">
+                <span className="text-xs font-bold text-police-900 uppercase">Tóm tắt nội dung cốt lõi:</span>
+                <p className="text-xs text-slate-700 bg-slate-50 p-3 rounded-xl border border-slate-200 leading-relaxed">
+                  {selectedKnowledgeModal.chunk_preview}
+                </p>
+              </div>
+
+              {/* Toàn văn nội dung */}
+              <div className="space-y-1">
+                <span className="text-xs font-bold text-police-900 uppercase">Toàn văn quy định & Hướng dẫn chi tiết:</span>
+                <div className="bg-slate-50 p-4 rounded-2xl border border-slate-200 text-xs font-normal text-slate-800 whitespace-pre-wrap leading-relaxed max-h-[300px] overflow-y-auto">
+                  {selectedKnowledgeModal.full_content || selectedKnowledgeModal.chunk_preview}
+                </div>
+              </div>
+
+              {/* Từ khóa AI */}
+              {selectedKnowledgeModal.keywords && (
+                <div className="space-y-1.5 pt-1">
+                  <span className="text-[11px] font-bold text-slate-500 uppercase">Từ khóa AI truy vấn tự động:</span>
+                  <div className="flex flex-wrap gap-1.5">
+                    {selectedKnowledgeModal.keywords.map((kw: string, i: number) => (
+                      <span key={i} className="text-xs bg-slate-100 text-police-800 font-medium px-2.5 py-1 rounded-lg border border-slate-200">
+                        #{kw}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+
+            <div className="pt-3 border-t border-slate-100 flex justify-end">
+              <button
+                type="button"
+                onClick={() => setSelectedKnowledgeModal(null)}
+                className="px-5 py-2.5 rounded-xl bg-police-700 hover:bg-police-800 text-white font-bold text-xs shadow transition"
+              >
+                Đóng
+              </button>
+            </div>
           </div>
         </div>
       )}
