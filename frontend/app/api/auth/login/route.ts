@@ -8,12 +8,38 @@ import * as crypto from 'crypto';
 const DEMO_ACCOUNTS = [
   {
     username: 'admin_duchop',
-    // SHA-256 hash của password "CongAnDucHop@2026"
     password_sha256: crypto
       .createHash('sha256')
       .update('CongAnDucHop@2026')
       .digest('hex'),
     full_name: 'Quản trị viên Công an xã Đức Hợp',
+    role: 'admin',
+  },
+  {
+    username: 'admin',
+    password_sha256: crypto
+      .createHash('sha256')
+      .update('admin123')
+      .digest('hex'),
+    full_name: 'Quản trị viên Công an xã Đức Hợp',
+    role: 'admin',
+  },
+  {
+    username: 'admin_duchop',
+    password_sha256: crypto
+      .createHash('sha256')
+      .update('admin123')
+      .digest('hex'),
+    full_name: 'Quản trị viên Công an xã Đức Hợp',
+    role: 'admin',
+  },
+  {
+    username: 'cax',
+    password_sha256: crypto
+      .createHash('sha256')
+      .update('admin123')
+      .digest('hex'),
+    full_name: 'Cán bộ Công an xã Đức Hợp',
     role: 'admin',
   },
 ];
