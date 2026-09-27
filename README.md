@@ -1,5 +1,5 @@
 # TRỢ LÝ SỐ PHÁP LUẬT & THỦ TỤC HÀNH CHÍNH CHO NGƯỜI DÂN
-### Đơn vị áp dụng: CÔNG AN XÃ ĐỨC HỢP, HUYỆN KIM ĐỘNG, TỈNH HƯNG YÊN
+### Đơn vị áp dụng: CÔNG AN XÃ ĐỨC HỢP, TỈNH HƯNG YÊN
 *(Thực hiện theo Đề án 06/CP của Chính phủ về Chuyển đổi số Quốc gia)*
 
 [![FastAPI](https://img.shields.io/badge/Backend-FastAPI%20Python%203.11+-009688.svg?style=flat&logo=fastapi)](https://fastapi.tiangolo.com)
