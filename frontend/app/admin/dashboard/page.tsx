@@ -219,7 +219,13 @@ export default function AdminDashboardPage() {
           body: JSON.stringify(payload)
         });
       } catch {}
-      setProcedures(prev => prev.map(p => p.id === editingProc.id ? { ...p, ...payload } : p));
+      setProcedures(prev => {
+        const next = prev.map(p => p.id === editingProc.id ? { ...p, ...payload } : p);
+        if (typeof window !== 'undefined') {
+          localStorage.setItem('admin_custom_procedures', JSON.stringify(next));
+        }
+        return next;
+      });
       alert('Đã cập nhật thủ tục thành công!');
     } else {
       // Create
@@ -231,7 +237,13 @@ export default function AdminDashboardPage() {
           body: JSON.stringify({ ...payload, id: newId })
         });
       } catch {}
-      setProcedures(prev => [{ ...payload, id: newId, views_count: 0, steps: [], forms: [] } as Procedure, ...prev]);
+      setProcedures(prev => {
+        const next = [{ ...payload, id: newId, views_count: 0, steps: [], forms: [] } as Procedure, ...prev];
+        if (typeof window !== 'undefined') {
+          localStorage.setItem('admin_custom_procedures', JSON.stringify(next));
+        }
+        return next;
+      });
       alert('Đã thêm mới thủ tục thành công!');
     }
 
@@ -246,7 +258,13 @@ export default function AdminDashboardPage() {
         headers: { Authorization: `Bearer ${token}` },
       });
     } catch {}
-    setProcedures((prev) => prev.filter((p) => p.id !== id));
+    setProcedures((prev) => {
+      const next = prev.filter((p) => p.id !== id);
+      if (typeof window !== 'undefined') {
+        localStorage.setItem('admin_custom_procedures', JSON.stringify(next));
+      }
+      return next;
+    });
     alert('Đã xóa thủ tục.');
   };
 
@@ -300,7 +318,13 @@ export default function AdminDashboardPage() {
           body: JSON.stringify(payload)
         });
       } catch {}
-      setArticles(prev => prev.map(a => a.id === editingArt.id ? { ...a, ...payload } : a));
+      setArticles(prev => {
+        const next = prev.map(a => a.id === editingArt.id ? { ...a, ...payload } : a);
+        if (typeof window !== 'undefined') {
+          localStorage.setItem('admin_custom_articles', JSON.stringify(next));
+        }
+        return next;
+      });
       alert('Đã cập nhật bài cảnh báo thành công!');
     } else {
       // Create
@@ -313,7 +337,13 @@ export default function AdminDashboardPage() {
           body: JSON.stringify({ ...payload, id: newId, slug: newSlug })
         });
       } catch {}
-      setArticles(prev => [{ ...payload, id: newId, slug: newSlug, views_count: 0, created_at: new Date().toLocaleDateString('vi-VN') } as Article, ...prev]);
+      setArticles(prev => {
+        const next = [{ ...payload, id: newId, slug: newSlug, views_count: 0, created_at: new Date().toLocaleDateString('vi-VN') } as Article, ...prev];
+        if (typeof window !== 'undefined') {
+          localStorage.setItem('admin_custom_articles', JSON.stringify(next));
+        }
+        return next;
+      });
       alert('Đã thêm mới bài cảnh báo thành công!');
     }
 
@@ -328,7 +358,13 @@ export default function AdminDashboardPage() {
         headers: { Authorization: `Bearer ${token}` },
       });
     } catch {}
-    setArticles((prev) => prev.filter((a) => a.id !== id));
+    setArticles((prev) => {
+      const next = prev.filter((a) => a.id !== id);
+      if (typeof window !== 'undefined') {
+        localStorage.setItem('admin_custom_articles', JSON.stringify(next));
+      }
+      return next;
+    });
     alert('Đã xóa bài viết.');
   };
 

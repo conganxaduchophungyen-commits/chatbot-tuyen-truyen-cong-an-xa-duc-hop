@@ -1,3 +1,4 @@
+import { BACKEND_URL } from '@/lib/config';
 import { NextRequest, NextResponse } from 'next/server';
 import { getSmartLocalChatAnswer } from '@/lib/mockData';
 
@@ -14,7 +15,7 @@ export async function POST(req: NextRequest) {
   try {
     const controller = new AbortController();
     const timeoutId = setTimeout(() => controller.abort(), 2500);
-    const res = await fetch('http://127.0.0.1:8000/api/chat/query', {
+    const res = await fetch(`${BACKEND_URL}/api/chat/query`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ session_id, query }),

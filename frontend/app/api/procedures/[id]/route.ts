@@ -1,3 +1,4 @@
+import { BACKEND_URL } from '@/lib/config';
 import { NextRequest, NextResponse } from 'next/server';
 import { MOCK_PROCEDURES } from '@/lib/mockData';
 
@@ -10,7 +11,7 @@ export async function GET(
   try {
     const controller = new AbortController();
     const timeoutId = setTimeout(() => controller.abort(), 1500);
-    const backendUrl = `http://127.0.0.1:8000/api/procedures/${id}`;
+    const backendUrl = `${BACKEND_URL}/api/procedures/${id}`;
     const res = await fetch(backendUrl, { 
       cache: 'no-store',
       signal: controller.signal 

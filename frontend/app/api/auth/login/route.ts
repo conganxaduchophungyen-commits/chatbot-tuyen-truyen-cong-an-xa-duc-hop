@@ -1,3 +1,4 @@
+import { BACKEND_URL } from '@/lib/config';
 import { NextRequest, NextResponse } from 'next/server';
 import * as crypto from 'crypto';
 
@@ -43,7 +44,7 @@ export async function POST(req: NextRequest) {
   try {
     const controller = new AbortController();
     const timeoutId = setTimeout(() => controller.abort(), 2000);
-    const res = await fetch('http://127.0.0.1:8000/api/auth/login', {
+    const res = await fetch(`${BACKEND_URL}/api/auth/login`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ username, password }),

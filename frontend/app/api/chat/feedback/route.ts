@@ -1,3 +1,4 @@
+import { BACKEND_URL } from '@/lib/config';
 import { NextRequest, NextResponse } from 'next/server';
 
 export async function POST(req: NextRequest) {
@@ -11,7 +12,7 @@ export async function POST(req: NextRequest) {
   try {
     const controller = new AbortController();
     const timeoutId = setTimeout(() => controller.abort(), 1500);
-    await fetch('http://127.0.0.1:8000/api/chat/feedback', {
+    await fetch(`${BACKEND_URL}/api/chat/feedback`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(body),

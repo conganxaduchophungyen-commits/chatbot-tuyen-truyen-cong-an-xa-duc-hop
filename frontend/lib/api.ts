@@ -103,6 +103,7 @@ export async function getCategories(): Promise<Category[]> {
 }
 
 export async function getProcedures(categoryId?: string, query?: string): Promise<Procedure[]> {
+  let results: Procedure[] = [];
   try {
     const params = new URLSearchParams();
     if (categoryId) params.append('category_id', categoryId);
@@ -111,14 +112,33 @@ export async function getProcedures(categoryId?: string, query?: string): Promis
     const res = await fetch(`${API_BASE}/procedures?${params.toString()}`, { cache: 'no-store' });
     if (res.ok) {
       const data = await res.json();
-      if (Array.isArray(data) && data.length > 0) return data;
+      if (Array.isArray(data) && data.length > 0) results = data;
     }
   } catch (err) {
     // Backend chưa chạy -> Tự động chuyển sang Mock Data
   }
 
-  // Lọc dữ liệu Mock Data
-  let results = [...MOCK_PROCEDURES];
+  if (results.length === 0) {
+    results = [...MOCK_PROCEDURES];
+  }
+
+  // Đồng bộ với dữ liệu cán bộ đã thêm/chỉnh sửa trên trình duyệt
+  if (typeof window !== 'undefined') {
+    try {
+      const saved = localStorage.getItem('admin_custom_procedures');
+      if (saved) {
+        const custom: Procedure[] = JSON.parse(saved);
+        const map = new Map<string, Procedure>();
+        custom.forEach((p) => map.set(p.id, p));
+        results.forEach((p) => {
+          if (!map.has(p.id)) map.set(p.id, p);
+        });
+        results = Array.from(map.values());
+      }
+    } catch (e) {}
+  }
+
+  // Lọc dữ liệu
   if (categoryId) {
     results = results.filter((p) => p.category_id === categoryId);
   }
@@ -136,6 +156,17 @@ export async function getProcedures(categoryId?: string, query?: string): Promis
 }
 
 export async function getProcedureById(id: string): Promise<Procedure | null> {
+  if (typeof window !== 'undefined') {
+    try {
+      const saved = localStorage.getItem('admin_custom_procedures');
+      if (saved) {
+        const custom: Procedure[] = JSON.parse(saved);
+        const foundLocal = custom.find((p) => p.id === id);
+        if (foundLocal) return foundLocal;
+      }
+    } catch (e) {}
+  }
+
   try {
     const res = await fetch(`${API_BASE}/procedures/${id}`, { cache: 'no-store' });
     if (res.ok) {
@@ -151,6 +182,7 @@ export async function getProcedureById(id: string): Promise<Procedure | null> {
 }
 
 export async function getArticles(isScamAlert?: boolean, query?: string): Promise<Article[]> {
+  let results: Article[] = [];
   try {
     const params = new URLSearchParams();
     if (isScamAlert !== undefined) params.append('is_scam_alert', String(isScamAlert));
@@ -159,13 +191,32 @@ export async function getArticles(isScamAlert?: boolean, query?: string): Promis
     const res = await fetch(`${API_BASE}/articles?${params.toString()}`, { cache: 'no-store' });
     if (res.ok) {
       const data = await res.json();
-      if (Array.isArray(data) && data.length > 0) return data;
+      if (Array.isArray(data) && data.length > 0) results = data;
     }
   } catch (err) {
     // Backend chưa chạy
   }
 
-  let results = [...MOCK_ARTICLES];
+  if (results.length === 0) {
+    results = [...MOCK_ARTICLES];
+  }
+
+  // Đồng bộ với dữ liệu cán bộ đã thêm/chỉnh sửa trên trình duyệt
+  if (typeof window !== 'undefined') {
+    try {
+      const saved = localStorage.getItem('admin_custom_articles');
+      if (saved) {
+        const custom: Article[] = JSON.parse(saved);
+        const map = new Map<string, Article>();
+        custom.forEach((a) => map.set(a.id, a));
+        results.forEach((a) => {
+          if (!map.has(a.id)) map.set(a.id, a);
+        });
+        results = Array.from(map.values());
+      }
+    } catch (e) {}
+  }
+
   if (isScamAlert !== undefined) {
     results = results.filter((a) => a.is_scam_alert === isScamAlert);
   }
@@ -179,6 +230,17 @@ export async function getArticles(isScamAlert?: boolean, query?: string): Promis
 }
 
 export async function getArticleBySlug(slug: string): Promise<Article | null> {
+  if (typeof window !== 'undefined') {
+    try {
+      const saved = localStorage.getItem('admin_custom_articles');
+      if (saved) {
+        const custom: Article[] = JSON.parse(saved);
+        const foundLocal = custom.find((a) => a.slug === slug || a.id === slug);
+        if (foundLocal) return foundLocal;
+      }
+    } catch (e) {}
+  }
+
   try {
     const res = await fetch(`${API_BASE}/articles/${slug}`, { cache: 'no-store' });
     if (res.ok) {

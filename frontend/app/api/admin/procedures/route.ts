@@ -1,3 +1,4 @@
+import { BACKEND_URL } from '@/lib/config';
 import { NextRequest, NextResponse } from 'next/server';
 import { MOCK_PROCEDURES } from '@/lib/mockData';
 
@@ -14,7 +15,7 @@ export async function POST(req: NextRequest) {
     const controller = new AbortController();
     const timeoutId = setTimeout(() => controller.abort(), 1500);
     const authHeader = req.headers.get('authorization') || '';
-    const res = await fetch('http://127.0.0.1:8000/api/admin/procedures', {
+    const res = await fetch(`${BACKEND_URL}/api/admin/procedures`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
