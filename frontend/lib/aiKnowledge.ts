@@ -274,5 +274,3470 @@ export const FULL_20_AI_KNOWLEDGE: AIKnowledgeDocument[] = [
       "cấm pháo nổ"
     ],
     "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_001",
+    "category_id": "cu_tru",
+    "category": "Cư trú & Căn cước VNeID",
+    "topic": "[Căn cước và VNeID] Quy định pháp luật & Hướng dẫn xử lý: Cấp đổi thẻ căn cước",
+    "legal_basis": "Luật Căn cước số 26/2023/QH15 (hiệu lực 01/07/2024); Nghị định số 69/2024/NĐ-CP về định danh và xác thực điện tử; Thông tư số 17/2024/TT-BCA",
+    "summary": "Theo Điều 21, 24 Luật Căn cước số 26/2023/QH15 (hiệu lực 01/07/2024): Công dân Việt Nam đã được cấp thẻ Căn cước phải thực hiện thủ tục cấp đổi thẻ Căn cước khi đủ 14 tuổi, 25 tuổi, 40 tuổi và 60 tuổi (nếu thẻ được cấp/đổi trong vòng 02 năm...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: CẤP ĐỔI THẺ CĂN CƯỚC (LĨNH VỰC: CĂN CƯỚC VÀ VNEID)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Theo Điều 21, 24 Luật Căn cước số 26/2023/QH15 (hiệu lực 01/07/2024): Công dân Việt Nam đã được cấp thẻ Căn cước phải thực hiện thủ tục cấp đổi thẻ Căn cước khi đủ 14 tuổi, 25 tuổi, 40 tuổi và 60 tuổi (nếu thẻ được cấp/đổi trong vòng 02 năm trước độ tuổi quy định thì có giá trị đến tuổi cấp đổi tiếp theo). Đặt lịch và nộp hồ sơ trực tuyến trên VNeID.\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (hỗ trợ kích hoạt VNeID Mức 2, hướng dẫn hồ sơ) & Phòng Cảnh sát QLHC về TTXH Công an tỉnh Hưng Yên.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://dichvucong.bocongan.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: 07 ngày làm việc đối với cấp mới/cấp đổi/cấp lại thẻ Căn cước; 01 - 03 ngày làm việc đối với kích hoạt định danh điện tử VNeID Mức 2.\n- Phí, lệ phí: Miễn phí 100% khi cấp lần đầu, cấp đổi khi đủ 14, 25, 40, 60 tuổi hoặc kích hoạt VNeID Mức 2. Cấp lại thẻ bị mất/hư hỏng: 70.000đ (giảm 50% khi nộp trực tuyến trên VNeID/Cổng DVC).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Chứng minh nhân dân (CMND 9 số, 12 số) đã chính thức hết hiệu lực từ sau ngày 31/12/2024. Thẻ CCCD gắn chip còn hạn vẫn sử dụng bình thường cho đến khi hết hạn. Tuyệt đối không cài đặt ứng dụng VNeID qua đường link lạ (.apk).\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Cấp đổi thẻ căn cước là gì và tôi có thể tìm hiểu ở đâu?\n  (2) Điều kiện hoặc căn cứ áp dụng với cấp đổi thẻ căn cước được hướng dẫn thế nào?\n  (3) Muốn thực hiện việc liên quan đến cấp đổi thẻ căn cước, tôi cần chuẩn bị giấy tờ gì?\n  (4) Các bước cần lưu ý khi xử lý việc liên quan đến cấp đổi thẻ căn cước là gì?\n  (5) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về cấp đổi thẻ căn cước?",
+    "keywords": [
+      "căn cước và vneid",
+      "cấp đổi thẻ căn cước",
+      "cấp",
+      "đổi",
+      "thẻ",
+      "căn",
+      "cước"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_002",
+    "category_id": "cu_tru",
+    "category": "Cư trú & Căn cước VNeID",
+    "topic": "[Căn cước và VNeID] Quy định pháp luật & Hướng dẫn xử lý: Cấp lại thẻ căn cước bị mất",
+    "legal_basis": "Luật Căn cước số 26/2023/QH15 (hiệu lực 01/07/2024); Nghị định số 69/2024/NĐ-CP về định danh và xác thực điện tử; Thông tư số 17/2024/TT-BCA",
+    "summary": "Theo Điều 24, 25 Luật Căn cước 2023: Trường hợp bị mất thẻ Căn cước hoặc thẻ bị hư hỏng không sử dụng được, công dân thực hiện thủ tục cấp lại thẻ Căn cước trực tuyến toàn trình trên ứng dụng VNeID hoặc Cổng DVC Bộ Công an (hệ thống sử dụng...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: CẤP LẠI THẺ CĂN CƯỚC BỊ MẤT (LĨNH VỰC: CĂN CƯỚC VÀ VNEID)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Theo Điều 24, 25 Luật Căn cước 2023: Trường hợp bị mất thẻ Căn cước hoặc thẻ bị hư hỏng không sử dụng được, công dân thực hiện thủ tục cấp lại thẻ Căn cước trực tuyến toàn trình trên ứng dụng VNeID hoặc Cổng DVC Bộ Công an (hệ thống sử dụng lại ảnh khuôn mặt, vân tay, mống mắt đã thu nhận trước đó, trừ khi đến độ tuổi bắt buộc đổi thẻ 14, 25, 40, 60 tuổi).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (hỗ trợ kích hoạt VNeID Mức 2, hướng dẫn hồ sơ) & Phòng Cảnh sát QLHC về TTXH Công an tỉnh Hưng Yên.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://dichvucong.bocongan.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: 07 ngày làm việc đối với cấp mới/cấp đổi/cấp lại thẻ Căn cước; 01 - 03 ngày làm việc đối với kích hoạt định danh điện tử VNeID Mức 2.\n- Phí, lệ phí: Miễn phí 100% khi cấp lần đầu, cấp đổi khi đủ 14, 25, 40, 60 tuổi hoặc kích hoạt VNeID Mức 2. Cấp lại thẻ bị mất/hư hỏng: 70.000đ (giảm 50% khi nộp trực tuyến trên VNeID/Cổng DVC).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Chứng minh nhân dân (CMND 9 số, 12 số) đã chính thức hết hiệu lực từ sau ngày 31/12/2024. Thẻ CCCD gắn chip còn hạn vẫn sử dụng bình thường cho đến khi hết hạn. Tuyệt đối không cài đặt ứng dụng VNeID qua đường link lạ (.apk).\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Các bước cần lưu ý khi xử lý việc liên quan đến cấp lại thẻ căn cước bị mất là gì?\n  (2) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về cấp lại thẻ căn cước bị mất?\n  (3) Có mốc thời gian nào cần lưu ý khi xử lý việc liên quan đến cấp lại thẻ căn cước bị mất không?\n  (4) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến cấp lại thẻ căn cước bị mất không?\n  (5) Nếu mất giấy tờ hoặc bằng chứng liên quan đến cấp lại thẻ căn cước bị mất, tôi nên bắt đầu từ đâu?",
+    "keywords": [
+      "căn cước và vneid",
+      "cấp lại thẻ căn cước bị mất",
+      "cấp",
+      "lại",
+      "thẻ",
+      "căn",
+      "cước",
+      "mất"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_003",
+    "category_id": "cu_tru",
+    "category": "Cư trú & Căn cước VNeID",
+    "topic": "[Căn cước và VNeID] Quy định pháp luật & Hướng dẫn xử lý: Kích hoạt tài khoản VNeID",
+    "legal_basis": "Luật Căn cước số 26/2023/QH15 (hiệu lực 01/07/2024); Nghị định số 69/2024/NĐ-CP về định danh và xác thực điện tử; Thông tư số 17/2024/TT-BCA",
+    "summary": "Theo Nghị định 69/2024/NĐ-CP: Sau khi được cấp tài khoản định danh điện tử, công dân tải ứng dụng VNeID chính thức trên App Store / Google Play, chọn \"Kích hoạt tài khoản định danh điện tử\", nhập Số định danh cá nhân (12 số) và Số điện thoạ...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: KÍCH HOẠT TÀI KHOẢN VNEID (LĨNH VỰC: CĂN CƯỚC VÀ VNEID)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Theo Nghị định 69/2024/NĐ-CP: Sau khi được cấp tài khoản định danh điện tử, công dân tải ứng dụng VNeID chính thức trên App Store / Google Play, chọn \"Kích hoạt tài khoản định danh điện tử\", nhập Số định danh cá nhân (12 số) và Số điện thoại chính chủ, xác thực mã OTP và thiết lập Mật khẩu + Passcode 6 số trong vòng 07 ngày kể từ khi nhận thông báo phê duyệt.\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (hỗ trợ kích hoạt VNeID Mức 2, hướng dẫn hồ sơ) & Phòng Cảnh sát QLHC về TTXH Công an tỉnh Hưng Yên.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://dichvucong.bocongan.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: 07 ngày làm việc đối với cấp mới/cấp đổi/cấp lại thẻ Căn cước; 01 - 03 ngày làm việc đối với kích hoạt định danh điện tử VNeID Mức 2.\n- Phí, lệ phí: Miễn phí 100% khi cấp lần đầu, cấp đổi khi đủ 14, 25, 40, 60 tuổi hoặc kích hoạt VNeID Mức 2. Cấp lại thẻ bị mất/hư hỏng: 70.000đ (giảm 50% khi nộp trực tuyến trên VNeID/Cổng DVC).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Chứng minh nhân dân (CMND 9 số, 12 số) đã chính thức hết hiệu lực từ sau ngày 31/12/2024. Thẻ CCCD gắn chip còn hạn vẫn sử dụng bình thường cho đến khi hết hạn. Tuyệt đối không cài đặt ứng dụng VNeID qua đường link lạ (.apk).\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến kích hoạt tài khoản VNeID không?\n  (2) Nếu mất giấy tờ hoặc bằng chứng liên quan đến kích hoạt tài khoản VNeID, tôi nên bắt đầu từ đâu?\n  (3) Khi thông tin về kích hoạt tài khoản VNeID bị sai hoặc thay đổi, cần liên hệ nơi nào?\n  (4) Tôi có thể nhờ người thân làm thay việc về kích hoạt tài khoản VNeID không, cần hỏi rõ điều gì?\n  (5) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến kích hoạt tài khoản VNeID, tôi cần tìm hiểu điều gì?",
+    "keywords": [
+      "căn cước và vneid",
+      "kích hoạt tài khoản vneid",
+      "kích",
+      "hoạt",
+      "tài",
+      "khoản",
+      "vneid"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_004",
+    "category_id": "cu_tru",
+    "category": "Cư trú & Căn cước VNeID",
+    "topic": "[Căn cước và VNeID] Quy định pháp luật & Hướng dẫn xử lý: Định danh điện tử mức 2",
+    "legal_basis": "Luật Căn cước số 26/2023/QH15 (hiệu lực 01/07/2024); Nghị định số 69/2024/NĐ-CP về định danh và xác thực điện tử; Thông tư số 17/2024/TT-BCA",
+    "summary": "Theo Điều 9, Điều 14 Nghị định 69/2024/NĐ-CP: Tài khoản định danh điện tử Mức 2 của công dân có giá trị chứng minh thông tin tương đương việc xuất trình thẻ Căn cước bản vật lý và có giá trị cung cấp thông tin trong các giấy tờ đã được tích...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: ĐỊNH DANH ĐIỆN TỬ MỨC 2 (LĨNH VỰC: CĂN CƯỚC VÀ VNEID)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Theo Điều 9, Điều 14 Nghị định 69/2024/NĐ-CP: Tài khoản định danh điện tử Mức 2 của công dân có giá trị chứng minh thông tin tương đương việc xuất trình thẻ Căn cước bản vật lý và có giá trị cung cấp thông tin trong các giấy tờ đã được tích hợp (GPLX, Đăng ký xe, Thẻ BHYT, Sổ BHXH, Mã số thuế). Công dân mang thẻ Căn cước đến Công an xã Đức Hợp để thu nhận sinh trắc học kích hoạt Mức 2 miễn phí.\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (hỗ trợ kích hoạt VNeID Mức 2, hướng dẫn hồ sơ) & Phòng Cảnh sát QLHC về TTXH Công an tỉnh Hưng Yên.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://dichvucong.bocongan.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: 07 ngày làm việc đối với cấp mới/cấp đổi/cấp lại thẻ Căn cước; 01 - 03 ngày làm việc đối với kích hoạt định danh điện tử VNeID Mức 2.\n- Phí, lệ phí: Miễn phí 100% khi cấp lần đầu, cấp đổi khi đủ 14, 25, 40, 60 tuổi hoặc kích hoạt VNeID Mức 2. Cấp lại thẻ bị mất/hư hỏng: 70.000đ (giảm 50% khi nộp trực tuyến trên VNeID/Cổng DVC).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Chứng minh nhân dân (CMND 9 số, 12 số) đã chính thức hết hiệu lực từ sau ngày 31/12/2024. Thẻ CCCD gắn chip còn hạn vẫn sử dụng bình thường cho đến khi hết hạn. Tuyệt đối không cài đặt ứng dụng VNeID qua đường link lạ (.apk).\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Tôi có thể nhờ người thân làm thay việc về định danh điện tử mức 2 không, cần hỏi rõ điều gì?\n  (2) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến định danh điện tử mức 2, tôi cần tìm hiểu điều gì?\n  (3) Sau khi gửi yêu cầu liên quan đến định danh điện tử mức 2, tôi có thể theo dõi tiến độ thế nào?\n  (4) Người dân ở xã xa trung tâm muốn xử lý việc định danh điện tử mức 2 thì nên hỏi cơ quan nào?\n  (5) Người lớn tuổi cần hỗ trợ về định danh điện tử mức 2 thì có thể nhờ ai hướng dẫn?",
+    "keywords": [
+      "căn cước và vneid",
+      "định danh điện tử mức 2",
+      "định",
+      "danh",
+      "điện",
+      "mức"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_005",
+    "category_id": "cu_tru",
+    "category": "Cư trú & Căn cước VNeID",
+    "topic": "[Căn cước và VNeID] Quy định pháp luật & Hướng dẫn xử lý: Cập nhật thông tin trên VNeID",
+    "legal_basis": "Luật Căn cước số 26/2023/QH15 (hiệu lực 01/07/2024); Nghị định số 69/2024/NĐ-CP về định danh và xác thực điện tử; Thông tư số 17/2024/TT-BCA",
+    "summary": "Trên ứng dụng VNeID Mức 2, công dân vào mục \"Ví giấy tờ -> Tích hợp thông tin -> Tạo mới yêu cầu\" để tích hợp Giấy phép lái xe, Đăng ký xe, Thẻ BHYT, Người phụ thuộc, Tình trạng hôn nhân. Nếu thông tin mới được cấp/đổi, bấm nút \"Cập nhật th...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: CẬP NHẬT THÔNG TIN TRÊN VNEID (LĨNH VỰC: CĂN CƯỚC VÀ VNEID)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Trên ứng dụng VNeID Mức 2, công dân vào mục \"Ví giấy tờ -> Tích hợp thông tin -> Tạo mới yêu cầu\" để tích hợp Giấy phép lái xe, Đăng ký xe, Thẻ BHYT, Người phụ thuộc, Tình trạng hôn nhân. Nếu thông tin mới được cấp/đổi, bấm nút \"Cập nhật thông tin\" trong từng loại giấy tờ để đồng bộ dữ liệu mới nhất từ Bộ/Ngành.\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (hỗ trợ kích hoạt VNeID Mức 2, hướng dẫn hồ sơ) & Phòng Cảnh sát QLHC về TTXH Công an tỉnh Hưng Yên.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://dichvucong.bocongan.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: 07 ngày làm việc đối với cấp mới/cấp đổi/cấp lại thẻ Căn cước; 01 - 03 ngày làm việc đối với kích hoạt định danh điện tử VNeID Mức 2.\n- Phí, lệ phí: Miễn phí 100% khi cấp lần đầu, cấp đổi khi đủ 14, 25, 40, 60 tuổi hoặc kích hoạt VNeID Mức 2. Cấp lại thẻ bị mất/hư hỏng: 70.000đ (giảm 50% khi nộp trực tuyến trên VNeID/Cổng DVC).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Chứng minh nhân dân (CMND 9 số, 12 số) đã chính thức hết hiệu lực từ sau ngày 31/12/2024. Thẻ CCCD gắn chip còn hạn vẫn sử dụng bình thường cho đến khi hết hạn. Tuyệt đối không cài đặt ứng dụng VNeID qua đường link lạ (.apk).\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có thể làm thủ tục về cập nhật thông tin trên VNeID trên điện thoại không, cần chuẩn bị gì?\n  (2) Người lớn tuổi cần hỗ trợ về cập nhật thông tin trên VNeID thì có thể nhờ ai hướng dẫn?\n  (3) Trong tình huống cập nhật thông tin trên VNeID, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (4) Nếu các bên không thống nhất về cập nhật thông tin trên VNeID, có thể đề nghị cơ quan nào hướng dẫn?\n  (5) Tôi nên kiểm tra thông tin chính thức về cập nhật thông tin trên VNeID trên kênh nào?",
+    "keywords": [
+      "căn cước và vneid",
+      "cập nhật thông tin trên vneid",
+      "cập",
+      "nhật",
+      "thông",
+      "tin",
+      "trên",
+      "vneid"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_006",
+    "category_id": "cu_tru",
+    "category": "Cư trú & Căn cước VNeID",
+    "topic": "[Căn cước và VNeID] Quy định pháp luật & Hướng dẫn xử lý: Khắc phục lỗi đăng nhập VNeID",
+    "legal_basis": "Luật Căn cước số 26/2023/QH15 (hiệu lực 01/07/2024); Nghị định số 69/2024/NĐ-CP về định danh và xác thực điện tử; Thông tư số 17/2024/TT-BCA",
+    "summary": "Khi quên mật khẩu, đổi điện thoại mới hoặc bị khóa tài khoản VNeID do nhập sai mật khẩu quá 5 lần: Công dân chọn \"Quên mật khẩu\" trên màn hình đăng nhập VNeID, nhập Số định danh cá nhân + Số điện thoại và thực hiện quét NFC mặt sau thẻ Căn ...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: KHẮC PHỤC LỖI ĐĂNG NHẬP VNEID (LĨNH VỰC: CĂN CƯỚC VÀ VNEID)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Khi quên mật khẩu, đổi điện thoại mới hoặc bị khóa tài khoản VNeID do nhập sai mật khẩu quá 5 lần: Công dân chọn \"Quên mật khẩu\" trên màn hình đăng nhập VNeID, nhập Số định danh cá nhân + Số điện thoại và thực hiện quét NFC mặt sau thẻ Căn cước gắn chip (hoặc quét khuôn mặt) để khôi phục ngay trên điện thoại.\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (hỗ trợ kích hoạt VNeID Mức 2, hướng dẫn hồ sơ) & Phòng Cảnh sát QLHC về TTXH Công an tỉnh Hưng Yên.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://dichvucong.bocongan.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: 07 ngày làm việc đối với cấp mới/cấp đổi/cấp lại thẻ Căn cước; 01 - 03 ngày làm việc đối với kích hoạt định danh điện tử VNeID Mức 2.\n- Phí, lệ phí: Miễn phí 100% khi cấp lần đầu, cấp đổi khi đủ 14, 25, 40, 60 tuổi hoặc kích hoạt VNeID Mức 2. Cấp lại thẻ bị mất/hư hỏng: 70.000đ (giảm 50% khi nộp trực tuyến trên VNeID/Cổng DVC).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Chứng minh nhân dân (CMND 9 số, 12 số) đã chính thức hết hiệu lực từ sau ngày 31/12/2024. Thẻ CCCD gắn chip còn hạn vẫn sử dụng bình thường cho đến khi hết hạn. Tuyệt đối không cài đặt ứng dụng VNeID qua đường link lạ (.apk).\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Trong tình huống khắc phục lỗi đăng nhập VNeID, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (2) Nếu các bên không thống nhất về khắc phục lỗi đăng nhập VNeID, có thể đề nghị cơ quan nào hướng dẫn?\n  (3) Tôi nên kiểm tra thông tin chính thức về khắc phục lỗi đăng nhập VNeID trên kênh nào?\n  (4) Làm sao phân biệt hướng dẫn chính thức và dịch vụ giả mạo liên quan đến khắc phục lỗi đăng nhập VNeID?\n  (5) Khi gặp vướng mắc về khắc phục lỗi đăng nhập VNeID, tôi cần mô tả thông tin gì để được hỗ trợ?",
+    "keywords": [
+      "căn cước và vneid",
+      "khắc phục lỗi đăng nhập vneid",
+      "khắc",
+      "phục",
+      "lỗi",
+      "đăng",
+      "nhập",
+      "vneid"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_007",
+    "category_id": "cu_tru",
+    "category": "Cư trú & Căn cước VNeID",
+    "topic": "[Cư trú] Quy định pháp luật & Hướng dẫn xử lý: Đăng ký thường trú",
+    "legal_basis": "Luật Cư trú số 68/2020/QH14; Nghị định số 154/2024/NĐ-CP quy định chi tiết một số điều của Luật Cư trú; Thông tư số 55/2021/TT-BCA & Thông tư số 66/2023/TT-BCA",
+    "summary": "Theo Điều 20 - 22 Luật Cư trú 2020 và Nghị định 154/2024/NĐ-CP: Công dân có chỗ ở hợp pháp thuộc quyền sở hữu của mình hoặc được chủ hộ và chủ sở hữu chỗ ở hợp pháp đồng ý (vợ về ở với chồng, con về ở với cha mẹ...) được đăng ký thường trú....",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: ĐĂNG KÝ THƯỜNG TRÚ (LĨNH VỰC: CƯ TRÚ)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Theo Điều 20 - 22 Luật Cư trú 2020 và Nghị định 154/2024/NĐ-CP: Công dân có chỗ ở hợp pháp thuộc quyền sở hữu của mình hoặc được chủ hộ và chủ sở hữu chỗ ở hợp pháp đồng ý (vợ về ở với chồng, con về ở với cha mẹ...) được đăng ký thường trú. Nộp hồ sơ trực tuyến trên ứng dụng VNeID (mục Thủ tục hành chính -> Đăng ký thường trú), thời hạn giải quyết tối đa 07 ngày làm việc tại Công an xã Đức Hợp.\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (Thôn Nho Lâm, xã Đức Hợp, tỉnh Hưng Yên) - Tiếp nhận trực tuyến qua VNeID hoặc trực tiếp tại Bộ phận Một cửa.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://dichvucong.bocongan.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Đăng ký thường trú: Tối đa 07 ngày làm việc. Đăng ký tạm trú, xóa đăng ký thường trú/tạm trú: 03 ngày làm việc. Thông báo lưu trú: Giải quyết ngay trước 23h00 cùng ngày.\n- Phí, lệ phí: Thông báo lưu trú, xóa đăng ký cư trú, điều chỉnh thông tin do sáp nhập: Miễn phí (0 đồng). Đăng ký thường trú, tạm trú trực tuyến qua VNeID: 10.000đ/lần (nộp trực tiếp: 20.000đ/lần).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Sổ hộ khẩu giấy và Sổ tạm trú giấy đã hết giá trị sử dụng từ ngày 01/01/2023. Mọi thông tin cư trú được cập nhật điện tử trên Cơ sở dữ liệu quốc gia về dân cư và hiển thị trực tiếp trên ứng dụng VNeID.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Đăng ký thường trú là gì và tôi có thể tìm hiểu ở đâu?\n  (2) Điều kiện hoặc căn cứ áp dụng với đăng ký thường trú được hướng dẫn thế nào?\n  (3) Muốn thực hiện việc liên quan đến đăng ký thường trú, tôi cần chuẩn bị giấy tờ gì?\n  (4) Các bước cần lưu ý khi xử lý việc liên quan đến đăng ký thường trú là gì?\n  (5) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về đăng ký thường trú?",
+    "keywords": [
+      "cư trú",
+      "đăng ký thường trú",
+      "đăng",
+      "thường",
+      "trú"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_008",
+    "category_id": "cu_tru",
+    "category": "Cư trú & Căn cước VNeID",
+    "topic": "[Cư trú] Quy định pháp luật & Hướng dẫn xử lý: Đăng ký tạm trú",
+    "legal_basis": "Luật Cư trú số 68/2020/QH14; Nghị định số 154/2024/NĐ-CP quy định chi tiết một số điều của Luật Cư trú; Thông tư số 55/2021/TT-BCA & Thông tư số 66/2023/TT-BCA",
+    "summary": "Theo Điều 27, 28 Luật Cư trú 2020: Công dân đến sinh sống tại chỗ ở hợp pháp ngoài phạm vi đơn vị hành chính cấp xã nơi đã đăng ký thường trú để lao động, học tập hoặc vì mục đích khác từ 30 ngày trở lên thì phải đăng ký tạm trú. Thời hạn t...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: ĐĂNG KÝ TẠM TRÚ (LĨNH VỰC: CƯ TRÚ)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Theo Điều 27, 28 Luật Cư trú 2020: Công dân đến sinh sống tại chỗ ở hợp pháp ngoài phạm vi đơn vị hành chính cấp xã nơi đã đăng ký thường trú để lao động, học tập hoặc vì mục đích khác từ 30 ngày trở lên thì phải đăng ký tạm trú. Thời hạn tạm trú tối đa là 02 năm và có thể gia hạn nhiều lần. Thực hiện trực tuyến trên VNeID, giải quyết trong 03 ngày làm việc.\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (Thôn Nho Lâm, xã Đức Hợp, tỉnh Hưng Yên) - Tiếp nhận trực tuyến qua VNeID hoặc trực tiếp tại Bộ phận Một cửa.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://dichvucong.bocongan.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Đăng ký thường trú: Tối đa 07 ngày làm việc. Đăng ký tạm trú, xóa đăng ký thường trú/tạm trú: 03 ngày làm việc. Thông báo lưu trú: Giải quyết ngay trước 23h00 cùng ngày.\n- Phí, lệ phí: Thông báo lưu trú, xóa đăng ký cư trú, điều chỉnh thông tin do sáp nhập: Miễn phí (0 đồng). Đăng ký thường trú, tạm trú trực tuyến qua VNeID: 10.000đ/lần (nộp trực tiếp: 20.000đ/lần).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Sổ hộ khẩu giấy và Sổ tạm trú giấy đã hết giá trị sử dụng từ ngày 01/01/2023. Mọi thông tin cư trú được cập nhật điện tử trên Cơ sở dữ liệu quốc gia về dân cư và hiển thị trực tiếp trên ứng dụng VNeID.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Các bước cần lưu ý khi xử lý việc liên quan đến đăng ký tạm trú là gì?\n  (2) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về đăng ký tạm trú?\n  (3) Có mốc thời gian nào cần lưu ý khi xử lý việc liên quan đến đăng ký tạm trú không?\n  (4) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến đăng ký tạm trú không?\n  (5) Nếu mất giấy tờ hoặc bằng chứng liên quan đến đăng ký tạm trú, tôi nên bắt đầu từ đâu?",
+    "keywords": [
+      "cư trú",
+      "đăng ký tạm trú",
+      "đăng",
+      "tạm",
+      "trú"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_009",
+    "category_id": "cu_tru",
+    "category": "Cư trú & Căn cước VNeID",
+    "topic": "[Cư trú] Quy định pháp luật & Hướng dẫn xử lý: Thông báo lưu trú",
+    "legal_basis": "Luật Cư trú số 68/2020/QH14; Nghị định số 154/2024/NĐ-CP quy định chi tiết một số điều của Luật Cư trú; Thông tư số 55/2021/TT-BCA & Thông tư số 66/2023/TT-BCA",
+    "summary": "Theo Điều 30 Luật Cư trú 2020: Khi có người đến lưu trú (ở lại qua đêm dưới 30 ngày tại gia đình, nhà trọ, cơ sở lưu trú), thành viên hộ gia đình hoặc chủ cơ sở lưu trú phải thông báo lưu trú với Công an xã Đức Hợp trước 23 giờ 00 cùng ngày...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: THÔNG BÁO LƯU TRÚ (LĨNH VỰC: CƯ TRÚ)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Theo Điều 30 Luật Cư trú 2020: Khi có người đến lưu trú (ở lại qua đêm dưới 30 ngày tại gia đình, nhà trọ, cơ sở lưu trú), thành viên hộ gia đình hoặc chủ cơ sở lưu trú phải thông báo lưu trú với Công an xã Đức Hợp trước 23 giờ 00 cùng ngày (nếu đến sau 23 giờ thì thông báo trước 08 giờ sáng ngày hôm sau) qua ứng dụng VNeID hoàn toàn miễn phí.\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (Thôn Nho Lâm, xã Đức Hợp, tỉnh Hưng Yên) - Tiếp nhận trực tuyến qua VNeID hoặc trực tiếp tại Bộ phận Một cửa.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://dichvucong.bocongan.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Đăng ký thường trú: Tối đa 07 ngày làm việc. Đăng ký tạm trú, xóa đăng ký thường trú/tạm trú: 03 ngày làm việc. Thông báo lưu trú: Giải quyết ngay trước 23h00 cùng ngày.\n- Phí, lệ phí: Thông báo lưu trú, xóa đăng ký cư trú, điều chỉnh thông tin do sáp nhập: Miễn phí (0 đồng). Đăng ký thường trú, tạm trú trực tuyến qua VNeID: 10.000đ/lần (nộp trực tiếp: 20.000đ/lần).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Sổ hộ khẩu giấy và Sổ tạm trú giấy đã hết giá trị sử dụng từ ngày 01/01/2023. Mọi thông tin cư trú được cập nhật điện tử trên Cơ sở dữ liệu quốc gia về dân cư và hiển thị trực tiếp trên ứng dụng VNeID.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến thông báo lưu trú không?\n  (2) Nếu mất giấy tờ hoặc bằng chứng liên quan đến thông báo lưu trú, tôi nên bắt đầu từ đâu?\n  (3) Khi thông tin về thông báo lưu trú bị sai hoặc thay đổi, cần liên hệ nơi nào?\n  (4) Tôi có thể nhờ người thân làm thay việc về thông báo lưu trú không, cần hỏi rõ điều gì?\n  (5) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến thông báo lưu trú, tôi cần tìm hiểu điều gì?",
+    "keywords": [
+      "cư trú",
+      "thông báo lưu trú",
+      "thông",
+      "báo",
+      "lưu",
+      "trú"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_010",
+    "category_id": "cu_tru",
+    "category": "Cư trú & Căn cước VNeID",
+    "topic": "[Cư trú] Quy định pháp luật & Hướng dẫn xử lý: Điều chỉnh thông tin cư trú",
+    "legal_basis": "Luật Cư trú số 68/2020/QH14; Nghị định số 154/2024/NĐ-CP quy định chi tiết một số điều của Luật Cư trú; Thông tư số 55/2021/TT-BCA & Thông tư số 66/2023/TT-BCA",
+    "summary": "Theo Điều 26 Luật Cư trú 2020: Khi có thay đổi chủ hộ, thay đổi thông tin hộ tịch so với dữ liệu trong Cơ sở dữ liệu về cư trú hoặc thay đổi địa giới hành chính (như sáp nhập đơn vị hành chính xã Đức Hợp), cơ quan đăng ký cư trú tự động cập...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: ĐIỀU CHỈNH THÔNG TIN CƯ TRÚ (LĨNH VỰC: CƯ TRÚ)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Theo Điều 26 Luật Cư trú 2020: Khi có thay đổi chủ hộ, thay đổi thông tin hộ tịch so với dữ liệu trong Cơ sở dữ liệu về cư trú hoặc thay đổi địa giới hành chính (như sáp nhập đơn vị hành chính xã Đức Hợp), cơ quan đăng ký cư trú tự động cập nhật hoặc công dân gửi yêu cầu điều chỉnh thông tin cư trú trên ứng dụng VNeID (Mẫu CT01 điện tử).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (Thôn Nho Lâm, xã Đức Hợp, tỉnh Hưng Yên) - Tiếp nhận trực tuyến qua VNeID hoặc trực tiếp tại Bộ phận Một cửa.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://dichvucong.bocongan.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Đăng ký thường trú: Tối đa 07 ngày làm việc. Đăng ký tạm trú, xóa đăng ký thường trú/tạm trú: 03 ngày làm việc. Thông báo lưu trú: Giải quyết ngay trước 23h00 cùng ngày.\n- Phí, lệ phí: Thông báo lưu trú, xóa đăng ký cư trú, điều chỉnh thông tin do sáp nhập: Miễn phí (0 đồng). Đăng ký thường trú, tạm trú trực tuyến qua VNeID: 10.000đ/lần (nộp trực tiếp: 20.000đ/lần).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Sổ hộ khẩu giấy và Sổ tạm trú giấy đã hết giá trị sử dụng từ ngày 01/01/2023. Mọi thông tin cư trú được cập nhật điện tử trên Cơ sở dữ liệu quốc gia về dân cư và hiển thị trực tiếp trên ứng dụng VNeID.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Tôi có thể nhờ người thân làm thay việc về điều chỉnh thông tin cư trú không, cần hỏi rõ điều gì?\n  (2) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến điều chỉnh thông tin cư trú, tôi cần tìm hiểu điều gì?\n  (3) Sau khi gửi yêu cầu liên quan đến điều chỉnh thông tin cư trú, tôi có thể theo dõi tiến độ thế nào?\n  (4) Người dân ở xã xa trung tâm muốn xử lý việc điều chỉnh thông tin cư trú thì nên hỏi cơ quan nào?\n  (5) Người lớn tuổi cần hỗ trợ về điều chỉnh thông tin cư trú thì có thể nhờ ai hướng dẫn?",
+    "keywords": [
+      "cư trú",
+      "điều chỉnh thông tin cư trú",
+      "điều",
+      "chỉnh",
+      "thông",
+      "tin",
+      "trú"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_011",
+    "category_id": "cu_tru",
+    "category": "Cư trú & Căn cước VNeID",
+    "topic": "[Cư trú] Quy định pháp luật & Hướng dẫn xử lý: Xóa đăng ký cư trú",
+    "legal_basis": "Luật Cư trú số 68/2020/QH14; Nghị định số 154/2024/NĐ-CP quy định chi tiết một số điều của Luật Cư trú; Thông tư số 55/2021/TT-BCA & Thông tư số 66/2023/TT-BCA",
+    "summary": "Theo Điều 24 (Xóa đăng ký thường trú) và Điều 29 (Xóa đăng ký tạm trú) Luật Cư trú 2020: Trong thời hạn 07 ngày kể từ ngày hộ gia đình có người thuộc diện xóa đăng ký thường trú/tạm trú (như người chết, định cư nước ngoài, đã đăng ký thường...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: XÓA ĐĂNG KÝ CƯ TRÚ (LĨNH VỰC: CƯ TRÚ)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Theo Điều 24 (Xóa đăng ký thường trú) và Điều 29 (Xóa đăng ký tạm trú) Luật Cư trú 2020: Trong thời hạn 07 ngày kể từ ngày hộ gia đình có người thuộc diện xóa đăng ký thường trú/tạm trú (như người chết, định cư nước ngoài, đã đăng ký thường trú ở nơi ở mới...), người thuộc diện xóa hoặc đại diện hộ gia đình thực hiện thủ tục xóa đăng ký cư trú trên VNeID.\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (Thôn Nho Lâm, xã Đức Hợp, tỉnh Hưng Yên) - Tiếp nhận trực tuyến qua VNeID hoặc trực tiếp tại Bộ phận Một cửa.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://dichvucong.bocongan.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Đăng ký thường trú: Tối đa 07 ngày làm việc. Đăng ký tạm trú, xóa đăng ký thường trú/tạm trú: 03 ngày làm việc. Thông báo lưu trú: Giải quyết ngay trước 23h00 cùng ngày.\n- Phí, lệ phí: Thông báo lưu trú, xóa đăng ký cư trú, điều chỉnh thông tin do sáp nhập: Miễn phí (0 đồng). Đăng ký thường trú, tạm trú trực tuyến qua VNeID: 10.000đ/lần (nộp trực tiếp: 20.000đ/lần).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Sổ hộ khẩu giấy và Sổ tạm trú giấy đã hết giá trị sử dụng từ ngày 01/01/2023. Mọi thông tin cư trú được cập nhật điện tử trên Cơ sở dữ liệu quốc gia về dân cư và hiển thị trực tiếp trên ứng dụng VNeID.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có thể làm thủ tục về xóa đăng ký cư trú trên điện thoại không, cần chuẩn bị gì?\n  (2) Người lớn tuổi cần hỗ trợ về xóa đăng ký cư trú thì có thể nhờ ai hướng dẫn?\n  (3) Trong tình huống xóa đăng ký cư trú, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (4) Nếu các bên không thống nhất về xóa đăng ký cư trú, có thể đề nghị cơ quan nào hướng dẫn?\n  (5) Tôi nên kiểm tra thông tin chính thức về xóa đăng ký cư trú trên kênh nào?",
+    "keywords": [
+      "cư trú",
+      "xóa đăng ký cư trú",
+      "xóa",
+      "đăng",
+      "trú"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_012",
+    "category_id": "cu_tru",
+    "category": "Cư trú & Căn cước VNeID",
+    "topic": "[Cư trú] Quy định pháp luật & Hướng dẫn xử lý: Tra cứu thông tin cư trú",
+    "legal_basis": "Luật Cư trú số 68/2020/QH14; Nghị định số 154/2024/NĐ-CP quy định chi tiết một số điều của Luật Cư trú; Thông tư số 55/2021/TT-BCA & Thông tư số 66/2023/TT-BCA",
+    "summary": "Theo Thông tư 66/2023/TT-BCA: Công dân sử dụng ứng dụng VNeID (mục \"Thông tin cư trú\") để xem đầy đủ thông tin Nơi thường trú, Nơi tạm trú, Nơi ở hiện tại, Họ tên Chủ hộ và Danh sách tất cả thành viên trong hộ gia đình để xuất trình thay ch...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: TRA CỨU THÔNG TIN CƯ TRÚ (LĨNH VỰC: CƯ TRÚ)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Theo Thông tư 66/2023/TT-BCA: Công dân sử dụng ứng dụng VNeID (mục \"Thông tin cư trú\") để xem đầy đủ thông tin Nơi thường trú, Nơi tạm trú, Nơi ở hiện tại, Họ tên Chủ hộ và Danh sách tất cả thành viên trong hộ gia đình để xuất trình thay cho Giấy xác nhận thông tin về cư trú (Mẫu CT07).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (Thôn Nho Lâm, xã Đức Hợp, tỉnh Hưng Yên) - Tiếp nhận trực tuyến qua VNeID hoặc trực tiếp tại Bộ phận Một cửa.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://dichvucong.bocongan.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Đăng ký thường trú: Tối đa 07 ngày làm việc. Đăng ký tạm trú, xóa đăng ký thường trú/tạm trú: 03 ngày làm việc. Thông báo lưu trú: Giải quyết ngay trước 23h00 cùng ngày.\n- Phí, lệ phí: Thông báo lưu trú, xóa đăng ký cư trú, điều chỉnh thông tin do sáp nhập: Miễn phí (0 đồng). Đăng ký thường trú, tạm trú trực tuyến qua VNeID: 10.000đ/lần (nộp trực tiếp: 20.000đ/lần).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Sổ hộ khẩu giấy và Sổ tạm trú giấy đã hết giá trị sử dụng từ ngày 01/01/2023. Mọi thông tin cư trú được cập nhật điện tử trên Cơ sở dữ liệu quốc gia về dân cư và hiển thị trực tiếp trên ứng dụng VNeID.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Trong tình huống tra cứu thông tin cư trú, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (2) Nếu các bên không thống nhất về tra cứu thông tin cư trú, có thể đề nghị cơ quan nào hướng dẫn?\n  (3) Tôi nên kiểm tra thông tin chính thức về tra cứu thông tin cư trú trên kênh nào?\n  (4) Làm sao phân biệt hướng dẫn chính thức và dịch vụ giả mạo liên quan đến tra cứu thông tin cư trú?\n  (5) Khi gặp vướng mắc về tra cứu thông tin cư trú, tôi cần mô tả thông tin gì để được hỗ trợ?",
+    "keywords": [
+      "cư trú",
+      "tra cứu thông tin cư trú",
+      "tra",
+      "cứu",
+      "thông",
+      "tin",
+      "trú"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_013",
+    "category_id": "giao_thong",
+    "category": "Giao thông & Đăng ký xe",
+    "topic": "[Giao thông] Quy định pháp luật & Hướng dẫn xử lý: Đổi giấy phép lái xe",
+    "legal_basis": "Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15 (hiệu lực 01/01/2025); Nghị định số 168/2024/NĐ-CP về xử phạt VPHC và trừ điểm GPLX; Thông tư số 24/2023/TT-BCA & Thông tư số 28/2024/TT-BCA",
+    "summary": "Theo Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15 (hiệu lực 01/01/2025): Hệ thống phân hạng GPLX mới gồm 15 hạng (Hạng A1 cho xe mô tô đến 125cm3 hoặc đến 11kW; Hạng A cho xe trên 125cm3; Hạng B gộp hạng B1, B2 cũ cấp cho xe ô ...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: ĐỔI GIẤY PHÉP LÁI XE (LĨNH VỰC: GIAO THÔNG)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Theo Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15 (hiệu lực 01/01/2025): Hệ thống phân hạng GPLX mới gồm 15 hạng (Hạng A1 cho xe mô tô đến 125cm3 hoặc đến 11kW; Hạng A cho xe trên 125cm3; Hạng B gộp hạng B1, B2 cũ cấp cho xe ô tô đến 8 chỗ ngồi và xe tải đến 3.500kg). Công dân có Giấy khám sức khỏe điện tử nộp hồ sơ đổi GPLX trực tuyến toàn trình trên Cổng DVC (dvc4.gplx.gov.vn / dichvucong.gov.vn), lệ phí 115.000đ.\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (đăng ký xe mô tô, xe gắn máy, xe máy điện cho công dân cư trú tại xã) & Phòng CSGT Công an tỉnh Hưng Yên.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://csgt.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Cấp biển số định danh ngay sau khi tiếp nhận hồ sơ hợp lệ; cấp chứng nhận đăng ký xe không quá 02 ngày làm việc. Đổi GPLX trực tuyến: 05 ngày làm việc.\n- Phí, lệ phí: Đăng ký xe máy tại xã: 50.000đ - 100.000đ/xe (khu vực xã nông thôn). Đổi GPLX trực tuyến trên Cổng DVC: 115.000đ/lần.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Từ 01/01/2025, mỗi Giấy phép lái xe có 12 điểm/năm; nếu bị trừ hết 12 điểm phải kiểm tra lại kiến thức pháp luật TTATGT sau ít nhất 6 tháng. Biển số xe 5 số là biển số định danh quản lý theo mã định danh chủ xe suốt đời — khi bán xe bắt buộc phải giữ lại biển số và đăng ký xe nộp cho Công an làm thủ tục thu hồi.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Đổi giấy phép lái xe là gì và tôi có thể tìm hiểu ở đâu?\n  (2) Điều kiện hoặc căn cứ áp dụng với đổi giấy phép lái xe được hướng dẫn thế nào?\n  (3) Muốn thực hiện việc liên quan đến đổi giấy phép lái xe, tôi cần chuẩn bị giấy tờ gì?\n  (4) Các bước cần lưu ý khi xử lý việc liên quan đến đổi giấy phép lái xe là gì?\n  (5) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về đổi giấy phép lái xe?",
+    "keywords": [
+      "giao thông",
+      "đổi giấy phép lái xe",
+      "đổi",
+      "giấy",
+      "phép",
+      "lái"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_014",
+    "category_id": "giao_thong",
+    "category": "Giao thông & Đăng ký xe",
+    "topic": "[Giao thông] Quy định pháp luật & Hướng dẫn xử lý: Cấp lại giấy phép lái xe bị mất",
+    "legal_basis": "Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15 (hiệu lực 01/01/2025); Nghị định số 168/2024/NĐ-CP về xử phạt VPHC và trừ điểm GPLX; Thông tư số 24/2023/TT-BCA & Thông tư số 28/2024/TT-BCA",
+    "summary": "Người có Giấy phép lái xe bị mất, còn thời hạn sử dụng (hoặc quá hạn dưới 03 tháng), không đang bị cơ quan có thẩm quyền tạm giữ/tước quyền sử dụng và không bị trừ hết 12 điểm GPLX được nộp hồ sơ cấp lại GPLX trực tuyến trên Cổng Dịch vụ cô...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: CẤP LẠI GIẤY PHÉP LÁI XE BỊ MẤT (LĨNH VỰC: GIAO THÔNG)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Người có Giấy phép lái xe bị mất, còn thời hạn sử dụng (hoặc quá hạn dưới 03 tháng), không đang bị cơ quan có thẩm quyền tạm giữ/tước quyền sử dụng và không bị trừ hết 12 điểm GPLX được nộp hồ sơ cấp lại GPLX trực tuyến trên Cổng Dịch vụ công Quốc gia hoặc tại Bộ phận Một cửa.\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (đăng ký xe mô tô, xe gắn máy, xe máy điện cho công dân cư trú tại xã) & Phòng CSGT Công an tỉnh Hưng Yên.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://csgt.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Cấp biển số định danh ngay sau khi tiếp nhận hồ sơ hợp lệ; cấp chứng nhận đăng ký xe không quá 02 ngày làm việc. Đổi GPLX trực tuyến: 05 ngày làm việc.\n- Phí, lệ phí: Đăng ký xe máy tại xã: 50.000đ - 100.000đ/xe (khu vực xã nông thôn). Đổi GPLX trực tuyến trên Cổng DVC: 115.000đ/lần.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Từ 01/01/2025, mỗi Giấy phép lái xe có 12 điểm/năm; nếu bị trừ hết 12 điểm phải kiểm tra lại kiến thức pháp luật TTATGT sau ít nhất 6 tháng. Biển số xe 5 số là biển số định danh quản lý theo mã định danh chủ xe suốt đời — khi bán xe bắt buộc phải giữ lại biển số và đăng ký xe nộp cho Công an làm thủ tục thu hồi.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Các bước cần lưu ý khi xử lý việc liên quan đến cấp lại giấy phép lái xe bị mất là gì?\n  (2) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về cấp lại giấy phép lái xe bị mất?\n  (3) Có mốc thời gian nào cần lưu ý khi xử lý việc liên quan đến cấp lại giấy phép lái xe bị mất không?\n  (4) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến cấp lại giấy phép lái xe bị mất không?\n  (5) Nếu mất giấy tờ hoặc bằng chứng liên quan đến cấp lại giấy phép lái xe bị mất, tôi nên bắt đầu từ đâu?",
+    "keywords": [
+      "giao thông",
+      "cấp lại giấy phép lái xe bị mất",
+      "cấp",
+      "lại",
+      "giấy",
+      "phép",
+      "lái",
+      "mất"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_015",
+    "category_id": "giao_thong",
+    "category": "Giao thông & Đăng ký xe",
+    "topic": "[Giao thông] Quy định pháp luật & Hướng dẫn xử lý: Đăng ký xe và sang tên xe",
+    "legal_basis": "Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15 (hiệu lực 01/01/2025); Nghị định số 168/2024/NĐ-CP về xử phạt VPHC và trừ điểm GPLX; Thông tư số 24/2023/TT-BCA & Thông tư số 28/2024/TT-BCA",
+    "summary": "Theo Thông tư 24/2023/TT-BCA và Thông tư 28/2024/TT-BCA: Biển số xe 5 số được cấp và quản lý theo mã định danh của chủ xe (biển số định danh suốt đời). Khi bán, tặng cho xe: Chủ xe BẮT BUỘC phải giữ lại Chứng nhận đăng ký xe và Biển số xe (...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: ĐĂNG KÝ XE VÀ SANG TÊN XE (LĨNH VỰC: GIAO THÔNG)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Theo Thông tư 24/2023/TT-BCA và Thông tư 28/2024/TT-BCA: Biển số xe 5 số được cấp và quản lý theo mã định danh của chủ xe (biển số định danh suốt đời). Khi bán, tặng cho xe: Chủ xe BẮT BUỘC phải giữ lại Chứng nhận đăng ký xe và Biển số xe (không giao biển số cho người mua) để nộp cho cơ quan Công an làm thủ tục thu hồi trong thời hạn 30 ngày; biển số đó được giữ lại cho chủ xe trong 05 năm để đăng ký cho xe khác. Công dân cư trú tại xã Đức Hợp thực hiện đăng ký xe mô tô, xe gắn máy ngay tại Công an xã Đức Hợp.\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (đăng ký xe mô tô, xe gắn máy, xe máy điện cho công dân cư trú tại xã) & Phòng CSGT Công an tỉnh Hưng Yên.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://csgt.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Cấp biển số định danh ngay sau khi tiếp nhận hồ sơ hợp lệ; cấp chứng nhận đăng ký xe không quá 02 ngày làm việc. Đổi GPLX trực tuyến: 05 ngày làm việc.\n- Phí, lệ phí: Đăng ký xe máy tại xã: 50.000đ - 100.000đ/xe (khu vực xã nông thôn). Đổi GPLX trực tuyến trên Cổng DVC: 115.000đ/lần.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Từ 01/01/2025, mỗi Giấy phép lái xe có 12 điểm/năm; nếu bị trừ hết 12 điểm phải kiểm tra lại kiến thức pháp luật TTATGT sau ít nhất 6 tháng. Biển số xe 5 số là biển số định danh quản lý theo mã định danh chủ xe suốt đời — khi bán xe bắt buộc phải giữ lại biển số và đăng ký xe nộp cho Công an làm thủ tục thu hồi.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến đăng ký xe và sang tên xe không?\n  (2) Nếu mất giấy tờ hoặc bằng chứng liên quan đến đăng ký xe và sang tên xe, tôi nên bắt đầu từ đâu?\n  (3) Khi thông tin về đăng ký xe và sang tên xe bị sai hoặc thay đổi, cần liên hệ nơi nào?\n  (4) Tôi có thể nhờ người thân làm thay việc về đăng ký xe và sang tên xe không, cần hỏi rõ điều gì?\n  (5) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến đăng ký xe và sang tên xe, tôi cần tìm hiểu điều gì?",
+    "keywords": [
+      "giao thông",
+      "đăng ký xe và sang tên xe",
+      "đăng",
+      "sang",
+      "tên"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_016",
+    "category_id": "giao_thong",
+    "category": "Giao thông & Đăng ký xe",
+    "topic": "[Giao thông] Quy định pháp luật & Hướng dẫn xử lý: Tra cứu và nộp phạt giao thông",
+    "legal_basis": "Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15 (hiệu lực 01/01/2025); Nghị định số 168/2024/NĐ-CP về xử phạt VPHC và trừ điểm GPLX; Thông tư số 24/2023/TT-BCA & Thông tư số 28/2024/TT-BCA",
+    "summary": "Theo Luật TTATGTĐB 2024, Nghị định 168/2024/NĐ-CP và Thông tư 28/2024/TT-BCA: Mỗi GPLX có 12 điểm/năm; vi phạm giao thông tùy mức độ sẽ bị phạt tiền và trừ từ 02 đến 12 điểm GPLX. CSGT thực hiện kiểm tra, tạm giữ và tước GPLX trên môi trườn...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: TRA CỨU VÀ NỘP PHẠT GIAO THÔNG (LĨNH VỰC: GIAO THÔNG)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Theo Luật TTATGTĐB 2024, Nghị định 168/2024/NĐ-CP và Thông tư 28/2024/TT-BCA: Mỗi GPLX có 12 điểm/năm; vi phạm giao thông tùy mức độ sẽ bị phạt tiền và trừ từ 02 đến 12 điểm GPLX. CSGT thực hiện kiểm tra, tạm giữ và tước GPLX trên môi trường điện tử VNeID. Người dân tra cứu phạt nguội trên csgt.vn và nộp phạt trực tuyến 100% trên Cổng Dịch vụ công Quốc gia (dichvucong.gov.vn).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (đăng ký xe mô tô, xe gắn máy, xe máy điện cho công dân cư trú tại xã) & Phòng CSGT Công an tỉnh Hưng Yên.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://csgt.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Cấp biển số định danh ngay sau khi tiếp nhận hồ sơ hợp lệ; cấp chứng nhận đăng ký xe không quá 02 ngày làm việc. Đổi GPLX trực tuyến: 05 ngày làm việc.\n- Phí, lệ phí: Đăng ký xe máy tại xã: 50.000đ - 100.000đ/xe (khu vực xã nông thôn). Đổi GPLX trực tuyến trên Cổng DVC: 115.000đ/lần.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Từ 01/01/2025, mỗi Giấy phép lái xe có 12 điểm/năm; nếu bị trừ hết 12 điểm phải kiểm tra lại kiến thức pháp luật TTATGT sau ít nhất 6 tháng. Biển số xe 5 số là biển số định danh quản lý theo mã định danh chủ xe suốt đời — khi bán xe bắt buộc phải giữ lại biển số và đăng ký xe nộp cho Công an làm thủ tục thu hồi.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Tôi có thể nhờ người thân làm thay việc về tra cứu và nộp phạt giao thông không, cần hỏi rõ điều gì?\n  (2) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến tra cứu và nộp phạt giao thông, tôi cần tìm hiểu điều gì?\n  (3) Sau khi gửi yêu cầu liên quan đến tra cứu và nộp phạt giao thông, tôi có thể theo dõi tiến độ thế nào?\n  (4) Người dân ở xã xa trung tâm muốn xử lý việc tra cứu và nộp phạt giao thông thì nên hỏi cơ quan nào?\n  (5) Người lớn tuổi cần hỗ trợ về tra cứu và nộp phạt giao thông thì có thể nhờ ai hướng dẫn?",
+    "keywords": [
+      "giao thông",
+      "tra cứu và nộp phạt giao thông",
+      "tra",
+      "cứu",
+      "nộp",
+      "phạt",
+      "giao",
+      "thông"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_017",
+    "category_id": "giao_thong",
+    "category": "Giao thông & Đăng ký xe",
+    "topic": "[Giao thông] Quy định pháp luật & Hướng dẫn xử lý: Thủ tục khi xảy ra va chạm",
+    "legal_basis": "Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15 (hiệu lực 01/01/2025); Nghị định số 168/2024/NĐ-CP về xử phạt VPHC và trừ điểm GPLX; Thông tư số 24/2023/TT-BCA & Thông tư số 28/2024/TT-BCA",
+    "summary": "Theo Điều 80 Luật Trật tự, an toàn giao thông đường bộ 2024: Khi xảy ra tai nạn/va chạm giao thông, người điều khiển phương tiện phải lập tức dừng xe, bật đèn cảnh báo nguy hiểm, đặt biển cảnh báo, **cứu giúp người bị nạn đi cấp cứu ngay**,...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: THỦ TỤC KHI XẢY RA VA CHẠM (LĨNH VỰC: GIAO THÔNG)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Theo Điều 80 Luật Trật tự, an toàn giao thông đường bộ 2024: Khi xảy ra tai nạn/va chạm giao thông, người điều khiển phương tiện phải lập tức dừng xe, bật đèn cảnh báo nguy hiểm, đặt biển cảnh báo, **cứu giúp người bị nạn đi cấp cứu ngay**, giữ nguyên hiện trường (đánh dấu vị trí phương tiện, chụp ảnh/quay video toàn cảnh nếu buộc phải di chuyển xe để cấp cứu người hoặc tránh ùn tắc nghiêm trọng) và báo ngay cho **Công an xã Đức Hợp (02213.815.999)** hoặc **CSGT (113)** và doanh nghiệp bảo hiểm.\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (đăng ký xe mô tô, xe gắn máy, xe máy điện cho công dân cư trú tại xã) & Phòng CSGT Công an tỉnh Hưng Yên.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://csgt.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Cấp biển số định danh ngay sau khi tiếp nhận hồ sơ hợp lệ; cấp chứng nhận đăng ký xe không quá 02 ngày làm việc. Đổi GPLX trực tuyến: 05 ngày làm việc.\n- Phí, lệ phí: Đăng ký xe máy tại xã: 50.000đ - 100.000đ/xe (khu vực xã nông thôn). Đổi GPLX trực tuyến trên Cổng DVC: 115.000đ/lần.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Từ 01/01/2025, mỗi Giấy phép lái xe có 12 điểm/năm; nếu bị trừ hết 12 điểm phải kiểm tra lại kiến thức pháp luật TTATGT sau ít nhất 6 tháng. Biển số xe 5 số là biển số định danh quản lý theo mã định danh chủ xe suốt đời — khi bán xe bắt buộc phải giữ lại biển số và đăng ký xe nộp cho Công an làm thủ tục thu hồi.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có thể làm thủ tục về thủ tục khi xảy ra va chạm trên điện thoại không, cần chuẩn bị gì?\n  (2) Người lớn tuổi cần hỗ trợ về thủ tục khi xảy ra va chạm thì có thể nhờ ai hướng dẫn?\n  (3) Trong tình huống thủ tục khi xảy ra va chạm, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (4) Nếu các bên không thống nhất về thủ tục khi xảy ra va chạm, có thể đề nghị cơ quan nào hướng dẫn?\n  (5) Tôi nên kiểm tra thông tin chính thức về thủ tục khi xảy ra va chạm trên kênh nào?",
+    "keywords": [
+      "giao thông",
+      "thủ tục khi xảy ra va chạm",
+      "thủ",
+      "tục",
+      "khi",
+      "xảy",
+      "chạm"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_018",
+    "category_id": "giao_thong",
+    "category": "Giao thông & Đăng ký xe",
+    "topic": "[Giao thông] Quy định pháp luật & Hướng dẫn xử lý: An toàn khi đi xe máy",
+    "legal_basis": "Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15 (hiệu lực 01/01/2025); Nghị định số 168/2024/NĐ-CP về xử phạt VPHC và trừ điểm GPLX; Thông tư số 24/2023/TT-BCA & Thông tư số 28/2024/TT-BCA",
+    "summary": "Theo Luật TTATGTĐB số 36/2024/QH15: Người điều khiển và người ngồi trên xe mô tô, xe gắn máy, xe máy điện bắt buộc phải đội mũ bảo hiểm đạt chuẩn và cài quai đúng quy cách; **cấm tuyệt đối điều khiển phương tiện mà trong máu hoặc hơi thở có...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: AN TOÀN KHI ĐI XE MÁY (LĨNH VỰC: GIAO THÔNG)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Theo Luật TTATGTĐB số 36/2024/QH15: Người điều khiển và người ngồi trên xe mô tô, xe gắn máy, xe máy điện bắt buộc phải đội mũ bảo hiểm đạt chuẩn và cài quai đúng quy cách; **cấm tuyệt đối điều khiển phương tiện mà trong máu hoặc hơi thở có nồng độ cồn** (mức 0 tuyệt đối đối với mọi loại xe); đối với ô tô chở trẻ em dưới 10 tuổi và chiều cao dưới 1,35m không được cho trẻ ngồi cùng hàng ghế với người lái và phải dùng thiết bị an toàn cho trẻ em.\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (đăng ký xe mô tô, xe gắn máy, xe máy điện cho công dân cư trú tại xã) & Phòng CSGT Công an tỉnh Hưng Yên.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://csgt.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Cấp biển số định danh ngay sau khi tiếp nhận hồ sơ hợp lệ; cấp chứng nhận đăng ký xe không quá 02 ngày làm việc. Đổi GPLX trực tuyến: 05 ngày làm việc.\n- Phí, lệ phí: Đăng ký xe máy tại xã: 50.000đ - 100.000đ/xe (khu vực xã nông thôn). Đổi GPLX trực tuyến trên Cổng DVC: 115.000đ/lần.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Từ 01/01/2025, mỗi Giấy phép lái xe có 12 điểm/năm; nếu bị trừ hết 12 điểm phải kiểm tra lại kiến thức pháp luật TTATGT sau ít nhất 6 tháng. Biển số xe 5 số là biển số định danh quản lý theo mã định danh chủ xe suốt đời — khi bán xe bắt buộc phải giữ lại biển số và đăng ký xe nộp cho Công an làm thủ tục thu hồi.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Trong tình huống an toàn khi đi xe máy, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (2) Nếu các bên không thống nhất về an toàn khi đi xe máy, có thể đề nghị cơ quan nào hướng dẫn?\n  (3) Tôi nên kiểm tra thông tin chính thức về an toàn khi đi xe máy trên kênh nào?\n  (4) Làm sao phân biệt hướng dẫn chính thức và dịch vụ giả mạo liên quan đến an toàn khi đi xe máy?\n  (5) Khi gặp vướng mắc về an toàn khi đi xe máy, tôi cần mô tả thông tin gì để được hỗ trợ?",
+    "keywords": [
+      "giao thông",
+      "an toàn khi đi xe máy",
+      "toàn",
+      "khi",
+      "máy"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_019",
+    "category_id": "pccc",
+    "category": "Phòng cháy chữa cháy (PCCC)",
+    "topic": "[Phòng cháy chữa cháy] Quy định pháp luật & Hướng dẫn xử lý: Trang bị phương tiện chữa cháy tại nhà",
+    "legal_basis": "Luật Phòng cháy, chữa cháy và cứu nạn, cứu hộ số 55/2024/QH15; Nghị định số 136/2020/NĐ-CP & Nghị định số 50/2024/NĐ-CP; Nghị định số 144/2021/NĐ-CP",
+    "summary": "Theo Luật PCCC và CNCH 2024 và Chỉ thị 01/CT-TTg: Mỗi hộ gia đình tại xã Đức Hợp bắt buộc trang bị tối thiểu **01 bình chữa cháy xách tay** (bình bột chữa cháy ABC loại 4kg MFZ4 hoặc bình khí CO2 MT3), bộ dụng cụ phá dỡ thô sơ (xà beng, kìm...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: TRANG BỊ PHƯƠNG TIỆN CHỮA CHÁY TẠI NHÀ (LĨNH VỰC: PHÒNG CHÁY CHỮA CHÁY)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Theo Luật PCCC và CNCH 2024 và Chỉ thị 01/CT-TTg: Mỗi hộ gia đình tại xã Đức Hợp bắt buộc trang bị tối thiểu **01 bình chữa cháy xách tay** (bình bột chữa cháy ABC loại 4kg MFZ4 hoặc bình khí CO2 MT3), bộ dụng cụ phá dỡ thô sơ (xà beng, kìm cộng lực, búa) và mặt nạ lọc độc, đặt ở vị trí dễ thấy, dễ lấy gần lối thoát nạn.\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (quản lý nhà ở hộ gia đình, nhà để ở kết hợp sản xuất kinh doanh trên địa bàn xã) & Đội Cảnh sát PCCC và CNCH.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://canhsatpccc.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Tiếp nhận và xử lý tin báo cháy, sự cố tai nạn 24/24h ngay lập tức qua số khẩn cấp 114 hoặc Trực ban Công an xã 02213.815.999.\n- Phí, lệ phí: Hướng dẫn an toàn PCCC hộ gia đình, kiểm tra định kỳ và tiếp nhận tin báo cháy: Hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Mỗi hộ gia đình cần trang bị tối thiểu 01 bình chữa cháy xách tay (bình bột ABC hoặc bình khí CO2) và mở lối thoát nạn thứ 2 (qua ban công, sân thượng, chuồng cọp có cửa mở khóa). Tuyệt đối không dội nước vào đám cháy dầu mỡ hoặc thiết bị điện chưa ngắt cầu dao!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Trang bị phương tiện chữa cháy tại nhà là gì và tôi có thể tìm hiểu ở đâu?\n  (2) Điều kiện hoặc căn cứ áp dụng với trang bị phương tiện chữa cháy tại nhà được hướng dẫn thế nào?\n  (3) Muốn thực hiện việc liên quan đến trang bị phương tiện chữa cháy tại nhà, tôi cần chuẩn bị giấy tờ gì?\n  (4) Các bước cần lưu ý khi xử lý việc liên quan đến trang bị phương tiện chữa cháy tại nhà là gì?\n  (5) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về trang bị phương tiện chữa cháy tại nhà?",
+    "keywords": [
+      "phòng cháy chữa cháy",
+      "trang bị phương tiện chữa cháy tại nhà",
+      "trang",
+      "phương",
+      "tiện",
+      "chữa",
+      "cháy",
+      "tại",
+      "nhà"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_020",
+    "category_id": "pccc",
+    "category": "Phòng cháy chữa cháy (PCCC)",
+    "topic": "[Phòng cháy chữa cháy] Quy định pháp luật & Hướng dẫn xử lý: Lối thoát nạn trong nhà ở",
+    "legal_basis": "Luật Phòng cháy, chữa cháy và cứu nạn, cứu hộ số 55/2024/QH15; Nghị định số 136/2020/NĐ-CP & Nghị định số 50/2024/NĐ-CP; Nghị định số 144/2021/NĐ-CP",
+    "summary": "Theo quy chuẩn an toàn PCCC đối với nhà ở hộ gia đình và nhà ống: Tuyệt đối không hàn kín lồng sắt (\"chuồng cọp\") tại ban công, lô gia, sân thượng; bắt buộc phải mở cửa thoát hiểm thứ 2 trên lồng sắt có khóa mở được từ bên trong và thống nh...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: LỐI THOÁT NẠN TRONG NHÀ Ở (LĨNH VỰC: PHÒNG CHÁY CHỮA CHÁY)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Theo quy chuẩn an toàn PCCC đối với nhà ở hộ gia đình và nhà ống: Tuyệt đối không hàn kín lồng sắt (\"chuồng cọp\") tại ban công, lô gia, sân thượng; bắt buộc phải mở cửa thoát hiểm thứ 2 trên lồng sắt có khóa mở được từ bên trong và thống nhất vị trí treo chìa khóa cho tất cả thành viên gia đình (kể cả người già, trẻ nhỏ) đều biết.\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (quản lý nhà ở hộ gia đình, nhà để ở kết hợp sản xuất kinh doanh trên địa bàn xã) & Đội Cảnh sát PCCC và CNCH.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://canhsatpccc.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Tiếp nhận và xử lý tin báo cháy, sự cố tai nạn 24/24h ngay lập tức qua số khẩn cấp 114 hoặc Trực ban Công an xã 02213.815.999.\n- Phí, lệ phí: Hướng dẫn an toàn PCCC hộ gia đình, kiểm tra định kỳ và tiếp nhận tin báo cháy: Hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Mỗi hộ gia đình cần trang bị tối thiểu 01 bình chữa cháy xách tay (bình bột ABC hoặc bình khí CO2) và mở lối thoát nạn thứ 2 (qua ban công, sân thượng, chuồng cọp có cửa mở khóa). Tuyệt đối không dội nước vào đám cháy dầu mỡ hoặc thiết bị điện chưa ngắt cầu dao!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Các bước cần lưu ý khi xử lý việc liên quan đến lối thoát nạn trong nhà ở là gì?\n  (2) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về lối thoát nạn trong nhà ở?\n  (3) Có mốc thời gian nào cần lưu ý khi xử lý việc liên quan đến lối thoát nạn trong nhà ở không?\n  (4) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến lối thoát nạn trong nhà ở không?\n  (5) Nếu mất giấy tờ hoặc bằng chứng liên quan đến lối thoát nạn trong nhà ở, tôi nên bắt đầu từ đâu?",
+    "keywords": [
+      "phòng cháy chữa cháy",
+      "lối thoát nạn trong nhà ở",
+      "lối",
+      "thoát",
+      "nạn",
+      "trong",
+      "nhà"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_021",
+    "category_id": "pccc",
+    "category": "Phòng cháy chữa cháy (PCCC)",
+    "topic": "[Phòng cháy chữa cháy] Quy định pháp luật & Hướng dẫn xử lý: Xử lý khi phát hiện cháy",
+    "legal_basis": "Luật Phòng cháy, chữa cháy và cứu nạn, cứu hộ số 55/2024/QH15; Nghị định số 136/2020/NĐ-CP & Nghị định số 50/2024/NĐ-CP; Nghị định số 144/2021/NĐ-CP",
+    "summary": "Quy trình 4 bước vàng khi phát hiện cháy: (1) Hô hoán báo động lớn cho mọi người trong nhà biết; (2) Ngắt ngay cầu dao điện tổng của khu vực cháy và khóa van bình gas; (3) Sử dụng bình chữa cháy xách tay, chăn ướt để dập lửa ngay từ khi mới...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: XỬ LÝ KHI PHÁT HIỆN CHÁY (LĨNH VỰC: PHÒNG CHÁY CHỮA CHÁY)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Quy trình 4 bước vàng khi phát hiện cháy: (1) Hô hoán báo động lớn cho mọi người trong nhà biết; (2) Ngắt ngay cầu dao điện tổng của khu vực cháy và khóa van bình gas; (3) Sử dụng bình chữa cháy xách tay, chăn ướt để dập lửa ngay từ khi mới phát sinh (lưu ý: đám cháy dầu mỡ trong bếp tuyệt đối KHÔNG dội nước mà dùng nắp vung đậy kín hoặc chăn ướt); (4) Nếu đám cháy lan rộng, cúi thấp người men theo tường, dùng khăn ướt che mũi miệng thoát ra ngoài qua lối thoát nạn an toàn.\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (quản lý nhà ở hộ gia đình, nhà để ở kết hợp sản xuất kinh doanh trên địa bàn xã) & Đội Cảnh sát PCCC và CNCH.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://canhsatpccc.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Tiếp nhận và xử lý tin báo cháy, sự cố tai nạn 24/24h ngay lập tức qua số khẩn cấp 114 hoặc Trực ban Công an xã 02213.815.999.\n- Phí, lệ phí: Hướng dẫn an toàn PCCC hộ gia đình, kiểm tra định kỳ và tiếp nhận tin báo cháy: Hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Mỗi hộ gia đình cần trang bị tối thiểu 01 bình chữa cháy xách tay (bình bột ABC hoặc bình khí CO2) và mở lối thoát nạn thứ 2 (qua ban công, sân thượng, chuồng cọp có cửa mở khóa). Tuyệt đối không dội nước vào đám cháy dầu mỡ hoặc thiết bị điện chưa ngắt cầu dao!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến xử lý khi phát hiện cháy không?\n  (2) Nếu mất giấy tờ hoặc bằng chứng liên quan đến xử lý khi phát hiện cháy, tôi nên bắt đầu từ đâu?\n  (3) Khi thông tin về xử lý khi phát hiện cháy bị sai hoặc thay đổi, cần liên hệ nơi nào?\n  (4) Tôi có thể nhờ người thân làm thay việc về xử lý khi phát hiện cháy không, cần hỏi rõ điều gì?\n  (5) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến xử lý khi phát hiện cháy, tôi cần tìm hiểu điều gì?",
+    "keywords": [
+      "phòng cháy chữa cháy",
+      "xử lý khi phát hiện cháy",
+      "khi",
+      "phát",
+      "hiện",
+      "cháy"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_022",
+    "category_id": "pccc",
+    "category": "Phòng cháy chữa cháy (PCCC)",
+    "topic": "[Phòng cháy chữa cháy] Quy định pháp luật & Hướng dẫn xử lý: Báo cháy và gọi lực lượng hỗ trợ",
+    "legal_basis": "Luật Phòng cháy, chữa cháy và cứu nạn, cứu hộ số 55/2024/QH15; Nghị định số 136/2020/NĐ-CP & Nghị định số 50/2024/NĐ-CP; Nghị định số 144/2021/NĐ-CP",
+    "summary": "Khi phát hiện cháy nổ, sự cố tai nạn hoặc người mắc kẹt: Gọi ngay số điện thoại khẩn cấp **114** (Cảnh sát PCCC và CNCH - hoàn toàn miễn phí cước gọi), sử dụng ứng dụng **\"Báo cháy 114\"** hoặc gọi trực tiếp **Trực ban Công an xã Đức Hợp: 02...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: BÁO CHÁY VÀ GỌI LỰC LƯỢNG HỖ TRỢ (LĨNH VỰC: PHÒNG CHÁY CHỮA CHÁY)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Khi phát hiện cháy nổ, sự cố tai nạn hoặc người mắc kẹt: Gọi ngay số điện thoại khẩn cấp **114** (Cảnh sát PCCC và CNCH - hoàn toàn miễn phí cước gọi), sử dụng ứng dụng **\"Báo cháy 114\"** hoặc gọi trực tiếp **Trực ban Công an xã Đức Hợp: 02213.815.999** để lực lượng Công an xã và Tổ PCCC cơ sở thôn tiếp cận ứng cứu trong những phút đầu tiên.\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (quản lý nhà ở hộ gia đình, nhà để ở kết hợp sản xuất kinh doanh trên địa bàn xã) & Đội Cảnh sát PCCC và CNCH.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://canhsatpccc.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Tiếp nhận và xử lý tin báo cháy, sự cố tai nạn 24/24h ngay lập tức qua số khẩn cấp 114 hoặc Trực ban Công an xã 02213.815.999.\n- Phí, lệ phí: Hướng dẫn an toàn PCCC hộ gia đình, kiểm tra định kỳ và tiếp nhận tin báo cháy: Hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Mỗi hộ gia đình cần trang bị tối thiểu 01 bình chữa cháy xách tay (bình bột ABC hoặc bình khí CO2) và mở lối thoát nạn thứ 2 (qua ban công, sân thượng, chuồng cọp có cửa mở khóa). Tuyệt đối không dội nước vào đám cháy dầu mỡ hoặc thiết bị điện chưa ngắt cầu dao!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Tôi có thể nhờ người thân làm thay việc về báo cháy và gọi lực lượng hỗ trợ không, cần hỏi rõ điều gì?\n  (2) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến báo cháy và gọi lực lượng hỗ trợ, tôi cần tìm hiểu điều gì?\n  (3) Sau khi gửi yêu cầu liên quan đến báo cháy và gọi lực lượng hỗ trợ, tôi có thể theo dõi tiến độ thế nào?\n  (4) Người dân ở xã xa trung tâm muốn xử lý việc báo cháy và gọi lực lượng hỗ trợ thì nên hỏi cơ quan nào?\n  (5) Người lớn tuổi cần hỗ trợ về báo cháy và gọi lực lượng hỗ trợ thì có thể nhờ ai hướng dẫn?",
+    "keywords": [
+      "phòng cháy chữa cháy",
+      "báo cháy và gọi lực lượng hỗ trợ",
+      "báo",
+      "cháy",
+      "gọi",
+      "lực",
+      "lượng",
+      "trợ"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_023",
+    "category_id": "pccc",
+    "category": "Phòng cháy chữa cháy (PCCC)",
+    "topic": "[Phòng cháy chữa cháy] Quy định pháp luật & Hướng dẫn xử lý: Phòng cháy tại cơ sở kinh doanh nhỏ",
+    "legal_basis": "Luật Phòng cháy, chữa cháy và cứu nạn, cứu hộ số 55/2024/QH15; Nghị định số 136/2020/NĐ-CP & Nghị định số 50/2024/NĐ-CP; Nghị định số 144/2021/NĐ-CP",
+    "summary": "Đối với nhà ở kết hợp sản xuất, kinh doanh tại xã Đức Hợp: Phải ngăn cách khu vực chứa hàng hóa dễ cháy, nơi đun nấu, thờ cúng với khu vực ngủ nghỉ và cầu thang thoát nạn bằng vật liệu ngăn cháy; trang bị đèn chiếu sáng sự cố, biển chỉ dẫn ...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: PHÒNG CHÁY TẠI CƠ SỞ KINH DOANH NHỎ (LĨNH VỰC: PHÒNG CHÁY CHỮA CHÁY)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Đối với nhà ở kết hợp sản xuất, kinh doanh tại xã Đức Hợp: Phải ngăn cách khu vực chứa hàng hóa dễ cháy, nơi đun nấu, thờ cúng với khu vực ngủ nghỉ và cầu thang thoát nạn bằng vật liệu ngăn cháy; trang bị đèn chiếu sáng sự cố, biển chỉ dẫn thoát nạn, đầu báo khói tự động và lập Phương án chữa cháy tại chỗ.\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (quản lý nhà ở hộ gia đình, nhà để ở kết hợp sản xuất kinh doanh trên địa bàn xã) & Đội Cảnh sát PCCC và CNCH.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://canhsatpccc.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Tiếp nhận và xử lý tin báo cháy, sự cố tai nạn 24/24h ngay lập tức qua số khẩn cấp 114 hoặc Trực ban Công an xã 02213.815.999.\n- Phí, lệ phí: Hướng dẫn an toàn PCCC hộ gia đình, kiểm tra định kỳ và tiếp nhận tin báo cháy: Hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Mỗi hộ gia đình cần trang bị tối thiểu 01 bình chữa cháy xách tay (bình bột ABC hoặc bình khí CO2) và mở lối thoát nạn thứ 2 (qua ban công, sân thượng, chuồng cọp có cửa mở khóa). Tuyệt đối không dội nước vào đám cháy dầu mỡ hoặc thiết bị điện chưa ngắt cầu dao!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có thể làm thủ tục về phòng cháy tại cơ sở kinh doanh nhỏ trên điện thoại không, cần chuẩn bị gì?\n  (2) Người lớn tuổi cần hỗ trợ về phòng cháy tại cơ sở kinh doanh nhỏ thì có thể nhờ ai hướng dẫn?\n  (3) Trong tình huống phòng cháy tại cơ sở kinh doanh nhỏ, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (4) Nếu các bên không thống nhất về phòng cháy tại cơ sở kinh doanh nhỏ, có thể đề nghị cơ quan nào hướng dẫn?\n  (5) Tôi nên kiểm tra thông tin chính thức về phòng cháy tại cơ sở kinh doanh nhỏ trên kênh nào?",
+    "keywords": [
+      "phòng cháy chữa cháy",
+      "phòng cháy tại cơ sở kinh doanh nhỏ",
+      "phòng",
+      "cháy",
+      "tại",
+      "kinh",
+      "doanh",
+      "nhỏ"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_024",
+    "category_id": "pccc",
+    "category": "Phòng cháy chữa cháy (PCCC)",
+    "topic": "[Phòng cháy chữa cháy] Quy định pháp luật & Hướng dẫn xử lý: An toàn điện và nguy cơ cháy",
+    "legal_basis": "Luật Phòng cháy, chữa cháy và cứu nạn, cứu hộ số 55/2024/QH15; Nghị định số 136/2020/NĐ-CP & Nghị định số 50/2024/NĐ-CP; Nghị định số 144/2021/NĐ-CP",
+    "summary": "Nguyên tắc phòng cháy điện sinh hoạt: Lắp đặt thiết bị tự động ngắt điện (Aptomat chống giật, chống quá tải) cho toàn nhà và từng tầng; không cắm quá nhiều thiết bị công suất lớn vào cùng một ổ cắm kéo dài; tuyệt đối **không sạc xe đạp điện...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: AN TOÀN ĐIỆN VÀ NGUY CƠ CHÁY (LĨNH VỰC: PHÒNG CHÁY CHỮA CHÁY)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Nguyên tắc phòng cháy điện sinh hoạt: Lắp đặt thiết bị tự động ngắt điện (Aptomat chống giật, chống quá tải) cho toàn nhà và từng tầng; không cắm quá nhiều thiết bị công suất lớn vào cùng một ổ cắm kéo dài; tuyệt đối **không sạc xe đạp điện, xe máy điện, điện thoại, pin dự phòng qua đêm** mà không có người trông coi hoặc sạc gần vật dễ cháy.\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (quản lý nhà ở hộ gia đình, nhà để ở kết hợp sản xuất kinh doanh trên địa bàn xã) & Đội Cảnh sát PCCC và CNCH.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://canhsatpccc.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Tiếp nhận và xử lý tin báo cháy, sự cố tai nạn 24/24h ngay lập tức qua số khẩn cấp 114 hoặc Trực ban Công an xã 02213.815.999.\n- Phí, lệ phí: Hướng dẫn an toàn PCCC hộ gia đình, kiểm tra định kỳ và tiếp nhận tin báo cháy: Hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Mỗi hộ gia đình cần trang bị tối thiểu 01 bình chữa cháy xách tay (bình bột ABC hoặc bình khí CO2) và mở lối thoát nạn thứ 2 (qua ban công, sân thượng, chuồng cọp có cửa mở khóa). Tuyệt đối không dội nước vào đám cháy dầu mỡ hoặc thiết bị điện chưa ngắt cầu dao!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Trong tình huống an toàn điện và nguy cơ cháy, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (2) Nếu các bên không thống nhất về an toàn điện và nguy cơ cháy, có thể đề nghị cơ quan nào hướng dẫn?\n  (3) Tôi nên kiểm tra thông tin chính thức về an toàn điện và nguy cơ cháy trên kênh nào?\n  (4) Làm sao phân biệt hướng dẫn chính thức và dịch vụ giả mạo liên quan đến an toàn điện và nguy cơ cháy?\n  (5) Khi gặp vướng mắc về an toàn điện và nguy cơ cháy, tôi cần mô tả thông tin gì để được hỗ trợ?",
+    "keywords": [
+      "phòng cháy chữa cháy",
+      "an toàn điện và nguy cơ cháy",
+      "toàn",
+      "điện",
+      "nguy",
+      "cháy"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_025",
+    "category_id": "dvc_lien_thong",
+    "category": "DVC Liên thông, Hộ tịch & Tư pháp",
+    "topic": "[Hộ tịch] Quy định pháp luật & Hướng dẫn xử lý: Đăng ký khai sinh",
+    "legal_basis": "Luật Hộ tịch số 60/2014/QH13; Nghị định số 123/2015/NĐ-CP; Nghị định số 63/2024/NĐ-CP & Nghị định số 301/2026/NĐ-CP về liên thông điện tử 2 nhóm thủ tục hành chính",
+    "summary": "Theo Điều 15, 16 Luật Hộ tịch 2014 và Nghị định 63/2024/NĐ-CP: Trong thời hạn 60 ngày kể từ ngày sinh con, cha hoặc mẹ có trách nhiệm đăng ký khai sinh cho con. Công dân thực hiện trực tuyến DVC liên thông 3 trong 1 trên ứng dụng VNeID: \"Đă...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: ĐĂNG KÝ KHAI SINH (LĨNH VỰC: HỘ TỊCH)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Theo Điều 15, 16 Luật Hộ tịch 2014 và Nghị định 63/2024/NĐ-CP: Trong thời hạn 60 ngày kể từ ngày sinh con, cha hoặc mẹ có trách nhiệm đăng ký khai sinh cho con. Công dân thực hiện trực tuyến DVC liên thông 3 trong 1 trên ứng dụng VNeID: \"Đăng ký khai sinh - Đăng ký thường trú - Cấp thẻ BHYT cho trẻ em dưới 6 tuổi\" tại UBND xã Đức Hợp hoàn toàn miễn phí.\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: UBND xã Đức Hợp (Bộ phận Một cửa) phối hợp Công an xã Đức Hợp & Cơ quan BHXH trong giải quyết Dịch vụ công liên thông.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://dichvucong.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Giải quyết ngay trong ngày làm việc đối với khai sinh, khai tử, kết hôn; đối với DVC liên thông (Khai sinh - Thường trú - BHYT hoặc Khai tử - Xóa thường trú - Mai táng phí): từ 02 - 05 ngày làm việc.\n- Phí, lệ phí: Miễn lệ phí 100% đối với: Đăng ký khai sinh đúng hạn, đăng ký khai tử đúng hạn, đăng ký kết hôn của công dân Việt Nam cư trú ở trong nước và thực hiện DVC liên thông.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Khi thực hiện DVC liên thông Khai sinh trên VNeID, cha/mẹ (chủ hộ) cần vào ứng dụng VNeID để bấm xác nhận đồng ý đăng ký thường trú cho trẻ ngay khi nhận được thông báo hệ thống.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Đăng ký khai sinh là gì và tôi có thể tìm hiểu ở đâu?\n  (2) Điều kiện hoặc căn cứ áp dụng với đăng ký khai sinh được hướng dẫn thế nào?\n  (3) Muốn thực hiện việc liên quan đến đăng ký khai sinh, tôi cần chuẩn bị giấy tờ gì?\n  (4) Các bước cần lưu ý khi xử lý việc liên quan đến đăng ký khai sinh là gì?\n  (5) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về đăng ký khai sinh?",
+    "keywords": [
+      "hộ tịch",
+      "đăng ký khai sinh",
+      "đăng",
+      "khai",
+      "sinh"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_026",
+    "category_id": "dvc_lien_thong",
+    "category": "DVC Liên thông, Hộ tịch & Tư pháp",
+    "topic": "[Hộ tịch] Quy định pháp luật & Hướng dẫn xử lý: Đăng ký khai tử",
+    "legal_basis": "Luật Hộ tịch số 60/2014/QH13; Nghị định số 123/2015/NĐ-CP; Nghị định số 63/2024/NĐ-CP & Nghị định số 301/2026/NĐ-CP về liên thông điện tử 2 nhóm thủ tục hành chính",
+    "summary": "Theo Điều 32 - 34 Luật Hộ tịch 2014 và Nghị định 63/2024/NĐ-CP: Trong thời hạn 15 ngày kể từ ngày có người chết, người thân thích có trách nhiệm đi đăng ký khai tử. Công dân nộp trực tuyến nhóm DVC liên thông: \"Đăng ký khai tử - Xóa đăng ký...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: ĐĂNG KÝ KHAI TỬ (LĨNH VỰC: HỘ TỊCH)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Theo Điều 32 - 34 Luật Hộ tịch 2014 và Nghị định 63/2024/NĐ-CP: Trong thời hạn 15 ngày kể từ ngày có người chết, người thân thích có trách nhiệm đi đăng ký khai tử. Công dân nộp trực tuyến nhóm DVC liên thông: \"Đăng ký khai tử - Xóa đăng ký thường trú - Giải quyết mai táng phí, tử tuất\" để được giải quyết đồng bộ một lần.\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: UBND xã Đức Hợp (Bộ phận Một cửa) phối hợp Công an xã Đức Hợp & Cơ quan BHXH trong giải quyết Dịch vụ công liên thông.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://dichvucong.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Giải quyết ngay trong ngày làm việc đối với khai sinh, khai tử, kết hôn; đối với DVC liên thông (Khai sinh - Thường trú - BHYT hoặc Khai tử - Xóa thường trú - Mai táng phí): từ 02 - 05 ngày làm việc.\n- Phí, lệ phí: Miễn lệ phí 100% đối với: Đăng ký khai sinh đúng hạn, đăng ký khai tử đúng hạn, đăng ký kết hôn của công dân Việt Nam cư trú ở trong nước và thực hiện DVC liên thông.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Khi thực hiện DVC liên thông Khai sinh trên VNeID, cha/mẹ (chủ hộ) cần vào ứng dụng VNeID để bấm xác nhận đồng ý đăng ký thường trú cho trẻ ngay khi nhận được thông báo hệ thống.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Các bước cần lưu ý khi xử lý việc liên quan đến đăng ký khai tử là gì?\n  (2) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về đăng ký khai tử?\n  (3) Có mốc thời gian nào cần lưu ý khi xử lý việc liên quan đến đăng ký khai tử không?\n  (4) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến đăng ký khai tử không?\n  (5) Nếu mất giấy tờ hoặc bằng chứng liên quan đến đăng ký khai tử, tôi nên bắt đầu từ đâu?",
+    "keywords": [
+      "hộ tịch",
+      "đăng ký khai tử",
+      "đăng",
+      "khai"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_027",
+    "category_id": "dvc_lien_thong",
+    "category": "DVC Liên thông, Hộ tịch & Tư pháp",
+    "topic": "[Hộ tịch] Quy định pháp luật & Hướng dẫn xử lý: Đăng ký kết hôn",
+    "legal_basis": "Luật Hộ tịch số 60/2014/QH13; Nghị định số 123/2015/NĐ-CP; Nghị định số 63/2024/NĐ-CP & Nghị định số 301/2026/NĐ-CP về liên thông điện tử 2 nhóm thủ tục hành chính",
+    "summary": "Theo Điều 8 Luật Hôn nhân và gia đình 2014 & Điều 17, 18 Luật Hộ tịch 2014: Nam từ đủ 20 tuổi trở lên, nữ từ đủ 18 tuổi trở lên, tự nguyện kết hôn và không vi phạm điều cấm kết hôn thì nộp tờ khai đăng ký kết hôn trực tuyến trên Cổng DVC ho...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: ĐĂNG KÝ KẾT HÔN (LĨNH VỰC: HỘ TỊCH)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Theo Điều 8 Luật Hôn nhân và gia đình 2014 & Điều 17, 18 Luật Hộ tịch 2014: Nam từ đủ 20 tuổi trở lên, nữ từ đủ 18 tuổi trở lên, tự nguyện kết hôn và không vi phạm điều cấm kết hôn thì nộp tờ khai đăng ký kết hôn trực tuyến trên Cổng DVC hoặc tại UBND xã Đức Hợp (nơi cư trú của một trong hai bên). Khi nhận Giấy chứng nhận kết hôn, cả hai bên nam, nữ phải có mặt ký tên.\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: UBND xã Đức Hợp (Bộ phận Một cửa) phối hợp Công an xã Đức Hợp & Cơ quan BHXH trong giải quyết Dịch vụ công liên thông.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://dichvucong.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Giải quyết ngay trong ngày làm việc đối với khai sinh, khai tử, kết hôn; đối với DVC liên thông (Khai sinh - Thường trú - BHYT hoặc Khai tử - Xóa thường trú - Mai táng phí): từ 02 - 05 ngày làm việc.\n- Phí, lệ phí: Miễn lệ phí 100% đối với: Đăng ký khai sinh đúng hạn, đăng ký khai tử đúng hạn, đăng ký kết hôn của công dân Việt Nam cư trú ở trong nước và thực hiện DVC liên thông.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Khi thực hiện DVC liên thông Khai sinh trên VNeID, cha/mẹ (chủ hộ) cần vào ứng dụng VNeID để bấm xác nhận đồng ý đăng ký thường trú cho trẻ ngay khi nhận được thông báo hệ thống.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến đăng ký kết hôn không?\n  (2) Nếu mất giấy tờ hoặc bằng chứng liên quan đến đăng ký kết hôn, tôi nên bắt đầu từ đâu?\n  (3) Khi thông tin về đăng ký kết hôn bị sai hoặc thay đổi, cần liên hệ nơi nào?\n  (4) Tôi có thể nhờ người thân làm thay việc về đăng ký kết hôn không, cần hỏi rõ điều gì?\n  (5) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến đăng ký kết hôn, tôi cần tìm hiểu điều gì?",
+    "keywords": [
+      "hộ tịch",
+      "đăng ký kết hôn",
+      "đăng",
+      "kết",
+      "hôn"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_028",
+    "category_id": "dvc_lien_thong",
+    "category": "DVC Liên thông, Hộ tịch & Tư pháp",
+    "topic": "[Hộ tịch] Quy định pháp luật & Hướng dẫn xử lý: Cải chính thông tin hộ tịch",
+    "legal_basis": "Luật Hộ tịch số 60/2014/QH13; Nghị định số 123/2015/NĐ-CP; Nghị định số 63/2024/NĐ-CP & Nghị định số 301/2026/NĐ-CP về liên thông điện tử 2 nhóm thủ tục hành chính",
+    "summary": "Theo Điều 28 Luật Hộ tịch 2014 và Điều 17 Thông tư 04/2020/TT-BTP: Việc cải chính hộ tịch chỉ được giải quyết sau khi xác định có sai sót khi đăng ký hộ tịch (do lỗi của công chức hộ tịch hoặc lỗi của người đi đăng ký); không làm thay đổi b...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: CẢI CHÍNH THÔNG TIN HỘ TỊCH (LĨNH VỰC: HỘ TỊCH)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Theo Điều 28 Luật Hộ tịch 2014 và Điều 17 Thông tư 04/2020/TT-BTP: Việc cải chính hộ tịch chỉ được giải quyết sau khi xác định có sai sót khi đăng ký hộ tịch (do lỗi của công chức hộ tịch hoặc lỗi của người đi đăng ký); không làm thay đổi bản chất sự kiện hộ tịch nhằm trục lợi. Công dân mang giấy tờ gốc chứng minh thông tin đúng đến Bộ phận Một cửa UBND xã Đức Hợp để thực hiện.\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: UBND xã Đức Hợp (Bộ phận Một cửa) phối hợp Công an xã Đức Hợp & Cơ quan BHXH trong giải quyết Dịch vụ công liên thông.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://dichvucong.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Giải quyết ngay trong ngày làm việc đối với khai sinh, khai tử, kết hôn; đối với DVC liên thông (Khai sinh - Thường trú - BHYT hoặc Khai tử - Xóa thường trú - Mai táng phí): từ 02 - 05 ngày làm việc.\n- Phí, lệ phí: Miễn lệ phí 100% đối với: Đăng ký khai sinh đúng hạn, đăng ký khai tử đúng hạn, đăng ký kết hôn của công dân Việt Nam cư trú ở trong nước và thực hiện DVC liên thông.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Khi thực hiện DVC liên thông Khai sinh trên VNeID, cha/mẹ (chủ hộ) cần vào ứng dụng VNeID để bấm xác nhận đồng ý đăng ký thường trú cho trẻ ngay khi nhận được thông báo hệ thống.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Tôi có thể nhờ người thân làm thay việc về cải chính thông tin hộ tịch không, cần hỏi rõ điều gì?\n  (2) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến cải chính thông tin hộ tịch, tôi cần tìm hiểu điều gì?\n  (3) Sau khi gửi yêu cầu liên quan đến cải chính thông tin hộ tịch, tôi có thể theo dõi tiến độ thế nào?\n  (4) Người dân ở xã xa trung tâm muốn xử lý việc cải chính thông tin hộ tịch thì nên hỏi cơ quan nào?\n  (5) Người lớn tuổi cần hỗ trợ về cải chính thông tin hộ tịch thì có thể nhờ ai hướng dẫn?",
+    "keywords": [
+      "hộ tịch",
+      "cải chính thông tin hộ tịch",
+      "cải",
+      "chính",
+      "thông",
+      "tin",
+      "tịch"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_029",
+    "category_id": "dvc_lien_thong",
+    "category": "DVC Liên thông, Hộ tịch & Tư pháp",
+    "topic": "[Hộ tịch] Quy định pháp luật & Hướng dẫn xử lý: Trích lục hộ tịch",
+    "legal_basis": "Luật Hộ tịch số 60/2014/QH13; Nghị định số 123/2015/NĐ-CP; Nghị định số 63/2024/NĐ-CP & Nghị định số 301/2026/NĐ-CP về liên thông điện tử 2 nhóm thủ tục hành chính",
+    "summary": "Theo Điều 63, 64 Luật Hộ tịch 2014: Cá nhân không phụ thuộc vào nơi cư trú có quyền yêu cầu Cơ quan quản lý Cơ sở dữ liệu hộ tịch (như UBND xã Đức Hợp) cấp bản sao trích lục hộ tịch (Khai sinh, Kết hôn, Khai tử) trực tuyến qua Cổng Dịch vụ ...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: TRÍCH LỤC HỘ TỊCH (LĨNH VỰC: HỘ TỊCH)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Theo Điều 63, 64 Luật Hộ tịch 2014: Cá nhân không phụ thuộc vào nơi cư trú có quyền yêu cầu Cơ quan quản lý Cơ sở dữ liệu hộ tịch (như UBND xã Đức Hợp) cấp bản sao trích lục hộ tịch (Khai sinh, Kết hôn, Khai tử) trực tuyến qua Cổng Dịch vụ công Quốc gia hoặc trực tiếp tại Bộ phận Một cửa.\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: UBND xã Đức Hợp (Bộ phận Một cửa) phối hợp Công an xã Đức Hợp & Cơ quan BHXH trong giải quyết Dịch vụ công liên thông.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://dichvucong.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Giải quyết ngay trong ngày làm việc đối với khai sinh, khai tử, kết hôn; đối với DVC liên thông (Khai sinh - Thường trú - BHYT hoặc Khai tử - Xóa thường trú - Mai táng phí): từ 02 - 05 ngày làm việc.\n- Phí, lệ phí: Miễn lệ phí 100% đối với: Đăng ký khai sinh đúng hạn, đăng ký khai tử đúng hạn, đăng ký kết hôn của công dân Việt Nam cư trú ở trong nước và thực hiện DVC liên thông.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Khi thực hiện DVC liên thông Khai sinh trên VNeID, cha/mẹ (chủ hộ) cần vào ứng dụng VNeID để bấm xác nhận đồng ý đăng ký thường trú cho trẻ ngay khi nhận được thông báo hệ thống.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có thể làm thủ tục về trích lục hộ tịch trên điện thoại không, cần chuẩn bị gì?\n  (2) Người lớn tuổi cần hỗ trợ về trích lục hộ tịch thì có thể nhờ ai hướng dẫn?\n  (3) Trong tình huống trích lục hộ tịch, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (4) Nếu các bên không thống nhất về trích lục hộ tịch, có thể đề nghị cơ quan nào hướng dẫn?\n  (5) Tôi nên kiểm tra thông tin chính thức về trích lục hộ tịch trên kênh nào?",
+    "keywords": [
+      "hộ tịch",
+      "trích lục hộ tịch",
+      "trích",
+      "lục",
+      "tịch"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_030",
+    "category_id": "dvc_lien_thong",
+    "category": "DVC Liên thông, Hộ tịch & Tư pháp",
+    "topic": "[Hộ tịch] Quy định pháp luật & Hướng dẫn xử lý: Hộ tịch có yếu tố nước ngoài",
+    "legal_basis": "Luật Hộ tịch số 60/2014/QH13; Nghị định số 123/2015/NĐ-CP; Nghị định số 63/2024/NĐ-CP & Nghị định số 301/2026/NĐ-CP về liên thông điện tử 2 nhóm thủ tục hành chính",
+    "summary": "Theo Chương III Luật Hộ tịch 2014 (và quy định phân cấp mới): Các việc hộ tịch có yếu tố nước ngoài (kết hôn giữa công dân Việt Nam với người nước ngoài, khai sinh cho trẻ sinh ra ở nước ngoài hoặc có cha/mẹ là người nước ngoài) cần giấy tờ...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: HỘ TỊCH CÓ YẾU TỐ NƯỚC NGOÀI (LĨNH VỰC: HỘ TỊCH)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Theo Chương III Luật Hộ tịch 2014 (và quy định phân cấp mới): Các việc hộ tịch có yếu tố nước ngoài (kết hôn giữa công dân Việt Nam với người nước ngoài, khai sinh cho trẻ sinh ra ở nước ngoài hoặc có cha/mẹ là người nước ngoài) cần giấy tờ do cơ quan nước ngoài cấp phải được hợp pháp hóa lãnh sự và dịch thuật công chứng sang tiếng Việt.\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: UBND xã Đức Hợp (Bộ phận Một cửa) phối hợp Công an xã Đức Hợp & Cơ quan BHXH trong giải quyết Dịch vụ công liên thông.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://dichvucong.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Giải quyết ngay trong ngày làm việc đối với khai sinh, khai tử, kết hôn; đối với DVC liên thông (Khai sinh - Thường trú - BHYT hoặc Khai tử - Xóa thường trú - Mai táng phí): từ 02 - 05 ngày làm việc.\n- Phí, lệ phí: Miễn lệ phí 100% đối với: Đăng ký khai sinh đúng hạn, đăng ký khai tử đúng hạn, đăng ký kết hôn của công dân Việt Nam cư trú ở trong nước và thực hiện DVC liên thông.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Khi thực hiện DVC liên thông Khai sinh trên VNeID, cha/mẹ (chủ hộ) cần vào ứng dụng VNeID để bấm xác nhận đồng ý đăng ký thường trú cho trẻ ngay khi nhận được thông báo hệ thống.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Trong tình huống hộ tịch có yếu tố nước ngoài, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (2) Nếu các bên không thống nhất về hộ tịch có yếu tố nước ngoài, có thể đề nghị cơ quan nào hướng dẫn?\n  (3) Tôi nên kiểm tra thông tin chính thức về hộ tịch có yếu tố nước ngoài trên kênh nào?\n  (4) Làm sao phân biệt hướng dẫn chính thức và dịch vụ giả mạo liên quan đến hộ tịch có yếu tố nước ngoài?\n  (5) Khi gặp vướng mắc về hộ tịch có yếu tố nước ngoài, tôi cần mô tả thông tin gì để được hỗ trợ?",
+    "keywords": [
+      "hộ tịch",
+      "hộ tịch có yếu tố nước ngoài",
+      "tịch",
+      "yếu",
+      "nước",
+      "ngoài"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_031",
+    "category_id": "dvc_lien_thong",
+    "category": "DVC Liên thông, Hộ tịch & Tư pháp",
+    "topic": "[Thủ tục hành chính và dịch vụ công] Quy định pháp luật & Hướng dẫn xử lý: Nộp hồ sơ trực tuyến",
+    "legal_basis": "Nghị định số 61/2018/NĐ-CP & Nghị định số 107/2021/NĐ-CP về cơ chế một cửa, một cửa liên thông; Nghị định số 45/2020/NĐ-CP về thực hiện thủ tục hành chính trên môi trường điện tử",
+    "summary": "Áp dụng trực tiếp theo quy định tại Nghị định số 61/2018/NĐ-CP & Nghị định số 107/2021/NĐ-CP về cơ chế một cửa, một cửa liên thông; Nghị định số 45/2020/NĐ-CP về thực hiện thủ tục hành chính trên môi trường điện tử. Công dân thực hiện trực ...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: NỘP HỒ SƠ TRỰC TUYẾN (LĨNH VỰC: THỦ TỤC HÀNH CHÍNH VÀ DỊCH VỤ CÔNG)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Nghị định số 61/2018/NĐ-CP & Nghị định số 107/2021/NĐ-CP về cơ chế một cửa, một cửa liên thông; Nghị định số 45/2020/NĐ-CP về thực hiện thủ tục hành chính trên môi trường điện tử. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://dichvucong.gov.vn) hoặc liên hệ trực tiếp Bộ phận Tiếp nhận và Trả kết quả (Một cửa) UBND xã Đức Hợp & Công an xã Đức Hợp để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Tra cứu mã hồ sơ trực tuyến theo thời gian thực 24/7; thời hạn giải quyết tùy theo từng thủ tục cụ thể (từ 01 đến 07 ngày làm việc).).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Bộ phận Tiếp nhận và Trả kết quả (Một cửa) UBND xã Đức Hợp & Công an xã Đức Hợp.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://dichvucong.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Tra cứu mã hồ sơ trực tuyến theo thời gian thực 24/7; thời hạn giải quyết tùy theo từng thủ tục cụ thể (từ 01 đến 07 ngày làm việc).\n- Phí, lệ phí: Được giảm từ 10% - 50% mức phí, lệ phí theo quy định của Bộ Tài chính và HĐND tỉnh Hưng Yên khi công dân nộp hồ sơ trực tuyến qua VNeID hoặc Cổng Dịch vụ công.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Công dân chỉ đăng nhập bằng tài khoản định danh điện tử VNeID trên các cổng chính thức có tên miền .gov.vn (dichvucong.gov.vn, dichvucong.bocongan.gov.vn).\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Nộp hồ sơ trực tuyến là gì và tôi có thể tìm hiểu ở đâu?\n  (2) Điều kiện hoặc căn cứ áp dụng với nộp hồ sơ trực tuyến được hướng dẫn thế nào?\n  (3) Muốn thực hiện việc liên quan đến nộp hồ sơ trực tuyến, tôi cần chuẩn bị giấy tờ gì?\n  (4) Các bước cần lưu ý khi xử lý việc liên quan đến nộp hồ sơ trực tuyến là gì?\n  (5) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về nộp hồ sơ trực tuyến?",
+    "keywords": [
+      "thủ tục hành chính và dịch vụ công",
+      "nộp hồ sơ trực tuyến",
+      "nộp",
+      "trực",
+      "tuyến"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_032",
+    "category_id": "dvc_lien_thong",
+    "category": "DVC Liên thông, Hộ tịch & Tư pháp",
+    "topic": "[Thủ tục hành chính và dịch vụ công] Quy định pháp luật & Hướng dẫn xử lý: Đăng nhập Cổng Dịch vụ công",
+    "legal_basis": "Nghị định số 61/2018/NĐ-CP & Nghị định số 107/2021/NĐ-CP về cơ chế một cửa, một cửa liên thông; Nghị định số 45/2020/NĐ-CP về thực hiện thủ tục hành chính trên môi trường điện tử",
+    "summary": "Áp dụng trực tiếp theo quy định tại Nghị định số 61/2018/NĐ-CP & Nghị định số 107/2021/NĐ-CP về cơ chế một cửa, một cửa liên thông; Nghị định số 45/2020/NĐ-CP về thực hiện thủ tục hành chính trên môi trường điện tử. Công dân thực hiện trực ...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: ĐĂNG NHẬP CỔNG DỊCH VỤ CÔNG (LĨNH VỰC: THỦ TỤC HÀNH CHÍNH VÀ DỊCH VỤ CÔNG)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Nghị định số 61/2018/NĐ-CP & Nghị định số 107/2021/NĐ-CP về cơ chế một cửa, một cửa liên thông; Nghị định số 45/2020/NĐ-CP về thực hiện thủ tục hành chính trên môi trường điện tử. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://dichvucong.gov.vn) hoặc liên hệ trực tiếp Bộ phận Tiếp nhận và Trả kết quả (Một cửa) UBND xã Đức Hợp & Công an xã Đức Hợp để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Tra cứu mã hồ sơ trực tuyến theo thời gian thực 24/7; thời hạn giải quyết tùy theo từng thủ tục cụ thể (từ 01 đến 07 ngày làm việc).).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Bộ phận Tiếp nhận và Trả kết quả (Một cửa) UBND xã Đức Hợp & Công an xã Đức Hợp.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://dichvucong.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Tra cứu mã hồ sơ trực tuyến theo thời gian thực 24/7; thời hạn giải quyết tùy theo từng thủ tục cụ thể (từ 01 đến 07 ngày làm việc).\n- Phí, lệ phí: Được giảm từ 10% - 50% mức phí, lệ phí theo quy định của Bộ Tài chính và HĐND tỉnh Hưng Yên khi công dân nộp hồ sơ trực tuyến qua VNeID hoặc Cổng Dịch vụ công.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Công dân chỉ đăng nhập bằng tài khoản định danh điện tử VNeID trên các cổng chính thức có tên miền .gov.vn (dichvucong.gov.vn, dichvucong.bocongan.gov.vn).\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Các bước cần lưu ý khi xử lý việc liên quan đến đăng nhập Cổng Dịch vụ công là gì?\n  (2) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về đăng nhập Cổng Dịch vụ công?\n  (3) Có mốc thời gian nào cần lưu ý khi xử lý việc liên quan đến đăng nhập Cổng Dịch vụ công không?\n  (4) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến đăng nhập Cổng Dịch vụ công không?\n  (5) Nếu mất giấy tờ hoặc bằng chứng liên quan đến đăng nhập Cổng Dịch vụ công, tôi nên bắt đầu từ đâu?",
+    "keywords": [
+      "thủ tục hành chính và dịch vụ công",
+      "đăng nhập cổng dịch vụ công",
+      "đăng",
+      "nhập",
+      "cổng",
+      "dịch",
+      "công"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_033",
+    "category_id": "dvc_lien_thong",
+    "category": "DVC Liên thông, Hộ tịch & Tư pháp",
+    "topic": "[Thủ tục hành chính và dịch vụ công] Quy định pháp luật & Hướng dẫn xử lý: Tra cứu mã hồ sơ",
+    "legal_basis": "Nghị định số 61/2018/NĐ-CP & Nghị định số 107/2021/NĐ-CP về cơ chế một cửa, một cửa liên thông; Nghị định số 45/2020/NĐ-CP về thực hiện thủ tục hành chính trên môi trường điện tử",
+    "summary": "Áp dụng trực tiếp theo quy định tại Nghị định số 61/2018/NĐ-CP & Nghị định số 107/2021/NĐ-CP về cơ chế một cửa, một cửa liên thông; Nghị định số 45/2020/NĐ-CP về thực hiện thủ tục hành chính trên môi trường điện tử. Công dân thực hiện trực ...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: TRA CỨU MÃ HỒ SƠ (LĨNH VỰC: THỦ TỤC HÀNH CHÍNH VÀ DỊCH VỤ CÔNG)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Nghị định số 61/2018/NĐ-CP & Nghị định số 107/2021/NĐ-CP về cơ chế một cửa, một cửa liên thông; Nghị định số 45/2020/NĐ-CP về thực hiện thủ tục hành chính trên môi trường điện tử. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://dichvucong.gov.vn) hoặc liên hệ trực tiếp Bộ phận Tiếp nhận và Trả kết quả (Một cửa) UBND xã Đức Hợp & Công an xã Đức Hợp để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Tra cứu mã hồ sơ trực tuyến theo thời gian thực 24/7; thời hạn giải quyết tùy theo từng thủ tục cụ thể (từ 01 đến 07 ngày làm việc).).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Bộ phận Tiếp nhận và Trả kết quả (Một cửa) UBND xã Đức Hợp & Công an xã Đức Hợp.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://dichvucong.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Tra cứu mã hồ sơ trực tuyến theo thời gian thực 24/7; thời hạn giải quyết tùy theo từng thủ tục cụ thể (từ 01 đến 07 ngày làm việc).\n- Phí, lệ phí: Được giảm từ 10% - 50% mức phí, lệ phí theo quy định của Bộ Tài chính và HĐND tỉnh Hưng Yên khi công dân nộp hồ sơ trực tuyến qua VNeID hoặc Cổng Dịch vụ công.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Công dân chỉ đăng nhập bằng tài khoản định danh điện tử VNeID trên các cổng chính thức có tên miền .gov.vn (dichvucong.gov.vn, dichvucong.bocongan.gov.vn).\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến tra cứu mã hồ sơ không?\n  (2) Nếu mất giấy tờ hoặc bằng chứng liên quan đến tra cứu mã hồ sơ, tôi nên bắt đầu từ đâu?\n  (3) Khi thông tin về tra cứu mã hồ sơ bị sai hoặc thay đổi, cần liên hệ nơi nào?\n  (4) Tôi có thể nhờ người thân làm thay việc về tra cứu mã hồ sơ không, cần hỏi rõ điều gì?\n  (5) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến tra cứu mã hồ sơ, tôi cần tìm hiểu điều gì?",
+    "keywords": [
+      "thủ tục hành chính và dịch vụ công",
+      "tra cứu mã hồ sơ",
+      "tra",
+      "cứu"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_034",
+    "category_id": "dvc_lien_thong",
+    "category": "DVC Liên thông, Hộ tịch & Tư pháp",
+    "topic": "[Thủ tục hành chính và dịch vụ công] Quy định pháp luật & Hướng dẫn xử lý: Bổ sung hồ sơ bị yêu cầu sửa đổi",
+    "legal_basis": "Nghị định số 61/2018/NĐ-CP & Nghị định số 107/2021/NĐ-CP về cơ chế một cửa, một cửa liên thông; Nghị định số 45/2020/NĐ-CP về thực hiện thủ tục hành chính trên môi trường điện tử",
+    "summary": "Áp dụng trực tiếp theo quy định tại Nghị định số 61/2018/NĐ-CP & Nghị định số 107/2021/NĐ-CP về cơ chế một cửa, một cửa liên thông; Nghị định số 45/2020/NĐ-CP về thực hiện thủ tục hành chính trên môi trường điện tử. Công dân thực hiện trực ...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: BỔ SUNG HỒ SƠ BỊ YÊU CẦU SỬA ĐỔI (LĨNH VỰC: THỦ TỤC HÀNH CHÍNH VÀ DỊCH VỤ CÔNG)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Nghị định số 61/2018/NĐ-CP & Nghị định số 107/2021/NĐ-CP về cơ chế một cửa, một cửa liên thông; Nghị định số 45/2020/NĐ-CP về thực hiện thủ tục hành chính trên môi trường điện tử. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://dichvucong.gov.vn) hoặc liên hệ trực tiếp Bộ phận Tiếp nhận và Trả kết quả (Một cửa) UBND xã Đức Hợp & Công an xã Đức Hợp để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Tra cứu mã hồ sơ trực tuyến theo thời gian thực 24/7; thời hạn giải quyết tùy theo từng thủ tục cụ thể (từ 01 đến 07 ngày làm việc).).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Bộ phận Tiếp nhận và Trả kết quả (Một cửa) UBND xã Đức Hợp & Công an xã Đức Hợp.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://dichvucong.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Tra cứu mã hồ sơ trực tuyến theo thời gian thực 24/7; thời hạn giải quyết tùy theo từng thủ tục cụ thể (từ 01 đến 07 ngày làm việc).\n- Phí, lệ phí: Được giảm từ 10% - 50% mức phí, lệ phí theo quy định của Bộ Tài chính và HĐND tỉnh Hưng Yên khi công dân nộp hồ sơ trực tuyến qua VNeID hoặc Cổng Dịch vụ công.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Công dân chỉ đăng nhập bằng tài khoản định danh điện tử VNeID trên các cổng chính thức có tên miền .gov.vn (dichvucong.gov.vn, dichvucong.bocongan.gov.vn).\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Tôi có thể nhờ người thân làm thay việc về bổ sung hồ sơ bị yêu cầu sửa đổi không, cần hỏi rõ điều gì?\n  (2) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến bổ sung hồ sơ bị yêu cầu sửa đổi, tôi cần tìm hiểu điều gì?\n  (3) Sau khi gửi yêu cầu liên quan đến bổ sung hồ sơ bị yêu cầu sửa đổi, tôi có thể theo dõi tiến độ thế nào?\n  (4) Người dân ở xã xa trung tâm muốn xử lý việc bổ sung hồ sơ bị yêu cầu sửa đổi thì nên hỏi cơ quan nào?\n  (5) Người lớn tuổi cần hỗ trợ về bổ sung hồ sơ bị yêu cầu sửa đổi thì có thể nhờ ai hướng dẫn?",
+    "keywords": [
+      "thủ tục hành chính và dịch vụ công",
+      "bổ sung hồ sơ bị yêu cầu sửa đổi",
+      "sung",
+      "yêu",
+      "cầu",
+      "sửa",
+      "đổi"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_035",
+    "category_id": "dvc_lien_thong",
+    "category": "DVC Liên thông, Hộ tịch & Tư pháp",
+    "topic": "[Thủ tục hành chính và dịch vụ công] Quy định pháp luật & Hướng dẫn xử lý: Thanh toán phí trực tuyến",
+    "legal_basis": "Nghị định số 61/2018/NĐ-CP & Nghị định số 107/2021/NĐ-CP về cơ chế một cửa, một cửa liên thông; Nghị định số 45/2020/NĐ-CP về thực hiện thủ tục hành chính trên môi trường điện tử",
+    "summary": "Áp dụng trực tiếp theo quy định tại Nghị định số 61/2018/NĐ-CP & Nghị định số 107/2021/NĐ-CP về cơ chế một cửa, một cửa liên thông; Nghị định số 45/2020/NĐ-CP về thực hiện thủ tục hành chính trên môi trường điện tử. Công dân thực hiện trực ...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: THANH TOÁN PHÍ TRỰC TUYẾN (LĨNH VỰC: THỦ TỤC HÀNH CHÍNH VÀ DỊCH VỤ CÔNG)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Nghị định số 61/2018/NĐ-CP & Nghị định số 107/2021/NĐ-CP về cơ chế một cửa, một cửa liên thông; Nghị định số 45/2020/NĐ-CP về thực hiện thủ tục hành chính trên môi trường điện tử. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://dichvucong.gov.vn) hoặc liên hệ trực tiếp Bộ phận Tiếp nhận và Trả kết quả (Một cửa) UBND xã Đức Hợp & Công an xã Đức Hợp để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Tra cứu mã hồ sơ trực tuyến theo thời gian thực 24/7; thời hạn giải quyết tùy theo từng thủ tục cụ thể (từ 01 đến 07 ngày làm việc).).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Bộ phận Tiếp nhận và Trả kết quả (Một cửa) UBND xã Đức Hợp & Công an xã Đức Hợp.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://dichvucong.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Tra cứu mã hồ sơ trực tuyến theo thời gian thực 24/7; thời hạn giải quyết tùy theo từng thủ tục cụ thể (từ 01 đến 07 ngày làm việc).\n- Phí, lệ phí: Được giảm từ 10% - 50% mức phí, lệ phí theo quy định của Bộ Tài chính và HĐND tỉnh Hưng Yên khi công dân nộp hồ sơ trực tuyến qua VNeID hoặc Cổng Dịch vụ công.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Công dân chỉ đăng nhập bằng tài khoản định danh điện tử VNeID trên các cổng chính thức có tên miền .gov.vn (dichvucong.gov.vn, dichvucong.bocongan.gov.vn).\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có thể làm thủ tục về thanh toán phí trực tuyến trên điện thoại không, cần chuẩn bị gì?\n  (2) Người lớn tuổi cần hỗ trợ về thanh toán phí trực tuyến thì có thể nhờ ai hướng dẫn?\n  (3) Trong tình huống thanh toán phí trực tuyến, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (4) Nếu các bên không thống nhất về thanh toán phí trực tuyến, có thể đề nghị cơ quan nào hướng dẫn?\n  (5) Tôi nên kiểm tra thông tin chính thức về thanh toán phí trực tuyến trên kênh nào?",
+    "keywords": [
+      "thủ tục hành chính và dịch vụ công",
+      "thanh toán phí trực tuyến",
+      "thanh",
+      "toán",
+      "phí",
+      "trực",
+      "tuyến"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_036",
+    "category_id": "dvc_lien_thong",
+    "category": "DVC Liên thông, Hộ tịch & Tư pháp",
+    "topic": "[Thủ tục hành chính và dịch vụ công] Quy định pháp luật & Hướng dẫn xử lý: Nhận kết quả qua bưu chính",
+    "legal_basis": "Nghị định số 61/2018/NĐ-CP & Nghị định số 107/2021/NĐ-CP về cơ chế một cửa, một cửa liên thông; Nghị định số 45/2020/NĐ-CP về thực hiện thủ tục hành chính trên môi trường điện tử",
+    "summary": "Áp dụng trực tiếp theo quy định tại Nghị định số 61/2018/NĐ-CP & Nghị định số 107/2021/NĐ-CP về cơ chế một cửa, một cửa liên thông; Nghị định số 45/2020/NĐ-CP về thực hiện thủ tục hành chính trên môi trường điện tử. Công dân thực hiện trực ...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: NHẬN KẾT QUẢ QUA BƯU CHÍNH (LĨNH VỰC: THỦ TỤC HÀNH CHÍNH VÀ DỊCH VỤ CÔNG)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Nghị định số 61/2018/NĐ-CP & Nghị định số 107/2021/NĐ-CP về cơ chế một cửa, một cửa liên thông; Nghị định số 45/2020/NĐ-CP về thực hiện thủ tục hành chính trên môi trường điện tử. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://dichvucong.gov.vn) hoặc liên hệ trực tiếp Bộ phận Tiếp nhận và Trả kết quả (Một cửa) UBND xã Đức Hợp & Công an xã Đức Hợp để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Tra cứu mã hồ sơ trực tuyến theo thời gian thực 24/7; thời hạn giải quyết tùy theo từng thủ tục cụ thể (từ 01 đến 07 ngày làm việc).).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Bộ phận Tiếp nhận và Trả kết quả (Một cửa) UBND xã Đức Hợp & Công an xã Đức Hợp.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://dichvucong.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Tra cứu mã hồ sơ trực tuyến theo thời gian thực 24/7; thời hạn giải quyết tùy theo từng thủ tục cụ thể (từ 01 đến 07 ngày làm việc).\n- Phí, lệ phí: Được giảm từ 10% - 50% mức phí, lệ phí theo quy định của Bộ Tài chính và HĐND tỉnh Hưng Yên khi công dân nộp hồ sơ trực tuyến qua VNeID hoặc Cổng Dịch vụ công.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Công dân chỉ đăng nhập bằng tài khoản định danh điện tử VNeID trên các cổng chính thức có tên miền .gov.vn (dichvucong.gov.vn, dichvucong.bocongan.gov.vn).\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Trong tình huống nhận kết quả qua bưu chính, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (2) Nếu các bên không thống nhất về nhận kết quả qua bưu chính, có thể đề nghị cơ quan nào hướng dẫn?\n  (3) Tôi nên kiểm tra thông tin chính thức về nhận kết quả qua bưu chính trên kênh nào?\n  (4) Làm sao phân biệt hướng dẫn chính thức và dịch vụ giả mạo liên quan đến nhận kết quả qua bưu chính?\n  (5) Khi gặp vướng mắc về nhận kết quả qua bưu chính, tôi cần mô tả thông tin gì để được hỗ trợ?",
+    "keywords": [
+      "thủ tục hành chính và dịch vụ công",
+      "nhận kết quả qua bưu chính",
+      "nhận",
+      "kết",
+      "quả",
+      "qua",
+      "bưu",
+      "chính"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_037",
+    "category_id": "phap_luat_dan_su_dat_dai",
+    "category": "Pháp luật Dân sự, Đất đai & Hôn nhân",
+    "topic": "[Pháp luật dân sự] Quy định pháp luật & Hướng dẫn xử lý: Hợp đồng vay tài sản",
+    "legal_basis": "Bộ luật Dân sự số 91/2015/QH13 (gồm 689 Điều); Nghị quyết số 01/2019/NQ-HĐTP hướng dẫn quy định về lãi, lãi suất trong hợp đồng vay tài sản; Luật Công chứng",
+    "summary": "Theo Điều 463 - 471 Bộ luật Dân sự 2015: Hợp đồng vay tài sản có thể lập bằng văn bản, lời nói hoặc hành vi cụ thể (khuyến nghị lập văn bản có chữ ký/điểm chỉ và người làm chứng). Lãi suất vay do các bên thỏa thuận nhưng KHÔNG được vượt quá...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: HỢP ĐỒNG VAY TÀI SẢN (LĨNH VỰC: PHÁP LUẬT DÂN SỰ)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Theo Điều 463 - 471 Bộ luật Dân sự 2015: Hợp đồng vay tài sản có thể lập bằng văn bản, lời nói hoặc hành vi cụ thể (khuyến nghị lập văn bản có chữ ký/điểm chỉ và người làm chứng). Lãi suất vay do các bên thỏa thuận nhưng KHÔNG được vượt quá 20%/năm của khoản tiền vay (Điều 468). Nếu vay không kỳ hạn thì bên cho vay có quyền đòi lại tài sản bất cứ lúc nào nhưng phải báo trước một thời gian hợp lý.\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: UBND xã Đức Hợp (chứng thực chữ ký, hòa giải cơ sở), Văn phòng Công chứng hoặc Tòa án nhân dân có thẩm quyền giải quyết tranh chấp dân sự.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://vbpl.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Chứng thực tại UBND xã: Giải quyết ngay trong ngày hoặc không quá 02 ngày làm việc. Hòa giải cơ sở: Trong vòng 15 - 30 ngày kể từ ngày nhận yêu cầu.\n- Phí, lệ phí: Phí chứng thực hợp đồng/giao dịch tại UBND cấp xã hoặc Văn phòng công chứng theo Thông tư 226/2016/TT-BTC và Thông tư 257/2016/TT-BTC; hòa giải ở cơ sở hoàn toàn miễn phí.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Theo Điều 468 Bộ luật Dân sự 2015, lãi suất vay theo thỏa thuận KHÔNG được vượt quá 20%/năm của khoản tiền vay. Hành vi cho vay lãi nặng gấp 5 lần mức lãi suất cao nhất (tức trên 100%/năm) thu lợi bất chính từ 30 triệu đồng trở lên sẽ bị truy cứu trách nhiệm hình sự theo Điều 201 BLHS!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Hợp đồng vay tài sản là gì và tôi có thể tìm hiểu ở đâu?\n  (2) Điều kiện hoặc căn cứ áp dụng với hợp đồng vay tài sản được hướng dẫn thế nào?\n  (3) Muốn thực hiện việc liên quan đến hợp đồng vay tài sản, tôi cần chuẩn bị giấy tờ gì?\n  (4) Các bước cần lưu ý khi xử lý việc liên quan đến hợp đồng vay tài sản là gì?\n  (5) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về hợp đồng vay tài sản?",
+    "keywords": [
+      "pháp luật dân sự",
+      "hợp đồng vay tài sản",
+      "hợp",
+      "đồng",
+      "vay",
+      "tài",
+      "sản"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_038",
+    "category_id": "phap_luat_dan_su_dat_dai",
+    "category": "Pháp luật Dân sự, Đất đai & Hôn nhân",
+    "topic": "[Pháp luật dân sự] Quy định pháp luật & Hướng dẫn xử lý: Mua bán tài sản",
+    "legal_basis": "Bộ luật Dân sự số 91/2015/QH13 (gồm 689 Điều); Nghị quyết số 01/2019/NQ-HĐTP hướng dẫn quy định về lãi, lãi suất trong hợp đồng vay tài sản; Luật Công chứng",
+    "summary": "Theo Điều 430 - 454 Bộ luật Dân sự 2015: Hợp đồng mua bán tài sản là sự thỏa thuận theo đó bên bán chuyển quyền sở hữu tài sản cho bên mua và bên mua trả tiền. Đối với tài sản pháp luật quy định phải đăng ký quyền sở hữu (như nhà đất, ô tô,...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: MUA BÁN TÀI SẢN (LĨNH VỰC: PHÁP LUẬT DÂN SỰ)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Theo Điều 430 - 454 Bộ luật Dân sự 2015: Hợp đồng mua bán tài sản là sự thỏa thuận theo đó bên bán chuyển quyền sở hữu tài sản cho bên mua và bên mua trả tiền. Đối với tài sản pháp luật quy định phải đăng ký quyền sở hữu (như nhà đất, ô tô, xe máy), hợp đồng mua bán phải được lập thành văn bản và công chứng tại Văn phòng công chứng hoặc chứng thực tại UBND xã Đức Hợp.\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: UBND xã Đức Hợp (chứng thực chữ ký, hòa giải cơ sở), Văn phòng Công chứng hoặc Tòa án nhân dân có thẩm quyền giải quyết tranh chấp dân sự.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://vbpl.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Chứng thực tại UBND xã: Giải quyết ngay trong ngày hoặc không quá 02 ngày làm việc. Hòa giải cơ sở: Trong vòng 15 - 30 ngày kể từ ngày nhận yêu cầu.\n- Phí, lệ phí: Phí chứng thực hợp đồng/giao dịch tại UBND cấp xã hoặc Văn phòng công chứng theo Thông tư 226/2016/TT-BTC và Thông tư 257/2016/TT-BTC; hòa giải ở cơ sở hoàn toàn miễn phí.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Theo Điều 468 Bộ luật Dân sự 2015, lãi suất vay theo thỏa thuận KHÔNG được vượt quá 20%/năm của khoản tiền vay. Hành vi cho vay lãi nặng gấp 5 lần mức lãi suất cao nhất (tức trên 100%/năm) thu lợi bất chính từ 30 triệu đồng trở lên sẽ bị truy cứu trách nhiệm hình sự theo Điều 201 BLHS!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Các bước cần lưu ý khi xử lý việc liên quan đến mua bán tài sản là gì?\n  (2) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về mua bán tài sản?\n  (3) Có mốc thời gian nào cần lưu ý khi xử lý việc liên quan đến mua bán tài sản không?\n  (4) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến mua bán tài sản không?\n  (5) Nếu mất giấy tờ hoặc bằng chứng liên quan đến mua bán tài sản, tôi nên bắt đầu từ đâu?",
+    "keywords": [
+      "pháp luật dân sự",
+      "mua bán tài sản",
+      "mua",
+      "bán",
+      "tài",
+      "sản"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_039",
+    "category_id": "phap_luat_dan_su_dat_dai",
+    "category": "Pháp luật Dân sự, Đất đai & Hôn nhân",
+    "topic": "[Pháp luật dân sự] Quy định pháp luật & Hướng dẫn xử lý: Bồi thường thiệt hại",
+    "legal_basis": "Bộ luật Dân sự số 91/2015/QH13 (gồm 689 Điều); Nghị quyết số 01/2019/NQ-HĐTP hướng dẫn quy định về lãi, lãi suất trong hợp đồng vay tài sản; Luật Công chứng",
+    "summary": "Theo Điều 584 - 608 Bộ luật Dân sự 2015: Người nào có hành vi xâm phạm tính mạng, sức khỏe, danh dự, nhân phẩm, uy tín, tài sản của người khác mà gây thiệt hại thì phải bồi thường. Thời hiệu khởi kiện yêu cầu bồi thường thiệt hại là 03 năm ...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: BỒI THƯỜNG THIỆT HẠI (LĨNH VỰC: PHÁP LUẬT DÂN SỰ)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Theo Điều 584 - 608 Bộ luật Dân sự 2015: Người nào có hành vi xâm phạm tính mạng, sức khỏe, danh dự, nhân phẩm, uy tín, tài sản của người khác mà gây thiệt hại thì phải bồi thường. Thời hiệu khởi kiện yêu cầu bồi thường thiệt hại là 03 năm kể từ ngày người có quyền yêu cầu biết hoặc phải biết quyền, lợi ích hợp pháp của mình bị xâm phạm (Điều 588 BLDS).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: UBND xã Đức Hợp (chứng thực chữ ký, hòa giải cơ sở), Văn phòng Công chứng hoặc Tòa án nhân dân có thẩm quyền giải quyết tranh chấp dân sự.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://vbpl.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Chứng thực tại UBND xã: Giải quyết ngay trong ngày hoặc không quá 02 ngày làm việc. Hòa giải cơ sở: Trong vòng 15 - 30 ngày kể từ ngày nhận yêu cầu.\n- Phí, lệ phí: Phí chứng thực hợp đồng/giao dịch tại UBND cấp xã hoặc Văn phòng công chứng theo Thông tư 226/2016/TT-BTC và Thông tư 257/2016/TT-BTC; hòa giải ở cơ sở hoàn toàn miễn phí.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Theo Điều 468 Bộ luật Dân sự 2015, lãi suất vay theo thỏa thuận KHÔNG được vượt quá 20%/năm của khoản tiền vay. Hành vi cho vay lãi nặng gấp 5 lần mức lãi suất cao nhất (tức trên 100%/năm) thu lợi bất chính từ 30 triệu đồng trở lên sẽ bị truy cứu trách nhiệm hình sự theo Điều 201 BLHS!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến bồi thường thiệt hại không?\n  (2) Nếu mất giấy tờ hoặc bằng chứng liên quan đến bồi thường thiệt hại, tôi nên bắt đầu từ đâu?\n  (3) Khi thông tin về bồi thường thiệt hại bị sai hoặc thay đổi, cần liên hệ nơi nào?\n  (4) Tôi có thể nhờ người thân làm thay việc về bồi thường thiệt hại không, cần hỏi rõ điều gì?\n  (5) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến bồi thường thiệt hại, tôi cần tìm hiểu điều gì?",
+    "keywords": [
+      "pháp luật dân sự",
+      "bồi thường thiệt hại",
+      "bồi",
+      "thường",
+      "thiệt",
+      "hại"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_040",
+    "category_id": "phap_luat_dan_su_dat_dai",
+    "category": "Pháp luật Dân sự, Đất đai & Hôn nhân",
+    "topic": "[Pháp luật dân sự] Quy định pháp luật & Hướng dẫn xử lý: Thừa kế và di chúc",
+    "legal_basis": "Bộ luật Dân sự số 91/2015/QH13 (gồm 689 Điều); Nghị quyết số 01/2019/NQ-HĐTP hướng dẫn quy định về lãi, lãi suất trong hợp đồng vay tài sản; Luật Công chứng",
+    "summary": "Theo Điều 609 - 662 Bộ luật Dân sự 2015: Di chúc hợp pháp phải được lập khi người lập di chúc minh mẫn, sáng suốt, không bị lừa dối, đe dọa, cưỡng ép; di chúc bằng văn bản có thể được chứng thực tại UBND xã Đức Hợp hoặc Văn phòng công chứng...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: THỪA KẾ VÀ DI CHÚC (LĨNH VỰC: PHÁP LUẬT DÂN SỰ)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Theo Điều 609 - 662 Bộ luật Dân sự 2015: Di chúc hợp pháp phải được lập khi người lập di chúc minh mẫn, sáng suốt, không bị lừa dối, đe dọa, cưỡng ép; di chúc bằng văn bản có thể được chứng thực tại UBND xã Đức Hợp hoặc Văn phòng công chứng. Vợ, chồng, cha, mẹ, con chưa thành niên hoặc con đã thành niên mà không có khả năng lao động vẫn được hưởng phần di sản bằng 2/3 suất của một người thừa kế theo pháp luật dù không có tên trong di chúc (Điều 644 - Người thừa kế không phụ thuộc vào nội dung di chúc). Thời hiệu chia di sản bất động sản là 30 năm, động sản là 10 năm.\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: UBND xã Đức Hợp (chứng thực chữ ký, hòa giải cơ sở), Văn phòng Công chứng hoặc Tòa án nhân dân có thẩm quyền giải quyết tranh chấp dân sự.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://vbpl.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Chứng thực tại UBND xã: Giải quyết ngay trong ngày hoặc không quá 02 ngày làm việc. Hòa giải cơ sở: Trong vòng 15 - 30 ngày kể từ ngày nhận yêu cầu.\n- Phí, lệ phí: Phí chứng thực hợp đồng/giao dịch tại UBND cấp xã hoặc Văn phòng công chứng theo Thông tư 226/2016/TT-BTC và Thông tư 257/2016/TT-BTC; hòa giải ở cơ sở hoàn toàn miễn phí.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Theo Điều 468 Bộ luật Dân sự 2015, lãi suất vay theo thỏa thuận KHÔNG được vượt quá 20%/năm của khoản tiền vay. Hành vi cho vay lãi nặng gấp 5 lần mức lãi suất cao nhất (tức trên 100%/năm) thu lợi bất chính từ 30 triệu đồng trở lên sẽ bị truy cứu trách nhiệm hình sự theo Điều 201 BLHS!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Tôi có thể nhờ người thân làm thay việc về thừa kế và di chúc không, cần hỏi rõ điều gì?\n  (2) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến thừa kế và di chúc, tôi cần tìm hiểu điều gì?\n  (3) Sau khi gửi yêu cầu liên quan đến thừa kế và di chúc, tôi có thể theo dõi tiến độ thế nào?\n  (4) Người dân ở xã xa trung tâm muốn xử lý việc thừa kế và di chúc thì nên hỏi cơ quan nào?\n  (5) Người lớn tuổi cần hỗ trợ về thừa kế và di chúc thì có thể nhờ ai hướng dẫn?",
+    "keywords": [
+      "pháp luật dân sự",
+      "thừa kế và di chúc",
+      "thừa",
+      "chúc"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_041",
+    "category_id": "phap_luat_dan_su_dat_dai",
+    "category": "Pháp luật Dân sự, Đất đai & Hôn nhân",
+    "topic": "[Pháp luật dân sự] Quy định pháp luật & Hướng dẫn xử lý: Hợp đồng đặt cọc",
+    "legal_basis": "Bộ luật Dân sự số 91/2015/QH13 (gồm 689 Điều); Nghị quyết số 01/2019/NQ-HĐTP hướng dẫn quy định về lãi, lãi suất trong hợp đồng vay tài sản; Luật Công chứng",
+    "summary": "Theo Điều 328 Bộ luật Dân sự 2015: Đặt cọc là việc một bên giao cho bên kia một khoản tiền hoặc vật có giá trị để bảo đảm giao kết hoặc thực hiện hợp đồng. Nếu bên đặt cọc từ chối việc giao kết/thực hiện hợp đồng thì tài sản đặt cọc thuộc v...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: HỢP ĐỒNG ĐẶT CỌC (LĨNH VỰC: PHÁP LUẬT DÂN SỰ)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Theo Điều 328 Bộ luật Dân sự 2015: Đặt cọc là việc một bên giao cho bên kia một khoản tiền hoặc vật có giá trị để bảo đảm giao kết hoặc thực hiện hợp đồng. Nếu bên đặt cọc từ chối việc giao kết/thực hiện hợp đồng thì tài sản đặt cọc thuộc về bên nhận đặt cọc; nếu bên nhận đặt cọc từ chối thì phải trả cho bên đặt cọc tài sản đặt cọc và một khoản tiền tương đương giá trị tài sản đặt cọc (phạt cọc gấp đôi), trừ trường hợp có thỏa thuận khác.\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: UBND xã Đức Hợp (chứng thực chữ ký, hòa giải cơ sở), Văn phòng Công chứng hoặc Tòa án nhân dân có thẩm quyền giải quyết tranh chấp dân sự.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://vbpl.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Chứng thực tại UBND xã: Giải quyết ngay trong ngày hoặc không quá 02 ngày làm việc. Hòa giải cơ sở: Trong vòng 15 - 30 ngày kể từ ngày nhận yêu cầu.\n- Phí, lệ phí: Phí chứng thực hợp đồng/giao dịch tại UBND cấp xã hoặc Văn phòng công chứng theo Thông tư 226/2016/TT-BTC và Thông tư 257/2016/TT-BTC; hòa giải ở cơ sở hoàn toàn miễn phí.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Theo Điều 468 Bộ luật Dân sự 2015, lãi suất vay theo thỏa thuận KHÔNG được vượt quá 20%/năm của khoản tiền vay. Hành vi cho vay lãi nặng gấp 5 lần mức lãi suất cao nhất (tức trên 100%/năm) thu lợi bất chính từ 30 triệu đồng trở lên sẽ bị truy cứu trách nhiệm hình sự theo Điều 201 BLHS!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có thể làm thủ tục về hợp đồng đặt cọc trên điện thoại không, cần chuẩn bị gì?\n  (2) Người lớn tuổi cần hỗ trợ về hợp đồng đặt cọc thì có thể nhờ ai hướng dẫn?\n  (3) Trong tình huống hợp đồng đặt cọc, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (4) Nếu các bên không thống nhất về hợp đồng đặt cọc, có thể đề nghị cơ quan nào hướng dẫn?\n  (5) Tôi nên kiểm tra thông tin chính thức về hợp đồng đặt cọc trên kênh nào?",
+    "keywords": [
+      "pháp luật dân sự",
+      "hợp đồng đặt cọc",
+      "hợp",
+      "đồng",
+      "đặt",
+      "cọc"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_042",
+    "category_id": "phap_luat_dan_su_dat_dai",
+    "category": "Pháp luật Dân sự, Đất đai & Hôn nhân",
+    "topic": "[Pháp luật dân sự] Quy định pháp luật & Hướng dẫn xử lý: Tranh chấp dân sự",
+    "legal_basis": "Bộ luật Dân sự số 91/2015/QH13 (gồm 689 Điều); Nghị quyết số 01/2019/NQ-HĐTP hướng dẫn quy định về lãi, lãi suất trong hợp đồng vay tài sản; Luật Công chứng",
+    "summary": "Theo Bộ luật Tố tụng dân sự 2015 và Luật Hòa giải ở cơ sở 2013: Khi phát sinh tranh chấp dân sự (vay nợ, hợp đồng, mốc giới, bồi thường), các bên ưu tiên thương lượng hoặc đề nghị Tổ hòa giải tại thôn / UBND xã Đức Hợp hòa giải. Trường hợp ...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: TRANH CHẤP DÂN SỰ (LĨNH VỰC: PHÁP LUẬT DÂN SỰ)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Theo Bộ luật Tố tụng dân sự 2015 và Luật Hòa giải ở cơ sở 2013: Khi phát sinh tranh chấp dân sự (vay nợ, hợp đồng, mốc giới, bồi thường), các bên ưu tiên thương lượng hoặc đề nghị Tổ hòa giải tại thôn / UBND xã Đức Hợp hòa giải. Trường hợp hòa giải không thành, đương sự nộp Đơn khởi kiện kèm chứng cứ tại Tòa án nhân dân có thẩm quyền nơi bị đơn cư trú.\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: UBND xã Đức Hợp (chứng thực chữ ký, hòa giải cơ sở), Văn phòng Công chứng hoặc Tòa án nhân dân có thẩm quyền giải quyết tranh chấp dân sự.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://vbpl.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Chứng thực tại UBND xã: Giải quyết ngay trong ngày hoặc không quá 02 ngày làm việc. Hòa giải cơ sở: Trong vòng 15 - 30 ngày kể từ ngày nhận yêu cầu.\n- Phí, lệ phí: Phí chứng thực hợp đồng/giao dịch tại UBND cấp xã hoặc Văn phòng công chứng theo Thông tư 226/2016/TT-BTC và Thông tư 257/2016/TT-BTC; hòa giải ở cơ sở hoàn toàn miễn phí.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Theo Điều 468 Bộ luật Dân sự 2015, lãi suất vay theo thỏa thuận KHÔNG được vượt quá 20%/năm của khoản tiền vay. Hành vi cho vay lãi nặng gấp 5 lần mức lãi suất cao nhất (tức trên 100%/năm) thu lợi bất chính từ 30 triệu đồng trở lên sẽ bị truy cứu trách nhiệm hình sự theo Điều 201 BLHS!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Trong tình huống tranh chấp dân sự, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (2) Nếu các bên không thống nhất về tranh chấp dân sự, có thể đề nghị cơ quan nào hướng dẫn?\n  (3) Tôi nên kiểm tra thông tin chính thức về tranh chấp dân sự trên kênh nào?\n  (4) Làm sao phân biệt hướng dẫn chính thức và dịch vụ giả mạo liên quan đến tranh chấp dân sự?\n  (5) Khi gặp vướng mắc về tranh chấp dân sự, tôi cần mô tả thông tin gì để được hỗ trợ?",
+    "keywords": [
+      "pháp luật dân sự",
+      "tranh chấp dân sự",
+      "tranh",
+      "chấp",
+      "dân"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_043",
+    "category_id": "phap_luat_dan_su_dat_dai",
+    "category": "Pháp luật Dân sự, Đất đai & Hôn nhân",
+    "topic": "[Đất đai] Quy định pháp luật & Hướng dẫn xử lý: Cấp giấy chứng nhận quyền sử dụng đất",
+    "legal_basis": "Luật Đất đai số 31/2024/QH15 (hiệu lực từ 01/08/2024); Nghị định số 101/2024/NĐ-CP về điều tra cơ bản đất đai, đăng ký, cấp Giấy chứng nhận quyền sử dụng đất; Nghị định số 102/2024/NĐ-CP",
+    "summary": "Theo Điều 137 - 140 Luật Đất đai số 31/2024/QH15 (hiệu lực 01/08/2024) và Nghị định 101/2024/NĐ-CP: Hộ gia đình, cá nhân đang sử dụng đất ổn định, có giấy tờ về quyền sử dụng đất hoặc không có giấy tờ nhưng sử dụng đất ổn định trước ngày 01...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: CẤP GIẤY CHỨNG NHẬN QUYỀN SỬ DỤNG ĐẤT (LĨNH VỰC: ĐẤT ĐAI)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Theo Điều 137 - 140 Luật Đất đai số 31/2024/QH15 (hiệu lực 01/08/2024) và Nghị định 101/2024/NĐ-CP: Hộ gia đình, cá nhân đang sử dụng đất ổn định, có giấy tờ về quyền sử dụng đất hoặc không có giấy tờ nhưng sử dụng đất ổn định trước ngày 01/07/2014, được UBND xã Đức Hợp xác nhận không có tranh chấp, phù hợp quy hoạch thì được xem xét cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất.\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: UBND xã Đức Hợp (xác nhận nguồn gốc đất, hòa giải tranh chấp đất đai bắt buộc), Chi nhánh Văn phòng Đăng ký đất đai & UBND cấp có thẩm quyền.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://vanban.chinhphu.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Đăng ký biến động đất đai: Từ 03 - 10 ngày làm việc. Cấp Giấy chứng nhận lần đầu: Không quá 20 ngày làm việc. Hòa giải tranh chấp đất đai tại UBND xã: Không quá 30 ngày (theo Điều 235 Luật Đất đai 2024).\n- Phí, lệ phí: Lệ phí cấp Giấy chứng nhận quyền sử dụng đất, lệ phí trước bạ (0,5%), thuế thu nhập cá nhân (2% khi chuyển nhượng, miễn thuế giữa vợ-chồng, cha mẹ-con, anh chị em ruột). Hòa giải tranh chấp đất đai tại UBND xã: Miễn phí.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Theo Điều 235 Luật Đất đai 2024, tranh chấp đất đai mà các bên không tự hòa giải được thì BẮT BUỘC phải gửi đơn đến UBND cấp xã nơi có đất (UBND xã Đức Hợp) để hòa giải trước khi khởi kiện ra Tòa án!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Cấp giấy chứng nhận quyền sử dụng đất là gì và tôi có thể tìm hiểu ở đâu?\n  (2) Điều kiện hoặc căn cứ áp dụng với cấp giấy chứng nhận quyền sử dụng đất được hướng dẫn thế nào?\n  (3) Muốn thực hiện việc liên quan đến cấp giấy chứng nhận quyền sử dụng đất, tôi cần chuẩn bị giấy tờ gì?\n  (4) Các bước cần lưu ý khi xử lý việc liên quan đến cấp giấy chứng nhận quyền sử dụng đất là gì?\n  (5) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về cấp giấy chứng nhận quyền sử dụng đất?",
+    "keywords": [
+      "đất đai",
+      "cấp giấy chứng nhận quyền sử dụng đất",
+      "cấp",
+      "giấy",
+      "chứng",
+      "nhận",
+      "quyền",
+      "dụng",
+      "đất"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_044",
+    "category_id": "phap_luat_dan_su_dat_dai",
+    "category": "Pháp luật Dân sự, Đất đai & Hôn nhân",
+    "topic": "[Đất đai] Quy định pháp luật & Hướng dẫn xử lý: Đăng ký biến động đất đai",
+    "legal_basis": "Luật Đất đai số 31/2024/QH15 (hiệu lực từ 01/08/2024); Nghị định số 101/2024/NĐ-CP về điều tra cơ bản đất đai, đăng ký, cấp Giấy chứng nhận quyền sử dụng đất; Nghị định số 102/2024/NĐ-CP",
+    "summary": "Theo Điều 133 Luật Đất đai 2024: Khi chuyển nhượng, tặng cho, thừa kế, thế chấp quyền sử dụng đất hoặc thay đổi thông tin người sử dụng đất (đổi sang thẻ Căn cước), trong thời hạn 30 ngày kể từ ngày có biến động, người sử dụng đất phải thực...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: ĐĂNG KÝ BIẾN ĐỘNG ĐẤT ĐAI (LĨNH VỰC: ĐẤT ĐAI)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Theo Điều 133 Luật Đất đai 2024: Khi chuyển nhượng, tặng cho, thừa kế, thế chấp quyền sử dụng đất hoặc thay đổi thông tin người sử dụng đất (đổi sang thẻ Căn cước), trong thời hạn 30 ngày kể từ ngày có biến động, người sử dụng đất phải thực hiện thủ tục đăng ký biến động tại Chi nhánh Văn phòng Đăng ký đất đai hoặc Bộ phận Một cửa.\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: UBND xã Đức Hợp (xác nhận nguồn gốc đất, hòa giải tranh chấp đất đai bắt buộc), Chi nhánh Văn phòng Đăng ký đất đai & UBND cấp có thẩm quyền.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://vanban.chinhphu.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Đăng ký biến động đất đai: Từ 03 - 10 ngày làm việc. Cấp Giấy chứng nhận lần đầu: Không quá 20 ngày làm việc. Hòa giải tranh chấp đất đai tại UBND xã: Không quá 30 ngày (theo Điều 235 Luật Đất đai 2024).\n- Phí, lệ phí: Lệ phí cấp Giấy chứng nhận quyền sử dụng đất, lệ phí trước bạ (0,5%), thuế thu nhập cá nhân (2% khi chuyển nhượng, miễn thuế giữa vợ-chồng, cha mẹ-con, anh chị em ruột). Hòa giải tranh chấp đất đai tại UBND xã: Miễn phí.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Theo Điều 235 Luật Đất đai 2024, tranh chấp đất đai mà các bên không tự hòa giải được thì BẮT BUỘC phải gửi đơn đến UBND cấp xã nơi có đất (UBND xã Đức Hợp) để hòa giải trước khi khởi kiện ra Tòa án!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Các bước cần lưu ý khi xử lý việc liên quan đến đăng ký biến động đất đai là gì?\n  (2) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về đăng ký biến động đất đai?\n  (3) Có mốc thời gian nào cần lưu ý khi xử lý việc liên quan đến đăng ký biến động đất đai không?\n  (4) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến đăng ký biến động đất đai không?\n  (5) Nếu mất giấy tờ hoặc bằng chứng liên quan đến đăng ký biến động đất đai, tôi nên bắt đầu từ đâu?",
+    "keywords": [
+      "đất đai",
+      "đăng ký biến động đất đai",
+      "đăng",
+      "biến",
+      "động",
+      "đất",
+      "đai"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_045",
+    "category_id": "phap_luat_dan_su_dat_dai",
+    "category": "Pháp luật Dân sự, Đất đai & Hôn nhân",
+    "topic": "[Đất đai] Quy định pháp luật & Hướng dẫn xử lý: Chuyển mục đích sử dụng đất",
+    "legal_basis": "Luật Đất đai số 31/2024/QH15 (hiệu lực từ 01/08/2024); Nghị định số 101/2024/NĐ-CP về điều tra cơ bản đất đai, đăng ký, cấp Giấy chứng nhận quyền sử dụng đất; Nghị định số 102/2024/NĐ-CP",
+    "summary": "Theo Điều 121 Luật Đất đai 2024: Việc chuyển đất nông nghiệp sang đất phi nông nghiệp (đất ở) phải được cơ quan nhà nước có thẩm quyền cho phép (căn cứ vào quy hoạch sử dụng đất cấp huyện đã được phê duyệt) và người sử dụng đất phải thực hi...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: CHUYỂN MỤC ĐÍCH SỬ DỤNG ĐẤT (LĨNH VỰC: ĐẤT ĐAI)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Theo Điều 121 Luật Đất đai 2024: Việc chuyển đất nông nghiệp sang đất phi nông nghiệp (đất ở) phải được cơ quan nhà nước có thẩm quyền cho phép (căn cứ vào quy hoạch sử dụng đất cấp huyện đã được phê duyệt) và người sử dụng đất phải thực hiện nghĩa vụ tài chính (nộp tiền sử dụng đất) theo quy định.\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: UBND xã Đức Hợp (xác nhận nguồn gốc đất, hòa giải tranh chấp đất đai bắt buộc), Chi nhánh Văn phòng Đăng ký đất đai & UBND cấp có thẩm quyền.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://vanban.chinhphu.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Đăng ký biến động đất đai: Từ 03 - 10 ngày làm việc. Cấp Giấy chứng nhận lần đầu: Không quá 20 ngày làm việc. Hòa giải tranh chấp đất đai tại UBND xã: Không quá 30 ngày (theo Điều 235 Luật Đất đai 2024).\n- Phí, lệ phí: Lệ phí cấp Giấy chứng nhận quyền sử dụng đất, lệ phí trước bạ (0,5%), thuế thu nhập cá nhân (2% khi chuyển nhượng, miễn thuế giữa vợ-chồng, cha mẹ-con, anh chị em ruột). Hòa giải tranh chấp đất đai tại UBND xã: Miễn phí.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Theo Điều 235 Luật Đất đai 2024, tranh chấp đất đai mà các bên không tự hòa giải được thì BẮT BUỘC phải gửi đơn đến UBND cấp xã nơi có đất (UBND xã Đức Hợp) để hòa giải trước khi khởi kiện ra Tòa án!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến chuyển mục đích sử dụng đất không?\n  (2) Nếu mất giấy tờ hoặc bằng chứng liên quan đến chuyển mục đích sử dụng đất, tôi nên bắt đầu từ đâu?\n  (3) Khi thông tin về chuyển mục đích sử dụng đất bị sai hoặc thay đổi, cần liên hệ nơi nào?\n  (4) Tôi có thể nhờ người thân làm thay việc về chuyển mục đích sử dụng đất không, cần hỏi rõ điều gì?\n  (5) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến chuyển mục đích sử dụng đất, tôi cần tìm hiểu điều gì?",
+    "keywords": [
+      "đất đai",
+      "chuyển mục đích sử dụng đất",
+      "chuyển",
+      "mục",
+      "đích",
+      "dụng",
+      "đất"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_046",
+    "category_id": "phap_luat_dan_su_dat_dai",
+    "category": "Pháp luật Dân sự, Đất đai & Hôn nhân",
+    "topic": "[Đất đai] Quy định pháp luật & Hướng dẫn xử lý: Tách thửa và hợp thửa",
+    "legal_basis": "Luật Đất đai số 31/2024/QH15 (hiệu lực từ 01/08/2024); Nghị định số 101/2024/NĐ-CP về điều tra cơ bản đất đai, đăng ký, cấp Giấy chứng nhận quyền sử dụng đất; Nghị định số 102/2024/NĐ-CP",
+    "summary": "Theo Điều 220 Luật Đất đai 2024: Việc tách thửa đất, hợp thửa đất phải bảo đảm các điều kiện: Đất đã có Giấy chứng nhận; còn trong thời hạn sử dụng đất; đất không có tranh chấp, không bị kê biên; việc tách thửa phải bảo đảm có lối đi, được ...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: TÁCH THỬA VÀ HỢP THỬA (LĨNH VỰC: ĐẤT ĐAI)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Theo Điều 220 Luật Đất đai 2024: Việc tách thửa đất, hợp thửa đất phải bảo đảm các điều kiện: Đất đã có Giấy chứng nhận; còn trong thời hạn sử dụng đất; đất không có tranh chấp, không bị kê biên; việc tách thửa phải bảo đảm có lối đi, được kết nối với đường giao thông công cộng hiện có và các thửa đất sau khi tách phải đạt diện tích tối thiểu theo quy định của UBND tỉnh Hưng Yên.\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: UBND xã Đức Hợp (xác nhận nguồn gốc đất, hòa giải tranh chấp đất đai bắt buộc), Chi nhánh Văn phòng Đăng ký đất đai & UBND cấp có thẩm quyền.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://vanban.chinhphu.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Đăng ký biến động đất đai: Từ 03 - 10 ngày làm việc. Cấp Giấy chứng nhận lần đầu: Không quá 20 ngày làm việc. Hòa giải tranh chấp đất đai tại UBND xã: Không quá 30 ngày (theo Điều 235 Luật Đất đai 2024).\n- Phí, lệ phí: Lệ phí cấp Giấy chứng nhận quyền sử dụng đất, lệ phí trước bạ (0,5%), thuế thu nhập cá nhân (2% khi chuyển nhượng, miễn thuế giữa vợ-chồng, cha mẹ-con, anh chị em ruột). Hòa giải tranh chấp đất đai tại UBND xã: Miễn phí.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Theo Điều 235 Luật Đất đai 2024, tranh chấp đất đai mà các bên không tự hòa giải được thì BẮT BUỘC phải gửi đơn đến UBND cấp xã nơi có đất (UBND xã Đức Hợp) để hòa giải trước khi khởi kiện ra Tòa án!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Tôi có thể nhờ người thân làm thay việc về tách thửa và hợp thửa không, cần hỏi rõ điều gì?\n  (2) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến tách thửa và hợp thửa, tôi cần tìm hiểu điều gì?\n  (3) Sau khi gửi yêu cầu liên quan đến tách thửa và hợp thửa, tôi có thể theo dõi tiến độ thế nào?\n  (4) Người dân ở xã xa trung tâm muốn xử lý việc tách thửa và hợp thửa thì nên hỏi cơ quan nào?\n  (5) Người lớn tuổi cần hỗ trợ về tách thửa và hợp thửa thì có thể nhờ ai hướng dẫn?",
+    "keywords": [
+      "đất đai",
+      "tách thửa và hợp thửa",
+      "tách",
+      "thửa",
+      "hợp",
+      "thửa"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_047",
+    "category_id": "phap_luat_dan_su_dat_dai",
+    "category": "Pháp luật Dân sự, Đất đai & Hôn nhân",
+    "topic": "[Đất đai] Quy định pháp luật & Hướng dẫn xử lý: Hòa giải tranh chấp đất đai",
+    "legal_basis": "Luật Đất đai số 31/2024/QH15 (hiệu lực từ 01/08/2024); Nghị định số 101/2024/NĐ-CP về điều tra cơ bản đất đai, đăng ký, cấp Giấy chứng nhận quyền sử dụng đất; Nghị định số 102/2024/NĐ-CP",
+    "summary": "Theo Điều 235 Luật Đất đai 2024: Nhà nước khuyến khích các bên tranh chấp đất đai tự hòa giải. Trường hợp các bên không hòa giải được thì BẮT BUỘC phải gửi đơn đến UBND cấp xã nơi có đất tranh chấp (UBND xã Đức Hợp) để hòa giải. Chủ tịch UB...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: HÒA GIẢI TRANH CHẤP ĐẤT ĐAI (LĨNH VỰC: ĐẤT ĐAI)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Theo Điều 235 Luật Đất đai 2024: Nhà nước khuyến khích các bên tranh chấp đất đai tự hòa giải. Trường hợp các bên không hòa giải được thì BẮT BUỘC phải gửi đơn đến UBND cấp xã nơi có đất tranh chấp (UBND xã Đức Hợp) để hòa giải. Chủ tịch UBND xã phối hợp Ủy ban MTTQ xã và các tổ chức thành viên tổ chức hòa giải trong thời hạn không quá 30 ngày kể từ ngày nhận được đơn.\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: UBND xã Đức Hợp (xác nhận nguồn gốc đất, hòa giải tranh chấp đất đai bắt buộc), Chi nhánh Văn phòng Đăng ký đất đai & UBND cấp có thẩm quyền.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://vanban.chinhphu.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Đăng ký biến động đất đai: Từ 03 - 10 ngày làm việc. Cấp Giấy chứng nhận lần đầu: Không quá 20 ngày làm việc. Hòa giải tranh chấp đất đai tại UBND xã: Không quá 30 ngày (theo Điều 235 Luật Đất đai 2024).\n- Phí, lệ phí: Lệ phí cấp Giấy chứng nhận quyền sử dụng đất, lệ phí trước bạ (0,5%), thuế thu nhập cá nhân (2% khi chuyển nhượng, miễn thuế giữa vợ-chồng, cha mẹ-con, anh chị em ruột). Hòa giải tranh chấp đất đai tại UBND xã: Miễn phí.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Theo Điều 235 Luật Đất đai 2024, tranh chấp đất đai mà các bên không tự hòa giải được thì BẮT BUỘC phải gửi đơn đến UBND cấp xã nơi có đất (UBND xã Đức Hợp) để hòa giải trước khi khởi kiện ra Tòa án!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có thể làm thủ tục về hòa giải tranh chấp đất đai trên điện thoại không, cần chuẩn bị gì?\n  (2) Người lớn tuổi cần hỗ trợ về hòa giải tranh chấp đất đai thì có thể nhờ ai hướng dẫn?\n  (3) Trong tình huống hòa giải tranh chấp đất đai, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (4) Nếu các bên không thống nhất về hòa giải tranh chấp đất đai, có thể đề nghị cơ quan nào hướng dẫn?\n  (5) Tôi nên kiểm tra thông tin chính thức về hòa giải tranh chấp đất đai trên kênh nào?",
+    "keywords": [
+      "đất đai",
+      "hòa giải tranh chấp đất đai",
+      "hòa",
+      "giải",
+      "tranh",
+      "chấp",
+      "đất",
+      "đai"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_048",
+    "category_id": "phap_luat_dan_su_dat_dai",
+    "category": "Pháp luật Dân sự, Đất đai & Hôn nhân",
+    "topic": "[Đất đai] Quy định pháp luật & Hướng dẫn xử lý: Bồi thường khi thu hồi đất",
+    "legal_basis": "Luật Đất đai số 31/2024/QH15 (hiệu lực từ 01/08/2024); Nghị định số 101/2024/NĐ-CP về điều tra cơ bản đất đai, đăng ký, cấp Giấy chứng nhận quyền sử dụng đất; Nghị định số 102/2024/NĐ-CP",
+    "summary": "Theo Chương VII (Điều 91 - 111) Luật Đất đai 2024: Khi Nhà nước thu hồi đất vì mục đích quốc phòng, an ninh hoặc phát triển kinh tế - xã hội vì lợi ích quốc gia, công cộng, người sử dụng đất đủ điều kiện được bồi thường bằng đất có cùng mục...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: BỒI THƯỜNG KHI THU HỒI ĐẤT (LĨNH VỰC: ĐẤT ĐAI)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Theo Chương VII (Điều 91 - 111) Luật Đất đai 2024: Khi Nhà nước thu hồi đất vì mục đích quốc phòng, an ninh hoặc phát triển kinh tế - xã hội vì lợi ích quốc gia, công cộng, người sử dụng đất đủ điều kiện được bồi thường bằng đất có cùng mục đích sử dụng, bằng tiền (theo giá đất cụ thể do UBND cấp có thẩm quyền quyết định), bằng nhà ở hoặc đất khác, đồng thời được hỗ trợ đào tạo, chuyển đổi nghề, ổn định đời sống và bố trí tái định cư trước khi thu hồi đất ở.\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: UBND xã Đức Hợp (xác nhận nguồn gốc đất, hòa giải tranh chấp đất đai bắt buộc), Chi nhánh Văn phòng Đăng ký đất đai & UBND cấp có thẩm quyền.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://vanban.chinhphu.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Đăng ký biến động đất đai: Từ 03 - 10 ngày làm việc. Cấp Giấy chứng nhận lần đầu: Không quá 20 ngày làm việc. Hòa giải tranh chấp đất đai tại UBND xã: Không quá 30 ngày (theo Điều 235 Luật Đất đai 2024).\n- Phí, lệ phí: Lệ phí cấp Giấy chứng nhận quyền sử dụng đất, lệ phí trước bạ (0,5%), thuế thu nhập cá nhân (2% khi chuyển nhượng, miễn thuế giữa vợ-chồng, cha mẹ-con, anh chị em ruột). Hòa giải tranh chấp đất đai tại UBND xã: Miễn phí.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Theo Điều 235 Luật Đất đai 2024, tranh chấp đất đai mà các bên không tự hòa giải được thì BẮT BUỘC phải gửi đơn đến UBND cấp xã nơi có đất (UBND xã Đức Hợp) để hòa giải trước khi khởi kiện ra Tòa án!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Trong tình huống bồi thường khi thu hồi đất, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (2) Nếu các bên không thống nhất về bồi thường khi thu hồi đất, có thể đề nghị cơ quan nào hướng dẫn?\n  (3) Tôi nên kiểm tra thông tin chính thức về bồi thường khi thu hồi đất trên kênh nào?\n  (4) Làm sao phân biệt hướng dẫn chính thức và dịch vụ giả mạo liên quan đến bồi thường khi thu hồi đất?\n  (5) Khi gặp vướng mắc về bồi thường khi thu hồi đất, tôi cần mô tả thông tin gì để được hỗ trợ?",
+    "keywords": [
+      "đất đai",
+      "bồi thường khi thu hồi đất",
+      "bồi",
+      "thường",
+      "khi",
+      "thu",
+      "hồi",
+      "đất"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_049",
+    "category_id": "bao_luc_gia_dinh_antt",
+    "category": "Bạo lực gia đình, Hôn nhân & Bảo vệ yếu thế",
+    "topic": "[Hôn nhân và gia đình] Quy định pháp luật & Hướng dẫn xử lý: Đăng ký kết hôn",
+    "legal_basis": "Luật Hôn nhân và gia đình số 52/2014/QH13; Luật Phòng, chống bạo lực gia đình số 13/2022/QH15; Nghị định số 144/2021/NĐ-CP (Điều 52 - 59)",
+    "summary": "Theo Điều 8 Luật Hôn nhân và gia đình 2014 & Điều 17, 18 Luật Hộ tịch 2014: Nam từ đủ 20 tuổi trở lên, nữ từ đủ 18 tuổi trở lên, tự nguyện kết hôn và không vi phạm điều cấm kết hôn thì nộp tờ khai đăng ký kết hôn trực tuyến trên Cổng DVC ho...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: ĐĂNG KÝ KẾT HÔN (LĨNH VỰC: HÔN NHÂN VÀ GIA ĐÌNH)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Theo Điều 8 Luật Hôn nhân và gia đình 2014 & Điều 17, 18 Luật Hộ tịch 2014: Nam từ đủ 20 tuổi trở lên, nữ từ đủ 18 tuổi trở lên, tự nguyện kết hôn và không vi phạm điều cấm kết hôn thì nộp tờ khai đăng ký kết hôn trực tuyến trên Cổng DVC hoặc tại UBND xã Đức Hợp (nơi cư trú của một trong hai bên). Khi nhận Giấy chứng nhận kết hôn, cả hai bên nam, nữ phải có mặt ký tên.\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: UBND xã Đức Hợp (đăng ký kết hôn, xác nhận tình trạng hôn nhân, ra Quyết định cấm tiếp xúc), Công an xã Đức Hợp (can thiệp khẩn cấp bạo lực gia đình 24/24h: 02213.815.999) & Tòa án nhân dân (giải quyết ly hôn, nuôi con, chia tài sản).\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://moj.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Can thiệp bạo lực gia đình của Công an xã Đức Hợp: Ngay lập tức (24/24h). Đăng ký kết hôn: Giải quyết ngay trong ngày. Thuận tình ly hôn tại Tòa án: Khoảng 01 - 02 tháng.\n- Phí, lệ phí: Đăng ký kết hôn tại UBND xã Đức Hợp: Miễn phí 100%. Án phí ly hôn không có giá ngạch tại Tòa án: 300.000 đồng. Trình báo và yêu cầu bảo vệ khi bị bạo lực gia đình: Hoàn toàn miễn phí.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Theo Điều 81 Luật Hôn nhân và gia đình 2014, con dưới 36 tháng tuổi được giao cho người mẹ trực tiếp nuôi (trừ khi người mẹ không đủ điều kiện). Khi bị chồng/vợ đánh đập, hãy gọi ngay Trực ban Công an xã Đức Hợp 02213.815.999 hoặc 113 để được bảo vệ tính mạng và áp dụng Lệnh cấm tiếp xúc!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Trong nhóm hôn nhân và gia đình, đăng ký kết hôn là gì và tôi có thể tìm hiểu ở đâu?\n  (2) Trong nhóm hôn nhân và gia đình, điều kiện hoặc căn cứ áp dụng với đăng ký kết hôn được hướng dẫn thế nào?\n  (3) Trong nhóm hôn nhân và gia đình, muốn thực hiện việc liên quan đến đăng ký kết hôn, tôi cần chuẩn bị giấy tờ gì?\n  (4) Các bước cần lưu ý khi xử lý việc liên quan đến đăng ký kết hôn là gì?\n  (5) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về đăng ký kết hôn?",
+    "keywords": [
+      "hôn nhân và gia đình",
+      "đăng ký kết hôn",
+      "đăng",
+      "kết",
+      "hôn"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_050",
+    "category_id": "bao_luc_gia_dinh_antt",
+    "category": "Bạo lực gia đình, Hôn nhân & Bảo vệ yếu thế",
+    "topic": "[Hôn nhân và gia đình] Quy định pháp luật & Hướng dẫn xử lý: Thủ tục ly hôn",
+    "legal_basis": "Luật Hôn nhân và gia đình số 52/2014/QH13; Luật Phòng, chống bạo lực gia đình số 13/2022/QH15; Nghị định số 144/2021/NĐ-CP (Điều 52 - 59)",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Hôn nhân và gia đình số 52/2014/QH13; Luật Phòng, chống bạo lực gia đình số 13/2022/QH15; Nghị định số 144/2021/NĐ-CP (Điều 52 - 59). Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ ...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: THỦ TỤC LY HÔN (LĨNH VỰC: HÔN NHÂN VÀ GIA ĐÌNH)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Hôn nhân và gia đình số 52/2014/QH13; Luật Phòng, chống bạo lực gia đình số 13/2022/QH15; Nghị định số 144/2021/NĐ-CP (Điều 52 - 59). Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://moj.gov.vn) hoặc liên hệ trực tiếp UBND xã Đức Hợp (đăng ký kết hôn, xác nhận tình trạng hôn nhân, ra Quyết định cấm tiếp xúc), Công an xã Đức Hợp (can thiệp khẩn cấp bạo lực gia đình 24/24h: 02213.815.999) & Tòa án nhân dân (giải quyết ly hôn, nuôi con, chia tài sản) để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Can thiệp bạo lực gia đình của Công an xã Đức Hợp: Ngay lập tức (24/24h). Đăng ký kết hôn: Giải quyết ngay trong ngày. Thuận tình ly hôn tại Tòa án: Khoảng 01 - 02 tháng.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: UBND xã Đức Hợp (đăng ký kết hôn, xác nhận tình trạng hôn nhân, ra Quyết định cấm tiếp xúc), Công an xã Đức Hợp (can thiệp khẩn cấp bạo lực gia đình 24/24h: 02213.815.999) & Tòa án nhân dân (giải quyết ly hôn, nuôi con, chia tài sản).\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://moj.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Can thiệp bạo lực gia đình của Công an xã Đức Hợp: Ngay lập tức (24/24h). Đăng ký kết hôn: Giải quyết ngay trong ngày. Thuận tình ly hôn tại Tòa án: Khoảng 01 - 02 tháng.\n- Phí, lệ phí: Đăng ký kết hôn tại UBND xã Đức Hợp: Miễn phí 100%. Án phí ly hôn không có giá ngạch tại Tòa án: 300.000 đồng. Trình báo và yêu cầu bảo vệ khi bị bạo lực gia đình: Hoàn toàn miễn phí.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Theo Điều 81 Luật Hôn nhân và gia đình 2014, con dưới 36 tháng tuổi được giao cho người mẹ trực tiếp nuôi (trừ khi người mẹ không đủ điều kiện). Khi bị chồng/vợ đánh đập, hãy gọi ngay Trực ban Công an xã Đức Hợp 02213.815.999 hoặc 113 để được bảo vệ tính mạng và áp dụng Lệnh cấm tiếp xúc!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Các bước cần lưu ý khi xử lý việc liên quan đến thủ tục ly hôn là gì?\n  (2) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về thủ tục ly hôn?\n  (3) Có mốc thời gian nào cần lưu ý khi xử lý việc liên quan đến thủ tục ly hôn không?\n  (4) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến thủ tục ly hôn không?\n  (5) Nếu mất giấy tờ hoặc bằng chứng liên quan đến thủ tục ly hôn, tôi nên bắt đầu từ đâu?",
+    "keywords": [
+      "hôn nhân và gia đình",
+      "thủ tục ly hôn",
+      "thủ",
+      "tục",
+      "hôn"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_051",
+    "category_id": "bao_luc_gia_dinh_antt",
+    "category": "Bạo lực gia đình, Hôn nhân & Bảo vệ yếu thế",
+    "topic": "[Hôn nhân và gia đình] Quy định pháp luật & Hướng dẫn xử lý: Nuôi con sau ly hôn",
+    "legal_basis": "Luật Hôn nhân và gia đình số 52/2014/QH13; Luật Phòng, chống bạo lực gia đình số 13/2022/QH15; Nghị định số 144/2021/NĐ-CP (Điều 52 - 59)",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Hôn nhân và gia đình số 52/2014/QH13; Luật Phòng, chống bạo lực gia đình số 13/2022/QH15; Nghị định số 144/2021/NĐ-CP (Điều 52 - 59). Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ ...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: NUÔI CON SAU LY HÔN (LĨNH VỰC: HÔN NHÂN VÀ GIA ĐÌNH)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Hôn nhân và gia đình số 52/2014/QH13; Luật Phòng, chống bạo lực gia đình số 13/2022/QH15; Nghị định số 144/2021/NĐ-CP (Điều 52 - 59). Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://moj.gov.vn) hoặc liên hệ trực tiếp UBND xã Đức Hợp (đăng ký kết hôn, xác nhận tình trạng hôn nhân, ra Quyết định cấm tiếp xúc), Công an xã Đức Hợp (can thiệp khẩn cấp bạo lực gia đình 24/24h: 02213.815.999) & Tòa án nhân dân (giải quyết ly hôn, nuôi con, chia tài sản) để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Can thiệp bạo lực gia đình của Công an xã Đức Hợp: Ngay lập tức (24/24h). Đăng ký kết hôn: Giải quyết ngay trong ngày. Thuận tình ly hôn tại Tòa án: Khoảng 01 - 02 tháng.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: UBND xã Đức Hợp (đăng ký kết hôn, xác nhận tình trạng hôn nhân, ra Quyết định cấm tiếp xúc), Công an xã Đức Hợp (can thiệp khẩn cấp bạo lực gia đình 24/24h: 02213.815.999) & Tòa án nhân dân (giải quyết ly hôn, nuôi con, chia tài sản).\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://moj.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Can thiệp bạo lực gia đình của Công an xã Đức Hợp: Ngay lập tức (24/24h). Đăng ký kết hôn: Giải quyết ngay trong ngày. Thuận tình ly hôn tại Tòa án: Khoảng 01 - 02 tháng.\n- Phí, lệ phí: Đăng ký kết hôn tại UBND xã Đức Hợp: Miễn phí 100%. Án phí ly hôn không có giá ngạch tại Tòa án: 300.000 đồng. Trình báo và yêu cầu bảo vệ khi bị bạo lực gia đình: Hoàn toàn miễn phí.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Theo Điều 81 Luật Hôn nhân và gia đình 2014, con dưới 36 tháng tuổi được giao cho người mẹ trực tiếp nuôi (trừ khi người mẹ không đủ điều kiện). Khi bị chồng/vợ đánh đập, hãy gọi ngay Trực ban Công an xã Đức Hợp 02213.815.999 hoặc 113 để được bảo vệ tính mạng và áp dụng Lệnh cấm tiếp xúc!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến nuôi con sau ly hôn không?\n  (2) Nếu mất giấy tờ hoặc bằng chứng liên quan đến nuôi con sau ly hôn, tôi nên bắt đầu từ đâu?\n  (3) Khi thông tin về nuôi con sau ly hôn bị sai hoặc thay đổi, cần liên hệ nơi nào?\n  (4) Tôi có thể nhờ người thân làm thay việc về nuôi con sau ly hôn không, cần hỏi rõ điều gì?\n  (5) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến nuôi con sau ly hôn, tôi cần tìm hiểu điều gì?",
+    "keywords": [
+      "hôn nhân và gia đình",
+      "nuôi con sau ly hôn",
+      "nuôi",
+      "con",
+      "sau",
+      "hôn"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_052",
+    "category_id": "bao_luc_gia_dinh_antt",
+    "category": "Bạo lực gia đình, Hôn nhân & Bảo vệ yếu thế",
+    "topic": "[Hôn nhân và gia đình] Quy định pháp luật & Hướng dẫn xử lý: Cấp dưỡng cho con",
+    "legal_basis": "Luật Hôn nhân và gia đình số 52/2014/QH13; Luật Phòng, chống bạo lực gia đình số 13/2022/QH15; Nghị định số 144/2021/NĐ-CP (Điều 52 - 59)",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Hôn nhân và gia đình số 52/2014/QH13; Luật Phòng, chống bạo lực gia đình số 13/2022/QH15; Nghị định số 144/2021/NĐ-CP (Điều 52 - 59). Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ ...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: CẤP DƯỠNG CHO CON (LĨNH VỰC: HÔN NHÂN VÀ GIA ĐÌNH)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Hôn nhân và gia đình số 52/2014/QH13; Luật Phòng, chống bạo lực gia đình số 13/2022/QH15; Nghị định số 144/2021/NĐ-CP (Điều 52 - 59). Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://moj.gov.vn) hoặc liên hệ trực tiếp UBND xã Đức Hợp (đăng ký kết hôn, xác nhận tình trạng hôn nhân, ra Quyết định cấm tiếp xúc), Công an xã Đức Hợp (can thiệp khẩn cấp bạo lực gia đình 24/24h: 02213.815.999) & Tòa án nhân dân (giải quyết ly hôn, nuôi con, chia tài sản) để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Can thiệp bạo lực gia đình của Công an xã Đức Hợp: Ngay lập tức (24/24h). Đăng ký kết hôn: Giải quyết ngay trong ngày. Thuận tình ly hôn tại Tòa án: Khoảng 01 - 02 tháng.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: UBND xã Đức Hợp (đăng ký kết hôn, xác nhận tình trạng hôn nhân, ra Quyết định cấm tiếp xúc), Công an xã Đức Hợp (can thiệp khẩn cấp bạo lực gia đình 24/24h: 02213.815.999) & Tòa án nhân dân (giải quyết ly hôn, nuôi con, chia tài sản).\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://moj.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Can thiệp bạo lực gia đình của Công an xã Đức Hợp: Ngay lập tức (24/24h). Đăng ký kết hôn: Giải quyết ngay trong ngày. Thuận tình ly hôn tại Tòa án: Khoảng 01 - 02 tháng.\n- Phí, lệ phí: Đăng ký kết hôn tại UBND xã Đức Hợp: Miễn phí 100%. Án phí ly hôn không có giá ngạch tại Tòa án: 300.000 đồng. Trình báo và yêu cầu bảo vệ khi bị bạo lực gia đình: Hoàn toàn miễn phí.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Theo Điều 81 Luật Hôn nhân và gia đình 2014, con dưới 36 tháng tuổi được giao cho người mẹ trực tiếp nuôi (trừ khi người mẹ không đủ điều kiện). Khi bị chồng/vợ đánh đập, hãy gọi ngay Trực ban Công an xã Đức Hợp 02213.815.999 hoặc 113 để được bảo vệ tính mạng và áp dụng Lệnh cấm tiếp xúc!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Tôi có thể nhờ người thân làm thay việc về cấp dưỡng cho con không, cần hỏi rõ điều gì?\n  (2) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến cấp dưỡng cho con, tôi cần tìm hiểu điều gì?\n  (3) Sau khi gửi yêu cầu liên quan đến cấp dưỡng cho con, tôi có thể theo dõi tiến độ thế nào?\n  (4) Người dân ở xã xa trung tâm muốn xử lý việc cấp dưỡng cho con thì nên hỏi cơ quan nào?\n  (5) Người lớn tuổi cần hỗ trợ về cấp dưỡng cho con thì có thể nhờ ai hướng dẫn?",
+    "keywords": [
+      "hôn nhân và gia đình",
+      "cấp dưỡng cho con",
+      "cấp",
+      "dưỡng",
+      "cho",
+      "con"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_053",
+    "category_id": "bao_luc_gia_dinh_antt",
+    "category": "Bạo lực gia đình, Hôn nhân & Bảo vệ yếu thế",
+    "topic": "[Hôn nhân và gia đình] Quy định pháp luật & Hướng dẫn xử lý: Chia tài sản chung vợ chồng",
+    "legal_basis": "Luật Hôn nhân và gia đình số 52/2014/QH13; Luật Phòng, chống bạo lực gia đình số 13/2022/QH15; Nghị định số 144/2021/NĐ-CP (Điều 52 - 59)",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Hôn nhân và gia đình số 52/2014/QH13; Luật Phòng, chống bạo lực gia đình số 13/2022/QH15; Nghị định số 144/2021/NĐ-CP (Điều 52 - 59). Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ ...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: CHIA TÀI SẢN CHUNG VỢ CHỒNG (LĨNH VỰC: HÔN NHÂN VÀ GIA ĐÌNH)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Hôn nhân và gia đình số 52/2014/QH13; Luật Phòng, chống bạo lực gia đình số 13/2022/QH15; Nghị định số 144/2021/NĐ-CP (Điều 52 - 59). Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://moj.gov.vn) hoặc liên hệ trực tiếp UBND xã Đức Hợp (đăng ký kết hôn, xác nhận tình trạng hôn nhân, ra Quyết định cấm tiếp xúc), Công an xã Đức Hợp (can thiệp khẩn cấp bạo lực gia đình 24/24h: 02213.815.999) & Tòa án nhân dân (giải quyết ly hôn, nuôi con, chia tài sản) để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Can thiệp bạo lực gia đình của Công an xã Đức Hợp: Ngay lập tức (24/24h). Đăng ký kết hôn: Giải quyết ngay trong ngày. Thuận tình ly hôn tại Tòa án: Khoảng 01 - 02 tháng.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: UBND xã Đức Hợp (đăng ký kết hôn, xác nhận tình trạng hôn nhân, ra Quyết định cấm tiếp xúc), Công an xã Đức Hợp (can thiệp khẩn cấp bạo lực gia đình 24/24h: 02213.815.999) & Tòa án nhân dân (giải quyết ly hôn, nuôi con, chia tài sản).\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://moj.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Can thiệp bạo lực gia đình của Công an xã Đức Hợp: Ngay lập tức (24/24h). Đăng ký kết hôn: Giải quyết ngay trong ngày. Thuận tình ly hôn tại Tòa án: Khoảng 01 - 02 tháng.\n- Phí, lệ phí: Đăng ký kết hôn tại UBND xã Đức Hợp: Miễn phí 100%. Án phí ly hôn không có giá ngạch tại Tòa án: 300.000 đồng. Trình báo và yêu cầu bảo vệ khi bị bạo lực gia đình: Hoàn toàn miễn phí.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Theo Điều 81 Luật Hôn nhân và gia đình 2014, con dưới 36 tháng tuổi được giao cho người mẹ trực tiếp nuôi (trừ khi người mẹ không đủ điều kiện). Khi bị chồng/vợ đánh đập, hãy gọi ngay Trực ban Công an xã Đức Hợp 02213.815.999 hoặc 113 để được bảo vệ tính mạng và áp dụng Lệnh cấm tiếp xúc!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có thể làm thủ tục về chia tài sản chung vợ chồng trên điện thoại không, cần chuẩn bị gì?\n  (2) Người lớn tuổi cần hỗ trợ về chia tài sản chung vợ chồng thì có thể nhờ ai hướng dẫn?\n  (3) Trong tình huống chia tài sản chung vợ chồng, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (4) Nếu các bên không thống nhất về chia tài sản chung vợ chồng, có thể đề nghị cơ quan nào hướng dẫn?\n  (5) Tôi nên kiểm tra thông tin chính thức về chia tài sản chung vợ chồng trên kênh nào?",
+    "keywords": [
+      "hôn nhân và gia đình",
+      "chia tài sản chung vợ chồng",
+      "chia",
+      "tài",
+      "sản",
+      "chung",
+      "chồng"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_054",
+    "category_id": "bao_luc_gia_dinh_antt",
+    "category": "Bạo lực gia đình, Hôn nhân & Bảo vệ yếu thế",
+    "topic": "[Hôn nhân và gia đình] Quy định pháp luật & Hướng dẫn xử lý: Bạo lực gia đình và nơi hỗ trợ",
+    "legal_basis": "Luật Hôn nhân và gia đình số 52/2014/QH13; Luật Phòng, chống bạo lực gia đình số 13/2022/QH15; Nghị định số 144/2021/NĐ-CP (Điều 52 - 59)",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Hôn nhân và gia đình số 52/2014/QH13; Luật Phòng, chống bạo lực gia đình số 13/2022/QH15; Nghị định số 144/2021/NĐ-CP (Điều 52 - 59). Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ ...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: BẠO LỰC GIA ĐÌNH VÀ NƠI HỖ TRỢ (LĨNH VỰC: HÔN NHÂN VÀ GIA ĐÌNH)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Hôn nhân và gia đình số 52/2014/QH13; Luật Phòng, chống bạo lực gia đình số 13/2022/QH15; Nghị định số 144/2021/NĐ-CP (Điều 52 - 59). Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://moj.gov.vn) hoặc liên hệ trực tiếp UBND xã Đức Hợp (đăng ký kết hôn, xác nhận tình trạng hôn nhân, ra Quyết định cấm tiếp xúc), Công an xã Đức Hợp (can thiệp khẩn cấp bạo lực gia đình 24/24h: 02213.815.999) & Tòa án nhân dân (giải quyết ly hôn, nuôi con, chia tài sản) để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Can thiệp bạo lực gia đình của Công an xã Đức Hợp: Ngay lập tức (24/24h). Đăng ký kết hôn: Giải quyết ngay trong ngày. Thuận tình ly hôn tại Tòa án: Khoảng 01 - 02 tháng.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: UBND xã Đức Hợp (đăng ký kết hôn, xác nhận tình trạng hôn nhân, ra Quyết định cấm tiếp xúc), Công an xã Đức Hợp (can thiệp khẩn cấp bạo lực gia đình 24/24h: 02213.815.999) & Tòa án nhân dân (giải quyết ly hôn, nuôi con, chia tài sản).\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://moj.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Can thiệp bạo lực gia đình của Công an xã Đức Hợp: Ngay lập tức (24/24h). Đăng ký kết hôn: Giải quyết ngay trong ngày. Thuận tình ly hôn tại Tòa án: Khoảng 01 - 02 tháng.\n- Phí, lệ phí: Đăng ký kết hôn tại UBND xã Đức Hợp: Miễn phí 100%. Án phí ly hôn không có giá ngạch tại Tòa án: 300.000 đồng. Trình báo và yêu cầu bảo vệ khi bị bạo lực gia đình: Hoàn toàn miễn phí.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Theo Điều 81 Luật Hôn nhân và gia đình 2014, con dưới 36 tháng tuổi được giao cho người mẹ trực tiếp nuôi (trừ khi người mẹ không đủ điều kiện). Khi bị chồng/vợ đánh đập, hãy gọi ngay Trực ban Công an xã Đức Hợp 02213.815.999 hoặc 113 để được bảo vệ tính mạng và áp dụng Lệnh cấm tiếp xúc!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Trong tình huống bạo lực gia đình và nơi hỗ trợ, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (2) Nếu các bên không thống nhất về bạo lực gia đình và nơi hỗ trợ, có thể đề nghị cơ quan nào hướng dẫn?\n  (3) Tôi nên kiểm tra thông tin chính thức về bạo lực gia đình và nơi hỗ trợ trên kênh nào?\n  (4) Làm sao phân biệt hướng dẫn chính thức và dịch vụ giả mạo liên quan đến bạo lực gia đình và nơi hỗ trợ?\n  (5) Khi gặp vướng mắc về bạo lực gia đình và nơi hỗ trợ, tôi cần mô tả thông tin gì để được hỗ trợ?",
+    "keywords": [
+      "hôn nhân và gia đình",
+      "bạo lực gia đình và nơi hỗ trợ",
+      "bạo",
+      "lực",
+      "gia",
+      "đình",
+      "nơi",
+      "trợ"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_055",
+    "category_id": "bao_luc_gia_dinh_antt",
+    "category": "Bạo lực gia đình, Hôn nhân & Bảo vệ yếu thế",
+    "topic": "[Trẻ em] Quy định pháp luật & Hướng dẫn xử lý: Đăng ký khai sinh cho trẻ",
+    "legal_basis": "Luật Trẻ em số 102/2016/QH13; Nghị định số 56/2017/NĐ-CP quy định chi tiết Luật Trẻ em; Nghị định số 130/2021/NĐ-CP về xử phạt VPHC trong lĩnh vực bảo trợ, trợ giúp xã hội và trẻ em",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Trẻ em số 102/2016/QH13; Nghị định số 56/2017/NĐ-CP quy định chi tiết Luật Trẻ em; Nghị định số 130/2021/NĐ-CP về xử phạt VPHC trong lĩnh vực bảo trợ, trợ giúp xã hội và trẻ em. Công dân thực hiện tr...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: ĐĂNG KÝ KHAI SINH CHO TRẺ (LĨNH VỰC: TRẺ EM)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Trẻ em số 102/2016/QH13; Nghị định số 56/2017/NĐ-CP quy định chi tiết Luật Trẻ em; Nghị định số 130/2021/NĐ-CP về xử phạt VPHC trong lĩnh vực bảo trợ, trợ giúp xã hội và trẻ em. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://tongdai111.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (02213.815.999), UBND xã Đức Hợp (Cán bộ Lao động - Thương binh và Xã hội) & Tổng đài Quốc gia Bảo vệ Trẻ em 111 để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Tiếp nhận tin báo trẻ em bị xâm hại, bạo lực, bỏ rơi: Xử lý khẩn cấp ngay lập tức 24/24h. Cấp thẻ BHYT liên thông cho trẻ dưới 6 tuổi: 02 - 03 ngày làm việc.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (02213.815.999), UBND xã Đức Hợp (Cán bộ Lao động - Thương binh và Xã hội) & Tổng đài Quốc gia Bảo vệ Trẻ em 111.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://tongdai111.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Tiếp nhận tin báo trẻ em bị xâm hại, bạo lực, bỏ rơi: Xử lý khẩn cấp ngay lập tức 24/24h. Cấp thẻ BHYT liên thông cho trẻ dưới 6 tuổi: 02 - 03 ngày làm việc.\n- Phí, lệ phí: Mọi thủ tục bảo vệ trẻ em, cấp thẻ BHYT cho trẻ em dưới 6 tuổi, khai sinh đúng hạn và gọi Tổng đài 111 đều hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Mọi hành vi xâm hại, bạo hành, bóc lột sức lao động trẻ em hoặc phát tán thông tin đời tư trẻ em lên mạng xã hội trái phép đều bị xử phạt nghiêm khắc từ 10 - 30 triệu đồng hoặc truy cứu trách nhiệm hình sự.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Đăng ký khai sinh cho trẻ là gì và tôi có thể tìm hiểu ở đâu?\n  (2) Điều kiện hoặc căn cứ áp dụng với đăng ký khai sinh cho trẻ được hướng dẫn thế nào?\n  (3) Muốn thực hiện việc liên quan đến đăng ký khai sinh cho trẻ, tôi cần chuẩn bị giấy tờ gì?\n  (4) Các bước cần lưu ý khi xử lý việc liên quan đến đăng ký khai sinh cho trẻ là gì?\n  (5) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về đăng ký khai sinh cho trẻ?",
+    "keywords": [
+      "trẻ em",
+      "đăng ký khai sinh cho trẻ",
+      "đăng",
+      "khai",
+      "sinh",
+      "cho",
+      "trẻ"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_056",
+    "category_id": "bao_luc_gia_dinh_antt",
+    "category": "Bạo lực gia đình, Hôn nhân & Bảo vệ yếu thế",
+    "topic": "[Trẻ em] Quy định pháp luật & Hướng dẫn xử lý: Quyền được bảo vệ của trẻ em",
+    "legal_basis": "Luật Trẻ em số 102/2016/QH13; Nghị định số 56/2017/NĐ-CP quy định chi tiết Luật Trẻ em; Nghị định số 130/2021/NĐ-CP về xử phạt VPHC trong lĩnh vực bảo trợ, trợ giúp xã hội và trẻ em",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Trẻ em số 102/2016/QH13; Nghị định số 56/2017/NĐ-CP quy định chi tiết Luật Trẻ em; Nghị định số 130/2021/NĐ-CP về xử phạt VPHC trong lĩnh vực bảo trợ, trợ giúp xã hội và trẻ em. Công dân thực hiện tr...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: QUYỀN ĐƯỢC BẢO VỆ CỦA TRẺ EM (LĨNH VỰC: TRẺ EM)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Trẻ em số 102/2016/QH13; Nghị định số 56/2017/NĐ-CP quy định chi tiết Luật Trẻ em; Nghị định số 130/2021/NĐ-CP về xử phạt VPHC trong lĩnh vực bảo trợ, trợ giúp xã hội và trẻ em. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://tongdai111.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (02213.815.999), UBND xã Đức Hợp (Cán bộ Lao động - Thương binh và Xã hội) & Tổng đài Quốc gia Bảo vệ Trẻ em 111 để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Tiếp nhận tin báo trẻ em bị xâm hại, bạo lực, bỏ rơi: Xử lý khẩn cấp ngay lập tức 24/24h. Cấp thẻ BHYT liên thông cho trẻ dưới 6 tuổi: 02 - 03 ngày làm việc.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (02213.815.999), UBND xã Đức Hợp (Cán bộ Lao động - Thương binh và Xã hội) & Tổng đài Quốc gia Bảo vệ Trẻ em 111.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://tongdai111.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Tiếp nhận tin báo trẻ em bị xâm hại, bạo lực, bỏ rơi: Xử lý khẩn cấp ngay lập tức 24/24h. Cấp thẻ BHYT liên thông cho trẻ dưới 6 tuổi: 02 - 03 ngày làm việc.\n- Phí, lệ phí: Mọi thủ tục bảo vệ trẻ em, cấp thẻ BHYT cho trẻ em dưới 6 tuổi, khai sinh đúng hạn và gọi Tổng đài 111 đều hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Mọi hành vi xâm hại, bạo hành, bóc lột sức lao động trẻ em hoặc phát tán thông tin đời tư trẻ em lên mạng xã hội trái phép đều bị xử phạt nghiêm khắc từ 10 - 30 triệu đồng hoặc truy cứu trách nhiệm hình sự.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Các bước cần lưu ý khi xử lý việc liên quan đến quyền được bảo vệ của trẻ em là gì?\n  (2) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về quyền được bảo vệ của trẻ em?\n  (3) Có mốc thời gian nào cần lưu ý khi xử lý việc liên quan đến quyền được bảo vệ của trẻ em không?\n  (4) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến quyền được bảo vệ của trẻ em không?\n  (5) Nếu mất giấy tờ hoặc bằng chứng liên quan đến quyền được bảo vệ của trẻ em, tôi nên bắt đầu từ đâu?",
+    "keywords": [
+      "trẻ em",
+      "quyền được bảo vệ của trẻ em",
+      "quyền",
+      "được",
+      "bảo",
+      "của",
+      "trẻ"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_057",
+    "category_id": "bao_luc_gia_dinh_antt",
+    "category": "Bạo lực gia đình, Hôn nhân & Bảo vệ yếu thế",
+    "topic": "[Trẻ em] Quy định pháp luật & Hướng dẫn xử lý: Trẻ em bị bạo lực hoặc xâm hại",
+    "legal_basis": "Luật Trẻ em số 102/2016/QH13; Nghị định số 56/2017/NĐ-CP quy định chi tiết Luật Trẻ em; Nghị định số 130/2021/NĐ-CP về xử phạt VPHC trong lĩnh vực bảo trợ, trợ giúp xã hội và trẻ em",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Trẻ em số 102/2016/QH13; Nghị định số 56/2017/NĐ-CP quy định chi tiết Luật Trẻ em; Nghị định số 130/2021/NĐ-CP về xử phạt VPHC trong lĩnh vực bảo trợ, trợ giúp xã hội và trẻ em. Công dân thực hiện tr...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: TRẺ EM BỊ BẠO LỰC HOẶC XÂM HẠI (LĨNH VỰC: TRẺ EM)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Trẻ em số 102/2016/QH13; Nghị định số 56/2017/NĐ-CP quy định chi tiết Luật Trẻ em; Nghị định số 130/2021/NĐ-CP về xử phạt VPHC trong lĩnh vực bảo trợ, trợ giúp xã hội và trẻ em. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://tongdai111.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (02213.815.999), UBND xã Đức Hợp (Cán bộ Lao động - Thương binh và Xã hội) & Tổng đài Quốc gia Bảo vệ Trẻ em 111 để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Tiếp nhận tin báo trẻ em bị xâm hại, bạo lực, bỏ rơi: Xử lý khẩn cấp ngay lập tức 24/24h. Cấp thẻ BHYT liên thông cho trẻ dưới 6 tuổi: 02 - 03 ngày làm việc.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (02213.815.999), UBND xã Đức Hợp (Cán bộ Lao động - Thương binh và Xã hội) & Tổng đài Quốc gia Bảo vệ Trẻ em 111.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://tongdai111.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Tiếp nhận tin báo trẻ em bị xâm hại, bạo lực, bỏ rơi: Xử lý khẩn cấp ngay lập tức 24/24h. Cấp thẻ BHYT liên thông cho trẻ dưới 6 tuổi: 02 - 03 ngày làm việc.\n- Phí, lệ phí: Mọi thủ tục bảo vệ trẻ em, cấp thẻ BHYT cho trẻ em dưới 6 tuổi, khai sinh đúng hạn và gọi Tổng đài 111 đều hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Mọi hành vi xâm hại, bạo hành, bóc lột sức lao động trẻ em hoặc phát tán thông tin đời tư trẻ em lên mạng xã hội trái phép đều bị xử phạt nghiêm khắc từ 10 - 30 triệu đồng hoặc truy cứu trách nhiệm hình sự.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến trẻ em bị bạo lực hoặc xâm hại không?\n  (2) Nếu mất giấy tờ hoặc bằng chứng liên quan đến trẻ em bị bạo lực hoặc xâm hại, tôi nên bắt đầu từ đâu?\n  (3) Khi thông tin về trẻ em bị bạo lực hoặc xâm hại bị sai hoặc thay đổi, cần liên hệ nơi nào?\n  (4) Tôi có thể nhờ người thân làm thay việc về trẻ em bị bạo lực hoặc xâm hại không, cần hỏi rõ điều gì?\n  (5) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến trẻ em bị bạo lực hoặc xâm hại, tôi cần tìm hiểu điều gì?",
+    "keywords": [
+      "trẻ em",
+      "trẻ em bị bạo lực hoặc xâm hại",
+      "trẻ",
+      "bạo",
+      "lực",
+      "hoặc",
+      "xâm",
+      "hại"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_058",
+    "category_id": "bao_luc_gia_dinh_antt",
+    "category": "Bạo lực gia đình, Hôn nhân & Bảo vệ yếu thế",
+    "topic": "[Trẻ em] Quy định pháp luật & Hướng dẫn xử lý: Hỗ trợ trẻ hoàn cảnh khó khăn",
+    "legal_basis": "Luật Trẻ em số 102/2016/QH13; Nghị định số 56/2017/NĐ-CP quy định chi tiết Luật Trẻ em; Nghị định số 130/2021/NĐ-CP về xử phạt VPHC trong lĩnh vực bảo trợ, trợ giúp xã hội và trẻ em",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Trẻ em số 102/2016/QH13; Nghị định số 56/2017/NĐ-CP quy định chi tiết Luật Trẻ em; Nghị định số 130/2021/NĐ-CP về xử phạt VPHC trong lĩnh vực bảo trợ, trợ giúp xã hội và trẻ em. Công dân thực hiện tr...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: HỖ TRỢ TRẺ HOÀN CẢNH KHÓ KHĂN (LĨNH VỰC: TRẺ EM)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Trẻ em số 102/2016/QH13; Nghị định số 56/2017/NĐ-CP quy định chi tiết Luật Trẻ em; Nghị định số 130/2021/NĐ-CP về xử phạt VPHC trong lĩnh vực bảo trợ, trợ giúp xã hội và trẻ em. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://tongdai111.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (02213.815.999), UBND xã Đức Hợp (Cán bộ Lao động - Thương binh và Xã hội) & Tổng đài Quốc gia Bảo vệ Trẻ em 111 để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Tiếp nhận tin báo trẻ em bị xâm hại, bạo lực, bỏ rơi: Xử lý khẩn cấp ngay lập tức 24/24h. Cấp thẻ BHYT liên thông cho trẻ dưới 6 tuổi: 02 - 03 ngày làm việc.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (02213.815.999), UBND xã Đức Hợp (Cán bộ Lao động - Thương binh và Xã hội) & Tổng đài Quốc gia Bảo vệ Trẻ em 111.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://tongdai111.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Tiếp nhận tin báo trẻ em bị xâm hại, bạo lực, bỏ rơi: Xử lý khẩn cấp ngay lập tức 24/24h. Cấp thẻ BHYT liên thông cho trẻ dưới 6 tuổi: 02 - 03 ngày làm việc.\n- Phí, lệ phí: Mọi thủ tục bảo vệ trẻ em, cấp thẻ BHYT cho trẻ em dưới 6 tuổi, khai sinh đúng hạn và gọi Tổng đài 111 đều hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Mọi hành vi xâm hại, bạo hành, bóc lột sức lao động trẻ em hoặc phát tán thông tin đời tư trẻ em lên mạng xã hội trái phép đều bị xử phạt nghiêm khắc từ 10 - 30 triệu đồng hoặc truy cứu trách nhiệm hình sự.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Tôi có thể nhờ người thân làm thay việc về hỗ trợ trẻ hoàn cảnh khó khăn không, cần hỏi rõ điều gì?\n  (2) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến hỗ trợ trẻ hoàn cảnh khó khăn, tôi cần tìm hiểu điều gì?\n  (3) Sau khi gửi yêu cầu liên quan đến hỗ trợ trẻ hoàn cảnh khó khăn, tôi có thể theo dõi tiến độ thế nào?\n  (4) Người dân ở xã xa trung tâm muốn xử lý việc hỗ trợ trẻ hoàn cảnh khó khăn thì nên hỏi cơ quan nào?\n  (5) Người lớn tuổi cần hỗ trợ về hỗ trợ trẻ hoàn cảnh khó khăn thì có thể nhờ ai hướng dẫn?",
+    "keywords": [
+      "trẻ em",
+      "hỗ trợ trẻ hoàn cảnh khó khăn",
+      "trợ",
+      "trẻ",
+      "hoàn",
+      "cảnh",
+      "khó",
+      "khăn"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_059",
+    "category_id": "bao_luc_gia_dinh_antt",
+    "category": "Bạo lực gia đình, Hôn nhân & Bảo vệ yếu thế",
+    "topic": "[Trẻ em] Quy định pháp luật & Hướng dẫn xử lý: An toàn của trẻ trên mạng",
+    "legal_basis": "Luật Trẻ em số 102/2016/QH13; Nghị định số 56/2017/NĐ-CP quy định chi tiết Luật Trẻ em; Nghị định số 130/2021/NĐ-CP về xử phạt VPHC trong lĩnh vực bảo trợ, trợ giúp xã hội và trẻ em",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Trẻ em số 102/2016/QH13; Nghị định số 56/2017/NĐ-CP quy định chi tiết Luật Trẻ em; Nghị định số 130/2021/NĐ-CP về xử phạt VPHC trong lĩnh vực bảo trợ, trợ giúp xã hội và trẻ em. Công dân thực hiện tr...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: AN TOÀN CỦA TRẺ TRÊN MẠNG (LĨNH VỰC: TRẺ EM)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Trẻ em số 102/2016/QH13; Nghị định số 56/2017/NĐ-CP quy định chi tiết Luật Trẻ em; Nghị định số 130/2021/NĐ-CP về xử phạt VPHC trong lĩnh vực bảo trợ, trợ giúp xã hội và trẻ em. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://tongdai111.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (02213.815.999), UBND xã Đức Hợp (Cán bộ Lao động - Thương binh và Xã hội) & Tổng đài Quốc gia Bảo vệ Trẻ em 111 để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Tiếp nhận tin báo trẻ em bị xâm hại, bạo lực, bỏ rơi: Xử lý khẩn cấp ngay lập tức 24/24h. Cấp thẻ BHYT liên thông cho trẻ dưới 6 tuổi: 02 - 03 ngày làm việc.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (02213.815.999), UBND xã Đức Hợp (Cán bộ Lao động - Thương binh và Xã hội) & Tổng đài Quốc gia Bảo vệ Trẻ em 111.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://tongdai111.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Tiếp nhận tin báo trẻ em bị xâm hại, bạo lực, bỏ rơi: Xử lý khẩn cấp ngay lập tức 24/24h. Cấp thẻ BHYT liên thông cho trẻ dưới 6 tuổi: 02 - 03 ngày làm việc.\n- Phí, lệ phí: Mọi thủ tục bảo vệ trẻ em, cấp thẻ BHYT cho trẻ em dưới 6 tuổi, khai sinh đúng hạn và gọi Tổng đài 111 đều hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Mọi hành vi xâm hại, bạo hành, bóc lột sức lao động trẻ em hoặc phát tán thông tin đời tư trẻ em lên mạng xã hội trái phép đều bị xử phạt nghiêm khắc từ 10 - 30 triệu đồng hoặc truy cứu trách nhiệm hình sự.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có thể làm thủ tục về an toàn của trẻ trên mạng trên điện thoại không, cần chuẩn bị gì?\n  (2) Người lớn tuổi cần hỗ trợ về an toàn của trẻ trên mạng thì có thể nhờ ai hướng dẫn?\n  (3) Trong tình huống an toàn của trẻ trên mạng, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (4) Nếu các bên không thống nhất về an toàn của trẻ trên mạng, có thể đề nghị cơ quan nào hướng dẫn?\n  (5) Tôi nên kiểm tra thông tin chính thức về an toàn của trẻ trên mạng trên kênh nào?",
+    "keywords": [
+      "trẻ em",
+      "an toàn của trẻ trên mạng",
+      "toàn",
+      "của",
+      "trẻ",
+      "trên",
+      "mạng"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_060",
+    "category_id": "bao_luc_gia_dinh_antt",
+    "category": "Bạo lực gia đình, Hôn nhân & Bảo vệ yếu thế",
+    "topic": "[Trẻ em] Quy định pháp luật & Hướng dẫn xử lý: Nơi báo tin bảo vệ trẻ",
+    "legal_basis": "Luật Trẻ em số 102/2016/QH13; Nghị định số 56/2017/NĐ-CP quy định chi tiết Luật Trẻ em; Nghị định số 130/2021/NĐ-CP về xử phạt VPHC trong lĩnh vực bảo trợ, trợ giúp xã hội và trẻ em",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Trẻ em số 102/2016/QH13; Nghị định số 56/2017/NĐ-CP quy định chi tiết Luật Trẻ em; Nghị định số 130/2021/NĐ-CP về xử phạt VPHC trong lĩnh vực bảo trợ, trợ giúp xã hội và trẻ em. Công dân thực hiện tr...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: NƠI BÁO TIN BẢO VỆ TRẺ (LĨNH VỰC: TRẺ EM)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Trẻ em số 102/2016/QH13; Nghị định số 56/2017/NĐ-CP quy định chi tiết Luật Trẻ em; Nghị định số 130/2021/NĐ-CP về xử phạt VPHC trong lĩnh vực bảo trợ, trợ giúp xã hội và trẻ em. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://tongdai111.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (02213.815.999), UBND xã Đức Hợp (Cán bộ Lao động - Thương binh và Xã hội) & Tổng đài Quốc gia Bảo vệ Trẻ em 111 để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Tiếp nhận tin báo trẻ em bị xâm hại, bạo lực, bỏ rơi: Xử lý khẩn cấp ngay lập tức 24/24h. Cấp thẻ BHYT liên thông cho trẻ dưới 6 tuổi: 02 - 03 ngày làm việc.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (02213.815.999), UBND xã Đức Hợp (Cán bộ Lao động - Thương binh và Xã hội) & Tổng đài Quốc gia Bảo vệ Trẻ em 111.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://tongdai111.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Tiếp nhận tin báo trẻ em bị xâm hại, bạo lực, bỏ rơi: Xử lý khẩn cấp ngay lập tức 24/24h. Cấp thẻ BHYT liên thông cho trẻ dưới 6 tuổi: 02 - 03 ngày làm việc.\n- Phí, lệ phí: Mọi thủ tục bảo vệ trẻ em, cấp thẻ BHYT cho trẻ em dưới 6 tuổi, khai sinh đúng hạn và gọi Tổng đài 111 đều hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Mọi hành vi xâm hại, bạo hành, bóc lột sức lao động trẻ em hoặc phát tán thông tin đời tư trẻ em lên mạng xã hội trái phép đều bị xử phạt nghiêm khắc từ 10 - 30 triệu đồng hoặc truy cứu trách nhiệm hình sự.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Trong tình huống nơi báo tin bảo vệ trẻ, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (2) Nếu các bên không thống nhất về nơi báo tin bảo vệ trẻ, có thể đề nghị cơ quan nào hướng dẫn?\n  (3) Tôi nên kiểm tra thông tin chính thức về nơi báo tin bảo vệ trẻ trên kênh nào?\n  (4) Làm sao phân biệt hướng dẫn chính thức và dịch vụ giả mạo liên quan đến nơi báo tin bảo vệ trẻ?\n  (5) Khi gặp vướng mắc về nơi báo tin bảo vệ trẻ, tôi cần mô tả thông tin gì để được hỗ trợ?",
+    "keywords": [
+      "trẻ em",
+      "nơi báo tin bảo vệ trẻ",
+      "nơi",
+      "báo",
+      "tin",
+      "bảo",
+      "trẻ"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_061",
+    "category_id": "bao_luc_gia_dinh_antt",
+    "category": "Bạo lực gia đình, Hôn nhân & Bảo vệ yếu thế",
+    "topic": "[Người cao tuổi] Quy định pháp luật & Hướng dẫn xử lý: Chính sách trợ giúp người cao tuổi",
+    "legal_basis": "Luật Người cao tuổi số 39/2009/QH12; Luật Bảo hiểm xã hội số 41/2024/QH15 (trợ cấp hưu trí xã hội); Nghị định số 20/2021/NĐ-CP & Nghị định số 76/2024/NĐ-CP về chính sách trợ giúp xã hội",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Người cao tuổi số 39/2009/QH12; Luật Bảo hiểm xã hội số 41/2024/QH15 (trợ cấp hưu trí xã hội); Nghị định số 20/2021/NĐ-CP & Nghị định số 76/2024/NĐ-CP về chính sách trợ giúp xã hội. Công dân thực hiệ...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: CHÍNH SÁCH TRỢ GIÚP NGƯỜI CAO TUỔI (LĨNH VỰC: NGƯỜI CAO TUỔI)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Người cao tuổi số 39/2009/QH12; Luật Bảo hiểm xã hội số 41/2024/QH15 (trợ cấp hưu trí xã hội); Nghị định số 20/2021/NĐ-CP & Nghị định số 76/2024/NĐ-CP về chính sách trợ giúp xã hội. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://dichvucong.gov.vn) hoặc liên hệ trực tiếp UBND xã Đức Hợp (Bộ phận Một cửa - LĐTBXH), Công an xã Đức Hợp (hỗ trợ lưu động làm Căn cước/VNeID tại nhà cho người già yếu, bệnh tật không đi lại được) để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Xét duyệt hồ sơ trợ cấp xã hội người cao tuổi: Từ 07 - 10 ngày làm việc. Ủy quyền nhận lương hưu/trợ cấp hoặc làm thủ tục tại UBND xã: Giải quyết ngay trong ngày.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: UBND xã Đức Hợp (Bộ phận Một cửa - LĐTBXH), Công an xã Đức Hợp (hỗ trợ lưu động làm Căn cước/VNeID tại nhà cho người già yếu, bệnh tật không đi lại được).\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://dichvucong.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Xét duyệt hồ sơ trợ cấp xã hội người cao tuổi: Từ 07 - 10 ngày làm việc. Ủy quyền nhận lương hưu/trợ cấp hoặc làm thủ tục tại UBND xã: Giải quyết ngay trong ngày.\n- Phí, lệ phí: Miễn phí 100% đối với các thủ tục hưởng trợ cấp xã hội người cao tuổi, cấp thẻ BHYT người cao tuổi và hỗ trợ pháp lý cho người cao tuổi có hoàn cảnh khó khăn.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Tội phạm lừa đảo thường nhắm vào người cao tuổi bằng chiêu trò \"tặng quà tri ân bán thực phẩm chức năng giá cắt cổ\", \"giả danh Công an/Viện kiểm sát gọi điện dọa lệnh bắt để chiếm đoạt sổ tiết kiệm\". Người cao tuổi tuyệt đối không rút sổ tiết kiệm chuyển cho người lạ!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Chính sách trợ giúp người cao tuổi là gì và tôi có thể tìm hiểu ở đâu?\n  (2) Điều kiện hoặc căn cứ áp dụng với chính sách trợ giúp người cao tuổi được hướng dẫn thế nào?\n  (3) Muốn thực hiện việc liên quan đến chính sách trợ giúp người cao tuổi, tôi cần chuẩn bị giấy tờ gì?\n  (4) Các bước cần lưu ý khi xử lý việc liên quan đến chính sách trợ giúp người cao tuổi là gì?\n  (5) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về chính sách trợ giúp người cao tuổi?",
+    "keywords": [
+      "người cao tuổi",
+      "chính sách trợ giúp người cao tuổi",
+      "chính",
+      "sách",
+      "trợ",
+      "giúp",
+      "người",
+      "cao",
+      "tuổi"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_062",
+    "category_id": "bao_luc_gia_dinh_antt",
+    "category": "Bạo lực gia đình, Hôn nhân & Bảo vệ yếu thế",
+    "topic": "[Người cao tuổi] Quy định pháp luật & Hướng dẫn xử lý: Trợ cấp xã hội cho người cao tuổi",
+    "legal_basis": "Luật Người cao tuổi số 39/2009/QH12; Luật Bảo hiểm xã hội số 41/2024/QH15 (trợ cấp hưu trí xã hội); Nghị định số 20/2021/NĐ-CP & Nghị định số 76/2024/NĐ-CP về chính sách trợ giúp xã hội",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Người cao tuổi số 39/2009/QH12; Luật Bảo hiểm xã hội số 41/2024/QH15 (trợ cấp hưu trí xã hội); Nghị định số 20/2021/NĐ-CP & Nghị định số 76/2024/NĐ-CP về chính sách trợ giúp xã hội. Công dân thực hiệ...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: TRỢ CẤP XÃ HỘI CHO NGƯỜI CAO TUỔI (LĨNH VỰC: NGƯỜI CAO TUỔI)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Người cao tuổi số 39/2009/QH12; Luật Bảo hiểm xã hội số 41/2024/QH15 (trợ cấp hưu trí xã hội); Nghị định số 20/2021/NĐ-CP & Nghị định số 76/2024/NĐ-CP về chính sách trợ giúp xã hội. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://dichvucong.gov.vn) hoặc liên hệ trực tiếp UBND xã Đức Hợp (Bộ phận Một cửa - LĐTBXH), Công an xã Đức Hợp (hỗ trợ lưu động làm Căn cước/VNeID tại nhà cho người già yếu, bệnh tật không đi lại được) để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Xét duyệt hồ sơ trợ cấp xã hội người cao tuổi: Từ 07 - 10 ngày làm việc. Ủy quyền nhận lương hưu/trợ cấp hoặc làm thủ tục tại UBND xã: Giải quyết ngay trong ngày.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: UBND xã Đức Hợp (Bộ phận Một cửa - LĐTBXH), Công an xã Đức Hợp (hỗ trợ lưu động làm Căn cước/VNeID tại nhà cho người già yếu, bệnh tật không đi lại được).\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://dichvucong.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Xét duyệt hồ sơ trợ cấp xã hội người cao tuổi: Từ 07 - 10 ngày làm việc. Ủy quyền nhận lương hưu/trợ cấp hoặc làm thủ tục tại UBND xã: Giải quyết ngay trong ngày.\n- Phí, lệ phí: Miễn phí 100% đối với các thủ tục hưởng trợ cấp xã hội người cao tuổi, cấp thẻ BHYT người cao tuổi và hỗ trợ pháp lý cho người cao tuổi có hoàn cảnh khó khăn.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Tội phạm lừa đảo thường nhắm vào người cao tuổi bằng chiêu trò \"tặng quà tri ân bán thực phẩm chức năng giá cắt cổ\", \"giả danh Công an/Viện kiểm sát gọi điện dọa lệnh bắt để chiếm đoạt sổ tiết kiệm\". Người cao tuổi tuyệt đối không rút sổ tiết kiệm chuyển cho người lạ!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Các bước cần lưu ý khi xử lý việc liên quan đến trợ cấp xã hội cho người cao tuổi là gì?\n  (2) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về trợ cấp xã hội cho người cao tuổi?\n  (3) Có mốc thời gian nào cần lưu ý khi xử lý việc liên quan đến trợ cấp xã hội cho người cao tuổi không?\n  (4) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến trợ cấp xã hội cho người cao tuổi không?\n  (5) Nếu mất giấy tờ hoặc bằng chứng liên quan đến trợ cấp xã hội cho người cao tuổi, tôi nên bắt đầu từ đâu?",
+    "keywords": [
+      "người cao tuổi",
+      "trợ cấp xã hội cho người cao tuổi",
+      "trợ",
+      "cấp",
+      "hội",
+      "cho",
+      "người",
+      "cao",
+      "tuổi"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_063",
+    "category_id": "bao_luc_gia_dinh_antt",
+    "category": "Bạo lực gia đình, Hôn nhân & Bảo vệ yếu thế",
+    "topic": "[Người cao tuổi] Quy định pháp luật & Hướng dẫn xử lý: Khám chữa bệnh và bảo hiểm y tế",
+    "legal_basis": "Luật Người cao tuổi số 39/2009/QH12; Luật Bảo hiểm xã hội số 41/2024/QH15 (trợ cấp hưu trí xã hội); Nghị định số 20/2021/NĐ-CP & Nghị định số 76/2024/NĐ-CP về chính sách trợ giúp xã hội",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Người cao tuổi số 39/2009/QH12; Luật Bảo hiểm xã hội số 41/2024/QH15 (trợ cấp hưu trí xã hội); Nghị định số 20/2021/NĐ-CP & Nghị định số 76/2024/NĐ-CP về chính sách trợ giúp xã hội. Công dân thực hiệ...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: KHÁM CHỮA BỆNH VÀ BẢO HIỂM Y TẾ (LĨNH VỰC: NGƯỜI CAO TUỔI)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Người cao tuổi số 39/2009/QH12; Luật Bảo hiểm xã hội số 41/2024/QH15 (trợ cấp hưu trí xã hội); Nghị định số 20/2021/NĐ-CP & Nghị định số 76/2024/NĐ-CP về chính sách trợ giúp xã hội. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://dichvucong.gov.vn) hoặc liên hệ trực tiếp UBND xã Đức Hợp (Bộ phận Một cửa - LĐTBXH), Công an xã Đức Hợp (hỗ trợ lưu động làm Căn cước/VNeID tại nhà cho người già yếu, bệnh tật không đi lại được) để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Xét duyệt hồ sơ trợ cấp xã hội người cao tuổi: Từ 07 - 10 ngày làm việc. Ủy quyền nhận lương hưu/trợ cấp hoặc làm thủ tục tại UBND xã: Giải quyết ngay trong ngày.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: UBND xã Đức Hợp (Bộ phận Một cửa - LĐTBXH), Công an xã Đức Hợp (hỗ trợ lưu động làm Căn cước/VNeID tại nhà cho người già yếu, bệnh tật không đi lại được).\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://dichvucong.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Xét duyệt hồ sơ trợ cấp xã hội người cao tuổi: Từ 07 - 10 ngày làm việc. Ủy quyền nhận lương hưu/trợ cấp hoặc làm thủ tục tại UBND xã: Giải quyết ngay trong ngày.\n- Phí, lệ phí: Miễn phí 100% đối với các thủ tục hưởng trợ cấp xã hội người cao tuổi, cấp thẻ BHYT người cao tuổi và hỗ trợ pháp lý cho người cao tuổi có hoàn cảnh khó khăn.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Tội phạm lừa đảo thường nhắm vào người cao tuổi bằng chiêu trò \"tặng quà tri ân bán thực phẩm chức năng giá cắt cổ\", \"giả danh Công an/Viện kiểm sát gọi điện dọa lệnh bắt để chiếm đoạt sổ tiết kiệm\". Người cao tuổi tuyệt đối không rút sổ tiết kiệm chuyển cho người lạ!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến khám chữa bệnh và bảo hiểm y tế không?\n  (2) Nếu mất giấy tờ hoặc bằng chứng liên quan đến khám chữa bệnh và bảo hiểm y tế, tôi nên bắt đầu từ đâu?\n  (3) Khi thông tin về khám chữa bệnh và bảo hiểm y tế bị sai hoặc thay đổi, cần liên hệ nơi nào?\n  (4) Tôi có thể nhờ người thân làm thay việc về khám chữa bệnh và bảo hiểm y tế không, cần hỏi rõ điều gì?\n  (5) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến khám chữa bệnh và bảo hiểm y tế, tôi cần tìm hiểu điều gì?",
+    "keywords": [
+      "người cao tuổi",
+      "khám chữa bệnh và bảo hiểm y tế",
+      "khám",
+      "chữa",
+      "bệnh",
+      "bảo",
+      "hiểm"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_064",
+    "category_id": "bao_luc_gia_dinh_antt",
+    "category": "Bạo lực gia đình, Hôn nhân & Bảo vệ yếu thế",
+    "topic": "[Người cao tuổi] Quy định pháp luật & Hướng dẫn xử lý: Ủy quyền làm thủ tục cho người cao tuổi",
+    "legal_basis": "Luật Người cao tuổi số 39/2009/QH12; Luật Bảo hiểm xã hội số 41/2024/QH15 (trợ cấp hưu trí xã hội); Nghị định số 20/2021/NĐ-CP & Nghị định số 76/2024/NĐ-CP về chính sách trợ giúp xã hội",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Người cao tuổi số 39/2009/QH12; Luật Bảo hiểm xã hội số 41/2024/QH15 (trợ cấp hưu trí xã hội); Nghị định số 20/2021/NĐ-CP & Nghị định số 76/2024/NĐ-CP về chính sách trợ giúp xã hội. Công dân thực hiệ...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: ỦY QUYỀN LÀM THỦ TỤC CHO NGƯỜI CAO TUỔI (LĨNH VỰC: NGƯỜI CAO TUỔI)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Người cao tuổi số 39/2009/QH12; Luật Bảo hiểm xã hội số 41/2024/QH15 (trợ cấp hưu trí xã hội); Nghị định số 20/2021/NĐ-CP & Nghị định số 76/2024/NĐ-CP về chính sách trợ giúp xã hội. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://dichvucong.gov.vn) hoặc liên hệ trực tiếp UBND xã Đức Hợp (Bộ phận Một cửa - LĐTBXH), Công an xã Đức Hợp (hỗ trợ lưu động làm Căn cước/VNeID tại nhà cho người già yếu, bệnh tật không đi lại được) để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Xét duyệt hồ sơ trợ cấp xã hội người cao tuổi: Từ 07 - 10 ngày làm việc. Ủy quyền nhận lương hưu/trợ cấp hoặc làm thủ tục tại UBND xã: Giải quyết ngay trong ngày.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: UBND xã Đức Hợp (Bộ phận Một cửa - LĐTBXH), Công an xã Đức Hợp (hỗ trợ lưu động làm Căn cước/VNeID tại nhà cho người già yếu, bệnh tật không đi lại được).\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://dichvucong.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Xét duyệt hồ sơ trợ cấp xã hội người cao tuổi: Từ 07 - 10 ngày làm việc. Ủy quyền nhận lương hưu/trợ cấp hoặc làm thủ tục tại UBND xã: Giải quyết ngay trong ngày.\n- Phí, lệ phí: Miễn phí 100% đối với các thủ tục hưởng trợ cấp xã hội người cao tuổi, cấp thẻ BHYT người cao tuổi và hỗ trợ pháp lý cho người cao tuổi có hoàn cảnh khó khăn.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Tội phạm lừa đảo thường nhắm vào người cao tuổi bằng chiêu trò \"tặng quà tri ân bán thực phẩm chức năng giá cắt cổ\", \"giả danh Công an/Viện kiểm sát gọi điện dọa lệnh bắt để chiếm đoạt sổ tiết kiệm\". Người cao tuổi tuyệt đối không rút sổ tiết kiệm chuyển cho người lạ!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Tôi có thể nhờ người thân làm thay việc về ủy quyền làm thủ tục cho người cao tuổi không, cần hỏi rõ điều gì?\n  (2) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến ủy quyền làm thủ tục cho người cao tuổi, tôi cần tìm hiểu điều gì?\n  (3) Sau khi gửi yêu cầu liên quan đến ủy quyền làm thủ tục cho người cao tuổi, tôi có thể theo dõi tiến độ thế nào?\n  (4) Người dân ở xã xa trung tâm muốn xử lý việc ủy quyền làm thủ tục cho người cao tuổi thì nên hỏi cơ quan nào?\n  (5) Người lớn tuổi cần hỗ trợ về ủy quyền làm thủ tục cho người cao tuổi thì có thể nhờ ai hướng dẫn?",
+    "keywords": [
+      "người cao tuổi",
+      "ủy quyền làm thủ tục cho người cao tuổi",
+      "quyền",
+      "làm",
+      "thủ",
+      "tục",
+      "cho",
+      "người",
+      "cao",
+      "tuổi"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_065",
+    "category_id": "bao_luc_gia_dinh_antt",
+    "category": "Bạo lực gia đình, Hôn nhân & Bảo vệ yếu thế",
+    "topic": "[Người cao tuổi] Quy định pháp luật & Hướng dẫn xử lý: Phòng tránh lừa đảo nhắm vào người cao tuổi",
+    "legal_basis": "Luật Người cao tuổi số 39/2009/QH12; Luật Bảo hiểm xã hội số 41/2024/QH15 (trợ cấp hưu trí xã hội); Nghị định số 20/2021/NĐ-CP & Nghị định số 76/2024/NĐ-CP về chính sách trợ giúp xã hội",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Người cao tuổi số 39/2009/QH12; Luật Bảo hiểm xã hội số 41/2024/QH15 (trợ cấp hưu trí xã hội); Nghị định số 20/2021/NĐ-CP & Nghị định số 76/2024/NĐ-CP về chính sách trợ giúp xã hội. Công dân thực hiệ...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: PHÒNG TRÁNH LỪA ĐẢO NHẮM VÀO NGƯỜI CAO TUỔI (LĨNH VỰC: NGƯỜI CAO TUỔI)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Người cao tuổi số 39/2009/QH12; Luật Bảo hiểm xã hội số 41/2024/QH15 (trợ cấp hưu trí xã hội); Nghị định số 20/2021/NĐ-CP & Nghị định số 76/2024/NĐ-CP về chính sách trợ giúp xã hội. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://dichvucong.gov.vn) hoặc liên hệ trực tiếp UBND xã Đức Hợp (Bộ phận Một cửa - LĐTBXH), Công an xã Đức Hợp (hỗ trợ lưu động làm Căn cước/VNeID tại nhà cho người già yếu, bệnh tật không đi lại được) để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Xét duyệt hồ sơ trợ cấp xã hội người cao tuổi: Từ 07 - 10 ngày làm việc. Ủy quyền nhận lương hưu/trợ cấp hoặc làm thủ tục tại UBND xã: Giải quyết ngay trong ngày.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: UBND xã Đức Hợp (Bộ phận Một cửa - LĐTBXH), Công an xã Đức Hợp (hỗ trợ lưu động làm Căn cước/VNeID tại nhà cho người già yếu, bệnh tật không đi lại được).\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://dichvucong.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Xét duyệt hồ sơ trợ cấp xã hội người cao tuổi: Từ 07 - 10 ngày làm việc. Ủy quyền nhận lương hưu/trợ cấp hoặc làm thủ tục tại UBND xã: Giải quyết ngay trong ngày.\n- Phí, lệ phí: Miễn phí 100% đối với các thủ tục hưởng trợ cấp xã hội người cao tuổi, cấp thẻ BHYT người cao tuổi và hỗ trợ pháp lý cho người cao tuổi có hoàn cảnh khó khăn.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Tội phạm lừa đảo thường nhắm vào người cao tuổi bằng chiêu trò \"tặng quà tri ân bán thực phẩm chức năng giá cắt cổ\", \"giả danh Công an/Viện kiểm sát gọi điện dọa lệnh bắt để chiếm đoạt sổ tiết kiệm\". Người cao tuổi tuyệt đối không rút sổ tiết kiệm chuyển cho người lạ!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có thể làm thủ tục về phòng tránh lừa đảo nhắm vào người cao tuổi trên điện thoại không, cần chuẩn bị gì?\n  (2) Người lớn tuổi cần hỗ trợ về phòng tránh lừa đảo nhắm vào người cao tuổi thì có thể nhờ ai hướng dẫn?\n  (3) Trong tình huống phòng tránh lừa đảo nhắm vào người cao tuổi, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (4) Nếu các bên không thống nhất về phòng tránh lừa đảo nhắm vào người cao tuổi, có thể đề nghị cơ quan nào hướng dẫn?\n  (5) Tôi nên kiểm tra thông tin chính thức về phòng tránh lừa đảo nhắm vào người cao tuổi trên kênh nào?",
+    "keywords": [
+      "người cao tuổi",
+      "phòng tránh lừa đảo nhắm vào người cao tuổi",
+      "phòng",
+      "tránh",
+      "lừa",
+      "đảo",
+      "nhắm",
+      "vào",
+      "người",
+      "cao",
+      "tuổi"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_066",
+    "category_id": "bao_luc_gia_dinh_antt",
+    "category": "Bạo lực gia đình, Hôn nhân & Bảo vệ yếu thế",
+    "topic": "[Người cao tuổi] Quy định pháp luật & Hướng dẫn xử lý: Nơi phản ánh về chăm sóc người cao tuổi",
+    "legal_basis": "Luật Người cao tuổi số 39/2009/QH12; Luật Bảo hiểm xã hội số 41/2024/QH15 (trợ cấp hưu trí xã hội); Nghị định số 20/2021/NĐ-CP & Nghị định số 76/2024/NĐ-CP về chính sách trợ giúp xã hội",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Người cao tuổi số 39/2009/QH12; Luật Bảo hiểm xã hội số 41/2024/QH15 (trợ cấp hưu trí xã hội); Nghị định số 20/2021/NĐ-CP & Nghị định số 76/2024/NĐ-CP về chính sách trợ giúp xã hội. Công dân thực hiệ...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: NƠI PHẢN ÁNH VỀ CHĂM SÓC NGƯỜI CAO TUỔI (LĨNH VỰC: NGƯỜI CAO TUỔI)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Người cao tuổi số 39/2009/QH12; Luật Bảo hiểm xã hội số 41/2024/QH15 (trợ cấp hưu trí xã hội); Nghị định số 20/2021/NĐ-CP & Nghị định số 76/2024/NĐ-CP về chính sách trợ giúp xã hội. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://dichvucong.gov.vn) hoặc liên hệ trực tiếp UBND xã Đức Hợp (Bộ phận Một cửa - LĐTBXH), Công an xã Đức Hợp (hỗ trợ lưu động làm Căn cước/VNeID tại nhà cho người già yếu, bệnh tật không đi lại được) để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Xét duyệt hồ sơ trợ cấp xã hội người cao tuổi: Từ 07 - 10 ngày làm việc. Ủy quyền nhận lương hưu/trợ cấp hoặc làm thủ tục tại UBND xã: Giải quyết ngay trong ngày.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: UBND xã Đức Hợp (Bộ phận Một cửa - LĐTBXH), Công an xã Đức Hợp (hỗ trợ lưu động làm Căn cước/VNeID tại nhà cho người già yếu, bệnh tật không đi lại được).\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://dichvucong.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Xét duyệt hồ sơ trợ cấp xã hội người cao tuổi: Từ 07 - 10 ngày làm việc. Ủy quyền nhận lương hưu/trợ cấp hoặc làm thủ tục tại UBND xã: Giải quyết ngay trong ngày.\n- Phí, lệ phí: Miễn phí 100% đối với các thủ tục hưởng trợ cấp xã hội người cao tuổi, cấp thẻ BHYT người cao tuổi và hỗ trợ pháp lý cho người cao tuổi có hoàn cảnh khó khăn.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Tội phạm lừa đảo thường nhắm vào người cao tuổi bằng chiêu trò \"tặng quà tri ân bán thực phẩm chức năng giá cắt cổ\", \"giả danh Công an/Viện kiểm sát gọi điện dọa lệnh bắt để chiếm đoạt sổ tiết kiệm\". Người cao tuổi tuyệt đối không rút sổ tiết kiệm chuyển cho người lạ!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Trong tình huống nơi phản ánh về chăm sóc người cao tuổi, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (2) Nếu các bên không thống nhất về nơi phản ánh về chăm sóc người cao tuổi, có thể đề nghị cơ quan nào hướng dẫn?\n  (3) Tôi nên kiểm tra thông tin chính thức về nơi phản ánh về chăm sóc người cao tuổi trên kênh nào?\n  (4) Làm sao phân biệt hướng dẫn chính thức và dịch vụ giả mạo liên quan đến nơi phản ánh về chăm sóc người cao tuổi?\n  (5) Khi gặp vướng mắc về nơi phản ánh về chăm sóc người cao tuổi, tôi cần mô tả thông tin gì để được hỗ trợ?",
+    "keywords": [
+      "người cao tuổi",
+      "nơi phản ánh về chăm sóc người cao tuổi",
+      "nơi",
+      "phản",
+      "ánh",
+      "chăm",
+      "sóc",
+      "người",
+      "cao",
+      "tuổi"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_067",
+    "category_id": "bao_luc_gia_dinh_antt",
+    "category": "Bạo lực gia đình, Hôn nhân & Bảo vệ yếu thế",
+    "topic": "[Pháp luật hình sự] Quy định pháp luật & Hướng dẫn xử lý: Trình báo hành vi có dấu hiệu tội phạm",
+    "legal_basis": "Bộ luật Hình sự số 100/2015/QH13 (sửa đổi, bổ sung năm 2017); Bộ luật Tố tụng hình sự số 101/2015/QH13; Thông tư số 129/2021/TT-BCA quy định việc tiếp nhận, giải quyết tố giác, tin báo về tội phạm của Công an cấp xã",
+    "summary": "Theo Điều 144 - 147 Bộ luật Tố tụng hình sự 2015 và Thông tư 129/2021/TT-BCA: Công an xã Đức Hợp trực tiếp tiếp nhận mọi tố giác, tin báo về tội phạm 24/24h (tại Trụ sở Thôn Nho Lâm, qua SĐT Trực ban 02213.815.999 hoặc qua tính năng Kiến ng...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: TRÌNH BÁO HÀNH VI CÓ DẤU HIỆU TỘI PHẠM (LĨNH VỰC: PHÁP LUẬT HÌNH SỰ)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Theo Điều 144 - 147 Bộ luật Tố tụng hình sự 2015 và Thông tư 129/2021/TT-BCA: Công an xã Đức Hợp trực tiếp tiếp nhận mọi tố giác, tin báo về tội phạm 24/24h (tại Trụ sở Thôn Nho Lâm, qua SĐT Trực ban 02213.815.999 hoặc qua tính năng Kiến nghị, phản ánh ANTT trên VNeID), lập Biên bản tiếp nhận, cấp Giấy biên nhận và tổ chức xác minh ban đầu ngay lập tức.\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (Trực ban tiếp nhận tố giác, tin báo tội phạm 24/24h tại Thôn Nho Lâm, SĐT: 02213.815.999 hoặc qua ứng dụng VNeID) & Cơ quan Cảnh sát điều tra Công an tỉnh Hưng Yên.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://bocongan.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Công an xã Đức Hợp tiếp nhận 24/24h, lập biên bản ngay, kiểm tra xác minh sơ bộ ban đầu và chuyển Cơ quan CSĐT có thẩm quyền trong vòng 24 giờ - 07 ngày theo quy định của Bộ luật Tố tụng hình sự.\n- Phí, lệ phí: Tiếp nhận tố giác, tin báo về tội phạm và bảo vệ người bị hại: Hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Người từ đủ 14 tuổi đến dưới 16 tuổi phải chịu trách nhiệm hình sự về tội phạm rất nghiêm trọng, đặc biệt nghiêm trọng (Điều 12 BLHS). Người từ đủ 16 tuổi trở lên phải chịu trách nhiệm hình sự về mọi tội phạm. Khi xảy ra vụ việc, cần giữ nguyên hiện trường và giao nộp chứng cứ gốc cho Công an xã.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Trình báo hành vi có dấu hiệu tội phạm là gì và tôi có thể tìm hiểu ở đâu?\n  (2) Điều kiện hoặc căn cứ áp dụng với trình báo hành vi có dấu hiệu tội phạm được hướng dẫn thế nào?\n  (3) Muốn thực hiện việc liên quan đến trình báo hành vi có dấu hiệu tội phạm, tôi cần chuẩn bị giấy tờ gì?\n  (4) Các bước cần lưu ý khi xử lý việc liên quan đến trình báo hành vi có dấu hiệu tội phạm là gì?\n  (5) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về trình báo hành vi có dấu hiệu tội phạm?",
+    "keywords": [
+      "pháp luật hình sự",
+      "trình báo hành vi có dấu hiệu tội phạm",
+      "trình",
+      "báo",
+      "hành",
+      "dấu",
+      "hiệu",
+      "tội",
+      "phạm"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_068",
+    "category_id": "bao_luc_gia_dinh_antt",
+    "category": "Bạo lực gia đình, Hôn nhân & Bảo vệ yếu thế",
+    "topic": "[Pháp luật hình sự] Quy định pháp luật & Hướng dẫn xử lý: Quyền của người bị tố giác",
+    "legal_basis": "Bộ luật Hình sự số 100/2015/QH13 (sửa đổi, bổ sung năm 2017); Bộ luật Tố tụng hình sự số 101/2015/QH13; Thông tư số 129/2021/TT-BCA quy định việc tiếp nhận, giải quyết tố giác, tin báo về tội phạm của Công an cấp xã",
+    "summary": "Theo Điều 57 Bộ luật Tố tụng hình sự 2015: Người bị tố giác, người bị kiến nghị khởi tố có quyền được thông báo về hành vi bị tố giác; được trình bày lời khai, trình bày ý kiến; đưa ra chứng cứ, tài liệu, đồ vật, yêu cầu để chứng minh mình ...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: QUYỀN CỦA NGƯỜI BỊ TỐ GIÁC (LĨNH VỰC: PHÁP LUẬT HÌNH SỰ)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Theo Điều 57 Bộ luật Tố tụng hình sự 2015: Người bị tố giác, người bị kiến nghị khởi tố có quyền được thông báo về hành vi bị tố giác; được trình bày lời khai, trình bày ý kiến; đưa ra chứng cứ, tài liệu, đồ vật, yêu cầu để chứng minh mình không phạm tội; tự bảo vệ hoặc nhờ người bảo vệ quyền và lợi ích hợp pháp.\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (Trực ban tiếp nhận tố giác, tin báo tội phạm 24/24h tại Thôn Nho Lâm, SĐT: 02213.815.999 hoặc qua ứng dụng VNeID) & Cơ quan Cảnh sát điều tra Công an tỉnh Hưng Yên.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://bocongan.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Công an xã Đức Hợp tiếp nhận 24/24h, lập biên bản ngay, kiểm tra xác minh sơ bộ ban đầu và chuyển Cơ quan CSĐT có thẩm quyền trong vòng 24 giờ - 07 ngày theo quy định của Bộ luật Tố tụng hình sự.\n- Phí, lệ phí: Tiếp nhận tố giác, tin báo về tội phạm và bảo vệ người bị hại: Hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Người từ đủ 14 tuổi đến dưới 16 tuổi phải chịu trách nhiệm hình sự về tội phạm rất nghiêm trọng, đặc biệt nghiêm trọng (Điều 12 BLHS). Người từ đủ 16 tuổi trở lên phải chịu trách nhiệm hình sự về mọi tội phạm. Khi xảy ra vụ việc, cần giữ nguyên hiện trường và giao nộp chứng cứ gốc cho Công an xã.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Các bước cần lưu ý khi xử lý việc liên quan đến quyền của người bị tố giác là gì?\n  (2) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về quyền của người bị tố giác?\n  (3) Có mốc thời gian nào cần lưu ý khi xử lý việc liên quan đến quyền của người bị tố giác không?\n  (4) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến quyền của người bị tố giác không?\n  (5) Nếu mất giấy tờ hoặc bằng chứng liên quan đến quyền của người bị tố giác, tôi nên bắt đầu từ đâu?",
+    "keywords": [
+      "pháp luật hình sự",
+      "quyền của người bị tố giác",
+      "quyền",
+      "của",
+      "người",
+      "giác"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_069",
+    "category_id": "bao_luc_gia_dinh_antt",
+    "category": "Bạo lực gia đình, Hôn nhân & Bảo vệ yếu thế",
+    "topic": "[Pháp luật hình sự] Quy định pháp luật & Hướng dẫn xử lý: Quyền của người bị tạm giữ",
+    "legal_basis": "Bộ luật Hình sự số 100/2015/QH13 (sửa đổi, bổ sung năm 2017); Bộ luật Tố tụng hình sự số 101/2015/QH13; Thông tư số 129/2021/TT-BCA quy định việc tiếp nhận, giải quyết tố giác, tin báo về tội phạm của Công an cấp xã",
+    "summary": "Theo Điều 59 Bộ luật Tố tụng hình sự 2015: Người bị giữ trong trường hợp khẩn cấp, người bị tạm giữ có quyền được biết lý do mình bị giữ, tạm giữ; được giải thích về quyền và nghĩa vụ; trình bày lời khai, không buộc phải đưa ra lời khai chố...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: QUYỀN CỦA NGƯỜI BỊ TẠM GIỮ (LĨNH VỰC: PHÁP LUẬT HÌNH SỰ)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Theo Điều 59 Bộ luật Tố tụng hình sự 2015: Người bị giữ trong trường hợp khẩn cấp, người bị tạm giữ có quyền được biết lý do mình bị giữ, tạm giữ; được giải thích về quyền và nghĩa vụ; trình bày lời khai, không buộc phải đưa ra lời khai chống lại chính mình hoặc buộc phải nhận mình có tội; tự bào chữa hoặc nhờ Luật sư/người bào chữa.\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (Trực ban tiếp nhận tố giác, tin báo tội phạm 24/24h tại Thôn Nho Lâm, SĐT: 02213.815.999 hoặc qua ứng dụng VNeID) & Cơ quan Cảnh sát điều tra Công an tỉnh Hưng Yên.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://bocongan.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Công an xã Đức Hợp tiếp nhận 24/24h, lập biên bản ngay, kiểm tra xác minh sơ bộ ban đầu và chuyển Cơ quan CSĐT có thẩm quyền trong vòng 24 giờ - 07 ngày theo quy định của Bộ luật Tố tụng hình sự.\n- Phí, lệ phí: Tiếp nhận tố giác, tin báo về tội phạm và bảo vệ người bị hại: Hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Người từ đủ 14 tuổi đến dưới 16 tuổi phải chịu trách nhiệm hình sự về tội phạm rất nghiêm trọng, đặc biệt nghiêm trọng (Điều 12 BLHS). Người từ đủ 16 tuổi trở lên phải chịu trách nhiệm hình sự về mọi tội phạm. Khi xảy ra vụ việc, cần giữ nguyên hiện trường và giao nộp chứng cứ gốc cho Công an xã.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến quyền của người bị tạm giữ không?\n  (2) Nếu mất giấy tờ hoặc bằng chứng liên quan đến quyền của người bị tạm giữ, tôi nên bắt đầu từ đâu?\n  (3) Khi thông tin về quyền của người bị tạm giữ bị sai hoặc thay đổi, cần liên hệ nơi nào?\n  (4) Tôi có thể nhờ người thân làm thay việc về quyền của người bị tạm giữ không, cần hỏi rõ điều gì?\n  (5) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến quyền của người bị tạm giữ, tôi cần tìm hiểu điều gì?",
+    "keywords": [
+      "pháp luật hình sự",
+      "quyền của người bị tạm giữ",
+      "quyền",
+      "của",
+      "người",
+      "tạm",
+      "giữ"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_070",
+    "category_id": "bao_luc_gia_dinh_antt",
+    "category": "Bạo lực gia đình, Hôn nhân & Bảo vệ yếu thế",
+    "topic": "[Pháp luật hình sự] Quy định pháp luật & Hướng dẫn xử lý: Trách nhiệm hình sự người chưa thành niên",
+    "legal_basis": "Bộ luật Hình sự số 100/2015/QH13 (sửa đổi, bổ sung năm 2017); Bộ luật Tố tụng hình sự số 101/2015/QH13; Thông tư số 129/2021/TT-BCA quy định việc tiếp nhận, giải quyết tố giác, tin báo về tội phạm của Công an cấp xã",
+    "summary": "Theo Điều 12 và Chương XII Bộ luật Hình sự 2015 (sửa đổi 2017) & Luật Tư pháp người chưa thành niên 2024: Người từ đủ 16 tuổi trở lên phải chịu trách nhiệm hình sự về mọi tội phạm. Người từ đủ 14 tuổi đến dưới 16 tuổi chỉ phải chịu trách nh...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: TRÁCH NHIỆM HÌNH SỰ NGƯỜI CHƯA THÀNH NIÊN (LĨNH VỰC: PHÁP LUẬT HÌNH SỰ)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Theo Điều 12 và Chương XII Bộ luật Hình sự 2015 (sửa đổi 2017) & Luật Tư pháp người chưa thành niên 2024: Người từ đủ 16 tuổi trở lên phải chịu trách nhiệm hình sự về mọi tội phạm. Người từ đủ 14 tuổi đến dưới 16 tuổi chỉ phải chịu trách nhiệm hình sự về tội phạm rất nghiêm trọng, tội phạm đặc biệt nghiêm trọng quy định tại một số điều luật cụ thể (như Giết người, Cố ý gây thương tích nặng, Cướp tài sản, Hiếp dâm, Sản xuất/mua bán ma túy...). Việc xử lý người dưới 18 tuổi lấy giáo dục, phục hồi làm mục tiêu chủ yếu.\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (Trực ban tiếp nhận tố giác, tin báo tội phạm 24/24h tại Thôn Nho Lâm, SĐT: 02213.815.999 hoặc qua ứng dụng VNeID) & Cơ quan Cảnh sát điều tra Công an tỉnh Hưng Yên.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://bocongan.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Công an xã Đức Hợp tiếp nhận 24/24h, lập biên bản ngay, kiểm tra xác minh sơ bộ ban đầu và chuyển Cơ quan CSĐT có thẩm quyền trong vòng 24 giờ - 07 ngày theo quy định của Bộ luật Tố tụng hình sự.\n- Phí, lệ phí: Tiếp nhận tố giác, tin báo về tội phạm và bảo vệ người bị hại: Hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Người từ đủ 14 tuổi đến dưới 16 tuổi phải chịu trách nhiệm hình sự về tội phạm rất nghiêm trọng, đặc biệt nghiêm trọng (Điều 12 BLHS). Người từ đủ 16 tuổi trở lên phải chịu trách nhiệm hình sự về mọi tội phạm. Khi xảy ra vụ việc, cần giữ nguyên hiện trường và giao nộp chứng cứ gốc cho Công an xã.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Tôi có thể nhờ người thân làm thay việc về trách nhiệm hình sự người chưa thành niên không, cần hỏi rõ điều gì?\n  (2) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến trách nhiệm hình sự người chưa thành niên, tôi cần tìm hiểu điều gì?\n  (3) Sau khi gửi yêu cầu liên quan đến trách nhiệm hình sự người chưa thành niên, tôi có thể theo dõi tiến độ thế nào?\n  (4) Người dân ở xã xa trung tâm muốn xử lý việc trách nhiệm hình sự người chưa thành niên thì nên hỏi cơ quan nào?\n  (5) Người lớn tuổi cần hỗ trợ về trách nhiệm hình sự người chưa thành niên thì có thể nhờ ai hướng dẫn?",
+    "keywords": [
+      "pháp luật hình sự",
+      "trách nhiệm hình sự người chưa thành niên",
+      "trách",
+      "nhiệm",
+      "hình",
+      "người",
+      "chưa",
+      "thành",
+      "niên"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_071",
+    "category_id": "bao_luc_gia_dinh_antt",
+    "category": "Bạo lực gia đình, Hôn nhân & Bảo vệ yếu thế",
+    "topic": "[Pháp luật hình sự] Quy định pháp luật & Hướng dẫn xử lý: Thu thập và bảo quản chứng cứ",
+    "legal_basis": "Bộ luật Hình sự số 100/2015/QH13 (sửa đổi, bổ sung năm 2017); Bộ luật Tố tụng hình sự số 101/2015/QH13; Thông tư số 129/2021/TT-BCA quy định việc tiếp nhận, giải quyết tố giác, tin báo về tội phạm của Công an cấp xã",
+    "summary": "Theo Điều 86 - 107 Bộ luật Tố tụng hình sự 2015: Chứng cứ gồm vật chứng, lời khai, dữ liệu điện tử (tin nhắn, ghi âm, video, sao kê ngân hàng), kết luận giám định. Người dân khi phát hiện vụ việc cần giữ nguyên hiện trường, không tự ý xê dị...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: THU THẬP VÀ BẢO QUẢN CHỨNG CỨ (LĨNH VỰC: PHÁP LUẬT HÌNH SỰ)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Theo Điều 86 - 107 Bộ luật Tố tụng hình sự 2015: Chứng cứ gồm vật chứng, lời khai, dữ liệu điện tử (tin nhắn, ghi âm, video, sao kê ngân hàng), kết luận giám định. Người dân khi phát hiện vụ việc cần giữ nguyên hiện trường, không tự ý xê dịch dấu vết, sao lưu dữ liệu điện tử nguyên bản và giao nộp trực tiếp có biên bản cho Công an xã Đức Hợp.\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (Trực ban tiếp nhận tố giác, tin báo tội phạm 24/24h tại Thôn Nho Lâm, SĐT: 02213.815.999 hoặc qua ứng dụng VNeID) & Cơ quan Cảnh sát điều tra Công an tỉnh Hưng Yên.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://bocongan.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Công an xã Đức Hợp tiếp nhận 24/24h, lập biên bản ngay, kiểm tra xác minh sơ bộ ban đầu và chuyển Cơ quan CSĐT có thẩm quyền trong vòng 24 giờ - 07 ngày theo quy định của Bộ luật Tố tụng hình sự.\n- Phí, lệ phí: Tiếp nhận tố giác, tin báo về tội phạm và bảo vệ người bị hại: Hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Người từ đủ 14 tuổi đến dưới 16 tuổi phải chịu trách nhiệm hình sự về tội phạm rất nghiêm trọng, đặc biệt nghiêm trọng (Điều 12 BLHS). Người từ đủ 16 tuổi trở lên phải chịu trách nhiệm hình sự về mọi tội phạm. Khi xảy ra vụ việc, cần giữ nguyên hiện trường và giao nộp chứng cứ gốc cho Công an xã.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có thể làm thủ tục về thu thập và bảo quản chứng cứ trên điện thoại không, cần chuẩn bị gì?\n  (2) Người lớn tuổi cần hỗ trợ về thu thập và bảo quản chứng cứ thì có thể nhờ ai hướng dẫn?\n  (3) Trong tình huống thu thập và bảo quản chứng cứ, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (4) Nếu các bên không thống nhất về thu thập và bảo quản chứng cứ, có thể đề nghị cơ quan nào hướng dẫn?\n  (5) Tôi nên kiểm tra thông tin chính thức về thu thập và bảo quản chứng cứ trên kênh nào?",
+    "keywords": [
+      "pháp luật hình sự",
+      "thu thập và bảo quản chứng cứ",
+      "thu",
+      "thập",
+      "bảo",
+      "quản",
+      "chứng"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_072",
+    "category_id": "bao_luc_gia_dinh_antt",
+    "category": "Bạo lực gia đình, Hôn nhân & Bảo vệ yếu thế",
+    "topic": "[Pháp luật hình sự] Quy định pháp luật & Hướng dẫn xử lý: Hỗ trợ người bị hại",
+    "legal_basis": "Bộ luật Hình sự số 100/2015/QH13 (sửa đổi, bổ sung năm 2017); Bộ luật Tố tụng hình sự số 101/2015/QH13; Thông tư số 129/2021/TT-BCA quy định việc tiếp nhận, giải quyết tố giác, tin báo về tội phạm của Công an cấp xã",
+    "summary": "Theo Điều 62 Bộ luật Tố tụng hình sự 2015 và Luật Trợ giúp pháp lý 2017: Bị hại có quyền yêu cầu cơ quan tiến hành tố tụng bảo vệ tính mạng, sức khỏe, danh dự, nhân phẩm, tài sản; yêu cầu bồi thường thiệt hại về vật chất và tinh thần; được ...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: HỖ TRỢ NGƯỜI BỊ HẠI (LĨNH VỰC: PHÁP LUẬT HÌNH SỰ)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Theo Điều 62 Bộ luật Tố tụng hình sự 2015 và Luật Trợ giúp pháp lý 2017: Bị hại có quyền yêu cầu cơ quan tiến hành tố tụng bảo vệ tính mạng, sức khỏe, danh dự, nhân phẩm, tài sản; yêu cầu bồi thường thiệt hại về vật chất và tinh thần; được cấp Giấy giới thiệu đi giám định tỷ lệ tổn thương cơ thể.\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (Trực ban tiếp nhận tố giác, tin báo tội phạm 24/24h tại Thôn Nho Lâm, SĐT: 02213.815.999 hoặc qua ứng dụng VNeID) & Cơ quan Cảnh sát điều tra Công an tỉnh Hưng Yên.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://bocongan.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Công an xã Đức Hợp tiếp nhận 24/24h, lập biên bản ngay, kiểm tra xác minh sơ bộ ban đầu và chuyển Cơ quan CSĐT có thẩm quyền trong vòng 24 giờ - 07 ngày theo quy định của Bộ luật Tố tụng hình sự.\n- Phí, lệ phí: Tiếp nhận tố giác, tin báo về tội phạm và bảo vệ người bị hại: Hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Người từ đủ 14 tuổi đến dưới 16 tuổi phải chịu trách nhiệm hình sự về tội phạm rất nghiêm trọng, đặc biệt nghiêm trọng (Điều 12 BLHS). Người từ đủ 16 tuổi trở lên phải chịu trách nhiệm hình sự về mọi tội phạm. Khi xảy ra vụ việc, cần giữ nguyên hiện trường và giao nộp chứng cứ gốc cho Công an xã.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Trong tình huống hỗ trợ người bị hại, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (2) Nếu các bên không thống nhất về hỗ trợ người bị hại, có thể đề nghị cơ quan nào hướng dẫn?\n  (3) Tôi nên kiểm tra thông tin chính thức về hỗ trợ người bị hại trên kênh nào?\n  (4) Làm sao phân biệt hướng dẫn chính thức và dịch vụ giả mạo liên quan đến hỗ trợ người bị hại?\n  (5) Khi gặp vướng mắc về hỗ trợ người bị hại, tôi cần mô tả thông tin gì để được hỗ trợ?",
+    "keywords": [
+      "pháp luật hình sự",
+      "hỗ trợ người bị hại",
+      "trợ",
+      "người",
+      "hại"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_073",
+    "category_id": "quan_ly_nganh_nghe",
+    "category": "Quản lý hành chính, Lao động & Khiếu nại",
+    "topic": "[Pháp luật hành chính] Quy định pháp luật & Hướng dẫn xử lý: Quyết định xử phạt vi phạm hành chính",
+    "legal_basis": "Luật Xử lý vi phạm hành chính năm 2012 (sửa đổi, bổ sung năm 2020); Nghị định số 118/2021/NĐ-CP; Nghị định số 144/2021/NĐ-CP về xử phạt VPHC trong lĩnh vực ANTT, an toàn xã hội, PCCC, phòng chống bạo lực gia đình",
+    "summary": "Theo Điều 66 - 68 Luật Xử lý vi phạm hành chính (sửa đổi 2020): Quyết định xử phạt VPHC phải được ban hành trong thời hạn 07 ngày làm việc kể từ ngày lập biên bản VPHC (vụ việc phức tạp không quá 30 ngày) và phải được giao hoặc gửi cho cá n...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: QUYẾT ĐỊNH XỬ PHẠT VI PHẠM HÀNH CHÍNH (LĨNH VỰC: PHÁP LUẬT HÀNH CHÍNH)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Theo Điều 66 - 68 Luật Xử lý vi phạm hành chính (sửa đổi 2020): Quyết định xử phạt VPHC phải được ban hành trong thời hạn 07 ngày làm việc kể từ ngày lập biên bản VPHC (vụ việc phức tạp không quá 30 ngày) và phải được giao hoặc gửi cho cá nhân, tổ chức bị xử phạt trong thời hạn 02 ngày làm việc kể từ ngày ra quyết định.\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Trưởng Công an xã Đức Hợp, Chủ tịch UBND xã Đức Hợp (theo thẩm quyền xử phạt cấp xã) & các cơ quan chuyên ngành cấp trên.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://dichvucong.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Thời hạn ra quyết định xử phạt VPHC: Thông thường 07 ngày làm việc kể từ ngày lập biên bản. Thời hạn giải trình trực tiếp/bằng văn bản: Trong vòng 02 - 05 ngày làm việc kể từ ngày lập biên bản VPHC (Điều 61 Luật XLVPHC). Thời hiệu xử phạt VPHC: 01 năm (hoặc 02 năm đối với đất đai, xây dựng, thuế).\n- Phí, lệ phí: Giải trình vi phạm hành chính hoặc khiếu nại quyết định hành chính: Miễn phí (0 đồng). Nộp tiền phạt VPHC thực hiện trực tuyến qua Cổng Dịch vụ công Quốc gia hoặc Kho bạc Nhà nước / Ngân hàng thương mại được ủy nhiệm thu.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Cán bộ Công an, Thanh tra KHÔNG BAO GIỜ yêu cầu người vi phạm chuyển khoản tiền nộp phạt vào tài khoản ngân hàng cá nhân của cán bộ. Mọi khoản phạt đều phải có Biên lai thu tiền phạt hợp pháp hoặc nộp trên Cổng Dịch vụ công Quốc gia!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Quyết định xử phạt vi phạm hành chính là gì và tôi có thể tìm hiểu ở đâu?\n  (2) Điều kiện hoặc căn cứ áp dụng với quyết định xử phạt vi phạm hành chính được hướng dẫn thế nào?\n  (3) Muốn thực hiện việc liên quan đến quyết định xử phạt vi phạm hành chính, tôi cần chuẩn bị giấy tờ gì?\n  (4) Các bước cần lưu ý khi xử lý việc liên quan đến quyết định xử phạt vi phạm hành chính là gì?\n  (5) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về quyết định xử phạt vi phạm hành chính?",
+    "keywords": [
+      "pháp luật hành chính",
+      "quyết định xử phạt vi phạm hành chính",
+      "quyết",
+      "định",
+      "phạt",
+      "phạm",
+      "hành",
+      "chính"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_074",
+    "category_id": "quan_ly_nganh_nghe",
+    "category": "Quản lý hành chính, Lao động & Khiếu nại",
+    "topic": "[Pháp luật hành chính] Quy định pháp luật & Hướng dẫn xử lý: Lập biên bản vi phạm",
+    "legal_basis": "Luật Xử lý vi phạm hành chính năm 2012 (sửa đổi, bổ sung năm 2020); Nghị định số 118/2021/NĐ-CP; Nghị định số 144/2021/NĐ-CP về xử phạt VPHC trong lĩnh vực ANTT, an toàn xã hội, PCCC, phòng chống bạo lực gia đình",
+    "summary": "Theo Điều 58 Luật Xử lý vi phạm hành chính: Khi phát hiện hành vi vi phạm hành chính thuộc lĩnh vực quản lý, người có thẩm quyền đang thi hành công vụ phải kịp thời lập Biên bản vi phạm hành chính (ghi rõ ngày giờ, địa điểm, hành vi, lời kh...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: LẬP BIÊN BẢN VI PHẠM (LĨNH VỰC: PHÁP LUẬT HÀNH CHÍNH)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Theo Điều 58 Luật Xử lý vi phạm hành chính: Khi phát hiện hành vi vi phạm hành chính thuộc lĩnh vực quản lý, người có thẩm quyền đang thi hành công vụ phải kịp thời lập Biên bản vi phạm hành chính (ghi rõ ngày giờ, địa điểm, hành vi, lời khai của người vi phạm/người chứng kiến) và giao cho cá nhân vi phạm 01 bản.\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Trưởng Công an xã Đức Hợp, Chủ tịch UBND xã Đức Hợp (theo thẩm quyền xử phạt cấp xã) & các cơ quan chuyên ngành cấp trên.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://dichvucong.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Thời hạn ra quyết định xử phạt VPHC: Thông thường 07 ngày làm việc kể từ ngày lập biên bản. Thời hạn giải trình trực tiếp/bằng văn bản: Trong vòng 02 - 05 ngày làm việc kể từ ngày lập biên bản VPHC (Điều 61 Luật XLVPHC). Thời hiệu xử phạt VPHC: 01 năm (hoặc 02 năm đối với đất đai, xây dựng, thuế).\n- Phí, lệ phí: Giải trình vi phạm hành chính hoặc khiếu nại quyết định hành chính: Miễn phí (0 đồng). Nộp tiền phạt VPHC thực hiện trực tuyến qua Cổng Dịch vụ công Quốc gia hoặc Kho bạc Nhà nước / Ngân hàng thương mại được ủy nhiệm thu.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Cán bộ Công an, Thanh tra KHÔNG BAO GIỜ yêu cầu người vi phạm chuyển khoản tiền nộp phạt vào tài khoản ngân hàng cá nhân của cán bộ. Mọi khoản phạt đều phải có Biên lai thu tiền phạt hợp pháp hoặc nộp trên Cổng Dịch vụ công Quốc gia!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Các bước cần lưu ý khi xử lý việc liên quan đến lập biên bản vi phạm là gì?\n  (2) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về lập biên bản vi phạm?\n  (3) Có mốc thời gian nào cần lưu ý khi xử lý việc liên quan đến lập biên bản vi phạm không?\n  (4) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến lập biên bản vi phạm không?\n  (5) Nếu mất giấy tờ hoặc bằng chứng liên quan đến lập biên bản vi phạm, tôi nên bắt đầu từ đâu?",
+    "keywords": [
+      "pháp luật hành chính",
+      "lập biên bản vi phạm",
+      "lập",
+      "biên",
+      "bản",
+      "phạm"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_075",
+    "category_id": "quan_ly_nganh_nghe",
+    "category": "Quản lý hành chính, Lao động & Khiếu nại",
+    "topic": "[Pháp luật hành chính] Quy định pháp luật & Hướng dẫn xử lý: Giải trình khi bị lập biên bản",
+    "legal_basis": "Luật Xử lý vi phạm hành chính năm 2012 (sửa đổi, bổ sung năm 2020); Nghị định số 118/2021/NĐ-CP; Nghị định số 144/2021/NĐ-CP về xử phạt VPHC trong lĩnh vực ANTT, an toàn xã hội, PCCC, phòng chống bạo lực gia đình",
+    "summary": "Theo Điều 61 Luật Xử lý vi phạm hành chính: Đối với hành vi VPHC mà pháp luật quy định hình thức phạt tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc mức phạt tiền tối đa của khung từ 15.000.000 đồng trở lên đối với cá nh...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: GIẢI TRÌNH KHI BỊ LẬP BIÊN BẢN (LĨNH VỰC: PHÁP LUẬT HÀNH CHÍNH)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Theo Điều 61 Luật Xử lý vi phạm hành chính: Đối với hành vi VPHC mà pháp luật quy định hình thức phạt tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc mức phạt tiền tối đa của khung từ 15.000.000 đồng trở lên đối với cá nhân, người vi phạm có quyền giải trình bằng văn bản (trong thời hạn 05 ngày làm việc) hoặc yêu cầu giải trình trực tiếp (trong thời hạn 02 ngày làm việc) kể từ ngày lập biên bản.\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Trưởng Công an xã Đức Hợp, Chủ tịch UBND xã Đức Hợp (theo thẩm quyền xử phạt cấp xã) & các cơ quan chuyên ngành cấp trên.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://dichvucong.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Thời hạn ra quyết định xử phạt VPHC: Thông thường 07 ngày làm việc kể từ ngày lập biên bản. Thời hạn giải trình trực tiếp/bằng văn bản: Trong vòng 02 - 05 ngày làm việc kể từ ngày lập biên bản VPHC (Điều 61 Luật XLVPHC). Thời hiệu xử phạt VPHC: 01 năm (hoặc 02 năm đối với đất đai, xây dựng, thuế).\n- Phí, lệ phí: Giải trình vi phạm hành chính hoặc khiếu nại quyết định hành chính: Miễn phí (0 đồng). Nộp tiền phạt VPHC thực hiện trực tuyến qua Cổng Dịch vụ công Quốc gia hoặc Kho bạc Nhà nước / Ngân hàng thương mại được ủy nhiệm thu.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Cán bộ Công an, Thanh tra KHÔNG BAO GIỜ yêu cầu người vi phạm chuyển khoản tiền nộp phạt vào tài khoản ngân hàng cá nhân của cán bộ. Mọi khoản phạt đều phải có Biên lai thu tiền phạt hợp pháp hoặc nộp trên Cổng Dịch vụ công Quốc gia!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến giải trình khi bị lập biên bản không?\n  (2) Nếu mất giấy tờ hoặc bằng chứng liên quan đến giải trình khi bị lập biên bản, tôi nên bắt đầu từ đâu?\n  (3) Khi thông tin về giải trình khi bị lập biên bản bị sai hoặc thay đổi, cần liên hệ nơi nào?\n  (4) Tôi có thể nhờ người thân làm thay việc về giải trình khi bị lập biên bản không, cần hỏi rõ điều gì?\n  (5) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến giải trình khi bị lập biên bản, tôi cần tìm hiểu điều gì?",
+    "keywords": [
+      "pháp luật hành chính",
+      "giải trình khi bị lập biên bản",
+      "giải",
+      "trình",
+      "khi",
+      "lập",
+      "biên",
+      "bản"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_076",
+    "category_id": "quan_ly_nganh_nghe",
+    "category": "Quản lý hành chính, Lao động & Khiếu nại",
+    "topic": "[Pháp luật hành chính] Quy định pháp luật & Hướng dẫn xử lý: Nộp phạt và tra cứu quyết định",
+    "legal_basis": "Luật Xử lý vi phạm hành chính năm 2012 (sửa đổi, bổ sung năm 2020); Nghị định số 118/2021/NĐ-CP; Nghị định số 144/2021/NĐ-CP về xử phạt VPHC trong lĩnh vực ANTT, an toàn xã hội, PCCC, phòng chống bạo lực gia đình",
+    "summary": "Theo Nghị định 118/2021/NĐ-CP: Trong thời hạn 10 ngày kể từ ngày nhận được quyết định xử phạt, cá nhân phải nộp tiền phạt tại Kho bạc Nhà nước, ngân hàng thương mại được ủy nhiệm thu hoặc nộp trực tuyến 100% trên Cổng Dịch vụ công Quốc gia ...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: NỘP PHẠT VÀ TRA CỨU QUYẾT ĐỊNH (LĨNH VỰC: PHÁP LUẬT HÀNH CHÍNH)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Theo Nghị định 118/2021/NĐ-CP: Trong thời hạn 10 ngày kể từ ngày nhận được quyết định xử phạt, cá nhân phải nộp tiền phạt tại Kho bạc Nhà nước, ngân hàng thương mại được ủy nhiệm thu hoặc nộp trực tuyến 100% trên Cổng Dịch vụ công Quốc gia (dichvucong.gov.vn) để nhận biên lai điện tử.\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Trưởng Công an xã Đức Hợp, Chủ tịch UBND xã Đức Hợp (theo thẩm quyền xử phạt cấp xã) & các cơ quan chuyên ngành cấp trên.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://dichvucong.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Thời hạn ra quyết định xử phạt VPHC: Thông thường 07 ngày làm việc kể từ ngày lập biên bản. Thời hạn giải trình trực tiếp/bằng văn bản: Trong vòng 02 - 05 ngày làm việc kể từ ngày lập biên bản VPHC (Điều 61 Luật XLVPHC). Thời hiệu xử phạt VPHC: 01 năm (hoặc 02 năm đối với đất đai, xây dựng, thuế).\n- Phí, lệ phí: Giải trình vi phạm hành chính hoặc khiếu nại quyết định hành chính: Miễn phí (0 đồng). Nộp tiền phạt VPHC thực hiện trực tuyến qua Cổng Dịch vụ công Quốc gia hoặc Kho bạc Nhà nước / Ngân hàng thương mại được ủy nhiệm thu.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Cán bộ Công an, Thanh tra KHÔNG BAO GIỜ yêu cầu người vi phạm chuyển khoản tiền nộp phạt vào tài khoản ngân hàng cá nhân của cán bộ. Mọi khoản phạt đều phải có Biên lai thu tiền phạt hợp pháp hoặc nộp trên Cổng Dịch vụ công Quốc gia!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Tôi có thể nhờ người thân làm thay việc về nộp phạt và tra cứu quyết định không, cần hỏi rõ điều gì?\n  (2) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến nộp phạt và tra cứu quyết định, tôi cần tìm hiểu điều gì?\n  (3) Sau khi gửi yêu cầu liên quan đến nộp phạt và tra cứu quyết định, tôi có thể theo dõi tiến độ thế nào?\n  (4) Người dân ở xã xa trung tâm muốn xử lý việc nộp phạt và tra cứu quyết định thì nên hỏi cơ quan nào?\n  (5) Người lớn tuổi cần hỗ trợ về nộp phạt và tra cứu quyết định thì có thể nhờ ai hướng dẫn?",
+    "keywords": [
+      "pháp luật hành chính",
+      "nộp phạt và tra cứu quyết định",
+      "nộp",
+      "phạt",
+      "tra",
+      "cứu",
+      "quyết",
+      "định"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_077",
+    "category_id": "quan_ly_nganh_nghe",
+    "category": "Quản lý hành chính, Lao động & Khiếu nại",
+    "topic": "[Pháp luật hành chính] Quy định pháp luật & Hướng dẫn xử lý: Thời hiệu xử lý vi phạm",
+    "legal_basis": "Luật Xử lý vi phạm hành chính năm 2012 (sửa đổi, bổ sung năm 2020); Nghị định số 118/2021/NĐ-CP; Nghị định số 144/2021/NĐ-CP về xử phạt VPHC trong lĩnh vực ANTT, an toàn xã hội, PCCC, phòng chống bạo lực gia đình",
+    "summary": "Theo Điều 6 Luật Xử lý vi phạm hành chính (sửa đổi 2020): Thời hiệu xử phạt vi phạm hành chính thông thường là 01 năm (riêng các lĩnh vực kế toán, thuế, phí, lệ phí, bảo hiểm, đất đai, xây dựng, môi trường, chứng khoán, sở hữu trí tuệ, xuất...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: THỜI HIỆU XỬ LÝ VI PHẠM (LĨNH VỰC: PHÁP LUẬT HÀNH CHÍNH)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Theo Điều 6 Luật Xử lý vi phạm hành chính (sửa đổi 2020): Thời hiệu xử phạt vi phạm hành chính thông thường là 01 năm (riêng các lĩnh vực kế toán, thuế, phí, lệ phí, bảo hiểm, đất đai, xây dựng, môi trường, chứng khoán, sở hữu trí tuệ, xuất nhập cảnh là 02 năm) tính từ thời điểm chấm dứt hành vi vi phạm hoặc thời điểm phát hiện hành vi vi phạm.\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Trưởng Công an xã Đức Hợp, Chủ tịch UBND xã Đức Hợp (theo thẩm quyền xử phạt cấp xã) & các cơ quan chuyên ngành cấp trên.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://dichvucong.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Thời hạn ra quyết định xử phạt VPHC: Thông thường 07 ngày làm việc kể từ ngày lập biên bản. Thời hạn giải trình trực tiếp/bằng văn bản: Trong vòng 02 - 05 ngày làm việc kể từ ngày lập biên bản VPHC (Điều 61 Luật XLVPHC). Thời hiệu xử phạt VPHC: 01 năm (hoặc 02 năm đối với đất đai, xây dựng, thuế).\n- Phí, lệ phí: Giải trình vi phạm hành chính hoặc khiếu nại quyết định hành chính: Miễn phí (0 đồng). Nộp tiền phạt VPHC thực hiện trực tuyến qua Cổng Dịch vụ công Quốc gia hoặc Kho bạc Nhà nước / Ngân hàng thương mại được ủy nhiệm thu.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Cán bộ Công an, Thanh tra KHÔNG BAO GIỜ yêu cầu người vi phạm chuyển khoản tiền nộp phạt vào tài khoản ngân hàng cá nhân của cán bộ. Mọi khoản phạt đều phải có Biên lai thu tiền phạt hợp pháp hoặc nộp trên Cổng Dịch vụ công Quốc gia!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có thể làm thủ tục về thời hiệu xử lý vi phạm trên điện thoại không, cần chuẩn bị gì?\n  (2) Người lớn tuổi cần hỗ trợ về thời hiệu xử lý vi phạm thì có thể nhờ ai hướng dẫn?\n  (3) Trong tình huống thời hiệu xử lý vi phạm, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (4) Nếu các bên không thống nhất về thời hiệu xử lý vi phạm, có thể đề nghị cơ quan nào hướng dẫn?\n  (5) Tôi nên kiểm tra thông tin chính thức về thời hiệu xử lý vi phạm trên kênh nào?",
+    "keywords": [
+      "pháp luật hành chính",
+      "thời hiệu xử lý vi phạm",
+      "thời",
+      "hiệu",
+      "phạm"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_078",
+    "category_id": "quan_ly_nganh_nghe",
+    "category": "Quản lý hành chính, Lao động & Khiếu nại",
+    "topic": "[Pháp luật hành chính] Quy định pháp luật & Hướng dẫn xử lý: Khiếu nại quyết định hành chính",
+    "legal_basis": "Luật Xử lý vi phạm hành chính năm 2012 (sửa đổi, bổ sung năm 2020); Nghị định số 118/2021/NĐ-CP; Nghị định số 144/2021/NĐ-CP về xử phạt VPHC trong lĩnh vực ANTT, an toàn xã hội, PCCC, phòng chống bạo lực gia đình",
+    "summary": "Theo Điều 15 Luật Xử lý VPHC và Luật Khiếu nại 2011: Cá nhân bị xử phạt có quyền khiếu nại Quyết định xử phạt VPHC trong thời hạn 90 ngày kể từ ngày nhận được quyết định. Lưu ý: Trong thời gian giải quyết khiếu nại, người bị xử phạt vẫn phả...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: KHIẾU NẠI QUYẾT ĐỊNH HÀNH CHÍNH (LĨNH VỰC: PHÁP LUẬT HÀNH CHÍNH)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Theo Điều 15 Luật Xử lý VPHC và Luật Khiếu nại 2011: Cá nhân bị xử phạt có quyền khiếu nại Quyết định xử phạt VPHC trong thời hạn 90 ngày kể từ ngày nhận được quyết định. Lưu ý: Trong thời gian giải quyết khiếu nại, người bị xử phạt vẫn phải chấp hành quyết định xử phạt (nộp phạt), trừ trường hợp cơ quan có thẩm quyền ra quyết định tạm đình chỉ thi hành.\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Trưởng Công an xã Đức Hợp, Chủ tịch UBND xã Đức Hợp (theo thẩm quyền xử phạt cấp xã) & các cơ quan chuyên ngành cấp trên.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://dichvucong.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Thời hạn ra quyết định xử phạt VPHC: Thông thường 07 ngày làm việc kể từ ngày lập biên bản. Thời hạn giải trình trực tiếp/bằng văn bản: Trong vòng 02 - 05 ngày làm việc kể từ ngày lập biên bản VPHC (Điều 61 Luật XLVPHC). Thời hiệu xử phạt VPHC: 01 năm (hoặc 02 năm đối với đất đai, xây dựng, thuế).\n- Phí, lệ phí: Giải trình vi phạm hành chính hoặc khiếu nại quyết định hành chính: Miễn phí (0 đồng). Nộp tiền phạt VPHC thực hiện trực tuyến qua Cổng Dịch vụ công Quốc gia hoặc Kho bạc Nhà nước / Ngân hàng thương mại được ủy nhiệm thu.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Cán bộ Công an, Thanh tra KHÔNG BAO GIỜ yêu cầu người vi phạm chuyển khoản tiền nộp phạt vào tài khoản ngân hàng cá nhân của cán bộ. Mọi khoản phạt đều phải có Biên lai thu tiền phạt hợp pháp hoặc nộp trên Cổng Dịch vụ công Quốc gia!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Trong tình huống khiếu nại quyết định hành chính, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (2) Nếu các bên không thống nhất về khiếu nại quyết định hành chính, có thể đề nghị cơ quan nào hướng dẫn?\n  (3) Tôi nên kiểm tra thông tin chính thức về khiếu nại quyết định hành chính trên kênh nào?\n  (4) Làm sao phân biệt hướng dẫn chính thức và dịch vụ giả mạo liên quan đến khiếu nại quyết định hành chính?\n  (5) Khi gặp vướng mắc về khiếu nại quyết định hành chính, tôi cần mô tả thông tin gì để được hỗ trợ?",
+    "keywords": [
+      "pháp luật hành chính",
+      "khiếu nại quyết định hành chính",
+      "khiếu",
+      "nại",
+      "quyết",
+      "định",
+      "hành",
+      "chính"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_079",
+    "category_id": "quan_ly_nganh_nghe",
+    "category": "Quản lý hành chính, Lao động & Khiếu nại",
+    "topic": "[Khiếu nại và tố cáo] Quy định pháp luật & Hướng dẫn xử lý: Gửi khiếu nại lần đầu",
+    "legal_basis": "Luật Khiếu nại số 02/2011/QH13; Luật Tố cáo số 25/2018/QH14; Luật Tiếp công dân số 42/2013/QH13; Nghị định số 124/2020/NĐ-CP & Nghị định số 31/2019/NĐ-CP",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Khiếu nại số 02/2011/QH13; Luật Tố cáo số 25/2018/QH14; Luật Tiếp công dân số 42/2013/QH13; Nghị định số 124/2020/NĐ-CP & Nghị định số 31/2019/NĐ-CP. Công dân thực hiện trực tuyến trên ứng dụng VNeID...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: GỬI KHIẾU NẠI LẦN ĐẦU (LĨNH VỰC: KHIẾU NẠI VÀ TỐ CÁO)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Khiếu nại số 02/2011/QH13; Luật Tố cáo số 25/2018/QH14; Luật Tiếp công dân số 42/2013/QH13; Nghị định số 124/2020/NĐ-CP & Nghị định số 31/2019/NĐ-CP. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://thanhtra.gov.vn) hoặc liên hệ trực tiếp Chủ tịch UBND xã Đức Hợp, Trưởng Công an xã Đức Hợp (đối với khiếu nại lần đầu thuộc thẩm quyền cấp xã) hoặc gửi qua tính năng Kiến nghị, phản ánh trên VNeID để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Thời hạn thụ lý khiếu nại: 10 ngày làm việc. Thời hạn giải quyết khiếu nại lần đầu: Không quá 30 ngày (phức tạp không quá 45 ngày). Thời hạn giải quyết tố cáo: Không quá 30 ngày kể từ ngày thụ lý (Điều 30 Luật Tố cáo 2018).).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Chủ tịch UBND xã Đức Hợp, Trưởng Công an xã Đức Hợp (đối với khiếu nại lần đầu thuộc thẩm quyền cấp xã) hoặc gửi qua tính năng Kiến nghị, phản ánh trên VNeID.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://thanhtra.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Thời hạn thụ lý khiếu nại: 10 ngày làm việc. Thời hạn giải quyết khiếu nại lần đầu: Không quá 30 ngày (phức tạp không quá 45 ngày). Thời hạn giải quyết tố cáo: Không quá 30 ngày kể từ ngày thụ lý (Điều 30 Luật Tố cáo 2018).\n- Phí, lệ phí: Công dân thực hiện quyền khiếu nại, tố cáo, kiến nghị, phản ánh hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Theo Điều 47 Luật Tố cáo 2018, người tố cáo được Nhà nước bảo vệ tuyệt đối bí mật họ tên, địa chỉ, bút tích và bảo vệ tính mạng, sức khỏe, tài sản, vị trí công tác. Tuy nhiên, hành vi cố ý tố cáo sai sự thật để vu khống người khác là vi phạm pháp luật.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Gửi khiếu nại lần đầu là gì và tôi có thể tìm hiểu ở đâu?\n  (2) Điều kiện hoặc căn cứ áp dụng với gửi khiếu nại lần đầu được hướng dẫn thế nào?\n  (3) Muốn thực hiện việc liên quan đến gửi khiếu nại lần đầu, tôi cần chuẩn bị giấy tờ gì?\n  (4) Các bước cần lưu ý khi xử lý việc liên quan đến gửi khiếu nại lần đầu là gì?\n  (5) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về gửi khiếu nại lần đầu?",
+    "keywords": [
+      "khiếu nại và tố cáo",
+      "gửi khiếu nại lần đầu",
+      "gửi",
+      "khiếu",
+      "nại",
+      "lần",
+      "đầu"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_080",
+    "category_id": "quan_ly_nganh_nghe",
+    "category": "Quản lý hành chính, Lao động & Khiếu nại",
+    "topic": "[Khiếu nại và tố cáo] Quy định pháp luật & Hướng dẫn xử lý: Tố cáo hành vi vi phạm",
+    "legal_basis": "Luật Khiếu nại số 02/2011/QH13; Luật Tố cáo số 25/2018/QH14; Luật Tiếp công dân số 42/2013/QH13; Nghị định số 124/2020/NĐ-CP & Nghị định số 31/2019/NĐ-CP",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Khiếu nại số 02/2011/QH13; Luật Tố cáo số 25/2018/QH14; Luật Tiếp công dân số 42/2013/QH13; Nghị định số 124/2020/NĐ-CP & Nghị định số 31/2019/NĐ-CP. Công dân thực hiện trực tuyến trên ứng dụng VNeID...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: TỐ CÁO HÀNH VI VI PHẠM (LĨNH VỰC: KHIẾU NẠI VÀ TỐ CÁO)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Khiếu nại số 02/2011/QH13; Luật Tố cáo số 25/2018/QH14; Luật Tiếp công dân số 42/2013/QH13; Nghị định số 124/2020/NĐ-CP & Nghị định số 31/2019/NĐ-CP. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://thanhtra.gov.vn) hoặc liên hệ trực tiếp Chủ tịch UBND xã Đức Hợp, Trưởng Công an xã Đức Hợp (đối với khiếu nại lần đầu thuộc thẩm quyền cấp xã) hoặc gửi qua tính năng Kiến nghị, phản ánh trên VNeID để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Thời hạn thụ lý khiếu nại: 10 ngày làm việc. Thời hạn giải quyết khiếu nại lần đầu: Không quá 30 ngày (phức tạp không quá 45 ngày). Thời hạn giải quyết tố cáo: Không quá 30 ngày kể từ ngày thụ lý (Điều 30 Luật Tố cáo 2018).).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Chủ tịch UBND xã Đức Hợp, Trưởng Công an xã Đức Hợp (đối với khiếu nại lần đầu thuộc thẩm quyền cấp xã) hoặc gửi qua tính năng Kiến nghị, phản ánh trên VNeID.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://thanhtra.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Thời hạn thụ lý khiếu nại: 10 ngày làm việc. Thời hạn giải quyết khiếu nại lần đầu: Không quá 30 ngày (phức tạp không quá 45 ngày). Thời hạn giải quyết tố cáo: Không quá 30 ngày kể từ ngày thụ lý (Điều 30 Luật Tố cáo 2018).\n- Phí, lệ phí: Công dân thực hiện quyền khiếu nại, tố cáo, kiến nghị, phản ánh hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Theo Điều 47 Luật Tố cáo 2018, người tố cáo được Nhà nước bảo vệ tuyệt đối bí mật họ tên, địa chỉ, bút tích và bảo vệ tính mạng, sức khỏe, tài sản, vị trí công tác. Tuy nhiên, hành vi cố ý tố cáo sai sự thật để vu khống người khác là vi phạm pháp luật.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Các bước cần lưu ý khi xử lý việc liên quan đến tố cáo hành vi vi phạm là gì?\n  (2) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về tố cáo hành vi vi phạm?\n  (3) Có mốc thời gian nào cần lưu ý khi xử lý việc liên quan đến tố cáo hành vi vi phạm không?\n  (4) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến tố cáo hành vi vi phạm không?\n  (5) Nếu mất giấy tờ hoặc bằng chứng liên quan đến tố cáo hành vi vi phạm, tôi nên bắt đầu từ đâu?",
+    "keywords": [
+      "khiếu nại và tố cáo",
+      "tố cáo hành vi vi phạm",
+      "cáo",
+      "hành",
+      "phạm"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_081",
+    "category_id": "quan_ly_nganh_nghe",
+    "category": "Quản lý hành chính, Lao động & Khiếu nại",
+    "topic": "[Khiếu nại và tố cáo] Quy định pháp luật & Hướng dẫn xử lý: Thẩm quyền tiếp nhận đơn",
+    "legal_basis": "Luật Khiếu nại số 02/2011/QH13; Luật Tố cáo số 25/2018/QH14; Luật Tiếp công dân số 42/2013/QH13; Nghị định số 124/2020/NĐ-CP & Nghị định số 31/2019/NĐ-CP",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Khiếu nại số 02/2011/QH13; Luật Tố cáo số 25/2018/QH14; Luật Tiếp công dân số 42/2013/QH13; Nghị định số 124/2020/NĐ-CP & Nghị định số 31/2019/NĐ-CP. Công dân thực hiện trực tuyến trên ứng dụng VNeID...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: THẨM QUYỀN TIẾP NHẬN ĐƠN (LĨNH VỰC: KHIẾU NẠI VÀ TỐ CÁO)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Khiếu nại số 02/2011/QH13; Luật Tố cáo số 25/2018/QH14; Luật Tiếp công dân số 42/2013/QH13; Nghị định số 124/2020/NĐ-CP & Nghị định số 31/2019/NĐ-CP. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://thanhtra.gov.vn) hoặc liên hệ trực tiếp Chủ tịch UBND xã Đức Hợp, Trưởng Công an xã Đức Hợp (đối với khiếu nại lần đầu thuộc thẩm quyền cấp xã) hoặc gửi qua tính năng Kiến nghị, phản ánh trên VNeID để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Thời hạn thụ lý khiếu nại: 10 ngày làm việc. Thời hạn giải quyết khiếu nại lần đầu: Không quá 30 ngày (phức tạp không quá 45 ngày). Thời hạn giải quyết tố cáo: Không quá 30 ngày kể từ ngày thụ lý (Điều 30 Luật Tố cáo 2018).).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Chủ tịch UBND xã Đức Hợp, Trưởng Công an xã Đức Hợp (đối với khiếu nại lần đầu thuộc thẩm quyền cấp xã) hoặc gửi qua tính năng Kiến nghị, phản ánh trên VNeID.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://thanhtra.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Thời hạn thụ lý khiếu nại: 10 ngày làm việc. Thời hạn giải quyết khiếu nại lần đầu: Không quá 30 ngày (phức tạp không quá 45 ngày). Thời hạn giải quyết tố cáo: Không quá 30 ngày kể từ ngày thụ lý (Điều 30 Luật Tố cáo 2018).\n- Phí, lệ phí: Công dân thực hiện quyền khiếu nại, tố cáo, kiến nghị, phản ánh hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Theo Điều 47 Luật Tố cáo 2018, người tố cáo được Nhà nước bảo vệ tuyệt đối bí mật họ tên, địa chỉ, bút tích và bảo vệ tính mạng, sức khỏe, tài sản, vị trí công tác. Tuy nhiên, hành vi cố ý tố cáo sai sự thật để vu khống người khác là vi phạm pháp luật.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến thẩm quyền tiếp nhận đơn không?\n  (2) Nếu mất giấy tờ hoặc bằng chứng liên quan đến thẩm quyền tiếp nhận đơn, tôi nên bắt đầu từ đâu?\n  (3) Khi thông tin về thẩm quyền tiếp nhận đơn bị sai hoặc thay đổi, cần liên hệ nơi nào?\n  (4) Tôi có thể nhờ người thân làm thay việc về thẩm quyền tiếp nhận đơn không, cần hỏi rõ điều gì?\n  (5) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến thẩm quyền tiếp nhận đơn, tôi cần tìm hiểu điều gì?",
+    "keywords": [
+      "khiếu nại và tố cáo",
+      "thẩm quyền tiếp nhận đơn",
+      "thẩm",
+      "quyền",
+      "tiếp",
+      "nhận",
+      "đơn"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_082",
+    "category_id": "quan_ly_nganh_nghe",
+    "category": "Quản lý hành chính, Lao động & Khiếu nại",
+    "topic": "[Khiếu nại và tố cáo] Quy định pháp luật & Hướng dẫn xử lý: Theo dõi tình trạng xử lý đơn",
+    "legal_basis": "Luật Khiếu nại số 02/2011/QH13; Luật Tố cáo số 25/2018/QH14; Luật Tiếp công dân số 42/2013/QH13; Nghị định số 124/2020/NĐ-CP & Nghị định số 31/2019/NĐ-CP",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Khiếu nại số 02/2011/QH13; Luật Tố cáo số 25/2018/QH14; Luật Tiếp công dân số 42/2013/QH13; Nghị định số 124/2020/NĐ-CP & Nghị định số 31/2019/NĐ-CP. Công dân thực hiện trực tuyến trên ứng dụng VNeID...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: THEO DÕI TÌNH TRẠNG XỬ LÝ ĐƠN (LĨNH VỰC: KHIẾU NẠI VÀ TỐ CÁO)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Khiếu nại số 02/2011/QH13; Luật Tố cáo số 25/2018/QH14; Luật Tiếp công dân số 42/2013/QH13; Nghị định số 124/2020/NĐ-CP & Nghị định số 31/2019/NĐ-CP. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://thanhtra.gov.vn) hoặc liên hệ trực tiếp Chủ tịch UBND xã Đức Hợp, Trưởng Công an xã Đức Hợp (đối với khiếu nại lần đầu thuộc thẩm quyền cấp xã) hoặc gửi qua tính năng Kiến nghị, phản ánh trên VNeID để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Thời hạn thụ lý khiếu nại: 10 ngày làm việc. Thời hạn giải quyết khiếu nại lần đầu: Không quá 30 ngày (phức tạp không quá 45 ngày). Thời hạn giải quyết tố cáo: Không quá 30 ngày kể từ ngày thụ lý (Điều 30 Luật Tố cáo 2018).).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Chủ tịch UBND xã Đức Hợp, Trưởng Công an xã Đức Hợp (đối với khiếu nại lần đầu thuộc thẩm quyền cấp xã) hoặc gửi qua tính năng Kiến nghị, phản ánh trên VNeID.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://thanhtra.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Thời hạn thụ lý khiếu nại: 10 ngày làm việc. Thời hạn giải quyết khiếu nại lần đầu: Không quá 30 ngày (phức tạp không quá 45 ngày). Thời hạn giải quyết tố cáo: Không quá 30 ngày kể từ ngày thụ lý (Điều 30 Luật Tố cáo 2018).\n- Phí, lệ phí: Công dân thực hiện quyền khiếu nại, tố cáo, kiến nghị, phản ánh hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Theo Điều 47 Luật Tố cáo 2018, người tố cáo được Nhà nước bảo vệ tuyệt đối bí mật họ tên, địa chỉ, bút tích và bảo vệ tính mạng, sức khỏe, tài sản, vị trí công tác. Tuy nhiên, hành vi cố ý tố cáo sai sự thật để vu khống người khác là vi phạm pháp luật.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Tôi có thể nhờ người thân làm thay việc về theo dõi tình trạng xử lý đơn không, cần hỏi rõ điều gì?\n  (2) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến theo dõi tình trạng xử lý đơn, tôi cần tìm hiểu điều gì?\n  (3) Sau khi gửi yêu cầu liên quan đến theo dõi tình trạng xử lý đơn, tôi có thể theo dõi tiến độ thế nào?\n  (4) Người dân ở xã xa trung tâm muốn xử lý việc theo dõi tình trạng xử lý đơn thì nên hỏi cơ quan nào?\n  (5) Người lớn tuổi cần hỗ trợ về theo dõi tình trạng xử lý đơn thì có thể nhờ ai hướng dẫn?",
+    "keywords": [
+      "khiếu nại và tố cáo",
+      "theo dõi tình trạng xử lý đơn",
+      "theo",
+      "dõi",
+      "tình",
+      "trạng",
+      "đơn"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_083",
+    "category_id": "quan_ly_nganh_nghe",
+    "category": "Quản lý hành chính, Lao động & Khiếu nại",
+    "topic": "[Khiếu nại và tố cáo] Quy định pháp luật & Hướng dẫn xử lý: Thời hạn giải quyết khiếu nại",
+    "legal_basis": "Luật Khiếu nại số 02/2011/QH13; Luật Tố cáo số 25/2018/QH14; Luật Tiếp công dân số 42/2013/QH13; Nghị định số 124/2020/NĐ-CP & Nghị định số 31/2019/NĐ-CP",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Khiếu nại số 02/2011/QH13; Luật Tố cáo số 25/2018/QH14; Luật Tiếp công dân số 42/2013/QH13; Nghị định số 124/2020/NĐ-CP & Nghị định số 31/2019/NĐ-CP. Công dân thực hiện trực tuyến trên ứng dụng VNeID...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: THỜI HẠN GIẢI QUYẾT KHIẾU NẠI (LĨNH VỰC: KHIẾU NẠI VÀ TỐ CÁO)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Khiếu nại số 02/2011/QH13; Luật Tố cáo số 25/2018/QH14; Luật Tiếp công dân số 42/2013/QH13; Nghị định số 124/2020/NĐ-CP & Nghị định số 31/2019/NĐ-CP. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://thanhtra.gov.vn) hoặc liên hệ trực tiếp Chủ tịch UBND xã Đức Hợp, Trưởng Công an xã Đức Hợp (đối với khiếu nại lần đầu thuộc thẩm quyền cấp xã) hoặc gửi qua tính năng Kiến nghị, phản ánh trên VNeID để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Thời hạn thụ lý khiếu nại: 10 ngày làm việc. Thời hạn giải quyết khiếu nại lần đầu: Không quá 30 ngày (phức tạp không quá 45 ngày). Thời hạn giải quyết tố cáo: Không quá 30 ngày kể từ ngày thụ lý (Điều 30 Luật Tố cáo 2018).).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Chủ tịch UBND xã Đức Hợp, Trưởng Công an xã Đức Hợp (đối với khiếu nại lần đầu thuộc thẩm quyền cấp xã) hoặc gửi qua tính năng Kiến nghị, phản ánh trên VNeID.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://thanhtra.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Thời hạn thụ lý khiếu nại: 10 ngày làm việc. Thời hạn giải quyết khiếu nại lần đầu: Không quá 30 ngày (phức tạp không quá 45 ngày). Thời hạn giải quyết tố cáo: Không quá 30 ngày kể từ ngày thụ lý (Điều 30 Luật Tố cáo 2018).\n- Phí, lệ phí: Công dân thực hiện quyền khiếu nại, tố cáo, kiến nghị, phản ánh hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Theo Điều 47 Luật Tố cáo 2018, người tố cáo được Nhà nước bảo vệ tuyệt đối bí mật họ tên, địa chỉ, bút tích và bảo vệ tính mạng, sức khỏe, tài sản, vị trí công tác. Tuy nhiên, hành vi cố ý tố cáo sai sự thật để vu khống người khác là vi phạm pháp luật.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có thể làm thủ tục về thời hạn giải quyết khiếu nại trên điện thoại không, cần chuẩn bị gì?\n  (2) Người lớn tuổi cần hỗ trợ về thời hạn giải quyết khiếu nại thì có thể nhờ ai hướng dẫn?\n  (3) Trong tình huống thời hạn giải quyết khiếu nại, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (4) Nếu các bên không thống nhất về thời hạn giải quyết khiếu nại, có thể đề nghị cơ quan nào hướng dẫn?\n  (5) Tôi nên kiểm tra thông tin chính thức về thời hạn giải quyết khiếu nại trên kênh nào?",
+    "keywords": [
+      "khiếu nại và tố cáo",
+      "thời hạn giải quyết khiếu nại",
+      "thời",
+      "hạn",
+      "giải",
+      "quyết",
+      "khiếu",
+      "nại"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_084",
+    "category_id": "quan_ly_nganh_nghe",
+    "category": "Quản lý hành chính, Lao động & Khiếu nại",
+    "topic": "[Khiếu nại và tố cáo] Quy định pháp luật & Hướng dẫn xử lý: Bảo vệ người tố cáo",
+    "legal_basis": "Luật Khiếu nại số 02/2011/QH13; Luật Tố cáo số 25/2018/QH14; Luật Tiếp công dân số 42/2013/QH13; Nghị định số 124/2020/NĐ-CP & Nghị định số 31/2019/NĐ-CP",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Khiếu nại số 02/2011/QH13; Luật Tố cáo số 25/2018/QH14; Luật Tiếp công dân số 42/2013/QH13; Nghị định số 124/2020/NĐ-CP & Nghị định số 31/2019/NĐ-CP. Công dân thực hiện trực tuyến trên ứng dụng VNeID...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: BẢO VỆ NGƯỜI TỐ CÁO (LĨNH VỰC: KHIẾU NẠI VÀ TỐ CÁO)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Khiếu nại số 02/2011/QH13; Luật Tố cáo số 25/2018/QH14; Luật Tiếp công dân số 42/2013/QH13; Nghị định số 124/2020/NĐ-CP & Nghị định số 31/2019/NĐ-CP. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://thanhtra.gov.vn) hoặc liên hệ trực tiếp Chủ tịch UBND xã Đức Hợp, Trưởng Công an xã Đức Hợp (đối với khiếu nại lần đầu thuộc thẩm quyền cấp xã) hoặc gửi qua tính năng Kiến nghị, phản ánh trên VNeID để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Thời hạn thụ lý khiếu nại: 10 ngày làm việc. Thời hạn giải quyết khiếu nại lần đầu: Không quá 30 ngày (phức tạp không quá 45 ngày). Thời hạn giải quyết tố cáo: Không quá 30 ngày kể từ ngày thụ lý (Điều 30 Luật Tố cáo 2018).).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Chủ tịch UBND xã Đức Hợp, Trưởng Công an xã Đức Hợp (đối với khiếu nại lần đầu thuộc thẩm quyền cấp xã) hoặc gửi qua tính năng Kiến nghị, phản ánh trên VNeID.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://thanhtra.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Thời hạn thụ lý khiếu nại: 10 ngày làm việc. Thời hạn giải quyết khiếu nại lần đầu: Không quá 30 ngày (phức tạp không quá 45 ngày). Thời hạn giải quyết tố cáo: Không quá 30 ngày kể từ ngày thụ lý (Điều 30 Luật Tố cáo 2018).\n- Phí, lệ phí: Công dân thực hiện quyền khiếu nại, tố cáo, kiến nghị, phản ánh hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Theo Điều 47 Luật Tố cáo 2018, người tố cáo được Nhà nước bảo vệ tuyệt đối bí mật họ tên, địa chỉ, bút tích và bảo vệ tính mạng, sức khỏe, tài sản, vị trí công tác. Tuy nhiên, hành vi cố ý tố cáo sai sự thật để vu khống người khác là vi phạm pháp luật.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Trong tình huống bảo vệ người tố cáo, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (2) Nếu các bên không thống nhất về bảo vệ người tố cáo, có thể đề nghị cơ quan nào hướng dẫn?\n  (3) Tôi nên kiểm tra thông tin chính thức về bảo vệ người tố cáo trên kênh nào?\n  (4) Làm sao phân biệt hướng dẫn chính thức và dịch vụ giả mạo liên quan đến bảo vệ người tố cáo?\n  (5) Khi gặp vướng mắc về bảo vệ người tố cáo, tôi cần mô tả thông tin gì để được hỗ trợ?",
+    "keywords": [
+      "khiếu nại và tố cáo",
+      "bảo vệ người tố cáo",
+      "bảo",
+      "người",
+      "cáo"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_085",
+    "category_id": "quan_ly_nganh_nghe",
+    "category": "Quản lý hành chính, Lao động & Khiếu nại",
+    "topic": "[Lao động và bảo hiểm xã hội] Quy định pháp luật & Hướng dẫn xử lý: Giao kết hợp đồng lao động",
+    "legal_basis": "Bộ luật Lao động số 45/2019/QH14; Luật Bảo hiểm xã hội số 41/2024/QH15; Luật Việc làm; Nghị định số 145/2020/NĐ-CP",
+    "summary": "Áp dụng trực tiếp theo quy định tại Bộ luật Lao động số 45/2019/QH14; Luật Bảo hiểm xã hội số 41/2024/QH15; Luật Việc làm; Nghị định số 145/2020/NĐ-CP. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://baohiemxa...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: GIAO KẾT HỢP ĐỒNG LAO ĐỘNG (LĨNH VỰC: LAO ĐỘNG VÀ BẢO HIỂM XÃ HỘI)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Bộ luật Lao động số 45/2019/QH14; Luật Bảo hiểm xã hội số 41/2024/QH15; Luật Việc làm; Nghị định số 145/2020/NĐ-CP. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://baohiemxahoi.gov.vn) hoặc liên hệ trực tiếp Cơ quan Bảo hiểm xã hội, Trung tâm Dịch vụ việc làm tỉnh Hưng Yên (hưởng trợ cấp thất nghiệp trực tuyến trên Cổng DVC Quốc gia) & Phòng Lao động - TB&XH để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Tích hợp Sổ BHXH, Thẻ BHYT lên VNeID: Xử lý trong ngày. Giải quyết hưởng trợ cấp thất nghiệp: Trong thời hạn 03 tháng kể từ ngày chấm dứt hợp đồng lao động phải nộp hồ sơ; thời gian xét duyệt 15 - 20 ngày làm việc.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Cơ quan Bảo hiểm xã hội, Trung tâm Dịch vụ việc làm tỉnh Hưng Yên (hưởng trợ cấp thất nghiệp trực tuyến trên Cổng DVC Quốc gia) & Phòng Lao động - TB&XH.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://baohiemxahoi.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Tích hợp Sổ BHXH, Thẻ BHYT lên VNeID: Xử lý trong ngày. Giải quyết hưởng trợ cấp thất nghiệp: Trong thời hạn 03 tháng kể từ ngày chấm dứt hợp đồng lao động phải nộp hồ sơ; thời gian xét duyệt 15 - 20 ngày làm việc.\n- Phí, lệ phí: Mọi thủ tục đăng ký tham gia BHXH, tra cứu quá trình đóng BHXH trên VNeID / VssID và nộp hồ sơ hưởng trợ cấp thất nghiệp đều miễn phí 100%.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Người lao động khi chấm dứt hợp đồng lao động cần yêu cầu người sử dụng lao động chốt sổ BHXH và trả quyết định thôi việc đúng hạn. Cảnh giác với các đối tượng nhận \"mua bán, cầm cố sổ BHXH\" hoặc giả danh cán bộ BHXH gửi link lạ yêu cầu cập nhật VssID để chiếm đoạt tiền!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Giao kết hợp đồng lao động là gì và tôi có thể tìm hiểu ở đâu?\n  (2) Điều kiện hoặc căn cứ áp dụng với giao kết hợp đồng lao động được hướng dẫn thế nào?\n  (3) Muốn thực hiện việc liên quan đến giao kết hợp đồng lao động, tôi cần chuẩn bị giấy tờ gì?\n  (4) Các bước cần lưu ý khi xử lý việc liên quan đến giao kết hợp đồng lao động là gì?\n  (5) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về giao kết hợp đồng lao động?",
+    "keywords": [
+      "lao động và bảo hiểm xã hội",
+      "giao kết hợp đồng lao động",
+      "giao",
+      "kết",
+      "hợp",
+      "đồng",
+      "lao",
+      "động"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_086",
+    "category_id": "quan_ly_nganh_nghe",
+    "category": "Quản lý hành chính, Lao động & Khiếu nại",
+    "topic": "[Lao động và bảo hiểm xã hội] Quy định pháp luật & Hướng dẫn xử lý: Chấm dứt hợp đồng lao động",
+    "legal_basis": "Bộ luật Lao động số 45/2019/QH14; Luật Bảo hiểm xã hội số 41/2024/QH15; Luật Việc làm; Nghị định số 145/2020/NĐ-CP",
+    "summary": "Áp dụng trực tiếp theo quy định tại Bộ luật Lao động số 45/2019/QH14; Luật Bảo hiểm xã hội số 41/2024/QH15; Luật Việc làm; Nghị định số 145/2020/NĐ-CP. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://baohiemxa...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: CHẤM DỨT HỢP ĐỒNG LAO ĐỘNG (LĨNH VỰC: LAO ĐỘNG VÀ BẢO HIỂM XÃ HỘI)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Bộ luật Lao động số 45/2019/QH14; Luật Bảo hiểm xã hội số 41/2024/QH15; Luật Việc làm; Nghị định số 145/2020/NĐ-CP. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://baohiemxahoi.gov.vn) hoặc liên hệ trực tiếp Cơ quan Bảo hiểm xã hội, Trung tâm Dịch vụ việc làm tỉnh Hưng Yên (hưởng trợ cấp thất nghiệp trực tuyến trên Cổng DVC Quốc gia) & Phòng Lao động - TB&XH để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Tích hợp Sổ BHXH, Thẻ BHYT lên VNeID: Xử lý trong ngày. Giải quyết hưởng trợ cấp thất nghiệp: Trong thời hạn 03 tháng kể từ ngày chấm dứt hợp đồng lao động phải nộp hồ sơ; thời gian xét duyệt 15 - 20 ngày làm việc.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Cơ quan Bảo hiểm xã hội, Trung tâm Dịch vụ việc làm tỉnh Hưng Yên (hưởng trợ cấp thất nghiệp trực tuyến trên Cổng DVC Quốc gia) & Phòng Lao động - TB&XH.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://baohiemxahoi.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Tích hợp Sổ BHXH, Thẻ BHYT lên VNeID: Xử lý trong ngày. Giải quyết hưởng trợ cấp thất nghiệp: Trong thời hạn 03 tháng kể từ ngày chấm dứt hợp đồng lao động phải nộp hồ sơ; thời gian xét duyệt 15 - 20 ngày làm việc.\n- Phí, lệ phí: Mọi thủ tục đăng ký tham gia BHXH, tra cứu quá trình đóng BHXH trên VNeID / VssID và nộp hồ sơ hưởng trợ cấp thất nghiệp đều miễn phí 100%.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Người lao động khi chấm dứt hợp đồng lao động cần yêu cầu người sử dụng lao động chốt sổ BHXH và trả quyết định thôi việc đúng hạn. Cảnh giác với các đối tượng nhận \"mua bán, cầm cố sổ BHXH\" hoặc giả danh cán bộ BHXH gửi link lạ yêu cầu cập nhật VssID để chiếm đoạt tiền!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Các bước cần lưu ý khi xử lý việc liên quan đến chấm dứt hợp đồng lao động là gì?\n  (2) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về chấm dứt hợp đồng lao động?\n  (3) Có mốc thời gian nào cần lưu ý khi xử lý việc liên quan đến chấm dứt hợp đồng lao động không?\n  (4) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến chấm dứt hợp đồng lao động không?\n  (5) Nếu mất giấy tờ hoặc bằng chứng liên quan đến chấm dứt hợp đồng lao động, tôi nên bắt đầu từ đâu?",
+    "keywords": [
+      "lao động và bảo hiểm xã hội",
+      "chấm dứt hợp đồng lao động",
+      "chấm",
+      "dứt",
+      "hợp",
+      "đồng",
+      "lao",
+      "động"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_087",
+    "category_id": "quan_ly_nganh_nghe",
+    "category": "Quản lý hành chính, Lao động & Khiếu nại",
+    "topic": "[Lao động và bảo hiểm xã hội] Quy định pháp luật & Hướng dẫn xử lý: Tiền lương và làm thêm giờ",
+    "legal_basis": "Bộ luật Lao động số 45/2019/QH14; Luật Bảo hiểm xã hội số 41/2024/QH15; Luật Việc làm; Nghị định số 145/2020/NĐ-CP",
+    "summary": "Áp dụng trực tiếp theo quy định tại Bộ luật Lao động số 45/2019/QH14; Luật Bảo hiểm xã hội số 41/2024/QH15; Luật Việc làm; Nghị định số 145/2020/NĐ-CP. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://baohiemxa...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: TIỀN LƯƠNG VÀ LÀM THÊM GIỜ (LĨNH VỰC: LAO ĐỘNG VÀ BẢO HIỂM XÃ HỘI)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Bộ luật Lao động số 45/2019/QH14; Luật Bảo hiểm xã hội số 41/2024/QH15; Luật Việc làm; Nghị định số 145/2020/NĐ-CP. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://baohiemxahoi.gov.vn) hoặc liên hệ trực tiếp Cơ quan Bảo hiểm xã hội, Trung tâm Dịch vụ việc làm tỉnh Hưng Yên (hưởng trợ cấp thất nghiệp trực tuyến trên Cổng DVC Quốc gia) & Phòng Lao động - TB&XH để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Tích hợp Sổ BHXH, Thẻ BHYT lên VNeID: Xử lý trong ngày. Giải quyết hưởng trợ cấp thất nghiệp: Trong thời hạn 03 tháng kể từ ngày chấm dứt hợp đồng lao động phải nộp hồ sơ; thời gian xét duyệt 15 - 20 ngày làm việc.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Cơ quan Bảo hiểm xã hội, Trung tâm Dịch vụ việc làm tỉnh Hưng Yên (hưởng trợ cấp thất nghiệp trực tuyến trên Cổng DVC Quốc gia) & Phòng Lao động - TB&XH.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://baohiemxahoi.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Tích hợp Sổ BHXH, Thẻ BHYT lên VNeID: Xử lý trong ngày. Giải quyết hưởng trợ cấp thất nghiệp: Trong thời hạn 03 tháng kể từ ngày chấm dứt hợp đồng lao động phải nộp hồ sơ; thời gian xét duyệt 15 - 20 ngày làm việc.\n- Phí, lệ phí: Mọi thủ tục đăng ký tham gia BHXH, tra cứu quá trình đóng BHXH trên VNeID / VssID và nộp hồ sơ hưởng trợ cấp thất nghiệp đều miễn phí 100%.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Người lao động khi chấm dứt hợp đồng lao động cần yêu cầu người sử dụng lao động chốt sổ BHXH và trả quyết định thôi việc đúng hạn. Cảnh giác với các đối tượng nhận \"mua bán, cầm cố sổ BHXH\" hoặc giả danh cán bộ BHXH gửi link lạ yêu cầu cập nhật VssID để chiếm đoạt tiền!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến tiền lương và làm thêm giờ không?\n  (2) Nếu mất giấy tờ hoặc bằng chứng liên quan đến tiền lương và làm thêm giờ, tôi nên bắt đầu từ đâu?\n  (3) Khi thông tin về tiền lương và làm thêm giờ bị sai hoặc thay đổi, cần liên hệ nơi nào?\n  (4) Tôi có thể nhờ người thân làm thay việc về tiền lương và làm thêm giờ không, cần hỏi rõ điều gì?\n  (5) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến tiền lương và làm thêm giờ, tôi cần tìm hiểu điều gì?",
+    "keywords": [
+      "lao động và bảo hiểm xã hội",
+      "tiền lương và làm thêm giờ",
+      "tiền",
+      "lương",
+      "làm",
+      "thêm",
+      "giờ"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_088",
+    "category_id": "quan_ly_nganh_nghe",
+    "category": "Quản lý hành chính, Lao động & Khiếu nại",
+    "topic": "[Lao động và bảo hiểm xã hội] Quy định pháp luật & Hướng dẫn xử lý: Tham gia bảo hiểm xã hội",
+    "legal_basis": "Bộ luật Lao động số 45/2019/QH14; Luật Bảo hiểm xã hội số 41/2024/QH15; Luật Việc làm; Nghị định số 145/2020/NĐ-CP",
+    "summary": "Áp dụng trực tiếp theo quy định tại Bộ luật Lao động số 45/2019/QH14; Luật Bảo hiểm xã hội số 41/2024/QH15; Luật Việc làm; Nghị định số 145/2020/NĐ-CP. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://baohiemxa...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: THAM GIA BẢO HIỂM XÃ HỘI (LĨNH VỰC: LAO ĐỘNG VÀ BẢO HIỂM XÃ HỘI)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Bộ luật Lao động số 45/2019/QH14; Luật Bảo hiểm xã hội số 41/2024/QH15; Luật Việc làm; Nghị định số 145/2020/NĐ-CP. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://baohiemxahoi.gov.vn) hoặc liên hệ trực tiếp Cơ quan Bảo hiểm xã hội, Trung tâm Dịch vụ việc làm tỉnh Hưng Yên (hưởng trợ cấp thất nghiệp trực tuyến trên Cổng DVC Quốc gia) & Phòng Lao động - TB&XH để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Tích hợp Sổ BHXH, Thẻ BHYT lên VNeID: Xử lý trong ngày. Giải quyết hưởng trợ cấp thất nghiệp: Trong thời hạn 03 tháng kể từ ngày chấm dứt hợp đồng lao động phải nộp hồ sơ; thời gian xét duyệt 15 - 20 ngày làm việc.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Cơ quan Bảo hiểm xã hội, Trung tâm Dịch vụ việc làm tỉnh Hưng Yên (hưởng trợ cấp thất nghiệp trực tuyến trên Cổng DVC Quốc gia) & Phòng Lao động - TB&XH.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://baohiemxahoi.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Tích hợp Sổ BHXH, Thẻ BHYT lên VNeID: Xử lý trong ngày. Giải quyết hưởng trợ cấp thất nghiệp: Trong thời hạn 03 tháng kể từ ngày chấm dứt hợp đồng lao động phải nộp hồ sơ; thời gian xét duyệt 15 - 20 ngày làm việc.\n- Phí, lệ phí: Mọi thủ tục đăng ký tham gia BHXH, tra cứu quá trình đóng BHXH trên VNeID / VssID và nộp hồ sơ hưởng trợ cấp thất nghiệp đều miễn phí 100%.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Người lao động khi chấm dứt hợp đồng lao động cần yêu cầu người sử dụng lao động chốt sổ BHXH và trả quyết định thôi việc đúng hạn. Cảnh giác với các đối tượng nhận \"mua bán, cầm cố sổ BHXH\" hoặc giả danh cán bộ BHXH gửi link lạ yêu cầu cập nhật VssID để chiếm đoạt tiền!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Tôi có thể nhờ người thân làm thay việc về tham gia bảo hiểm xã hội không, cần hỏi rõ điều gì?\n  (2) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến tham gia bảo hiểm xã hội, tôi cần tìm hiểu điều gì?\n  (3) Sau khi gửi yêu cầu liên quan đến tham gia bảo hiểm xã hội, tôi có thể theo dõi tiến độ thế nào?\n  (4) Người dân ở xã xa trung tâm muốn xử lý việc tham gia bảo hiểm xã hội thì nên hỏi cơ quan nào?\n  (5) Người lớn tuổi cần hỗ trợ về tham gia bảo hiểm xã hội thì có thể nhờ ai hướng dẫn?",
+    "keywords": [
+      "lao động và bảo hiểm xã hội",
+      "tham gia bảo hiểm xã hội",
+      "tham",
+      "gia",
+      "bảo",
+      "hiểm",
+      "hội"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_089",
+    "category_id": "quan_ly_nganh_nghe",
+    "category": "Quản lý hành chính, Lao động & Khiếu nại",
+    "topic": "[Lao động và bảo hiểm xã hội] Quy định pháp luật & Hướng dẫn xử lý: Hưởng trợ cấp thất nghiệp",
+    "legal_basis": "Bộ luật Lao động số 45/2019/QH14; Luật Bảo hiểm xã hội số 41/2024/QH15; Luật Việc làm; Nghị định số 145/2020/NĐ-CP",
+    "summary": "Áp dụng trực tiếp theo quy định tại Bộ luật Lao động số 45/2019/QH14; Luật Bảo hiểm xã hội số 41/2024/QH15; Luật Việc làm; Nghị định số 145/2020/NĐ-CP. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://baohiemxa...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: HƯỞNG TRỢ CẤP THẤT NGHIỆP (LĨNH VỰC: LAO ĐỘNG VÀ BẢO HIỂM XÃ HỘI)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Bộ luật Lao động số 45/2019/QH14; Luật Bảo hiểm xã hội số 41/2024/QH15; Luật Việc làm; Nghị định số 145/2020/NĐ-CP. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://baohiemxahoi.gov.vn) hoặc liên hệ trực tiếp Cơ quan Bảo hiểm xã hội, Trung tâm Dịch vụ việc làm tỉnh Hưng Yên (hưởng trợ cấp thất nghiệp trực tuyến trên Cổng DVC Quốc gia) & Phòng Lao động - TB&XH để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Tích hợp Sổ BHXH, Thẻ BHYT lên VNeID: Xử lý trong ngày. Giải quyết hưởng trợ cấp thất nghiệp: Trong thời hạn 03 tháng kể từ ngày chấm dứt hợp đồng lao động phải nộp hồ sơ; thời gian xét duyệt 15 - 20 ngày làm việc.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Cơ quan Bảo hiểm xã hội, Trung tâm Dịch vụ việc làm tỉnh Hưng Yên (hưởng trợ cấp thất nghiệp trực tuyến trên Cổng DVC Quốc gia) & Phòng Lao động - TB&XH.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://baohiemxahoi.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Tích hợp Sổ BHXH, Thẻ BHYT lên VNeID: Xử lý trong ngày. Giải quyết hưởng trợ cấp thất nghiệp: Trong thời hạn 03 tháng kể từ ngày chấm dứt hợp đồng lao động phải nộp hồ sơ; thời gian xét duyệt 15 - 20 ngày làm việc.\n- Phí, lệ phí: Mọi thủ tục đăng ký tham gia BHXH, tra cứu quá trình đóng BHXH trên VNeID / VssID và nộp hồ sơ hưởng trợ cấp thất nghiệp đều miễn phí 100%.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Người lao động khi chấm dứt hợp đồng lao động cần yêu cầu người sử dụng lao động chốt sổ BHXH và trả quyết định thôi việc đúng hạn. Cảnh giác với các đối tượng nhận \"mua bán, cầm cố sổ BHXH\" hoặc giả danh cán bộ BHXH gửi link lạ yêu cầu cập nhật VssID để chiếm đoạt tiền!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có thể làm thủ tục về hưởng trợ cấp thất nghiệp trên điện thoại không, cần chuẩn bị gì?\n  (2) Người lớn tuổi cần hỗ trợ về hưởng trợ cấp thất nghiệp thì có thể nhờ ai hướng dẫn?\n  (3) Trong tình huống hưởng trợ cấp thất nghiệp, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (4) Nếu các bên không thống nhất về hưởng trợ cấp thất nghiệp, có thể đề nghị cơ quan nào hướng dẫn?\n  (5) Tôi nên kiểm tra thông tin chính thức về hưởng trợ cấp thất nghiệp trên kênh nào?",
+    "keywords": [
+      "lao động và bảo hiểm xã hội",
+      "hưởng trợ cấp thất nghiệp",
+      "hưởng",
+      "trợ",
+      "cấp",
+      "thất",
+      "nghiệp"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_090",
+    "category_id": "quan_ly_nganh_nghe",
+    "category": "Quản lý hành chính, Lao động & Khiếu nại",
+    "topic": "[Lao động và bảo hiểm xã hội] Quy định pháp luật & Hướng dẫn xử lý: Tra cứu quá trình đóng BHXH",
+    "legal_basis": "Bộ luật Lao động số 45/2019/QH14; Luật Bảo hiểm xã hội số 41/2024/QH15; Luật Việc làm; Nghị định số 145/2020/NĐ-CP",
+    "summary": "Áp dụng trực tiếp theo quy định tại Bộ luật Lao động số 45/2019/QH14; Luật Bảo hiểm xã hội số 41/2024/QH15; Luật Việc làm; Nghị định số 145/2020/NĐ-CP. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://baohiemxa...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: TRA CỨU QUÁ TRÌNH ĐÓNG BHXH (LĨNH VỰC: LAO ĐỘNG VÀ BẢO HIỂM XÃ HỘI)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Bộ luật Lao động số 45/2019/QH14; Luật Bảo hiểm xã hội số 41/2024/QH15; Luật Việc làm; Nghị định số 145/2020/NĐ-CP. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://baohiemxahoi.gov.vn) hoặc liên hệ trực tiếp Cơ quan Bảo hiểm xã hội, Trung tâm Dịch vụ việc làm tỉnh Hưng Yên (hưởng trợ cấp thất nghiệp trực tuyến trên Cổng DVC Quốc gia) & Phòng Lao động - TB&XH để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Tích hợp Sổ BHXH, Thẻ BHYT lên VNeID: Xử lý trong ngày. Giải quyết hưởng trợ cấp thất nghiệp: Trong thời hạn 03 tháng kể từ ngày chấm dứt hợp đồng lao động phải nộp hồ sơ; thời gian xét duyệt 15 - 20 ngày làm việc.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Cơ quan Bảo hiểm xã hội, Trung tâm Dịch vụ việc làm tỉnh Hưng Yên (hưởng trợ cấp thất nghiệp trực tuyến trên Cổng DVC Quốc gia) & Phòng Lao động - TB&XH.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://baohiemxahoi.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Tích hợp Sổ BHXH, Thẻ BHYT lên VNeID: Xử lý trong ngày. Giải quyết hưởng trợ cấp thất nghiệp: Trong thời hạn 03 tháng kể từ ngày chấm dứt hợp đồng lao động phải nộp hồ sơ; thời gian xét duyệt 15 - 20 ngày làm việc.\n- Phí, lệ phí: Mọi thủ tục đăng ký tham gia BHXH, tra cứu quá trình đóng BHXH trên VNeID / VssID và nộp hồ sơ hưởng trợ cấp thất nghiệp đều miễn phí 100%.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Người lao động khi chấm dứt hợp đồng lao động cần yêu cầu người sử dụng lao động chốt sổ BHXH và trả quyết định thôi việc đúng hạn. Cảnh giác với các đối tượng nhận \"mua bán, cầm cố sổ BHXH\" hoặc giả danh cán bộ BHXH gửi link lạ yêu cầu cập nhật VssID để chiếm đoạt tiền!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Trong tình huống tra cứu quá trình đóng BHXH, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (2) Nếu các bên không thống nhất về tra cứu quá trình đóng BHXH, có thể đề nghị cơ quan nào hướng dẫn?\n  (3) Tôi nên kiểm tra thông tin chính thức về tra cứu quá trình đóng BHXH trên kênh nào?\n  (4) Làm sao phân biệt hướng dẫn chính thức và dịch vụ giả mạo liên quan đến tra cứu quá trình đóng BHXH?\n  (5) Khi gặp vướng mắc về tra cứu quá trình đóng BHXH, tôi cần mô tả thông tin gì để được hỗ trợ?",
+    "keywords": [
+      "lao động và bảo hiểm xã hội",
+      "tra cứu quá trình đóng bhxh",
+      "tra",
+      "cứu",
+      "quá",
+      "trình",
+      "đóng",
+      "bhxh"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_091",
+    "category_id": "bao_luc_gia_dinh_antt",
+    "category": "Bạo lực gia đình, Hôn nhân & Bảo vệ yếu thế",
+    "topic": "[Phòng chống ma túy và tệ nạn] Quy định pháp luật & Hướng dẫn xử lý: Nhận biết và báo tin về ma túy",
+    "legal_basis": "Luật Phòng, chống ma túy số 73/2021/QH14; Nghị định số 116/2021/NĐ-CP quy định chi tiết về cai nghiện ma túy và quản lý sau cai nghiện; Điều 247 - 259, Điều 321, 322 Bộ luật Hình sự",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Phòng, chống ma túy số 73/2021/QH14; Nghị định số 116/2021/NĐ-CP quy định chi tiết về cai nghiện ma túy và quản lý sau cai nghiện; Điều 247 - 259, Điều 321, 322 Bộ luật Hình sự. Công dân thực hiện tr...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: NHẬN BIẾT VÀ BÁO TIN VỀ MA TÚY (LĨNH VỰC: PHÒNG CHỐNG MA TÚY VÀ TỆ NẠN)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Phòng, chống ma túy số 73/2021/QH14; Nghị định số 116/2021/NĐ-CP quy định chi tiết về cai nghiện ma túy và quản lý sau cai nghiện; Điều 247 - 259, Điều 321, 322 Bộ luật Hình sự. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://bocongan.gov.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (tiếp nhận tin báo ẩn danh về ma túy, cờ bạc, mại dâm 24/24h qua SĐT 02213.815.999 hoặc ứng dụng VNeID) & UBND xã Đức Hợp (hỗ trợ đăng ký cai nghiện tự nguyện) để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Tin báo về điểm mua bán, tổ chức sử dụng ma túy, đánh bạc được Công an xã Đức Hợp xác minh và triệt xóa ngay lập tức 24/24h.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (tiếp nhận tin báo ẩn danh về ma túy, cờ bạc, mại dâm 24/24h qua SĐT 02213.815.999 hoặc ứng dụng VNeID) & UBND xã Đức Hợp (hỗ trợ đăng ký cai nghiện tự nguyện).\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://bocongan.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Tin báo về điểm mua bán, tổ chức sử dụng ma túy, đánh bạc được Công an xã Đức Hợp xác minh và triệt xóa ngay lập tức 24/24h.\n- Phí, lệ phí: Báo tin tố giác ma túy, cờ bạc và đăng ký cai nghiện tự nguyện tại UBND/Công an xã Đức Hợp: Hoàn toàn miễn phí (người cai nghiện tự nguyện được hỗ trợ kinh phí theo quy định của tỉnh).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Danh tính người báo tin về ma túy và tệ nạn xã hội được Công an xã Đức Hợp bảo mật tuyệt đối 100%. Hành vi đánh bạc trái phép từ 5.000.000 đồng trở lên sẽ bị truy cứu trách nhiệm hình sự theo Điều 321 Bộ luật Hình sự!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Nhận biết và báo tin về ma túy là gì và tôi có thể tìm hiểu ở đâu?\n  (2) Điều kiện hoặc căn cứ áp dụng với nhận biết và báo tin về ma túy được hướng dẫn thế nào?\n  (3) Muốn thực hiện việc liên quan đến nhận biết và báo tin về ma túy, tôi cần chuẩn bị giấy tờ gì?\n  (4) Các bước cần lưu ý khi xử lý việc liên quan đến nhận biết và báo tin về ma túy là gì?\n  (5) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về nhận biết và báo tin về ma túy?",
+    "keywords": [
+      "phòng chống ma túy và tệ nạn",
+      "nhận biết và báo tin về ma túy",
+      "nhận",
+      "biết",
+      "báo",
+      "tin",
+      "túy"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_092",
+    "category_id": "bao_luc_gia_dinh_antt",
+    "category": "Bạo lực gia đình, Hôn nhân & Bảo vệ yếu thế",
+    "topic": "[Phòng chống ma túy và tệ nạn] Quy định pháp luật & Hướng dẫn xử lý: Hỗ trợ người sử dụng ma túy",
+    "legal_basis": "Luật Phòng, chống ma túy số 73/2021/QH14; Nghị định số 116/2021/NĐ-CP quy định chi tiết về cai nghiện ma túy và quản lý sau cai nghiện; Điều 247 - 259, Điều 321, 322 Bộ luật Hình sự",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Phòng, chống ma túy số 73/2021/QH14; Nghị định số 116/2021/NĐ-CP quy định chi tiết về cai nghiện ma túy và quản lý sau cai nghiện; Điều 247 - 259, Điều 321, 322 Bộ luật Hình sự. Công dân thực hiện tr...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: HỖ TRỢ NGƯỜI SỬ DỤNG MA TÚY (LĨNH VỰC: PHÒNG CHỐNG MA TÚY VÀ TỆ NẠN)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Phòng, chống ma túy số 73/2021/QH14; Nghị định số 116/2021/NĐ-CP quy định chi tiết về cai nghiện ma túy và quản lý sau cai nghiện; Điều 247 - 259, Điều 321, 322 Bộ luật Hình sự. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://bocongan.gov.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (tiếp nhận tin báo ẩn danh về ma túy, cờ bạc, mại dâm 24/24h qua SĐT 02213.815.999 hoặc ứng dụng VNeID) & UBND xã Đức Hợp (hỗ trợ đăng ký cai nghiện tự nguyện) để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Tin báo về điểm mua bán, tổ chức sử dụng ma túy, đánh bạc được Công an xã Đức Hợp xác minh và triệt xóa ngay lập tức 24/24h.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (tiếp nhận tin báo ẩn danh về ma túy, cờ bạc, mại dâm 24/24h qua SĐT 02213.815.999 hoặc ứng dụng VNeID) & UBND xã Đức Hợp (hỗ trợ đăng ký cai nghiện tự nguyện).\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://bocongan.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Tin báo về điểm mua bán, tổ chức sử dụng ma túy, đánh bạc được Công an xã Đức Hợp xác minh và triệt xóa ngay lập tức 24/24h.\n- Phí, lệ phí: Báo tin tố giác ma túy, cờ bạc và đăng ký cai nghiện tự nguyện tại UBND/Công an xã Đức Hợp: Hoàn toàn miễn phí (người cai nghiện tự nguyện được hỗ trợ kinh phí theo quy định của tỉnh).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Danh tính người báo tin về ma túy và tệ nạn xã hội được Công an xã Đức Hợp bảo mật tuyệt đối 100%. Hành vi đánh bạc trái phép từ 5.000.000 đồng trở lên sẽ bị truy cứu trách nhiệm hình sự theo Điều 321 Bộ luật Hình sự!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Các bước cần lưu ý khi xử lý việc liên quan đến hỗ trợ người sử dụng ma túy là gì?\n  (2) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về hỗ trợ người sử dụng ma túy?\n  (3) Có mốc thời gian nào cần lưu ý khi xử lý việc liên quan đến hỗ trợ người sử dụng ma túy không?\n  (4) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến hỗ trợ người sử dụng ma túy không?\n  (5) Nếu mất giấy tờ hoặc bằng chứng liên quan đến hỗ trợ người sử dụng ma túy, tôi nên bắt đầu từ đâu?",
+    "keywords": [
+      "phòng chống ma túy và tệ nạn",
+      "hỗ trợ người sử dụng ma túy",
+      "trợ",
+      "người",
+      "dụng",
+      "túy"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_093",
+    "category_id": "bao_luc_gia_dinh_antt",
+    "category": "Bạo lực gia đình, Hôn nhân & Bảo vệ yếu thế",
+    "topic": "[Phòng chống ma túy và tệ nạn] Quy định pháp luật & Hướng dẫn xử lý: Cai nghiện tự nguyện",
+    "legal_basis": "Luật Phòng, chống ma túy số 73/2021/QH14; Nghị định số 116/2021/NĐ-CP quy định chi tiết về cai nghiện ma túy và quản lý sau cai nghiện; Điều 247 - 259, Điều 321, 322 Bộ luật Hình sự",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Phòng, chống ma túy số 73/2021/QH14; Nghị định số 116/2021/NĐ-CP quy định chi tiết về cai nghiện ma túy và quản lý sau cai nghiện; Điều 247 - 259, Điều 321, 322 Bộ luật Hình sự. Công dân thực hiện tr...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: CAI NGHIỆN TỰ NGUYỆN (LĨNH VỰC: PHÒNG CHỐNG MA TÚY VÀ TỆ NẠN)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Phòng, chống ma túy số 73/2021/QH14; Nghị định số 116/2021/NĐ-CP quy định chi tiết về cai nghiện ma túy và quản lý sau cai nghiện; Điều 247 - 259, Điều 321, 322 Bộ luật Hình sự. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://bocongan.gov.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (tiếp nhận tin báo ẩn danh về ma túy, cờ bạc, mại dâm 24/24h qua SĐT 02213.815.999 hoặc ứng dụng VNeID) & UBND xã Đức Hợp (hỗ trợ đăng ký cai nghiện tự nguyện) để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Tin báo về điểm mua bán, tổ chức sử dụng ma túy, đánh bạc được Công an xã Đức Hợp xác minh và triệt xóa ngay lập tức 24/24h.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (tiếp nhận tin báo ẩn danh về ma túy, cờ bạc, mại dâm 24/24h qua SĐT 02213.815.999 hoặc ứng dụng VNeID) & UBND xã Đức Hợp (hỗ trợ đăng ký cai nghiện tự nguyện).\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://bocongan.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Tin báo về điểm mua bán, tổ chức sử dụng ma túy, đánh bạc được Công an xã Đức Hợp xác minh và triệt xóa ngay lập tức 24/24h.\n- Phí, lệ phí: Báo tin tố giác ma túy, cờ bạc và đăng ký cai nghiện tự nguyện tại UBND/Công an xã Đức Hợp: Hoàn toàn miễn phí (người cai nghiện tự nguyện được hỗ trợ kinh phí theo quy định của tỉnh).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Danh tính người báo tin về ma túy và tệ nạn xã hội được Công an xã Đức Hợp bảo mật tuyệt đối 100%. Hành vi đánh bạc trái phép từ 5.000.000 đồng trở lên sẽ bị truy cứu trách nhiệm hình sự theo Điều 321 Bộ luật Hình sự!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến cai nghiện tự nguyện không?\n  (2) Nếu mất giấy tờ hoặc bằng chứng liên quan đến cai nghiện tự nguyện, tôi nên bắt đầu từ đâu?\n  (3) Khi thông tin về cai nghiện tự nguyện bị sai hoặc thay đổi, cần liên hệ nơi nào?\n  (4) Tôi có thể nhờ người thân làm thay việc về cai nghiện tự nguyện không, cần hỏi rõ điều gì?\n  (5) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến cai nghiện tự nguyện, tôi cần tìm hiểu điều gì?",
+    "keywords": [
+      "phòng chống ma túy và tệ nạn",
+      "cai nghiện tự nguyện",
+      "cai",
+      "nghiện",
+      "nguyện"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_094",
+    "category_id": "bao_luc_gia_dinh_antt",
+    "category": "Bạo lực gia đình, Hôn nhân & Bảo vệ yếu thế",
+    "topic": "[Phòng chống ma túy và tệ nạn] Quy định pháp luật & Hướng dẫn xử lý: Phòng ngừa mại dâm và bóc lột",
+    "legal_basis": "Luật Phòng, chống ma túy số 73/2021/QH14; Nghị định số 116/2021/NĐ-CP quy định chi tiết về cai nghiện ma túy và quản lý sau cai nghiện; Điều 247 - 259, Điều 321, 322 Bộ luật Hình sự",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Phòng, chống ma túy số 73/2021/QH14; Nghị định số 116/2021/NĐ-CP quy định chi tiết về cai nghiện ma túy và quản lý sau cai nghiện; Điều 247 - 259, Điều 321, 322 Bộ luật Hình sự. Công dân thực hiện tr...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: PHÒNG NGỪA MẠI DÂM VÀ BÓC LỘT (LĨNH VỰC: PHÒNG CHỐNG MA TÚY VÀ TỆ NẠN)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Phòng, chống ma túy số 73/2021/QH14; Nghị định số 116/2021/NĐ-CP quy định chi tiết về cai nghiện ma túy và quản lý sau cai nghiện; Điều 247 - 259, Điều 321, 322 Bộ luật Hình sự. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://bocongan.gov.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (tiếp nhận tin báo ẩn danh về ma túy, cờ bạc, mại dâm 24/24h qua SĐT 02213.815.999 hoặc ứng dụng VNeID) & UBND xã Đức Hợp (hỗ trợ đăng ký cai nghiện tự nguyện) để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Tin báo về điểm mua bán, tổ chức sử dụng ma túy, đánh bạc được Công an xã Đức Hợp xác minh và triệt xóa ngay lập tức 24/24h.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (tiếp nhận tin báo ẩn danh về ma túy, cờ bạc, mại dâm 24/24h qua SĐT 02213.815.999 hoặc ứng dụng VNeID) & UBND xã Đức Hợp (hỗ trợ đăng ký cai nghiện tự nguyện).\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://bocongan.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Tin báo về điểm mua bán, tổ chức sử dụng ma túy, đánh bạc được Công an xã Đức Hợp xác minh và triệt xóa ngay lập tức 24/24h.\n- Phí, lệ phí: Báo tin tố giác ma túy, cờ bạc và đăng ký cai nghiện tự nguyện tại UBND/Công an xã Đức Hợp: Hoàn toàn miễn phí (người cai nghiện tự nguyện được hỗ trợ kinh phí theo quy định của tỉnh).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Danh tính người báo tin về ma túy và tệ nạn xã hội được Công an xã Đức Hợp bảo mật tuyệt đối 100%. Hành vi đánh bạc trái phép từ 5.000.000 đồng trở lên sẽ bị truy cứu trách nhiệm hình sự theo Điều 321 Bộ luật Hình sự!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Tôi có thể nhờ người thân làm thay việc về phòng ngừa mại dâm và bóc lột không, cần hỏi rõ điều gì?\n  (2) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến phòng ngừa mại dâm và bóc lột, tôi cần tìm hiểu điều gì?\n  (3) Sau khi gửi yêu cầu liên quan đến phòng ngừa mại dâm và bóc lột, tôi có thể theo dõi tiến độ thế nào?\n  (4) Người dân ở xã xa trung tâm muốn xử lý việc phòng ngừa mại dâm và bóc lột thì nên hỏi cơ quan nào?\n  (5) Người lớn tuổi cần hỗ trợ về phòng ngừa mại dâm và bóc lột thì có thể nhờ ai hướng dẫn?",
+    "keywords": [
+      "phòng chống ma túy và tệ nạn",
+      "phòng ngừa mại dâm và bóc lột",
+      "phòng",
+      "ngừa",
+      "mại",
+      "dâm",
+      "bóc",
+      "lột"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_095",
+    "category_id": "bao_luc_gia_dinh_antt",
+    "category": "Bạo lực gia đình, Hôn nhân & Bảo vệ yếu thế",
+    "topic": "[Phòng chống ma túy và tệ nạn] Quy định pháp luật & Hướng dẫn xử lý: Cờ bạc trái phép",
+    "legal_basis": "Luật Phòng, chống ma túy số 73/2021/QH14; Nghị định số 116/2021/NĐ-CP quy định chi tiết về cai nghiện ma túy và quản lý sau cai nghiện; Điều 247 - 259, Điều 321, 322 Bộ luật Hình sự",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Phòng, chống ma túy số 73/2021/QH14; Nghị định số 116/2021/NĐ-CP quy định chi tiết về cai nghiện ma túy và quản lý sau cai nghiện; Điều 247 - 259, Điều 321, 322 Bộ luật Hình sự. Công dân thực hiện tr...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: CỜ BẠC TRÁI PHÉP (LĨNH VỰC: PHÒNG CHỐNG MA TÚY VÀ TỆ NẠN)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Phòng, chống ma túy số 73/2021/QH14; Nghị định số 116/2021/NĐ-CP quy định chi tiết về cai nghiện ma túy và quản lý sau cai nghiện; Điều 247 - 259, Điều 321, 322 Bộ luật Hình sự. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://bocongan.gov.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (tiếp nhận tin báo ẩn danh về ma túy, cờ bạc, mại dâm 24/24h qua SĐT 02213.815.999 hoặc ứng dụng VNeID) & UBND xã Đức Hợp (hỗ trợ đăng ký cai nghiện tự nguyện) để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Tin báo về điểm mua bán, tổ chức sử dụng ma túy, đánh bạc được Công an xã Đức Hợp xác minh và triệt xóa ngay lập tức 24/24h.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (tiếp nhận tin báo ẩn danh về ma túy, cờ bạc, mại dâm 24/24h qua SĐT 02213.815.999 hoặc ứng dụng VNeID) & UBND xã Đức Hợp (hỗ trợ đăng ký cai nghiện tự nguyện).\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://bocongan.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Tin báo về điểm mua bán, tổ chức sử dụng ma túy, đánh bạc được Công an xã Đức Hợp xác minh và triệt xóa ngay lập tức 24/24h.\n- Phí, lệ phí: Báo tin tố giác ma túy, cờ bạc và đăng ký cai nghiện tự nguyện tại UBND/Công an xã Đức Hợp: Hoàn toàn miễn phí (người cai nghiện tự nguyện được hỗ trợ kinh phí theo quy định của tỉnh).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Danh tính người báo tin về ma túy và tệ nạn xã hội được Công an xã Đức Hợp bảo mật tuyệt đối 100%. Hành vi đánh bạc trái phép từ 5.000.000 đồng trở lên sẽ bị truy cứu trách nhiệm hình sự theo Điều 321 Bộ luật Hình sự!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có thể làm thủ tục về cờ bạc trái phép trên điện thoại không, cần chuẩn bị gì?\n  (2) Người lớn tuổi cần hỗ trợ về cờ bạc trái phép thì có thể nhờ ai hướng dẫn?\n  (3) Trong tình huống cờ bạc trái phép, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (4) Nếu các bên không thống nhất về cờ bạc trái phép, có thể đề nghị cơ quan nào hướng dẫn?\n  (5) Tôi nên kiểm tra thông tin chính thức về cờ bạc trái phép trên kênh nào?",
+    "keywords": [
+      "phòng chống ma túy và tệ nạn",
+      "cờ bạc trái phép",
+      "bạc",
+      "trái",
+      "phép"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_096",
+    "category_id": "bao_luc_gia_dinh_antt",
+    "category": "Bạo lực gia đình, Hôn nhân & Bảo vệ yếu thế",
+    "topic": "[Phòng chống ma túy và tệ nạn] Quy định pháp luật & Hướng dẫn xử lý: Tư vấn và hỗ trợ cộng đồng",
+    "legal_basis": "Luật Phòng, chống ma túy số 73/2021/QH14; Nghị định số 116/2021/NĐ-CP quy định chi tiết về cai nghiện ma túy và quản lý sau cai nghiện; Điều 247 - 259, Điều 321, 322 Bộ luật Hình sự",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Phòng, chống ma túy số 73/2021/QH14; Nghị định số 116/2021/NĐ-CP quy định chi tiết về cai nghiện ma túy và quản lý sau cai nghiện; Điều 247 - 259, Điều 321, 322 Bộ luật Hình sự. Công dân thực hiện tr...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: TƯ VẤN VÀ HỖ TRỢ CỘNG ĐỒNG (LĨNH VỰC: PHÒNG CHỐNG MA TÚY VÀ TỆ NẠN)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Phòng, chống ma túy số 73/2021/QH14; Nghị định số 116/2021/NĐ-CP quy định chi tiết về cai nghiện ma túy và quản lý sau cai nghiện; Điều 247 - 259, Điều 321, 322 Bộ luật Hình sự. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://bocongan.gov.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (tiếp nhận tin báo ẩn danh về ma túy, cờ bạc, mại dâm 24/24h qua SĐT 02213.815.999 hoặc ứng dụng VNeID) & UBND xã Đức Hợp (hỗ trợ đăng ký cai nghiện tự nguyện) để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Tin báo về điểm mua bán, tổ chức sử dụng ma túy, đánh bạc được Công an xã Đức Hợp xác minh và triệt xóa ngay lập tức 24/24h.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (tiếp nhận tin báo ẩn danh về ma túy, cờ bạc, mại dâm 24/24h qua SĐT 02213.815.999 hoặc ứng dụng VNeID) & UBND xã Đức Hợp (hỗ trợ đăng ký cai nghiện tự nguyện).\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://bocongan.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Tin báo về điểm mua bán, tổ chức sử dụng ma túy, đánh bạc được Công an xã Đức Hợp xác minh và triệt xóa ngay lập tức 24/24h.\n- Phí, lệ phí: Báo tin tố giác ma túy, cờ bạc và đăng ký cai nghiện tự nguyện tại UBND/Công an xã Đức Hợp: Hoàn toàn miễn phí (người cai nghiện tự nguyện được hỗ trợ kinh phí theo quy định của tỉnh).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Danh tính người báo tin về ma túy và tệ nạn xã hội được Công an xã Đức Hợp bảo mật tuyệt đối 100%. Hành vi đánh bạc trái phép từ 5.000.000 đồng trở lên sẽ bị truy cứu trách nhiệm hình sự theo Điều 321 Bộ luật Hình sự!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Trong tình huống tư vấn và hỗ trợ cộng đồng, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (2) Nếu các bên không thống nhất về tư vấn và hỗ trợ cộng đồng, có thể đề nghị cơ quan nào hướng dẫn?\n  (3) Tôi nên kiểm tra thông tin chính thức về tư vấn và hỗ trợ cộng đồng trên kênh nào?\n  (4) Làm sao phân biệt hướng dẫn chính thức và dịch vụ giả mạo liên quan đến tư vấn và hỗ trợ cộng đồng?\n  (5) Khi gặp vướng mắc về tư vấn và hỗ trợ cộng đồng, tôi cần mô tả thông tin gì để được hỗ trợ?",
+    "keywords": [
+      "phòng chống ma túy và tệ nạn",
+      "tư vấn và hỗ trợ cộng đồng",
+      "vấn",
+      "trợ",
+      "cộng",
+      "đồng"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_097",
+    "category_id": "bao_luc_gia_dinh_antt",
+    "category": "Bạo lực gia đình, Hôn nhân & Bảo vệ yếu thế",
+    "topic": "[An ninh trật tự] Quy định pháp luật & Hướng dẫn xử lý: Khai báo và trình báo vụ việc",
+    "legal_basis": "Luật Lực lượng tham gia bảo vệ an ninh, trật tự ở cơ sở số 30/2023/QH15 (hiệu lực 01/07/2024); Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam; Nghị định số 144/2021/NĐ-CP",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Lực lượng tham gia bảo vệ an ninh, trật tự ở cơ sở số 30/2023/QH15 (hiệu lực 01/07/2024); Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam; Nghị định số 144/2021/NĐ-CP. C...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: KHAI BÁO VÀ TRÌNH BÁO VỤ VIỆC (LĨNH VỰC: AN NINH TRẬT TỰ)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Lực lượng tham gia bảo vệ an ninh, trật tự ở cơ sở số 30/2023/QH15 (hiệu lực 01/07/2024); Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam; Nghị định số 144/2021/NĐ-CP. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://dichvucong.bocongan.gov.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (Thôn Nho Lâm, xã Đức Hợp, tỉnh Hưng Yên - Trực ban 24/24h: 02213.815.999) phối hợp Tổ bảo vệ ANTT tại các thôn để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Tiếp nhận và xử lý tin báo gây rối trật tự công cộng, trộm cắp tài sản: Phản ứng nhanh 24/24h. Khai báo tạm trú cho người nước ngoài: Thực hiện trong vòng 12 giờ (hoặc 24 giờ đối với khu vực nông thôn) kể từ khi người nước ngoài đến lưu trú.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (Thôn Nho Lâm, xã Đức Hợp, tỉnh Hưng Yên - Trực ban 24/24h: 02213.815.999) phối hợp Tổ bảo vệ ANTT tại các thôn.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://dichvucong.bocongan.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Tiếp nhận và xử lý tin báo gây rối trật tự công cộng, trộm cắp tài sản: Phản ứng nhanh 24/24h. Khai báo tạm trú cho người nước ngoài: Thực hiện trong vòng 12 giờ (hoặc 24 giờ đối với khu vực nông thôn) kể từ khi người nước ngoài đến lưu trú.\n- Phí, lệ phí: Khai báo tạm trú cho người nước ngoài trực tuyến (trang khai báo của Phòng Quản lý xuất nhập cảnh), báo tin ANTT, hòa giải mâu thuẫn khu dân cư: Miễn phí 100%.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Cơ sở lưu trú hoặc hộ gia đình tại xã Đức Hợp có người thân là người nước ngoài/Việt kiều về thăm quê lưu trú qua đêm bắt buộc phải khai báo tạm trú với Công an xã Đức Hợp (trực tuyến hoặc trực tiếp) để tránh bị xử phạt từ 3 - 5 triệu đồng.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Khai báo và trình báo vụ việc là gì và tôi có thể tìm hiểu ở đâu?\n  (2) Điều kiện hoặc căn cứ áp dụng với khai báo và trình báo vụ việc được hướng dẫn thế nào?\n  (3) Muốn thực hiện việc liên quan đến khai báo và trình báo vụ việc, tôi cần chuẩn bị giấy tờ gì?\n  (4) Các bước cần lưu ý khi xử lý việc liên quan đến khai báo và trình báo vụ việc là gì?\n  (5) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về khai báo và trình báo vụ việc?",
+    "keywords": [
+      "an ninh trật tự",
+      "khai báo và trình báo vụ việc",
+      "khai",
+      "báo",
+      "trình",
+      "báo",
+      "việc"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_098",
+    "category_id": "bao_luc_gia_dinh_antt",
+    "category": "Bạo lực gia đình, Hôn nhân & Bảo vệ yếu thế",
+    "topic": "[An ninh trật tự] Quy định pháp luật & Hướng dẫn xử lý: Báo tin về hành vi gây rối",
+    "legal_basis": "Luật Lực lượng tham gia bảo vệ an ninh, trật tự ở cơ sở số 30/2023/QH15 (hiệu lực 01/07/2024); Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam; Nghị định số 144/2021/NĐ-CP",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Lực lượng tham gia bảo vệ an ninh, trật tự ở cơ sở số 30/2023/QH15 (hiệu lực 01/07/2024); Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam; Nghị định số 144/2021/NĐ-CP. C...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: BÁO TIN VỀ HÀNH VI GÂY RỐI (LĨNH VỰC: AN NINH TRẬT TỰ)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Lực lượng tham gia bảo vệ an ninh, trật tự ở cơ sở số 30/2023/QH15 (hiệu lực 01/07/2024); Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam; Nghị định số 144/2021/NĐ-CP. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://dichvucong.bocongan.gov.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (Thôn Nho Lâm, xã Đức Hợp, tỉnh Hưng Yên - Trực ban 24/24h: 02213.815.999) phối hợp Tổ bảo vệ ANTT tại các thôn để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Tiếp nhận và xử lý tin báo gây rối trật tự công cộng, trộm cắp tài sản: Phản ứng nhanh 24/24h. Khai báo tạm trú cho người nước ngoài: Thực hiện trong vòng 12 giờ (hoặc 24 giờ đối với khu vực nông thôn) kể từ khi người nước ngoài đến lưu trú.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (Thôn Nho Lâm, xã Đức Hợp, tỉnh Hưng Yên - Trực ban 24/24h: 02213.815.999) phối hợp Tổ bảo vệ ANTT tại các thôn.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://dichvucong.bocongan.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Tiếp nhận và xử lý tin báo gây rối trật tự công cộng, trộm cắp tài sản: Phản ứng nhanh 24/24h. Khai báo tạm trú cho người nước ngoài: Thực hiện trong vòng 12 giờ (hoặc 24 giờ đối với khu vực nông thôn) kể từ khi người nước ngoài đến lưu trú.\n- Phí, lệ phí: Khai báo tạm trú cho người nước ngoài trực tuyến (trang khai báo của Phòng Quản lý xuất nhập cảnh), báo tin ANTT, hòa giải mâu thuẫn khu dân cư: Miễn phí 100%.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Cơ sở lưu trú hoặc hộ gia đình tại xã Đức Hợp có người thân là người nước ngoài/Việt kiều về thăm quê lưu trú qua đêm bắt buộc phải khai báo tạm trú với Công an xã Đức Hợp (trực tuyến hoặc trực tiếp) để tránh bị xử phạt từ 3 - 5 triệu đồng.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Các bước cần lưu ý khi xử lý việc liên quan đến báo tin về hành vi gây rối là gì?\n  (2) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về báo tin về hành vi gây rối?\n  (3) Có mốc thời gian nào cần lưu ý khi xử lý việc liên quan đến báo tin về hành vi gây rối không?\n  (4) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến báo tin về hành vi gây rối không?\n  (5) Nếu mất giấy tờ hoặc bằng chứng liên quan đến báo tin về hành vi gây rối, tôi nên bắt đầu từ đâu?",
+    "keywords": [
+      "an ninh trật tự",
+      "báo tin về hành vi gây rối",
+      "báo",
+      "tin",
+      "hành",
+      "gây",
+      "rối"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_099",
+    "category_id": "bao_luc_gia_dinh_antt",
+    "category": "Bạo lực gia đình, Hôn nhân & Bảo vệ yếu thế",
+    "topic": "[An ninh trật tự] Quy định pháp luật & Hướng dẫn xử lý: Bảo vệ tài sản khu dân cư",
+    "legal_basis": "Luật Lực lượng tham gia bảo vệ an ninh, trật tự ở cơ sở số 30/2023/QH15 (hiệu lực 01/07/2024); Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam; Nghị định số 144/2021/NĐ-CP",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Lực lượng tham gia bảo vệ an ninh, trật tự ở cơ sở số 30/2023/QH15 (hiệu lực 01/07/2024); Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam; Nghị định số 144/2021/NĐ-CP. C...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: BẢO VỆ TÀI SẢN KHU DÂN CƯ (LĨNH VỰC: AN NINH TRẬT TỰ)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Lực lượng tham gia bảo vệ an ninh, trật tự ở cơ sở số 30/2023/QH15 (hiệu lực 01/07/2024); Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam; Nghị định số 144/2021/NĐ-CP. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://dichvucong.bocongan.gov.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (Thôn Nho Lâm, xã Đức Hợp, tỉnh Hưng Yên - Trực ban 24/24h: 02213.815.999) phối hợp Tổ bảo vệ ANTT tại các thôn để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Tiếp nhận và xử lý tin báo gây rối trật tự công cộng, trộm cắp tài sản: Phản ứng nhanh 24/24h. Khai báo tạm trú cho người nước ngoài: Thực hiện trong vòng 12 giờ (hoặc 24 giờ đối với khu vực nông thôn) kể từ khi người nước ngoài đến lưu trú.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (Thôn Nho Lâm, xã Đức Hợp, tỉnh Hưng Yên - Trực ban 24/24h: 02213.815.999) phối hợp Tổ bảo vệ ANTT tại các thôn.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://dichvucong.bocongan.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Tiếp nhận và xử lý tin báo gây rối trật tự công cộng, trộm cắp tài sản: Phản ứng nhanh 24/24h. Khai báo tạm trú cho người nước ngoài: Thực hiện trong vòng 12 giờ (hoặc 24 giờ đối với khu vực nông thôn) kể từ khi người nước ngoài đến lưu trú.\n- Phí, lệ phí: Khai báo tạm trú cho người nước ngoài trực tuyến (trang khai báo của Phòng Quản lý xuất nhập cảnh), báo tin ANTT, hòa giải mâu thuẫn khu dân cư: Miễn phí 100%.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Cơ sở lưu trú hoặc hộ gia đình tại xã Đức Hợp có người thân là người nước ngoài/Việt kiều về thăm quê lưu trú qua đêm bắt buộc phải khai báo tạm trú với Công an xã Đức Hợp (trực tuyến hoặc trực tiếp) để tránh bị xử phạt từ 3 - 5 triệu đồng.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến bảo vệ tài sản khu dân cư không?\n  (2) Nếu mất giấy tờ hoặc bằng chứng liên quan đến bảo vệ tài sản khu dân cư, tôi nên bắt đầu từ đâu?\n  (3) Khi thông tin về bảo vệ tài sản khu dân cư bị sai hoặc thay đổi, cần liên hệ nơi nào?\n  (4) Tôi có thể nhờ người thân làm thay việc về bảo vệ tài sản khu dân cư không, cần hỏi rõ điều gì?\n  (5) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến bảo vệ tài sản khu dân cư, tôi cần tìm hiểu điều gì?",
+    "keywords": [
+      "an ninh trật tự",
+      "bảo vệ tài sản khu dân cư",
+      "bảo",
+      "tài",
+      "sản",
+      "khu",
+      "dân"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_100",
+    "category_id": "bao_luc_gia_dinh_antt",
+    "category": "Bạo lực gia đình, Hôn nhân & Bảo vệ yếu thế",
+    "topic": "[An ninh trật tự] Quy định pháp luật & Hướng dẫn xử lý: Hòa giải mâu thuẫn cộng đồng",
+    "legal_basis": "Luật Lực lượng tham gia bảo vệ an ninh, trật tự ở cơ sở số 30/2023/QH15 (hiệu lực 01/07/2024); Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam; Nghị định số 144/2021/NĐ-CP",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Lực lượng tham gia bảo vệ an ninh, trật tự ở cơ sở số 30/2023/QH15 (hiệu lực 01/07/2024); Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam; Nghị định số 144/2021/NĐ-CP. C...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: HÒA GIẢI MÂU THUẪN CỘNG ĐỒNG (LĨNH VỰC: AN NINH TRẬT TỰ)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Lực lượng tham gia bảo vệ an ninh, trật tự ở cơ sở số 30/2023/QH15 (hiệu lực 01/07/2024); Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam; Nghị định số 144/2021/NĐ-CP. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://dichvucong.bocongan.gov.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (Thôn Nho Lâm, xã Đức Hợp, tỉnh Hưng Yên - Trực ban 24/24h: 02213.815.999) phối hợp Tổ bảo vệ ANTT tại các thôn để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Tiếp nhận và xử lý tin báo gây rối trật tự công cộng, trộm cắp tài sản: Phản ứng nhanh 24/24h. Khai báo tạm trú cho người nước ngoài: Thực hiện trong vòng 12 giờ (hoặc 24 giờ đối với khu vực nông thôn) kể từ khi người nước ngoài đến lưu trú.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (Thôn Nho Lâm, xã Đức Hợp, tỉnh Hưng Yên - Trực ban 24/24h: 02213.815.999) phối hợp Tổ bảo vệ ANTT tại các thôn.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://dichvucong.bocongan.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Tiếp nhận và xử lý tin báo gây rối trật tự công cộng, trộm cắp tài sản: Phản ứng nhanh 24/24h. Khai báo tạm trú cho người nước ngoài: Thực hiện trong vòng 12 giờ (hoặc 24 giờ đối với khu vực nông thôn) kể từ khi người nước ngoài đến lưu trú.\n- Phí, lệ phí: Khai báo tạm trú cho người nước ngoài trực tuyến (trang khai báo của Phòng Quản lý xuất nhập cảnh), báo tin ANTT, hòa giải mâu thuẫn khu dân cư: Miễn phí 100%.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Cơ sở lưu trú hoặc hộ gia đình tại xã Đức Hợp có người thân là người nước ngoài/Việt kiều về thăm quê lưu trú qua đêm bắt buộc phải khai báo tạm trú với Công an xã Đức Hợp (trực tuyến hoặc trực tiếp) để tránh bị xử phạt từ 3 - 5 triệu đồng.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Tôi có thể nhờ người thân làm thay việc về hòa giải mâu thuẫn cộng đồng không, cần hỏi rõ điều gì?\n  (2) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến hòa giải mâu thuẫn cộng đồng, tôi cần tìm hiểu điều gì?\n  (3) Sau khi gửi yêu cầu liên quan đến hòa giải mâu thuẫn cộng đồng, tôi có thể theo dõi tiến độ thế nào?\n  (4) Người dân ở xã xa trung tâm muốn xử lý việc hòa giải mâu thuẫn cộng đồng thì nên hỏi cơ quan nào?\n  (5) Người lớn tuổi cần hỗ trợ về hòa giải mâu thuẫn cộng đồng thì có thể nhờ ai hướng dẫn?",
+    "keywords": [
+      "an ninh trật tự",
+      "hòa giải mâu thuẫn cộng đồng",
+      "hòa",
+      "giải",
+      "mâu",
+      "thuẫn",
+      "cộng",
+      "đồng"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_101",
+    "category_id": "bao_luc_gia_dinh_antt",
+    "category": "Bạo lực gia đình, Hôn nhân & Bảo vệ yếu thế",
+    "topic": "[An ninh trật tự] Quy định pháp luật & Hướng dẫn xử lý: Khai báo người nước ngoài lưu trú",
+    "legal_basis": "Luật Lực lượng tham gia bảo vệ an ninh, trật tự ở cơ sở số 30/2023/QH15 (hiệu lực 01/07/2024); Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam; Nghị định số 144/2021/NĐ-CP",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Lực lượng tham gia bảo vệ an ninh, trật tự ở cơ sở số 30/2023/QH15 (hiệu lực 01/07/2024); Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam; Nghị định số 144/2021/NĐ-CP. C...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: KHAI BÁO NGƯỜI NƯỚC NGOÀI LƯU TRÚ (LĨNH VỰC: AN NINH TRẬT TỰ)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Lực lượng tham gia bảo vệ an ninh, trật tự ở cơ sở số 30/2023/QH15 (hiệu lực 01/07/2024); Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam; Nghị định số 144/2021/NĐ-CP. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://dichvucong.bocongan.gov.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (Thôn Nho Lâm, xã Đức Hợp, tỉnh Hưng Yên - Trực ban 24/24h: 02213.815.999) phối hợp Tổ bảo vệ ANTT tại các thôn để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Tiếp nhận và xử lý tin báo gây rối trật tự công cộng, trộm cắp tài sản: Phản ứng nhanh 24/24h. Khai báo tạm trú cho người nước ngoài: Thực hiện trong vòng 12 giờ (hoặc 24 giờ đối với khu vực nông thôn) kể từ khi người nước ngoài đến lưu trú.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (Thôn Nho Lâm, xã Đức Hợp, tỉnh Hưng Yên - Trực ban 24/24h: 02213.815.999) phối hợp Tổ bảo vệ ANTT tại các thôn.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://dichvucong.bocongan.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Tiếp nhận và xử lý tin báo gây rối trật tự công cộng, trộm cắp tài sản: Phản ứng nhanh 24/24h. Khai báo tạm trú cho người nước ngoài: Thực hiện trong vòng 12 giờ (hoặc 24 giờ đối với khu vực nông thôn) kể từ khi người nước ngoài đến lưu trú.\n- Phí, lệ phí: Khai báo tạm trú cho người nước ngoài trực tuyến (trang khai báo của Phòng Quản lý xuất nhập cảnh), báo tin ANTT, hòa giải mâu thuẫn khu dân cư: Miễn phí 100%.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Cơ sở lưu trú hoặc hộ gia đình tại xã Đức Hợp có người thân là người nước ngoài/Việt kiều về thăm quê lưu trú qua đêm bắt buộc phải khai báo tạm trú với Công an xã Đức Hợp (trực tuyến hoặc trực tiếp) để tránh bị xử phạt từ 3 - 5 triệu đồng.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có thể làm thủ tục về khai báo người nước ngoài lưu trú trên điện thoại không, cần chuẩn bị gì?\n  (2) Người lớn tuổi cần hỗ trợ về khai báo người nước ngoài lưu trú thì có thể nhờ ai hướng dẫn?\n  (3) Trong tình huống khai báo người nước ngoài lưu trú, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (4) Nếu các bên không thống nhất về khai báo người nước ngoài lưu trú, có thể đề nghị cơ quan nào hướng dẫn?\n  (5) Tôi nên kiểm tra thông tin chính thức về khai báo người nước ngoài lưu trú trên kênh nào?",
+    "keywords": [
+      "an ninh trật tự",
+      "khai báo người nước ngoài lưu trú",
+      "khai",
+      "báo",
+      "người",
+      "nước",
+      "ngoài",
+      "lưu",
+      "trú"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_102",
+    "category_id": "bao_luc_gia_dinh_antt",
+    "category": "Bạo lực gia đình, Hôn nhân & Bảo vệ yếu thế",
+    "topic": "[An ninh trật tự] Quy định pháp luật & Hướng dẫn xử lý: Liên hệ cơ quan hỗ trợ địa phương",
+    "legal_basis": "Luật Lực lượng tham gia bảo vệ an ninh, trật tự ở cơ sở số 30/2023/QH15 (hiệu lực 01/07/2024); Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam; Nghị định số 144/2021/NĐ-CP",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Lực lượng tham gia bảo vệ an ninh, trật tự ở cơ sở số 30/2023/QH15 (hiệu lực 01/07/2024); Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam; Nghị định số 144/2021/NĐ-CP. C...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: LIÊN HỆ CƠ QUAN HỖ TRỢ ĐỊA PHƯƠNG (LĨNH VỰC: AN NINH TRẬT TỰ)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Lực lượng tham gia bảo vệ an ninh, trật tự ở cơ sở số 30/2023/QH15 (hiệu lực 01/07/2024); Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam; Nghị định số 144/2021/NĐ-CP. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://dichvucong.bocongan.gov.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (Thôn Nho Lâm, xã Đức Hợp, tỉnh Hưng Yên - Trực ban 24/24h: 02213.815.999) phối hợp Tổ bảo vệ ANTT tại các thôn để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Tiếp nhận và xử lý tin báo gây rối trật tự công cộng, trộm cắp tài sản: Phản ứng nhanh 24/24h. Khai báo tạm trú cho người nước ngoài: Thực hiện trong vòng 12 giờ (hoặc 24 giờ đối với khu vực nông thôn) kể từ khi người nước ngoài đến lưu trú.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (Thôn Nho Lâm, xã Đức Hợp, tỉnh Hưng Yên - Trực ban 24/24h: 02213.815.999) phối hợp Tổ bảo vệ ANTT tại các thôn.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://dichvucong.bocongan.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Tiếp nhận và xử lý tin báo gây rối trật tự công cộng, trộm cắp tài sản: Phản ứng nhanh 24/24h. Khai báo tạm trú cho người nước ngoài: Thực hiện trong vòng 12 giờ (hoặc 24 giờ đối với khu vực nông thôn) kể từ khi người nước ngoài đến lưu trú.\n- Phí, lệ phí: Khai báo tạm trú cho người nước ngoài trực tuyến (trang khai báo của Phòng Quản lý xuất nhập cảnh), báo tin ANTT, hòa giải mâu thuẫn khu dân cư: Miễn phí 100%.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Cơ sở lưu trú hoặc hộ gia đình tại xã Đức Hợp có người thân là người nước ngoài/Việt kiều về thăm quê lưu trú qua đêm bắt buộc phải khai báo tạm trú với Công an xã Đức Hợp (trực tuyến hoặc trực tiếp) để tránh bị xử phạt từ 3 - 5 triệu đồng.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Trong tình huống liên hệ cơ quan hỗ trợ địa phương, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (2) Nếu các bên không thống nhất về liên hệ cơ quan hỗ trợ địa phương, có thể đề nghị cơ quan nào hướng dẫn?\n  (3) Tôi nên kiểm tra thông tin chính thức về liên hệ cơ quan hỗ trợ địa phương trên kênh nào?\n  (4) Làm sao phân biệt hướng dẫn chính thức và dịch vụ giả mạo liên quan đến liên hệ cơ quan hỗ trợ địa phương?\n  (5) Khi gặp vướng mắc về liên hệ cơ quan hỗ trợ địa phương, tôi cần mô tả thông tin gì để được hỗ trợ?",
+    "keywords": [
+      "an ninh trật tự",
+      "liên hệ cơ quan hỗ trợ địa phương",
+      "liên",
+      "quan",
+      "trợ",
+      "địa",
+      "phương"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_103",
+    "category_id": "quan_ly_nganh_nghe",
+    "category": "Quản lý hành chính, Lao động & Khiếu nại",
+    "topic": "[Thuế cơ bản] Quy định pháp luật & Hướng dẫn xử lý: Đăng ký mã số thuế cá nhân",
+    "legal_basis": "Luật Quản lý thuế số 38/2019/QH14; Thông tư số 86/2024/TT-BTC của Bộ Tài chính quy định sử dụng số định danh cá nhân (12 số thẻ Căn cước) thay cho mã số thuế cá nhân từ 01/07/2025; Thông tư 40/2021/TT-BTC",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Quản lý thuế số 38/2019/QH14; Thông tư số 86/2024/TT-BTC của Bộ Tài chính quy định sử dụng số định danh cá nhân (12 số thẻ Căn cước) thay cho mã số thuế cá nhân từ 01/07/2025; Thông tư 40/2021/TT-BTC...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: ĐĂNG KÝ MÃ SỐ THUẾ CÁ NHÂN (LĨNH VỰC: THUẾ CƠ BẢN)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Quản lý thuế số 38/2019/QH14; Thông tư số 86/2024/TT-BTC của Bộ Tài chính quy định sử dụng số định danh cá nhân (12 số thẻ Căn cước) thay cho mã số thuế cá nhân từ 01/07/2025; Thông tư 40/2021/TT-BTC. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://thuedientu.gdt.gov.vn) hoặc liên hệ trực tiếp Cơ quan Thuế quản lý trực tiếp & Tích hợp thông tin thuế trên ứng dụng VNeID / eTax Mobile để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Tra cứu và tích hợp Mã số thuế trên VNeID / eTax Mobile: Thực hiện trực tuyến trong 05 phút. Giải quyết hồ sơ đăng ký thuế: 03 ngày làm việc.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Cơ quan Thuế quản lý trực tiếp & Tích hợp thông tin thuế trên ứng dụng VNeID / eTax Mobile.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://thuedientu.gdt.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Tra cứu và tích hợp Mã số thuế trên VNeID / eTax Mobile: Thực hiện trực tuyến trong 05 phút. Giải quyết hồ sơ đăng ký thuế: 03 ngày làm việc.\n- Phí, lệ phí: Đăng ký thuế, chuẩn hóa mã số thuế theo số định danh cá nhân, tra cứu và nộp thuế trên eTax Mobile / VNeID: Hoàn toàn miễn phí (0 đồng). Hộ kinh doanh có doanh thu từ 100 triệu đồng/năm trở xuống được miễn thuế GTGT và thuế TNCN.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Cơ quan Thuế KHÔNG BAO GIỜ gọi điện yêu cầu người dân hay hộ kinh doanh tải ứng dụng Thuế qua đường link lạ trên Zalo để \"hoàn thuế\" hoặc \"cập nhật định danh thuế\". Chỉ tải ứng dụng eTax Mobile chính thức trên App Store / Google Play và đăng nhập bằng VNeID!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Đăng ký mã số thuế cá nhân là gì và tôi có thể tìm hiểu ở đâu?\n  (2) Điều kiện hoặc căn cứ áp dụng với đăng ký mã số thuế cá nhân được hướng dẫn thế nào?\n  (3) Muốn thực hiện việc liên quan đến đăng ký mã số thuế cá nhân, tôi cần chuẩn bị giấy tờ gì?\n  (4) Các bước cần lưu ý khi xử lý việc liên quan đến đăng ký mã số thuế cá nhân là gì?\n  (5) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về đăng ký mã số thuế cá nhân?",
+    "keywords": [
+      "thuế cơ bản",
+      "đăng ký mã số thuế cá nhân",
+      "đăng",
+      "thuế",
+      "nhân"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_104",
+    "category_id": "quan_ly_nganh_nghe",
+    "category": "Quản lý hành chính, Lao động & Khiếu nại",
+    "topic": "[Thuế cơ bản] Quy định pháp luật & Hướng dẫn xử lý: Kê khai thuế hộ kinh doanh",
+    "legal_basis": "Luật Quản lý thuế số 38/2019/QH14; Thông tư số 86/2024/TT-BTC của Bộ Tài chính quy định sử dụng số định danh cá nhân (12 số thẻ Căn cước) thay cho mã số thuế cá nhân từ 01/07/2025; Thông tư 40/2021/TT-BTC",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Quản lý thuế số 38/2019/QH14; Thông tư số 86/2024/TT-BTC của Bộ Tài chính quy định sử dụng số định danh cá nhân (12 số thẻ Căn cước) thay cho mã số thuế cá nhân từ 01/07/2025; Thông tư 40/2021/TT-BTC...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: KÊ KHAI THUẾ HỘ KINH DOANH (LĨNH VỰC: THUẾ CƠ BẢN)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Quản lý thuế số 38/2019/QH14; Thông tư số 86/2024/TT-BTC của Bộ Tài chính quy định sử dụng số định danh cá nhân (12 số thẻ Căn cước) thay cho mã số thuế cá nhân từ 01/07/2025; Thông tư 40/2021/TT-BTC. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://thuedientu.gdt.gov.vn) hoặc liên hệ trực tiếp Cơ quan Thuế quản lý trực tiếp & Tích hợp thông tin thuế trên ứng dụng VNeID / eTax Mobile để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Tra cứu và tích hợp Mã số thuế trên VNeID / eTax Mobile: Thực hiện trực tuyến trong 05 phút. Giải quyết hồ sơ đăng ký thuế: 03 ngày làm việc.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Cơ quan Thuế quản lý trực tiếp & Tích hợp thông tin thuế trên ứng dụng VNeID / eTax Mobile.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://thuedientu.gdt.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Tra cứu và tích hợp Mã số thuế trên VNeID / eTax Mobile: Thực hiện trực tuyến trong 05 phút. Giải quyết hồ sơ đăng ký thuế: 03 ngày làm việc.\n- Phí, lệ phí: Đăng ký thuế, chuẩn hóa mã số thuế theo số định danh cá nhân, tra cứu và nộp thuế trên eTax Mobile / VNeID: Hoàn toàn miễn phí (0 đồng). Hộ kinh doanh có doanh thu từ 100 triệu đồng/năm trở xuống được miễn thuế GTGT và thuế TNCN.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Cơ quan Thuế KHÔNG BAO GIỜ gọi điện yêu cầu người dân hay hộ kinh doanh tải ứng dụng Thuế qua đường link lạ trên Zalo để \"hoàn thuế\" hoặc \"cập nhật định danh thuế\". Chỉ tải ứng dụng eTax Mobile chính thức trên App Store / Google Play và đăng nhập bằng VNeID!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Các bước cần lưu ý khi xử lý việc liên quan đến kê khai thuế hộ kinh doanh là gì?\n  (2) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về kê khai thuế hộ kinh doanh?\n  (3) Có mốc thời gian nào cần lưu ý khi xử lý việc liên quan đến kê khai thuế hộ kinh doanh không?\n  (4) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến kê khai thuế hộ kinh doanh không?\n  (5) Nếu mất giấy tờ hoặc bằng chứng liên quan đến kê khai thuế hộ kinh doanh, tôi nên bắt đầu từ đâu?",
+    "keywords": [
+      "thuế cơ bản",
+      "kê khai thuế hộ kinh doanh",
+      "khai",
+      "thuế",
+      "kinh",
+      "doanh"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_105",
+    "category_id": "quan_ly_nganh_nghe",
+    "category": "Quản lý hành chính, Lao động & Khiếu nại",
+    "topic": "[Thuế cơ bản] Quy định pháp luật & Hướng dẫn xử lý: Nộp thuế điện tử",
+    "legal_basis": "Luật Quản lý thuế số 38/2019/QH14; Thông tư số 86/2024/TT-BTC của Bộ Tài chính quy định sử dụng số định danh cá nhân (12 số thẻ Căn cước) thay cho mã số thuế cá nhân từ 01/07/2025; Thông tư 40/2021/TT-BTC",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Quản lý thuế số 38/2019/QH14; Thông tư số 86/2024/TT-BTC của Bộ Tài chính quy định sử dụng số định danh cá nhân (12 số thẻ Căn cước) thay cho mã số thuế cá nhân từ 01/07/2025; Thông tư 40/2021/TT-BTC...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: NỘP THUẾ ĐIỆN TỬ (LĨNH VỰC: THUẾ CƠ BẢN)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Quản lý thuế số 38/2019/QH14; Thông tư số 86/2024/TT-BTC của Bộ Tài chính quy định sử dụng số định danh cá nhân (12 số thẻ Căn cước) thay cho mã số thuế cá nhân từ 01/07/2025; Thông tư 40/2021/TT-BTC. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://thuedientu.gdt.gov.vn) hoặc liên hệ trực tiếp Cơ quan Thuế quản lý trực tiếp & Tích hợp thông tin thuế trên ứng dụng VNeID / eTax Mobile để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Tra cứu và tích hợp Mã số thuế trên VNeID / eTax Mobile: Thực hiện trực tuyến trong 05 phút. Giải quyết hồ sơ đăng ký thuế: 03 ngày làm việc.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Cơ quan Thuế quản lý trực tiếp & Tích hợp thông tin thuế trên ứng dụng VNeID / eTax Mobile.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://thuedientu.gdt.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Tra cứu và tích hợp Mã số thuế trên VNeID / eTax Mobile: Thực hiện trực tuyến trong 05 phút. Giải quyết hồ sơ đăng ký thuế: 03 ngày làm việc.\n- Phí, lệ phí: Đăng ký thuế, chuẩn hóa mã số thuế theo số định danh cá nhân, tra cứu và nộp thuế trên eTax Mobile / VNeID: Hoàn toàn miễn phí (0 đồng). Hộ kinh doanh có doanh thu từ 100 triệu đồng/năm trở xuống được miễn thuế GTGT và thuế TNCN.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Cơ quan Thuế KHÔNG BAO GIỜ gọi điện yêu cầu người dân hay hộ kinh doanh tải ứng dụng Thuế qua đường link lạ trên Zalo để \"hoàn thuế\" hoặc \"cập nhật định danh thuế\". Chỉ tải ứng dụng eTax Mobile chính thức trên App Store / Google Play và đăng nhập bằng VNeID!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến nộp thuế điện tử không?\n  (2) Nếu mất giấy tờ hoặc bằng chứng liên quan đến nộp thuế điện tử, tôi nên bắt đầu từ đâu?\n  (3) Khi thông tin về nộp thuế điện tử bị sai hoặc thay đổi, cần liên hệ nơi nào?\n  (4) Tôi có thể nhờ người thân làm thay việc về nộp thuế điện tử không, cần hỏi rõ điều gì?\n  (5) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến nộp thuế điện tử, tôi cần tìm hiểu điều gì?",
+    "keywords": [
+      "thuế cơ bản",
+      "nộp thuế điện tử",
+      "nộp",
+      "thuế",
+      "điện"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_106",
+    "category_id": "quan_ly_nganh_nghe",
+    "category": "Quản lý hành chính, Lao động & Khiếu nại",
+    "topic": "[Thuế cơ bản] Quy định pháp luật & Hướng dẫn xử lý: Tra cứu nghĩa vụ thuế",
+    "legal_basis": "Luật Quản lý thuế số 38/2019/QH14; Thông tư số 86/2024/TT-BTC của Bộ Tài chính quy định sử dụng số định danh cá nhân (12 số thẻ Căn cước) thay cho mã số thuế cá nhân từ 01/07/2025; Thông tư 40/2021/TT-BTC",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Quản lý thuế số 38/2019/QH14; Thông tư số 86/2024/TT-BTC của Bộ Tài chính quy định sử dụng số định danh cá nhân (12 số thẻ Căn cước) thay cho mã số thuế cá nhân từ 01/07/2025; Thông tư 40/2021/TT-BTC...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: TRA CỨU NGHĨA VỤ THUẾ (LĨNH VỰC: THUẾ CƠ BẢN)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Quản lý thuế số 38/2019/QH14; Thông tư số 86/2024/TT-BTC của Bộ Tài chính quy định sử dụng số định danh cá nhân (12 số thẻ Căn cước) thay cho mã số thuế cá nhân từ 01/07/2025; Thông tư 40/2021/TT-BTC. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://thuedientu.gdt.gov.vn) hoặc liên hệ trực tiếp Cơ quan Thuế quản lý trực tiếp & Tích hợp thông tin thuế trên ứng dụng VNeID / eTax Mobile để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Tra cứu và tích hợp Mã số thuế trên VNeID / eTax Mobile: Thực hiện trực tuyến trong 05 phút. Giải quyết hồ sơ đăng ký thuế: 03 ngày làm việc.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Cơ quan Thuế quản lý trực tiếp & Tích hợp thông tin thuế trên ứng dụng VNeID / eTax Mobile.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://thuedientu.gdt.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Tra cứu và tích hợp Mã số thuế trên VNeID / eTax Mobile: Thực hiện trực tuyến trong 05 phút. Giải quyết hồ sơ đăng ký thuế: 03 ngày làm việc.\n- Phí, lệ phí: Đăng ký thuế, chuẩn hóa mã số thuế theo số định danh cá nhân, tra cứu và nộp thuế trên eTax Mobile / VNeID: Hoàn toàn miễn phí (0 đồng). Hộ kinh doanh có doanh thu từ 100 triệu đồng/năm trở xuống được miễn thuế GTGT và thuế TNCN.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Cơ quan Thuế KHÔNG BAO GIỜ gọi điện yêu cầu người dân hay hộ kinh doanh tải ứng dụng Thuế qua đường link lạ trên Zalo để \"hoàn thuế\" hoặc \"cập nhật định danh thuế\". Chỉ tải ứng dụng eTax Mobile chính thức trên App Store / Google Play và đăng nhập bằng VNeID!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Tôi có thể nhờ người thân làm thay việc về tra cứu nghĩa vụ thuế không, cần hỏi rõ điều gì?\n  (2) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến tra cứu nghĩa vụ thuế, tôi cần tìm hiểu điều gì?\n  (3) Sau khi gửi yêu cầu liên quan đến tra cứu nghĩa vụ thuế, tôi có thể theo dõi tiến độ thế nào?\n  (4) Người dân ở xã xa trung tâm muốn xử lý việc tra cứu nghĩa vụ thuế thì nên hỏi cơ quan nào?\n  (5) Người lớn tuổi cần hỗ trợ về tra cứu nghĩa vụ thuế thì có thể nhờ ai hướng dẫn?",
+    "keywords": [
+      "thuế cơ bản",
+      "tra cứu nghĩa vụ thuế",
+      "tra",
+      "cứu",
+      "nghĩa",
+      "thuế"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_107",
+    "category_id": "quan_ly_nganh_nghe",
+    "category": "Quản lý hành chính, Lao động & Khiếu nại",
+    "topic": "[Thuế cơ bản] Quy định pháp luật & Hướng dẫn xử lý: Điều chỉnh thông tin đăng ký thuế",
+    "legal_basis": "Luật Quản lý thuế số 38/2019/QH14; Thông tư số 86/2024/TT-BTC của Bộ Tài chính quy định sử dụng số định danh cá nhân (12 số thẻ Căn cước) thay cho mã số thuế cá nhân từ 01/07/2025; Thông tư 40/2021/TT-BTC",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Quản lý thuế số 38/2019/QH14; Thông tư số 86/2024/TT-BTC của Bộ Tài chính quy định sử dụng số định danh cá nhân (12 số thẻ Căn cước) thay cho mã số thuế cá nhân từ 01/07/2025; Thông tư 40/2021/TT-BTC...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: ĐIỀU CHỈNH THÔNG TIN ĐĂNG KÝ THUẾ (LĨNH VỰC: THUẾ CƠ BẢN)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Quản lý thuế số 38/2019/QH14; Thông tư số 86/2024/TT-BTC của Bộ Tài chính quy định sử dụng số định danh cá nhân (12 số thẻ Căn cước) thay cho mã số thuế cá nhân từ 01/07/2025; Thông tư 40/2021/TT-BTC. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://thuedientu.gdt.gov.vn) hoặc liên hệ trực tiếp Cơ quan Thuế quản lý trực tiếp & Tích hợp thông tin thuế trên ứng dụng VNeID / eTax Mobile để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Tra cứu và tích hợp Mã số thuế trên VNeID / eTax Mobile: Thực hiện trực tuyến trong 05 phút. Giải quyết hồ sơ đăng ký thuế: 03 ngày làm việc.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Cơ quan Thuế quản lý trực tiếp & Tích hợp thông tin thuế trên ứng dụng VNeID / eTax Mobile.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://thuedientu.gdt.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Tra cứu và tích hợp Mã số thuế trên VNeID / eTax Mobile: Thực hiện trực tuyến trong 05 phút. Giải quyết hồ sơ đăng ký thuế: 03 ngày làm việc.\n- Phí, lệ phí: Đăng ký thuế, chuẩn hóa mã số thuế theo số định danh cá nhân, tra cứu và nộp thuế trên eTax Mobile / VNeID: Hoàn toàn miễn phí (0 đồng). Hộ kinh doanh có doanh thu từ 100 triệu đồng/năm trở xuống được miễn thuế GTGT và thuế TNCN.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Cơ quan Thuế KHÔNG BAO GIỜ gọi điện yêu cầu người dân hay hộ kinh doanh tải ứng dụng Thuế qua đường link lạ trên Zalo để \"hoàn thuế\" hoặc \"cập nhật định danh thuế\". Chỉ tải ứng dụng eTax Mobile chính thức trên App Store / Google Play và đăng nhập bằng VNeID!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có thể làm thủ tục về điều chỉnh thông tin đăng ký thuế trên điện thoại không, cần chuẩn bị gì?\n  (2) Người lớn tuổi cần hỗ trợ về điều chỉnh thông tin đăng ký thuế thì có thể nhờ ai hướng dẫn?\n  (3) Trong tình huống điều chỉnh thông tin đăng ký thuế, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (4) Nếu các bên không thống nhất về điều chỉnh thông tin đăng ký thuế, có thể đề nghị cơ quan nào hướng dẫn?\n  (5) Tôi nên kiểm tra thông tin chính thức về điều chỉnh thông tin đăng ký thuế trên kênh nào?",
+    "keywords": [
+      "thuế cơ bản",
+      "điều chỉnh thông tin đăng ký thuế",
+      "điều",
+      "chỉnh",
+      "thông",
+      "tin",
+      "đăng",
+      "thuế"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_108",
+    "category_id": "quan_ly_nganh_nghe",
+    "category": "Quản lý hành chính, Lao động & Khiếu nại",
+    "topic": "[Thuế cơ bản] Quy định pháp luật & Hướng dẫn xử lý: Hóa đơn khi bán hàng nhỏ lẻ",
+    "legal_basis": "Luật Quản lý thuế số 38/2019/QH14; Thông tư số 86/2024/TT-BTC của Bộ Tài chính quy định sử dụng số định danh cá nhân (12 số thẻ Căn cước) thay cho mã số thuế cá nhân từ 01/07/2025; Thông tư 40/2021/TT-BTC",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Quản lý thuế số 38/2019/QH14; Thông tư số 86/2024/TT-BTC của Bộ Tài chính quy định sử dụng số định danh cá nhân (12 số thẻ Căn cước) thay cho mã số thuế cá nhân từ 01/07/2025; Thông tư 40/2021/TT-BTC...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: HÓA ĐƠN KHI BÁN HÀNG NHỎ LẺ (LĨNH VỰC: THUẾ CƠ BẢN)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Quản lý thuế số 38/2019/QH14; Thông tư số 86/2024/TT-BTC của Bộ Tài chính quy định sử dụng số định danh cá nhân (12 số thẻ Căn cước) thay cho mã số thuế cá nhân từ 01/07/2025; Thông tư 40/2021/TT-BTC. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://thuedientu.gdt.gov.vn) hoặc liên hệ trực tiếp Cơ quan Thuế quản lý trực tiếp & Tích hợp thông tin thuế trên ứng dụng VNeID / eTax Mobile để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Tra cứu và tích hợp Mã số thuế trên VNeID / eTax Mobile: Thực hiện trực tuyến trong 05 phút. Giải quyết hồ sơ đăng ký thuế: 03 ngày làm việc.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Cơ quan Thuế quản lý trực tiếp & Tích hợp thông tin thuế trên ứng dụng VNeID / eTax Mobile.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://thuedientu.gdt.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Tra cứu và tích hợp Mã số thuế trên VNeID / eTax Mobile: Thực hiện trực tuyến trong 05 phút. Giải quyết hồ sơ đăng ký thuế: 03 ngày làm việc.\n- Phí, lệ phí: Đăng ký thuế, chuẩn hóa mã số thuế theo số định danh cá nhân, tra cứu và nộp thuế trên eTax Mobile / VNeID: Hoàn toàn miễn phí (0 đồng). Hộ kinh doanh có doanh thu từ 100 triệu đồng/năm trở xuống được miễn thuế GTGT và thuế TNCN.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Cơ quan Thuế KHÔNG BAO GIỜ gọi điện yêu cầu người dân hay hộ kinh doanh tải ứng dụng Thuế qua đường link lạ trên Zalo để \"hoàn thuế\" hoặc \"cập nhật định danh thuế\". Chỉ tải ứng dụng eTax Mobile chính thức trên App Store / Google Play và đăng nhập bằng VNeID!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Trong tình huống hóa đơn khi bán hàng nhỏ lẻ, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (2) Nếu các bên không thống nhất về hóa đơn khi bán hàng nhỏ lẻ, có thể đề nghị cơ quan nào hướng dẫn?\n  (3) Tôi nên kiểm tra thông tin chính thức về hóa đơn khi bán hàng nhỏ lẻ trên kênh nào?\n  (4) Làm sao phân biệt hướng dẫn chính thức và dịch vụ giả mạo liên quan đến hóa đơn khi bán hàng nhỏ lẻ?\n  (5) Khi gặp vướng mắc về hóa đơn khi bán hàng nhỏ lẻ, tôi cần mô tả thông tin gì để được hỗ trợ?",
+    "keywords": [
+      "thuế cơ bản",
+      "hóa đơn khi bán hàng nhỏ lẻ",
+      "hóa",
+      "đơn",
+      "khi",
+      "bán",
+      "hàng",
+      "nhỏ"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_109",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Ngân hàng và thanh toán số] Quy định pháp luật & Hướng dẫn xử lý: Mở và sử dụng tài khoản ngân hàng",
+    "legal_basis": "Luật Các tổ chức tín dụng số 32/2024/QH15; Quyết định số 2345/QĐ-NHNN của Ngân hàng Nhà nước (xác thực sinh trắc học khuôn mặt khi chuyển tiền trên 10 triệu đồng/lần hoặc trên 20 triệu đồng/ngày); Thông tư số 17/2024/TT-NHNN",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Các tổ chức tín dụng số 32/2024/QH15; Quyết định số 2345/QĐ-NHNN của Ngân hàng Nhà nước (xác thực sinh trắc học khuôn mặt khi chuyển tiền trên 10 triệu đồng/lần hoặc trên 20 triệu đồng/ngày); Thông t...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: MỞ VÀ SỬ DỤNG TÀI KHOẢN NGÂN HÀNG (LĨNH VỰC: NGÂN HÀNG VÀ THANH TOÁN SỐ)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Các tổ chức tín dụng số 32/2024/QH15; Quyết định số 2345/QĐ-NHNN của Ngân hàng Nhà nước (xác thực sinh trắc học khuôn mặt khi chuyển tiền trên 10 triệu đồng/lần hoặc trên 20 triệu đồng/ngày); Thông tư số 17/2024/TT-NHNN. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://sbv.gov.vn) hoặc liên hệ trực tiếp Các Ngân hàng thương mại & Công an xã Đức Hợp (hỗ trợ trình báo khi phát hiện giao dịch lừa đảo, chiếm đoạt tài khoản) để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Khóa thẻ khẩn cấp trên ứng dụng ngân hàng hoặc qua tổng đài ngân hàng: Ngay lập tức (24/7). Tra soát chuyển khoản nhầm tại chi nhánh ngân hàng: 05 - 15 ngày làm việc.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Các Ngân hàng thương mại & Công an xã Đức Hợp (hỗ trợ trình báo khi phát hiện giao dịch lừa đảo, chiếm đoạt tài khoản).\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://sbv.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Khóa thẻ khẩn cấp trên ứng dụng ngân hàng hoặc qua tổng đài ngân hàng: Ngay lập tức (24/7). Tra soát chuyển khoản nhầm tại chi nhánh ngân hàng: 05 - 15 ngày làm việc.\n- Phí, lệ phí: Xác thực sinh trắc học bằng thẻ Căn cước gắn chip (NFC) hoặc qua tài khoản VNeID Mức 2 trên ứng dụng ngân hàng hoàn toàn miễn phí.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Tuyệt đối KHÔNG cho người khác thuê, mượn hoặc mua bán tài khoản ngân hàng (phạt hành chính từ 40 - 100 triệu đồng hoặc truy cứu hình sự về tội Rửa tiền / Giúp sức Lừa đảo chiếm đoạt tài sản). Khi bị chuyển khoản nhầm vào tài khoản, tuyệt đối không tự ý chuyển trả cho số tài khoản lạ mà phải ra ngân hàng hoặc Công an xã Đức Hợp lập biên bản!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Mở và sử dụng tài khoản ngân hàng là gì và tôi có thể tìm hiểu ở đâu?\n  (2) Điều kiện hoặc căn cứ áp dụng với mở và sử dụng tài khoản ngân hàng được hướng dẫn thế nào?\n  (3) Muốn thực hiện việc liên quan đến mở và sử dụng tài khoản ngân hàng, tôi cần chuẩn bị giấy tờ gì?\n  (4) Các bước cần lưu ý khi xử lý việc liên quan đến mở và sử dụng tài khoản ngân hàng là gì?\n  (5) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về mở và sử dụng tài khoản ngân hàng?",
+    "keywords": [
+      "ngân hàng và thanh toán số",
+      "mở và sử dụng tài khoản ngân hàng",
+      "dụng",
+      "tài",
+      "khoản",
+      "ngân",
+      "hàng"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_110",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Ngân hàng và thanh toán số] Quy định pháp luật & Hướng dẫn xử lý: Chuyển khoản nhầm",
+    "legal_basis": "Luật Các tổ chức tín dụng số 32/2024/QH15; Quyết định số 2345/QĐ-NHNN của Ngân hàng Nhà nước (xác thực sinh trắc học khuôn mặt khi chuyển tiền trên 10 triệu đồng/lần hoặc trên 20 triệu đồng/ngày); Thông tư số 17/2024/TT-NHNN",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Các tổ chức tín dụng số 32/2024/QH15; Quyết định số 2345/QĐ-NHNN của Ngân hàng Nhà nước (xác thực sinh trắc học khuôn mặt khi chuyển tiền trên 10 triệu đồng/lần hoặc trên 20 triệu đồng/ngày); Thông t...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: CHUYỂN KHOẢN NHẦM (LĨNH VỰC: NGÂN HÀNG VÀ THANH TOÁN SỐ)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Các tổ chức tín dụng số 32/2024/QH15; Quyết định số 2345/QĐ-NHNN của Ngân hàng Nhà nước (xác thực sinh trắc học khuôn mặt khi chuyển tiền trên 10 triệu đồng/lần hoặc trên 20 triệu đồng/ngày); Thông tư số 17/2024/TT-NHNN. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://sbv.gov.vn) hoặc liên hệ trực tiếp Các Ngân hàng thương mại & Công an xã Đức Hợp (hỗ trợ trình báo khi phát hiện giao dịch lừa đảo, chiếm đoạt tài khoản) để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Khóa thẻ khẩn cấp trên ứng dụng ngân hàng hoặc qua tổng đài ngân hàng: Ngay lập tức (24/7). Tra soát chuyển khoản nhầm tại chi nhánh ngân hàng: 05 - 15 ngày làm việc.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Các Ngân hàng thương mại & Công an xã Đức Hợp (hỗ trợ trình báo khi phát hiện giao dịch lừa đảo, chiếm đoạt tài khoản).\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://sbv.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Khóa thẻ khẩn cấp trên ứng dụng ngân hàng hoặc qua tổng đài ngân hàng: Ngay lập tức (24/7). Tra soát chuyển khoản nhầm tại chi nhánh ngân hàng: 05 - 15 ngày làm việc.\n- Phí, lệ phí: Xác thực sinh trắc học bằng thẻ Căn cước gắn chip (NFC) hoặc qua tài khoản VNeID Mức 2 trên ứng dụng ngân hàng hoàn toàn miễn phí.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Tuyệt đối KHÔNG cho người khác thuê, mượn hoặc mua bán tài khoản ngân hàng (phạt hành chính từ 40 - 100 triệu đồng hoặc truy cứu hình sự về tội Rửa tiền / Giúp sức Lừa đảo chiếm đoạt tài sản). Khi bị chuyển khoản nhầm vào tài khoản, tuyệt đối không tự ý chuyển trả cho số tài khoản lạ mà phải ra ngân hàng hoặc Công an xã Đức Hợp lập biên bản!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Các bước cần lưu ý khi xử lý việc liên quan đến chuyển khoản nhầm là gì?\n  (2) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về chuyển khoản nhầm?\n  (3) Có mốc thời gian nào cần lưu ý khi xử lý việc liên quan đến chuyển khoản nhầm không?\n  (4) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến chuyển khoản nhầm không?\n  (5) Nếu mất giấy tờ hoặc bằng chứng liên quan đến chuyển khoản nhầm, tôi nên bắt đầu từ đâu?",
+    "keywords": [
+      "ngân hàng và thanh toán số",
+      "chuyển khoản nhầm",
+      "chuyển",
+      "khoản",
+      "nhầm"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_111",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Ngân hàng và thanh toán số] Quy định pháp luật & Hướng dẫn xử lý: Tra soát giao dịch đáng ngờ",
+    "legal_basis": "Luật Các tổ chức tín dụng số 32/2024/QH15; Quyết định số 2345/QĐ-NHNN của Ngân hàng Nhà nước (xác thực sinh trắc học khuôn mặt khi chuyển tiền trên 10 triệu đồng/lần hoặc trên 20 triệu đồng/ngày); Thông tư số 17/2024/TT-NHNN",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Các tổ chức tín dụng số 32/2024/QH15; Quyết định số 2345/QĐ-NHNN của Ngân hàng Nhà nước (xác thực sinh trắc học khuôn mặt khi chuyển tiền trên 10 triệu đồng/lần hoặc trên 20 triệu đồng/ngày); Thông t...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: TRA SOÁT GIAO DỊCH ĐÁNG NGỜ (LĨNH VỰC: NGÂN HÀNG VÀ THANH TOÁN SỐ)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Các tổ chức tín dụng số 32/2024/QH15; Quyết định số 2345/QĐ-NHNN của Ngân hàng Nhà nước (xác thực sinh trắc học khuôn mặt khi chuyển tiền trên 10 triệu đồng/lần hoặc trên 20 triệu đồng/ngày); Thông tư số 17/2024/TT-NHNN. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://sbv.gov.vn) hoặc liên hệ trực tiếp Các Ngân hàng thương mại & Công an xã Đức Hợp (hỗ trợ trình báo khi phát hiện giao dịch lừa đảo, chiếm đoạt tài khoản) để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Khóa thẻ khẩn cấp trên ứng dụng ngân hàng hoặc qua tổng đài ngân hàng: Ngay lập tức (24/7). Tra soát chuyển khoản nhầm tại chi nhánh ngân hàng: 05 - 15 ngày làm việc.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Các Ngân hàng thương mại & Công an xã Đức Hợp (hỗ trợ trình báo khi phát hiện giao dịch lừa đảo, chiếm đoạt tài khoản).\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://sbv.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Khóa thẻ khẩn cấp trên ứng dụng ngân hàng hoặc qua tổng đài ngân hàng: Ngay lập tức (24/7). Tra soát chuyển khoản nhầm tại chi nhánh ngân hàng: 05 - 15 ngày làm việc.\n- Phí, lệ phí: Xác thực sinh trắc học bằng thẻ Căn cước gắn chip (NFC) hoặc qua tài khoản VNeID Mức 2 trên ứng dụng ngân hàng hoàn toàn miễn phí.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Tuyệt đối KHÔNG cho người khác thuê, mượn hoặc mua bán tài khoản ngân hàng (phạt hành chính từ 40 - 100 triệu đồng hoặc truy cứu hình sự về tội Rửa tiền / Giúp sức Lừa đảo chiếm đoạt tài sản). Khi bị chuyển khoản nhầm vào tài khoản, tuyệt đối không tự ý chuyển trả cho số tài khoản lạ mà phải ra ngân hàng hoặc Công an xã Đức Hợp lập biên bản!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến tra soát giao dịch đáng ngờ không?\n  (2) Nếu mất giấy tờ hoặc bằng chứng liên quan đến tra soát giao dịch đáng ngờ, tôi nên bắt đầu từ đâu?\n  (3) Khi thông tin về tra soát giao dịch đáng ngờ bị sai hoặc thay đổi, cần liên hệ nơi nào?\n  (4) Tôi có thể nhờ người thân làm thay việc về tra soát giao dịch đáng ngờ không, cần hỏi rõ điều gì?\n  (5) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến tra soát giao dịch đáng ngờ, tôi cần tìm hiểu điều gì?",
+    "keywords": [
+      "ngân hàng và thanh toán số",
+      "tra soát giao dịch đáng ngờ",
+      "tra",
+      "soát",
+      "giao",
+      "dịch",
+      "đáng",
+      "ngờ"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_112",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Ngân hàng và thanh toán số] Quy định pháp luật & Hướng dẫn xử lý: Thanh toán bằng mã QR",
+    "legal_basis": "Luật Các tổ chức tín dụng số 32/2024/QH15; Quyết định số 2345/QĐ-NHNN của Ngân hàng Nhà nước (xác thực sinh trắc học khuôn mặt khi chuyển tiền trên 10 triệu đồng/lần hoặc trên 20 triệu đồng/ngày); Thông tư số 17/2024/TT-NHNN",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Các tổ chức tín dụng số 32/2024/QH15; Quyết định số 2345/QĐ-NHNN của Ngân hàng Nhà nước (xác thực sinh trắc học khuôn mặt khi chuyển tiền trên 10 triệu đồng/lần hoặc trên 20 triệu đồng/ngày); Thông t...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: THANH TOÁN BẰNG MÃ QR (LĨNH VỰC: NGÂN HÀNG VÀ THANH TOÁN SỐ)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Các tổ chức tín dụng số 32/2024/QH15; Quyết định số 2345/QĐ-NHNN của Ngân hàng Nhà nước (xác thực sinh trắc học khuôn mặt khi chuyển tiền trên 10 triệu đồng/lần hoặc trên 20 triệu đồng/ngày); Thông tư số 17/2024/TT-NHNN. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://sbv.gov.vn) hoặc liên hệ trực tiếp Các Ngân hàng thương mại & Công an xã Đức Hợp (hỗ trợ trình báo khi phát hiện giao dịch lừa đảo, chiếm đoạt tài khoản) để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Khóa thẻ khẩn cấp trên ứng dụng ngân hàng hoặc qua tổng đài ngân hàng: Ngay lập tức (24/7). Tra soát chuyển khoản nhầm tại chi nhánh ngân hàng: 05 - 15 ngày làm việc.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Các Ngân hàng thương mại & Công an xã Đức Hợp (hỗ trợ trình báo khi phát hiện giao dịch lừa đảo, chiếm đoạt tài khoản).\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://sbv.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Khóa thẻ khẩn cấp trên ứng dụng ngân hàng hoặc qua tổng đài ngân hàng: Ngay lập tức (24/7). Tra soát chuyển khoản nhầm tại chi nhánh ngân hàng: 05 - 15 ngày làm việc.\n- Phí, lệ phí: Xác thực sinh trắc học bằng thẻ Căn cước gắn chip (NFC) hoặc qua tài khoản VNeID Mức 2 trên ứng dụng ngân hàng hoàn toàn miễn phí.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Tuyệt đối KHÔNG cho người khác thuê, mượn hoặc mua bán tài khoản ngân hàng (phạt hành chính từ 40 - 100 triệu đồng hoặc truy cứu hình sự về tội Rửa tiền / Giúp sức Lừa đảo chiếm đoạt tài sản). Khi bị chuyển khoản nhầm vào tài khoản, tuyệt đối không tự ý chuyển trả cho số tài khoản lạ mà phải ra ngân hàng hoặc Công an xã Đức Hợp lập biên bản!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Tôi có thể nhờ người thân làm thay việc về thanh toán bằng mã QR không, cần hỏi rõ điều gì?\n  (2) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến thanh toán bằng mã QR, tôi cần tìm hiểu điều gì?\n  (3) Sau khi gửi yêu cầu liên quan đến thanh toán bằng mã QR, tôi có thể theo dõi tiến độ thế nào?\n  (4) Người dân ở xã xa trung tâm muốn xử lý việc thanh toán bằng mã QR thì nên hỏi cơ quan nào?\n  (5) Người lớn tuổi cần hỗ trợ về thanh toán bằng mã QR thì có thể nhờ ai hướng dẫn?",
+    "keywords": [
+      "ngân hàng và thanh toán số",
+      "thanh toán bằng mã qr",
+      "thanh",
+      "toán",
+      "bằng"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_113",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Ngân hàng và thanh toán số] Quy định pháp luật & Hướng dẫn xử lý: Khóa thẻ khi có rủi ro",
+    "legal_basis": "Luật Các tổ chức tín dụng số 32/2024/QH15; Quyết định số 2345/QĐ-NHNN của Ngân hàng Nhà nước (xác thực sinh trắc học khuôn mặt khi chuyển tiền trên 10 triệu đồng/lần hoặc trên 20 triệu đồng/ngày); Thông tư số 17/2024/TT-NHNN",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Các tổ chức tín dụng số 32/2024/QH15; Quyết định số 2345/QĐ-NHNN của Ngân hàng Nhà nước (xác thực sinh trắc học khuôn mặt khi chuyển tiền trên 10 triệu đồng/lần hoặc trên 20 triệu đồng/ngày); Thông t...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: KHÓA THẺ KHI CÓ RỦI RO (LĨNH VỰC: NGÂN HÀNG VÀ THANH TOÁN SỐ)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Các tổ chức tín dụng số 32/2024/QH15; Quyết định số 2345/QĐ-NHNN của Ngân hàng Nhà nước (xác thực sinh trắc học khuôn mặt khi chuyển tiền trên 10 triệu đồng/lần hoặc trên 20 triệu đồng/ngày); Thông tư số 17/2024/TT-NHNN. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://sbv.gov.vn) hoặc liên hệ trực tiếp Các Ngân hàng thương mại & Công an xã Đức Hợp (hỗ trợ trình báo khi phát hiện giao dịch lừa đảo, chiếm đoạt tài khoản) để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Khóa thẻ khẩn cấp trên ứng dụng ngân hàng hoặc qua tổng đài ngân hàng: Ngay lập tức (24/7). Tra soát chuyển khoản nhầm tại chi nhánh ngân hàng: 05 - 15 ngày làm việc.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Các Ngân hàng thương mại & Công an xã Đức Hợp (hỗ trợ trình báo khi phát hiện giao dịch lừa đảo, chiếm đoạt tài khoản).\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://sbv.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Khóa thẻ khẩn cấp trên ứng dụng ngân hàng hoặc qua tổng đài ngân hàng: Ngay lập tức (24/7). Tra soát chuyển khoản nhầm tại chi nhánh ngân hàng: 05 - 15 ngày làm việc.\n- Phí, lệ phí: Xác thực sinh trắc học bằng thẻ Căn cước gắn chip (NFC) hoặc qua tài khoản VNeID Mức 2 trên ứng dụng ngân hàng hoàn toàn miễn phí.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Tuyệt đối KHÔNG cho người khác thuê, mượn hoặc mua bán tài khoản ngân hàng (phạt hành chính từ 40 - 100 triệu đồng hoặc truy cứu hình sự về tội Rửa tiền / Giúp sức Lừa đảo chiếm đoạt tài sản). Khi bị chuyển khoản nhầm vào tài khoản, tuyệt đối không tự ý chuyển trả cho số tài khoản lạ mà phải ra ngân hàng hoặc Công an xã Đức Hợp lập biên bản!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có thể làm thủ tục về khóa thẻ khi có rủi ro trên điện thoại không, cần chuẩn bị gì?\n  (2) Người lớn tuổi cần hỗ trợ về khóa thẻ khi có rủi ro thì có thể nhờ ai hướng dẫn?\n  (3) Trong tình huống khóa thẻ khi có rủi ro, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (4) Nếu các bên không thống nhất về khóa thẻ khi có rủi ro, có thể đề nghị cơ quan nào hướng dẫn?\n  (5) Tôi nên kiểm tra thông tin chính thức về khóa thẻ khi có rủi ro trên kênh nào?",
+    "keywords": [
+      "ngân hàng và thanh toán số",
+      "khóa thẻ khi có rủi ro",
+      "khóa",
+      "thẻ",
+      "khi",
+      "rủi"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_114",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Ngân hàng và thanh toán số] Quy định pháp luật & Hướng dẫn xử lý: Nhận biết yêu cầu cung cấp thông tin ngân hàng",
+    "legal_basis": "Luật Các tổ chức tín dụng số 32/2024/QH15; Quyết định số 2345/QĐ-NHNN của Ngân hàng Nhà nước (xác thực sinh trắc học khuôn mặt khi chuyển tiền trên 10 triệu đồng/lần hoặc trên 20 triệu đồng/ngày); Thông tư số 17/2024/TT-NHNN",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Các tổ chức tín dụng số 32/2024/QH15; Quyết định số 2345/QĐ-NHNN của Ngân hàng Nhà nước (xác thực sinh trắc học khuôn mặt khi chuyển tiền trên 10 triệu đồng/lần hoặc trên 20 triệu đồng/ngày); Thông t...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: NHẬN BIẾT YÊU CẦU CUNG CẤP THÔNG TIN NGÂN HÀNG (LĨNH VỰC: NGÂN HÀNG VÀ THANH TOÁN SỐ)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Các tổ chức tín dụng số 32/2024/QH15; Quyết định số 2345/QĐ-NHNN của Ngân hàng Nhà nước (xác thực sinh trắc học khuôn mặt khi chuyển tiền trên 10 triệu đồng/lần hoặc trên 20 triệu đồng/ngày); Thông tư số 17/2024/TT-NHNN. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://sbv.gov.vn) hoặc liên hệ trực tiếp Các Ngân hàng thương mại & Công an xã Đức Hợp (hỗ trợ trình báo khi phát hiện giao dịch lừa đảo, chiếm đoạt tài khoản) để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Khóa thẻ khẩn cấp trên ứng dụng ngân hàng hoặc qua tổng đài ngân hàng: Ngay lập tức (24/7). Tra soát chuyển khoản nhầm tại chi nhánh ngân hàng: 05 - 15 ngày làm việc.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Các Ngân hàng thương mại & Công an xã Đức Hợp (hỗ trợ trình báo khi phát hiện giao dịch lừa đảo, chiếm đoạt tài khoản).\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://sbv.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Khóa thẻ khẩn cấp trên ứng dụng ngân hàng hoặc qua tổng đài ngân hàng: Ngay lập tức (24/7). Tra soát chuyển khoản nhầm tại chi nhánh ngân hàng: 05 - 15 ngày làm việc.\n- Phí, lệ phí: Xác thực sinh trắc học bằng thẻ Căn cước gắn chip (NFC) hoặc qua tài khoản VNeID Mức 2 trên ứng dụng ngân hàng hoàn toàn miễn phí.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Tuyệt đối KHÔNG cho người khác thuê, mượn hoặc mua bán tài khoản ngân hàng (phạt hành chính từ 40 - 100 triệu đồng hoặc truy cứu hình sự về tội Rửa tiền / Giúp sức Lừa đảo chiếm đoạt tài sản). Khi bị chuyển khoản nhầm vào tài khoản, tuyệt đối không tự ý chuyển trả cho số tài khoản lạ mà phải ra ngân hàng hoặc Công an xã Đức Hợp lập biên bản!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Trong tình huống nhận biết yêu cầu cung cấp thông tin ngân hàng, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (2) Nếu các bên không thống nhất về nhận biết yêu cầu cung cấp thông tin ngân hàng, có thể đề nghị cơ quan nào hướng dẫn?\n  (3) Tôi nên kiểm tra thông tin chính thức về nhận biết yêu cầu cung cấp thông tin ngân hàng trên kênh nào?\n  (4) Làm sao phân biệt hướng dẫn chính thức và dịch vụ giả mạo liên quan đến nhận biết yêu cầu cung cấp thông tin ngân hàng?\n  (5) Khi gặp vướng mắc về nhận biết yêu cầu cung cấp thông tin ngân hàng, tôi cần mô tả thông tin gì để được hỗ trợ?",
+    "keywords": [
+      "ngân hàng và thanh toán số",
+      "nhận biết yêu cầu cung cấp thông tin ngân hàng",
+      "nhận",
+      "biết",
+      "yêu",
+      "cầu",
+      "cung",
+      "cấp",
+      "thông",
+      "tin",
+      "ngân",
+      "hàng"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_115",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Lừa đảo trực tuyến] Quy định pháp luật & Hướng dẫn xử lý: Nhận diện dấu hiệu lừa đảo trên mạng",
+    "legal_basis": "Luật An ninh mạng số 24/2018/QH14; Điều 174 Bộ luật Hình sự (Tội lừa đảo chiếm đoạt tài sản); Điều 290 Bộ luật Hình sự (Tội sử dụng mạng máy tính, mạng viễn thông, phương tiện điện tử thực hiện hành vi chiếm đoạt tài sản)",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật An ninh mạng số 24/2018/QH14; Điều 174 Bộ luật Hình sự (Tội lừa đảo chiếm đoạt tài sản); Điều 290 Bộ luật Hình sự (Tội sử dụng mạng máy tính, mạng viễn thông, phương tiện điện tử thực hiện hành vi ch...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: NHẬN DIỆN DẤU HIỆU LỪA ĐẢO TRÊN MẠNG (LĨNH VỰC: LỪA ĐẢO TRỰC TUYẾN)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật An ninh mạng số 24/2018/QH14; Điều 174 Bộ luật Hình sự (Tội lừa đảo chiếm đoạt tài sản); Điều 290 Bộ luật Hình sự (Tội sử dụng mạng máy tính, mạng viễn thông, phương tiện điện tử thực hiện hành vi chiếm đoạt tài sản). Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://khonggianmang.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (Trực ban tiếp nhận trình báo 24/24h tại Thôn Nho Lâm, SĐT: 02213.815.999 hoặc tính năng Kiến nghị ANTT trên VNeID) & Phòng An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (PA05) để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (\"Thời gian vàng\" để khóa tài khoản và yêu cầu ngân hàng tra soát/ngăn chặn giao dịch là trong vòng 15 - 30 phút đầu tiên ngay sau khi phát hiện chuyển tiền cho kẻ gian.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (Trực ban tiếp nhận trình báo 24/24h tại Thôn Nho Lâm, SĐT: 02213.815.999 hoặc tính năng Kiến nghị ANTT trên VNeID) & Phòng An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (PA05).\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://khonggianmang.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: \"Thời gian vàng\" để khóa tài khoản và yêu cầu ngân hàng tra soát/ngăn chặn giao dịch là trong vòng 15 - 30 phút đầu tiên ngay sau khi phát hiện chuyển tiền cho kẻ gian.\n- Phí, lệ phí: Tiếp nhận đơn trình báo lừa đảo trực tuyến tại Công an xã Đức Hợp hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- CẢNH BÁO BẪY LỪA LẦN 2: Trên Facebook, TikTok, Telegram xuất hiện hàng loạt trang giả mạo Cục An ninh mạng, Luật sư, VTV nhận \"Thu hồi tiền treo, lấy lại tiền bị lừa đảo qua mạng\". Đây 100% là bọn lừa đảo đánh vào tâm lý muốn gỡ vốn của nạn nhân! Chỉ có Cơ quan Công an mới có thẩm quyền điều tra, thu hồi tài sản.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Nhận diện dấu hiệu lừa đảo trên mạng là gì và tôi có thể tìm hiểu ở đâu?\n  (2) Điều kiện hoặc căn cứ áp dụng với nhận diện dấu hiệu lừa đảo trên mạng được hướng dẫn thế nào?\n  (3) Muốn thực hiện việc liên quan đến nhận diện dấu hiệu lừa đảo trên mạng, tôi cần chuẩn bị giấy tờ gì?\n  (4) Các bước cần lưu ý khi xử lý việc liên quan đến nhận diện dấu hiệu lừa đảo trên mạng là gì?\n  (5) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về nhận diện dấu hiệu lừa đảo trên mạng?",
+    "keywords": [
+      "lừa đảo trực tuyến",
+      "nhận diện dấu hiệu lừa đảo trên mạng",
+      "nhận",
+      "diện",
+      "dấu",
+      "hiệu",
+      "lừa",
+      "đảo",
+      "trên",
+      "mạng"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_116",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Lừa đảo trực tuyến] Quy định pháp luật & Hướng dẫn xử lý: Xử lý sau khi chuyển tiền cho kẻ gian",
+    "legal_basis": "Luật An ninh mạng số 24/2018/QH14; Điều 174 Bộ luật Hình sự (Tội lừa đảo chiếm đoạt tài sản); Điều 290 Bộ luật Hình sự (Tội sử dụng mạng máy tính, mạng viễn thông, phương tiện điện tử thực hiện hành vi chiếm đoạt tài sản)",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật An ninh mạng số 24/2018/QH14; Điều 174 Bộ luật Hình sự (Tội lừa đảo chiếm đoạt tài sản); Điều 290 Bộ luật Hình sự (Tội sử dụng mạng máy tính, mạng viễn thông, phương tiện điện tử thực hiện hành vi ch...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: XỬ LÝ SAU KHI CHUYỂN TIỀN CHO KẺ GIAN (LĨNH VỰC: LỪA ĐẢO TRỰC TUYẾN)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật An ninh mạng số 24/2018/QH14; Điều 174 Bộ luật Hình sự (Tội lừa đảo chiếm đoạt tài sản); Điều 290 Bộ luật Hình sự (Tội sử dụng mạng máy tính, mạng viễn thông, phương tiện điện tử thực hiện hành vi chiếm đoạt tài sản). Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://khonggianmang.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (Trực ban tiếp nhận trình báo 24/24h tại Thôn Nho Lâm, SĐT: 02213.815.999 hoặc tính năng Kiến nghị ANTT trên VNeID) & Phòng An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (PA05) để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (\"Thời gian vàng\" để khóa tài khoản và yêu cầu ngân hàng tra soát/ngăn chặn giao dịch là trong vòng 15 - 30 phút đầu tiên ngay sau khi phát hiện chuyển tiền cho kẻ gian.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (Trực ban tiếp nhận trình báo 24/24h tại Thôn Nho Lâm, SĐT: 02213.815.999 hoặc tính năng Kiến nghị ANTT trên VNeID) & Phòng An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (PA05).\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://khonggianmang.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: \"Thời gian vàng\" để khóa tài khoản và yêu cầu ngân hàng tra soát/ngăn chặn giao dịch là trong vòng 15 - 30 phút đầu tiên ngay sau khi phát hiện chuyển tiền cho kẻ gian.\n- Phí, lệ phí: Tiếp nhận đơn trình báo lừa đảo trực tuyến tại Công an xã Đức Hợp hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- CẢNH BÁO BẪY LỪA LẦN 2: Trên Facebook, TikTok, Telegram xuất hiện hàng loạt trang giả mạo Cục An ninh mạng, Luật sư, VTV nhận \"Thu hồi tiền treo, lấy lại tiền bị lừa đảo qua mạng\". Đây 100% là bọn lừa đảo đánh vào tâm lý muốn gỡ vốn của nạn nhân! Chỉ có Cơ quan Công an mới có thẩm quyền điều tra, thu hồi tài sản.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Các bước cần lưu ý khi xử lý việc liên quan đến xử lý sau khi chuyển tiền cho kẻ gian là gì?\n  (2) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về xử lý sau khi chuyển tiền cho kẻ gian?\n  (3) Có mốc thời gian nào cần lưu ý khi xử lý việc liên quan đến xử lý sau khi chuyển tiền cho kẻ gian không?\n  (4) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến xử lý sau khi chuyển tiền cho kẻ gian không?\n  (5) Nếu mất giấy tờ hoặc bằng chứng liên quan đến xử lý sau khi chuyển tiền cho kẻ gian, tôi nên bắt đầu từ đâu?",
+    "keywords": [
+      "lừa đảo trực tuyến",
+      "xử lý sau khi chuyển tiền cho kẻ gian",
+      "sau",
+      "khi",
+      "chuyển",
+      "tiền",
+      "cho",
+      "gian"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_117",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Lừa đảo trực tuyến] Quy định pháp luật & Hướng dẫn xử lý: Lưu bằng chứng giao dịch lừa đảo",
+    "legal_basis": "Luật An ninh mạng số 24/2018/QH14; Điều 174 Bộ luật Hình sự (Tội lừa đảo chiếm đoạt tài sản); Điều 290 Bộ luật Hình sự (Tội sử dụng mạng máy tính, mạng viễn thông, phương tiện điện tử thực hiện hành vi chiếm đoạt tài sản)",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật An ninh mạng số 24/2018/QH14; Điều 174 Bộ luật Hình sự (Tội lừa đảo chiếm đoạt tài sản); Điều 290 Bộ luật Hình sự (Tội sử dụng mạng máy tính, mạng viễn thông, phương tiện điện tử thực hiện hành vi ch...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: LƯU BẰNG CHỨNG GIAO DỊCH LỪA ĐẢO (LĨNH VỰC: LỪA ĐẢO TRỰC TUYẾN)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật An ninh mạng số 24/2018/QH14; Điều 174 Bộ luật Hình sự (Tội lừa đảo chiếm đoạt tài sản); Điều 290 Bộ luật Hình sự (Tội sử dụng mạng máy tính, mạng viễn thông, phương tiện điện tử thực hiện hành vi chiếm đoạt tài sản). Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://khonggianmang.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (Trực ban tiếp nhận trình báo 24/24h tại Thôn Nho Lâm, SĐT: 02213.815.999 hoặc tính năng Kiến nghị ANTT trên VNeID) & Phòng An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (PA05) để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (\"Thời gian vàng\" để khóa tài khoản và yêu cầu ngân hàng tra soát/ngăn chặn giao dịch là trong vòng 15 - 30 phút đầu tiên ngay sau khi phát hiện chuyển tiền cho kẻ gian.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (Trực ban tiếp nhận trình báo 24/24h tại Thôn Nho Lâm, SĐT: 02213.815.999 hoặc tính năng Kiến nghị ANTT trên VNeID) & Phòng An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (PA05).\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://khonggianmang.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: \"Thời gian vàng\" để khóa tài khoản và yêu cầu ngân hàng tra soát/ngăn chặn giao dịch là trong vòng 15 - 30 phút đầu tiên ngay sau khi phát hiện chuyển tiền cho kẻ gian.\n- Phí, lệ phí: Tiếp nhận đơn trình báo lừa đảo trực tuyến tại Công an xã Đức Hợp hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- CẢNH BÁO BẪY LỪA LẦN 2: Trên Facebook, TikTok, Telegram xuất hiện hàng loạt trang giả mạo Cục An ninh mạng, Luật sư, VTV nhận \"Thu hồi tiền treo, lấy lại tiền bị lừa đảo qua mạng\". Đây 100% là bọn lừa đảo đánh vào tâm lý muốn gỡ vốn của nạn nhân! Chỉ có Cơ quan Công an mới có thẩm quyền điều tra, thu hồi tài sản.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến lưu bằng chứng giao dịch lừa đảo không?\n  (2) Nếu mất giấy tờ hoặc bằng chứng liên quan đến lưu bằng chứng giao dịch lừa đảo, tôi nên bắt đầu từ đâu?\n  (3) Khi thông tin về lưu bằng chứng giao dịch lừa đảo bị sai hoặc thay đổi, cần liên hệ nơi nào?\n  (4) Tôi có thể nhờ người thân làm thay việc về lưu bằng chứng giao dịch lừa đảo không, cần hỏi rõ điều gì?\n  (5) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến lưu bằng chứng giao dịch lừa đảo, tôi cần tìm hiểu điều gì?",
+    "keywords": [
+      "lừa đảo trực tuyến",
+      "lưu bằng chứng giao dịch lừa đảo",
+      "lưu",
+      "bằng",
+      "chứng",
+      "giao",
+      "dịch",
+      "lừa",
+      "đảo"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_118",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Lừa đảo trực tuyến] Quy định pháp luật & Hướng dẫn xử lý: Trình báo lừa đảo trực tuyến",
+    "legal_basis": "Luật An ninh mạng số 24/2018/QH14; Điều 174 Bộ luật Hình sự (Tội lừa đảo chiếm đoạt tài sản); Điều 290 Bộ luật Hình sự (Tội sử dụng mạng máy tính, mạng viễn thông, phương tiện điện tử thực hiện hành vi chiếm đoạt tài sản)",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật An ninh mạng số 24/2018/QH14; Điều 174 Bộ luật Hình sự (Tội lừa đảo chiếm đoạt tài sản); Điều 290 Bộ luật Hình sự (Tội sử dụng mạng máy tính, mạng viễn thông, phương tiện điện tử thực hiện hành vi ch...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: TRÌNH BÁO LỪA ĐẢO TRỰC TUYẾN (LĨNH VỰC: LỪA ĐẢO TRỰC TUYẾN)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật An ninh mạng số 24/2018/QH14; Điều 174 Bộ luật Hình sự (Tội lừa đảo chiếm đoạt tài sản); Điều 290 Bộ luật Hình sự (Tội sử dụng mạng máy tính, mạng viễn thông, phương tiện điện tử thực hiện hành vi chiếm đoạt tài sản). Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://khonggianmang.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (Trực ban tiếp nhận trình báo 24/24h tại Thôn Nho Lâm, SĐT: 02213.815.999 hoặc tính năng Kiến nghị ANTT trên VNeID) & Phòng An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (PA05) để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (\"Thời gian vàng\" để khóa tài khoản và yêu cầu ngân hàng tra soát/ngăn chặn giao dịch là trong vòng 15 - 30 phút đầu tiên ngay sau khi phát hiện chuyển tiền cho kẻ gian.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (Trực ban tiếp nhận trình báo 24/24h tại Thôn Nho Lâm, SĐT: 02213.815.999 hoặc tính năng Kiến nghị ANTT trên VNeID) & Phòng An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (PA05).\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://khonggianmang.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: \"Thời gian vàng\" để khóa tài khoản và yêu cầu ngân hàng tra soát/ngăn chặn giao dịch là trong vòng 15 - 30 phút đầu tiên ngay sau khi phát hiện chuyển tiền cho kẻ gian.\n- Phí, lệ phí: Tiếp nhận đơn trình báo lừa đảo trực tuyến tại Công an xã Đức Hợp hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- CẢNH BÁO BẪY LỪA LẦN 2: Trên Facebook, TikTok, Telegram xuất hiện hàng loạt trang giả mạo Cục An ninh mạng, Luật sư, VTV nhận \"Thu hồi tiền treo, lấy lại tiền bị lừa đảo qua mạng\". Đây 100% là bọn lừa đảo đánh vào tâm lý muốn gỡ vốn của nạn nhân! Chỉ có Cơ quan Công an mới có thẩm quyền điều tra, thu hồi tài sản.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Tôi có thể nhờ người thân làm thay việc về trình báo lừa đảo trực tuyến không, cần hỏi rõ điều gì?\n  (2) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến trình báo lừa đảo trực tuyến, tôi cần tìm hiểu điều gì?\n  (3) Sau khi gửi yêu cầu liên quan đến trình báo lừa đảo trực tuyến, tôi có thể theo dõi tiến độ thế nào?\n  (4) Người dân ở xã xa trung tâm muốn xử lý việc trình báo lừa đảo trực tuyến thì nên hỏi cơ quan nào?\n  (5) Người lớn tuổi cần hỗ trợ về trình báo lừa đảo trực tuyến thì có thể nhờ ai hướng dẫn?",
+    "keywords": [
+      "lừa đảo trực tuyến",
+      "trình báo lừa đảo trực tuyến",
+      "trình",
+      "báo",
+      "lừa",
+      "đảo",
+      "trực",
+      "tuyến"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_119",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Lừa đảo trực tuyến] Quy định pháp luật & Hướng dẫn xử lý: Kiểm tra đường link đáng ngờ",
+    "legal_basis": "Luật An ninh mạng số 24/2018/QH14; Điều 174 Bộ luật Hình sự (Tội lừa đảo chiếm đoạt tài sản); Điều 290 Bộ luật Hình sự (Tội sử dụng mạng máy tính, mạng viễn thông, phương tiện điện tử thực hiện hành vi chiếm đoạt tài sản)",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật An ninh mạng số 24/2018/QH14; Điều 174 Bộ luật Hình sự (Tội lừa đảo chiếm đoạt tài sản); Điều 290 Bộ luật Hình sự (Tội sử dụng mạng máy tính, mạng viễn thông, phương tiện điện tử thực hiện hành vi ch...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: KIỂM TRA ĐƯỜNG LINK ĐÁNG NGỜ (LĨNH VỰC: LỪA ĐẢO TRỰC TUYẾN)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật An ninh mạng số 24/2018/QH14; Điều 174 Bộ luật Hình sự (Tội lừa đảo chiếm đoạt tài sản); Điều 290 Bộ luật Hình sự (Tội sử dụng mạng máy tính, mạng viễn thông, phương tiện điện tử thực hiện hành vi chiếm đoạt tài sản). Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://khonggianmang.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (Trực ban tiếp nhận trình báo 24/24h tại Thôn Nho Lâm, SĐT: 02213.815.999 hoặc tính năng Kiến nghị ANTT trên VNeID) & Phòng An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (PA05) để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (\"Thời gian vàng\" để khóa tài khoản và yêu cầu ngân hàng tra soát/ngăn chặn giao dịch là trong vòng 15 - 30 phút đầu tiên ngay sau khi phát hiện chuyển tiền cho kẻ gian.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (Trực ban tiếp nhận trình báo 24/24h tại Thôn Nho Lâm, SĐT: 02213.815.999 hoặc tính năng Kiến nghị ANTT trên VNeID) & Phòng An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (PA05).\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://khonggianmang.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: \"Thời gian vàng\" để khóa tài khoản và yêu cầu ngân hàng tra soát/ngăn chặn giao dịch là trong vòng 15 - 30 phút đầu tiên ngay sau khi phát hiện chuyển tiền cho kẻ gian.\n- Phí, lệ phí: Tiếp nhận đơn trình báo lừa đảo trực tuyến tại Công an xã Đức Hợp hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- CẢNH BÁO BẪY LỪA LẦN 2: Trên Facebook, TikTok, Telegram xuất hiện hàng loạt trang giả mạo Cục An ninh mạng, Luật sư, VTV nhận \"Thu hồi tiền treo, lấy lại tiền bị lừa đảo qua mạng\". Đây 100% là bọn lừa đảo đánh vào tâm lý muốn gỡ vốn của nạn nhân! Chỉ có Cơ quan Công an mới có thẩm quyền điều tra, thu hồi tài sản.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có thể làm thủ tục về kiểm tra đường link đáng ngờ trên điện thoại không, cần chuẩn bị gì?\n  (2) Người lớn tuổi cần hỗ trợ về kiểm tra đường link đáng ngờ thì có thể nhờ ai hướng dẫn?\n  (3) Trong tình huống kiểm tra đường link đáng ngờ, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (4) Nếu các bên không thống nhất về kiểm tra đường link đáng ngờ, có thể đề nghị cơ quan nào hướng dẫn?\n  (5) Tôi nên kiểm tra thông tin chính thức về kiểm tra đường link đáng ngờ trên kênh nào?",
+    "keywords": [
+      "lừa đảo trực tuyến",
+      "kiểm tra đường link đáng ngờ",
+      "kiểm",
+      "tra",
+      "đường",
+      "link",
+      "đáng",
+      "ngờ"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_120",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Lừa đảo trực tuyến] Quy định pháp luật & Hướng dẫn xử lý: Cảnh báo người thân về thủ đoạn mới",
+    "legal_basis": "Luật An ninh mạng số 24/2018/QH14; Điều 174 Bộ luật Hình sự (Tội lừa đảo chiếm đoạt tài sản); Điều 290 Bộ luật Hình sự (Tội sử dụng mạng máy tính, mạng viễn thông, phương tiện điện tử thực hiện hành vi chiếm đoạt tài sản)",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật An ninh mạng số 24/2018/QH14; Điều 174 Bộ luật Hình sự (Tội lừa đảo chiếm đoạt tài sản); Điều 290 Bộ luật Hình sự (Tội sử dụng mạng máy tính, mạng viễn thông, phương tiện điện tử thực hiện hành vi ch...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: CẢNH BÁO NGƯỜI THÂN VỀ THỦ ĐOẠN MỚI (LĨNH VỰC: LỪA ĐẢO TRỰC TUYẾN)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật An ninh mạng số 24/2018/QH14; Điều 174 Bộ luật Hình sự (Tội lừa đảo chiếm đoạt tài sản); Điều 290 Bộ luật Hình sự (Tội sử dụng mạng máy tính, mạng viễn thông, phương tiện điện tử thực hiện hành vi chiếm đoạt tài sản). Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://khonggianmang.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (Trực ban tiếp nhận trình báo 24/24h tại Thôn Nho Lâm, SĐT: 02213.815.999 hoặc tính năng Kiến nghị ANTT trên VNeID) & Phòng An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (PA05) để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (\"Thời gian vàng\" để khóa tài khoản và yêu cầu ngân hàng tra soát/ngăn chặn giao dịch là trong vòng 15 - 30 phút đầu tiên ngay sau khi phát hiện chuyển tiền cho kẻ gian.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (Trực ban tiếp nhận trình báo 24/24h tại Thôn Nho Lâm, SĐT: 02213.815.999 hoặc tính năng Kiến nghị ANTT trên VNeID) & Phòng An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (PA05).\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://khonggianmang.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: \"Thời gian vàng\" để khóa tài khoản và yêu cầu ngân hàng tra soát/ngăn chặn giao dịch là trong vòng 15 - 30 phút đầu tiên ngay sau khi phát hiện chuyển tiền cho kẻ gian.\n- Phí, lệ phí: Tiếp nhận đơn trình báo lừa đảo trực tuyến tại Công an xã Đức Hợp hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- CẢNH BÁO BẪY LỪA LẦN 2: Trên Facebook, TikTok, Telegram xuất hiện hàng loạt trang giả mạo Cục An ninh mạng, Luật sư, VTV nhận \"Thu hồi tiền treo, lấy lại tiền bị lừa đảo qua mạng\". Đây 100% là bọn lừa đảo đánh vào tâm lý muốn gỡ vốn của nạn nhân! Chỉ có Cơ quan Công an mới có thẩm quyền điều tra, thu hồi tài sản.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Trong tình huống cảnh báo người thân về thủ đoạn mới, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (2) Nếu các bên không thống nhất về cảnh báo người thân về thủ đoạn mới, có thể đề nghị cơ quan nào hướng dẫn?\n  (3) Tôi nên kiểm tra thông tin chính thức về cảnh báo người thân về thủ đoạn mới trên kênh nào?\n  (4) Làm sao phân biệt hướng dẫn chính thức và dịch vụ giả mạo liên quan đến cảnh báo người thân về thủ đoạn mới?\n  (5) Khi gặp vướng mắc về cảnh báo người thân về thủ đoạn mới, tôi cần mô tả thông tin gì để được hỗ trợ?",
+    "keywords": [
+      "lừa đảo trực tuyến",
+      "cảnh báo người thân về thủ đoạn mới",
+      "cảnh",
+      "báo",
+      "người",
+      "thân",
+      "thủ",
+      "đoạn",
+      "mới"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_121",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Bảo vệ dữ liệu cá nhân] Quy định pháp luật & Hướng dẫn xử lý: Quyền đối với dữ liệu cá nhân",
+    "legal_basis": "Nghị định số 13/2023/NĐ-CP của Chính phủ về bảo vệ dữ liệu cá nhân; Luật An ninh mạng năm 2018; Điều 38 Bộ luật Dân sự 2015 (Quyền về đời sống riêng tư, bí mật cá nhân)",
+    "summary": "Áp dụng trực tiếp theo quy định tại Nghị định số 13/2023/NĐ-CP của Chính phủ về bảo vệ dữ liệu cá nhân; Luật An ninh mạng năm 2018; Điều 38 Bộ luật Dân sự 2015 (Quyền về đời sống riêng tư, bí mật cá nhân). Công dân thực hiện trực tuyến trên...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: QUYỀN ĐỐI VỚI DỮ LIỆU CÁ NHÂN (LĨNH VỰC: BẢO VỆ DỮ LIỆU CÁ NHÂN)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Nghị định số 13/2023/NĐ-CP của Chính phủ về bảo vệ dữ liệu cá nhân; Luật An ninh mạng năm 2018; Điều 38 Bộ luật Dân sự 2015 (Quyền về đời sống riêng tư, bí mật cá nhân). Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://baovedlcn.gov.vn) hoặc liên hệ trực tiếp Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (Bộ Công an) & Công an xã Đức Hợp để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Tổ chức kiểm soát dữ liệu phải thực hiện yêu cầu xóa/chỉnh sửa dữ liệu của chủ thể dữ liệu trong vòng 72 giờ kể từ khi nhận được yêu cầu hợp lệ (theo Nghị định 13/2023/NĐ-CP).).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (Bộ Công an) & Công an xã Đức Hợp.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://baovedlcn.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Tổ chức kiểm soát dữ liệu phải thực hiện yêu cầu xóa/chỉnh sửa dữ liệu của chủ thể dữ liệu trong vòng 72 giờ kể từ khi nhận được yêu cầu hợp lệ (theo Nghị định 13/2023/NĐ-CP).\n- Phí, lệ phí: Thực hiện quyền yêu cầu rút lại sự đồng ý, chỉnh sửa, xóa dữ liệu cá nhân hoặc trình báo hành vi mua bán, sử dụng trái phép thông tin cá nhân: Miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Tuyệt đối KHÔNG đăng tải hình ảnh mặt trước, mặt sau thẻ Căn cước (có mã QR, số định danh 12 số), Giấy phép lái xe, Vé máy bay hay Giấy chứng nhận quyền sử dụng đất lên Facebook, Zalo công khai để tránh bị kẻ gian lợi dụng đăng ký vay tín dụng đen hoặc mở tài khoản ngân hàng ảo!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Quyền đối với dữ liệu cá nhân là gì và tôi có thể tìm hiểu ở đâu?\n  (2) Điều kiện hoặc căn cứ áp dụng với quyền đối với dữ liệu cá nhân được hướng dẫn thế nào?\n  (3) Muốn thực hiện việc liên quan đến quyền đối với dữ liệu cá nhân, tôi cần chuẩn bị giấy tờ gì?\n  (4) Các bước cần lưu ý khi xử lý việc liên quan đến quyền đối với dữ liệu cá nhân là gì?\n  (5) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về quyền đối với dữ liệu cá nhân?",
+    "keywords": [
+      "bảo vệ dữ liệu cá nhân",
+      "quyền đối với dữ liệu cá nhân",
+      "quyền",
+      "đối",
+      "với",
+      "liệu",
+      "nhân"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_122",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Bảo vệ dữ liệu cá nhân] Quy định pháp luật & Hướng dẫn xử lý: Yêu cầu chỉnh sửa dữ liệu cá nhân",
+    "legal_basis": "Nghị định số 13/2023/NĐ-CP của Chính phủ về bảo vệ dữ liệu cá nhân; Luật An ninh mạng năm 2018; Điều 38 Bộ luật Dân sự 2015 (Quyền về đời sống riêng tư, bí mật cá nhân)",
+    "summary": "Áp dụng trực tiếp theo quy định tại Nghị định số 13/2023/NĐ-CP của Chính phủ về bảo vệ dữ liệu cá nhân; Luật An ninh mạng năm 2018; Điều 38 Bộ luật Dân sự 2015 (Quyền về đời sống riêng tư, bí mật cá nhân). Công dân thực hiện trực tuyến trên...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: YÊU CẦU CHỈNH SỬA DỮ LIỆU CÁ NHÂN (LĨNH VỰC: BẢO VỆ DỮ LIỆU CÁ NHÂN)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Nghị định số 13/2023/NĐ-CP của Chính phủ về bảo vệ dữ liệu cá nhân; Luật An ninh mạng năm 2018; Điều 38 Bộ luật Dân sự 2015 (Quyền về đời sống riêng tư, bí mật cá nhân). Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://baovedlcn.gov.vn) hoặc liên hệ trực tiếp Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (Bộ Công an) & Công an xã Đức Hợp để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Tổ chức kiểm soát dữ liệu phải thực hiện yêu cầu xóa/chỉnh sửa dữ liệu của chủ thể dữ liệu trong vòng 72 giờ kể từ khi nhận được yêu cầu hợp lệ (theo Nghị định 13/2023/NĐ-CP).).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (Bộ Công an) & Công an xã Đức Hợp.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://baovedlcn.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Tổ chức kiểm soát dữ liệu phải thực hiện yêu cầu xóa/chỉnh sửa dữ liệu của chủ thể dữ liệu trong vòng 72 giờ kể từ khi nhận được yêu cầu hợp lệ (theo Nghị định 13/2023/NĐ-CP).\n- Phí, lệ phí: Thực hiện quyền yêu cầu rút lại sự đồng ý, chỉnh sửa, xóa dữ liệu cá nhân hoặc trình báo hành vi mua bán, sử dụng trái phép thông tin cá nhân: Miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Tuyệt đối KHÔNG đăng tải hình ảnh mặt trước, mặt sau thẻ Căn cước (có mã QR, số định danh 12 số), Giấy phép lái xe, Vé máy bay hay Giấy chứng nhận quyền sử dụng đất lên Facebook, Zalo công khai để tránh bị kẻ gian lợi dụng đăng ký vay tín dụng đen hoặc mở tài khoản ngân hàng ảo!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Các bước cần lưu ý khi xử lý việc liên quan đến yêu cầu chỉnh sửa dữ liệu cá nhân là gì?\n  (2) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về yêu cầu chỉnh sửa dữ liệu cá nhân?\n  (3) Có mốc thời gian nào cần lưu ý khi xử lý việc liên quan đến yêu cầu chỉnh sửa dữ liệu cá nhân không?\n  (4) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến yêu cầu chỉnh sửa dữ liệu cá nhân không?\n  (5) Nếu mất giấy tờ hoặc bằng chứng liên quan đến yêu cầu chỉnh sửa dữ liệu cá nhân, tôi nên bắt đầu từ đâu?",
+    "keywords": [
+      "bảo vệ dữ liệu cá nhân",
+      "yêu cầu chỉnh sửa dữ liệu cá nhân",
+      "yêu",
+      "cầu",
+      "chỉnh",
+      "sửa",
+      "liệu",
+      "nhân"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_123",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Bảo vệ dữ liệu cá nhân] Quy định pháp luật & Hướng dẫn xử lý: Thu hồi đồng ý xử lý dữ liệu",
+    "legal_basis": "Nghị định số 13/2023/NĐ-CP của Chính phủ về bảo vệ dữ liệu cá nhân; Luật An ninh mạng năm 2018; Điều 38 Bộ luật Dân sự 2015 (Quyền về đời sống riêng tư, bí mật cá nhân)",
+    "summary": "Áp dụng trực tiếp theo quy định tại Nghị định số 13/2023/NĐ-CP của Chính phủ về bảo vệ dữ liệu cá nhân; Luật An ninh mạng năm 2018; Điều 38 Bộ luật Dân sự 2015 (Quyền về đời sống riêng tư, bí mật cá nhân). Công dân thực hiện trực tuyến trên...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: THU HỒI ĐỒNG Ý XỬ LÝ DỮ LIỆU (LĨNH VỰC: BẢO VỆ DỮ LIỆU CÁ NHÂN)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Nghị định số 13/2023/NĐ-CP của Chính phủ về bảo vệ dữ liệu cá nhân; Luật An ninh mạng năm 2018; Điều 38 Bộ luật Dân sự 2015 (Quyền về đời sống riêng tư, bí mật cá nhân). Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://baovedlcn.gov.vn) hoặc liên hệ trực tiếp Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (Bộ Công an) & Công an xã Đức Hợp để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Tổ chức kiểm soát dữ liệu phải thực hiện yêu cầu xóa/chỉnh sửa dữ liệu của chủ thể dữ liệu trong vòng 72 giờ kể từ khi nhận được yêu cầu hợp lệ (theo Nghị định 13/2023/NĐ-CP).).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (Bộ Công an) & Công an xã Đức Hợp.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://baovedlcn.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Tổ chức kiểm soát dữ liệu phải thực hiện yêu cầu xóa/chỉnh sửa dữ liệu của chủ thể dữ liệu trong vòng 72 giờ kể từ khi nhận được yêu cầu hợp lệ (theo Nghị định 13/2023/NĐ-CP).\n- Phí, lệ phí: Thực hiện quyền yêu cầu rút lại sự đồng ý, chỉnh sửa, xóa dữ liệu cá nhân hoặc trình báo hành vi mua bán, sử dụng trái phép thông tin cá nhân: Miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Tuyệt đối KHÔNG đăng tải hình ảnh mặt trước, mặt sau thẻ Căn cước (có mã QR, số định danh 12 số), Giấy phép lái xe, Vé máy bay hay Giấy chứng nhận quyền sử dụng đất lên Facebook, Zalo công khai để tránh bị kẻ gian lợi dụng đăng ký vay tín dụng đen hoặc mở tài khoản ngân hàng ảo!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến thu hồi đồng ý xử lý dữ liệu không?\n  (2) Nếu mất giấy tờ hoặc bằng chứng liên quan đến thu hồi đồng ý xử lý dữ liệu, tôi nên bắt đầu từ đâu?\n  (3) Khi thông tin về thu hồi đồng ý xử lý dữ liệu bị sai hoặc thay đổi, cần liên hệ nơi nào?\n  (4) Tôi có thể nhờ người thân làm thay việc về thu hồi đồng ý xử lý dữ liệu không, cần hỏi rõ điều gì?\n  (5) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến thu hồi đồng ý xử lý dữ liệu, tôi cần tìm hiểu điều gì?",
+    "keywords": [
+      "bảo vệ dữ liệu cá nhân",
+      "thu hồi đồng ý xử lý dữ liệu",
+      "thu",
+      "hồi",
+      "đồng",
+      "liệu"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_124",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Bảo vệ dữ liệu cá nhân] Quy định pháp luật & Hướng dẫn xử lý: Báo sự cố lộ thông tin cá nhân",
+    "legal_basis": "Nghị định số 13/2023/NĐ-CP của Chính phủ về bảo vệ dữ liệu cá nhân; Luật An ninh mạng năm 2018; Điều 38 Bộ luật Dân sự 2015 (Quyền về đời sống riêng tư, bí mật cá nhân)",
+    "summary": "Áp dụng trực tiếp theo quy định tại Nghị định số 13/2023/NĐ-CP của Chính phủ về bảo vệ dữ liệu cá nhân; Luật An ninh mạng năm 2018; Điều 38 Bộ luật Dân sự 2015 (Quyền về đời sống riêng tư, bí mật cá nhân). Công dân thực hiện trực tuyến trên...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: BÁO SỰ CỐ LỘ THÔNG TIN CÁ NHÂN (LĨNH VỰC: BẢO VỆ DỮ LIỆU CÁ NHÂN)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Nghị định số 13/2023/NĐ-CP của Chính phủ về bảo vệ dữ liệu cá nhân; Luật An ninh mạng năm 2018; Điều 38 Bộ luật Dân sự 2015 (Quyền về đời sống riêng tư, bí mật cá nhân). Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://baovedlcn.gov.vn) hoặc liên hệ trực tiếp Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (Bộ Công an) & Công an xã Đức Hợp để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Tổ chức kiểm soát dữ liệu phải thực hiện yêu cầu xóa/chỉnh sửa dữ liệu của chủ thể dữ liệu trong vòng 72 giờ kể từ khi nhận được yêu cầu hợp lệ (theo Nghị định 13/2023/NĐ-CP).).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (Bộ Công an) & Công an xã Đức Hợp.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://baovedlcn.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Tổ chức kiểm soát dữ liệu phải thực hiện yêu cầu xóa/chỉnh sửa dữ liệu của chủ thể dữ liệu trong vòng 72 giờ kể từ khi nhận được yêu cầu hợp lệ (theo Nghị định 13/2023/NĐ-CP).\n- Phí, lệ phí: Thực hiện quyền yêu cầu rút lại sự đồng ý, chỉnh sửa, xóa dữ liệu cá nhân hoặc trình báo hành vi mua bán, sử dụng trái phép thông tin cá nhân: Miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Tuyệt đối KHÔNG đăng tải hình ảnh mặt trước, mặt sau thẻ Căn cước (có mã QR, số định danh 12 số), Giấy phép lái xe, Vé máy bay hay Giấy chứng nhận quyền sử dụng đất lên Facebook, Zalo công khai để tránh bị kẻ gian lợi dụng đăng ký vay tín dụng đen hoặc mở tài khoản ngân hàng ảo!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Tôi có thể nhờ người thân làm thay việc về báo sự cố lộ thông tin cá nhân không, cần hỏi rõ điều gì?\n  (2) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến báo sự cố lộ thông tin cá nhân, tôi cần tìm hiểu điều gì?\n  (3) Sau khi gửi yêu cầu liên quan đến báo sự cố lộ thông tin cá nhân, tôi có thể theo dõi tiến độ thế nào?\n  (4) Người dân ở xã xa trung tâm muốn xử lý việc báo sự cố lộ thông tin cá nhân thì nên hỏi cơ quan nào?\n  (5) Người lớn tuổi cần hỗ trợ về báo sự cố lộ thông tin cá nhân thì có thể nhờ ai hướng dẫn?",
+    "keywords": [
+      "bảo vệ dữ liệu cá nhân",
+      "báo sự cố lộ thông tin cá nhân",
+      "báo",
+      "thông",
+      "tin",
+      "nhân"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_125",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Bảo vệ dữ liệu cá nhân] Quy định pháp luật & Hướng dẫn xử lý: Chia sẻ giấy tờ tùy thân an toàn",
+    "legal_basis": "Nghị định số 13/2023/NĐ-CP của Chính phủ về bảo vệ dữ liệu cá nhân; Luật An ninh mạng năm 2018; Điều 38 Bộ luật Dân sự 2015 (Quyền về đời sống riêng tư, bí mật cá nhân)",
+    "summary": "Áp dụng trực tiếp theo quy định tại Nghị định số 13/2023/NĐ-CP của Chính phủ về bảo vệ dữ liệu cá nhân; Luật An ninh mạng năm 2018; Điều 38 Bộ luật Dân sự 2015 (Quyền về đời sống riêng tư, bí mật cá nhân). Công dân thực hiện trực tuyến trên...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: CHIA SẺ GIẤY TỜ TÙY THÂN AN TOÀN (LĨNH VỰC: BẢO VỆ DỮ LIỆU CÁ NHÂN)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Nghị định số 13/2023/NĐ-CP của Chính phủ về bảo vệ dữ liệu cá nhân; Luật An ninh mạng năm 2018; Điều 38 Bộ luật Dân sự 2015 (Quyền về đời sống riêng tư, bí mật cá nhân). Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://baovedlcn.gov.vn) hoặc liên hệ trực tiếp Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (Bộ Công an) & Công an xã Đức Hợp để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Tổ chức kiểm soát dữ liệu phải thực hiện yêu cầu xóa/chỉnh sửa dữ liệu của chủ thể dữ liệu trong vòng 72 giờ kể từ khi nhận được yêu cầu hợp lệ (theo Nghị định 13/2023/NĐ-CP).).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (Bộ Công an) & Công an xã Đức Hợp.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://baovedlcn.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Tổ chức kiểm soát dữ liệu phải thực hiện yêu cầu xóa/chỉnh sửa dữ liệu của chủ thể dữ liệu trong vòng 72 giờ kể từ khi nhận được yêu cầu hợp lệ (theo Nghị định 13/2023/NĐ-CP).\n- Phí, lệ phí: Thực hiện quyền yêu cầu rút lại sự đồng ý, chỉnh sửa, xóa dữ liệu cá nhân hoặc trình báo hành vi mua bán, sử dụng trái phép thông tin cá nhân: Miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Tuyệt đối KHÔNG đăng tải hình ảnh mặt trước, mặt sau thẻ Căn cước (có mã QR, số định danh 12 số), Giấy phép lái xe, Vé máy bay hay Giấy chứng nhận quyền sử dụng đất lên Facebook, Zalo công khai để tránh bị kẻ gian lợi dụng đăng ký vay tín dụng đen hoặc mở tài khoản ngân hàng ảo!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có thể làm thủ tục về chia sẻ giấy tờ tùy thân an toàn trên điện thoại không, cần chuẩn bị gì?\n  (2) Người lớn tuổi cần hỗ trợ về chia sẻ giấy tờ tùy thân an toàn thì có thể nhờ ai hướng dẫn?\n  (3) Trong tình huống chia sẻ giấy tờ tùy thân an toàn, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (4) Nếu các bên không thống nhất về chia sẻ giấy tờ tùy thân an toàn, có thể đề nghị cơ quan nào hướng dẫn?\n  (5) Tôi nên kiểm tra thông tin chính thức về chia sẻ giấy tờ tùy thân an toàn trên kênh nào?",
+    "keywords": [
+      "bảo vệ dữ liệu cá nhân",
+      "chia sẻ giấy tờ tùy thân an toàn",
+      "chia",
+      "giấy",
+      "tùy",
+      "thân",
+      "toàn"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_126",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Bảo vệ dữ liệu cá nhân] Quy định pháp luật & Hướng dẫn xử lý: Xử lý khi bị dùng thông tin trái phép",
+    "legal_basis": "Nghị định số 13/2023/NĐ-CP của Chính phủ về bảo vệ dữ liệu cá nhân; Luật An ninh mạng năm 2018; Điều 38 Bộ luật Dân sự 2015 (Quyền về đời sống riêng tư, bí mật cá nhân)",
+    "summary": "Áp dụng trực tiếp theo quy định tại Nghị định số 13/2023/NĐ-CP của Chính phủ về bảo vệ dữ liệu cá nhân; Luật An ninh mạng năm 2018; Điều 38 Bộ luật Dân sự 2015 (Quyền về đời sống riêng tư, bí mật cá nhân). Công dân thực hiện trực tuyến trên...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: XỬ LÝ KHI BỊ DÙNG THÔNG TIN TRÁI PHÉP (LĨNH VỰC: BẢO VỆ DỮ LIỆU CÁ NHÂN)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Nghị định số 13/2023/NĐ-CP của Chính phủ về bảo vệ dữ liệu cá nhân; Luật An ninh mạng năm 2018; Điều 38 Bộ luật Dân sự 2015 (Quyền về đời sống riêng tư, bí mật cá nhân). Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://baovedlcn.gov.vn) hoặc liên hệ trực tiếp Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (Bộ Công an) & Công an xã Đức Hợp để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Tổ chức kiểm soát dữ liệu phải thực hiện yêu cầu xóa/chỉnh sửa dữ liệu của chủ thể dữ liệu trong vòng 72 giờ kể từ khi nhận được yêu cầu hợp lệ (theo Nghị định 13/2023/NĐ-CP).).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (Bộ Công an) & Công an xã Đức Hợp.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://baovedlcn.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Tổ chức kiểm soát dữ liệu phải thực hiện yêu cầu xóa/chỉnh sửa dữ liệu của chủ thể dữ liệu trong vòng 72 giờ kể từ khi nhận được yêu cầu hợp lệ (theo Nghị định 13/2023/NĐ-CP).\n- Phí, lệ phí: Thực hiện quyền yêu cầu rút lại sự đồng ý, chỉnh sửa, xóa dữ liệu cá nhân hoặc trình báo hành vi mua bán, sử dụng trái phép thông tin cá nhân: Miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Tuyệt đối KHÔNG đăng tải hình ảnh mặt trước, mặt sau thẻ Căn cước (có mã QR, số định danh 12 số), Giấy phép lái xe, Vé máy bay hay Giấy chứng nhận quyền sử dụng đất lên Facebook, Zalo công khai để tránh bị kẻ gian lợi dụng đăng ký vay tín dụng đen hoặc mở tài khoản ngân hàng ảo!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Trong tình huống xử lý khi bị dùng thông tin trái phép, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (2) Nếu các bên không thống nhất về xử lý khi bị dùng thông tin trái phép, có thể đề nghị cơ quan nào hướng dẫn?\n  (3) Tôi nên kiểm tra thông tin chính thức về xử lý khi bị dùng thông tin trái phép trên kênh nào?\n  (4) Làm sao phân biệt hướng dẫn chính thức và dịch vụ giả mạo liên quan đến xử lý khi bị dùng thông tin trái phép?\n  (5) Khi gặp vướng mắc về xử lý khi bị dùng thông tin trái phép, tôi cần mô tả thông tin gì để được hỗ trợ?",
+    "keywords": [
+      "bảo vệ dữ liệu cá nhân",
+      "xử lý khi bị dùng thông tin trái phép",
+      "khi",
+      "dùng",
+      "thông",
+      "tin",
+      "trái",
+      "phép"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_127",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Mạng xã hội] Quy định pháp luật & Hướng dẫn xử lý: Báo cáo nội dung vi phạm",
+    "legal_basis": "Luật An ninh mạng năm 2018; Nghị định số 147/2024/NĐ-CP về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng; Điều 101 Nghị định số 15/2020/NĐ-CP; Điều 155, 156, 331 Bộ luật Hình sự",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật An ninh mạng năm 2018; Nghị định số 147/2024/NĐ-CP về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng; Điều 101 Nghị định số 15/2020/NĐ-CP; Điều 155, 156, 331 Bộ luật Hình sự. Công...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: BÁO CÁO NỘI DUNG VI PHẠM (LĨNH VỰC: MẠNG XÃ HỘI)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật An ninh mạng năm 2018; Nghị định số 147/2024/NĐ-CP về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng; Điều 101 Nghị định số 15/2020/NĐ-CP; Điều 155, 156, 331 Bộ luật Hình sự. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://khonggianmang.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (tiếp nhận đơn trình báo bị vu khống, làm nhục, bôi nhọ danh dự trên mạng xã hội) & Sở Thông tin và Truyền thông để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Các nền tảng mạng xã hội phải gỡ bỏ thông tin vi phạm pháp luật trong vòng 24 giờ kể từ khi có yêu cầu của cơ quan có thẩm quyền (theo Nghị định 147/2024/NĐ-CP).).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (tiếp nhận đơn trình báo bị vu khống, làm nhục, bôi nhọ danh dự trên mạng xã hội) & Sở Thông tin và Truyền thông.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://khonggianmang.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Các nền tảng mạng xã hội phải gỡ bỏ thông tin vi phạm pháp luật trong vòng 24 giờ kể từ khi có yêu cầu của cơ quan có thẩm quyền (theo Nghị định 147/2024/NĐ-CP).\n- Phí, lệ phí: Báo cáo nội dung vi phạm và trình báo tại Công an xã Đức Hợp: Hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Hành vi đăng bài, bình luận hoặc chia sẻ thông tin sai sự thật, vu khống, xúc phạm uy tín cơ quan, tổ chức, danh dự nhân phẩm của cá nhân trên Facebook/Zalo/TikTok sẽ bị phạt tiền từ 10.000.000đ - 20.000.000đ (Điều 101 Nghị định 15/2020/NĐ-CP) hoặc khởi tố hình sự theo Điều 155, 156, 331 Bộ luật Hình sự!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Báo cáo nội dung vi phạm là gì và tôi có thể tìm hiểu ở đâu?\n  (2) Điều kiện hoặc căn cứ áp dụng với báo cáo nội dung vi phạm được hướng dẫn thế nào?\n  (3) Muốn thực hiện việc liên quan đến báo cáo nội dung vi phạm, tôi cần chuẩn bị giấy tờ gì?\n  (4) Các bước cần lưu ý khi xử lý việc liên quan đến báo cáo nội dung vi phạm là gì?\n  (5) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về báo cáo nội dung vi phạm?",
+    "keywords": [
+      "mạng xã hội",
+      "báo cáo nội dung vi phạm",
+      "báo",
+      "cáo",
+      "nội",
+      "dung",
+      "phạm"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_128",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Mạng xã hội] Quy định pháp luật & Hướng dẫn xử lý: Xử lý khi bị quấy rối hoặc bôi nhọ",
+    "legal_basis": "Luật An ninh mạng năm 2018; Nghị định số 147/2024/NĐ-CP về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng; Điều 101 Nghị định số 15/2020/NĐ-CP; Điều 155, 156, 331 Bộ luật Hình sự",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật An ninh mạng năm 2018; Nghị định số 147/2024/NĐ-CP về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng; Điều 101 Nghị định số 15/2020/NĐ-CP; Điều 155, 156, 331 Bộ luật Hình sự. Công...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: XỬ LÝ KHI BỊ QUẤY RỐI HOẶC BÔI NHỌ (LĨNH VỰC: MẠNG XÃ HỘI)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật An ninh mạng năm 2018; Nghị định số 147/2024/NĐ-CP về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng; Điều 101 Nghị định số 15/2020/NĐ-CP; Điều 155, 156, 331 Bộ luật Hình sự. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://khonggianmang.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (tiếp nhận đơn trình báo bị vu khống, làm nhục, bôi nhọ danh dự trên mạng xã hội) & Sở Thông tin và Truyền thông để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Các nền tảng mạng xã hội phải gỡ bỏ thông tin vi phạm pháp luật trong vòng 24 giờ kể từ khi có yêu cầu của cơ quan có thẩm quyền (theo Nghị định 147/2024/NĐ-CP).).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (tiếp nhận đơn trình báo bị vu khống, làm nhục, bôi nhọ danh dự trên mạng xã hội) & Sở Thông tin và Truyền thông.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://khonggianmang.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Các nền tảng mạng xã hội phải gỡ bỏ thông tin vi phạm pháp luật trong vòng 24 giờ kể từ khi có yêu cầu của cơ quan có thẩm quyền (theo Nghị định 147/2024/NĐ-CP).\n- Phí, lệ phí: Báo cáo nội dung vi phạm và trình báo tại Công an xã Đức Hợp: Hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Hành vi đăng bài, bình luận hoặc chia sẻ thông tin sai sự thật, vu khống, xúc phạm uy tín cơ quan, tổ chức, danh dự nhân phẩm của cá nhân trên Facebook/Zalo/TikTok sẽ bị phạt tiền từ 10.000.000đ - 20.000.000đ (Điều 101 Nghị định 15/2020/NĐ-CP) hoặc khởi tố hình sự theo Điều 155, 156, 331 Bộ luật Hình sự!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Các bước cần lưu ý khi xử lý việc liên quan đến xử lý khi bị quấy rối hoặc bôi nhọ là gì?\n  (2) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về xử lý khi bị quấy rối hoặc bôi nhọ?\n  (3) Có mốc thời gian nào cần lưu ý khi xử lý việc liên quan đến xử lý khi bị quấy rối hoặc bôi nhọ không?\n  (4) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến xử lý khi bị quấy rối hoặc bôi nhọ không?\n  (5) Nếu mất giấy tờ hoặc bằng chứng liên quan đến xử lý khi bị quấy rối hoặc bôi nhọ, tôi nên bắt đầu từ đâu?",
+    "keywords": [
+      "mạng xã hội",
+      "xử lý khi bị quấy rối hoặc bôi nhọ",
+      "khi",
+      "quấy",
+      "rối",
+      "hoặc",
+      "bôi",
+      "nhọ"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_129",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Mạng xã hội] Quy định pháp luật & Hướng dẫn xử lý: Bảo vệ trẻ em trên mạng xã hội",
+    "legal_basis": "Luật An ninh mạng năm 2018; Nghị định số 147/2024/NĐ-CP về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng; Điều 101 Nghị định số 15/2020/NĐ-CP; Điều 155, 156, 331 Bộ luật Hình sự",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật An ninh mạng năm 2018; Nghị định số 147/2024/NĐ-CP về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng; Điều 101 Nghị định số 15/2020/NĐ-CP; Điều 155, 156, 331 Bộ luật Hình sự. Công...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: BẢO VỆ TRẺ EM TRÊN MẠNG XÃ HỘI (LĨNH VỰC: MẠNG XÃ HỘI)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật An ninh mạng năm 2018; Nghị định số 147/2024/NĐ-CP về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng; Điều 101 Nghị định số 15/2020/NĐ-CP; Điều 155, 156, 331 Bộ luật Hình sự. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://khonggianmang.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (tiếp nhận đơn trình báo bị vu khống, làm nhục, bôi nhọ danh dự trên mạng xã hội) & Sở Thông tin và Truyền thông để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Các nền tảng mạng xã hội phải gỡ bỏ thông tin vi phạm pháp luật trong vòng 24 giờ kể từ khi có yêu cầu của cơ quan có thẩm quyền (theo Nghị định 147/2024/NĐ-CP).).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (tiếp nhận đơn trình báo bị vu khống, làm nhục, bôi nhọ danh dự trên mạng xã hội) & Sở Thông tin và Truyền thông.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://khonggianmang.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Các nền tảng mạng xã hội phải gỡ bỏ thông tin vi phạm pháp luật trong vòng 24 giờ kể từ khi có yêu cầu của cơ quan có thẩm quyền (theo Nghị định 147/2024/NĐ-CP).\n- Phí, lệ phí: Báo cáo nội dung vi phạm và trình báo tại Công an xã Đức Hợp: Hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Hành vi đăng bài, bình luận hoặc chia sẻ thông tin sai sự thật, vu khống, xúc phạm uy tín cơ quan, tổ chức, danh dự nhân phẩm của cá nhân trên Facebook/Zalo/TikTok sẽ bị phạt tiền từ 10.000.000đ - 20.000.000đ (Điều 101 Nghị định 15/2020/NĐ-CP) hoặc khởi tố hình sự theo Điều 155, 156, 331 Bộ luật Hình sự!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến bảo vệ trẻ em trên mạng xã hội không?\n  (2) Nếu mất giấy tờ hoặc bằng chứng liên quan đến bảo vệ trẻ em trên mạng xã hội, tôi nên bắt đầu từ đâu?\n  (3) Khi thông tin về bảo vệ trẻ em trên mạng xã hội bị sai hoặc thay đổi, cần liên hệ nơi nào?\n  (4) Tôi có thể nhờ người thân làm thay việc về bảo vệ trẻ em trên mạng xã hội không, cần hỏi rõ điều gì?\n  (5) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến bảo vệ trẻ em trên mạng xã hội, tôi cần tìm hiểu điều gì?",
+    "keywords": [
+      "mạng xã hội",
+      "bảo vệ trẻ em trên mạng xã hội",
+      "bảo",
+      "trẻ",
+      "trên",
+      "mạng",
+      "hội"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_130",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Mạng xã hội] Quy định pháp luật & Hướng dẫn xử lý: Quyền riêng tư khi đăng ảnh người khác",
+    "legal_basis": "Luật An ninh mạng năm 2018; Nghị định số 147/2024/NĐ-CP về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng; Điều 101 Nghị định số 15/2020/NĐ-CP; Điều 155, 156, 331 Bộ luật Hình sự",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật An ninh mạng năm 2018; Nghị định số 147/2024/NĐ-CP về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng; Điều 101 Nghị định số 15/2020/NĐ-CP; Điều 155, 156, 331 Bộ luật Hình sự. Công...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: QUYỀN RIÊNG TƯ KHI ĐĂNG ẢNH NGƯỜI KHÁC (LĨNH VỰC: MẠNG XÃ HỘI)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật An ninh mạng năm 2018; Nghị định số 147/2024/NĐ-CP về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng; Điều 101 Nghị định số 15/2020/NĐ-CP; Điều 155, 156, 331 Bộ luật Hình sự. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://khonggianmang.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (tiếp nhận đơn trình báo bị vu khống, làm nhục, bôi nhọ danh dự trên mạng xã hội) & Sở Thông tin và Truyền thông để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Các nền tảng mạng xã hội phải gỡ bỏ thông tin vi phạm pháp luật trong vòng 24 giờ kể từ khi có yêu cầu của cơ quan có thẩm quyền (theo Nghị định 147/2024/NĐ-CP).).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (tiếp nhận đơn trình báo bị vu khống, làm nhục, bôi nhọ danh dự trên mạng xã hội) & Sở Thông tin và Truyền thông.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://khonggianmang.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Các nền tảng mạng xã hội phải gỡ bỏ thông tin vi phạm pháp luật trong vòng 24 giờ kể từ khi có yêu cầu của cơ quan có thẩm quyền (theo Nghị định 147/2024/NĐ-CP).\n- Phí, lệ phí: Báo cáo nội dung vi phạm và trình báo tại Công an xã Đức Hợp: Hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Hành vi đăng bài, bình luận hoặc chia sẻ thông tin sai sự thật, vu khống, xúc phạm uy tín cơ quan, tổ chức, danh dự nhân phẩm của cá nhân trên Facebook/Zalo/TikTok sẽ bị phạt tiền từ 10.000.000đ - 20.000.000đ (Điều 101 Nghị định 15/2020/NĐ-CP) hoặc khởi tố hình sự theo Điều 155, 156, 331 Bộ luật Hình sự!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Tôi có thể nhờ người thân làm thay việc về quyền riêng tư khi đăng ảnh người khác không, cần hỏi rõ điều gì?\n  (2) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến quyền riêng tư khi đăng ảnh người khác, tôi cần tìm hiểu điều gì?\n  (3) Sau khi gửi yêu cầu liên quan đến quyền riêng tư khi đăng ảnh người khác, tôi có thể theo dõi tiến độ thế nào?\n  (4) Người dân ở xã xa trung tâm muốn xử lý việc quyền riêng tư khi đăng ảnh người khác thì nên hỏi cơ quan nào?\n  (5) Người lớn tuổi cần hỗ trợ về quyền riêng tư khi đăng ảnh người khác thì có thể nhờ ai hướng dẫn?",
+    "keywords": [
+      "mạng xã hội",
+      "quyền riêng tư khi đăng ảnh người khác",
+      "quyền",
+      "riêng",
+      "khi",
+      "đăng",
+      "ảnh",
+      "người",
+      "khác"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_131",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Mạng xã hội] Quy định pháp luật & Hướng dẫn xử lý: Lưu bằng chứng bài đăng gây hại",
+    "legal_basis": "Luật An ninh mạng năm 2018; Nghị định số 147/2024/NĐ-CP về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng; Điều 101 Nghị định số 15/2020/NĐ-CP; Điều 155, 156, 331 Bộ luật Hình sự",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật An ninh mạng năm 2018; Nghị định số 147/2024/NĐ-CP về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng; Điều 101 Nghị định số 15/2020/NĐ-CP; Điều 155, 156, 331 Bộ luật Hình sự. Công...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: LƯU BẰNG CHỨNG BÀI ĐĂNG GÂY HẠI (LĨNH VỰC: MẠNG XÃ HỘI)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật An ninh mạng năm 2018; Nghị định số 147/2024/NĐ-CP về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng; Điều 101 Nghị định số 15/2020/NĐ-CP; Điều 155, 156, 331 Bộ luật Hình sự. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://khonggianmang.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (tiếp nhận đơn trình báo bị vu khống, làm nhục, bôi nhọ danh dự trên mạng xã hội) & Sở Thông tin và Truyền thông để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Các nền tảng mạng xã hội phải gỡ bỏ thông tin vi phạm pháp luật trong vòng 24 giờ kể từ khi có yêu cầu của cơ quan có thẩm quyền (theo Nghị định 147/2024/NĐ-CP).).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (tiếp nhận đơn trình báo bị vu khống, làm nhục, bôi nhọ danh dự trên mạng xã hội) & Sở Thông tin và Truyền thông.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://khonggianmang.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Các nền tảng mạng xã hội phải gỡ bỏ thông tin vi phạm pháp luật trong vòng 24 giờ kể từ khi có yêu cầu của cơ quan có thẩm quyền (theo Nghị định 147/2024/NĐ-CP).\n- Phí, lệ phí: Báo cáo nội dung vi phạm và trình báo tại Công an xã Đức Hợp: Hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Hành vi đăng bài, bình luận hoặc chia sẻ thông tin sai sự thật, vu khống, xúc phạm uy tín cơ quan, tổ chức, danh dự nhân phẩm của cá nhân trên Facebook/Zalo/TikTok sẽ bị phạt tiền từ 10.000.000đ - 20.000.000đ (Điều 101 Nghị định 15/2020/NĐ-CP) hoặc khởi tố hình sự theo Điều 155, 156, 331 Bộ luật Hình sự!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có thể làm thủ tục về lưu bằng chứng bài đăng gây hại trên điện thoại không, cần chuẩn bị gì?\n  (2) Người lớn tuổi cần hỗ trợ về lưu bằng chứng bài đăng gây hại thì có thể nhờ ai hướng dẫn?\n  (3) Trong tình huống lưu bằng chứng bài đăng gây hại, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (4) Nếu các bên không thống nhất về lưu bằng chứng bài đăng gây hại, có thể đề nghị cơ quan nào hướng dẫn?\n  (5) Tôi nên kiểm tra thông tin chính thức về lưu bằng chứng bài đăng gây hại trên kênh nào?",
+    "keywords": [
+      "mạng xã hội",
+      "lưu bằng chứng bài đăng gây hại",
+      "lưu",
+      "bằng",
+      "chứng",
+      "bài",
+      "đăng",
+      "gây",
+      "hại"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_132",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Mạng xã hội] Quy định pháp luật & Hướng dẫn xử lý: Thiết lập quyền riêng tư tài khoản",
+    "legal_basis": "Luật An ninh mạng năm 2018; Nghị định số 147/2024/NĐ-CP về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng; Điều 101 Nghị định số 15/2020/NĐ-CP; Điều 155, 156, 331 Bộ luật Hình sự",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật An ninh mạng năm 2018; Nghị định số 147/2024/NĐ-CP về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng; Điều 101 Nghị định số 15/2020/NĐ-CP; Điều 155, 156, 331 Bộ luật Hình sự. Công...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: THIẾT LẬP QUYỀN RIÊNG TƯ TÀI KHOẢN (LĨNH VỰC: MẠNG XÃ HỘI)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật An ninh mạng năm 2018; Nghị định số 147/2024/NĐ-CP về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng; Điều 101 Nghị định số 15/2020/NĐ-CP; Điều 155, 156, 331 Bộ luật Hình sự. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://khonggianmang.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (tiếp nhận đơn trình báo bị vu khống, làm nhục, bôi nhọ danh dự trên mạng xã hội) & Sở Thông tin và Truyền thông để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Các nền tảng mạng xã hội phải gỡ bỏ thông tin vi phạm pháp luật trong vòng 24 giờ kể từ khi có yêu cầu của cơ quan có thẩm quyền (theo Nghị định 147/2024/NĐ-CP).).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (tiếp nhận đơn trình báo bị vu khống, làm nhục, bôi nhọ danh dự trên mạng xã hội) & Sở Thông tin và Truyền thông.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://khonggianmang.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Các nền tảng mạng xã hội phải gỡ bỏ thông tin vi phạm pháp luật trong vòng 24 giờ kể từ khi có yêu cầu của cơ quan có thẩm quyền (theo Nghị định 147/2024/NĐ-CP).\n- Phí, lệ phí: Báo cáo nội dung vi phạm và trình báo tại Công an xã Đức Hợp: Hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Hành vi đăng bài, bình luận hoặc chia sẻ thông tin sai sự thật, vu khống, xúc phạm uy tín cơ quan, tổ chức, danh dự nhân phẩm của cá nhân trên Facebook/Zalo/TikTok sẽ bị phạt tiền từ 10.000.000đ - 20.000.000đ (Điều 101 Nghị định 15/2020/NĐ-CP) hoặc khởi tố hình sự theo Điều 155, 156, 331 Bộ luật Hình sự!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Trong tình huống thiết lập quyền riêng tư tài khoản, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (2) Nếu các bên không thống nhất về thiết lập quyền riêng tư tài khoản, có thể đề nghị cơ quan nào hướng dẫn?\n  (3) Tôi nên kiểm tra thông tin chính thức về thiết lập quyền riêng tư tài khoản trên kênh nào?\n  (4) Làm sao phân biệt hướng dẫn chính thức và dịch vụ giả mạo liên quan đến thiết lập quyền riêng tư tài khoản?\n  (5) Khi gặp vướng mắc về thiết lập quyền riêng tư tài khoản, tôi cần mô tả thông tin gì để được hỗ trợ?",
+    "keywords": [
+      "mạng xã hội",
+      "thiết lập quyền riêng tư tài khoản",
+      "thiết",
+      "lập",
+      "quyền",
+      "riêng",
+      "tài",
+      "khoản"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_133",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[An toàn tài khoản] Quy định pháp luật & Hướng dẫn xử lý: Bật xác thực nhiều lớp",
+    "legal_basis": "Luật An toàn thông tin mạng số 86/2015/QH13; Luật An ninh mạng năm 2018; Khuyến nghị an toàn bảo mật của Trung tâm Giám sát an toàn không gian mạng quốc gia (NCSC)",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật An toàn thông tin mạng số 86/2015/QH13; Luật An ninh mạng năm 2018; Khuyến nghị an toàn bảo mật của Trung tâm Giám sát an toàn không gian mạng quốc gia (NCSC). Công dân thực hiện trực tuyến trên ứng ...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: BẬT XÁC THỰC NHIỀU LỚP (LĨNH VỰC: AN TOÀN TÀI KHOẢN)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật An toàn thông tin mạng số 86/2015/QH13; Luật An ninh mạng năm 2018; Khuyến nghị an toàn bảo mật của Trung tâm Giám sát an toàn không gian mạng quốc gia (NCSC). Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://khonggianmang.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (hướng dẫn người dân thiết lập bảo mật tài khoản VNeID, mạng xã hội) & Tổ Công nghệ số cộng đồng các thôn xã Đức Hợp để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Khóa tài khoản VNeID khẩn cấp khi mất điện thoại hoặc nghi lộ mật khẩu thực hiện ngay lập tức qua Tổng đài Bộ Công an 1900.0368 hoặc trên cổng dichvucong.bocongan.gov.vn.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (hướng dẫn người dân thiết lập bảo mật tài khoản VNeID, mạng xã hội) & Tổ Công nghệ số cộng đồng các thôn xã Đức Hợp.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://khonggianmang.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Khóa tài khoản VNeID khẩn cấp khi mất điện thoại hoặc nghi lộ mật khẩu thực hiện ngay lập tức qua Tổng đài Bộ Công an 1900.0368 hoặc trên cổng dichvucong.bocongan.gov.vn.\n- Phí, lệ phí: Hướng dẫn bật xác thực 2 lớp (2FA), khôi phục mật khẩu VNeID và kiểm tra phiên đăng nhập lạ: Hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Bắt buộc bật Xác thực 2 yếu tố (2FA) cho tất cả tài khoản Facebook, Zalo, Gmail và không dùng chung mật khẩu của tài khoản ngân hàng/VNeID cho các trang web giải trí, mua sắm thông thường.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Bật xác thực nhiều lớp là gì và tôi có thể tìm hiểu ở đâu?\n  (2) Điều kiện hoặc căn cứ áp dụng với bật xác thực nhiều lớp được hướng dẫn thế nào?\n  (3) Muốn thực hiện việc liên quan đến bật xác thực nhiều lớp, tôi cần chuẩn bị giấy tờ gì?\n  (4) Các bước cần lưu ý khi xử lý việc liên quan đến bật xác thực nhiều lớp là gì?\n  (5) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về bật xác thực nhiều lớp?",
+    "keywords": [
+      "an toàn tài khoản",
+      "bật xác thực nhiều lớp",
+      "bật",
+      "xác",
+      "thực",
+      "nhiều",
+      "lớp"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_134",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[An toàn tài khoản] Quy định pháp luật & Hướng dẫn xử lý: Đổi mật khẩu bị lộ",
+    "legal_basis": "Luật An toàn thông tin mạng số 86/2015/QH13; Luật An ninh mạng năm 2018; Khuyến nghị an toàn bảo mật của Trung tâm Giám sát an toàn không gian mạng quốc gia (NCSC)",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật An toàn thông tin mạng số 86/2015/QH13; Luật An ninh mạng năm 2018; Khuyến nghị an toàn bảo mật của Trung tâm Giám sát an toàn không gian mạng quốc gia (NCSC). Công dân thực hiện trực tuyến trên ứng ...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: ĐỔI MẬT KHẨU BỊ LỘ (LĨNH VỰC: AN TOÀN TÀI KHOẢN)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật An toàn thông tin mạng số 86/2015/QH13; Luật An ninh mạng năm 2018; Khuyến nghị an toàn bảo mật của Trung tâm Giám sát an toàn không gian mạng quốc gia (NCSC). Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://khonggianmang.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (hướng dẫn người dân thiết lập bảo mật tài khoản VNeID, mạng xã hội) & Tổ Công nghệ số cộng đồng các thôn xã Đức Hợp để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Khóa tài khoản VNeID khẩn cấp khi mất điện thoại hoặc nghi lộ mật khẩu thực hiện ngay lập tức qua Tổng đài Bộ Công an 1900.0368 hoặc trên cổng dichvucong.bocongan.gov.vn.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (hướng dẫn người dân thiết lập bảo mật tài khoản VNeID, mạng xã hội) & Tổ Công nghệ số cộng đồng các thôn xã Đức Hợp.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://khonggianmang.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Khóa tài khoản VNeID khẩn cấp khi mất điện thoại hoặc nghi lộ mật khẩu thực hiện ngay lập tức qua Tổng đài Bộ Công an 1900.0368 hoặc trên cổng dichvucong.bocongan.gov.vn.\n- Phí, lệ phí: Hướng dẫn bật xác thực 2 lớp (2FA), khôi phục mật khẩu VNeID và kiểm tra phiên đăng nhập lạ: Hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Bắt buộc bật Xác thực 2 yếu tố (2FA) cho tất cả tài khoản Facebook, Zalo, Gmail và không dùng chung mật khẩu của tài khoản ngân hàng/VNeID cho các trang web giải trí, mua sắm thông thường.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Các bước cần lưu ý khi xử lý việc liên quan đến đổi mật khẩu bị lộ là gì?\n  (2) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về đổi mật khẩu bị lộ?\n  (3) Có mốc thời gian nào cần lưu ý khi xử lý việc liên quan đến đổi mật khẩu bị lộ không?\n  (4) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến đổi mật khẩu bị lộ không?\n  (5) Nếu mất giấy tờ hoặc bằng chứng liên quan đến đổi mật khẩu bị lộ, tôi nên bắt đầu từ đâu?",
+    "keywords": [
+      "an toàn tài khoản",
+      "đổi mật khẩu bị lộ",
+      "đổi",
+      "mật",
+      "khẩu"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_135",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[An toàn tài khoản] Quy định pháp luật & Hướng dẫn xử lý: Khôi phục tài khoản bị chiếm quyền",
+    "legal_basis": "Luật An toàn thông tin mạng số 86/2015/QH13; Luật An ninh mạng năm 2018; Khuyến nghị an toàn bảo mật của Trung tâm Giám sát an toàn không gian mạng quốc gia (NCSC)",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật An toàn thông tin mạng số 86/2015/QH13; Luật An ninh mạng năm 2018; Khuyến nghị an toàn bảo mật của Trung tâm Giám sát an toàn không gian mạng quốc gia (NCSC). Công dân thực hiện trực tuyến trên ứng ...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: KHÔI PHỤC TÀI KHOẢN BỊ CHIẾM QUYỀN (LĨNH VỰC: AN TOÀN TÀI KHOẢN)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật An toàn thông tin mạng số 86/2015/QH13; Luật An ninh mạng năm 2018; Khuyến nghị an toàn bảo mật của Trung tâm Giám sát an toàn không gian mạng quốc gia (NCSC). Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://khonggianmang.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (hướng dẫn người dân thiết lập bảo mật tài khoản VNeID, mạng xã hội) & Tổ Công nghệ số cộng đồng các thôn xã Đức Hợp để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Khóa tài khoản VNeID khẩn cấp khi mất điện thoại hoặc nghi lộ mật khẩu thực hiện ngay lập tức qua Tổng đài Bộ Công an 1900.0368 hoặc trên cổng dichvucong.bocongan.gov.vn.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (hướng dẫn người dân thiết lập bảo mật tài khoản VNeID, mạng xã hội) & Tổ Công nghệ số cộng đồng các thôn xã Đức Hợp.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://khonggianmang.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Khóa tài khoản VNeID khẩn cấp khi mất điện thoại hoặc nghi lộ mật khẩu thực hiện ngay lập tức qua Tổng đài Bộ Công an 1900.0368 hoặc trên cổng dichvucong.bocongan.gov.vn.\n- Phí, lệ phí: Hướng dẫn bật xác thực 2 lớp (2FA), khôi phục mật khẩu VNeID và kiểm tra phiên đăng nhập lạ: Hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Bắt buộc bật Xác thực 2 yếu tố (2FA) cho tất cả tài khoản Facebook, Zalo, Gmail và không dùng chung mật khẩu của tài khoản ngân hàng/VNeID cho các trang web giải trí, mua sắm thông thường.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến khôi phục tài khoản bị chiếm quyền không?\n  (2) Nếu mất giấy tờ hoặc bằng chứng liên quan đến khôi phục tài khoản bị chiếm quyền, tôi nên bắt đầu từ đâu?\n  (3) Khi thông tin về khôi phục tài khoản bị chiếm quyền bị sai hoặc thay đổi, cần liên hệ nơi nào?\n  (4) Tôi có thể nhờ người thân làm thay việc về khôi phục tài khoản bị chiếm quyền không, cần hỏi rõ điều gì?\n  (5) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến khôi phục tài khoản bị chiếm quyền, tôi cần tìm hiểu điều gì?",
+    "keywords": [
+      "an toàn tài khoản",
+      "khôi phục tài khoản bị chiếm quyền",
+      "khôi",
+      "phục",
+      "tài",
+      "khoản",
+      "chiếm",
+      "quyền"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_136",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[An toàn tài khoản] Quy định pháp luật & Hướng dẫn xử lý: Nhận diện phiên đăng nhập lạ",
+    "legal_basis": "Luật An toàn thông tin mạng số 86/2015/QH13; Luật An ninh mạng năm 2018; Khuyến nghị an toàn bảo mật của Trung tâm Giám sát an toàn không gian mạng quốc gia (NCSC)",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật An toàn thông tin mạng số 86/2015/QH13; Luật An ninh mạng năm 2018; Khuyến nghị an toàn bảo mật của Trung tâm Giám sát an toàn không gian mạng quốc gia (NCSC). Công dân thực hiện trực tuyến trên ứng ...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: NHẬN DIỆN PHIÊN ĐĂNG NHẬP LẠ (LĨNH VỰC: AN TOÀN TÀI KHOẢN)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật An toàn thông tin mạng số 86/2015/QH13; Luật An ninh mạng năm 2018; Khuyến nghị an toàn bảo mật của Trung tâm Giám sát an toàn không gian mạng quốc gia (NCSC). Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://khonggianmang.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (hướng dẫn người dân thiết lập bảo mật tài khoản VNeID, mạng xã hội) & Tổ Công nghệ số cộng đồng các thôn xã Đức Hợp để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Khóa tài khoản VNeID khẩn cấp khi mất điện thoại hoặc nghi lộ mật khẩu thực hiện ngay lập tức qua Tổng đài Bộ Công an 1900.0368 hoặc trên cổng dichvucong.bocongan.gov.vn.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (hướng dẫn người dân thiết lập bảo mật tài khoản VNeID, mạng xã hội) & Tổ Công nghệ số cộng đồng các thôn xã Đức Hợp.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://khonggianmang.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Khóa tài khoản VNeID khẩn cấp khi mất điện thoại hoặc nghi lộ mật khẩu thực hiện ngay lập tức qua Tổng đài Bộ Công an 1900.0368 hoặc trên cổng dichvucong.bocongan.gov.vn.\n- Phí, lệ phí: Hướng dẫn bật xác thực 2 lớp (2FA), khôi phục mật khẩu VNeID và kiểm tra phiên đăng nhập lạ: Hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Bắt buộc bật Xác thực 2 yếu tố (2FA) cho tất cả tài khoản Facebook, Zalo, Gmail và không dùng chung mật khẩu của tài khoản ngân hàng/VNeID cho các trang web giải trí, mua sắm thông thường.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Tôi có thể nhờ người thân làm thay việc về nhận diện phiên đăng nhập lạ không, cần hỏi rõ điều gì?\n  (2) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến nhận diện phiên đăng nhập lạ, tôi cần tìm hiểu điều gì?\n  (3) Sau khi gửi yêu cầu liên quan đến nhận diện phiên đăng nhập lạ, tôi có thể theo dõi tiến độ thế nào?\n  (4) Người dân ở xã xa trung tâm muốn xử lý việc nhận diện phiên đăng nhập lạ thì nên hỏi cơ quan nào?\n  (5) Người lớn tuổi cần hỗ trợ về nhận diện phiên đăng nhập lạ thì có thể nhờ ai hướng dẫn?",
+    "keywords": [
+      "an toàn tài khoản",
+      "nhận diện phiên đăng nhập lạ",
+      "nhận",
+      "diện",
+      "phiên",
+      "đăng",
+      "nhập"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_137",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[An toàn tài khoản] Quy định pháp luật & Hướng dẫn xử lý: Quản lý mật khẩu an toàn",
+    "legal_basis": "Luật An toàn thông tin mạng số 86/2015/QH13; Luật An ninh mạng năm 2018; Khuyến nghị an toàn bảo mật của Trung tâm Giám sát an toàn không gian mạng quốc gia (NCSC)",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật An toàn thông tin mạng số 86/2015/QH13; Luật An ninh mạng năm 2018; Khuyến nghị an toàn bảo mật của Trung tâm Giám sát an toàn không gian mạng quốc gia (NCSC). Công dân thực hiện trực tuyến trên ứng ...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: QUẢN LÝ MẬT KHẨU AN TOÀN (LĨNH VỰC: AN TOÀN TÀI KHOẢN)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật An toàn thông tin mạng số 86/2015/QH13; Luật An ninh mạng năm 2018; Khuyến nghị an toàn bảo mật của Trung tâm Giám sát an toàn không gian mạng quốc gia (NCSC). Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://khonggianmang.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (hướng dẫn người dân thiết lập bảo mật tài khoản VNeID, mạng xã hội) & Tổ Công nghệ số cộng đồng các thôn xã Đức Hợp để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Khóa tài khoản VNeID khẩn cấp khi mất điện thoại hoặc nghi lộ mật khẩu thực hiện ngay lập tức qua Tổng đài Bộ Công an 1900.0368 hoặc trên cổng dichvucong.bocongan.gov.vn.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (hướng dẫn người dân thiết lập bảo mật tài khoản VNeID, mạng xã hội) & Tổ Công nghệ số cộng đồng các thôn xã Đức Hợp.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://khonggianmang.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Khóa tài khoản VNeID khẩn cấp khi mất điện thoại hoặc nghi lộ mật khẩu thực hiện ngay lập tức qua Tổng đài Bộ Công an 1900.0368 hoặc trên cổng dichvucong.bocongan.gov.vn.\n- Phí, lệ phí: Hướng dẫn bật xác thực 2 lớp (2FA), khôi phục mật khẩu VNeID và kiểm tra phiên đăng nhập lạ: Hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Bắt buộc bật Xác thực 2 yếu tố (2FA) cho tất cả tài khoản Facebook, Zalo, Gmail và không dùng chung mật khẩu của tài khoản ngân hàng/VNeID cho các trang web giải trí, mua sắm thông thường.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có thể làm thủ tục về quản lý mật khẩu an toàn trên điện thoại không, cần chuẩn bị gì?\n  (2) Người lớn tuổi cần hỗ trợ về quản lý mật khẩu an toàn thì có thể nhờ ai hướng dẫn?\n  (3) Trong tình huống quản lý mật khẩu an toàn, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (4) Nếu các bên không thống nhất về quản lý mật khẩu an toàn, có thể đề nghị cơ quan nào hướng dẫn?\n  (5) Tôi nên kiểm tra thông tin chính thức về quản lý mật khẩu an toàn trên kênh nào?",
+    "keywords": [
+      "an toàn tài khoản",
+      "quản lý mật khẩu an toàn",
+      "quản",
+      "mật",
+      "khẩu",
+      "toàn"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_138",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[An toàn tài khoản] Quy định pháp luật & Hướng dẫn xử lý: Bảo vệ tài khoản email",
+    "legal_basis": "Luật An toàn thông tin mạng số 86/2015/QH13; Luật An ninh mạng năm 2018; Khuyến nghị an toàn bảo mật của Trung tâm Giám sát an toàn không gian mạng quốc gia (NCSC)",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật An toàn thông tin mạng số 86/2015/QH13; Luật An ninh mạng năm 2018; Khuyến nghị an toàn bảo mật của Trung tâm Giám sát an toàn không gian mạng quốc gia (NCSC). Công dân thực hiện trực tuyến trên ứng ...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: BẢO VỆ TÀI KHOẢN EMAIL (LĨNH VỰC: AN TOÀN TÀI KHOẢN)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật An toàn thông tin mạng số 86/2015/QH13; Luật An ninh mạng năm 2018; Khuyến nghị an toàn bảo mật của Trung tâm Giám sát an toàn không gian mạng quốc gia (NCSC). Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://khonggianmang.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (hướng dẫn người dân thiết lập bảo mật tài khoản VNeID, mạng xã hội) & Tổ Công nghệ số cộng đồng các thôn xã Đức Hợp để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Khóa tài khoản VNeID khẩn cấp khi mất điện thoại hoặc nghi lộ mật khẩu thực hiện ngay lập tức qua Tổng đài Bộ Công an 1900.0368 hoặc trên cổng dichvucong.bocongan.gov.vn.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (hướng dẫn người dân thiết lập bảo mật tài khoản VNeID, mạng xã hội) & Tổ Công nghệ số cộng đồng các thôn xã Đức Hợp.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://khonggianmang.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Khóa tài khoản VNeID khẩn cấp khi mất điện thoại hoặc nghi lộ mật khẩu thực hiện ngay lập tức qua Tổng đài Bộ Công an 1900.0368 hoặc trên cổng dichvucong.bocongan.gov.vn.\n- Phí, lệ phí: Hướng dẫn bật xác thực 2 lớp (2FA), khôi phục mật khẩu VNeID và kiểm tra phiên đăng nhập lạ: Hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Bắt buộc bật Xác thực 2 yếu tố (2FA) cho tất cả tài khoản Facebook, Zalo, Gmail và không dùng chung mật khẩu của tài khoản ngân hàng/VNeID cho các trang web giải trí, mua sắm thông thường.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Trong tình huống bảo vệ tài khoản email, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (2) Nếu các bên không thống nhất về bảo vệ tài khoản email, có thể đề nghị cơ quan nào hướng dẫn?\n  (3) Tôi nên kiểm tra thông tin chính thức về bảo vệ tài khoản email trên kênh nào?\n  (4) Làm sao phân biệt hướng dẫn chính thức và dịch vụ giả mạo liên quan đến bảo vệ tài khoản email?\n  (5) Khi gặp vướng mắc về bảo vệ tài khoản email, tôi cần mô tả thông tin gì để được hỗ trợ?",
+    "keywords": [
+      "an toàn tài khoản",
+      "bảo vệ tài khoản email",
+      "bảo",
+      "tài",
+      "khoản",
+      "email"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_139",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Giả mạo cơ quan nhà nước] Quy định pháp luật & Hướng dẫn xử lý: Xác minh cuộc gọi tự xưng công an",
+    "legal_basis": "Luật Công an nhân dân; Bộ luật Tố tụng hình sự 2015; Điều 174 & Điều 339 Bộ luật Hình sự (Tội giả mạo chức vụ, cấp bậc, vị trí công tác và Tội lừa đảo chiếm đoạt tài sản)",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Công an nhân dân; Bộ luật Tố tụng hình sự 2015; Điều 174 & Điều 339 Bộ luật Hình sự (Tội giả mạo chức vụ, cấp bậc, vị trí công tác và Tội lừa đảo chiếm đoạt tài sản). Công dân thực hiện trực tuyến tr...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: XÁC MINH CUỘC GỌI TỰ XƯNG CÔNG AN (LĨNH VỰC: GIẢ MẠO CƠ QUAN NHÀ NƯỚC)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Công an nhân dân; Bộ luật Tố tụng hình sự 2015; Điều 174 & Điều 339 Bộ luật Hình sự (Tội giả mạo chức vụ, cấp bậc, vị trí công tác và Tội lừa đảo chiếm đoạt tài sản). Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://bocongan.gov.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (Trực ban xác minh và tiếp nhận tin báo 24/24h: 02213.815.999) để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Xác minh ngay lập tức khi công dân gọi điện đến số Trực ban Công an xã Đức Hợp 02213.815.999 hoặc đến trực tiếp trụ sở tại Thôn Nho Lâm.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (Trực ban xác minh và tiếp nhận tin báo 24/24h: 02213.815.999).\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://bocongan.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Xác minh ngay lập tức khi công dân gọi điện đến số Trực ban Công an xã Đức Hợp 02213.815.999 hoặc đến trực tiếp trụ sở tại Thôn Nho Lâm.\n- Phí, lệ phí: Xác minh cuộc gọi, tin nhắn, giấy triệu tập nghi giả mạo tại Công an xã Đức Hợp: Hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- NGUYÊN TẮC BẤT DI BẤT DỊCH: Lực lượng Công an, Viện Kiểm sát, Tòa án, Thuế, Điện lực, BHXH KHÔNG BAO GIỜ làm việc qua điện thoại/video call Zalo, KHÔNG BAO GIỜ gửi \"Lệnh bắt tạm giam\" qua mạng xã hội và KHÔNG BAO GIỜ yêu cầu công dân chuyển tiền vào \"Tài khoản an toàn / Tài khoản tạm giữ\" để chứng minh trong sạch!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Xác minh cuộc gọi tự xưng công an là gì và tôi có thể tìm hiểu ở đâu?\n  (2) Điều kiện hoặc căn cứ áp dụng với xác minh cuộc gọi tự xưng công an được hướng dẫn thế nào?\n  (3) Muốn thực hiện việc liên quan đến xác minh cuộc gọi tự xưng công an, tôi cần chuẩn bị giấy tờ gì?\n  (4) Các bước cần lưu ý khi xử lý việc liên quan đến xác minh cuộc gọi tự xưng công an là gì?\n  (5) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về xác minh cuộc gọi tự xưng công an?",
+    "keywords": [
+      "giả mạo cơ quan nhà nước",
+      "xác minh cuộc gọi tự xưng công an",
+      "xác",
+      "minh",
+      "cuộc",
+      "gọi",
+      "xưng",
+      "công"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_140",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Giả mạo cơ quan nhà nước] Quy định pháp luật & Hướng dẫn xử lý: Xử lý cuộc gọi giả danh ngân hàng",
+    "legal_basis": "Luật Công an nhân dân; Bộ luật Tố tụng hình sự 2015; Điều 174 & Điều 339 Bộ luật Hình sự (Tội giả mạo chức vụ, cấp bậc, vị trí công tác và Tội lừa đảo chiếm đoạt tài sản)",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Công an nhân dân; Bộ luật Tố tụng hình sự 2015; Điều 174 & Điều 339 Bộ luật Hình sự (Tội giả mạo chức vụ, cấp bậc, vị trí công tác và Tội lừa đảo chiếm đoạt tài sản). Công dân thực hiện trực tuyến tr...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: XỬ LÝ CUỘC GỌI GIẢ DANH NGÂN HÀNG (LĨNH VỰC: GIẢ MẠO CƠ QUAN NHÀ NƯỚC)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Công an nhân dân; Bộ luật Tố tụng hình sự 2015; Điều 174 & Điều 339 Bộ luật Hình sự (Tội giả mạo chức vụ, cấp bậc, vị trí công tác và Tội lừa đảo chiếm đoạt tài sản). Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://bocongan.gov.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (Trực ban xác minh và tiếp nhận tin báo 24/24h: 02213.815.999) để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Xác minh ngay lập tức khi công dân gọi điện đến số Trực ban Công an xã Đức Hợp 02213.815.999 hoặc đến trực tiếp trụ sở tại Thôn Nho Lâm.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (Trực ban xác minh và tiếp nhận tin báo 24/24h: 02213.815.999).\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://bocongan.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Xác minh ngay lập tức khi công dân gọi điện đến số Trực ban Công an xã Đức Hợp 02213.815.999 hoặc đến trực tiếp trụ sở tại Thôn Nho Lâm.\n- Phí, lệ phí: Xác minh cuộc gọi, tin nhắn, giấy triệu tập nghi giả mạo tại Công an xã Đức Hợp: Hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- NGUYÊN TẮC BẤT DI BẤT DỊCH: Lực lượng Công an, Viện Kiểm sát, Tòa án, Thuế, Điện lực, BHXH KHÔNG BAO GIỜ làm việc qua điện thoại/video call Zalo, KHÔNG BAO GIỜ gửi \"Lệnh bắt tạm giam\" qua mạng xã hội và KHÔNG BAO GIỜ yêu cầu công dân chuyển tiền vào \"Tài khoản an toàn / Tài khoản tạm giữ\" để chứng minh trong sạch!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Các bước cần lưu ý khi xử lý việc liên quan đến xử lý cuộc gọi giả danh ngân hàng là gì?\n  (2) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về xử lý cuộc gọi giả danh ngân hàng?\n  (3) Có mốc thời gian nào cần lưu ý khi xử lý việc liên quan đến xử lý cuộc gọi giả danh ngân hàng không?\n  (4) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến xử lý cuộc gọi giả danh ngân hàng không?\n  (5) Nếu mất giấy tờ hoặc bằng chứng liên quan đến xử lý cuộc gọi giả danh ngân hàng, tôi nên bắt đầu từ đâu?",
+    "keywords": [
+      "giả mạo cơ quan nhà nước",
+      "xử lý cuộc gọi giả danh ngân hàng",
+      "cuộc",
+      "gọi",
+      "giả",
+      "danh",
+      "ngân",
+      "hàng"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_141",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Giả mạo cơ quan nhà nước] Quy định pháp luật & Hướng dẫn xử lý: Kiểm tra tin nhắn giả danh cơ quan nhà nước",
+    "legal_basis": "Luật Công an nhân dân; Bộ luật Tố tụng hình sự 2015; Điều 174 & Điều 339 Bộ luật Hình sự (Tội giả mạo chức vụ, cấp bậc, vị trí công tác và Tội lừa đảo chiếm đoạt tài sản)",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Công an nhân dân; Bộ luật Tố tụng hình sự 2015; Điều 174 & Điều 339 Bộ luật Hình sự (Tội giả mạo chức vụ, cấp bậc, vị trí công tác và Tội lừa đảo chiếm đoạt tài sản). Công dân thực hiện trực tuyến tr...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: KIỂM TRA TIN NHẮN GIẢ DANH CƠ QUAN NHÀ NƯỚC (LĨNH VỰC: GIẢ MẠO CƠ QUAN NHÀ NƯỚC)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Công an nhân dân; Bộ luật Tố tụng hình sự 2015; Điều 174 & Điều 339 Bộ luật Hình sự (Tội giả mạo chức vụ, cấp bậc, vị trí công tác và Tội lừa đảo chiếm đoạt tài sản). Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://bocongan.gov.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (Trực ban xác minh và tiếp nhận tin báo 24/24h: 02213.815.999) để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Xác minh ngay lập tức khi công dân gọi điện đến số Trực ban Công an xã Đức Hợp 02213.815.999 hoặc đến trực tiếp trụ sở tại Thôn Nho Lâm.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (Trực ban xác minh và tiếp nhận tin báo 24/24h: 02213.815.999).\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://bocongan.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Xác minh ngay lập tức khi công dân gọi điện đến số Trực ban Công an xã Đức Hợp 02213.815.999 hoặc đến trực tiếp trụ sở tại Thôn Nho Lâm.\n- Phí, lệ phí: Xác minh cuộc gọi, tin nhắn, giấy triệu tập nghi giả mạo tại Công an xã Đức Hợp: Hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- NGUYÊN TẮC BẤT DI BẤT DỊCH: Lực lượng Công an, Viện Kiểm sát, Tòa án, Thuế, Điện lực, BHXH KHÔNG BAO GIỜ làm việc qua điện thoại/video call Zalo, KHÔNG BAO GIỜ gửi \"Lệnh bắt tạm giam\" qua mạng xã hội và KHÔNG BAO GIỜ yêu cầu công dân chuyển tiền vào \"Tài khoản an toàn / Tài khoản tạm giữ\" để chứng minh trong sạch!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến kiểm tra tin nhắn giả danh cơ quan nhà nước không?\n  (2) Nếu mất giấy tờ hoặc bằng chứng liên quan đến kiểm tra tin nhắn giả danh cơ quan nhà nước, tôi nên bắt đầu từ đâu?\n  (3) Khi thông tin về kiểm tra tin nhắn giả danh cơ quan nhà nước bị sai hoặc thay đổi, cần liên hệ nơi nào?\n  (4) Tôi có thể nhờ người thân làm thay việc về kiểm tra tin nhắn giả danh cơ quan nhà nước không, cần hỏi rõ điều gì?\n  (5) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến kiểm tra tin nhắn giả danh cơ quan nhà nước, tôi cần tìm hiểu điều gì?",
+    "keywords": [
+      "giả mạo cơ quan nhà nước",
+      "kiểm tra tin nhắn giả danh cơ quan nhà nước",
+      "kiểm",
+      "tra",
+      "tin",
+      "nhắn",
+      "giả",
+      "danh",
+      "quan",
+      "nhà",
+      "nước"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_142",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Giả mạo cơ quan nhà nước] Quy định pháp luật & Hướng dẫn xử lý: Xác minh giấy triệu tập điện tử",
+    "legal_basis": "Luật Công an nhân dân; Bộ luật Tố tụng hình sự 2015; Điều 174 & Điều 339 Bộ luật Hình sự (Tội giả mạo chức vụ, cấp bậc, vị trí công tác và Tội lừa đảo chiếm đoạt tài sản)",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Công an nhân dân; Bộ luật Tố tụng hình sự 2015; Điều 174 & Điều 339 Bộ luật Hình sự (Tội giả mạo chức vụ, cấp bậc, vị trí công tác và Tội lừa đảo chiếm đoạt tài sản). Công dân thực hiện trực tuyến tr...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: XÁC MINH GIẤY TRIỆU TẬP ĐIỆN TỬ (LĨNH VỰC: GIẢ MẠO CƠ QUAN NHÀ NƯỚC)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Công an nhân dân; Bộ luật Tố tụng hình sự 2015; Điều 174 & Điều 339 Bộ luật Hình sự (Tội giả mạo chức vụ, cấp bậc, vị trí công tác và Tội lừa đảo chiếm đoạt tài sản). Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://bocongan.gov.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (Trực ban xác minh và tiếp nhận tin báo 24/24h: 02213.815.999) để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Xác minh ngay lập tức khi công dân gọi điện đến số Trực ban Công an xã Đức Hợp 02213.815.999 hoặc đến trực tiếp trụ sở tại Thôn Nho Lâm.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (Trực ban xác minh và tiếp nhận tin báo 24/24h: 02213.815.999).\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://bocongan.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Xác minh ngay lập tức khi công dân gọi điện đến số Trực ban Công an xã Đức Hợp 02213.815.999 hoặc đến trực tiếp trụ sở tại Thôn Nho Lâm.\n- Phí, lệ phí: Xác minh cuộc gọi, tin nhắn, giấy triệu tập nghi giả mạo tại Công an xã Đức Hợp: Hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- NGUYÊN TẮC BẤT DI BẤT DỊCH: Lực lượng Công an, Viện Kiểm sát, Tòa án, Thuế, Điện lực, BHXH KHÔNG BAO GIỜ làm việc qua điện thoại/video call Zalo, KHÔNG BAO GIỜ gửi \"Lệnh bắt tạm giam\" qua mạng xã hội và KHÔNG BAO GIỜ yêu cầu công dân chuyển tiền vào \"Tài khoản an toàn / Tài khoản tạm giữ\" để chứng minh trong sạch!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Tôi có thể nhờ người thân làm thay việc về xác minh giấy triệu tập điện tử không, cần hỏi rõ điều gì?\n  (2) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến xác minh giấy triệu tập điện tử, tôi cần tìm hiểu điều gì?\n  (3) Sau khi gửi yêu cầu liên quan đến xác minh giấy triệu tập điện tử, tôi có thể theo dõi tiến độ thế nào?\n  (4) Người dân ở xã xa trung tâm muốn xử lý việc xác minh giấy triệu tập điện tử thì nên hỏi cơ quan nào?\n  (5) Người lớn tuổi cần hỗ trợ về xác minh giấy triệu tập điện tử thì có thể nhờ ai hướng dẫn?",
+    "keywords": [
+      "giả mạo cơ quan nhà nước",
+      "xác minh giấy triệu tập điện tử",
+      "xác",
+      "minh",
+      "giấy",
+      "triệu",
+      "tập",
+      "điện"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_143",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Giả mạo cơ quan nhà nước] Quy định pháp luật & Hướng dẫn xử lý: Báo cáo tài khoản giả mạo cán bộ",
+    "legal_basis": "Luật Công an nhân dân; Bộ luật Tố tụng hình sự 2015; Điều 174 & Điều 339 Bộ luật Hình sự (Tội giả mạo chức vụ, cấp bậc, vị trí công tác và Tội lừa đảo chiếm đoạt tài sản)",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Công an nhân dân; Bộ luật Tố tụng hình sự 2015; Điều 174 & Điều 339 Bộ luật Hình sự (Tội giả mạo chức vụ, cấp bậc, vị trí công tác và Tội lừa đảo chiếm đoạt tài sản). Công dân thực hiện trực tuyến tr...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: BÁO CÁO TÀI KHOẢN GIẢ MẠO CÁN BỘ (LĨNH VỰC: GIẢ MẠO CƠ QUAN NHÀ NƯỚC)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Công an nhân dân; Bộ luật Tố tụng hình sự 2015; Điều 174 & Điều 339 Bộ luật Hình sự (Tội giả mạo chức vụ, cấp bậc, vị trí công tác và Tội lừa đảo chiếm đoạt tài sản). Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://bocongan.gov.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (Trực ban xác minh và tiếp nhận tin báo 24/24h: 02213.815.999) để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Xác minh ngay lập tức khi công dân gọi điện đến số Trực ban Công an xã Đức Hợp 02213.815.999 hoặc đến trực tiếp trụ sở tại Thôn Nho Lâm.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (Trực ban xác minh và tiếp nhận tin báo 24/24h: 02213.815.999).\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://bocongan.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Xác minh ngay lập tức khi công dân gọi điện đến số Trực ban Công an xã Đức Hợp 02213.815.999 hoặc đến trực tiếp trụ sở tại Thôn Nho Lâm.\n- Phí, lệ phí: Xác minh cuộc gọi, tin nhắn, giấy triệu tập nghi giả mạo tại Công an xã Đức Hợp: Hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- NGUYÊN TẮC BẤT DI BẤT DỊCH: Lực lượng Công an, Viện Kiểm sát, Tòa án, Thuế, Điện lực, BHXH KHÔNG BAO GIỜ làm việc qua điện thoại/video call Zalo, KHÔNG BAO GIỜ gửi \"Lệnh bắt tạm giam\" qua mạng xã hội và KHÔNG BAO GIỜ yêu cầu công dân chuyển tiền vào \"Tài khoản an toàn / Tài khoản tạm giữ\" để chứng minh trong sạch!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có thể làm thủ tục về báo cáo tài khoản giả mạo cán bộ trên điện thoại không, cần chuẩn bị gì?\n  (2) Người lớn tuổi cần hỗ trợ về báo cáo tài khoản giả mạo cán bộ thì có thể nhờ ai hướng dẫn?\n  (3) Trong tình huống báo cáo tài khoản giả mạo cán bộ, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (4) Nếu các bên không thống nhất về báo cáo tài khoản giả mạo cán bộ, có thể đề nghị cơ quan nào hướng dẫn?\n  (5) Tôi nên kiểm tra thông tin chính thức về báo cáo tài khoản giả mạo cán bộ trên kênh nào?",
+    "keywords": [
+      "giả mạo cơ quan nhà nước",
+      "báo cáo tài khoản giả mạo cán bộ",
+      "báo",
+      "cáo",
+      "tài",
+      "khoản",
+      "giả",
+      "mạo",
+      "cán"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_144",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Giả mạo cơ quan nhà nước] Quy định pháp luật & Hướng dẫn xử lý: Ứng xử khi bị yêu cầu cài ứng dụng lạ",
+    "legal_basis": "Luật Công an nhân dân; Bộ luật Tố tụng hình sự 2015; Điều 174 & Điều 339 Bộ luật Hình sự (Tội giả mạo chức vụ, cấp bậc, vị trí công tác và Tội lừa đảo chiếm đoạt tài sản)",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Công an nhân dân; Bộ luật Tố tụng hình sự 2015; Điều 174 & Điều 339 Bộ luật Hình sự (Tội giả mạo chức vụ, cấp bậc, vị trí công tác và Tội lừa đảo chiếm đoạt tài sản). Công dân thực hiện trực tuyến tr...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: ỨNG XỬ KHI BỊ YÊU CẦU CÀI ỨNG DỤNG LẠ (LĨNH VỰC: GIẢ MẠO CƠ QUAN NHÀ NƯỚC)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Công an nhân dân; Bộ luật Tố tụng hình sự 2015; Điều 174 & Điều 339 Bộ luật Hình sự (Tội giả mạo chức vụ, cấp bậc, vị trí công tác và Tội lừa đảo chiếm đoạt tài sản). Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://bocongan.gov.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (Trực ban xác minh và tiếp nhận tin báo 24/24h: 02213.815.999) để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Xác minh ngay lập tức khi công dân gọi điện đến số Trực ban Công an xã Đức Hợp 02213.815.999 hoặc đến trực tiếp trụ sở tại Thôn Nho Lâm.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (Trực ban xác minh và tiếp nhận tin báo 24/24h: 02213.815.999).\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://bocongan.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Xác minh ngay lập tức khi công dân gọi điện đến số Trực ban Công an xã Đức Hợp 02213.815.999 hoặc đến trực tiếp trụ sở tại Thôn Nho Lâm.\n- Phí, lệ phí: Xác minh cuộc gọi, tin nhắn, giấy triệu tập nghi giả mạo tại Công an xã Đức Hợp: Hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- NGUYÊN TẮC BẤT DI BẤT DỊCH: Lực lượng Công an, Viện Kiểm sát, Tòa án, Thuế, Điện lực, BHXH KHÔNG BAO GIỜ làm việc qua điện thoại/video call Zalo, KHÔNG BAO GIỜ gửi \"Lệnh bắt tạm giam\" qua mạng xã hội và KHÔNG BAO GIỜ yêu cầu công dân chuyển tiền vào \"Tài khoản an toàn / Tài khoản tạm giữ\" để chứng minh trong sạch!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Trong tình huống ứng xử khi bị yêu cầu cài ứng dụng lạ, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (2) Nếu các bên không thống nhất về ứng xử khi bị yêu cầu cài ứng dụng lạ, có thể đề nghị cơ quan nào hướng dẫn?\n  (3) Tôi nên kiểm tra thông tin chính thức về ứng xử khi bị yêu cầu cài ứng dụng lạ trên kênh nào?\n  (4) Làm sao phân biệt hướng dẫn chính thức và dịch vụ giả mạo liên quan đến ứng xử khi bị yêu cầu cài ứng dụng lạ?\n  (5) Khi gặp vướng mắc về ứng xử khi bị yêu cầu cài ứng dụng lạ, tôi cần mô tả thông tin gì để được hỗ trợ?",
+    "keywords": [
+      "giả mạo cơ quan nhà nước",
+      "ứng xử khi bị yêu cầu cài ứng dụng lạ",
+      "ứng",
+      "khi",
+      "yêu",
+      "cầu",
+      "cài",
+      "ứng",
+      "dụng"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_145",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Mua bán trực tuyến] Quy định pháp luật & Hướng dẫn xử lý: Kiểm tra người bán trực tuyến",
+    "legal_basis": "Luật Bảo vệ quyền lợi người tiêu dùng số 19/2023/QH15 (hiệu lực 01/07/2024); Nghị định số 52/2013/NĐ-CP & Nghị định số 85/2021/NĐ-CP về thương mại điện tử; Nghị định số 98/2020/NĐ-CP",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Bảo vệ quyền lợi người tiêu dùng số 19/2023/QH15 (hiệu lực 01/07/2024); Nghị định số 52/2013/NĐ-CP & Nghị định số 85/2021/NĐ-CP về thương mại điện tử; Nghị định số 98/2020/NĐ-CP. Công dân thực hiện t...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: KIỂM TRA NGƯỜI BÁN TRỰC TUYẾN (LĨNH VỰC: MUA BÁN TRỰC TUYẾN)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Bảo vệ quyền lợi người tiêu dùng số 19/2023/QH15 (hiệu lực 01/07/2024); Nghị định số 52/2013/NĐ-CP & Nghị định số 85/2021/NĐ-CP về thương mại điện tử; Nghị định số 98/2020/NĐ-CP. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://online.gov.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (tiếp nhận tin báo lừa đảo mua bán qua mạng) & Tổng đài Tư vấn, hỗ trợ người tiêu dùng Bộ Công Thương 1800.6838 để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Thời hạn yêu cầu trả hàng/hoàn tiền trên sàn thương mại điện tử thông thường từ 03 - 15 ngày kể từ khi nhận hàng (cần có video quay lại quá trình mở hộp).).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (tiếp nhận tin báo lừa đảo mua bán qua mạng) & Tổng đài Tư vấn, hỗ trợ người tiêu dùng Bộ Công Thương 1800.6838.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://online.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Thời hạn yêu cầu trả hàng/hoàn tiền trên sàn thương mại điện tử thông thường từ 03 - 15 ngày kể từ khi nhận hàng (cần có video quay lại quá trình mở hộp).\n- Phí, lệ phí: Khiếu nại bảo vệ quyền lợi người tiêu dùng qua tổng đài 1800.6838 và trình báo lừa đảo tại Công an xã: Hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Cảnh giác thủ đoạn gửi bưu phẩm \"Quà tri ân trúng thưởng\" thu tiền COD từ 100.000đ - 500.000đ khi người nhà không đặt hàng, hoặc yêu cầu chuyển khoản đặt cọc trước qua Zalo rồi chặn liên lạc. Luôn quay video mở kiện hàng (đồng kiểm) trước khi thanh toán!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Kiểm tra người bán trực tuyến là gì và tôi có thể tìm hiểu ở đâu?\n  (2) Điều kiện hoặc căn cứ áp dụng với kiểm tra người bán trực tuyến được hướng dẫn thế nào?\n  (3) Muốn thực hiện việc liên quan đến kiểm tra người bán trực tuyến, tôi cần chuẩn bị giấy tờ gì?\n  (4) Các bước cần lưu ý khi xử lý việc liên quan đến kiểm tra người bán trực tuyến là gì?\n  (5) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về kiểm tra người bán trực tuyến?",
+    "keywords": [
+      "mua bán trực tuyến",
+      "kiểm tra người bán trực tuyến",
+      "kiểm",
+      "tra",
+      "người",
+      "bán",
+      "trực",
+      "tuyến"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_146",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Mua bán trực tuyến] Quy định pháp luật & Hướng dẫn xử lý: Thanh toán khi nhận hàng",
+    "legal_basis": "Luật Bảo vệ quyền lợi người tiêu dùng số 19/2023/QH15 (hiệu lực 01/07/2024); Nghị định số 52/2013/NĐ-CP & Nghị định số 85/2021/NĐ-CP về thương mại điện tử; Nghị định số 98/2020/NĐ-CP",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Bảo vệ quyền lợi người tiêu dùng số 19/2023/QH15 (hiệu lực 01/07/2024); Nghị định số 52/2013/NĐ-CP & Nghị định số 85/2021/NĐ-CP về thương mại điện tử; Nghị định số 98/2020/NĐ-CP. Công dân thực hiện t...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: THANH TOÁN KHI NHẬN HÀNG (LĨNH VỰC: MUA BÁN TRỰC TUYẾN)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Bảo vệ quyền lợi người tiêu dùng số 19/2023/QH15 (hiệu lực 01/07/2024); Nghị định số 52/2013/NĐ-CP & Nghị định số 85/2021/NĐ-CP về thương mại điện tử; Nghị định số 98/2020/NĐ-CP. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://online.gov.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (tiếp nhận tin báo lừa đảo mua bán qua mạng) & Tổng đài Tư vấn, hỗ trợ người tiêu dùng Bộ Công Thương 1800.6838 để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Thời hạn yêu cầu trả hàng/hoàn tiền trên sàn thương mại điện tử thông thường từ 03 - 15 ngày kể từ khi nhận hàng (cần có video quay lại quá trình mở hộp).).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (tiếp nhận tin báo lừa đảo mua bán qua mạng) & Tổng đài Tư vấn, hỗ trợ người tiêu dùng Bộ Công Thương 1800.6838.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://online.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Thời hạn yêu cầu trả hàng/hoàn tiền trên sàn thương mại điện tử thông thường từ 03 - 15 ngày kể từ khi nhận hàng (cần có video quay lại quá trình mở hộp).\n- Phí, lệ phí: Khiếu nại bảo vệ quyền lợi người tiêu dùng qua tổng đài 1800.6838 và trình báo lừa đảo tại Công an xã: Hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Cảnh giác thủ đoạn gửi bưu phẩm \"Quà tri ân trúng thưởng\" thu tiền COD từ 100.000đ - 500.000đ khi người nhà không đặt hàng, hoặc yêu cầu chuyển khoản đặt cọc trước qua Zalo rồi chặn liên lạc. Luôn quay video mở kiện hàng (đồng kiểm) trước khi thanh toán!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Các bước cần lưu ý khi xử lý việc liên quan đến thanh toán khi nhận hàng là gì?\n  (2) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về thanh toán khi nhận hàng?\n  (3) Có mốc thời gian nào cần lưu ý khi xử lý việc liên quan đến thanh toán khi nhận hàng không?\n  (4) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến thanh toán khi nhận hàng không?\n  (5) Nếu mất giấy tờ hoặc bằng chứng liên quan đến thanh toán khi nhận hàng, tôi nên bắt đầu từ đâu?",
+    "keywords": [
+      "mua bán trực tuyến",
+      "thanh toán khi nhận hàng",
+      "thanh",
+      "toán",
+      "khi",
+      "nhận",
+      "hàng"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_147",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Mua bán trực tuyến] Quy định pháp luật & Hướng dẫn xử lý: Đổi trả hàng mua qua mạng",
+    "legal_basis": "Luật Bảo vệ quyền lợi người tiêu dùng số 19/2023/QH15 (hiệu lực 01/07/2024); Nghị định số 52/2013/NĐ-CP & Nghị định số 85/2021/NĐ-CP về thương mại điện tử; Nghị định số 98/2020/NĐ-CP",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Bảo vệ quyền lợi người tiêu dùng số 19/2023/QH15 (hiệu lực 01/07/2024); Nghị định số 52/2013/NĐ-CP & Nghị định số 85/2021/NĐ-CP về thương mại điện tử; Nghị định số 98/2020/NĐ-CP. Công dân thực hiện t...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: ĐỔI TRẢ HÀNG MUA QUA MẠNG (LĨNH VỰC: MUA BÁN TRỰC TUYẾN)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Bảo vệ quyền lợi người tiêu dùng số 19/2023/QH15 (hiệu lực 01/07/2024); Nghị định số 52/2013/NĐ-CP & Nghị định số 85/2021/NĐ-CP về thương mại điện tử; Nghị định số 98/2020/NĐ-CP. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://online.gov.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (tiếp nhận tin báo lừa đảo mua bán qua mạng) & Tổng đài Tư vấn, hỗ trợ người tiêu dùng Bộ Công Thương 1800.6838 để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Thời hạn yêu cầu trả hàng/hoàn tiền trên sàn thương mại điện tử thông thường từ 03 - 15 ngày kể từ khi nhận hàng (cần có video quay lại quá trình mở hộp).).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (tiếp nhận tin báo lừa đảo mua bán qua mạng) & Tổng đài Tư vấn, hỗ trợ người tiêu dùng Bộ Công Thương 1800.6838.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://online.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Thời hạn yêu cầu trả hàng/hoàn tiền trên sàn thương mại điện tử thông thường từ 03 - 15 ngày kể từ khi nhận hàng (cần có video quay lại quá trình mở hộp).\n- Phí, lệ phí: Khiếu nại bảo vệ quyền lợi người tiêu dùng qua tổng đài 1800.6838 và trình báo lừa đảo tại Công an xã: Hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Cảnh giác thủ đoạn gửi bưu phẩm \"Quà tri ân trúng thưởng\" thu tiền COD từ 100.000đ - 500.000đ khi người nhà không đặt hàng, hoặc yêu cầu chuyển khoản đặt cọc trước qua Zalo rồi chặn liên lạc. Luôn quay video mở kiện hàng (đồng kiểm) trước khi thanh toán!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến đổi trả hàng mua qua mạng không?\n  (2) Nếu mất giấy tờ hoặc bằng chứng liên quan đến đổi trả hàng mua qua mạng, tôi nên bắt đầu từ đâu?\n  (3) Khi thông tin về đổi trả hàng mua qua mạng bị sai hoặc thay đổi, cần liên hệ nơi nào?\n  (4) Tôi có thể nhờ người thân làm thay việc về đổi trả hàng mua qua mạng không, cần hỏi rõ điều gì?\n  (5) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến đổi trả hàng mua qua mạng, tôi cần tìm hiểu điều gì?",
+    "keywords": [
+      "mua bán trực tuyến",
+      "đổi trả hàng mua qua mạng",
+      "đổi",
+      "trả",
+      "hàng",
+      "mua",
+      "qua",
+      "mạng"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_148",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Mua bán trực tuyến] Quy định pháp luật & Hướng dẫn xử lý: Khiếu nại hàng giả hoặc sai mô tả",
+    "legal_basis": "Luật Bảo vệ quyền lợi người tiêu dùng số 19/2023/QH15 (hiệu lực 01/07/2024); Nghị định số 52/2013/NĐ-CP & Nghị định số 85/2021/NĐ-CP về thương mại điện tử; Nghị định số 98/2020/NĐ-CP",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Bảo vệ quyền lợi người tiêu dùng số 19/2023/QH15 (hiệu lực 01/07/2024); Nghị định số 52/2013/NĐ-CP & Nghị định số 85/2021/NĐ-CP về thương mại điện tử; Nghị định số 98/2020/NĐ-CP. Công dân thực hiện t...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: KHIẾU NẠI HÀNG GIẢ HOẶC SAI MÔ TẢ (LĨNH VỰC: MUA BÁN TRỰC TUYẾN)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Bảo vệ quyền lợi người tiêu dùng số 19/2023/QH15 (hiệu lực 01/07/2024); Nghị định số 52/2013/NĐ-CP & Nghị định số 85/2021/NĐ-CP về thương mại điện tử; Nghị định số 98/2020/NĐ-CP. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://online.gov.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (tiếp nhận tin báo lừa đảo mua bán qua mạng) & Tổng đài Tư vấn, hỗ trợ người tiêu dùng Bộ Công Thương 1800.6838 để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Thời hạn yêu cầu trả hàng/hoàn tiền trên sàn thương mại điện tử thông thường từ 03 - 15 ngày kể từ khi nhận hàng (cần có video quay lại quá trình mở hộp).).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (tiếp nhận tin báo lừa đảo mua bán qua mạng) & Tổng đài Tư vấn, hỗ trợ người tiêu dùng Bộ Công Thương 1800.6838.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://online.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Thời hạn yêu cầu trả hàng/hoàn tiền trên sàn thương mại điện tử thông thường từ 03 - 15 ngày kể từ khi nhận hàng (cần có video quay lại quá trình mở hộp).\n- Phí, lệ phí: Khiếu nại bảo vệ quyền lợi người tiêu dùng qua tổng đài 1800.6838 và trình báo lừa đảo tại Công an xã: Hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Cảnh giác thủ đoạn gửi bưu phẩm \"Quà tri ân trúng thưởng\" thu tiền COD từ 100.000đ - 500.000đ khi người nhà không đặt hàng, hoặc yêu cầu chuyển khoản đặt cọc trước qua Zalo rồi chặn liên lạc. Luôn quay video mở kiện hàng (đồng kiểm) trước khi thanh toán!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Tôi có thể nhờ người thân làm thay việc về khiếu nại hàng giả hoặc sai mô tả không, cần hỏi rõ điều gì?\n  (2) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến khiếu nại hàng giả hoặc sai mô tả, tôi cần tìm hiểu điều gì?\n  (3) Sau khi gửi yêu cầu liên quan đến khiếu nại hàng giả hoặc sai mô tả, tôi có thể theo dõi tiến độ thế nào?\n  (4) Người dân ở xã xa trung tâm muốn xử lý việc khiếu nại hàng giả hoặc sai mô tả thì nên hỏi cơ quan nào?\n  (5) Người lớn tuổi cần hỗ trợ về khiếu nại hàng giả hoặc sai mô tả thì có thể nhờ ai hướng dẫn?",
+    "keywords": [
+      "mua bán trực tuyến",
+      "khiếu nại hàng giả hoặc sai mô tả",
+      "khiếu",
+      "nại",
+      "hàng",
+      "giả",
+      "hoặc",
+      "sai"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_149",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Mua bán trực tuyến] Quy định pháp luật & Hướng dẫn xử lý: Lưu bằng chứng giao dịch trực tuyến",
+    "legal_basis": "Luật Bảo vệ quyền lợi người tiêu dùng số 19/2023/QH15 (hiệu lực 01/07/2024); Nghị định số 52/2013/NĐ-CP & Nghị định số 85/2021/NĐ-CP về thương mại điện tử; Nghị định số 98/2020/NĐ-CP",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Bảo vệ quyền lợi người tiêu dùng số 19/2023/QH15 (hiệu lực 01/07/2024); Nghị định số 52/2013/NĐ-CP & Nghị định số 85/2021/NĐ-CP về thương mại điện tử; Nghị định số 98/2020/NĐ-CP. Công dân thực hiện t...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: LƯU BẰNG CHỨNG GIAO DỊCH TRỰC TUYẾN (LĨNH VỰC: MUA BÁN TRỰC TUYẾN)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Bảo vệ quyền lợi người tiêu dùng số 19/2023/QH15 (hiệu lực 01/07/2024); Nghị định số 52/2013/NĐ-CP & Nghị định số 85/2021/NĐ-CP về thương mại điện tử; Nghị định số 98/2020/NĐ-CP. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://online.gov.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (tiếp nhận tin báo lừa đảo mua bán qua mạng) & Tổng đài Tư vấn, hỗ trợ người tiêu dùng Bộ Công Thương 1800.6838 để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Thời hạn yêu cầu trả hàng/hoàn tiền trên sàn thương mại điện tử thông thường từ 03 - 15 ngày kể từ khi nhận hàng (cần có video quay lại quá trình mở hộp).).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (tiếp nhận tin báo lừa đảo mua bán qua mạng) & Tổng đài Tư vấn, hỗ trợ người tiêu dùng Bộ Công Thương 1800.6838.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://online.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Thời hạn yêu cầu trả hàng/hoàn tiền trên sàn thương mại điện tử thông thường từ 03 - 15 ngày kể từ khi nhận hàng (cần có video quay lại quá trình mở hộp).\n- Phí, lệ phí: Khiếu nại bảo vệ quyền lợi người tiêu dùng qua tổng đài 1800.6838 và trình báo lừa đảo tại Công an xã: Hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Cảnh giác thủ đoạn gửi bưu phẩm \"Quà tri ân trúng thưởng\" thu tiền COD từ 100.000đ - 500.000đ khi người nhà không đặt hàng, hoặc yêu cầu chuyển khoản đặt cọc trước qua Zalo rồi chặn liên lạc. Luôn quay video mở kiện hàng (đồng kiểm) trước khi thanh toán!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có thể làm thủ tục về lưu bằng chứng giao dịch trực tuyến trên điện thoại không, cần chuẩn bị gì?\n  (2) Người lớn tuổi cần hỗ trợ về lưu bằng chứng giao dịch trực tuyến thì có thể nhờ ai hướng dẫn?\n  (3) Trong tình huống lưu bằng chứng giao dịch trực tuyến, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (4) Nếu các bên không thống nhất về lưu bằng chứng giao dịch trực tuyến, có thể đề nghị cơ quan nào hướng dẫn?\n  (5) Tôi nên kiểm tra thông tin chính thức về lưu bằng chứng giao dịch trực tuyến trên kênh nào?",
+    "keywords": [
+      "mua bán trực tuyến",
+      "lưu bằng chứng giao dịch trực tuyến",
+      "lưu",
+      "bằng",
+      "chứng",
+      "giao",
+      "dịch",
+      "trực",
+      "tuyến"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_150",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Mua bán trực tuyến] Quy định pháp luật & Hướng dẫn xử lý: Mua bán qua mạng an toàn ở nông thôn",
+    "legal_basis": "Luật Bảo vệ quyền lợi người tiêu dùng số 19/2023/QH15 (hiệu lực 01/07/2024); Nghị định số 52/2013/NĐ-CP & Nghị định số 85/2021/NĐ-CP về thương mại điện tử; Nghị định số 98/2020/NĐ-CP",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Bảo vệ quyền lợi người tiêu dùng số 19/2023/QH15 (hiệu lực 01/07/2024); Nghị định số 52/2013/NĐ-CP & Nghị định số 85/2021/NĐ-CP về thương mại điện tử; Nghị định số 98/2020/NĐ-CP. Công dân thực hiện t...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: MUA BÁN QUA MẠNG AN TOÀN Ở NÔNG THÔN (LĨNH VỰC: MUA BÁN TRỰC TUYẾN)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Bảo vệ quyền lợi người tiêu dùng số 19/2023/QH15 (hiệu lực 01/07/2024); Nghị định số 52/2013/NĐ-CP & Nghị định số 85/2021/NĐ-CP về thương mại điện tử; Nghị định số 98/2020/NĐ-CP. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://online.gov.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (tiếp nhận tin báo lừa đảo mua bán qua mạng) & Tổng đài Tư vấn, hỗ trợ người tiêu dùng Bộ Công Thương 1800.6838 để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Thời hạn yêu cầu trả hàng/hoàn tiền trên sàn thương mại điện tử thông thường từ 03 - 15 ngày kể từ khi nhận hàng (cần có video quay lại quá trình mở hộp).).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (tiếp nhận tin báo lừa đảo mua bán qua mạng) & Tổng đài Tư vấn, hỗ trợ người tiêu dùng Bộ Công Thương 1800.6838.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://online.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Thời hạn yêu cầu trả hàng/hoàn tiền trên sàn thương mại điện tử thông thường từ 03 - 15 ngày kể từ khi nhận hàng (cần có video quay lại quá trình mở hộp).\n- Phí, lệ phí: Khiếu nại bảo vệ quyền lợi người tiêu dùng qua tổng đài 1800.6838 và trình báo lừa đảo tại Công an xã: Hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Cảnh giác thủ đoạn gửi bưu phẩm \"Quà tri ân trúng thưởng\" thu tiền COD từ 100.000đ - 500.000đ khi người nhà không đặt hàng, hoặc yêu cầu chuyển khoản đặt cọc trước qua Zalo rồi chặn liên lạc. Luôn quay video mở kiện hàng (đồng kiểm) trước khi thanh toán!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Trong tình huống mua bán qua mạng an toàn ở nông thôn, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (2) Nếu các bên không thống nhất về mua bán qua mạng an toàn ở nông thôn, có thể đề nghị cơ quan nào hướng dẫn?\n  (3) Tôi nên kiểm tra thông tin chính thức về mua bán qua mạng an toàn ở nông thôn trên kênh nào?\n  (4) Làm sao phân biệt hướng dẫn chính thức và dịch vụ giả mạo liên quan đến mua bán qua mạng an toàn ở nông thôn?\n  (5) Khi gặp vướng mắc về mua bán qua mạng an toàn ở nông thôn, tôi cần mô tả thông tin gì để được hỗ trợ?",
+    "keywords": [
+      "mua bán trực tuyến",
+      "mua bán qua mạng an toàn ở nông thôn",
+      "mua",
+      "bán",
+      "qua",
+      "mạng",
+      "toàn",
+      "nông",
+      "thôn"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_151",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Mã độc và an toàn thiết bị] Quy định pháp luật & Hướng dẫn xử lý: Nhận biết điện thoại nhiễm mã độc",
+    "legal_basis": "Luật An toàn thông tin mạng năm 2015; Luật An ninh mạng năm 2018; Cảnh báo kỹ thuật của Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (A05 - Bộ Công an)",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật An toàn thông tin mạng năm 2015; Luật An ninh mạng năm 2018; Cảnh báo kỹ thuật của Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (A05 - Bộ Công an). Công dân thực hiện trực tuyến tr...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: NHẬN BIẾT ĐIỆN THOẠI NHIỄM MÃ ĐỘC (LĨNH VỰC: MÃ ĐỘC VÀ AN TOÀN THIẾT BỊ)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật An toàn thông tin mạng năm 2015; Luật An ninh mạng năm 2018; Cảnh báo kỹ thuật của Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (A05 - Bộ Công an). Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://khonggianmang.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (hỗ trợ kiểm tra, gỡ bỏ ứng dụng giả mạo và hướng dẫn khôi phục cài đặt gốc an toàn tại trụ sở Thôn Nho Lâm) để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Khi phát hiện điện thoại tự sáng màn hình, nóng bất thường, đơ cảm ứng sau khi cài file .apk: Phải ngắt kết nối mạng (Tắt Wi-Fi/4G, bật Chế độ máy bay hoặc tháo SIM) NGAY TRONG VÒNG 1 PHÚT!).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (hỗ trợ kiểm tra, gỡ bỏ ứng dụng giả mạo và hướng dẫn khôi phục cài đặt gốc an toàn tại trụ sở Thôn Nho Lâm).\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://khonggianmang.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Khi phát hiện điện thoại tự sáng màn hình, nóng bất thường, đơ cảm ứng sau khi cài file .apk: Phải ngắt kết nối mạng (Tắt Wi-Fi/4G, bật Chế độ máy bay hoặc tháo SIM) NGAY TRONG VÒNG 1 PHÚT!\n- Phí, lệ phí: Hỗ trợ kiểm tra điện thoại nghi nhiễm mã độc tại Công an xã Đức Hợp: Hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Mã độc Android (.apk) khi được cấp quyền Trợ năng (Accessibility) sẽ tự động đọc tin nhắn OTP, ghi lại mật khẩu bàn phím và tự chuyển tiền ngầm trong khi màn hình điện thoại bị làm tối đen hoặc treo logo VNeID giả. Tuyệt đối chỉ cài ứng dụng từ Google Play (CH Play) hoặc App Store!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Nhận biết điện thoại nhiễm mã độc là gì và tôi có thể tìm hiểu ở đâu?\n  (2) Điều kiện hoặc căn cứ áp dụng với nhận biết điện thoại nhiễm mã độc được hướng dẫn thế nào?\n  (3) Muốn thực hiện việc liên quan đến nhận biết điện thoại nhiễm mã độc, tôi cần chuẩn bị giấy tờ gì?\n  (4) Các bước cần lưu ý khi xử lý việc liên quan đến nhận biết điện thoại nhiễm mã độc là gì?\n  (5) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về nhận biết điện thoại nhiễm mã độc?",
+    "keywords": [
+      "mã độc và an toàn thiết bị",
+      "nhận biết điện thoại nhiễm mã độc",
+      "nhận",
+      "biết",
+      "điện",
+      "thoại",
+      "nhiễm",
+      "độc"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_152",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Mã độc và an toàn thiết bị] Quy định pháp luật & Hướng dẫn xử lý: Gỡ ứng dụng đáng ngờ",
+    "legal_basis": "Luật An toàn thông tin mạng năm 2015; Luật An ninh mạng năm 2018; Cảnh báo kỹ thuật của Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (A05 - Bộ Công an)",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật An toàn thông tin mạng năm 2015; Luật An ninh mạng năm 2018; Cảnh báo kỹ thuật của Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (A05 - Bộ Công an). Công dân thực hiện trực tuyến tr...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: GỠ ỨNG DỤNG ĐÁNG NGỜ (LĨNH VỰC: MÃ ĐỘC VÀ AN TOÀN THIẾT BỊ)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật An toàn thông tin mạng năm 2015; Luật An ninh mạng năm 2018; Cảnh báo kỹ thuật của Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (A05 - Bộ Công an). Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://khonggianmang.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (hỗ trợ kiểm tra, gỡ bỏ ứng dụng giả mạo và hướng dẫn khôi phục cài đặt gốc an toàn tại trụ sở Thôn Nho Lâm) để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Khi phát hiện điện thoại tự sáng màn hình, nóng bất thường, đơ cảm ứng sau khi cài file .apk: Phải ngắt kết nối mạng (Tắt Wi-Fi/4G, bật Chế độ máy bay hoặc tháo SIM) NGAY TRONG VÒNG 1 PHÚT!).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (hỗ trợ kiểm tra, gỡ bỏ ứng dụng giả mạo và hướng dẫn khôi phục cài đặt gốc an toàn tại trụ sở Thôn Nho Lâm).\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://khonggianmang.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Khi phát hiện điện thoại tự sáng màn hình, nóng bất thường, đơ cảm ứng sau khi cài file .apk: Phải ngắt kết nối mạng (Tắt Wi-Fi/4G, bật Chế độ máy bay hoặc tháo SIM) NGAY TRONG VÒNG 1 PHÚT!\n- Phí, lệ phí: Hỗ trợ kiểm tra điện thoại nghi nhiễm mã độc tại Công an xã Đức Hợp: Hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Mã độc Android (.apk) khi được cấp quyền Trợ năng (Accessibility) sẽ tự động đọc tin nhắn OTP, ghi lại mật khẩu bàn phím và tự chuyển tiền ngầm trong khi màn hình điện thoại bị làm tối đen hoặc treo logo VNeID giả. Tuyệt đối chỉ cài ứng dụng từ Google Play (CH Play) hoặc App Store!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Các bước cần lưu ý khi xử lý việc liên quan đến gỡ ứng dụng đáng ngờ là gì?\n  (2) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về gỡ ứng dụng đáng ngờ?\n  (3) Có mốc thời gian nào cần lưu ý khi xử lý việc liên quan đến gỡ ứng dụng đáng ngờ không?\n  (4) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến gỡ ứng dụng đáng ngờ không?\n  (5) Nếu mất giấy tờ hoặc bằng chứng liên quan đến gỡ ứng dụng đáng ngờ, tôi nên bắt đầu từ đâu?",
+    "keywords": [
+      "mã độc và an toàn thiết bị",
+      "gỡ ứng dụng đáng ngờ",
+      "ứng",
+      "dụng",
+      "đáng",
+      "ngờ"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_153",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Mã độc và an toàn thiết bị] Quy định pháp luật & Hướng dẫn xử lý: Xử lý khi bấm link độc hại",
+    "legal_basis": "Luật An toàn thông tin mạng năm 2015; Luật An ninh mạng năm 2018; Cảnh báo kỹ thuật của Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (A05 - Bộ Công an)",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật An toàn thông tin mạng năm 2015; Luật An ninh mạng năm 2018; Cảnh báo kỹ thuật của Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (A05 - Bộ Công an). Công dân thực hiện trực tuyến tr...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: XỬ LÝ KHI BẤM LINK ĐỘC HẠI (LĨNH VỰC: MÃ ĐỘC VÀ AN TOÀN THIẾT BỊ)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật An toàn thông tin mạng năm 2015; Luật An ninh mạng năm 2018; Cảnh báo kỹ thuật của Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (A05 - Bộ Công an). Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://khonggianmang.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (hỗ trợ kiểm tra, gỡ bỏ ứng dụng giả mạo và hướng dẫn khôi phục cài đặt gốc an toàn tại trụ sở Thôn Nho Lâm) để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Khi phát hiện điện thoại tự sáng màn hình, nóng bất thường, đơ cảm ứng sau khi cài file .apk: Phải ngắt kết nối mạng (Tắt Wi-Fi/4G, bật Chế độ máy bay hoặc tháo SIM) NGAY TRONG VÒNG 1 PHÚT!).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (hỗ trợ kiểm tra, gỡ bỏ ứng dụng giả mạo và hướng dẫn khôi phục cài đặt gốc an toàn tại trụ sở Thôn Nho Lâm).\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://khonggianmang.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Khi phát hiện điện thoại tự sáng màn hình, nóng bất thường, đơ cảm ứng sau khi cài file .apk: Phải ngắt kết nối mạng (Tắt Wi-Fi/4G, bật Chế độ máy bay hoặc tháo SIM) NGAY TRONG VÒNG 1 PHÚT!\n- Phí, lệ phí: Hỗ trợ kiểm tra điện thoại nghi nhiễm mã độc tại Công an xã Đức Hợp: Hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Mã độc Android (.apk) khi được cấp quyền Trợ năng (Accessibility) sẽ tự động đọc tin nhắn OTP, ghi lại mật khẩu bàn phím và tự chuyển tiền ngầm trong khi màn hình điện thoại bị làm tối đen hoặc treo logo VNeID giả. Tuyệt đối chỉ cài ứng dụng từ Google Play (CH Play) hoặc App Store!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến xử lý khi bấm link độc hại không?\n  (2) Nếu mất giấy tờ hoặc bằng chứng liên quan đến xử lý khi bấm link độc hại, tôi nên bắt đầu từ đâu?\n  (3) Khi thông tin về xử lý khi bấm link độc hại bị sai hoặc thay đổi, cần liên hệ nơi nào?\n  (4) Tôi có thể nhờ người thân làm thay việc về xử lý khi bấm link độc hại không, cần hỏi rõ điều gì?\n  (5) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến xử lý khi bấm link độc hại, tôi cần tìm hiểu điều gì?",
+    "keywords": [
+      "mã độc và an toàn thiết bị",
+      "xử lý khi bấm link độc hại",
+      "khi",
+      "bấm",
+      "link",
+      "độc",
+      "hại"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_154",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Mã độc và an toàn thiết bị] Quy định pháp luật & Hướng dẫn xử lý: Sao lưu dữ liệu an toàn",
+    "legal_basis": "Luật An toàn thông tin mạng năm 2015; Luật An ninh mạng năm 2018; Cảnh báo kỹ thuật của Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (A05 - Bộ Công an)",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật An toàn thông tin mạng năm 2015; Luật An ninh mạng năm 2018; Cảnh báo kỹ thuật của Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (A05 - Bộ Công an). Công dân thực hiện trực tuyến tr...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: SAO LƯU DỮ LIỆU AN TOÀN (LĨNH VỰC: MÃ ĐỘC VÀ AN TOÀN THIẾT BỊ)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật An toàn thông tin mạng năm 2015; Luật An ninh mạng năm 2018; Cảnh báo kỹ thuật của Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (A05 - Bộ Công an). Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://khonggianmang.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (hỗ trợ kiểm tra, gỡ bỏ ứng dụng giả mạo và hướng dẫn khôi phục cài đặt gốc an toàn tại trụ sở Thôn Nho Lâm) để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Khi phát hiện điện thoại tự sáng màn hình, nóng bất thường, đơ cảm ứng sau khi cài file .apk: Phải ngắt kết nối mạng (Tắt Wi-Fi/4G, bật Chế độ máy bay hoặc tháo SIM) NGAY TRONG VÒNG 1 PHÚT!).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (hỗ trợ kiểm tra, gỡ bỏ ứng dụng giả mạo và hướng dẫn khôi phục cài đặt gốc an toàn tại trụ sở Thôn Nho Lâm).\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://khonggianmang.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Khi phát hiện điện thoại tự sáng màn hình, nóng bất thường, đơ cảm ứng sau khi cài file .apk: Phải ngắt kết nối mạng (Tắt Wi-Fi/4G, bật Chế độ máy bay hoặc tháo SIM) NGAY TRONG VÒNG 1 PHÚT!\n- Phí, lệ phí: Hỗ trợ kiểm tra điện thoại nghi nhiễm mã độc tại Công an xã Đức Hợp: Hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Mã độc Android (.apk) khi được cấp quyền Trợ năng (Accessibility) sẽ tự động đọc tin nhắn OTP, ghi lại mật khẩu bàn phím và tự chuyển tiền ngầm trong khi màn hình điện thoại bị làm tối đen hoặc treo logo VNeID giả. Tuyệt đối chỉ cài ứng dụng từ Google Play (CH Play) hoặc App Store!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Tôi có thể nhờ người thân làm thay việc về sao lưu dữ liệu an toàn không, cần hỏi rõ điều gì?\n  (2) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến sao lưu dữ liệu an toàn, tôi cần tìm hiểu điều gì?\n  (3) Sau khi gửi yêu cầu liên quan đến sao lưu dữ liệu an toàn, tôi có thể theo dõi tiến độ thế nào?\n  (4) Người dân ở xã xa trung tâm muốn xử lý việc sao lưu dữ liệu an toàn thì nên hỏi cơ quan nào?\n  (5) Người lớn tuổi cần hỗ trợ về sao lưu dữ liệu an toàn thì có thể nhờ ai hướng dẫn?",
+    "keywords": [
+      "mã độc và an toàn thiết bị",
+      "sao lưu dữ liệu an toàn",
+      "sao",
+      "lưu",
+      "liệu",
+      "toàn"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_155",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Mã độc và an toàn thiết bị] Quy định pháp luật & Hướng dẫn xử lý: Cập nhật phần mềm điện thoại",
+    "legal_basis": "Luật An toàn thông tin mạng năm 2015; Luật An ninh mạng năm 2018; Cảnh báo kỹ thuật của Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (A05 - Bộ Công an)",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật An toàn thông tin mạng năm 2015; Luật An ninh mạng năm 2018; Cảnh báo kỹ thuật của Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (A05 - Bộ Công an). Công dân thực hiện trực tuyến tr...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: CẬP NHẬT PHẦN MỀM ĐIỆN THOẠI (LĨNH VỰC: MÃ ĐỘC VÀ AN TOÀN THIẾT BỊ)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật An toàn thông tin mạng năm 2015; Luật An ninh mạng năm 2018; Cảnh báo kỹ thuật của Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (A05 - Bộ Công an). Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://khonggianmang.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (hỗ trợ kiểm tra, gỡ bỏ ứng dụng giả mạo và hướng dẫn khôi phục cài đặt gốc an toàn tại trụ sở Thôn Nho Lâm) để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Khi phát hiện điện thoại tự sáng màn hình, nóng bất thường, đơ cảm ứng sau khi cài file .apk: Phải ngắt kết nối mạng (Tắt Wi-Fi/4G, bật Chế độ máy bay hoặc tháo SIM) NGAY TRONG VÒNG 1 PHÚT!).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (hỗ trợ kiểm tra, gỡ bỏ ứng dụng giả mạo và hướng dẫn khôi phục cài đặt gốc an toàn tại trụ sở Thôn Nho Lâm).\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://khonggianmang.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Khi phát hiện điện thoại tự sáng màn hình, nóng bất thường, đơ cảm ứng sau khi cài file .apk: Phải ngắt kết nối mạng (Tắt Wi-Fi/4G, bật Chế độ máy bay hoặc tháo SIM) NGAY TRONG VÒNG 1 PHÚT!\n- Phí, lệ phí: Hỗ trợ kiểm tra điện thoại nghi nhiễm mã độc tại Công an xã Đức Hợp: Hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Mã độc Android (.apk) khi được cấp quyền Trợ năng (Accessibility) sẽ tự động đọc tin nhắn OTP, ghi lại mật khẩu bàn phím và tự chuyển tiền ngầm trong khi màn hình điện thoại bị làm tối đen hoặc treo logo VNeID giả. Tuyệt đối chỉ cài ứng dụng từ Google Play (CH Play) hoặc App Store!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có thể làm thủ tục về cập nhật phần mềm điện thoại trên điện thoại không, cần chuẩn bị gì?\n  (2) Người lớn tuổi cần hỗ trợ về cập nhật phần mềm điện thoại thì có thể nhờ ai hướng dẫn?\n  (3) Trong tình huống cập nhật phần mềm điện thoại, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (4) Nếu các bên không thống nhất về cập nhật phần mềm điện thoại, có thể đề nghị cơ quan nào hướng dẫn?\n  (5) Tôi nên kiểm tra thông tin chính thức về cập nhật phần mềm điện thoại trên kênh nào?",
+    "keywords": [
+      "mã độc và an toàn thiết bị",
+      "cập nhật phần mềm điện thoại",
+      "cập",
+      "nhật",
+      "phần",
+      "mềm",
+      "điện",
+      "thoại"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_156",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Mã độc và an toàn thiết bị] Quy định pháp luật & Hướng dẫn xử lý: Bảo vệ thiết bị dùng chung",
+    "legal_basis": "Luật An toàn thông tin mạng năm 2015; Luật An ninh mạng năm 2018; Cảnh báo kỹ thuật của Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (A05 - Bộ Công an)",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật An toàn thông tin mạng năm 2015; Luật An ninh mạng năm 2018; Cảnh báo kỹ thuật của Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (A05 - Bộ Công an). Công dân thực hiện trực tuyến tr...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: BẢO VỆ THIẾT BỊ DÙNG CHUNG (LĨNH VỰC: MÃ ĐỘC VÀ AN TOÀN THIẾT BỊ)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật An toàn thông tin mạng năm 2015; Luật An ninh mạng năm 2018; Cảnh báo kỹ thuật của Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (A05 - Bộ Công an). Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://khonggianmang.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (hỗ trợ kiểm tra, gỡ bỏ ứng dụng giả mạo và hướng dẫn khôi phục cài đặt gốc an toàn tại trụ sở Thôn Nho Lâm) để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Khi phát hiện điện thoại tự sáng màn hình, nóng bất thường, đơ cảm ứng sau khi cài file .apk: Phải ngắt kết nối mạng (Tắt Wi-Fi/4G, bật Chế độ máy bay hoặc tháo SIM) NGAY TRONG VÒNG 1 PHÚT!).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (hỗ trợ kiểm tra, gỡ bỏ ứng dụng giả mạo và hướng dẫn khôi phục cài đặt gốc an toàn tại trụ sở Thôn Nho Lâm).\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://khonggianmang.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Khi phát hiện điện thoại tự sáng màn hình, nóng bất thường, đơ cảm ứng sau khi cài file .apk: Phải ngắt kết nối mạng (Tắt Wi-Fi/4G, bật Chế độ máy bay hoặc tháo SIM) NGAY TRONG VÒNG 1 PHÚT!\n- Phí, lệ phí: Hỗ trợ kiểm tra điện thoại nghi nhiễm mã độc tại Công an xã Đức Hợp: Hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Mã độc Android (.apk) khi được cấp quyền Trợ năng (Accessibility) sẽ tự động đọc tin nhắn OTP, ghi lại mật khẩu bàn phím và tự chuyển tiền ngầm trong khi màn hình điện thoại bị làm tối đen hoặc treo logo VNeID giả. Tuyệt đối chỉ cài ứng dụng từ Google Play (CH Play) hoặc App Store!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Trong tình huống bảo vệ thiết bị dùng chung, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (2) Nếu các bên không thống nhất về bảo vệ thiết bị dùng chung, có thể đề nghị cơ quan nào hướng dẫn?\n  (3) Tôi nên kiểm tra thông tin chính thức về bảo vệ thiết bị dùng chung trên kênh nào?\n  (4) Làm sao phân biệt hướng dẫn chính thức và dịch vụ giả mạo liên quan đến bảo vệ thiết bị dùng chung?\n  (5) Khi gặp vướng mắc về bảo vệ thiết bị dùng chung, tôi cần mô tả thông tin gì để được hỗ trợ?",
+    "keywords": [
+      "mã độc và an toàn thiết bị",
+      "bảo vệ thiết bị dùng chung",
+      "bảo",
+      "thiết",
+      "dùng",
+      "chung"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_157",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[SIM và mã OTP] Quy định pháp luật & Hướng dẫn xử lý: Bảo vệ mã OTP",
+    "legal_basis": "Luật Viễn thông số 24/2023/QH15 (hiệu lực 01/07/2024); Nghị định số 49/2017/NĐ-CP về quản lý thuê bao di động chính chủ; Quyết định 2345/QĐ-NHNN",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Viễn thông số 24/2023/QH15 (hiệu lực 01/07/2024); Nghị định số 49/2017/NĐ-CP về quản lý thuê bao di động chính chủ; Quyết định 2345/QĐ-NHNN. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng D...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: BẢO VỆ MÃ OTP (LĨNH VỰC: SIM VÀ MÃ OTP)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Viễn thông số 24/2023/QH15 (hiệu lực 01/07/2024); Nghị định số 49/2017/NĐ-CP về quản lý thuê bao di động chính chủ; Quyết định 2345/QĐ-NHNN. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://vnta.gov.vn) hoặc liên hệ trực tiếp Các nhà mạng viễn thông (Viettel 18008098, VinaPhone 18001091, MobiFone 18001090), Đầu số tiếp nhận phản ánh tin nhắn/cuộc gọi rác 156 (hoặc 5656) & Công an xã Đức Hợp để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Khi mất SIM hoặc phát hiện SIM tự nhiên mất sóng bất thường: Phải gọi tổng đài nhà mạng khóa SIM chiều đi/đến và khóa ứng dụng ngân hàng ngay lập tức trong vòng 05 - 10 phút.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Các nhà mạng viễn thông (Viettel 18008098, VinaPhone 18001091, MobiFone 18001090), Đầu số tiếp nhận phản ánh tin nhắn/cuộc gọi rác 156 (hoặc 5656) & Công an xã Đức Hợp.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://vnta.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Khi mất SIM hoặc phát hiện SIM tự nhiên mất sóng bất thường: Phải gọi tổng đài nhà mạng khóa SIM chiều đi/đến và khóa ứng dụng ngân hàng ngay lập tức trong vòng 05 - 10 phút.\n- Phí, lệ phí: Nhắn tin hoặc gọi điện phản ánh cuộc gọi rác, cuộc gọi lừa đảo tới đầu số 156 hoàn toàn miễn phí 100%.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Tuyệt đối KHÔNG bấm các cú pháp lạ trên bàn phím cuộc gọi như **21*SĐT# hoặc ##002# theo lời dụ dỗ \"nâng cấp SIM 4G/5G miễn phí\" — đây là lệnh chuyển tiếp toàn bộ cuộc gọi và mã OTP của bạn sang số điện thoại của kẻ lừa đảo! Soạn TTTB gửi 1414 (miễn phí) để kiểm tra thông tin SIM chính chủ.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Bảo vệ mã OTP là gì và tôi có thể tìm hiểu ở đâu?\n  (2) Điều kiện hoặc căn cứ áp dụng với bảo vệ mã OTP được hướng dẫn thế nào?\n  (3) Muốn thực hiện việc liên quan đến bảo vệ mã OTP, tôi cần chuẩn bị giấy tờ gì?\n  (4) Các bước cần lưu ý khi xử lý việc liên quan đến bảo vệ mã OTP là gì?\n  (5) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về bảo vệ mã OTP?",
+    "keywords": [
+      "sim và mã otp",
+      "bảo vệ mã otp",
+      "bảo",
+      "otp"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_158",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[SIM và mã OTP] Quy định pháp luật & Hướng dẫn xử lý: Xử lý khi mất SIM",
+    "legal_basis": "Luật Viễn thông số 24/2023/QH15 (hiệu lực 01/07/2024); Nghị định số 49/2017/NĐ-CP về quản lý thuê bao di động chính chủ; Quyết định 2345/QĐ-NHNN",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Viễn thông số 24/2023/QH15 (hiệu lực 01/07/2024); Nghị định số 49/2017/NĐ-CP về quản lý thuê bao di động chính chủ; Quyết định 2345/QĐ-NHNN. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng D...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: XỬ LÝ KHI MẤT SIM (LĨNH VỰC: SIM VÀ MÃ OTP)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Viễn thông số 24/2023/QH15 (hiệu lực 01/07/2024); Nghị định số 49/2017/NĐ-CP về quản lý thuê bao di động chính chủ; Quyết định 2345/QĐ-NHNN. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://vnta.gov.vn) hoặc liên hệ trực tiếp Các nhà mạng viễn thông (Viettel 18008098, VinaPhone 18001091, MobiFone 18001090), Đầu số tiếp nhận phản ánh tin nhắn/cuộc gọi rác 156 (hoặc 5656) & Công an xã Đức Hợp để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Khi mất SIM hoặc phát hiện SIM tự nhiên mất sóng bất thường: Phải gọi tổng đài nhà mạng khóa SIM chiều đi/đến và khóa ứng dụng ngân hàng ngay lập tức trong vòng 05 - 10 phút.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Các nhà mạng viễn thông (Viettel 18008098, VinaPhone 18001091, MobiFone 18001090), Đầu số tiếp nhận phản ánh tin nhắn/cuộc gọi rác 156 (hoặc 5656) & Công an xã Đức Hợp.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://vnta.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Khi mất SIM hoặc phát hiện SIM tự nhiên mất sóng bất thường: Phải gọi tổng đài nhà mạng khóa SIM chiều đi/đến và khóa ứng dụng ngân hàng ngay lập tức trong vòng 05 - 10 phút.\n- Phí, lệ phí: Nhắn tin hoặc gọi điện phản ánh cuộc gọi rác, cuộc gọi lừa đảo tới đầu số 156 hoàn toàn miễn phí 100%.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Tuyệt đối KHÔNG bấm các cú pháp lạ trên bàn phím cuộc gọi như **21*SĐT# hoặc ##002# theo lời dụ dỗ \"nâng cấp SIM 4G/5G miễn phí\" — đây là lệnh chuyển tiếp toàn bộ cuộc gọi và mã OTP của bạn sang số điện thoại của kẻ lừa đảo! Soạn TTTB gửi 1414 (miễn phí) để kiểm tra thông tin SIM chính chủ.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Các bước cần lưu ý khi xử lý việc liên quan đến xử lý khi mất SIM là gì?\n  (2) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về xử lý khi mất SIM?\n  (3) Có mốc thời gian nào cần lưu ý khi xử lý việc liên quan đến xử lý khi mất SIM không?\n  (4) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến xử lý khi mất SIM không?\n  (5) Nếu mất giấy tờ hoặc bằng chứng liên quan đến xử lý khi mất SIM, tôi nên bắt đầu từ đâu?",
+    "keywords": [
+      "sim và mã otp",
+      "xử lý khi mất sim",
+      "khi",
+      "mất",
+      "sim"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_159",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[SIM và mã OTP] Quy định pháp luật & Hướng dẫn xử lý: Phòng tránh bị chiếm quyền đổi SIM",
+    "legal_basis": "Luật Viễn thông số 24/2023/QH15 (hiệu lực 01/07/2024); Nghị định số 49/2017/NĐ-CP về quản lý thuê bao di động chính chủ; Quyết định 2345/QĐ-NHNN",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Viễn thông số 24/2023/QH15 (hiệu lực 01/07/2024); Nghị định số 49/2017/NĐ-CP về quản lý thuê bao di động chính chủ; Quyết định 2345/QĐ-NHNN. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng D...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: PHÒNG TRÁNH BỊ CHIẾM QUYỀN ĐỔI SIM (LĨNH VỰC: SIM VÀ MÃ OTP)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Viễn thông số 24/2023/QH15 (hiệu lực 01/07/2024); Nghị định số 49/2017/NĐ-CP về quản lý thuê bao di động chính chủ; Quyết định 2345/QĐ-NHNN. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://vnta.gov.vn) hoặc liên hệ trực tiếp Các nhà mạng viễn thông (Viettel 18008098, VinaPhone 18001091, MobiFone 18001090), Đầu số tiếp nhận phản ánh tin nhắn/cuộc gọi rác 156 (hoặc 5656) & Công an xã Đức Hợp để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Khi mất SIM hoặc phát hiện SIM tự nhiên mất sóng bất thường: Phải gọi tổng đài nhà mạng khóa SIM chiều đi/đến và khóa ứng dụng ngân hàng ngay lập tức trong vòng 05 - 10 phút.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Các nhà mạng viễn thông (Viettel 18008098, VinaPhone 18001091, MobiFone 18001090), Đầu số tiếp nhận phản ánh tin nhắn/cuộc gọi rác 156 (hoặc 5656) & Công an xã Đức Hợp.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://vnta.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Khi mất SIM hoặc phát hiện SIM tự nhiên mất sóng bất thường: Phải gọi tổng đài nhà mạng khóa SIM chiều đi/đến và khóa ứng dụng ngân hàng ngay lập tức trong vòng 05 - 10 phút.\n- Phí, lệ phí: Nhắn tin hoặc gọi điện phản ánh cuộc gọi rác, cuộc gọi lừa đảo tới đầu số 156 hoàn toàn miễn phí 100%.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Tuyệt đối KHÔNG bấm các cú pháp lạ trên bàn phím cuộc gọi như **21*SĐT# hoặc ##002# theo lời dụ dỗ \"nâng cấp SIM 4G/5G miễn phí\" — đây là lệnh chuyển tiếp toàn bộ cuộc gọi và mã OTP của bạn sang số điện thoại của kẻ lừa đảo! Soạn TTTB gửi 1414 (miễn phí) để kiểm tra thông tin SIM chính chủ.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến phòng tránh bị chiếm quyền đổi SIM không?\n  (2) Nếu mất giấy tờ hoặc bằng chứng liên quan đến phòng tránh bị chiếm quyền đổi SIM, tôi nên bắt đầu từ đâu?\n  (3) Khi thông tin về phòng tránh bị chiếm quyền đổi SIM bị sai hoặc thay đổi, cần liên hệ nơi nào?\n  (4) Tôi có thể nhờ người thân làm thay việc về phòng tránh bị chiếm quyền đổi SIM không, cần hỏi rõ điều gì?\n  (5) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến phòng tránh bị chiếm quyền đổi SIM, tôi cần tìm hiểu điều gì?",
+    "keywords": [
+      "sim và mã otp",
+      "phòng tránh bị chiếm quyền đổi sim",
+      "phòng",
+      "tránh",
+      "chiếm",
+      "quyền",
+      "đổi",
+      "sim"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_160",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[SIM và mã OTP] Quy định pháp luật & Hướng dẫn xử lý: Xác minh yêu cầu cung cấp mã xác thực",
+    "legal_basis": "Luật Viễn thông số 24/2023/QH15 (hiệu lực 01/07/2024); Nghị định số 49/2017/NĐ-CP về quản lý thuê bao di động chính chủ; Quyết định 2345/QĐ-NHNN",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Viễn thông số 24/2023/QH15 (hiệu lực 01/07/2024); Nghị định số 49/2017/NĐ-CP về quản lý thuê bao di động chính chủ; Quyết định 2345/QĐ-NHNN. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng D...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: XÁC MINH YÊU CẦU CUNG CẤP MÃ XÁC THỰC (LĨNH VỰC: SIM VÀ MÃ OTP)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Viễn thông số 24/2023/QH15 (hiệu lực 01/07/2024); Nghị định số 49/2017/NĐ-CP về quản lý thuê bao di động chính chủ; Quyết định 2345/QĐ-NHNN. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://vnta.gov.vn) hoặc liên hệ trực tiếp Các nhà mạng viễn thông (Viettel 18008098, VinaPhone 18001091, MobiFone 18001090), Đầu số tiếp nhận phản ánh tin nhắn/cuộc gọi rác 156 (hoặc 5656) & Công an xã Đức Hợp để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Khi mất SIM hoặc phát hiện SIM tự nhiên mất sóng bất thường: Phải gọi tổng đài nhà mạng khóa SIM chiều đi/đến và khóa ứng dụng ngân hàng ngay lập tức trong vòng 05 - 10 phút.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Các nhà mạng viễn thông (Viettel 18008098, VinaPhone 18001091, MobiFone 18001090), Đầu số tiếp nhận phản ánh tin nhắn/cuộc gọi rác 156 (hoặc 5656) & Công an xã Đức Hợp.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://vnta.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Khi mất SIM hoặc phát hiện SIM tự nhiên mất sóng bất thường: Phải gọi tổng đài nhà mạng khóa SIM chiều đi/đến và khóa ứng dụng ngân hàng ngay lập tức trong vòng 05 - 10 phút.\n- Phí, lệ phí: Nhắn tin hoặc gọi điện phản ánh cuộc gọi rác, cuộc gọi lừa đảo tới đầu số 156 hoàn toàn miễn phí 100%.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Tuyệt đối KHÔNG bấm các cú pháp lạ trên bàn phím cuộc gọi như **21*SĐT# hoặc ##002# theo lời dụ dỗ \"nâng cấp SIM 4G/5G miễn phí\" — đây là lệnh chuyển tiếp toàn bộ cuộc gọi và mã OTP của bạn sang số điện thoại của kẻ lừa đảo! Soạn TTTB gửi 1414 (miễn phí) để kiểm tra thông tin SIM chính chủ.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Tôi có thể nhờ người thân làm thay việc về xác minh yêu cầu cung cấp mã xác thực không, cần hỏi rõ điều gì?\n  (2) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến xác minh yêu cầu cung cấp mã xác thực, tôi cần tìm hiểu điều gì?\n  (3) Sau khi gửi yêu cầu liên quan đến xác minh yêu cầu cung cấp mã xác thực, tôi có thể theo dõi tiến độ thế nào?\n  (4) Người dân ở xã xa trung tâm muốn xử lý việc xác minh yêu cầu cung cấp mã xác thực thì nên hỏi cơ quan nào?\n  (5) Người lớn tuổi cần hỗ trợ về xác minh yêu cầu cung cấp mã xác thực thì có thể nhờ ai hướng dẫn?",
+    "keywords": [
+      "sim và mã otp",
+      "xác minh yêu cầu cung cấp mã xác thực",
+      "xác",
+      "minh",
+      "yêu",
+      "cầu",
+      "cung",
+      "cấp",
+      "xác",
+      "thực"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_161",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[SIM và mã OTP] Quy định pháp luật & Hướng dẫn xử lý: Khóa SIM khi có giao dịch lạ",
+    "legal_basis": "Luật Viễn thông số 24/2023/QH15 (hiệu lực 01/07/2024); Nghị định số 49/2017/NĐ-CP về quản lý thuê bao di động chính chủ; Quyết định 2345/QĐ-NHNN",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Viễn thông số 24/2023/QH15 (hiệu lực 01/07/2024); Nghị định số 49/2017/NĐ-CP về quản lý thuê bao di động chính chủ; Quyết định 2345/QĐ-NHNN. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng D...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: KHÓA SIM KHI CÓ GIAO DỊCH LẠ (LĨNH VỰC: SIM VÀ MÃ OTP)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Viễn thông số 24/2023/QH15 (hiệu lực 01/07/2024); Nghị định số 49/2017/NĐ-CP về quản lý thuê bao di động chính chủ; Quyết định 2345/QĐ-NHNN. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://vnta.gov.vn) hoặc liên hệ trực tiếp Các nhà mạng viễn thông (Viettel 18008098, VinaPhone 18001091, MobiFone 18001090), Đầu số tiếp nhận phản ánh tin nhắn/cuộc gọi rác 156 (hoặc 5656) & Công an xã Đức Hợp để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Khi mất SIM hoặc phát hiện SIM tự nhiên mất sóng bất thường: Phải gọi tổng đài nhà mạng khóa SIM chiều đi/đến và khóa ứng dụng ngân hàng ngay lập tức trong vòng 05 - 10 phút.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Các nhà mạng viễn thông (Viettel 18008098, VinaPhone 18001091, MobiFone 18001090), Đầu số tiếp nhận phản ánh tin nhắn/cuộc gọi rác 156 (hoặc 5656) & Công an xã Đức Hợp.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://vnta.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Khi mất SIM hoặc phát hiện SIM tự nhiên mất sóng bất thường: Phải gọi tổng đài nhà mạng khóa SIM chiều đi/đến và khóa ứng dụng ngân hàng ngay lập tức trong vòng 05 - 10 phút.\n- Phí, lệ phí: Nhắn tin hoặc gọi điện phản ánh cuộc gọi rác, cuộc gọi lừa đảo tới đầu số 156 hoàn toàn miễn phí 100%.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Tuyệt đối KHÔNG bấm các cú pháp lạ trên bàn phím cuộc gọi như **21*SĐT# hoặc ##002# theo lời dụ dỗ \"nâng cấp SIM 4G/5G miễn phí\" — đây là lệnh chuyển tiếp toàn bộ cuộc gọi và mã OTP của bạn sang số điện thoại của kẻ lừa đảo! Soạn TTTB gửi 1414 (miễn phí) để kiểm tra thông tin SIM chính chủ.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có thể làm thủ tục về khóa SIM khi có giao dịch lạ trên điện thoại không, cần chuẩn bị gì?\n  (2) Người lớn tuổi cần hỗ trợ về khóa SIM khi có giao dịch lạ thì có thể nhờ ai hướng dẫn?\n  (3) Trong tình huống khóa SIM khi có giao dịch lạ, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (4) Nếu các bên không thống nhất về khóa SIM khi có giao dịch lạ, có thể đề nghị cơ quan nào hướng dẫn?\n  (5) Tôi nên kiểm tra thông tin chính thức về khóa SIM khi có giao dịch lạ trên kênh nào?",
+    "keywords": [
+      "sim và mã otp",
+      "khóa sim khi có giao dịch lạ",
+      "khóa",
+      "sim",
+      "khi",
+      "giao",
+      "dịch"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_162",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[SIM và mã OTP] Quy định pháp luật & Hướng dẫn xử lý: Báo nhà mạng về tin nhắn lừa đảo",
+    "legal_basis": "Luật Viễn thông số 24/2023/QH15 (hiệu lực 01/07/2024); Nghị định số 49/2017/NĐ-CP về quản lý thuê bao di động chính chủ; Quyết định 2345/QĐ-NHNN",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Viễn thông số 24/2023/QH15 (hiệu lực 01/07/2024); Nghị định số 49/2017/NĐ-CP về quản lý thuê bao di động chính chủ; Quyết định 2345/QĐ-NHNN. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng D...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: BÁO NHÀ MẠNG VỀ TIN NHẮN LỪA ĐẢO (LĨNH VỰC: SIM VÀ MÃ OTP)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Viễn thông số 24/2023/QH15 (hiệu lực 01/07/2024); Nghị định số 49/2017/NĐ-CP về quản lý thuê bao di động chính chủ; Quyết định 2345/QĐ-NHNN. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://vnta.gov.vn) hoặc liên hệ trực tiếp Các nhà mạng viễn thông (Viettel 18008098, VinaPhone 18001091, MobiFone 18001090), Đầu số tiếp nhận phản ánh tin nhắn/cuộc gọi rác 156 (hoặc 5656) & Công an xã Đức Hợp để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Khi mất SIM hoặc phát hiện SIM tự nhiên mất sóng bất thường: Phải gọi tổng đài nhà mạng khóa SIM chiều đi/đến và khóa ứng dụng ngân hàng ngay lập tức trong vòng 05 - 10 phút.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Các nhà mạng viễn thông (Viettel 18008098, VinaPhone 18001091, MobiFone 18001090), Đầu số tiếp nhận phản ánh tin nhắn/cuộc gọi rác 156 (hoặc 5656) & Công an xã Đức Hợp.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://vnta.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Khi mất SIM hoặc phát hiện SIM tự nhiên mất sóng bất thường: Phải gọi tổng đài nhà mạng khóa SIM chiều đi/đến và khóa ứng dụng ngân hàng ngay lập tức trong vòng 05 - 10 phút.\n- Phí, lệ phí: Nhắn tin hoặc gọi điện phản ánh cuộc gọi rác, cuộc gọi lừa đảo tới đầu số 156 hoàn toàn miễn phí 100%.\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Tuyệt đối KHÔNG bấm các cú pháp lạ trên bàn phím cuộc gọi như **21*SĐT# hoặc ##002# theo lời dụ dỗ \"nâng cấp SIM 4G/5G miễn phí\" — đây là lệnh chuyển tiếp toàn bộ cuộc gọi và mã OTP của bạn sang số điện thoại của kẻ lừa đảo! Soạn TTTB gửi 1414 (miễn phí) để kiểm tra thông tin SIM chính chủ.\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Trong tình huống báo nhà mạng về tin nhắn lừa đảo, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (2) Nếu các bên không thống nhất về báo nhà mạng về tin nhắn lừa đảo, có thể đề nghị cơ quan nào hướng dẫn?\n  (3) Tôi nên kiểm tra thông tin chính thức về báo nhà mạng về tin nhắn lừa đảo trên kênh nào?\n  (4) Làm sao phân biệt hướng dẫn chính thức và dịch vụ giả mạo liên quan đến báo nhà mạng về tin nhắn lừa đảo?\n  (5) Khi gặp vướng mắc về báo nhà mạng về tin nhắn lừa đảo, tôi cần mô tả thông tin gì để được hỗ trợ?",
+    "keywords": [
+      "sim và mã otp",
+      "báo nhà mạng về tin nhắn lừa đảo",
+      "báo",
+      "nhà",
+      "mạng",
+      "tin",
+      "nhắn",
+      "lừa",
+      "đảo"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_163",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Tuyển dụng và đầu tư giả] Quy định pháp luật & Hướng dẫn xử lý: Nhận diện tuyển dụng yêu cầu nộp phí",
+    "legal_basis": "Bộ luật Lao động năm 2019 (Điều 11, Điều 17 nghiêm cấm thu tiền của người lao động khi tuyển dụng); Luật Chứng khoán năm 2019; Điều 174 & Điều 290 Bộ luật Hình sự",
+    "summary": "Áp dụng trực tiếp theo quy định tại Bộ luật Lao động năm 2019 (Điều 11, Điều 17 nghiêm cấm thu tiền của người lao động khi tuyển dụng); Luật Chứng khoán năm 2019; Điều 174 & Điều 290 Bộ luật Hình sự. Công dân thực hiện trực tuyến trên ứng d...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: NHẬN DIỆN TUYỂN DỤNG YÊU CẦU NỘP PHÍ (LĨNH VỰC: TUYỂN DỤNG VÀ ĐẦU TƯ GIẢ)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Bộ luật Lao động năm 2019 (Điều 11, Điều 17 nghiêm cấm thu tiền của người lao động khi tuyển dụng); Luật Chứng khoán năm 2019; Điều 174 & Điều 290 Bộ luật Hình sự. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://ssc.gov.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (tiếp nhận đơn trình báo lừa đảo tuyển CTV đơn hàng ảo, đầu tư sàn tài chính giả mạo; SĐT: 02213.815.999) để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Nếu lỡ chuyển tiền làm nhiệm vụ Shopee/TikTok ảo hoặc nạp sàn Forex/Tiền ảo: Dừng nạp tiền ngay lập tức (tuyệt đối không nộp thêm \"phí mở băng, phí giải ngân, thuế TNCN\") và đến Công an xã Đức Hợp trình báo trong thời gian sớm nhất.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (tiếp nhận đơn trình báo lừa đảo tuyển CTV đơn hàng ảo, đầu tư sàn tài chính giả mạo; SĐT: 02213.815.999).\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://ssc.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Nếu lỡ chuyển tiền làm nhiệm vụ Shopee/TikTok ảo hoặc nạp sàn Forex/Tiền ảo: Dừng nạp tiền ngay lập tức (tuyệt đối không nộp thêm \"phí mở băng, phí giải ngân, thuế TNCN\") và đến Công an xã Đức Hợp trình báo trong thời gian sớm nhất.\n- Phí, lệ phí: Theo Bộ luật Lao động 2019, doanh nghiệp tuyển dụng KHÔNG ĐƯỢC PHÉP thu bất kỳ khoản phí dự tuyển, tiền đặt cọc hay tiền \"ứng vốn thanh toán đơn hàng\" nào của người ứng tuyển!\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Pháp luật Việt Nam hiện KHÔNG cấp phép cho bất kỳ sàn giao dịch ngoại hối (Forex) hay sàn tiền ảo/tiền mã hóa nào. Mọi lời mời chào \"việc nhẹ lương cao tại nhà hưởng hoa hồng 10-20%/đơn\" hoặc \"đầu tư cam kết lãi suất 30-50%/tháng bao lỗ\" đều 100% là lừa đảo!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Nhận diện tuyển dụng yêu cầu nộp phí là gì và tôi có thể tìm hiểu ở đâu?\n  (2) Điều kiện hoặc căn cứ áp dụng với nhận diện tuyển dụng yêu cầu nộp phí được hướng dẫn thế nào?\n  (3) Muốn thực hiện việc liên quan đến nhận diện tuyển dụng yêu cầu nộp phí, tôi cần chuẩn bị giấy tờ gì?\n  (4) Các bước cần lưu ý khi xử lý việc liên quan đến nhận diện tuyển dụng yêu cầu nộp phí là gì?\n  (5) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về nhận diện tuyển dụng yêu cầu nộp phí?",
+    "keywords": [
+      "tuyển dụng và đầu tư giả",
+      "nhận diện tuyển dụng yêu cầu nộp phí",
+      "nhận",
+      "diện",
+      "tuyển",
+      "dụng",
+      "yêu",
+      "cầu",
+      "nộp",
+      "phí"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_164",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Tuyển dụng và đầu tư giả] Quy định pháp luật & Hướng dẫn xử lý: Kiểm tra lời mời việc làm từ xa",
+    "legal_basis": "Bộ luật Lao động năm 2019 (Điều 11, Điều 17 nghiêm cấm thu tiền của người lao động khi tuyển dụng); Luật Chứng khoán năm 2019; Điều 174 & Điều 290 Bộ luật Hình sự",
+    "summary": "Áp dụng trực tiếp theo quy định tại Bộ luật Lao động năm 2019 (Điều 11, Điều 17 nghiêm cấm thu tiền của người lao động khi tuyển dụng); Luật Chứng khoán năm 2019; Điều 174 & Điều 290 Bộ luật Hình sự. Công dân thực hiện trực tuyến trên ứng d...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: KIỂM TRA LỜI MỜI VIỆC LÀM TỪ XA (LĨNH VỰC: TUYỂN DỤNG VÀ ĐẦU TƯ GIẢ)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Bộ luật Lao động năm 2019 (Điều 11, Điều 17 nghiêm cấm thu tiền của người lao động khi tuyển dụng); Luật Chứng khoán năm 2019; Điều 174 & Điều 290 Bộ luật Hình sự. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://ssc.gov.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (tiếp nhận đơn trình báo lừa đảo tuyển CTV đơn hàng ảo, đầu tư sàn tài chính giả mạo; SĐT: 02213.815.999) để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Nếu lỡ chuyển tiền làm nhiệm vụ Shopee/TikTok ảo hoặc nạp sàn Forex/Tiền ảo: Dừng nạp tiền ngay lập tức (tuyệt đối không nộp thêm \"phí mở băng, phí giải ngân, thuế TNCN\") và đến Công an xã Đức Hợp trình báo trong thời gian sớm nhất.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (tiếp nhận đơn trình báo lừa đảo tuyển CTV đơn hàng ảo, đầu tư sàn tài chính giả mạo; SĐT: 02213.815.999).\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://ssc.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Nếu lỡ chuyển tiền làm nhiệm vụ Shopee/TikTok ảo hoặc nạp sàn Forex/Tiền ảo: Dừng nạp tiền ngay lập tức (tuyệt đối không nộp thêm \"phí mở băng, phí giải ngân, thuế TNCN\") và đến Công an xã Đức Hợp trình báo trong thời gian sớm nhất.\n- Phí, lệ phí: Theo Bộ luật Lao động 2019, doanh nghiệp tuyển dụng KHÔNG ĐƯỢC PHÉP thu bất kỳ khoản phí dự tuyển, tiền đặt cọc hay tiền \"ứng vốn thanh toán đơn hàng\" nào của người ứng tuyển!\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Pháp luật Việt Nam hiện KHÔNG cấp phép cho bất kỳ sàn giao dịch ngoại hối (Forex) hay sàn tiền ảo/tiền mã hóa nào. Mọi lời mời chào \"việc nhẹ lương cao tại nhà hưởng hoa hồng 10-20%/đơn\" hoặc \"đầu tư cam kết lãi suất 30-50%/tháng bao lỗ\" đều 100% là lừa đảo!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Các bước cần lưu ý khi xử lý việc liên quan đến kiểm tra lời mời việc làm từ xa là gì?\n  (2) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về kiểm tra lời mời việc làm từ xa?\n  (3) Có mốc thời gian nào cần lưu ý khi xử lý việc liên quan đến kiểm tra lời mời việc làm từ xa không?\n  (4) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến kiểm tra lời mời việc làm từ xa không?\n  (5) Nếu mất giấy tờ hoặc bằng chứng liên quan đến kiểm tra lời mời việc làm từ xa, tôi nên bắt đầu từ đâu?",
+    "keywords": [
+      "tuyển dụng và đầu tư giả",
+      "kiểm tra lời mời việc làm từ xa",
+      "kiểm",
+      "tra",
+      "lời",
+      "mời",
+      "việc",
+      "làm"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_165",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Tuyển dụng và đầu tư giả] Quy định pháp luật & Hướng dẫn xử lý: Nhận diện đầu tư lợi nhuận bất thường",
+    "legal_basis": "Bộ luật Lao động năm 2019 (Điều 11, Điều 17 nghiêm cấm thu tiền của người lao động khi tuyển dụng); Luật Chứng khoán năm 2019; Điều 174 & Điều 290 Bộ luật Hình sự",
+    "summary": "Áp dụng trực tiếp theo quy định tại Bộ luật Lao động năm 2019 (Điều 11, Điều 17 nghiêm cấm thu tiền của người lao động khi tuyển dụng); Luật Chứng khoán năm 2019; Điều 174 & Điều 290 Bộ luật Hình sự. Công dân thực hiện trực tuyến trên ứng d...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: NHẬN DIỆN ĐẦU TƯ LỢI NHUẬN BẤT THƯỜNG (LĨNH VỰC: TUYỂN DỤNG VÀ ĐẦU TƯ GIẢ)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Bộ luật Lao động năm 2019 (Điều 11, Điều 17 nghiêm cấm thu tiền của người lao động khi tuyển dụng); Luật Chứng khoán năm 2019; Điều 174 & Điều 290 Bộ luật Hình sự. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://ssc.gov.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (tiếp nhận đơn trình báo lừa đảo tuyển CTV đơn hàng ảo, đầu tư sàn tài chính giả mạo; SĐT: 02213.815.999) để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Nếu lỡ chuyển tiền làm nhiệm vụ Shopee/TikTok ảo hoặc nạp sàn Forex/Tiền ảo: Dừng nạp tiền ngay lập tức (tuyệt đối không nộp thêm \"phí mở băng, phí giải ngân, thuế TNCN\") và đến Công an xã Đức Hợp trình báo trong thời gian sớm nhất.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (tiếp nhận đơn trình báo lừa đảo tuyển CTV đơn hàng ảo, đầu tư sàn tài chính giả mạo; SĐT: 02213.815.999).\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://ssc.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Nếu lỡ chuyển tiền làm nhiệm vụ Shopee/TikTok ảo hoặc nạp sàn Forex/Tiền ảo: Dừng nạp tiền ngay lập tức (tuyệt đối không nộp thêm \"phí mở băng, phí giải ngân, thuế TNCN\") và đến Công an xã Đức Hợp trình báo trong thời gian sớm nhất.\n- Phí, lệ phí: Theo Bộ luật Lao động 2019, doanh nghiệp tuyển dụng KHÔNG ĐƯỢC PHÉP thu bất kỳ khoản phí dự tuyển, tiền đặt cọc hay tiền \"ứng vốn thanh toán đơn hàng\" nào của người ứng tuyển!\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Pháp luật Việt Nam hiện KHÔNG cấp phép cho bất kỳ sàn giao dịch ngoại hối (Forex) hay sàn tiền ảo/tiền mã hóa nào. Mọi lời mời chào \"việc nhẹ lương cao tại nhà hưởng hoa hồng 10-20%/đơn\" hoặc \"đầu tư cam kết lãi suất 30-50%/tháng bao lỗ\" đều 100% là lừa đảo!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến nhận diện đầu tư lợi nhuận bất thường không?\n  (2) Nếu mất giấy tờ hoặc bằng chứng liên quan đến nhận diện đầu tư lợi nhuận bất thường, tôi nên bắt đầu từ đâu?\n  (3) Khi thông tin về nhận diện đầu tư lợi nhuận bất thường bị sai hoặc thay đổi, cần liên hệ nơi nào?\n  (4) Tôi có thể nhờ người thân làm thay việc về nhận diện đầu tư lợi nhuận bất thường không, cần hỏi rõ điều gì?\n  (5) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến nhận diện đầu tư lợi nhuận bất thường, tôi cần tìm hiểu điều gì?",
+    "keywords": [
+      "tuyển dụng và đầu tư giả",
+      "nhận diện đầu tư lợi nhuận bất thường",
+      "nhận",
+      "diện",
+      "đầu",
+      "lợi",
+      "nhuận",
+      "bất",
+      "thường"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_166",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Tuyển dụng và đầu tư giả] Quy định pháp luật & Hướng dẫn xử lý: Xử lý khi nộp tiền cho môi giới giả",
+    "legal_basis": "Bộ luật Lao động năm 2019 (Điều 11, Điều 17 nghiêm cấm thu tiền của người lao động khi tuyển dụng); Luật Chứng khoán năm 2019; Điều 174 & Điều 290 Bộ luật Hình sự",
+    "summary": "Áp dụng trực tiếp theo quy định tại Bộ luật Lao động năm 2019 (Điều 11, Điều 17 nghiêm cấm thu tiền của người lao động khi tuyển dụng); Luật Chứng khoán năm 2019; Điều 174 & Điều 290 Bộ luật Hình sự. Công dân thực hiện trực tuyến trên ứng d...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: XỬ LÝ KHI NỘP TIỀN CHO MÔI GIỚI GIẢ (LĨNH VỰC: TUYỂN DỤNG VÀ ĐẦU TƯ GIẢ)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Bộ luật Lao động năm 2019 (Điều 11, Điều 17 nghiêm cấm thu tiền của người lao động khi tuyển dụng); Luật Chứng khoán năm 2019; Điều 174 & Điều 290 Bộ luật Hình sự. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://ssc.gov.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (tiếp nhận đơn trình báo lừa đảo tuyển CTV đơn hàng ảo, đầu tư sàn tài chính giả mạo; SĐT: 02213.815.999) để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Nếu lỡ chuyển tiền làm nhiệm vụ Shopee/TikTok ảo hoặc nạp sàn Forex/Tiền ảo: Dừng nạp tiền ngay lập tức (tuyệt đối không nộp thêm \"phí mở băng, phí giải ngân, thuế TNCN\") và đến Công an xã Đức Hợp trình báo trong thời gian sớm nhất.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (tiếp nhận đơn trình báo lừa đảo tuyển CTV đơn hàng ảo, đầu tư sàn tài chính giả mạo; SĐT: 02213.815.999).\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://ssc.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Nếu lỡ chuyển tiền làm nhiệm vụ Shopee/TikTok ảo hoặc nạp sàn Forex/Tiền ảo: Dừng nạp tiền ngay lập tức (tuyệt đối không nộp thêm \"phí mở băng, phí giải ngân, thuế TNCN\") và đến Công an xã Đức Hợp trình báo trong thời gian sớm nhất.\n- Phí, lệ phí: Theo Bộ luật Lao động 2019, doanh nghiệp tuyển dụng KHÔNG ĐƯỢC PHÉP thu bất kỳ khoản phí dự tuyển, tiền đặt cọc hay tiền \"ứng vốn thanh toán đơn hàng\" nào của người ứng tuyển!\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Pháp luật Việt Nam hiện KHÔNG cấp phép cho bất kỳ sàn giao dịch ngoại hối (Forex) hay sàn tiền ảo/tiền mã hóa nào. Mọi lời mời chào \"việc nhẹ lương cao tại nhà hưởng hoa hồng 10-20%/đơn\" hoặc \"đầu tư cam kết lãi suất 30-50%/tháng bao lỗ\" đều 100% là lừa đảo!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Tôi có thể nhờ người thân làm thay việc về xử lý khi nộp tiền cho môi giới giả không, cần hỏi rõ điều gì?\n  (2) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến xử lý khi nộp tiền cho môi giới giả, tôi cần tìm hiểu điều gì?\n  (3) Sau khi gửi yêu cầu liên quan đến xử lý khi nộp tiền cho môi giới giả, tôi có thể theo dõi tiến độ thế nào?\n  (4) Người dân ở xã xa trung tâm muốn xử lý việc xử lý khi nộp tiền cho môi giới giả thì nên hỏi cơ quan nào?\n  (5) Người lớn tuổi cần hỗ trợ về xử lý khi nộp tiền cho môi giới giả thì có thể nhờ ai hướng dẫn?",
+    "keywords": [
+      "tuyển dụng và đầu tư giả",
+      "xử lý khi nộp tiền cho môi giới giả",
+      "khi",
+      "nộp",
+      "tiền",
+      "cho",
+      "môi",
+      "giới",
+      "giả"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_167",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Tuyển dụng và đầu tư giả] Quy định pháp luật & Hướng dẫn xử lý: Kiểm tra giấy phép đơn vị đầu tư",
+    "legal_basis": "Bộ luật Lao động năm 2019 (Điều 11, Điều 17 nghiêm cấm thu tiền của người lao động khi tuyển dụng); Luật Chứng khoán năm 2019; Điều 174 & Điều 290 Bộ luật Hình sự",
+    "summary": "Áp dụng trực tiếp theo quy định tại Bộ luật Lao động năm 2019 (Điều 11, Điều 17 nghiêm cấm thu tiền của người lao động khi tuyển dụng); Luật Chứng khoán năm 2019; Điều 174 & Điều 290 Bộ luật Hình sự. Công dân thực hiện trực tuyến trên ứng d...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: KIỂM TRA GIẤY PHÉP ĐƠN VỊ ĐẦU TƯ (LĨNH VỰC: TUYỂN DỤNG VÀ ĐẦU TƯ GIẢ)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Bộ luật Lao động năm 2019 (Điều 11, Điều 17 nghiêm cấm thu tiền của người lao động khi tuyển dụng); Luật Chứng khoán năm 2019; Điều 174 & Điều 290 Bộ luật Hình sự. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://ssc.gov.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (tiếp nhận đơn trình báo lừa đảo tuyển CTV đơn hàng ảo, đầu tư sàn tài chính giả mạo; SĐT: 02213.815.999) để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Nếu lỡ chuyển tiền làm nhiệm vụ Shopee/TikTok ảo hoặc nạp sàn Forex/Tiền ảo: Dừng nạp tiền ngay lập tức (tuyệt đối không nộp thêm \"phí mở băng, phí giải ngân, thuế TNCN\") và đến Công an xã Đức Hợp trình báo trong thời gian sớm nhất.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (tiếp nhận đơn trình báo lừa đảo tuyển CTV đơn hàng ảo, đầu tư sàn tài chính giả mạo; SĐT: 02213.815.999).\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://ssc.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Nếu lỡ chuyển tiền làm nhiệm vụ Shopee/TikTok ảo hoặc nạp sàn Forex/Tiền ảo: Dừng nạp tiền ngay lập tức (tuyệt đối không nộp thêm \"phí mở băng, phí giải ngân, thuế TNCN\") và đến Công an xã Đức Hợp trình báo trong thời gian sớm nhất.\n- Phí, lệ phí: Theo Bộ luật Lao động 2019, doanh nghiệp tuyển dụng KHÔNG ĐƯỢC PHÉP thu bất kỳ khoản phí dự tuyển, tiền đặt cọc hay tiền \"ứng vốn thanh toán đơn hàng\" nào của người ứng tuyển!\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Pháp luật Việt Nam hiện KHÔNG cấp phép cho bất kỳ sàn giao dịch ngoại hối (Forex) hay sàn tiền ảo/tiền mã hóa nào. Mọi lời mời chào \"việc nhẹ lương cao tại nhà hưởng hoa hồng 10-20%/đơn\" hoặc \"đầu tư cam kết lãi suất 30-50%/tháng bao lỗ\" đều 100% là lừa đảo!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có thể làm thủ tục về kiểm tra giấy phép đơn vị đầu tư trên điện thoại không, cần chuẩn bị gì?\n  (2) Người lớn tuổi cần hỗ trợ về kiểm tra giấy phép đơn vị đầu tư thì có thể nhờ ai hướng dẫn?\n  (3) Trong tình huống kiểm tra giấy phép đơn vị đầu tư, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (4) Nếu các bên không thống nhất về kiểm tra giấy phép đơn vị đầu tư, có thể đề nghị cơ quan nào hướng dẫn?\n  (5) Tôi nên kiểm tra thông tin chính thức về kiểm tra giấy phép đơn vị đầu tư trên kênh nào?",
+    "keywords": [
+      "tuyển dụng và đầu tư giả",
+      "kiểm tra giấy phép đơn vị đầu tư",
+      "kiểm",
+      "tra",
+      "giấy",
+      "phép",
+      "đơn",
+      "đầu"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_168",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Tuyển dụng và đầu tư giả] Quy định pháp luật & Hướng dẫn xử lý: Báo tin về tuyển dụng lừa đảo",
+    "legal_basis": "Bộ luật Lao động năm 2019 (Điều 11, Điều 17 nghiêm cấm thu tiền của người lao động khi tuyển dụng); Luật Chứng khoán năm 2019; Điều 174 & Điều 290 Bộ luật Hình sự",
+    "summary": "Áp dụng trực tiếp theo quy định tại Bộ luật Lao động năm 2019 (Điều 11, Điều 17 nghiêm cấm thu tiền của người lao động khi tuyển dụng); Luật Chứng khoán năm 2019; Điều 174 & Điều 290 Bộ luật Hình sự. Công dân thực hiện trực tuyến trên ứng d...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: BÁO TIN VỀ TUYỂN DỤNG LỪA ĐẢO (LĨNH VỰC: TUYỂN DỤNG VÀ ĐẦU TƯ GIẢ)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Bộ luật Lao động năm 2019 (Điều 11, Điều 17 nghiêm cấm thu tiền của người lao động khi tuyển dụng); Luật Chứng khoán năm 2019; Điều 174 & Điều 290 Bộ luật Hình sự. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://ssc.gov.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (tiếp nhận đơn trình báo lừa đảo tuyển CTV đơn hàng ảo, đầu tư sàn tài chính giả mạo; SĐT: 02213.815.999) để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Nếu lỡ chuyển tiền làm nhiệm vụ Shopee/TikTok ảo hoặc nạp sàn Forex/Tiền ảo: Dừng nạp tiền ngay lập tức (tuyệt đối không nộp thêm \"phí mở băng, phí giải ngân, thuế TNCN\") và đến Công an xã Đức Hợp trình báo trong thời gian sớm nhất.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (tiếp nhận đơn trình báo lừa đảo tuyển CTV đơn hàng ảo, đầu tư sàn tài chính giả mạo; SĐT: 02213.815.999).\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://ssc.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Nếu lỡ chuyển tiền làm nhiệm vụ Shopee/TikTok ảo hoặc nạp sàn Forex/Tiền ảo: Dừng nạp tiền ngay lập tức (tuyệt đối không nộp thêm \"phí mở băng, phí giải ngân, thuế TNCN\") và đến Công an xã Đức Hợp trình báo trong thời gian sớm nhất.\n- Phí, lệ phí: Theo Bộ luật Lao động 2019, doanh nghiệp tuyển dụng KHÔNG ĐƯỢC PHÉP thu bất kỳ khoản phí dự tuyển, tiền đặt cọc hay tiền \"ứng vốn thanh toán đơn hàng\" nào của người ứng tuyển!\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Pháp luật Việt Nam hiện KHÔNG cấp phép cho bất kỳ sàn giao dịch ngoại hối (Forex) hay sàn tiền ảo/tiền mã hóa nào. Mọi lời mời chào \"việc nhẹ lương cao tại nhà hưởng hoa hồng 10-20%/đơn\" hoặc \"đầu tư cam kết lãi suất 30-50%/tháng bao lỗ\" đều 100% là lừa đảo!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Trong tình huống báo tin về tuyển dụng lừa đảo, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (2) Nếu các bên không thống nhất về báo tin về tuyển dụng lừa đảo, có thể đề nghị cơ quan nào hướng dẫn?\n  (3) Tôi nên kiểm tra thông tin chính thức về báo tin về tuyển dụng lừa đảo trên kênh nào?\n  (4) Làm sao phân biệt hướng dẫn chính thức và dịch vụ giả mạo liên quan đến báo tin về tuyển dụng lừa đảo?\n  (5) Khi gặp vướng mắc về báo tin về tuyển dụng lừa đảo, tôi cần mô tả thông tin gì để được hỗ trợ?",
+    "keywords": [
+      "tuyển dụng và đầu tư giả",
+      "báo tin về tuyển dụng lừa đảo",
+      "báo",
+      "tin",
+      "tuyển",
+      "dụng",
+      "lừa",
+      "đảo"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_169",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Deepfake] Quy định pháp luật & Hướng dẫn xử lý: Nhận biết cuộc gọi video giả bằng AI",
+    "legal_basis": "Luật An ninh mạng năm 2018; Nghị định số 13/2023/NĐ-CP (dữ liệu sinh trắc học giọng nói, khuôn mặt là dữ liệu cá nhân nhạy cảm); Điều 174 & Điều 290 Bộ luật Hình sự",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật An ninh mạng năm 2018; Nghị định số 13/2023/NĐ-CP (dữ liệu sinh trắc học giọng nói, khuôn mặt là dữ liệu cá nhân nhạy cảm); Điều 174 & Điều 290 Bộ luật Hình sự. Công dân thực hiện trực tuyến trên ứng...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: NHẬN BIẾT CUỘC GỌI VIDEO GIẢ BẰNG AI (LĨNH VỰC: DEEPFAKE)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật An ninh mạng năm 2018; Nghị định số 13/2023/NĐ-CP (dữ liệu sinh trắc học giọng nói, khuôn mặt là dữ liệu cá nhân nhạy cảm); Điều 174 & Điều 290 Bộ luật Hình sự. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://khonggianmang.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (Trực ban tiếp nhận trình báo 24/24h: 02213.815.999) & Phòng PA05 Công an tỉnh Hưng Yên để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Trước khi chuyển bất kỳ khoản tiền nào cho người thân/bạn bè qua mạng xã hội: Dành tối thiểu 01 - 02 phút gọi lại bằng số điện thoại di động truyền thống (GSM) để xác nhận.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (Trực ban tiếp nhận trình báo 24/24h: 02213.815.999) & Phòng PA05 Công an tỉnh Hưng Yên.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://khonggianmang.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Trước khi chuyển bất kỳ khoản tiền nào cho người thân/bạn bè qua mạng xã hội: Dành tối thiểu 01 - 02 phút gọi lại bằng số điện thoại di động truyền thống (GSM) để xác nhận.\n- Phí, lệ phí: Tư vấn nhận diện và tiếp nhận trình báo cuộc gọi giả mạo AI Deepfake tại Công an xã Đức Hợp: Hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Dấu hiệu nhận diện cuộc gọi video Deepfake: Thời lượng rất ngắn (chỉ 3 - 10 giây rồi tự tắt báo sóng yếu), hình ảnh khuôn mặt hơi nhòe ở viền hàm/mắt, khẩu hình miệng lệch nhịp âm thanh, và ĐẶC BIỆT là yêu cầu chuyển tiền gấp vào một số tài khoản ngân hàng mang tên người lạ (viện cớ tài khoản chính đang bảo trì).\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Nhận biết cuộc gọi video giả bằng AI là gì và tôi có thể tìm hiểu ở đâu?\n  (2) Điều kiện hoặc căn cứ áp dụng với nhận biết cuộc gọi video giả bằng AI được hướng dẫn thế nào?\n  (3) Muốn thực hiện việc liên quan đến nhận biết cuộc gọi video giả bằng AI, tôi cần chuẩn bị giấy tờ gì?\n  (4) Các bước cần lưu ý khi xử lý việc liên quan đến nhận biết cuộc gọi video giả bằng AI là gì?\n  (5) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về nhận biết cuộc gọi video giả bằng AI?",
+    "keywords": [
+      "deepfake",
+      "nhận biết cuộc gọi video giả bằng ai",
+      "nhận",
+      "biết",
+      "cuộc",
+      "gọi",
+      "video",
+      "giả",
+      "bằng"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_170",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Deepfake] Quy định pháp luật & Hướng dẫn xử lý: Xác minh yêu cầu chuyển tiền qua video",
+    "legal_basis": "Luật An ninh mạng năm 2018; Nghị định số 13/2023/NĐ-CP (dữ liệu sinh trắc học giọng nói, khuôn mặt là dữ liệu cá nhân nhạy cảm); Điều 174 & Điều 290 Bộ luật Hình sự",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật An ninh mạng năm 2018; Nghị định số 13/2023/NĐ-CP (dữ liệu sinh trắc học giọng nói, khuôn mặt là dữ liệu cá nhân nhạy cảm); Điều 174 & Điều 290 Bộ luật Hình sự. Công dân thực hiện trực tuyến trên ứng...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: XÁC MINH YÊU CẦU CHUYỂN TIỀN QUA VIDEO (LĨNH VỰC: DEEPFAKE)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật An ninh mạng năm 2018; Nghị định số 13/2023/NĐ-CP (dữ liệu sinh trắc học giọng nói, khuôn mặt là dữ liệu cá nhân nhạy cảm); Điều 174 & Điều 290 Bộ luật Hình sự. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://khonggianmang.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (Trực ban tiếp nhận trình báo 24/24h: 02213.815.999) & Phòng PA05 Công an tỉnh Hưng Yên để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Trước khi chuyển bất kỳ khoản tiền nào cho người thân/bạn bè qua mạng xã hội: Dành tối thiểu 01 - 02 phút gọi lại bằng số điện thoại di động truyền thống (GSM) để xác nhận.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (Trực ban tiếp nhận trình báo 24/24h: 02213.815.999) & Phòng PA05 Công an tỉnh Hưng Yên.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://khonggianmang.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Trước khi chuyển bất kỳ khoản tiền nào cho người thân/bạn bè qua mạng xã hội: Dành tối thiểu 01 - 02 phút gọi lại bằng số điện thoại di động truyền thống (GSM) để xác nhận.\n- Phí, lệ phí: Tư vấn nhận diện và tiếp nhận trình báo cuộc gọi giả mạo AI Deepfake tại Công an xã Đức Hợp: Hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Dấu hiệu nhận diện cuộc gọi video Deepfake: Thời lượng rất ngắn (chỉ 3 - 10 giây rồi tự tắt báo sóng yếu), hình ảnh khuôn mặt hơi nhòe ở viền hàm/mắt, khẩu hình miệng lệch nhịp âm thanh, và ĐẶC BIỆT là yêu cầu chuyển tiền gấp vào một số tài khoản ngân hàng mang tên người lạ (viện cớ tài khoản chính đang bảo trì).\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Các bước cần lưu ý khi xử lý việc liên quan đến xác minh yêu cầu chuyển tiền qua video là gì?\n  (2) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về xác minh yêu cầu chuyển tiền qua video?\n  (3) Có mốc thời gian nào cần lưu ý khi xử lý việc liên quan đến xác minh yêu cầu chuyển tiền qua video không?\n  (4) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến xác minh yêu cầu chuyển tiền qua video không?\n  (5) Nếu mất giấy tờ hoặc bằng chứng liên quan đến xác minh yêu cầu chuyển tiền qua video, tôi nên bắt đầu từ đâu?",
+    "keywords": [
+      "deepfake",
+      "xác minh yêu cầu chuyển tiền qua video",
+      "xác",
+      "minh",
+      "yêu",
+      "cầu",
+      "chuyển",
+      "tiền",
+      "qua",
+      "video"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_171",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Deepfake] Quy định pháp luật & Hướng dẫn xử lý: Kiểm tra hình ảnh hoặc giọng nói bị làm giả",
+    "legal_basis": "Luật An ninh mạng năm 2018; Nghị định số 13/2023/NĐ-CP (dữ liệu sinh trắc học giọng nói, khuôn mặt là dữ liệu cá nhân nhạy cảm); Điều 174 & Điều 290 Bộ luật Hình sự",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật An ninh mạng năm 2018; Nghị định số 13/2023/NĐ-CP (dữ liệu sinh trắc học giọng nói, khuôn mặt là dữ liệu cá nhân nhạy cảm); Điều 174 & Điều 290 Bộ luật Hình sự. Công dân thực hiện trực tuyến trên ứng...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: KIỂM TRA HÌNH ẢNH HOẶC GIỌNG NÓI BỊ LÀM GIẢ (LĨNH VỰC: DEEPFAKE)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật An ninh mạng năm 2018; Nghị định số 13/2023/NĐ-CP (dữ liệu sinh trắc học giọng nói, khuôn mặt là dữ liệu cá nhân nhạy cảm); Điều 174 & Điều 290 Bộ luật Hình sự. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://khonggianmang.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (Trực ban tiếp nhận trình báo 24/24h: 02213.815.999) & Phòng PA05 Công an tỉnh Hưng Yên để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Trước khi chuyển bất kỳ khoản tiền nào cho người thân/bạn bè qua mạng xã hội: Dành tối thiểu 01 - 02 phút gọi lại bằng số điện thoại di động truyền thống (GSM) để xác nhận.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (Trực ban tiếp nhận trình báo 24/24h: 02213.815.999) & Phòng PA05 Công an tỉnh Hưng Yên.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://khonggianmang.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Trước khi chuyển bất kỳ khoản tiền nào cho người thân/bạn bè qua mạng xã hội: Dành tối thiểu 01 - 02 phút gọi lại bằng số điện thoại di động truyền thống (GSM) để xác nhận.\n- Phí, lệ phí: Tư vấn nhận diện và tiếp nhận trình báo cuộc gọi giả mạo AI Deepfake tại Công an xã Đức Hợp: Hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Dấu hiệu nhận diện cuộc gọi video Deepfake: Thời lượng rất ngắn (chỉ 3 - 10 giây rồi tự tắt báo sóng yếu), hình ảnh khuôn mặt hơi nhòe ở viền hàm/mắt, khẩu hình miệng lệch nhịp âm thanh, và ĐẶC BIỆT là yêu cầu chuyển tiền gấp vào một số tài khoản ngân hàng mang tên người lạ (viện cớ tài khoản chính đang bảo trì).\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến kiểm tra hình ảnh hoặc giọng nói bị làm giả không?\n  (2) Nếu mất giấy tờ hoặc bằng chứng liên quan đến kiểm tra hình ảnh hoặc giọng nói bị làm giả, tôi nên bắt đầu từ đâu?\n  (3) Khi thông tin về kiểm tra hình ảnh hoặc giọng nói bị làm giả bị sai hoặc thay đổi, cần liên hệ nơi nào?\n  (4) Tôi có thể nhờ người thân làm thay việc về kiểm tra hình ảnh hoặc giọng nói bị làm giả không, cần hỏi rõ điều gì?\n  (5) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến kiểm tra hình ảnh hoặc giọng nói bị làm giả, tôi cần tìm hiểu điều gì?",
+    "keywords": [
+      "deepfake",
+      "kiểm tra hình ảnh hoặc giọng nói bị làm giả",
+      "kiểm",
+      "tra",
+      "hình",
+      "ảnh",
+      "hoặc",
+      "giọng",
+      "nói",
+      "làm",
+      "giả"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_172",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Deepfake] Quy định pháp luật & Hướng dẫn xử lý: Báo cáo nội dung deepfake gây hại",
+    "legal_basis": "Luật An ninh mạng năm 2018; Nghị định số 13/2023/NĐ-CP (dữ liệu sinh trắc học giọng nói, khuôn mặt là dữ liệu cá nhân nhạy cảm); Điều 174 & Điều 290 Bộ luật Hình sự",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật An ninh mạng năm 2018; Nghị định số 13/2023/NĐ-CP (dữ liệu sinh trắc học giọng nói, khuôn mặt là dữ liệu cá nhân nhạy cảm); Điều 174 & Điều 290 Bộ luật Hình sự. Công dân thực hiện trực tuyến trên ứng...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: BÁO CÁO NỘI DUNG DEEPFAKE GÂY HẠI (LĨNH VỰC: DEEPFAKE)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật An ninh mạng năm 2018; Nghị định số 13/2023/NĐ-CP (dữ liệu sinh trắc học giọng nói, khuôn mặt là dữ liệu cá nhân nhạy cảm); Điều 174 & Điều 290 Bộ luật Hình sự. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://khonggianmang.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (Trực ban tiếp nhận trình báo 24/24h: 02213.815.999) & Phòng PA05 Công an tỉnh Hưng Yên để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Trước khi chuyển bất kỳ khoản tiền nào cho người thân/bạn bè qua mạng xã hội: Dành tối thiểu 01 - 02 phút gọi lại bằng số điện thoại di động truyền thống (GSM) để xác nhận.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (Trực ban tiếp nhận trình báo 24/24h: 02213.815.999) & Phòng PA05 Công an tỉnh Hưng Yên.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://khonggianmang.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Trước khi chuyển bất kỳ khoản tiền nào cho người thân/bạn bè qua mạng xã hội: Dành tối thiểu 01 - 02 phút gọi lại bằng số điện thoại di động truyền thống (GSM) để xác nhận.\n- Phí, lệ phí: Tư vấn nhận diện và tiếp nhận trình báo cuộc gọi giả mạo AI Deepfake tại Công an xã Đức Hợp: Hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Dấu hiệu nhận diện cuộc gọi video Deepfake: Thời lượng rất ngắn (chỉ 3 - 10 giây rồi tự tắt báo sóng yếu), hình ảnh khuôn mặt hơi nhòe ở viền hàm/mắt, khẩu hình miệng lệch nhịp âm thanh, và ĐẶC BIỆT là yêu cầu chuyển tiền gấp vào một số tài khoản ngân hàng mang tên người lạ (viện cớ tài khoản chính đang bảo trì).\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Tôi có thể nhờ người thân làm thay việc về báo cáo nội dung deepfake gây hại không, cần hỏi rõ điều gì?\n  (2) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến báo cáo nội dung deepfake gây hại, tôi cần tìm hiểu điều gì?\n  (3) Sau khi gửi yêu cầu liên quan đến báo cáo nội dung deepfake gây hại, tôi có thể theo dõi tiến độ thế nào?\n  (4) Người dân ở xã xa trung tâm muốn xử lý việc báo cáo nội dung deepfake gây hại thì nên hỏi cơ quan nào?\n  (5) Người lớn tuổi cần hỗ trợ về báo cáo nội dung deepfake gây hại thì có thể nhờ ai hướng dẫn?",
+    "keywords": [
+      "deepfake",
+      "báo cáo nội dung deepfake gây hại",
+      "báo",
+      "cáo",
+      "nội",
+      "dung",
+      "deepfake",
+      "gây",
+      "hại"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_173",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Deepfake] Quy định pháp luật & Hướng dẫn xử lý: Bảo vệ hình ảnh và giọng nói cá nhân",
+    "legal_basis": "Luật An ninh mạng năm 2018; Nghị định số 13/2023/NĐ-CP (dữ liệu sinh trắc học giọng nói, khuôn mặt là dữ liệu cá nhân nhạy cảm); Điều 174 & Điều 290 Bộ luật Hình sự",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật An ninh mạng năm 2018; Nghị định số 13/2023/NĐ-CP (dữ liệu sinh trắc học giọng nói, khuôn mặt là dữ liệu cá nhân nhạy cảm); Điều 174 & Điều 290 Bộ luật Hình sự. Công dân thực hiện trực tuyến trên ứng...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: BẢO VỆ HÌNH ẢNH VÀ GIỌNG NÓI CÁ NHÂN (LĨNH VỰC: DEEPFAKE)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật An ninh mạng năm 2018; Nghị định số 13/2023/NĐ-CP (dữ liệu sinh trắc học giọng nói, khuôn mặt là dữ liệu cá nhân nhạy cảm); Điều 174 & Điều 290 Bộ luật Hình sự. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://khonggianmang.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (Trực ban tiếp nhận trình báo 24/24h: 02213.815.999) & Phòng PA05 Công an tỉnh Hưng Yên để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Trước khi chuyển bất kỳ khoản tiền nào cho người thân/bạn bè qua mạng xã hội: Dành tối thiểu 01 - 02 phút gọi lại bằng số điện thoại di động truyền thống (GSM) để xác nhận.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (Trực ban tiếp nhận trình báo 24/24h: 02213.815.999) & Phòng PA05 Công an tỉnh Hưng Yên.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://khonggianmang.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Trước khi chuyển bất kỳ khoản tiền nào cho người thân/bạn bè qua mạng xã hội: Dành tối thiểu 01 - 02 phút gọi lại bằng số điện thoại di động truyền thống (GSM) để xác nhận.\n- Phí, lệ phí: Tư vấn nhận diện và tiếp nhận trình báo cuộc gọi giả mạo AI Deepfake tại Công an xã Đức Hợp: Hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Dấu hiệu nhận diện cuộc gọi video Deepfake: Thời lượng rất ngắn (chỉ 3 - 10 giây rồi tự tắt báo sóng yếu), hình ảnh khuôn mặt hơi nhòe ở viền hàm/mắt, khẩu hình miệng lệch nhịp âm thanh, và ĐẶC BIỆT là yêu cầu chuyển tiền gấp vào một số tài khoản ngân hàng mang tên người lạ (viện cớ tài khoản chính đang bảo trì).\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có thể làm thủ tục về bảo vệ hình ảnh và giọng nói cá nhân trên điện thoại không, cần chuẩn bị gì?\n  (2) Người lớn tuổi cần hỗ trợ về bảo vệ hình ảnh và giọng nói cá nhân thì có thể nhờ ai hướng dẫn?\n  (3) Trong tình huống bảo vệ hình ảnh và giọng nói cá nhân, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (4) Nếu các bên không thống nhất về bảo vệ hình ảnh và giọng nói cá nhân, có thể đề nghị cơ quan nào hướng dẫn?\n  (5) Tôi nên kiểm tra thông tin chính thức về bảo vệ hình ảnh và giọng nói cá nhân trên kênh nào?",
+    "keywords": [
+      "deepfake",
+      "bảo vệ hình ảnh và giọng nói cá nhân",
+      "bảo",
+      "hình",
+      "ảnh",
+      "giọng",
+      "nói",
+      "nhân"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_174",
+    "category_id": "phong_chong_lua_dao",
+    "category": "Phòng chống lừa đảo & An toàn không gian mạng",
+    "topic": "[Deepfake] Quy định pháp luật & Hướng dẫn xử lý: Kiểm chứng tin nhắn khẩn cấp",
+    "legal_basis": "Luật An ninh mạng năm 2018; Nghị định số 13/2023/NĐ-CP (dữ liệu sinh trắc học giọng nói, khuôn mặt là dữ liệu cá nhân nhạy cảm); Điều 174 & Điều 290 Bộ luật Hình sự",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật An ninh mạng năm 2018; Nghị định số 13/2023/NĐ-CP (dữ liệu sinh trắc học giọng nói, khuôn mặt là dữ liệu cá nhân nhạy cảm); Điều 174 & Điều 290 Bộ luật Hình sự. Công dân thực hiện trực tuyến trên ứng...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: KIỂM CHỨNG TIN NHẮN KHẨN CẤP (LĨNH VỰC: DEEPFAKE)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật An ninh mạng năm 2018; Nghị định số 13/2023/NĐ-CP (dữ liệu sinh trắc học giọng nói, khuôn mặt là dữ liệu cá nhân nhạy cảm); Điều 174 & Điều 290 Bộ luật Hình sự. Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://khonggianmang.vn) hoặc liên hệ trực tiếp Công an xã Đức Hợp (Trực ban tiếp nhận trình báo 24/24h: 02213.815.999) & Phòng PA05 Công an tỉnh Hưng Yên để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Trước khi chuyển bất kỳ khoản tiền nào cho người thân/bạn bè qua mạng xã hội: Dành tối thiểu 01 - 02 phút gọi lại bằng số điện thoại di động truyền thống (GSM) để xác nhận.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: Công an xã Đức Hợp (Trực ban tiếp nhận trình báo 24/24h: 02213.815.999) & Phòng PA05 Công an tỉnh Hưng Yên.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://khonggianmang.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Trước khi chuyển bất kỳ khoản tiền nào cho người thân/bạn bè qua mạng xã hội: Dành tối thiểu 01 - 02 phút gọi lại bằng số điện thoại di động truyền thống (GSM) để xác nhận.\n- Phí, lệ phí: Tư vấn nhận diện và tiếp nhận trình báo cuộc gọi giả mạo AI Deepfake tại Công an xã Đức Hợp: Hoàn toàn miễn phí (0 đồng).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Dấu hiệu nhận diện cuộc gọi video Deepfake: Thời lượng rất ngắn (chỉ 3 - 10 giây rồi tự tắt báo sóng yếu), hình ảnh khuôn mặt hơi nhòe ở viền hàm/mắt, khẩu hình miệng lệch nhịp âm thanh, và ĐẶC BIỆT là yêu cầu chuyển tiền gấp vào một số tài khoản ngân hàng mang tên người lạ (viện cớ tài khoản chính đang bảo trì).\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Trong tình huống kiểm chứng tin nhắn khẩn cấp, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (2) Nếu các bên không thống nhất về kiểm chứng tin nhắn khẩn cấp, có thể đề nghị cơ quan nào hướng dẫn?\n  (3) Tôi nên kiểm tra thông tin chính thức về kiểm chứng tin nhắn khẩn cấp trên kênh nào?\n  (4) Làm sao phân biệt hướng dẫn chính thức và dịch vụ giả mạo liên quan đến kiểm chứng tin nhắn khẩn cấp?\n  (5) Khi gặp vướng mắc về kiểm chứng tin nhắn khẩn cấp, tôi cần mô tả thông tin gì để được hỗ trợ?",
+    "keywords": [
+      "deepfake",
+      "kiểm chứng tin nhắn khẩn cấp",
+      "kiểm",
+      "chứng",
+      "tin",
+      "nhắn",
+      "khẩn",
+      "cấp"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_175",
+    "category_id": "phap_luat_dan_su_dat_dai",
+    "category": "Pháp luật Dân sự, Đất đai & Hôn nhân",
+    "topic": "[Nhu cầu pháp lý ở nông thôn] Quy định pháp luật & Hướng dẫn xử lý: Thủ tục đất nông nghiệp",
+    "legal_basis": "Luật Trợ giúp pháp lý số 11/2017/QH14; Luật Đất đai số 31/2024/QH15; Luật Hòa giải ở cơ sở số 35/2013/QH13; Bộ luật Dân sự 2015 (Điều 245 - 256 về ranh giới, lối đi qua, cấp thoát nước)",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Trợ giúp pháp lý số 11/2017/QH14; Luật Đất đai số 31/2024/QH15; Luật Hòa giải ở cơ sở số 35/2013/QH13; Bộ luật Dân sự 2015 (Điều 245 - 256 về ranh giới, lối đi qua, cấp thoát nước). Công dân thực hiệ...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: THỦ TỤC ĐẤT NÔNG NGHIỆP (LĨNH VỰC: NHU CẦU PHÁP LÝ Ở NÔNG THÔN)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Trợ giúp pháp lý số 11/2017/QH14; Luật Đất đai số 31/2024/QH15; Luật Hòa giải ở cơ sở số 35/2013/QH13; Bộ luật Dân sự 2015 (Điều 245 - 256 về ranh giới, lối đi qua, cấp thoát nước). Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://tgpl.moj.gov.vn) hoặc liên hệ trực tiếp UBND xã Đức Hợp, Công an xã Đức Hợp, Tổ Hòa giải & Tổ Công nghệ số cộng đồng tại các thôn thuộc xã Đức Hợp, Trung tâm Trợ giúp pháp lý Nhà nước tỉnh Hưng Yên để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Hỗ trợ dịch vụ công trực tiếp tại Bộ phận Một cửa UBND xã / Công an xã Đức Hợp (cho bà con khi mạng yếu hoặc không rành điện thoại): Giải quyết ngay trong giờ hành chính từ Thứ Hai đến Thứ Bảy.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: UBND xã Đức Hợp, Công an xã Đức Hợp, Tổ Hòa giải & Tổ Công nghệ số cộng đồng tại các thôn thuộc xã Đức Hợp, Trung tâm Trợ giúp pháp lý Nhà nước tỉnh Hưng Yên.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://tgpl.moj.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Hỗ trợ dịch vụ công trực tiếp tại Bộ phận Một cửa UBND xã / Công an xã Đức Hợp (cho bà con khi mạng yếu hoặc không rành điện thoại): Giải quyết ngay trong giờ hành chính từ Thứ Hai đến Thứ Bảy.\n- Phí, lệ phí: Hòa giải tranh chấp lối đi, ranh giới, nguồn nước tại thôn/xã: Miễn phí 100%. Trợ giúp pháp lý nhà nước cho hộ nghèo, hộ cận nghèo, người có công với cách mạng, người cao tuổi, trẻ em, người khuyết tật có khó khăn tài chính: Miễn phí 100% (Luật sư/Trợ giúp viên pháp lý bảo vệ quyền lợi miễn phí).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Theo Điều 254 Bộ luật Dân sự 2015, chủ sở hữu bất động sản bị vây bọc bởi các bất động sản của các chủ sở hữu khác mà không có hoặc không đủ lối đi ra đường công cộng có quyền yêu cầu mở lối đi hợp lý trên phần đất vây bọc. Khi xảy ra mâu thuẫn ranh giới đất, lối đi chung tại thôn xóm, bà con cần giữ bình tĩnh, báo Tổ hòa giải thôn hoặc UBND/Công an xã Đức Hợp, tuyệt đối không tự ý đập phá tường rào hay xô xát gây thương tích!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Thủ tục đất nông nghiệp là gì và tôi có thể tìm hiểu ở đâu?\n  (2) Điều kiện hoặc căn cứ áp dụng với thủ tục đất nông nghiệp được hướng dẫn thế nào?\n  (3) Muốn thực hiện việc liên quan đến thủ tục đất nông nghiệp, tôi cần chuẩn bị giấy tờ gì?\n  (4) Các bước cần lưu ý khi xử lý việc liên quan đến thủ tục đất nông nghiệp là gì?\n  (5) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về thủ tục đất nông nghiệp?",
+    "keywords": [
+      "nhu cầu pháp lý ở nông thôn",
+      "thủ tục đất nông nghiệp",
+      "thủ",
+      "tục",
+      "đất",
+      "nông",
+      "nghiệp"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_176",
+    "category_id": "phap_luat_dan_su_dat_dai",
+    "category": "Pháp luật Dân sự, Đất đai & Hôn nhân",
+    "topic": "[Nhu cầu pháp lý ở nông thôn] Quy định pháp luật & Hướng dẫn xử lý: Hỗ trợ hộ kinh doanh nhỏ",
+    "legal_basis": "Luật Trợ giúp pháp lý số 11/2017/QH14; Luật Đất đai số 31/2024/QH15; Luật Hòa giải ở cơ sở số 35/2013/QH13; Bộ luật Dân sự 2015 (Điều 245 - 256 về ranh giới, lối đi qua, cấp thoát nước)",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Trợ giúp pháp lý số 11/2017/QH14; Luật Đất đai số 31/2024/QH15; Luật Hòa giải ở cơ sở số 35/2013/QH13; Bộ luật Dân sự 2015 (Điều 245 - 256 về ranh giới, lối đi qua, cấp thoát nước). Công dân thực hiệ...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: HỖ TRỢ HỘ KINH DOANH NHỎ (LĨNH VỰC: NHU CẦU PHÁP LÝ Ở NÔNG THÔN)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Trợ giúp pháp lý số 11/2017/QH14; Luật Đất đai số 31/2024/QH15; Luật Hòa giải ở cơ sở số 35/2013/QH13; Bộ luật Dân sự 2015 (Điều 245 - 256 về ranh giới, lối đi qua, cấp thoát nước). Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://tgpl.moj.gov.vn) hoặc liên hệ trực tiếp UBND xã Đức Hợp, Công an xã Đức Hợp, Tổ Hòa giải & Tổ Công nghệ số cộng đồng tại các thôn thuộc xã Đức Hợp, Trung tâm Trợ giúp pháp lý Nhà nước tỉnh Hưng Yên để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Hỗ trợ dịch vụ công trực tiếp tại Bộ phận Một cửa UBND xã / Công an xã Đức Hợp (cho bà con khi mạng yếu hoặc không rành điện thoại): Giải quyết ngay trong giờ hành chính từ Thứ Hai đến Thứ Bảy.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: UBND xã Đức Hợp, Công an xã Đức Hợp, Tổ Hòa giải & Tổ Công nghệ số cộng đồng tại các thôn thuộc xã Đức Hợp, Trung tâm Trợ giúp pháp lý Nhà nước tỉnh Hưng Yên.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://tgpl.moj.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Hỗ trợ dịch vụ công trực tiếp tại Bộ phận Một cửa UBND xã / Công an xã Đức Hợp (cho bà con khi mạng yếu hoặc không rành điện thoại): Giải quyết ngay trong giờ hành chính từ Thứ Hai đến Thứ Bảy.\n- Phí, lệ phí: Hòa giải tranh chấp lối đi, ranh giới, nguồn nước tại thôn/xã: Miễn phí 100%. Trợ giúp pháp lý nhà nước cho hộ nghèo, hộ cận nghèo, người có công với cách mạng, người cao tuổi, trẻ em, người khuyết tật có khó khăn tài chính: Miễn phí 100% (Luật sư/Trợ giúp viên pháp lý bảo vệ quyền lợi miễn phí).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Theo Điều 254 Bộ luật Dân sự 2015, chủ sở hữu bất động sản bị vây bọc bởi các bất động sản của các chủ sở hữu khác mà không có hoặc không đủ lối đi ra đường công cộng có quyền yêu cầu mở lối đi hợp lý trên phần đất vây bọc. Khi xảy ra mâu thuẫn ranh giới đất, lối đi chung tại thôn xóm, bà con cần giữ bình tĩnh, báo Tổ hòa giải thôn hoặc UBND/Công an xã Đức Hợp, tuyệt đối không tự ý đập phá tường rào hay xô xát gây thương tích!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Các bước cần lưu ý khi xử lý việc liên quan đến hỗ trợ hộ kinh doanh nhỏ là gì?\n  (2) Tôi cần liên hệ kênh nào để hỏi hoặc gửi yêu cầu về hỗ trợ hộ kinh doanh nhỏ?\n  (3) Có mốc thời gian nào cần lưu ý khi xử lý việc liên quan đến hỗ trợ hộ kinh doanh nhỏ không?\n  (4) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến hỗ trợ hộ kinh doanh nhỏ không?\n  (5) Nếu mất giấy tờ hoặc bằng chứng liên quan đến hỗ trợ hộ kinh doanh nhỏ, tôi nên bắt đầu từ đâu?",
+    "keywords": [
+      "nhu cầu pháp lý ở nông thôn",
+      "hỗ trợ hộ kinh doanh nhỏ",
+      "trợ",
+      "kinh",
+      "doanh",
+      "nhỏ"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_177",
+    "category_id": "phap_luat_dan_su_dat_dai",
+    "category": "Pháp luật Dân sự, Đất đai & Hôn nhân",
+    "topic": "[Nhu cầu pháp lý ở nông thôn] Quy định pháp luật & Hướng dẫn xử lý: Thủ tục khi ở xa trung tâm hành chính",
+    "legal_basis": "Luật Trợ giúp pháp lý số 11/2017/QH14; Luật Đất đai số 31/2024/QH15; Luật Hòa giải ở cơ sở số 35/2013/QH13; Bộ luật Dân sự 2015 (Điều 245 - 256 về ranh giới, lối đi qua, cấp thoát nước)",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Trợ giúp pháp lý số 11/2017/QH14; Luật Đất đai số 31/2024/QH15; Luật Hòa giải ở cơ sở số 35/2013/QH13; Bộ luật Dân sự 2015 (Điều 245 - 256 về ranh giới, lối đi qua, cấp thoát nước). Công dân thực hiệ...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: THỦ TỤC KHI Ở XA TRUNG TÂM HÀNH CHÍNH (LĨNH VỰC: NHU CẦU PHÁP LÝ Ở NÔNG THÔN)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Trợ giúp pháp lý số 11/2017/QH14; Luật Đất đai số 31/2024/QH15; Luật Hòa giải ở cơ sở số 35/2013/QH13; Bộ luật Dân sự 2015 (Điều 245 - 256 về ranh giới, lối đi qua, cấp thoát nước). Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://tgpl.moj.gov.vn) hoặc liên hệ trực tiếp UBND xã Đức Hợp, Công an xã Đức Hợp, Tổ Hòa giải & Tổ Công nghệ số cộng đồng tại các thôn thuộc xã Đức Hợp, Trung tâm Trợ giúp pháp lý Nhà nước tỉnh Hưng Yên để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Hỗ trợ dịch vụ công trực tiếp tại Bộ phận Một cửa UBND xã / Công an xã Đức Hợp (cho bà con khi mạng yếu hoặc không rành điện thoại): Giải quyết ngay trong giờ hành chính từ Thứ Hai đến Thứ Bảy.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: UBND xã Đức Hợp, Công an xã Đức Hợp, Tổ Hòa giải & Tổ Công nghệ số cộng đồng tại các thôn thuộc xã Đức Hợp, Trung tâm Trợ giúp pháp lý Nhà nước tỉnh Hưng Yên.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://tgpl.moj.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Hỗ trợ dịch vụ công trực tiếp tại Bộ phận Một cửa UBND xã / Công an xã Đức Hợp (cho bà con khi mạng yếu hoặc không rành điện thoại): Giải quyết ngay trong giờ hành chính từ Thứ Hai đến Thứ Bảy.\n- Phí, lệ phí: Hòa giải tranh chấp lối đi, ranh giới, nguồn nước tại thôn/xã: Miễn phí 100%. Trợ giúp pháp lý nhà nước cho hộ nghèo, hộ cận nghèo, người có công với cách mạng, người cao tuổi, trẻ em, người khuyết tật có khó khăn tài chính: Miễn phí 100% (Luật sư/Trợ giúp viên pháp lý bảo vệ quyền lợi miễn phí).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Theo Điều 254 Bộ luật Dân sự 2015, chủ sở hữu bất động sản bị vây bọc bởi các bất động sản của các chủ sở hữu khác mà không có hoặc không đủ lối đi ra đường công cộng có quyền yêu cầu mở lối đi hợp lý trên phần đất vây bọc. Khi xảy ra mâu thuẫn ranh giới đất, lối đi chung tại thôn xóm, bà con cần giữ bình tĩnh, báo Tổ hòa giải thôn hoặc UBND/Công an xã Đức Hợp, tuyệt đối không tự ý đập phá tường rào hay xô xát gây thương tích!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến thủ tục khi ở xa trung tâm hành chính không?\n  (2) Nếu mất giấy tờ hoặc bằng chứng liên quan đến thủ tục khi ở xa trung tâm hành chính, tôi nên bắt đầu từ đâu?\n  (3) Khi thông tin về thủ tục khi ở xa trung tâm hành chính bị sai hoặc thay đổi, cần liên hệ nơi nào?\n  (4) Tôi có thể nhờ người thân làm thay việc về thủ tục khi ở xa trung tâm hành chính không, cần hỏi rõ điều gì?\n  (5) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến thủ tục khi ở xa trung tâm hành chính, tôi cần tìm hiểu điều gì?",
+    "keywords": [
+      "nhu cầu pháp lý ở nông thôn",
+      "thủ tục khi ở xa trung tâm hành chính",
+      "thủ",
+      "tục",
+      "khi",
+      "trung",
+      "tâm",
+      "hành",
+      "chính"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_178",
+    "category_id": "phap_luat_dan_su_dat_dai",
+    "category": "Pháp luật Dân sự, Đất đai & Hôn nhân",
+    "topic": "[Nhu cầu pháp lý ở nông thôn] Quy định pháp luật & Hướng dẫn xử lý: Dịch vụ công khi mạng yếu",
+    "legal_basis": "Luật Trợ giúp pháp lý số 11/2017/QH14; Luật Đất đai số 31/2024/QH15; Luật Hòa giải ở cơ sở số 35/2013/QH13; Bộ luật Dân sự 2015 (Điều 245 - 256 về ranh giới, lối đi qua, cấp thoát nước)",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Trợ giúp pháp lý số 11/2017/QH14; Luật Đất đai số 31/2024/QH15; Luật Hòa giải ở cơ sở số 35/2013/QH13; Bộ luật Dân sự 2015 (Điều 245 - 256 về ranh giới, lối đi qua, cấp thoát nước). Công dân thực hiệ...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: DỊCH VỤ CÔNG KHI MẠNG YẾU (LĨNH VỰC: NHU CẦU PHÁP LÝ Ở NÔNG THÔN)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Trợ giúp pháp lý số 11/2017/QH14; Luật Đất đai số 31/2024/QH15; Luật Hòa giải ở cơ sở số 35/2013/QH13; Bộ luật Dân sự 2015 (Điều 245 - 256 về ranh giới, lối đi qua, cấp thoát nước). Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://tgpl.moj.gov.vn) hoặc liên hệ trực tiếp UBND xã Đức Hợp, Công an xã Đức Hợp, Tổ Hòa giải & Tổ Công nghệ số cộng đồng tại các thôn thuộc xã Đức Hợp, Trung tâm Trợ giúp pháp lý Nhà nước tỉnh Hưng Yên để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Hỗ trợ dịch vụ công trực tiếp tại Bộ phận Một cửa UBND xã / Công an xã Đức Hợp (cho bà con khi mạng yếu hoặc không rành điện thoại): Giải quyết ngay trong giờ hành chính từ Thứ Hai đến Thứ Bảy.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: UBND xã Đức Hợp, Công an xã Đức Hợp, Tổ Hòa giải & Tổ Công nghệ số cộng đồng tại các thôn thuộc xã Đức Hợp, Trung tâm Trợ giúp pháp lý Nhà nước tỉnh Hưng Yên.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://tgpl.moj.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Hỗ trợ dịch vụ công trực tiếp tại Bộ phận Một cửa UBND xã / Công an xã Đức Hợp (cho bà con khi mạng yếu hoặc không rành điện thoại): Giải quyết ngay trong giờ hành chính từ Thứ Hai đến Thứ Bảy.\n- Phí, lệ phí: Hòa giải tranh chấp lối đi, ranh giới, nguồn nước tại thôn/xã: Miễn phí 100%. Trợ giúp pháp lý nhà nước cho hộ nghèo, hộ cận nghèo, người có công với cách mạng, người cao tuổi, trẻ em, người khuyết tật có khó khăn tài chính: Miễn phí 100% (Luật sư/Trợ giúp viên pháp lý bảo vệ quyền lợi miễn phí).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Theo Điều 254 Bộ luật Dân sự 2015, chủ sở hữu bất động sản bị vây bọc bởi các bất động sản của các chủ sở hữu khác mà không có hoặc không đủ lối đi ra đường công cộng có quyền yêu cầu mở lối đi hợp lý trên phần đất vây bọc. Khi xảy ra mâu thuẫn ranh giới đất, lối đi chung tại thôn xóm, bà con cần giữ bình tĩnh, báo Tổ hòa giải thôn hoặc UBND/Công an xã Đức Hợp, tuyệt đối không tự ý đập phá tường rào hay xô xát gây thương tích!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Tôi có thể nhờ người thân làm thay việc về dịch vụ công khi mạng yếu không, cần hỏi rõ điều gì?\n  (2) Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến dịch vụ công khi mạng yếu, tôi cần tìm hiểu điều gì?\n  (3) Sau khi gửi yêu cầu liên quan đến dịch vụ công khi mạng yếu, tôi có thể theo dõi tiến độ thế nào?\n  (4) Người dân ở xã xa trung tâm muốn xử lý việc dịch vụ công khi mạng yếu thì nên hỏi cơ quan nào?\n  (5) Người lớn tuổi cần hỗ trợ về dịch vụ công khi mạng yếu thì có thể nhờ ai hướng dẫn?",
+    "keywords": [
+      "nhu cầu pháp lý ở nông thôn",
+      "dịch vụ công khi mạng yếu",
+      "dịch",
+      "công",
+      "khi",
+      "mạng",
+      "yếu"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_179",
+    "category_id": "phap_luat_dan_su_dat_dai",
+    "category": "Pháp luật Dân sự, Đất đai & Hôn nhân",
+    "topic": "[Nhu cầu pháp lý ở nông thôn] Quy định pháp luật & Hướng dẫn xử lý: Trợ giúp pháp lý cho hộ nghèo và người dân tộc thiểu số",
+    "legal_basis": "Luật Trợ giúp pháp lý số 11/2017/QH14; Luật Đất đai số 31/2024/QH15; Luật Hòa giải ở cơ sở số 35/2013/QH13; Bộ luật Dân sự 2015 (Điều 245 - 256 về ranh giới, lối đi qua, cấp thoát nước)",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Trợ giúp pháp lý số 11/2017/QH14; Luật Đất đai số 31/2024/QH15; Luật Hòa giải ở cơ sở số 35/2013/QH13; Bộ luật Dân sự 2015 (Điều 245 - 256 về ranh giới, lối đi qua, cấp thoát nước). Công dân thực hiệ...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: TRỢ GIÚP PHÁP LÝ CHO HỘ NGHÈO VÀ NGƯỜI DÂN TỘC THIỂU SỐ (LĨNH VỰC: NHU CẦU PHÁP LÝ Ở NÔNG THÔN)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Trợ giúp pháp lý số 11/2017/QH14; Luật Đất đai số 31/2024/QH15; Luật Hòa giải ở cơ sở số 35/2013/QH13; Bộ luật Dân sự 2015 (Điều 245 - 256 về ranh giới, lối đi qua, cấp thoát nước). Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://tgpl.moj.gov.vn) hoặc liên hệ trực tiếp UBND xã Đức Hợp, Công an xã Đức Hợp, Tổ Hòa giải & Tổ Công nghệ số cộng đồng tại các thôn thuộc xã Đức Hợp, Trung tâm Trợ giúp pháp lý Nhà nước tỉnh Hưng Yên để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Hỗ trợ dịch vụ công trực tiếp tại Bộ phận Một cửa UBND xã / Công an xã Đức Hợp (cho bà con khi mạng yếu hoặc không rành điện thoại): Giải quyết ngay trong giờ hành chính từ Thứ Hai đến Thứ Bảy.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: UBND xã Đức Hợp, Công an xã Đức Hợp, Tổ Hòa giải & Tổ Công nghệ số cộng đồng tại các thôn thuộc xã Đức Hợp, Trung tâm Trợ giúp pháp lý Nhà nước tỉnh Hưng Yên.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://tgpl.moj.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Hỗ trợ dịch vụ công trực tiếp tại Bộ phận Một cửa UBND xã / Công an xã Đức Hợp (cho bà con khi mạng yếu hoặc không rành điện thoại): Giải quyết ngay trong giờ hành chính từ Thứ Hai đến Thứ Bảy.\n- Phí, lệ phí: Hòa giải tranh chấp lối đi, ranh giới, nguồn nước tại thôn/xã: Miễn phí 100%. Trợ giúp pháp lý nhà nước cho hộ nghèo, hộ cận nghèo, người có công với cách mạng, người cao tuổi, trẻ em, người khuyết tật có khó khăn tài chính: Miễn phí 100% (Luật sư/Trợ giúp viên pháp lý bảo vệ quyền lợi miễn phí).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Theo Điều 254 Bộ luật Dân sự 2015, chủ sở hữu bất động sản bị vây bọc bởi các bất động sản của các chủ sở hữu khác mà không có hoặc không đủ lối đi ra đường công cộng có quyền yêu cầu mở lối đi hợp lý trên phần đất vây bọc. Khi xảy ra mâu thuẫn ranh giới đất, lối đi chung tại thôn xóm, bà con cần giữ bình tĩnh, báo Tổ hòa giải thôn hoặc UBND/Công an xã Đức Hợp, tuyệt đối không tự ý đập phá tường rào hay xô xát gây thương tích!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Có thể làm thủ tục về trợ giúp pháp lý cho hộ nghèo và người dân tộc thiểu số trên điện thoại không, cần chuẩn bị gì?\n  (2) Người lớn tuổi cần hỗ trợ về trợ giúp pháp lý cho hộ nghèo và người dân tộc thiểu số thì có thể nhờ ai hướng dẫn?\n  (3) Trong tình huống trợ giúp pháp lý cho hộ nghèo và người dân tộc thiểu số, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (4) Nếu các bên không thống nhất về trợ giúp pháp lý cho hộ nghèo và người dân tộc thiểu số, có thể đề nghị cơ quan nào hướng dẫn?\n  (5) Tôi nên kiểm tra thông tin chính thức về trợ giúp pháp lý cho hộ nghèo và người dân tộc thiểu số trên kênh nào?",
+    "keywords": [
+      "nhu cầu pháp lý ở nông thôn",
+      "trợ giúp pháp lý cho hộ nghèo và người dân tộc thiểu số",
+      "trợ",
+      "giúp",
+      "pháp",
+      "cho",
+      "nghèo",
+      "người",
+      "dân",
+      "tộc",
+      "thiểu"
+    ],
+    "views_count": 500
+  },
+  {
+    "id": "kb_ds5000_180",
+    "category_id": "phap_luat_dan_su_dat_dai",
+    "category": "Pháp luật Dân sự, Đất đai & Hôn nhân",
+    "topic": "[Nhu cầu pháp lý ở nông thôn] Quy định pháp luật & Hướng dẫn xử lý: Tranh chấp lối đi, ranh giới và nguồn nước",
+    "legal_basis": "Luật Trợ giúp pháp lý số 11/2017/QH14; Luật Đất đai số 31/2024/QH15; Luật Hòa giải ở cơ sở số 35/2013/QH13; Bộ luật Dân sự 2015 (Điều 245 - 256 về ranh giới, lối đi qua, cấp thoát nước)",
+    "summary": "Áp dụng trực tiếp theo quy định tại Luật Trợ giúp pháp lý số 11/2017/QH14; Luật Đất đai số 31/2024/QH15; Luật Hòa giải ở cơ sở số 35/2013/QH13; Bộ luật Dân sự 2015 (Điều 245 - 256 về ranh giới, lối đi qua, cấp thoát nước). Công dân thực hiệ...",
+    "content": "CHUYÊN ĐỀ PHÁP LUẬT & DỊCH VỤ CÔNG: TRANH CHẤP LỐI ĐI, RANH GIỚI VÀ NGUỒN NƯỚC (LĨNH VỰC: NHU CẦU PHÁP LÝ Ở NÔNG THÔN)\n\n1. QUY ĐỊNH PHÁP LUẬT TRỌNG TÂM:\n- Áp dụng trực tiếp theo quy định tại Luật Trợ giúp pháp lý số 11/2017/QH14; Luật Đất đai số 31/2024/QH15; Luật Hòa giải ở cơ sở số 35/2013/QH13; Bộ luật Dân sự 2015 (Điều 245 - 256 về ranh giới, lối đi qua, cấp thoát nước). Công dân thực hiện trực tuyến trên ứng dụng VNeID / Cổng Dịch vụ công (https://tgpl.moj.gov.vn) hoặc liên hệ trực tiếp UBND xã Đức Hợp, Công an xã Đức Hợp, Tổ Hòa giải & Tổ Công nghệ số cộng đồng tại các thôn thuộc xã Đức Hợp, Trung tâm Trợ giúp pháp lý Nhà nước tỉnh Hưng Yên để được hướng dẫn, tiếp nhận và giải quyết đúng thời hạn pháp luật (Hỗ trợ dịch vụ công trực tiếp tại Bộ phận Một cửa UBND xã / Công an xã Đức Hợp (cho bà con khi mạng yếu hoặc không rành điện thoại): Giải quyết ngay trong giờ hành chính từ Thứ Hai đến Thứ Bảy.).\n\n2. CƠ QUAN TIẾP NHẬN & GIẢI QUYẾT TẠI ĐỊA PHƯƠNG:\n- Đơn vị phụ trách: UBND xã Đức Hợp, Công an xã Đức Hợp, Tổ Hòa giải & Tổ Công nghệ số cộng đồng tại các thôn thuộc xã Đức Hợp, Trung tâm Trợ giúp pháp lý Nhà nước tỉnh Hưng Yên.\n- Kênh dịch vụ công trực tuyến: Ứng dụng VNeID (Định danh điện tử Mức 2) & https://tgpl.moj.gov.vn.\n- Đường dây nóng Trực ban Công an xã Đức Hợp (24/24h): 02213.815.999.\n\n3. THỜI HẠN GIẢI QUYẾT & LỆ PHÍ QUY ĐỊNH:\n- Thời hạn giải quyết: Hỗ trợ dịch vụ công trực tiếp tại Bộ phận Một cửa UBND xã / Công an xã Đức Hợp (cho bà con khi mạng yếu hoặc không rành điện thoại): Giải quyết ngay trong giờ hành chính từ Thứ Hai đến Thứ Bảy.\n- Phí, lệ phí: Hòa giải tranh chấp lối đi, ranh giới, nguồn nước tại thôn/xã: Miễn phí 100%. Trợ giúp pháp lý nhà nước cho hộ nghèo, hộ cận nghèo, người có công với cách mạng, người cao tuổi, trẻ em, người khuyết tật có khó khăn tài chính: Miễn phí 100% (Luật sư/Trợ giúp viên pháp lý bảo vệ quyền lợi miễn phí).\n\n4. CẢNH BÁO AN TOÀN & LƯU Ý PHÁP LÝ QUAN TRỌNG:\n- Theo Điều 254 Bộ luật Dân sự 2015, chủ sở hữu bất động sản bị vây bọc bởi các bất động sản của các chủ sở hữu khác mà không có hoặc không đủ lối đi ra đường công cộng có quyền yêu cầu mở lối đi hợp lý trên phần đất vây bọc. Khi xảy ra mâu thuẫn ranh giới đất, lối đi chung tại thôn xóm, bà con cần giữ bình tĩnh, báo Tổ hòa giải thôn hoặc UBND/Công an xã Đức Hợp, tuyệt đối không tự ý đập phá tường rào hay xô xát gây thương tích!\n\n5. CÁC CÂU HỎI NGƯỜI DÂN THƯỜNG GẶP TRONG BỘ 5.000 CÂU HỎI:\n  (1) Trong tình huống tranh chấp lối đi, ranh giới và nguồn nước, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?\n  (2) Nếu các bên không thống nhất về tranh chấp lối đi, ranh giới và nguồn nước, có thể đề nghị cơ quan nào hướng dẫn?\n  (3) Tôi nên kiểm tra thông tin chính thức về tranh chấp lối đi, ranh giới và nguồn nước trên kênh nào?\n  (4) Làm sao phân biệt hướng dẫn chính thức và dịch vụ giả mạo liên quan đến tranh chấp lối đi, ranh giới và nguồn nước?\n  (5) Khi gặp vướng mắc về tranh chấp lối đi, ranh giới và nguồn nước, tôi cần mô tả thông tin gì để được hỗ trợ?",
+    "keywords": [
+      "nhu cầu pháp lý ở nông thôn",
+      "tranh chấp lối đi, ranh giới và nguồn nước",
+      "tranh",
+      "chấp",
+      "lối",
+      "đi,",
+      "ranh",
+      "giới",
+      "nguồn",
+      "nước"
+    ],
+    "views_count": 500
   }
 ];

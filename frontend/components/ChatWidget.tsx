@@ -21,6 +21,8 @@ interface Message {
   sender: 'user' | 'bot';
   text: string;
   sources?: ChatSource[];
+  related_questions?: string[];
+  clarifying_questions?: string[];
   timestamp: string;
 }
 
@@ -136,6 +138,8 @@ export default function ChatWidget() {
         sender: 'bot',
         text: resp.answer,
         sources: resp.sources,
+        related_questions: resp.related_questions,
+        clarifying_questions: resp.clarifying_questions,
         timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
       };
       setMessages((prev) => [...prev, botMsg]);
@@ -262,20 +266,72 @@ export default function ChatWidget() {
                   >
                     <FormattedMessageText text={m.text} isUser={m.sender === 'user'} />
 
+                    {/* Clarifying Questions (if REQUIRES_CLARIFICATION) */}
+                    {m.clarifying_questions && m.clarifying_questions.length > 0 && (
+                      <div className="mt-3 pt-2.5 border-t border-amber-200 bg-amber-50/70 -mx-2 px-2.5 py-2 rounded-xl text-[11px]">
+                        <span className="font-bold text-amber-800 block mb-1.5">
+                          ❓ Chọn trường hợp của Bác/Anh/Chị để xem hướng dẫn chi tiết:
+                        </span>
+                        <div className="flex flex-col gap-1.5">
+                          {m.clarifying_questions.map((cq, idx) => (
+                            <button
+                              key={idx}
+                              onClick={() => handleSendMessage(cq)}
+                              className="text-left bg-white hover:bg-amber-100 text-amber-900 font-medium px-2.5 py-1.5 rounded-lg border border-amber-300 transition shadow-2xs"
+                            >
+                              👉 {cq}
+                            </button>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+
+                    {/* Related Questions Suggestions */}
+                    {m.related_questions && m.related_questions.length > 0 && (
+                      <div className="mt-3 pt-2.5 border-t border-slate-100 text-[11px]">
+                        <span className="font-semibold text-police-700 block mb-1.5">
+                          💡 Câu hỏi liên quan bạn có thể quan tâm:
+                        </span>
+                        <div className="flex flex-col gap-1">
+                          {m.related_questions.map((rq, idx) => (
+                            <button
+                              key={idx}
+                              onClick={() => handleSendMessage(rq)}
+                              className="text-left bg-slate-50 hover:bg-police-50 text-slate-700 hover:text-police-800 px-2.5 py-1.5 rounded-lg border border-slate-200 transition"
+                            >
+                              • {rq}
+                            </button>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+
                     {/* Sources citations */}
                     {m.sources && m.sources.length > 0 && (
                       <div className="mt-3 pt-2.5 border-t border-slate-100 text-[11px] text-slate-500">
                         <span className="font-semibold text-police-700">Tài liệu căn cứ:</span>
                         <div className="flex flex-wrap gap-1.5 mt-1">
-                          {m.sources.map((s, idx) => (
-                            <span
-                              key={idx}
-                              className="inline-flex items-center space-x-1 bg-police-50 text-police-800 px-2 py-0.5 rounded-md border border-police-200"
-                            >
-                              <span>{s.title}</span>
-                              {s.url && <ExternalLink className="w-2.5 h-2.5 text-police-500" />}
-                            </span>
-                          ))}
+                          {m.sources.map((s, idx) =>
+                            s.url ? (
+                              <a
+                                key={idx}
+                                href={s.url}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="inline-flex items-center space-x-1 bg-police-50 hover:bg-police-100 text-police-800 px-2 py-0.5 rounded-md border border-police-200 transition"
+                              >
+                                <span>{s.title}</span>
+                                <ExternalLink className="w-2.5 h-2.5 text-police-600" />
+                              </a>
+                            ) : (
+                              <span
+                                key={idx}
+                                className="inline-flex items-center space-x-1 bg-police-50 text-police-800 px-2 py-0.5 rounded-md border border-police-200"
+                              >
+                                <span>{s.title}</span>
+                              </span>
+                            )
+                          )}
                         </div>
                       </div>
                     )}

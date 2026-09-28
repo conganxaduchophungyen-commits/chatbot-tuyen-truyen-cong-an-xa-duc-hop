@@ -90,6 +90,9 @@ export interface ChatResponse {
   session_id: string;
   answer: string;
   sources: ChatSource[];
+  related_questions?: string[];
+  clarifying_questions?: string[];
+  answer_status?: string;
   disclaimer: string;
 }
 
@@ -282,6 +285,9 @@ export async function sendChatQuery(sessionId: string, query: string): Promise<C
     session_id: sessionId,
     answer: localAI.answer,
     sources: localAI.sources,
+    related_questions: localAI.related_questions || [],
+    clarifying_questions: localAI.clarifying_questions || [],
+    answer_status: localAI.answer_status || 'ANSWERABLE',
     disclaimer: 'Thông tin do Trợ lý số Công an xã Đức Hợp cung cấp mang tính chất hướng dẫn và tham khảo.',
   };
 }

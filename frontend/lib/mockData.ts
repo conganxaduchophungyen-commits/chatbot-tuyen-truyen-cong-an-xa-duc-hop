@@ -1,6 +1,7 @@
 import { Category, Procedure, Article } from './api';
 import { FULL_30_PROCEDURES } from './proceduresData';
 import { FULL_20_AI_KNOWLEDGE } from './aiKnowledge';
+import { queryLegalDatasetEngine } from './legalDatasetEngine';
 
 export const MOCK_CATEGORIES: Category[] = [
   {
@@ -525,8 +526,29 @@ export const MOCK_ARTICLES: Article[] = [
 // =========================================================================
 // TRỢ LÝ SỐ AI LOCAL THÔNG MINH ĐỘT PHÁ (XỬ LÝ ĐA LĨNH VỰC TOÀN DIỆN)
 // =========================================================================
-export function getSmartLocalChatAnswer(query: string): { answer: string; sources: any[] } {
+export function getSmartLocalChatAnswer(query: string): {
+  answer: string;
+  sources: any[];
+  related_questions?: string[];
+  clarifying_questions?: string[];
+  answer_status?: 'ANSWERABLE' | 'REQUIRES_CLARIFICATION' | 'INSUFFICIENT_EVIDENCE';
+} {
   const q = query.toLowerCase().trim();
+
+  // 0. ƯU TIÊN CHỐNG ẢO GIÁC & LÀM RÕ DỮ KIỆN TỪ BỘ DỮ LIỆU DATASEAI.MD & 5000 CÂU HỎI
+  if (
+    q.includes('điều 999') ||
+    q.includes('dieu 999') ||
+    q.includes('cmnd 9 số') ||
+    q.includes('sổ hộ khẩu giấy còn') ||
+    q.includes('12 điểm') ||
+    q.includes('trừ điểm') ||
+    q.includes('ghế trẻ em') ||
+    (q.includes('sang tên') && (q.includes('nhiều đời chủ') || q.includes('không tìm thấy chủ cũ') || q.includes('giấy viết tay')))
+  ) {
+    const goldenHit = queryLegalDatasetEngine(query);
+    if (goldenHit) return goldenHit;
+  }
 
   // 1. CHÀO HỎI & GIỚI THIỆU ĐƠN VỊ
   if (q.includes('xin chào') || q.includes('chào') || q === 'hi' || q === 'hello' || q.includes('bạn là ai') || q.includes('giới thiệu')) {
@@ -623,7 +645,13 @@ export function getSmartLocalChatAnswer(query: string): { answer: string; source
     };
   }
 
-  // 4. CÁC THỦ ĐOẠN LỪA ĐẢO CỤ THỂ (22 DẠNG)
+  // 4.5. TRA CỨU TRÍ TUỆ NHÂN TẠO TỪ BỘ 5.000 CÂU HỎI PHÁP LUẬT (180 CHUYÊN ĐỀ X 30 Ý ĐỊNH) & DATASEAI.MD
+  const datasetMatch = queryLegalDatasetEngine(query);
+  if (datasetMatch) {
+    return datasetMatch;
+  }
+
+  // 4.6. CÁC THỦ ĐOẠN LỪA ĐẢO CỤ THỂ (22 DẠNG)
   if (q.includes('vneid giả') || q.includes('cài app') || q.includes('file apk') || q.includes('.apk') || (q.includes('công an gọi') && q.includes('vneid'))) {
     return {
       answer: `Công an xã Đức Hợp cảnh báo thủ đoạn **Giả danh Công an hướng dẫn cài đặt App VNeID giả mạo (.apk)**:\n\n` +
