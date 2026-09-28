@@ -36,12 +36,20 @@ export const MOCK_CATEGORIES: Category[] = [
     order_num: 4,
   },
   {
+    id: 'kien_nghi_phan_anh',
+    code: 'kien_nghi_phan_anh',
+    name: 'Góp ý, Phản ánh & Giám sát',
+    description: 'Kiến nghị ANTT tố giác tội phạm ẩn danh, Kiosk 24/7, Giám sát của Đảng, Hiệu chỉnh dữ liệu',
+    icon: 'MessageSquare',
+    order_num: 5,
+  },
+  {
     id: 'canh_bao',
     code: 'canh_bao',
     name: 'Cảnh báo Tội phạm & Lừa đảo',
     description: 'Tuyên truyền nhận diện 22 thủ đoạn lừa đảo qua mạng và xử lý khẩn cấp',
     icon: 'ShieldAlert',
-    order_num: 5,
+    order_num: 6,
   },
 ];
 

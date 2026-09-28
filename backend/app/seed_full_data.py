@@ -71,7 +71,20 @@ async def seed_full_knowledge():
                             is_active=True
                         )
                         session.add(p)
-                print(f"-> Đã quét {len(procedures_data)} thủ tục hành chính thành công.")
+                    else:
+                        exist.title = item.get("title")
+                        if item.get("category_id") in cats:
+                            exist.category_id = cats[item.get("category_id")]
+                        exist.target_audience = item.get("target_audience", exist.target_audience)
+                        exist.competent_authority = item.get("competent_authority", exist.competent_authority)
+                        exist.execution_method = item.get("execution_method", exist.execution_method)
+                        exist.required_documents = item.get("required_documents", exist.required_documents)
+                        exist.steps = item.get("steps", exist.steps)
+                        exist.processing_time = item.get("processing_time", exist.processing_time)
+                        exist.fee = item.get("fee", exist.fee)
+                        exist.online_url = item.get("online_url", exist.online_url)
+                await session.flush()
+                print(f"-> Đã quét và cập nhật {len(procedures_data)} thủ tục hành chính thành công.")
             except Exception as e:
                 print(f"Lỗi nạp procedures_data: {e}")
         else:

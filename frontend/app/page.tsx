@@ -40,7 +40,9 @@ import {
   Filter,
   QrCode,
   Smartphone,
-  ChevronLeft
+  ChevronLeft,
+  Shield,
+  MessageSquare
 } from 'lucide-react';
 
 function HomePageContent() {
@@ -100,14 +102,20 @@ function HomePageContent() {
 
   const iconMap: Record<string, any> = {
     cu_tru: UserCheck,
+    dvc_lien_thong: FileText,
     giao_thong: Bike,
+    tich_hop_giay_to: Shield,
+    kien_nghi_phan_anh: MessageSquare,
     pccc: Flame,
     canh_bao: ShieldAlert,
   };
 
   const colorMap: Record<string, string> = {
     cu_tru: 'from-blue-600 to-police-700',
+    dvc_lien_thong: 'from-indigo-600 to-blue-800',
     giao_thong: 'from-emerald-600 to-teal-700',
+    tich_hop_giay_to: 'from-cyan-600 to-blue-700',
+    kien_nghi_phan_anh: 'from-purple-600 to-indigo-800',
     pccc: 'from-amber-600 to-orange-700',
     canh_bao: 'from-red-600 to-rose-700',
   };
