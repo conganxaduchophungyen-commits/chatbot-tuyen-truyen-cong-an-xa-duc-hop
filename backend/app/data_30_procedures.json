@@ -16,22 +16,22 @@
       {
         "step": 1,
         "title": "Khởi tạo dữ liệu liên lạc ban đầu",
-        "desc": "Tải ứng dụng VNeID từ App Store/Google Play -> Nhấn 'Đăng ký' -> Nhập số định danh cá nhân (12 số) và số điện thoại chính chủ -> Nhập mã OTP 6 số gửi về SMS để xác thực."
+        "desc": "Nhập số định danh 12 số và số điện thoại chính chủ để nhận mã xác thực OTP từ hệ thống."
       },
       {
         "step": 2,
         "title": "Thu thập dữ liệu thẻ căn cước",
-        "desc": "Dùng camera quét mã QR trên bề mặt thẻ CCCD gắn chip hoặc áp sát thẻ vào lưng máy để đọc dữ liệu qua chip NFC giúp bóc tách thông tin tự động."
+        "desc": "Dùng camera quét mã QR hoặc áp lưng điện thoại đọc chip NFC trên thẻ CCCD để bóc tách thông tin tự động."
       },
       {
         "step": 3,
         "title": "Xác thực sinh trắc học khuôn mặt",
-        "desc": "Chụp ảnh chân dung động theo hiệu lệnh hệ thống (nhìn thẳng, quay trái, quay phải, chớp mắt) để đối soát khớp đúng với ảnh gốc trên CSDL Căn cước."
+        "desc": "Chụp ảnh chân dung động theo hiệu lệnh hệ thống để đối soát với ảnh gốc trên CSDL Căn cước."
       },
       {
         "step": 4,
         "title": "Thiết lập mật khẩu quản trị",
-        "desc": "Sau khi đối soát thành công, thiết lập mật khẩu truy cập ứng dụng từ 8 đến 20 ký tự (chữ hoa, chữ thường, chữ số và ký tự đặc biệt) để hoàn tất kích hoạt Mức 1."
+        "desc": "Cài đặt mật khẩu từ 8-20 ký tự (chữ hoa, chữ thường, số, ký tự đặc biệt) để hoàn tất kích hoạt Mức 1."
       }
     ],
     "processing_time": "Hệ thống đối soát tự động từ 10 đến 15 phút",
@@ -57,24 +57,52 @@
       ],
       "steps": [
         {
+          "step_num": 1,
           "step": 1,
           "title": "Đăng ký thông tin ban đầu",
-          "action": "Mở ứng dụng VNeID -> Chọn 'Đăng ký' -> Điền số định danh 12 số và số điện thoại -> Nhập mã OTP gồm 6 chữ số gửi qua SMS."
+          "description": "Khởi tạo dữ liệu tài khoản và xác thực số thuê bao chính chủ.",
+          "sub_steps": [
+            "Mở ứng dụng VNeID trên điện thoại, tại màn hình đăng nhập nhấn chọn nút 'Đăng ký'.",
+            "Nhập chính xác số định danh cá nhân (12 chữ số trên thẻ CCCD/Căn cước) và số điện thoại di động chính chủ.",
+            "Tích chọn đồng ý với điều khoản sử dụng và nhấn nút 'Đăng ký'.",
+            "Nhập mã xác thực OTP gồm 6 chữ số được hệ thống gửi về tin nhắn SMS để hoàn tất bước đăng ký thông tin ban đầu."
+          ]
         },
         {
+          "step_num": 2,
           "step": 2,
           "title": "Quét mã QR / Đọc chip NFC căn cước",
-          "action": "Đưa camera quét mã QR ở góc phải mặt trước thẻ CCCD hoặc áp thẻ vào mặt lưng điện thoại để đọc chip qua kết nối NFC."
+          "description": "Thu thập dữ liệu nhân thân tự động từ chip và mã QR bảo an.",
+          "sub_steps": [
+            "Cho phép ứng dụng truy cập máy ảnh (camera) của thiết bị di động.",
+            "Hướng camera vào vùng mã QR ở góc phải mặt trước thẻ CCCD để hệ thống tự động bóc tách thông tin cá nhân.",
+            "Đối với điện thoại có hỗ trợ NFC: Áp sát mặt trước hoặc mặt lưng thẻ CCCD vào vị trí đọc chip NFC (đỉnh máy iPhone hoặc lưng máy Android) trong 3 - 5 giây.",
+            "Kiểm tra lại toàn bộ thông tin họ tên, ngày sinh, quê quán do hệ thống trích xuất tự động và nhấn 'Xác nhận'."
+          ]
         },
         {
+          "step_num": 3,
           "step": 3,
-          "title": "Xác thực khuôn mặt cử động",
-          "action": "Đặt khuôn mặt vào khung tròn, làm theo hiệu lệnh: giữ thẳng, quay trái từ từ, quay phải, chớp mắt ở nơi đủ ánh sáng."
+          "title": "Xác thực sinh trắc học khuôn mặt",
+          "description": "Đối soát ảnh chân dung cử động thời gian thực với dữ liệu gốc C06 Bộ Công an.",
+          "sub_steps": [
+            "Di chuyển đến khu vực có ánh sáng tự nhiên đầy đủ, tránh đứng ngược sáng, tháo kính râm, khẩu trang và mũ nón.",
+            "Đưa khuôn mặt vào chính giữa khung hình tròn hiển thị trên màn hình ứng dụng.",
+            "Thực hiện lần lượt các cử động theo hiệu lệnh hiển thị: giữ thẳng mặt, quay mặt sang trái từ từ, quay mặt sang phải, chớp mắt.",
+            "Chờ hệ thống xử lý so khớp thuật toán nhận diện với ảnh lưu trữ trên CSDL Căn cước công dân."
+          ]
         },
         {
+          "step_num": 4,
           "step": 4,
-          "title": "Tạo mật khẩu và đăng nhập",
-          "action": "Nhập mật khẩu mới từ 8-20 ký tự gồm hoa, thường, số, ký tự đặc biệt (VD: DucHop@2026) -> Hoàn tất kích hoạt tài khoản Mức 1."
+          "title": "Thiết lập mật khẩu quản trị và hoàn tất",
+          "description": "Bảo vệ tài khoản bằng mật khẩu an toàn theo tiêu chuẩn an ninh mạng.",
+          "sub_steps": [
+            "Sau khi xác thực khuôn mặt thành công, màn hình chuyển sang giao diện thiết lập mật khẩu.",
+            "Nhập mật khẩu mới có độ dài từ 8 đến 20 ký tự, bắt buộc bao gồm: chữ in hoa (A-Z), chữ thường (a-z), chữ số (0-9) và tối thiểu một ký tự đặc biệt (!, @, #, $,...).",
+            "Nhập lại mật khẩu một lần nữa vào ô 'Xác nhận mật khẩu' để bảo đảm trùng khớp.",
+            "Nhấn nút 'Xác nhận' để hoàn tất quá trình kích hoạt tài khoản định danh Mức độ 1."
+          ]
         }
       ],
       "result_format": "Thông báo kích hoạt tài khoản Mức độ 1 thành công trên màn hình và gửi SMS xác nhận.",
@@ -106,22 +134,22 @@
       {
         "step": 2,
         "title": "Xác thực danh tính",
-        "desc": "Điền chính xác số định danh cá nhân 12 số và số điện thoại đã đăng ký tại Công an -> Nhấn 'Gửi yêu cầu' -> Nhập mã OTP 6 số từ SMS."
+        "desc": "Điền số định danh 12 số và số điện thoại đã đăng ký -> Nhấn 'Gửi yêu cầu' -> Nhập mã OTP 6 số từ SMS."
       },
       {
         "step": 3,
         "title": "Thiết lập mật khẩu đăng nhập",
-        "desc": "Tạo mật khẩu cá nhân có độ dài từ 8 đến 20 ký tự (chữ hoa, chữ thường, số và ký tự đặc biệt) bảo đảm an toàn thông tin."
+        "desc": "Tạo mật khẩu cá nhân từ 8 đến 20 ký tự (chữ hoa, chữ thường, số và ký tự đặc biệt) bảo đảm an toàn."
       },
       {
         "step": 4,
         "title": "Thiết lập mã bảo mật Passcode (2FA)",
-        "desc": "Cấu hình mã Passcode gồm 6 chữ số (từ 0 đến 9). Mã Passcode đóng vai trò là lớp bảo mật thứ 2 (2FA), bắt buộc nhập khi xem thông tin giấy tờ hoặc ký duyệt gửi hồ sơ DVC."
+        "desc": "Cấu hình mã Passcode gồm 6 chữ số làm lớp bảo mật thứ 2 (2FA), bắt buộc nhập khi xem thông tin giấy tờ hoặc ký hồ sơ DVC."
       },
       {
         "step": 5,
         "title": "Cấu hình 2 câu hỏi bảo mật",
-        "desc": "Chọn và trả lời 2 câu hỏi bảo mật độc lập để phục vụ khôi phục quyền truy cập khi quên mật khẩu hoặc thay đổi thiết bị phần cứng."
+        "desc": "Chọn và trả lời 2 câu hỏi bảo mật độc lập để phục vụ khôi phục quyền truy cập khi quên mật khẩu hoặc đổi thiết bị."
       }
     ],
     "processing_time": "Kích hoạt hoàn tất tức thì trong 3 đến 5 phút",
@@ -147,29 +175,63 @@
       ],
       "steps": [
         {
+          "step_num": 1,
           "step": 1,
-          "title": "Chọn kích hoạt tài khoản",
-          "action": "Mở VNeID -> Nhấn 'Kích hoạt tài khoản định danh điện tử' -> Điền số định danh và số điện thoại."
+          "title": "Truy cập giao diện kích hoạt",
+          "description": "Mở ứng dụng và nhập thông tin định danh đăng ký tại cơ quan Công an.",
+          "sub_steps": [
+            "Mở ứng dụng VNeID trên thiết bị di động cá nhân.",
+            "Tại màn hình chính, nhấn chọn vào dòng chữ 'Kích hoạt tài khoản định danh điện tử'.",
+            "Điền chính xác số định danh cá nhân 12 chữ số và số điện thoại đã đăng ký trực tiếp với cán bộ Công an xã Đức Hợp.",
+            "Nhấn nút 'Gửi yêu cầu' để hệ thống gửi mã xác thực về máy."
+          ]
         },
         {
+          "step_num": 2,
           "step": 2,
-          "title": "Nhập OTP xác thực",
-          "action": "Nhập mã OTP 6 số được gửi về điện thoại trong thời gian đếm ngược quy định."
+          "title": "Xác thực mã OTP gửi về điện thoại",
+          "description": "Kiểm tra hộp thư SMS và nhập mã xác thực giao dịch an toàn.",
+          "sub_steps": [
+            "Kiểm tra tin nhắn SMS gửi từ tổng đài định danh chính thức 'VNeID'.",
+            "Lấy chuỗi mã OTP gồm 6 chữ số trong nội dung tin nhắn.",
+            "Nhập mã OTP vào 6 ô trống trên màn hình ứng dụng VNeID trong thời gian đếm ngược quy định.",
+            "Nếu quá thời gian hoặc chưa nhận được SMS, nhấn 'Gửi lại mã OTP'."
+          ]
         },
         {
+          "step_num": 3,
           "step": 3,
-          "title": "Cài đặt mật khẩu đăng nhập",
-          "action": "Nhập mật khẩu mới từ 8-20 ký tự (hoa, thường, số, ký tự đặc biệt) -> Xác nhận lại mật khẩu."
+          "title": "Thiết lập mật khẩu đăng nhập cá nhân",
+          "description": "Tạo mật khẩu mạnh bảo vệ quyền truy cập tài khoản Mức độ 2.",
+          "sub_steps": [
+            "Nhập mật khẩu mới từ 8 đến 20 ký tự (chữ in hoa, chữ thường, chữ số và tối thiểu một ký tự đặc biệt).",
+            "Nhập lại mật khẩu vừa tạo vào ô 'Nhập lại mật khẩu' để hệ thống kiểm tra sự trùng khớp.",
+            "Nhấn nút 'Xác nhận' để lưu trữ mật khẩu đăng nhập an toàn."
+          ]
         },
         {
+          "step_num": 4,
           "step": 4,
-          "title": "Cài đặt mã Passcode 6 số",
-          "action": "Nhập mã Passcode gồm 6 số tự chọn (không nên đặt ngày sinh hoặc dãy số liên tiếp 123456)."
+          "title": "Thiết lập mã bảo mật Passcode (2FA)",
+          "description": "Cấu hình mã xác thực hai lớp nội tại bảo vệ thông tin giấy tờ nhạy cảm.",
+          "sub_steps": [
+            "Màn hình chuyển sang giao diện yêu cầu thiết lập mã Passcode gồm 6 chữ số (từ 0 đến 9).",
+            "Nhập 6 chữ số bảo mật tự chọn (lưu ý: không nên đặt ngày tháng năm sinh hoặc dãy số liên tiếp 123456).",
+            "Nhập lại mã Passcode lần thứ hai để xác nhận chuẩn xác.",
+            "Mã Passcode này là chìa khóa bắt buộc phải nhập khi xem GPLX, Cà vẹt xe, BHYT hoặc khi bấm nút ký duyệt nộp hồ sơ DVC."
+          ]
         },
         {
+          "step_num": 5,
           "step": 5,
-          "title": "Thiết lập câu hỏi bảo mật",
-          "action": "Chọn 2 câu hỏi bảo mật và điền câu trả lời chuẩn xác -> Bấm 'Xác nhận' để hoàn tất kích hoạt Mức 2."
+          "title": "Cấu hình câu hỏi bảo mật khôi phục",
+          "description": "Thiết lập phương án dự phòng khi quên mật khẩu hoặc thay đổi điện thoại mới.",
+          "sub_steps": [
+            "Chọn lần lượt 'Câu hỏi bảo mật 1' và 'Câu hỏi bảo mật 2' từ danh sách gợi ý của hệ thống.",
+            "Điền câu trả lời chuẩn xác, dễ nhớ với bản thân vào từng ô tương ứng.",
+            "Nhấn nút 'Xác nhận' để hoàn tất toàn bộ chu trình kích hoạt tài khoản định danh điện tử Mức độ 2.",
+            "Ứng dụng chuyển về giao diện chính và kích hoạt đầy đủ các chức năng Ví giấy tờ, DVC cư trú, tư pháp."
+          ]
         }
       ],
       "result_format": "Màn hình VNeID thông báo 'Kích hoạt tài khoản Mức độ 2 thành công', kích hoạt toàn bộ tính năng Ví giấy tờ và nộp DVC.",
@@ -201,22 +263,22 @@
       {
         "step": 2,
         "title": "Chọn cơ quan Công an tiếp nhận",
-        "desc": "Chọn cơ sở lưu trú hoặc bấm 'Tạo mới yêu cầu' -> Chọn Công an tỉnh Hưng Yên -> Công an huyện Kim Động -> Công an xã Đức Hợp và loại hình cơ sở lưu trú."
+        "desc": "Chọn Công an tỉnh Hưng Yên -> Công an huyện Kim Động -> Công an xã Đức Hợp và loại hình cơ sở lưu trú."
       },
       {
         "step": 3,
         "title": "Nạp thông tin khách lưu trú",
-        "desc": "Nhấn 'Thêm người lưu trú'. Nạp qua 3 phương thức: Quét mã QR trên thẻ CCCD vật lý; Quét mã QR chia sẻ trên VNeID của khách; hoặc Nhập thủ công số định danh, họ tên, ngày sinh."
+        "desc": "Quét mã QR trên thẻ CCCD vật lý, quét QR VNeID của khách hoặc nhập thủ công số định danh 12 số."
       },
       {
         "step": 4,
         "title": "Thiết lập thời gian và lý do",
-        "desc": "Điền thời gian bắt đầu và dự kiến kết thúc lưu trú, chọn lý do lưu trú (du lịch, công tác, thăm thân,...) -> Bấm 'Lưu' (có thể thêm đồng thời nhiều người)."
+        "desc": "Điền ngày bắt đầu, ngày kết thúc và lý do lưu trú -> Nhấn 'Lưu'."
       },
       {
         "step": 5,
         "title": "Cam đoan trách nhiệm và gửi hồ sơ",
-        "desc": "Kiểm tra danh sách người khai báo -> Tích cam đoan trách nhiệm pháp lý -> Bấm 'Gửi yêu cầu' để chuyển điện tử đến Cảnh sát khu vực Công an xã Đức Hợp."
+        "desc": "Kiểm tra danh sách người khai báo -> Tích cam đoan trách nhiệm pháp lý -> Bấm 'Gửi yêu cầu'."
       }
     ],
     "processing_time": "Tiếp nhận và cập nhật ngay lập tức vào phần mềm CSDLQG về dân cư",
@@ -242,24 +304,62 @@
       ],
       "steps": [
         {
+          "step_num": 1,
           "step": 1,
-          "title": "Đăng nhập và chọn Thông báo lưu trú",
-          "action": "Đăng nhập VNeID Mức 2 -> Vào 'Thủ tục hành chính' -> Chọn 'Thông báo lưu trú'."
+          "title": "Đăng nhập và truy cập thủ tục",
+          "description": "Mở ứng dụng VNeID và điều hướng đến phân hệ lưu trú.",
+          "sub_steps": [
+            "Đăng nhập tài khoản VNeID Mức độ 2 bằng vân tay, khuôn mặt hoặc mật khẩu.",
+            "Tại màn hình trang chủ, nhấn chọn mục 'Thủ tục hành chính'.",
+            "Chọn dịch vụ 'Thông báo lưu trú' từ danh mục thủ tục hiển thị.",
+            "Nhập mã Passcode bảo mật 6 số để mở giao diện nghiệp vụ lưu trú."
+          ]
         },
         {
+          "step_num": 2,
           "step": 2,
-          "title": "Chọn địa bàn Công an xã Đức Hợp",
-          "action": "Chọn Tỉnh Hưng Yên -> Huyện Kim Động -> Xã Đức Hợp -> Chọn cơ sở lưu trú hoặc nhà ở gia đình."
+          "title": "Chọn cơ quan Công an tiếp nhận hồ sơ",
+          "description": "Xác định chính xác địa bàn hành chính Công an xã Đức Hợp quản lý.",
+          "sub_steps": [
+            "Tại mục 'Cơ quan Công an', chọn Tỉnh/Thành phố: 'Tỉnh Hưng Yên'.",
+            "Chọn Quận/Huyện: 'Huyện Kim Động'.",
+            "Chọn Phường/Xã: 'Xã Đức Hợp'.",
+            "Chọn phân loại 'Loại hình cơ sở lưu trú': Hộ gia đình, Nhà trọ, Khách sạn, Nhà nghỉ,..."
+          ]
         },
         {
+          "step_num": 3,
           "step": 3,
-          "title": "Quét mã QR thẻ Căn cước của khách",
-          "action": "Bấm 'Thêm người lưu trú' -> Chọn quét camera vào mã QR thẻ CCCD của khách (hệ thống tự điền dữ liệu sau 3 giây)."
+          "title": "Nạp thông tin khách đến lưu trú",
+          "description": "Thu thập dữ liệu người lưu trú nhanh chóng bằng quét mã QR.",
+          "sub_steps": [
+            "Nhấn nút 'Thêm người lưu trú' ở góc dưới màn hình.",
+            "Chọn 1 trong 3 cách: Quét mã QR trên thẻ CCCD gắn chip của khách (khuyến nghị, mất 3 giây); Quét mã QR chia sẻ trên VNeID của khách; hoặc Nhập thủ công số định danh, họ tên, ngày sinh.",
+            "Kiểm tra lại họ tên, giới tính, số CCCD được tự động điền vào biểu mẫu."
+          ]
         },
         {
+          "step_num": 4,
           "step": 4,
-          "title": "Điền thời gian và gửi thông báo",
-          "action": "Nhập ngày đến, ngày đi, lý do lưu trú -> Nhấn 'Lưu' -> Kiểm tra và bấm 'Gửi yêu cầu'."
+          "title": "Thiết lập thời gian và lý do lưu trú",
+          "description": "Kê khai chi tiết thời hạn tạm lưu trú và mục đích đến địa phương.",
+          "sub_steps": [
+            "Chọn mốc thời gian lưu trú cụ thể: Ngày bắt đầu lưu trú và ngày dự kiến kết thúc.",
+            "Lựa chọn lý do lưu trú từ danh mục: Thăm thân, Du lịch, Công tác, Chữa bệnh, Lao động thời vụ,...",
+            "Nhấn nút 'Lưu' để ghi nhận người lưu trú vào danh sách (có thể bấm 'Thêm người lưu trú' để khai báo nhiều người cùng lúc)."
+          ]
+        },
+        {
+          "step_num": 5,
+          "step": 5,
+          "title": "Cam đoan trách nhiệm và gửi thông báo",
+          "description": "Chuyển dữ liệu điện tử tức thì về máy tính chỉ huy Công an xã Đức Hợp.",
+          "sub_steps": [
+            "Rà soát lại toàn bộ danh sách những người đã thêm trong phiên khai báo.",
+            "Tích chọn ô cam đoan: 'Tôi xin cam đoan những thông tin kê khai trên là hoàn toàn chính xác và chịu trách nhiệm trước pháp luật'.",
+            "Nhấn nút 'Gửi yêu cầu'.",
+            "Hệ thống cấp mã hồ sơ điện tử và chuyển thẳng vào phần mềm quản lý của Cảnh sát khu vực phụ trách thôn xóm."
+          ]
         }
       ],
       "result_format": "Thông báo nộp thành công kèm mã hồ sơ điện tử trong mục Lịch sử yêu cầu trên VNeID.",
@@ -287,27 +387,27 @@
       {
         "step": 1,
         "title": "Truy cập và xác thực bảo mật",
-        "desc": "Tại màn hình 'Thủ tục hành chính', chọn 'Đăng ký thường trú' -> Nhập mã Passcode 6 chữ số hoặc xác thực sinh trắc học để mở giao diện."
+        "desc": "Tại màn hình 'Thủ tục hành chính', chọn 'Đăng ký thường trú' -> Nhập mã Passcode 6 chữ số."
       },
       {
         "step": 2,
         "title": "Phân loại đối tượng và hình thức",
-        "desc": "Chọn đối tượng: 'Bản thân' hoặc 'Khai hộ'. Chọn hình thức: 'Lập hộ mới' (đứng tên sở hữu độc lập) hoặc 'Nhập vào hộ đã có sẵn' (ở cùng gia đình, nhà trọ)."
+        "desc": "Chọn đối tượng: 'Bản thân' hoặc 'Khai hộ'. Chọn hình thức: 'Lập hộ mới' hoặc 'Nhập vào hộ đã có sẵn'."
       },
       {
         "step": 3,
         "title": "Khai báo địa bàn và người đi kèm",
-        "desc": "Chọn Tỉnh Hưng Yên -> Huyện Kim Động -> Xã Đức Hợp -> Điền số nhà, thôn xóm. Nếu có người thân chuyển cùng, bấm 'Thêm thành viên thay đổi cùng' và điền số định danh."
+        "desc": "Chọn Tỉnh Hưng Yên -> Huyện Kim Động -> Xã Đức Hợp -> Điền số nhà, thôn xóm và thêm thành viên đi cùng."
       },
       {
         "step": 4,
         "title": "Cơ chế xác nhận của chủ hộ",
-        "desc": "Nếu chủ hộ có VNeID Mức 2: Chọn xác nhận qua VNeID (hệ thống gửi yêu cầu vào máy chủ hộ, chủ hộ ký duyệt điện tử). Nếu chưa có: Tải lên ảnh quét Mẫu CT01 có chữ ký bút mực của chủ hộ."
+        "desc": "Chọn xác nhận qua tài khoản VNeID Mức 2 của chủ hộ (ký duyệt điện tử) hoặc tải lên ảnh mẫu CT01 có chữ ký bút mực."
       },
       {
         "step": 5,
         "title": "Đính kèm tài liệu và nộp lệ phí",
-        "desc": "Tải lên tệp ảnh/PDF giấy tờ chứng minh chỗ ở hợp pháp -> Kiểm tra bản tóm lược hồ sơ -> Thanh toán lệ phí trực tuyến 10.000 VNĐ -> Bấm 'Gửi yêu cầu'."
+        "desc": "Tải lên tệp ảnh Sổ đỏ/Hợp đồng nhà đất -> Thanh toán lệ phí trực tuyến 10.000 VNĐ -> Bấm 'Gửi yêu cầu'."
       }
     ],
     "processing_time": "Không quá 07 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ",
@@ -333,24 +433,60 @@
       ],
       "steps": [
         {
+          "step_num": 1,
           "step": 1,
-          "title": "Vào dịch vụ Đăng ký thường trú",
-          "action": "Mở VNeID -> Chọn 'Thủ tục hành chính' -> Chọn 'Đăng ký thường trú' -> Nhập Passcode."
+          "title": "Đăng nhập và truy cập thủ tục",
+          "description": "Mở VNeID và chọn chức năng Đăng ký thường trú.",
+          "sub_steps": [
+            "Mở ứng dụng VNeID, đăng nhập tài khoản Mức độ 2 bằng vân tay hoặc mật khẩu.",
+            "Chọn mục 'Thủ tục hành chính' trên màn hình chính ứng dụng.",
+            "Nhấn vào dịch vụ 'Đăng ký thường trú'.",
+            "Nhập mã bảo mật Passcode gồm 6 chữ số để truy cập giao diện lập hồ sơ."
+          ]
         },
         {
+          "step_num": 2,
           "step": 2,
-          "title": "Khai báo nơi đăng ký thường trú",
-          "action": "Chọn Tỉnh Hưng Yên -> Huyện Kim Động -> Xã Đức Hợp -> Chọn thôn xóm cụ thể -> Chọn Lập hộ mới hoặc Nhập vào hộ có sẵn."
+          "title": "Chọn trường hợp kê khai và hình thức hộ",
+          "description": "Phân loại người nộp đơn và cơ cấu hộ gia đình.",
+          "sub_steps": [
+            "Chọn đối tượng thực hiện: 'Bản thân' (tự khai cho mình) hoặc 'Khai hộ' (khai cho con chưa thành niên, người thân).",
+            "Chọn hình thức đăng ký: 'Lập hộ mới' (dành cho người đứng tên sở hữu độc lập nhà ở) hoặc 'Nhập vào hộ đã có sẵn' (ở cùng gia đình, bố mẹ, ở ghép).",
+            "Nếu có người thân chuyển cùng, nhấn 'Thêm thành viên thay đổi cùng' và điền số định danh, mối quan hệ."
+          ]
         },
         {
+          "step_num": 3,
           "step": 3,
-          "title": "Lấy xác nhận của chủ hộ",
-          "action": "Nhập số định danh chủ hộ -> Chọn 'Xác nhận qua VNeID' (chủ hộ mở app bấm Đồng ý) hoặc chụp ảnh CT01 đã ký tải lên."
+          "title": "Khai báo địa chỉ nơi đăng ký thường trú",
+          "description": "Xác định cụ thể địa bàn hành chính tại xã Đức Hợp.",
+          "sub_steps": [
+            "Chọn Tỉnh/Thành phố: 'Tỉnh Hưng Yên' -> Quận/Huyện: 'Huyện Kim Động' -> Phường/Xã: 'Xã Đức Hợp'.",
+            "Điền chi tiết số nhà, ngõ ngách, tên thôn (Thôn Nho Lâm, Thôn Đức Hợp,...).",
+            "Hệ thống tự động liên kết dữ liệu với Công an xã Đức Hợp phụ trách địa bàn."
+          ]
         },
         {
+          "step_num": 4,
           "step": 4,
-          "title": "Đính kèm giấy tờ chỗ ở & Thanh toán",
-          "action": "Chụp ảnh Sổ đỏ/Hợp đồng nhà đất tải lên -> Thanh toán 10.000đ qua ví/ngân hàng -> Nhấn 'Gửi yêu cầu'."
+          "title": "Lấy xác nhận điện tử của chủ hộ / chủ sở hữu",
+          "description": "Áp dụng cơ chế ký số VNeID không cần văn bản công chứng.",
+          "sub_steps": [
+            "Nếu chủ hộ/chủ sở hữu chỗ ở đã có VNeID Mức 2: Chọn phương thức 'Xác nhận qua VNeID', nhập số định danh chủ hộ. Hệ thống tự động gửi yêu cầu vào máy chủ hộ để chủ hộ mở app bấm 'Đồng ý' và ký sinh trắc học.",
+            "Nếu chủ hộ chưa có VNeID Mức 2: Tải lên ảnh chụp Tờ khai thay đổi thông tin cư trú (Mẫu CT01) có đầy đủ chữ ký bằng bút mực của chủ hộ và chủ sở hữu chỗ ở."
+          ]
+        },
+        {
+          "step_num": 5,
+          "step": 5,
+          "title": "Đính kèm giấy tờ chỗ ở và nộp lệ phí",
+          "description": "Tải chứng từ pháp lý và thanh toán trực tuyến.",
+          "sub_steps": [
+            "Chụp ảnh rõ nét Sổ đỏ (Giấy chứng nhận QSD đất/nhà ở), Hợp đồng mua bán nhà đất hoặc Hợp đồng thuê nhà hợp pháp tải lên hệ thống.",
+            "Kiểm tra lại toàn bộ bản tóm lược hồ sơ đã khai.",
+            "Chọn thanh toán lệ phí trực tuyến 10.000 VNĐ qua thẻ ngân hàng, ví điện tử hoặc quét mã QR.",
+            "Nhấn nút 'Gửi yêu cầu' và theo dõi tiến độ thẩm định của Công an xã tại mục 'Lịch sử yêu cầu'."
+          ]
         }
       ],
       "result_format": "Thông báo kết quả đăng ký thường trú điện tử và tự động cập nhật thông tin thường trú trong Ví giấy tờ VNeID.",
@@ -382,17 +518,17 @@
       {
         "step": 2,
         "title": "Chọn địa bàn và người đi cùng",
-        "desc": "Chọn nơi tạm trú: Tỉnh Hưng Yên -> Huyện Kim Động -> Xã Đức Hợp -> Điền địa chỉ số nhà/thôn xóm. Bổ sung thành viên đi cùng nếu có."
+        "desc": "Chọn nơi tạm trú: Tỉnh Hưng Yên -> Huyện Kim Động -> Xã Đức Hợp -> Điền địa chỉ số nhà/thôn xóm."
       },
       {
         "step": 3,
         "title": "Xác nhận của chủ nhà trọ/chủ hộ",
-        "desc": "Nhập số định danh chủ nhà để gửi lệnh xác nhận điện tử qua VNeID Mức 2, hoặc tải lên ảnh chụp bản giấy CT01 có chữ ký chủ nhà."
+        "desc": "Nhập số định danh chủ nhà để gửi lệnh xác nhận điện tử qua VNeID Mức 2, hoặc tải ảnh mẫu CT01 có chữ ký."
       },
       {
         "step": 4,
         "title": "Tải chứng từ thuê nhà & Nộp lệ phí",
-        "desc": "Tải lên ảnh chụp Hợp đồng thuê nhà/giấy tờ chỗ ở -> Thanh toán lệ phí trực tuyến 7.000 VNĐ -> Gửi hồ sơ đến Công an xã Đức Hợp."
+        "desc": "Tải lên ảnh chụp Hợp đồng thuê nhà -> Thanh toán lệ phí trực tuyến 7.000 VNĐ -> Gửi hồ sơ."
       }
     ],
     "processing_time": "Không quá 03 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ",
@@ -418,24 +554,48 @@
       ],
       "steps": [
         {
+          "step_num": 1,
           "step": 1,
-          "title": "Chọn Đăng ký tạm trú",
-          "action": "Đăng nhập VNeID -> Chọn 'Thủ tục hành chính' -> Chọn 'Đăng ký tạm trú' -> Nhập Passcode."
+          "title": "Đăng nhập và chọn Đăng ký tạm trú",
+          "description": "Truy cập tiện ích tạm trú trên ứng dụng VNeID Mức 2.",
+          "sub_steps": [
+            "Mở ứng dụng VNeID, đăng nhập tài khoản Mức độ 2.",
+            "Chọn mục 'Thủ tục hành chính' -> Chọn dịch vụ 'Đăng ký tạm trú'.",
+            "Nhập mã Passcode 6 số bảo vệ để mở hồ sơ điện tử."
+          ]
         },
         {
+          "step_num": 2,
           "step": 2,
-          "title": "Điền thông tin nơi tạm trú",
-          "action": "Chọn Tỉnh Hưng Yên -> Huyện Kim Động -> Xã Đức Hợp -> Điền thôn xóm nơi thuê trọ/ở nhờ."
+          "title": "Khai báo địa chỉ thuê trọ tại xã Đức Hợp",
+          "description": "Xác định chính xác địa bàn cư trú thực tế.",
+          "sub_steps": [
+            "Chọn địa bàn: Tỉnh Hưng Yên -> Huyện Kim Động -> Xã Đức Hợp.",
+            "Điền cụ thể số nhà, xóm, thôn nơi thuê trọ hoặc ở nhờ.",
+            "Chọn thời hạn đề nghị tạm trú (tối đa 02 năm theo quy định của Luật Cư trú)."
+          ]
         },
         {
+          "step_num": 3,
           "step": 3,
-          "title": "Xác nhận của chủ nhà trọ",
-          "action": "Chọn xác nhận qua tài khoản VNeID của chủ nhà trọ hoặc đính kèm ảnh mẫu CT01 có chữ ký chủ nhà."
+          "title": "Lấy xác nhận của chủ nhà trọ / chủ nhà",
+          "description": "Ký số qua VNeID hoặc tải văn bản đồng ý.",
+          "sub_steps": [
+            "Nhập số định danh cá nhân 12 số của chủ nhà trọ để gửi thông báo xác nhận qua ứng dụng VNeID.",
+            "Chủ nhà trọ mở VNeID trên máy của mình, vào thông báo nhấn 'Đồng ý'.",
+            "Nếu chủ trọ chưa có VNeID Mức 2: Tải lên ảnh chụp Mẫu CT01 có chữ ký bút mực của chủ nhà trọ."
+          ]
         },
         {
+          "step_num": 4,
           "step": 4,
-          "title": "Đính kèm Hợp đồng thuê trọ & Gửi hồ sơ",
-          "action": "Chụp ảnh Hợp đồng thuê nhà trọ tải lên -> Thanh toán phí 7.000đ trực tuyến -> Bấm Gửi yêu cầu."
+          "title": "Đính kèm Hợp đồng thuê nhà & Nộp lệ phí",
+          "description": "Tải chứng từ chỗ ở và thanh toán trực tuyến.",
+          "sub_steps": [
+            "Chụp ảnh rõ nét Hợp đồng thuê nhà trọ / Giấy thỏa thuận cho ở nhờ tải lên hệ thống.",
+            "Thanh toán lệ phí trực tuyến 7.000 VNĐ qua cổng thanh toán liên kết.",
+            "Nhấn 'Gửi yêu cầu' để chuyển hồ sơ đến Cảnh sát khu vực Công an xã Đức Hợp giải quyết trong 3 ngày làm việc."
+          ]
         }
       ],
       "result_format": "Thông báo tiếp nhận và cập nhật thời hạn tạm trú điện tử vào mục Ví giấy tờ trên VNeID trong 3 ngày làm việc.",
@@ -461,17 +621,17 @@
       {
         "step": 1,
         "title": "Truy cập tính năng Gia hạn tạm trú",
-        "desc": "Đăng nhập VNeID Mức 2 -> 'Thủ tục hành chính' -> Chọn 'Gia hạn tạm trú' (nên nộp trước khi hết hạn 15 ngày)."
+        "desc": "Đăng nhập VNeID Mức 2 -> 'Thủ tục hành chính' -> Chọn 'Gia hạn tạm trú'."
       },
       {
         "step": 2,
         "title": "Kiểm tra thông tin tạm trú hiện tại",
-        "desc": "Hệ thống tự động hiển thị dữ liệu đăng ký tạm trú hiện có tại Công an xã Đức Hợp -> Kiểm tra thời hạn hết hạn."
+        "desc": "Hệ thống tự động hiển thị dữ liệu đăng ký tạm trú hiện có tại Công an xã Đức Hợp."
       },
       {
         "step": 3,
         "title": "Cập nhật thời hạn mới & Xác nhận chủ nhà",
-        "desc": "Kê khai thời hạn gia hạn mới (tối đa 02 năm) -> Chọn hình thức xác nhận của chủ nhà trọ qua VNeID Mức 2."
+        "desc": "Kê khai thời hạn gia hạn mới (tối đa 02 năm) -> Chọn hình thức xác nhận của chủ nhà trọ qua VNeID."
       },
       {
         "step": 4,
@@ -502,24 +662,48 @@
       ],
       "steps": [
         {
+          "step_num": 1,
           "step": 1,
           "title": "Vào chức năng Gia hạn tạm trú",
-          "action": "Mở VNeID -> Chọn 'Thủ tục hành chính' -> Chọn 'Gia hạn tạm trú'."
+          "description": "Mở VNeID và tìm đến dịch vụ gia hạn.",
+          "sub_steps": [
+            "Đăng nhập tài khoản VNeID Mức 2 trên điện thoại.",
+            "Chọn mục 'Thủ tục hành chính' -> Chọn dịch vụ 'Gia hạn tạm trú'.",
+            "Nhập Passcode 6 chữ số để mở dữ liệu tạm trú."
+          ]
         },
         {
+          "step_num": 2,
           "step": 2,
-          "title": "Rà soát thông tin tạm trú cũ",
-          "action": "Kiểm tra địa chỉ tạm trú tại xã Đức Hợp và nhập thời hạn tạm trú đề nghị gia hạn mới."
+          "title": "Rà soát thông tin tạm trú cũ & Khai hạn mới",
+          "description": "Kiểm tra thông tin nơi cư trú hiện hữu.",
+          "sub_steps": [
+            "Kiểm tra dữ liệu tạm trú tại xã Đức Hợp đang lưu trên hệ thống CSDL dân cư.",
+            "Kê khai mốc thời gian tạm trú mới đề nghị gia hạn (tối đa 2 năm tiếp theo).",
+            "Cập nhật lý do gia hạn (tiếp tục lao động, học tập, sinh sống)."
+          ]
         },
         {
+          "step_num": 3,
           "step": 3,
-          "title": "Tải hồ sơ gia hạn và xác nhận chủ hộ",
-          "action": "Chụp ảnh phụ lục hợp đồng thuê trọ tải lên -> Nhập số định danh chủ nhà để ký số qua VNeID."
+          "title": "Xác nhận của chủ nhà trọ & Tải hợp đồng mới",
+          "description": "Liên kết chứng từ chỗ ở hợp pháp gia hạn.",
+          "sub_steps": [
+            "Nhập số định danh chủ nhà trọ để gửi yêu cầu xác nhận qua VNeID.",
+            "Chụp ảnh phụ lục hợp đồng thuê trọ mới hoặc biên lai nộp tiền thuê nhà tải lên.",
+            "Thanh toán lệ phí trực tuyến 7.000 VNĐ."
+          ]
         },
         {
+          "step_num": 4,
           "step": 4,
-          "title": "Thanh toán lệ phí",
-          "action": "Thanh toán 7.000đ trực tuyến -> Bấm Gửi yêu cầu để Công an xã thẩm định."
+          "title": "Gửi hồ sơ và nhận kết quả",
+          "description": "Hoàn tất thủ tục nộp hồ sơ gia hạn.",
+          "sub_steps": [
+            "Tích cam kết thông tin trung thực -> Nhấn 'Gửi yêu cầu'.",
+            "Công an xã Đức Hợp duyệt hồ sơ trong vòng 3 ngày làm việc.",
+            "Hạn tạm trú mới tự động hiển thị trong mục Thông tin cư trú trên VNeID."
+          ]
         }
       ],
       "result_format": "Thông báo kết quả gia hạn tạm trú thành công, cập nhật hạn mới trong mục Thông tin cư trú trên VNeID.",
@@ -533,13 +717,13 @@
     "category_id": "cu_tru",
     "code": "TTHC-CT-05",
     "title": "Thủ tục Khai báo tạm vắng trực tuyến qua ứng dụng VNeID",
-    "target_audience": "Công dân đi khỏi nơi cư trú theo quy định tại Điều 31 Luật Cư trú năm 2020 (bị can/bị cáo tại ngoại, người trong độ tuổi NVQS, người đi vắng từ 12 tháng liên tục,...)",
+    "target_audience": "Công dân đi khỏi nơi cư trú theo quy định tại Điều 31 Luật Cư trú năm 2020",
     "competent_authority": "Công an xã Đức Hợp, huyện Kim Động, tỉnh Hưng Yên",
     "execution_method": "Trực tuyến qua ứng dụng VNeID Mức 2 hoặc Cổng DVC Bộ Công an",
     "required_documents": [
       "Tờ khai báo tạm vắng điện tử trên VNeID.",
       "Thông tin nơi đến tạm vắng (địa chỉ cụ thể số nhà, xã/phường, tỉnh/thành phố).",
-      "Văn bản đồng ý của cơ quan có thẩm quyền (nếu thuộc diện đang chấp hành án treo, tại ngoại, diện NVQS)."
+      "Văn bản đồng ý của cơ quan có thẩm quyền (nếu thuộc diện tại ngoại, hoãn thi hành án, diện NVQS)."
     ],
     "steps": [
       {
@@ -550,17 +734,17 @@
       {
         "step": 2,
         "title": "Khai báo lý do và thời gian",
-        "desc": "Điền lý do tạm vắng (học tập, làm việc, công tác xa,...), mốc thời gian tạm vắng (từ ngày... đến ngày...)."
+        "desc": "Điền lý do tạm vắng và mốc thời gian tạm vắng."
       },
       {
         "step": 3,
         "title": "Điền địa chỉ nơi đến",
-        "desc": "Nhập chi tiết địa chỉ nơi dự kiến đến sinh sống, làm việc trong thời gian tạm vắng."
+        "desc": "Nhập chi tiết địa chỉ nơi dự kiến đến sinh sống, làm việc."
       },
       {
         "step": 4,
         "title": "Kiểm tra và gửi hồ sơ",
-        "desc": "Kiểm tra tính chính xác của dữ liệu -> Bấm 'Gửi yêu cầu' để Công an xã Đức Hợp ghi nhận vào hệ thống CSDLQG."
+        "desc": "Kiểm tra tính chính xác -> Bấm 'Gửi yêu cầu' để ghi nhận vào CSDLQG."
       }
     ],
     "processing_time": "Trong ngày làm việc (không quá 24 giờ kể từ khi tiếp nhận)",
@@ -585,19 +769,37 @@
       ],
       "steps": [
         {
+          "step_num": 1,
           "step": 1,
           "title": "Vào chức năng Khai báo tạm vắng",
-          "action": "Mở VNeID -> Chọn 'Thủ tục hành chính' -> Chọn 'Khai báo tạm vắng'."
+          "description": "Mở VNeID và chọn thủ tục khai báo tạm vắng.",
+          "sub_steps": [
+            "Đăng nhập tài khoản VNeID Mức 2.",
+            "Chọn mục 'Thủ tục hành chính' -> Chọn 'Khai báo tạm vắng'.",
+            "Nhập Passcode để vào giao diện kê khai."
+          ]
         },
         {
+          "step_num": 2,
           "step": 2,
-          "title": "Điền thông tin thời gian & Địa chỉ nơi đến",
-          "action": "Nhập ngày bắt đầu vắng, ngày dự kiến về, địa chỉ nơi đến (tỉnh, huyện, xã, số nhà)."
+          "title": "Khai báo thời gian & Địa chỉ nơi đến",
+          "description": "Điền thông tin lộ trình và địa điểm tạm trú mới.",
+          "sub_steps": [
+            "Chọn ngày bắt đầu vắng mặt và ngày dự kiến trở về địa phương.",
+            "Chọn Tỉnh/Thành phố, Quận/Huyện, Phường/Xã nơi đến cư trú, làm việc.",
+            "Ghi rõ lý do tạm vắng (đi công tác, học tập, chữa bệnh, lao động xa nhà)."
+          ]
         },
         {
+          "step_num": 3,
           "step": 3,
-          "title": "Gửi yêu cầu",
-          "action": "Kiểm tra thông tin -> Bấm 'Gửi yêu cầu' để lưu vết trên CSDL dân cư."
+          "title": "Xác nhận cam đoan và gửi yêu cầu",
+          "description": "Gửi thông tin về hệ thống quản lý cư trú Công an xã.",
+          "sub_steps": [
+            "Rà soát lại toàn bộ thông tin ngày đi, ngày về và địa chỉ nơi đến.",
+            "Tích cam đoan nội dung kê khai đúng sự thật.",
+            "Bấm 'Gửi yêu cầu' để Công an xã Đức Hợp cập nhật vào CSDLQG về dân cư."
+          ]
         }
       ],
       "result_format": "Thông báo tiếp nhận thành công, lưu lại mã hồ sơ điện tử trong mục Lịch sử yêu cầu.",
@@ -616,29 +818,29 @@
     "execution_method": "Trực tuyến qua ứng dụng VNeID Mức 2",
     "required_documents": [
       "Tờ khai thay đổi thông tin cư trú điện tử (Mẫu CT01).",
-      "Giấy tờ, tài liệu chứng minh sự thay đổi (Giấy khai sinh, Giấy chứng nhận kết hôn, Quyết định của cơ quan nhà nước, văn bản thỏa thuận của các thành viên trong hộ về việc cử chủ hộ mới).",
+      "Giấy tờ, tài liệu chứng minh sự thay đổi (Giấy khai sinh, Giấy chứng nhận kết hôn, văn bản thỏa thuận cử chủ hộ mới).",
       "Ý kiến đồng ý của chủ hộ và các thành viên liên quan."
     ],
     "steps": [
       {
         "step": 1,
         "title": "Chọn Điều chỉnh thông tin cư trú",
-        "desc": "Đăng nhập VNeID Mức 2 -> 'Thủ tục hành chính' -> Chọn 'Điều chỉnh thông tin cư trú' -> Nhập Passcode."
+        "desc": "Đăng nhập VNeID Mức 2 -> 'Thủ tục hành chính' -> Chọn 'Điều chỉnh thông tin cư trú'."
       },
       {
         "step": 2,
         "title": "Chọn nội dung điều chỉnh",
-        "desc": "Lựa chọn phân loại: 'Thay đổi chủ hộ', 'Thay đổi quan hệ với chủ hộ', hoặc 'Thay đổi thông tin hộ tịch liên quan đến cư trú'."
+        "desc": "Lựa chọn: 'Thay đổi chủ hộ', 'Thay đổi quan hệ với chủ hộ', hoặc 'Thay đổi thông tin hộ tịch'."
       },
       {
         "step": 3,
         "title": "Khai báo thông tin mới & Đính kèm chứng cứ",
-        "desc": "Nhập nội dung thông tin chuẩn xác đề nghị cập nhật -> Tải lên tệp ảnh rõ nét của văn bản thỏa thuận cử chủ hộ mới hoặc giấy tờ hộ tịch hợp pháp."
+        "desc": "Nhập nội dung mới -> Tải lên ảnh văn bản thỏa thuận cử chủ hộ mới hoặc giấy tờ hộ tịch."
       },
       {
         "step": 4,
         "title": "Xác nhận và gửi yêu cầu",
-        "desc": "Chủ hộ và thành viên xác nhận qua tài khoản VNeID -> Nhấn 'Gửi yêu cầu' để Công an xã Đức Hợp thẩm định và phê duyệt."
+        "desc": "Chủ hộ và thành viên xác nhận qua tài khoản VNeID -> Nhấn 'Gửi yêu cầu'."
       }
     ],
     "processing_time": "Không quá 03 ngày làm việc kể từ ngày nhận đủ hồ sơ",
@@ -663,24 +865,37 @@
       ],
       "steps": [
         {
+          "step_num": 1,
           "step": 1,
           "title": "Vào chức năng Điều chỉnh thông tin cư trú",
-          "action": "Mở VNeID -> Chọn 'Thủ tục hành chính' -> Chọn 'Điều chỉnh thông tin cư trú'."
+          "description": "Mở ứng dụng VNeID và chọn dịch vụ điều chỉnh.",
+          "sub_steps": [
+            "Đăng nhập tài khoản VNeID Mức 2.",
+            "Vào mục 'Thủ tục hành chính' -> Chọn 'Điều chỉnh thông tin cư trú'.",
+            "Nhập mã Passcode 6 số bảo vệ."
+          ]
         },
         {
+          "step_num": 2,
           "step": 2,
-          "title": "Chọn loại điều chỉnh & Nhập thông tin mới",
-          "action": "Chọn 'Thay đổi chủ hộ' hoặc 'Thay đổi mối quan hệ' -> Điền số định danh của chủ hộ mới."
+          "title": "Chọn nội dung điều chỉnh trong hộ",
+          "description": "Lựa chọn phân loại nội dung cần hiệu chỉnh.",
+          "sub_steps": [
+            "Chọn phân loại: 'Thay đổi chủ hộ', 'Thay đổi quan hệ với chủ hộ', hoặc 'Thay đổi thông tin nhân thân người trong hộ'.",
+            "Nhập số định danh cá nhân của chủ hộ mới hoặc người được điều chỉnh.",
+            "Kê khai chi tiết nội dung thay đổi."
+          ]
         },
         {
+          "step_num": 3,
           "step": 3,
-          "title": "Đính kèm tài liệu chứng minh",
-          "action": "Chụp ảnh văn bản thỏa thuận cử chủ hộ có chữ ký các thành viên tải lên ứng dụng."
-        },
-        {
-          "step": 4,
-          "title": "Gửi hồ sơ",
-          "action": "Kiểm tra thông tin -> Bấm 'Gửi yêu cầu' để Cảnh sát khu vực duyệt trên CSDLQG."
+          "title": "Đính kèm tài liệu chứng minh pháp lý",
+          "description": "Tải chứng cứ thay đổi hợp pháp theo luật cư trú.",
+          "sub_steps": [
+            "Chụp ảnh rõ nét văn bản thỏa thuận của các thành viên trong gia đình về việc cử chủ hộ mới.",
+            "Đính kèm Trích lục kết hôn/khai sinh nếu thay đổi quan hệ nhân thân.",
+            "Tích cam kết thông tin khai báo -> Nhấn 'Gửi yêu cầu'."
+          ]
         }
       ],
       "result_format": "Thông báo phê duyệt điều chỉnh thành công, thông tin chủ hộ mới tự động cập nhật trong Ví giấy tờ VNeID.",
@@ -694,7 +909,7 @@
     "category_id": "cu_tru",
     "code": "TTHC-CT-07",
     "title": "Thủ tục Cấp Xác nhận thông tin về cư trú (Mẫu CT07) trên VNeID",
-    "target_audience": "Cá nhân, hộ gia đình cần văn bản xác nhận nơi cư trú, thời gian cư trú phục vụ giao dịch tài chính, đất đai, hôn nhân",
+    "target_audience": "Cá nhân, hộ gia đình cần văn bản xác nhận nơi cư trú phục vụ giao dịch tài chính, đất đai, hôn nhân",
     "competent_authority": "Công an xã Đức Hợp, huyện Kim Động, tỉnh Hưng Yên",
     "execution_method": "Trực tuyến qua VNeID Mức 2 hoặc Cổng DVC Bộ Công an (nhận bản điện tử ký số và bản giấy)",
     "required_documents": [
@@ -710,17 +925,17 @@
       {
         "step": 2,
         "title": "Chọn đối tượng và phạm vi xác nhận",
-        "desc": "Chọn cấp cho 'Bản thân' hoặc 'Thành viên trong hộ' -> Chọn nội dung xác nhận: Thông tin cư trú hiện tại hoặc Lịch sử cư trú từ trước đến nay."
+        "desc": "Chọn cấp cho 'Bản thân' hoặc 'Thành viên trong hộ' -> Chọn nội dung xác nhận hiện tại hoặc lịch sử."
       },
       {
         "step": 3,
         "title": "Chọn hình thức nhận kết quả",
-        "desc": "Bản điện tử ký số hợp pháp sẽ tự động trả về VNeID. Nếu cần bản giấy, tích chọn 'Nhận bản giấy' tại Bộ phận Một cửa Công an xã hoặc nhận qua bưu chính."
+        "desc": "Bản điện tử ký số tự động trả về VNeID; nếu cần bản giấy thì chọn nhận tại Công an xã hoặc bưu chính."
       },
       {
         "step": 4,
         "title": "Nộp lệ phí trực tuyến và gửi yêu cầu",
-        "desc": "Thanh toán lệ phí trực tuyến 10.000 VNĐ -> Gửi yêu cầu để Công an xã Đức Hợp tra cứu CSDL và ký số cấp văn bản."
+        "desc": "Thanh toán lệ phí trực tuyến 10.000 VNĐ -> Gửi yêu cầu để Công an xã ký số."
       }
     ],
     "processing_time": "Trong 01 ngày làm việc (không quá 03 ngày làm việc đối với trường hợp cần tra cứu hồ sơ lưu trữ)",
@@ -745,24 +960,37 @@
       ],
       "steps": [
         {
+          "step_num": 1,
           "step": 1,
-          "title": "Vào dịch vụ Xác nhận thông tin cư trú",
-          "action": "Đăng nhập VNeID -> Chọn 'Thủ tục hành chính' -> Chọn 'Xác nhận thông tin về cư trú'."
+          "title": "Truy cập tiện ích Xác nhận thông tin cư trú",
+          "description": "Mở VNeID và chọn dịch vụ cấp Giấy xác nhận CT07.",
+          "sub_steps": [
+            "Đăng nhập tài khoản VNeID Mức 2 trên điện thoại.",
+            "Chọn mục 'Thủ tục hành chính' -> Chọn dịch vụ 'Xác nhận thông tin về cư trú'.",
+            "Nhập mã Passcode 6 số để mở giao diện cấp giấy xác nhận."
+          ]
         },
         {
+          "step_num": 2,
           "step": 2,
-          "title": "Chọn nội dung cần xác nhận",
-          "action": "Chọn xác nhận thông tin cư trú hiện tại hoặc toàn bộ lịch sử các nơi thường trú/tạm trú."
+          "title": "Lựa chọn phạm vi và nội dung xác nhận",
+          "description": "Cấu hình loại thông tin cư trú cần cấp.",
+          "sub_steps": [
+            "Chọn cấp cho: 'Bản thân' hoặc 'Khai hộ người trong gia đình'.",
+            "Chọn nội dung: 'Xác nhận thông tin cư trú hiện tại' hoặc 'Xác nhận toàn bộ lịch sử cư trú'.",
+            "Chọn mục đích xin xác nhận (làm thủ tục đất đai, ngân hàng, hôn nhân,...)."
+          ]
         },
         {
+          "step_num": 3,
           "step": 3,
-          "title": "Lựa chọn hình thức nhận văn bản",
-          "action": "Nhận bản PDF điện tử ký số qua VNeID (miễn phí in ấn) hoặc tích nhận thêm bản giấy tại Công an xã."
-        },
-        {
-          "step": 4,
-          "title": "Nộp lệ phí và nhận kết quả",
-          "action": "Thanh toán 10.000đ trực tuyến -> Nhận Giấy CT07 điện tử có mã QR và chữ ký số trong vòng 24 giờ."
+          "title": "Chọn phương thức nhận kết quả & Nộp phí",
+          "description": "Lựa chọn nhận bản PDF điện tử hoặc bản giấy vật lý.",
+          "sub_steps": [
+            "Bản điện tử ký số PDF có giá trị pháp lý toàn quốc sẽ tự động chuyển về mục Hồ sơ trên VNeID.",
+            "Nếu cần thêm bản giấy: Tích chọn 'Nhận bản giấy' tại Bộ phận một cửa Công an xã Đức Hợp hoặc nhận chuyển phát qua bưu điện.",
+            "Thanh toán lệ phí trực tuyến 10.000 VNĐ -> Bấm 'Gửi yêu cầu'."
+          ]
         }
       ],
       "result_format": "Tệp tin CT07 điện tử định dạng PDF có gắn chữ ký số của Trưởng Công an xã Đức Hợp, có giá trị pháp lý tương đương bản giấy.",
@@ -781,37 +1009,37 @@
     "competent_authority": "UBND cấp xã (Nhánh Tư pháp) - Công an xã Đức Hợp (Nhánh Cư trú) - BHXH huyện Kim Động (Nhánh BHYT)",
     "execution_method": "Trực tuyến toàn trình qua VNeID Mức 2 theo Nghị định 63/2024/NĐ-CP (chu trình 3 trong 1)",
     "required_documents": [
-      "Mã liên thông hoặc tệp điện tử có ký số của 'Giấy chứng sinh' do bệnh viện/cơ sở y tế cấp (hoặc ảnh chụp bản gốc rõ nét).",
+      "Mã liên thông hoặc tệp điện tử có ký số của 'Giấy chứng sinh' do bệnh viện/cơ sở y tế cấp.",
       "Tài khoản VNeID Mức độ 2 của cha hoặc mẹ.",
-      "Thông tin họ tên, dân tộc, quốc tịch, quê quán của trẻ phục vụ thủ tục Đăng ký khai sinh.",
+      "Thông tin họ tên, dân tộc, quốc tịch, quê quán của trẻ.",
       "Địa chỉ đăng ký thường trú theo hộ của cha hoặc mẹ.",
-      "Lựa chọn cơ sở khám chữa bệnh ban đầu để phát hành Thẻ BHYT diện ngân sách nhà nước đóng."
+      "Lựa chọn cơ sở khám chữa bệnh ban đầu để phát hành Thẻ BHYT."
     ],
     "steps": [
       {
         "step": 1,
         "title": "Khởi tạo hồ sơ liên thông",
-        "desc": "Cha/mẹ đăng nhập VNeID Mức 2 -> Vào 'Dịch vụ khác' hoặc 'Thủ tục hành chính' -> Chọn 'Dịch vụ công liên thông khai sinh, thường trú, BHYT'."
+        "desc": "Cha/mẹ đăng nhập VNeID Mức 2 -> Chọn 'Dịch vụ công liên thông khai sinh, thường trú, BHYT'."
       },
       {
         "step": 2,
         "title": "Nạp dữ liệu Giấy chứng sinh",
-        "desc": "Nhập mã Giấy chứng sinh điện tử hoặc tải lên ảnh chụp bản gốc Giấy chứng sinh hợp pháp do cơ sở y tế phát hành."
+        "desc": "Nhập mã Giấy chứng sinh điện tử hoặc tải ảnh chụp bản gốc Giấy chứng sinh hợp pháp."
       },
       {
         "step": 3,
         "title": "Kê khai thông tin khai sinh và nơi thường trú",
-        "desc": "Kê khai họ tên, quê quán của trẻ -> Chọn nơi đăng ký thường trú theo hộ cha hoặc mẹ tại xã Đức Hợp -> Chọn bệnh viện/trạm y tế khám BHYT ban đầu."
+        "desc": "Kê khai họ tên trẻ -> Chọn nhập khẩu theo cha hoặc mẹ -> Chọn nơi khám BHYT ban đầu."
       },
       {
         "step": 4,
         "title": "Chu trình phân luồng xử lý liên ngành",
-        "desc": "Nhánh 1 (UBND xã): Duyệt cấp Giấy khai sinh điện tử có ký số trong ngày. Nhánh 2 (Công an xã Đức Hợp): Nhận lệnh tự động duyệt nhập thường trú không quá 2 ngày. Nhánh 3 (BHXH huyện): Cấp mã số BHXH và thẻ BHYT trẻ em trong 2 ngày."
+        "desc": "Nhánh Tư pháp duyệt khai sinh -> Nhánh Công an duyệt thường trú -> Nhánh BHXH duyệt cấp thẻ BHYT."
       },
       {
         "step": 5,
         "title": "Nhận kết quả tích hợp 3 trong 1",
-        "desc": "Bản điện tử của Giấy khai sinh, Thông báo thường trú và Thẻ BHYT số được đồng bộ thẳng vào kho VNeID của phụ huynh; nhận bản giấy tại UBND xã hoặc gửi bưu điện tận nhà."
+        "desc": "Bản điện tử đồng bộ về VNeID; nhận bản giấy tại UBND xã hoặc gửi bưu điện tận nhà."
       }
     ],
     "processing_time": "Tối đa không quá 03 ngày làm việc cho toàn bộ 3 thủ tục",
@@ -837,24 +1065,50 @@
       ],
       "steps": [
         {
+          "step_num": 1,
           "step": 1,
-          "title": "Vào phân hệ Liên thông Khai sinh",
-          "action": "Đăng nhập VNeID -> Chọn 'Dịch vụ công liên thông' -> Chọn 'Đăng ký khai sinh, thường trú, cấp thẻ BHYT'."
+          "title": "Đăng nhập và truy cập dịch vụ liên thông",
+          "description": "Khởi động quy trình giải quyết liên ngành 3 trong 1.",
+          "sub_steps": [
+            "Đăng nhập tài khoản VNeID Mức 2 của cha hoặc mẹ trên điện thoại.",
+            "Chọn mục 'Dịch vụ khác' hoặc 'Thủ tục hành chính' -> Nhấn chọn 'Dịch vụ công liên thông'.",
+            "Chọn thủ tục: 'Liên thông Đăng ký khai sinh - Đăng ký thường trú - Cấp thẻ BHYT cho trẻ dưới 6 tuổi'.",
+            "Nhập mã Passcode 6 số bảo vệ."
+          ]
         },
         {
+          "step_num": 2,
           "step": 2,
-          "title": "Liên kết Giấy chứng sinh",
-          "action": "Nhập mã số Giấy chứng sinh điện tử từ bệnh viện hoặc tải ảnh bản chụp giấy chứng sinh."
+          "title": "Liên kết dữ liệu Giấy chứng sinh",
+          "description": "Bóc tách thông tin sinh từ cơ sở dữ liệu y tế.",
+          "sub_steps": [
+            "Nhập mã số Giấy chứng sinh điện tử do bệnh viện/trung tâm y tế cấp khi xuất viện.",
+            "Hệ thống tự động tra cứu và hiển thị thông tin ngày giờ sinh, nơi sinh, cân nặng của trẻ.",
+            "Nếu bệnh viện chưa kết nối điện tử: Chụp ảnh bản gốc Giấy chứng sinh có dấu đỏ tải lên ứng dụng."
+          ]
         },
         {
+          "step_num": 3,
           "step": 3,
-          "title": "Đặt tên và chọn nơi thường trú cho con",
-          "action": "Điền tên khai sinh của trẻ -> Chọn nhập khẩu theo cha hoặc mẹ tại xã Đức Hợp -> Chọn nơi khám BHYT (Trạm y tế xã hoặc BV huyện Kim Động)."
+          "title": "Kê khai họ tên và nơi thường trú cho trẻ",
+          "description": "Điền thông tin hộ tịch và địa chỉ đăng ký cư trú.",
+          "sub_steps": [
+            "Nhập họ và tên khai sinh của trẻ bằng tiếng Việt có dấu, chọn dân tộc, quốc tịch.",
+            "Lựa chọn đăng ký thường trú theo hộ của cha hoặc theo hộ của mẹ tại xã Đức Hợp.",
+            "Lựa chọn cơ sở khám chữa bệnh ban đầu cho con (Trạm y tế xã Đức Hợp hoặc Trung tâm Y tế huyện Kim Động) để phát hành thẻ BHYT miễn phí diện dưới 6 tuổi."
+          ]
         },
         {
+          "step_num": 4,
           "step": 4,
-          "title": "Gửi hồ sơ và theo dõi tiến độ",
-          "action": "Kiểm tra dữ liệu -> Bấm 'Gửi yêu cầu' -> Theo dõi luồng xử lý của UBND xã, Công an xã và BHXH trên ứng dụng."
+          "title": "Gửi hồ sơ và nhận kết quả đồng bộ",
+          "description": "Hệ thống tự động điều phối qua 3 cơ quan giải quyết.",
+          "sub_steps": [
+            "Rà soát lại toàn bộ thông tin khai sinh, nơi thường trú và nơi đăng ký khám BHYT.",
+            "Nhấn nút 'Gửi yêu cầu' để chuyển hồ sơ đến UBND xã, Công an xã và cơ quan BHXH.",
+            "Trong vòng 3 ngày làm việc: Nhận bản điện tử Giấy khai sinh, Giấy chứng nhận thường trú và Thẻ BHYT điện tử thẳng vào mục Ví giấy tờ trên VNeID của phụ huynh.",
+            "Đăng ký nhận bản Giấy khai sinh gốc tận nhà qua bưu điện hoặc tại bộ phận Một cửa UBND xã."
+          ]
         }
       ],
       "result_format": "Đồng bộ đồng thời: Giấy khai sinh bản điện tử, Giấy xác nhận thường trú điện tử và Thẻ BHYT điện tử vào mục Ví giấy tờ trên VNeID của bố/mẹ.",
@@ -873,31 +1127,31 @@
     "competent_authority": "UBND cấp xã (Khai tử) - Công an xã Đức Hợp (Xóa thường trú) - BHXH huyện Kim Động (Mai táng/Tử tuất)",
     "execution_method": "Trực tuyến toàn trình qua VNeID Mức 2 theo Nghị định 63/2024/NĐ-CP",
     "required_documents": [
-      "Giấy báo tử điện tử hoặc ảnh chụp Giấy báo tử bản gốc hợp pháp do cơ sở y tế/UBND cấp.",
+      "Giấy báo tử điện tử hoặc ảnh chụp Giấy báo tử bản gốc hợp pháp.",
       "Tài khoản VNeID Mức 2 của thân nhân người mất nộp hồ sơ.",
       "Số định danh cá nhân / CCCD của người mất.",
-      "Thông tin số tài khoản ngân hàng của thân nhân nhận trợ cấp mai táng phí / tử tuất (nếu người mất có tham gia BHXH hoặc hưởng lương hưu)."
+      "Thông tin số tài khoản ngân hàng nhận trợ cấp mai táng phí / tử tuất."
     ],
     "steps": [
       {
         "step": 1,
         "title": "Khởi tạo hồ sơ liên thông khai tử",
-        "desc": "Thân nhân đăng nhập VNeID Mức 2 -> 'Dịch vụ công liên thông' -> Chọn 'Đăng ký khai tử - Xóa thường trú - Giải quyết mai táng phí'."
+        "desc": "Thân nhân đăng nhập VNeID Mức 2 -> Chọn 'Đăng ký khai tử - Xóa thường trú - Giải quyết mai táng phí'."
       },
       {
         "step": 2,
         "title": "Kê khai Giấy báo tử và thông tin người mất",
-        "desc": "Nhập mã Giấy báo tử điện tử hoặc tải ảnh chụp bản gốc -> Khai báo thời gian, nguyên nhân và địa điểm qua đời."
+        "desc": "Nhập mã Giấy báo tử điện tử hoặc tải ảnh chụp bản gốc -> Khai báo thời gian, địa điểm qua đời."
       },
       {
         "step": 3,
         "title": "Phân luồng luân chuyển tự động",
-        "desc": "Bước 1: UBND cấp xã giải quyết cấp Trích lục khai tử điện tử. Bước 2: Dữ liệu tự động đồng bộ sang Công an xã Đức Hợp để tiến hành Xóa đăng ký thường trú trên CSDL quốc gia. Bước 3: Dữ liệu chuyển đến BHXH để duyệt chi trả trợ cấp mai táng phí hoặc tử tuất."
+        "desc": "UBND xã cấp Trích lục khai tử -> Công an xã xóa thường trú CSDLQG -> BHXH giải quyết trợ cấp mai táng."
       },
       {
         "step": 4,
         "title": "Nhận kết quả và tiền trợ cấp",
-        "desc": "Trích lục khai tử điện tử gửi về VNeID; bản giấy nhận tại bộ phận một cửa hoặc gửi bưu điện; tiền trợ cấp mai táng chuyển khoản thẳng về tài khoản ngân hàng thân nhân."
+        "desc": "Trích lục khai tử điện tử gửi về VNeID; tiền mai táng phí chuyển thẳng vào số tài khoản ngân hàng."
       }
     ],
     "processing_time": "Tối đa không quá 03 ngày làm việc đối với Khai tử & Xóa thường trú; giải quyết chế độ BHXH theo quy định",
@@ -923,24 +1177,48 @@
       ],
       "steps": [
         {
+          "step_num": 1,
           "step": 1,
-          "title": "Vào chức năng Liên thông Khai tử",
-          "action": "Mở VNeID -> Chọn 'Dịch vụ công liên thông' -> Chọn 'Khai tử, Xóa thường trú, Trợ cấp mai táng'."
+          "title": "Vào dịch vụ Liên thông Khai tử",
+          "description": "Truy cập phân hệ giải quyết thủ tục tử tuất liên ngành.",
+          "sub_steps": [
+            "Mở ứng dụng VNeID, đăng nhập tài khoản Mức độ 2 của thân nhân.",
+            "Chọn mục 'Thủ tục hành chính' -> Chọn 'Dịch vụ công liên thông Khai tử, Xóa thường trú, Trợ cấp mai táng'.",
+            "Nhập Passcode 6 số bảo vệ."
+          ]
         },
         {
+          "step_num": 2,
           "step": 2,
-          "title": "Tải Giấy báo tử",
-          "action": "Chụp ảnh Giấy báo tử bản gốc tải lên -> Điền số định danh của người đã mất."
+          "title": "Nạp Giấy báo tử & Thông tin người đã mất",
+          "description": "Liên kết chứng từ pháp lý và thông tin người qua đời.",
+          "sub_steps": [
+            "Nhập mã số Giấy báo tử điện tử hoặc chụp ảnh rõ nét Giấy báo tử bản gốc tải lên.",
+            "Nhập số định danh cá nhân 12 số của người đã mất để hệ thống đối soát dữ liệu cư trú.",
+            "Điền ngày giờ qua đời, nơi mất và nguyên nhân qua đời."
+          ]
         },
         {
+          "step_num": 3,
           "step": 3,
-          "title": "Khai báo thông tin nhận chế độ mai táng",
-          "action": "Chọn diện thụ hưởng chế độ BHXH của người mất -> Nhập số tài khoản ngân hàng của thân nhân nhận tiền hỗ trợ."
+          "title": "Kê khai chế độ trợ cấp mai táng / tử tuất",
+          "description": "Khai báo thông tin tài khoản thụ hưởng bảo hiểm xã hội.",
+          "sub_steps": [
+            "Chọn đối tượng hưởng chế độ (người tham gia BHXH bắt buộc, tự nguyện hoặc người đang hưởng lương hưu).",
+            "Nhập số tài khoản ngân hàng, tên chủ tài khoản và chi nhánh ngân hàng của thân nhân người mất nhận tiền trợ cấp.",
+            "Tích cam đoan nội dung khai báo -> Bấm 'Gửi yêu cầu'."
+          ]
         },
         {
+          "step_num": 4,
           "step": 4,
-          "title": "Gửi hồ sơ",
-          "action": "Kiểm tra toàn bộ nội dung -> Nhấn 'Gửi yêu cầu' để kích hoạt chu trình liên ngành tự động."
+          "title": "Theo dõi luồng xử lý và nhận kết quả",
+          "description": "Liên thông tự động giữa Tư pháp, Công an và Bảo hiểm xã hội.",
+          "sub_steps": [
+            "UBND xã thẩm định và phát hành Trích lục khai tử điện tử ký số.",
+            "Dữ liệu tự động chuyển tiếp sang Công an xã Đức Hợp để xóa thường trú trên hệ thống CSDL dân cư.",
+            "Cơ quan BHXH huyện Kim Động ra quyết định chi trả trợ cấp mai táng phí và chuyển khoản trực tiếp vào tài khoản ngân hàng của thân nhân."
+          ]
         }
       ],
       "result_format": "Trích lục khai tử điện tử ký số gửi về VNeID; tự động xóa thường trú trên hệ thống dân cư mà không phải đi lại nhiều cơ quan.",
@@ -972,22 +1250,22 @@
       {
         "step": 2,
         "title": "Chọn trường hợp nộp",
-        "desc": "Chọn đối tượng: 'Bản thân' hoặc 'Khai hộ' (cha/mẹ khai hộ con chưa thành niên hoặc người được ủy quyền hợp pháp)."
+        "desc": "Chọn đối tượng: 'Bản thân' hoặc 'Khai hộ' (cha/mẹ khai hộ con chưa thành niên hoặc người được ủy quyền)."
       },
       {
         "step": 3,
         "title": "Rà soát nhân thân & Khai bổ sung",
-        "desc": "Rà soát thông tin CCCD đã đồng bộ tự động. Khai báo bổ sung: Nơi sinh, email, số điện thoại, và quá trình cư trú, nơi làm việc từ đủ 14 tuổi."
+        "desc": "Khai bổ sung: Nơi sinh, email, số điện thoại, và quá trình cư trú, nơi làm việc từ đủ 14 tuổi."
       },
       {
         "step": 4,
         "title": "Cấu hình loại phiếu & Hình thức nhận",
-        "desc": "Chọn duy nhất 'Phiếu LLTP số 1' hoặc 'Phiếu LLTP số 2' cùng mục đích xin cấp. Bản điện tử tự động trả về VNeID. Nếu nhận thêm bản giấy vật lý, tích chọn 'Nhận bản giấy' (miễn phí 2 bản đầu tiên, từ bản thứ 3 thu 5.000đ/bản) và chọn chuyển phát bưu chính tận nhà."
+        "desc": "Chọn Phiếu số 1 hoặc Số 2. Bản điện tử tự động trả về VNeID; nhận thêm bản giấy vật lý qua bưu chính tận nhà."
       },
       {
         "step": 5,
         "title": "Thanh toán lệ phí trực tuyến",
-        "desc": "Xác nhận đối tượng nộp phí (200.000đ/lần đối với công dân thông thường; 100.000đ với học sinh, sinh viên; miễn phí cho trẻ em, người cao tuổi, hộ nghèo) -> Thanh toán qua quét mã QR hoặc thẻ ngân hàng."
+        "desc": "Xác nhận đối tượng nộp phí (200.000đ hoặc 100.000đ học sinh/sinh viên) -> Thanh toán trực tuyến."
       }
     ],
     "processing_time": "Từ 05 đến 10 ngày làm việc (không quá 15 ngày đối với trường hợp phải xác minh lý lịch phức tạp)",
@@ -1013,24 +1291,49 @@
       ],
       "steps": [
         {
+          "step_num": 1,
           "step": 1,
-          "title": "Vào dịch vụ Cấp Phiếu LLTP",
-          "action": "Mở VNeID -> Chọn 'Thủ tục hành chính' -> Chọn 'Cấp Phiếu lý lịch tư pháp' -> Nhập Passcode."
+          "title": "Đăng nhập và truy cập dịch vụ Cấp Phiếu LLTP",
+          "description": "Vào phân hệ tư pháp số trên ứng dụng VNeID Mức 2.",
+          "sub_steps": [
+            "Mở ứng dụng VNeID, đăng nhập tài khoản Mức độ 2.",
+            "Chọn mục 'Thủ tục hành chính' -> Chọn dịch vụ 'Cấp Phiếu lý lịch tư pháp'.",
+            "Nhập mã Passcode 6 số bảo vệ."
+          ]
         },
         {
+          "step_num": 2,
           "step": 2,
-          "title": "Chọn nộp cho Bản thân hoặc Khai hộ",
-          "action": "Bấm 'Tạo mới yêu cầu' -> Chọn kê khai cho 'Bản thân' -> Kiểm tra thông tin nhân thân tự động."
+          "title": "Chọn trường hợp kê khai hồ sơ",
+          "description": "Xác định chủ thể yêu cầu cấp phiếu.",
+          "sub_steps": [
+            "Nhấn nút 'Tạo mới yêu cầu'.",
+            "Chọn 'Bản thân' (nếu tự yêu cầu cấp cho mình) hoặc chọn 'Khai hộ' (cha/mẹ khai cho con dưới 18 tuổi hoặc cá nhân được ủy quyền hợp pháp).",
+            "Kiểm tra lại toàn bộ thông tin nhân thân đã được hệ thống bóc tách tự động từ Căn cước."
+          ]
         },
         {
+          "step_num": 3,
           "step": 3,
-          "title": "Khai bổ sung quá trình từ năm 14 tuổi",
-          "action": "Nhập nơi sinh, email, quá trình cư trú/làm việc từ năm 14 tuổi đến nay -> Chọn Phiếu số 1 hoặc Số 2."
+          "title": "Khai bổ sung thông tin cá nhân & Quá trình từ 14 tuổi",
+          "description": "Kê khai lịch sử cư trú và công tác theo quy định của Bộ Tư pháp.",
+          "sub_steps": [
+            "Nhập chính xác nơi sinh, địa chỉ email, số điện thoại liên lạc thường dùng.",
+            "Kê khai quá trình từ khi đủ 14 tuổi đến nay: Giai đoạn thời gian, nơi cư trú (xã, huyện, tỉnh), nghề nghiệp, nơi làm việc hoặc trường theo học.",
+            "Lựa chọn cấp 'Phiếu lý lịch tư pháp số 1' (phục vụ xin việc, tuyển dụng thông thường) hoặc 'Phiếu lý lịch tư pháp số 2' (theo yêu cầu của cơ quan tiến hành tố tụng hoặc cơ quan cấp phép đặc thù)."
+          ]
         },
         {
+          "step_num": 4,
           "step": 4,
-          "title": "Chọn nhận bản giấy & Thanh toán phí",
-          "action": "Tích chọn nhận bản giấy gửi bưu điện về tận nhà -> Nộp 200.000đ (hoặc 100.000đ) qua cổng thanh toán VNeID."
+          "title": "Cấu hình hình thức nhận kết quả & Thanh toán lệ phí",
+          "description": "Nhận bản điện tử ký số và đăng ký nhận bản giấy bưu chính.",
+          "sub_steps": [
+            "Bản điện tử ký số hợp pháp của Sở Tư pháp sẽ tự động trả về tài khoản VNeID.",
+            "Nếu có nguyện vọng nhận bản giấy: Tích chọn 'Nhận bản giấy', nhập số lượng (miễn phí 2 bản đầu tiên, từ bản thứ 3 thu 5.000đ/bản), điền địa chỉ nhận qua bưu điện tận nhà.",
+            "Chọn diện nộp phí: 200.000 VNĐ (công dân thông thường) hoặc 100.000 VNĐ (HSSV - chụp thẻ HSSV tải lên) hoặc Miễn phí (trẻ em, người cao tuổi, hộ nghèo).",
+            "Thanh toán lệ phí trực tuyến và nhấn 'Gửi yêu cầu' để chuyển Sở Tư pháp thẩm định."
+          ]
         }
       ],
       "result_format": "Phiếu lý lịch tư pháp điện tử có gắn chữ ký số của Giám đốc Sở Tư pháp gửi thẳng vào kho dữ liệu VNeID, có giá trị pháp lý tương đương bản giấy.",
@@ -1058,27 +1361,27 @@
       {
         "step": 1,
         "title": "Chuẩn bị dữ liệu tài chính trước bạ",
-        "desc": "Hoàn tất nộp Lệ phí trước bạ tại cơ quan Thuế hoặc Cổng DVC để được cấp một 'Mã hồ sơ lệ phí trước bạ' hợp lệ."
+        "desc": "Hoàn tất nộp Lệ phí trước bạ để được cấp một 'Mã hồ sơ lệ phí trước bạ' hợp lệ."
       },
       {
         "step": 2,
         "title": "Khởi tạo hồ sơ trên VNeID",
-        "desc": "Đăng nhập VNeID Mức 2 -> Phân hệ DVC phương tiện giao thông -> Chọn thủ tục 'Đăng ký xe lần đầu bằng dịch vụ công trực tuyến toàn trình đối với xe sản xuất lắp ráp trong nước'."
+        "desc": "Đăng nhập VNeID Mức 2 -> Chọn thủ tục 'Đăng ký xe lần đầu bằng dịch vụ công trực tuyến toàn trình'."
       },
       {
         "step": 3,
         "title": "Tra cứu đối soát liên thông tự động",
-        "desc": "Nhập 'Số seri phiếu kiểm tra chất lượng xuất xưởng' và 'Mã hồ sơ lệ phí trước bạ' -> Nhấn 'Tra cứu'. Hệ thống tự động kết nối API với Cục Đăng kiểm và Tổng cục Thuế để trích xuất toàn bộ thông số kỹ thuật xe và hóa đơn điện tử."
+        "desc": "Nhập Số seri phiếu xuất xưởng và Mã trước bạ -> Trích xuất toàn bộ thông số xe và hóa đơn điện tử tự động."
       },
       {
         "step": 4,
         "title": "Nạp ảnh thực tế và cấp phát biển số",
-        "desc": "Chụp tải ảnh góc nhìn phía trước của xe. Lựa chọn: Bấm biển số mới ngẫu nhiên từ kho số định danh địa phương; Chọn cấp lại biển định danh cũ đang lưu giữ; hoặc Chọn áp dụng biển số trúng đấu giá."
+        "desc": "Chụp tải ảnh góc nhìn phía trước xe. Bấm biển số mới hoặc chọn cấp lại biển định danh cũ."
       },
       {
         "step": 5,
         "title": "Thanh toán và bàn giao tài liệu gốc qua bưu chính",
-        "desc": "Thanh toán lệ phí đăng ký xe trực tuyến và điền địa chỉ nhận biển số, đăng ký xe qua Bưu chính công ích. Khi nhân viên bưu chính giao kết quả tại nhà, chủ xe bàn giao lại bản gốc 'Phiếu kiểm tra chất lượng xuất xưởng' (đã dán bản chà số khung số máy có dấu giáp lai)."
+        "desc": "Thanh toán lệ phí cấp biển và cước bưu chính. Bàn giao phiếu xuất xưởng gốc cho bưu tá khi nhận biển."
       }
     ],
     "processing_time": "Không quá 02 ngày làm việc kể từ khi nhận đủ dữ liệu hợp lệ",
@@ -1105,24 +1408,46 @@
       ],
       "steps": [
         {
+          "step_num": 1,
           "step": 1,
-          "title": "Vào chức năng Đăng ký xe toàn trình",
-          "action": "Mở VNeID -> Chọn 'Thủ tục hành chính' -> Chọn 'Đăng ký xe lần đầu toàn trình xe sản xuất trong nước'."
+          "title": "Chuẩn bị mã trước bạ và số seri xuất xưởng",
+          "description": "Thu thập hai mã định danh kỹ thuật quan trọng của phương tiện.",
+          "sub_steps": [
+            "Kê khai và nộp Lệ phí trước bạ tại Chi cục Thuế hoặc Cổng DVC Quốc gia để nhận 'Mã hồ sơ lệ phí trước bạ'.",
+            "Mở Phiếu kiểm tra chất lượng xuất xưởng của xe, tìm dãy ký tự 'Số seri phiếu xuất xưởng' do hãng xe in sẵn."
+          ]
         },
         {
+          "step_num": 2,
           "step": 2,
-          "title": "Tra cứu thông số xe liên thông",
-          "action": "Nhập Số seri phiếu xuất xưởng và Mã trước bạ -> Bấm 'Tra cứu' (hệ thống tự lấy tên xe, số khung, số máy, hóa đơn)."
+          "title": "Khởi tạo hồ sơ & Tra cứu liên thông tự động",
+          "description": "Bóc tách thông số kỹ thuật xe qua API Đăng kiểm và Thuế.",
+          "sub_steps": [
+            "Mở VNeID, vào mục 'Thủ tục hành chính' -> Chọn 'Đăng ký xe lần đầu toàn trình xe sản xuất trong nước'.",
+            "Nhập Số seri phiếu kiểm tra chất lượng xuất xưởng và Mã hồ sơ lệ phí trước bạ.",
+            "Nhấn nút 'Tra cứu': Hệ thống tự động kết nối dữ liệu trích xuất nhãn hiệu, số khung, số máy, màu sơn, hóa đơn điện tử mà không phải gõ tay."
+          ]
         },
         {
+          "step_num": 3,
           "step": 3,
-          "title": "Tải ảnh xe và chọn biển số",
-          "action": "Chụp ảnh đầu xe tải lên -> Chọn bấm biển số mới hoặc lấy lại biển định danh cũ đang treo."
+          "title": "Tải ảnh chụp xe thực tế & Lựa chọn biển số",
+          "description": "Chụp ảnh đầu xe và cấu hình biển số định danh.",
+          "sub_steps": [
+            "Chụp một tấm ảnh góc nhìn phía trước của xe (rõ đầu xe, kiểu dáng, định dạng JPG/PNG dung lượng dưới 2MB) và tải lên.",
+            "Lựa chọn phương thức cấp biển: Bấm biển số mới ngẫu nhiên; Chọn cấp lại biển định danh của chính mình đang lưu giữ; hoặc Chọn áp dụng biển số trúng đấu giá."
+          ]
         },
         {
+          "step_num": 4,
           "step": 4,
-          "title": "Thanh toán phí và nhận biển tại nhà",
-          "action": "Nộp lệ phí cấp biển online -> Điền địa chỉ nhận qua bưu điện -> Bàn giao phiếu xuất xưởng gốc cho nhân viên bưu tá khi nhận biển."
+          "title": "Thanh toán lệ phí & Nhận biển tại nhà",
+          "description": "Nộp tiền trực tuyến và đăng ký chuyển phát bưu điện.",
+          "sub_steps": [
+            "Thanh toán lệ phí cấp biển số xe trực tuyến theo biểu phí Bộ Tài chính.",
+            "Điền địa chỉ nhận biển kiểm soát vật lý và Chứng nhận đăng ký xe qua dịch vụ Bưu chính công ích.",
+            "Khi nhân viên bưu tá giao biển số đến nhà, chủ xe bàn giao lại bản gốc 'Phiếu kiểm tra chất lượng xuất xưởng' (đã dán sẵn bản chà số khung, số máy và có dấu giáp lai của hãng xe) để lưu hồ sơ gốc."
+          ]
         }
       ],
       "result_format": "Chứng nhận đăng ký xe điện tử tích hợp vào Ví VNeID và nhận biển số vật lý + Đăng ký xe giấy chuyển phát tận nhà.",
@@ -1149,22 +1474,22 @@
       {
         "step": 1,
         "title": "Đăng nhập và vào Ví giấy tờ",
-        "desc": "Khi lực lượng Cảnh sát Giao thông yêu cầu kiểm tra, công dân mở ứng dụng VNeID -> Đăng nhập bằng vân tay/khuôn mặt -> Chọn mục 'Ví giấy tờ'."
+        "desc": "Mở VNeID -> Đăng nhập bằng sinh trắc học -> Chọn mục 'Ví giấy tờ'."
       },
       {
         "step": 2,
         "title": "Mở hiển thị Giấy phép lái xe & Đăng ký xe",
-        "desc": "Nhấn vào 'Giấy phép lái xe' hoặc 'Đăng ký xe' -> Nhập mã Passcode gồm 6 số để hệ thống hiển thị đầy đủ thông tin chi tiết và mã QR của giấy tờ."
+        "desc": "Nhấn vào 'Giấy phép lái xe' hoặc 'Đăng ký xe' -> Nhập Passcode để hiển thị thông tin và mã QR."
       },
       {
         "step": 3,
         "title": "Cung cấp mã QR để CSGT quét kiểm tra",
-        "desc": "Cán bộ CSGT sử dụng thiết bị chuyên dụng hoặc ứng dụng VNeID nghiệp vụ quét mã QR trên màn hình điện thoại của công dân để đối soát dữ liệu trên CSDL quốc gia theo thời gian thực."
+        "desc": "CSGT quét mã QR trên màn hình điện thoại để đối soát dữ liệu trên CSDL quốc gia theo thời gian thực."
       },
       {
         "step": 4,
         "title": "Xử lý trường hợp tạm giữ giấy tờ điện tử",
-        "desc": "Căn cứ Thông tư 28/2024/TT-BCA, trường hợp bị áp dụng hình thức tạm giữ giấy tờ, CSGT sẽ lập biên bản và cập nhật trạng thái tạm giữ/tước quyền sử dụng trên hệ thống phần mềm nghiệp vụ; thông tin này tự động hiển thị trong Ví VNeID của công dân."
+        "desc": "Trường hợp tạm giữ, CSGT cập nhật trạng thái tạm giữ trên phần mềm nghiệp vụ hiển thị trong Ví VNeID."
       }
     ],
     "processing_time": "Xuất trình và đối soát trực tiếp tức thì trong 1 đến 2 phút",
@@ -1190,19 +1515,37 @@
       ],
       "steps": [
         {
+          "step_num": 1,
           "step": 1,
-          "title": "Mở ứng dụng và vào Ví giấy tờ",
-          "action": "Mở VNeID -> Mở mục 'Ví giấy tờ' ở thanh điều hướng phía dưới."
+          "title": "Đăng nhập và truy cập Ví giấy tờ",
+          "description": "Mở ứng dụng khi lực lượng Cảnh sát Giao thông yêu cầu kiểm tra.",
+          "sub_steps": [
+            "Mở ứng dụng VNeID trên điện thoại.",
+            "Hoàn tất đăng nhập nhanh bằng vân tay hoặc Face ID.",
+            "Nhấn vào biểu tượng 'Ví giấy tờ' ở thanh điều hướng phía dưới màn hình."
+          ]
         },
         {
+          "step_num": 2,
           "step": 2,
-          "title": "Xác thực mã Passcode",
-          "action": "Chọn loại giấy tờ cần xuất trình (GPLX, Đăng ký xe) -> Nhập Passcode 6 số để mở khóa."
+          "title": "Mở hiển thị Giấy phép lái xe / Đăng ký xe",
+          "description": "Xác thực bảo mật để bộc lộ thông tin chi tiết và mã QR.",
+          "sub_steps": [
+            "Nhấn chọn vào thẻ 'Giấy phép lái xe' hoặc thẻ 'Đăng ký xe'.",
+            "Ứng dụng hiển thị cửa sổ yêu cầu bảo mật: Nhập mã Passcode gồm 6 chữ số.",
+            "Sau khi nhập đúng Passcode, toàn bộ thông tin chi tiết của giấy tờ cùng mã QR đối soát động sẽ hiển thị đầy đủ."
+          ]
         },
         {
+          "step_num": 3,
           "step": 3,
-          "title": "Đưa màn hình có mã QR cho CSGT",
-          "action": "Đưa màn hình hiển thị thông tin bằng lái và mã QR cho cán bộ CSGT quét kiểm tra nghiệp vụ."
+          "title": "Xuất trình mã QR cho cán bộ CSGT kiểm tra",
+          "description": "Đối soát trực tiếp qua máy quét nghiệp vụ chuyên dụng.",
+          "sub_steps": [
+            "Đưa màn hình điện thoại có chứa mã QR cho cán bộ Cảnh sát Giao thông.",
+            "Cán bộ CSGT sử dụng thiết bị chuyên dụng hoặc ứng dụng VNeID chuyên ngành quét mã QR để kiểm tra tính hợp lệ, thời hạn sử dụng và lịch sử vi phạm giao thông.",
+            "Theo Thông tư 28/2024/TT-BCA và Nghị định 69/2024/NĐ-CP, việc xuất trình này có giá trị pháp lý tương đương bản giấy gốc, cán bộ không được lập biên bản lỗi không mang giấy tờ."
+          ]
         }
       ],
       "result_format": "Giấy tờ số trên VNeID có giá trị pháp lý tương đương việc xuất trình bản giấy gốc căn cứ Nghị định 69/2024/NĐ-CP.",
@@ -1229,22 +1572,22 @@
       {
         "step": 1,
         "title": "Khởi tạo yêu cầu tích hợp",
-        "desc": "Đăng nhập VNeID Mức 2 -> Vào 'Ví giấy tờ' -> Chọn 'Tích hợp thông tin' -> Bấm 'Tạo mới yêu cầu'."
+        "desc": "Vào 'Ví giấy tờ' -> Chọn 'Tích hợp thông tin' -> Bấm 'Tạo mới yêu cầu'."
       },
       {
         "step": 2,
         "title": "Chọn loại giấy tờ Giấy phép lái xe",
-        "desc": "Chọn danh mục 'Giấy phép lái xe' -> Chọn cơ quan cấp là 'Bộ Giao thông Vận tải' (hoặc Cục Đường bộ Việt Nam)."
+        "desc": "Chọn danh mục 'Giấy phép lái xe' -> Chọn cơ quan cấp là 'Bộ Giao thông Vận tải'."
       },
       {
         "step": 3,
         "title": "Nhập số GPLX và chọn hạng",
-        "desc": "Nhập chính xác chuỗi số seri GPLX -> Chọn hạng giấy phép tương ứng. (Nếu thẻ PET gộp chung cả ô tô và xe máy, tích hợp một số sẽ tự đồng bộ các hạng còn lại)."
+        "desc": "Nhập chính xác số seri GPLX -> Chọn hạng xe tương ứng."
       },
       {
         "step": 4,
         "title": "Gửi yêu cầu và đối soát",
-        "desc": "Tích cam đoan tính xác thực -> Nhấn 'Gửi yêu cầu'. Hệ thống chuyển trạng thái sang 'Chờ phê duyệt' và đối soát với CSDL GPLX quốc gia trong vòng 24 giờ."
+        "desc": "Tích cam đoan -> Nhấn 'Gửi yêu cầu'. Hệ thống đối soát với CSDL GPLX quốc gia trong vòng 24 giờ."
       }
     ],
     "processing_time": "Đối soát và phê duyệt tự động trong vòng 24 giờ",
@@ -1270,19 +1613,47 @@
       ],
       "steps": [
         {
+          "step_num": 1,
           "step": 1,
-          "title": "Vào mục Tích hợp thông tin",
-          "action": "Đăng nhập VNeID -> Chọn 'Ví giấy tờ' -> Chọn 'Tích hợp thông tin' -> 'Tạo mới yêu cầu'."
+          "title": "Truy cập mục Tích hợp thông tin",
+          "description": "Mở phân hệ quản lý tích hợp trong Ví điện tử.",
+          "sub_steps": [
+            "Đăng nhập tài khoản VNeID Mức độ 2 trên điện thoại.",
+            "Chọn mục 'Ví giấy tờ' ở thanh menu dưới cùng.",
+            "Nhấn vào mục 'Tích hợp thông tin' -> Nhấn nút 'Tạo mới yêu cầu'."
+          ]
         },
         {
+          "step_num": 2,
           "step": 2,
-          "title": "Chọn Giấy phép lái xe",
-          "action": "Chọn 'Giấy phép lái xe' -> Cơ quan cấp: 'Bộ Giao thông Vận tải'."
+          "title": "Chọn danh mục Giấy phép lái xe",
+          "description": "Lựa chọn loại giấy tờ phương tiện giao thông.",
+          "sub_steps": [
+            "Nhấn chọn vào loại thông tin: 'Giấy phép lái xe'.",
+            "Chọn Cơ quan cấp: 'Bộ Giao thông Vận tải' (hoặc Cục Đường bộ Việt Nam)."
+          ]
         },
         {
+          "step_num": 3,
           "step": 3,
-          "title": "Nhập số bằng lái và hạng xe",
-          "action": "Nhập số GPLX in trên bằng -> Chọn hạng xe (A1, B2,...) -> Tích cam đoan -> Bấm 'Gửi yêu cầu'."
+          "title": "Nhập số GPLX và lựa chọn hạng bằng lái",
+          "description": "Điền đầy đủ chuỗi số seri in trên mặt thẻ PET.",
+          "sub_steps": [
+            "Nhập chính xác chuỗi số seri GPLX in màu đỏ ở mặt trước thẻ nhựa PET.",
+            "Chọn hạng giấy phép lái xe tương ứng (A1, A2, B1, B2, C, D, E,...).",
+            "Lưu ý: Nếu thẻ PET gộp chung cả xe máy và ô tô, chỉ cần nhập số bằng lái, hệ thống sẽ tự động đồng bộ tất cả các phân hạng còn lại."
+          ]
+        },
+        {
+          "step_num": 4,
+          "step": 4,
+          "title": "Gửi yêu cầu và theo dõi phê duyệt",
+          "description": "Đẩy dữ liệu qua CSDL GPLX quốc gia đối soát.",
+          "sub_steps": [
+            "Tích chọn ô cam đoan: 'Tôi xin cam đoan các thông tin kê khai trên là hoàn toàn chính xác'.",
+            "Nhấn nút 'Gửi yêu cầu'.",
+            "Hồ sơ chuyển trạng thái 'Chờ phê duyệt'; Cục Đường bộ đối soát với CSDL GPLX quốc gia và trả kết quả hiển thị màu xanh lá trong vòng 24 giờ."
+          ]
         }
       ],
       "result_format": "Sau khi phê duyệt, GPLX hiển thị với huy hiệu xanh lá trong Ví giấy tờ, có đầy đủ hạn sử dụng và phân hạng xe.",
@@ -1309,22 +1680,22 @@
       {
         "step": 1,
         "title": "Truy cập mục Tích hợp Đăng ký xe",
-        "desc": "Tại phân hệ 'Ví giấy tờ', chọn 'Tích hợp thông tin' -> 'Tạo mới yêu cầu' -> Chọn loại 'Đăng ký xe'."
+        "desc": "Tại 'Ví giấy tờ', chọn 'Tích hợp thông tin' -> 'Tạo mới yêu cầu' -> Chọn 'Đăng ký xe'."
       },
       {
         "step": 2,
         "title": "Chọn nhóm phương tiện",
-        "desc": "Lựa chọn chính xác nhóm: 'Xe ô tô' hoặc 'Xe mô tô, xe gắn máy'."
+        "desc": "Lựa chọn chính xác: 'Xe ô tô' hoặc 'Xe mô tô, xe gắn máy'."
       },
       {
         "step": 3,
         "title": "Nhập số khung và biển kiểm soát",
-        "desc": "Nhập chính xác 'Số khung' phương tiện. Nhập 'Biển kiểm soát' theo quy tắc chuẩn hóa: viết liền mạch không khoảng trắng, không dấu chấm, không gạch ngang (ví dụ: 89B112345, 30A99999)."
+        "desc": "Nhập số khung và biển kiểm soát viết liền mạch không khoảng trắng, không dấu chấm, không gạch ngang."
       },
       {
         "step": 4,
         "title": "Chọn màu biển số và gửi yêu cầu",
-        "desc": "Chọn đúng 'Màu biển số' (Biển trắng chữ đen cho xe dân sự; Biển vàng chữ đen cho xe kinh doanh vận tải) -> Nhấn 'Gửi yêu cầu' để chuyển Cục CSGT xác thực tính chính chủ."
+        "desc": "Chọn Màu biển số (trắng/vàng) -> Nhấn 'Gửi yêu cầu' để chuyển Cục CSGT xác thực."
       }
     ],
     "processing_time": "Từ 01 đến 03 ngày làm việc đối soát với CSDL đăng ký phương tiện",
@@ -1350,24 +1721,45 @@
       ],
       "steps": [
         {
+          "step_num": 1,
           "step": 1,
-          "title": "Vào tích hợp Đăng ký xe",
-          "action": "Mở VNeID -> Vào 'Ví giấy tờ' -> Chọn 'Tích hợp thông tin' -> Chọn 'Đăng ký xe'."
+          "title": "Vào tính năng tích hợp Đăng ký xe",
+          "description": "Mở tiện ích liên kết cà vẹt phương tiện.",
+          "sub_steps": [
+            "Đăng nhập tài khoản VNeID Mức 2.",
+            "Chọn mục 'Ví giấy tờ' -> Chọn 'Tích hợp thông tin' -> Nhấn 'Tạo mới yêu cầu'.",
+            "Chọn danh mục: 'Đăng ký xe'."
+          ]
         },
         {
+          "step_num": 2,
           "step": 2,
-          "title": "Chọn loại phương tiện",
-          "action": "Chọn 'Xe mô tô, xe gắn máy' hoặc 'Xe ô tô'."
+          "title": "Chọn loại phương tiện & Nhập số khung",
+          "description": "Điền thông số kỹ thuật in trên giấy đăng ký xe.",
+          "sub_steps": [
+            "Chọn loại xe: 'Xe mô tô, xe gắn máy' hoặc 'Xe ô tô'.",
+            "Nhập chính xác chuỗi ký tự 'Số khung' in trên cà vẹt xe (chú ý phân biệt chữ O và số 0)."
+          ]
         },
         {
+          "step_num": 3,
           "step": 3,
-          "title": "Nhập Số khung và Biển số chuẩn hóa",
-          "action": "Điền số khung in trên cà vẹt -> Điền biển số viết liền không dấu gạch hay chấm (VD: 89H123456)."
+          "title": "Nhập Biển kiểm soát theo quy tắc chuẩn hóa",
+          "description": "Quy chuẩn kỹ thuật viết liền mạch không dấu.",
+          "sub_steps": [
+            "Nhập Biển số xe viết liền nhau, tuyệt đối không chèn khoảng trắng, dấu gạch nối (-) hay dấu chấm (.) (Ví dụ: Biển 89-H1 123.45 phải nhập đúng là 89H112345; Biển 30A-999.99 nhập đúng là 30A99999).",
+            "Chọn phân loại 'Màu biển số': Biển trắng chữ đen (xe cá nhân dân sự) hoặc Biển vàng chữ đen (xe kinh doanh vận tải)."
+          ]
         },
         {
+          "step_num": 4,
           "step": 4,
-          "title": "Chọn màu biển và gửi duyệt",
-          "action": "Chọn Biển trắng hoặc Biển vàng -> Tích cam đoan -> Bấm 'Gửi yêu cầu'."
+          "title": "Xác nhận và gửi duyệt Cục Cảnh sát Giao thông",
+          "description": "Đối soát quyền sở hữu chính chủ phương tiện.",
+          "sub_steps": [
+            "Tích cam kết thông tin phương tiện chính chủ.",
+            "Bấm 'Gửi yêu cầu' để chuyển dữ liệu sang Cục CSGT xác thực trong 1 - 3 ngày làm việc."
+          ]
         }
       ],
       "result_format": "Đăng ký xe điện tử hiển thị đầy đủ thông số nhãn hiệu, số máy, số khung, dung tích xi lanh trong Ví giấy tờ.",
@@ -1393,12 +1785,12 @@
       {
         "step": 1,
         "title": "Chọn Tích hợp Thẻ Bảo hiểm y tế",
-        "desc": "Tại giao diện 'Ví giấy tờ', bấm 'Tích hợp thông tin' -> 'Tạo mới yêu cầu' -> Lựa chọn danh mục 'Thẻ Bảo hiểm y tế'."
+        "desc": "Tại 'Ví giấy tờ', bấm 'Tích hợp thông tin' -> 'Tạo mới yêu cầu' -> Lựa chọn 'Thẻ Bảo hiểm y tế'."
       },
       {
         "step": 2,
         "title": "Nhập mã số BHXH/BHYT 10 số",
-        "desc": "Nhập chuỗi 10 chữ số in trên thẻ BHYT giấy (hoặc tra cứu trên ứng dụng VssID)."
+        "desc": "Nhập chuỗi 10 chữ số in trên thẻ BHYT giấy hoặc tra cứu trên ứng dụng VssID."
       },
       {
         "step": 3,
@@ -1408,7 +1800,7 @@
       {
         "step": 4,
         "title": "Gửi yêu cầu và kích hoạt mã QR",
-        "desc": "Nhấn 'Gửi yêu cầu'. Cơ sở dữ liệu BHXH Việt Nam tự động phân giải hạn sử dụng, quyền lợi nơi khám chữa bệnh ban đầu và hiển thị mã QR phục vụ khám chữa bệnh thay thẻ giấy."
+        "desc": "Nhấn 'Gửi yêu cầu'. CSDL BHXH Việt Nam tự động phân giải hạn dùng và hiển thị mã QR thay thế thẻ giấy."
       }
     ],
     "processing_time": "Đối soát và hiển thị tự động trong vòng 24 giờ",
@@ -1434,19 +1826,35 @@
       ],
       "steps": [
         {
+          "step_num": 1,
           "step": 1,
-          "title": "Vào mục Tích hợp BHYT",
-          "action": "Mở VNeID -> Chọn 'Ví giấy tờ' -> Chọn 'Tích hợp thông tin' -> Chọn 'Thẻ Bảo hiểm y tế'."
+          "title": "Vào mục Tích hợp Thẻ Bảo hiểm y tế",
+          "description": "Mở tiện ích liên kết BHYT trong Ví giấy tờ.",
+          "sub_steps": [
+            "Đăng nhập tài khoản VNeID Mức 2 trên điện thoại.",
+            "Chọn mục 'Ví giấy tờ' -> Nhấn 'Tích hợp thông tin' -> 'Tạo mới yêu cầu'.",
+            "Chọn danh mục: 'Thẻ Bảo hiểm y tế'."
+          ]
         },
         {
+          "step_num": 2,
           "step": 2,
-          "title": "Nhập mã thẻ 10 số",
-          "action": "Điền 10 chữ số mã thẻ BHYT -> Chọn BHXH cấp tỉnh quản lý (VD: BHXH tỉnh Hưng Yên)."
+          "title": "Nhập mã số BHXH/BHYT 10 số & Chọn đơn vị cấp",
+          "description": "Điền số thẻ và tỉnh thành phát hành thẻ ban đầu.",
+          "sub_steps": [
+            "Nhập dãy 10 chữ số mã số BHXH in trên thẻ BHYT giấy (hoặc lấy từ app VssID).",
+            "Chọn đơn vị BHXH cấp tỉnh quản lý: 'Bảo hiểm xã hội tỉnh Hưng Yên' (hoặc tỉnh thành nơi cấp thẻ của bạn)."
+          ]
         },
         {
+          "step_num": 3,
           "step": 3,
-          "title": "Gửi yêu cầu",
-          "action": "Tích cam đoan -> Bấm 'Gửi yêu cầu' để BHXH Việt Nam đối soát."
+          "title": "Xác nhận và kích hoạt thẻ BHYT số",
+          "description": "Đồng bộ quyền lợi khám chữa bệnh bảo hiểm y tế.",
+          "sub_steps": [
+            "Tích cam kết thông tin chính xác -> Nhấn 'Gửi yêu cầu'.",
+            "CSDL BHXH Việt Nam đối soát tự động và hiển thị thẻ BHYT điện tử kèm mã QR và nơi đăng ký khám ban đầu trong vòng 24 giờ."
+          ]
         }
       ],
       "result_format": "Thẻ BHYT hiển thị mã QR trực quan, nơi đăng ký khám ban đầu và hạn sử dụng trong Ví giấy tờ VNeID.",
@@ -1472,17 +1880,17 @@
       {
         "step": 1,
         "title": "Chọn danh mục Thông tin thuế",
-        "desc": "Tại giao diện 'Ví giấy tờ', chọn 'Tích hợp thông tin' -> 'Tạo mới yêu cầu' -> Chọn 'Thông tin thuế' (hoặc Mã số thuế cá nhân)."
+        "desc": "Tại 'Ví giấy tờ', chọn 'Tích hợp thông tin' -> 'Tạo mới yêu cầu' -> Chọn 'Thông tin thuế'."
       },
       {
         "step": 2,
         "title": "Đối soát tự động qua số định danh",
-        "desc": "Hệ thống tự động sử dụng số định danh cá nhân 12 số của chủ tài khoản để gửi yêu cầu truy vấn đến CSDL của Tổng cục Thuế."
+        "desc": "Hệ thống tự động sử dụng số định danh 12 số gửi yêu cầu truy vấn đến Tổng cục Thuế."
       },
       {
         "step": 3,
         "title": "Kích hoạt hiển thị trong Ví giấy tờ",
-        "desc": "Nếu thông tin số CCCD đã được chuẩn hóa tại cơ quan thuế, mã số thuế cá nhân, cơ quan thuế quản lý và trạng thái hoạt động sẽ tự động kích hoạt hiển thị trong Ví giấy tờ."
+        "desc": "Mã số thuế cá nhân, cơ quan thuế quản lý và trạng thái hoạt động tự động hiển thị trong Ví giấy tờ."
       }
     ],
     "processing_time": "Truy vấn và hiển thị tự động trong vòng 24 giờ",
@@ -1507,14 +1915,26 @@
       ],
       "steps": [
         {
+          "step_num": 1,
           "step": 1,
-          "title": "Vào mục Tích hợp Thông tin thuế",
-          "action": "Mở VNeID -> Vào 'Ví giấy tờ' -> Chọn 'Tích hợp thông tin' -> Chọn 'Thông tin thuế'."
+          "title": "Truy cập tích hợp Thông tin thuế",
+          "description": "Mở phân hệ liên kết dữ liệu ngành Thuế.",
+          "sub_steps": [
+            "Mở VNeID, đăng nhập tài khoản Mức độ 2.",
+            "Chọn mục 'Ví giấy tờ' -> Chọn 'Tích hợp thông tin' -> Nhấn 'Tạo mới yêu cầu'.",
+            "Chọn loại thông tin: 'Thông tin thuế' (hoặc Mã số thuế cá nhân)."
+          ]
         },
         {
+          "step_num": 2,
           "step": 2,
-          "title": "Gửi yêu cầu truy vấn",
-          "action": "Kiểm tra số định danh cá nhân hiển thị -> Bấm 'Gửi yêu cầu' để hệ thống tự động kết nối Tổng cục Thuế."
+          "title": "Xác nhận truy vấn tự động từ Tổng cục Thuế",
+          "description": "Đối soát liên thông qua mã định danh 12 số.",
+          "sub_steps": [
+            "Hệ thống tự động trích xuất số định danh cá nhân 12 số của chủ tài khoản.",
+            "Nhấn nút 'Gửi yêu cầu': Hệ thống API gửi lệnh truy vấn sang Tổng cục Thuế.",
+            "Khi thông tin số CCCD đã được chuẩn hóa tại cơ quan thuế, mã số thuế, Chi cục Thuế quản lý và trạng thái nộp thuế sẽ tự động kích hoạt hiển thị trong Ví giấy tờ."
+          ]
         }
       ],
       "result_format": "Hiển thị thông tin Mã số thuế, ngày cấp, Chi cục Thuế quản lý trực tiếp và trạng thái nộp thuế trong Ví giấy tờ.",
@@ -1540,17 +1960,17 @@
       {
         "step": 1,
         "title": "Chọn danh mục Người phụ thuộc",
-        "desc": "Tại giao diện 'Ví giấy tờ', chọn 'Tích hợp thông tin' -> 'Tạo mới yêu cầu' -> Chọn mục 'Người phụ thuộc'."
+        "desc": "Tại 'Ví giấy tờ', chọn 'Tích hợp thông tin' -> 'Tạo mới yêu cầu' -> Chọn 'Người phụ thuộc'."
       },
       {
         "step": 2,
         "title": "Khai báo thông tin người phụ thuộc",
-        "desc": "Kê khai đầy đủ số định danh cá nhân của người phụ thuộc, họ tên, ngày tháng năm sinh và chỉ định mối quan hệ nhân thân (con, bố mẹ, người giám hộ)."
+        "desc": "Kê khai số định danh cá nhân, họ tên, ngày sinh và mối quan hệ nhân thân."
       },
       {
         "step": 3,
         "title": "Đối soát với CSDL Cơ quan Thuế",
-        "desc": "Cơ quan Thuế tiếp nhận dữ liệu sẽ rà soát với hồ sơ đăng ký giảm trừ gia cảnh hiện hành trước khi phê duyệt liên kết trên ứng dụng VNeID."
+        "desc": "Cơ quan Thuế rà soát với hồ sơ giảm trừ gia cảnh hiện hành trước khi phê duyệt liên kết."
       }
     ],
     "processing_time": "Từ 01 đến 03 ngày làm việc đối soát hồ sơ thuế",
@@ -1575,14 +1995,27 @@
       ],
       "steps": [
         {
+          "step_num": 1,
           "step": 1,
-          "title": "Vào mục Người phụ thuộc",
-          "action": "Mở VNeID -> Chọn 'Ví giấy tờ' -> Chọn 'Tích hợp thông tin' -> Chọn 'Người phụ thuộc'."
+          "title": "Truy cập mục Tích hợp Người phụ thuộc",
+          "description": "Mở tiện ích liên kết thông tin giảm trừ gia cảnh.",
+          "sub_steps": [
+            "Đăng nhập tài khoản VNeID Mức 2.",
+            "Vào mục 'Ví giấy tờ' -> Nhấn 'Tích hợp thông tin' -> 'Tạo mới yêu cầu'.",
+            "Chọn mục: 'Người phụ thuộc'."
+          ]
         },
         {
+          "step_num": 2,
           "step": 2,
-          "title": "Điền số định danh của con/cha mẹ",
-          "action": "Nhập số định danh 12 số của người phụ thuộc -> Chọn mối quan hệ (con, bố mẹ, người nuôi dưỡng) -> Bấm Gửi yêu cầu."
+          "title": "Kê khai thông tin người phụ thuộc",
+          "description": "Điền số định danh và mối quan hệ nhân thân.",
+          "sub_steps": [
+            "Nhập chính xác số định danh cá nhân 12 số của người phụ thuộc (con đẻ, cha mẹ ruột hoặc người giám hộ).",
+            "Chọn mối quan hệ nhân thân tương ứng trong danh mục gợi ý.",
+            "Tích cam kết thông tin -> Nhấn 'Gửi yêu cầu'.",
+            "Cơ quan thuế đối soát hồ sơ đăng ký giảm trừ gia cảnh và phê duyệt hiển thị trong 1 - 3 ngày làm việc."
+          ]
         }
       ],
       "result_format": "Hiển thị danh sách người phụ thuộc kèm mã số thuế người phụ thuộc đã được phê duyệt trong Ví giấy tờ.",
@@ -1608,27 +2041,27 @@
       {
         "step": 1,
         "title": "Xử lý lỗi từ chối tích hợp GPLX",
-        "desc": "Nguyên nhân do bằng lái bìa giấy cũ chỉ có năm sinh, hoặc dùng CMND 9 số cũ -> Khắc phục: Truy cập Cổng DVC Cục Đường bộ đổi sang thẻ nhựa PET cập nhật CCCD 12 số -> Gửi lại yêu cầu tích hợp."
+        "desc": "Đổi sang thẻ nhựa PET cập nhật CCCD 12 số trên Cổng DVC Cục Đường bộ -> Gửi lại yêu cầu tích hợp."
       },
       {
         "step": 2,
         "title": "Xử lý lỗi từ chối Đăng ký xe (Cà vẹt)",
-        "desc": "Nguyên nhân nhập BKS có dấu cách/gạch nối, chọn sai màu biển, hoặc xe chưa sang tên chính chủ -> Khắc phục: Nhập BKS viết liền mạch (VD: 89H112345), chọn đúng màu biển, làm thủ tục sang tên đổi chủ."
+        "desc": "Nhập BKS viết liền mạch (VD: 89H112345), chọn đúng màu biển, làm thủ tục sang tên đổi chủ nếu chưa chính chủ."
       },
       {
         "step": 3,
         "title": "Xử lý lỗi thông tin Thẻ BHYT không hợp lệ",
-        "desc": "Nguyên nhân sai lệch họ tên, giới tính, ngày sinh giữa CSDL BHXH và Căn cước -> Khắc phục: Mở app VssID kiểm tra thông tin lệch -> Liên hệ cơ quan BHXH huyện Kim Động để đồng bộ số định danh."
+        "desc": "Mở app VssID kiểm tra thông tin lệch -> Liên hệ BHXH huyện Kim Động để đồng bộ số định danh."
       },
       {
         "step": 4,
         "title": "Khôi phục khi quên mã Passcode hoặc Mật khẩu",
-        "desc": "Bấm 'Quên Passcode' hoặc 'Quên mật khẩu' -> Trả lời 2 câu hỏi bảo mật + OTP SMS; hoặc Sử dụng điện thoại có NFC áp sát thẻ CCCD gắn chip vào lưng máy để giải mã khôi phục."
+        "desc": "Trả lời 2 câu hỏi bảo mật + OTP SMS; hoặc Sử dụng điện thoại có NFC áp sát thẻ CCCD gắn chip vào lưng máy để giải mã."
       },
       {
         "step": 5,
         "title": "Xử lý khi thay đổi thiết bị đăng nhập mới",
-        "desc": "Xác thực qua mã OTP gửi về thiết bị cũ; nếu thiết bị cũ bị hỏng/mất: Chọn xác thực qua chip NFC trên thẻ CCCD đặt vào lưng máy mới để cấp quyền truy cập an toàn."
+        "desc": "Xác thực qua mã OTP gửi về máy cũ hoặc đặt thẻ CCCD quét chip NFC trên lưng máy mới."
       }
     ],
     "processing_time": "Tự xử lý trong 5 phút hoặc hỗ trợ qua hotline trực ban",
@@ -1653,24 +2086,38 @@
       ],
       "steps": [
         {
+          "step_num": 1,
           "step": 1,
-          "title": "Xác định mã lỗi cụ thể",
-          "action": "Kiểm tra thông báo từ chối trong mục 'Lịch sử yêu cầu' trên VNeID để biết lý do cụ thể."
+          "title": "Xác định mã lỗi từ chối giấy tờ",
+          "description": "Tra cứu nguyên nhân kỹ thuật trong lịch sử yêu cầu.",
+          "sub_steps": [
+            "Mở VNeID, vào mục 'Ví giấy tờ' -> Chọn 'Lịch sử yêu cầu'.",
+            "Bấm vào giấy tờ bị từ chối để đọc chi tiết phản hồi từ hệ thống chuyên ngành.",
+            "Phân loại nguyên nhân: Lỗi sai định dạng BKS, lỗi bằng lái cũ chưa có ngày tháng sinh, hoặc lỗi lệch dữ liệu BHXH."
+          ]
         },
         {
+          "step_num": 2,
           "step": 2,
           "title": "Áp dụng giải pháp chuẩn hóa dữ liệu",
-          "action": "Chuẩn hóa BKS xe viết liền; đổi bằng lái sang thẻ PET; mở VssID chuẩn hóa mã BHYT."
+          "description": "Khắc phục triệt để lỗi kỹ thuật theo hướng dẫn.",
+          "sub_steps": [
+            "Đối với GPLX cũ giấy bìa: Nộp hồ sơ đổi sang bằng thẻ PET mới trên Cổng DVC Cục Đường bộ Việt Nam, sau đó tích hợp lại.",
+            "Đối với Đăng ký xe: Nhập lại biển số viết liền không dấu cách/chấm (VD: 89H123456); nếu xe chưa sang tên, liên hệ Công an xã làm thủ tục sang tên.",
+            "Đối với BHYT: Mở ứng dụng VssID kiểm tra họ tên, ngày sinh xem có bị lệch so với CCCD hay không để đề nghị cơ quan BHXH cập nhật."
+          ]
         },
         {
+          "step_num": 3,
           "step": 3,
-          "title": "Sử dụng NFC khôi phục Passcode/Thiết bị",
-          "action": "Bấm 'Quên Passcode' -> Áp thẻ CCCD vào mặt lưng máy để quét chip NFC khôi phục mã mới."
-        },
-        {
-          "step": 4,
-          "title": "Liên hệ cơ quan hỗ trợ chuyên trách",
-          "action": "Gọi tổng đài hỗ trợ VNeID: 1900.0368 hoặc đến trực tiếp Trụ sở Công an xã Đức Hợp (02213.815.999)."
+          "title": "Khôi phục Passcode / Đăng nhập máy mới bằng NFC",
+          "description": "Sử dụng công nghệ quét chip NFC trên thẻ CCCD.",
+          "sub_steps": [
+            "Khi quên mã Passcode hoặc đổi máy mới mà máy cũ bị mất: Nhấn chọn 'Xác thực qua thẻ CCCD gắn chip (NFC)'.",
+            "Tháo ốp lưng điện thoại, áp sát phần chip đồng trên mặt sau thẻ CCCD vào vùng đọc NFC trên lưng máy.",
+            "Giữ nguyên thẻ trong 3 - 5 giây cho đến khi ứng dụng rung và hiển thị thông báo đọc chip thành công.",
+            "Nhập mã xác thực OTP gửi về SMS và thiết lập lại mã Passcode mới."
+          ]
         }
       ],
       "result_format": "Khắc phục triệt để các lỗi tích hợp, khôi phục tài khoản hoạt động bình thường.",
@@ -1698,27 +2145,27 @@
       {
         "step": 1,
         "title": "Khởi tạo yêu cầu phản ánh ANTT",
-        "desc": "Đăng nhập VNeID Mức 2 -> Vào 'Dịch vụ khác' -> Chọn 'Tiếp nhận góp ý, phản ánh & vướng mắc' -> Chọn 'Kiến nghị, phản ánh về ANTT' -> Nhấn 'Tạo mới yêu cầu'."
+        "desc": "Đăng nhập VNeID Mức 2 -> 'Tiếp nhận góp ý, phản ánh' -> Chọn 'Kiến nghị, phản ánh về ANTT'."
       },
       {
         "step": 2,
         "title": "Cấu hình bảo mật danh tính người báo",
-        "desc": "Nếu muốn giữ bí mật thông tin cá nhân, tích chọn ô 'Ẩn danh'. Thông tin cá nhân sẽ được hệ thống mã hóa bảo mật tuyệt đối, chỉ phục vụ xác minh nghiệp vụ theo luật bảo vệ người tố giác."
+        "desc": "Tích chọn ô 'Ẩn danh' nếu muốn giữ bí mật thông tin cá nhân theo luật bảo vệ người tố giác."
       },
       {
         "step": 3,
         "title": "Khai báo chi tiết vụ việc vi phạm",
-        "desc": "Chọn đối tượng vi phạm (Cá nhân/Tổ chức/Chưa xác định). Chọn tối đa 3 hành vi vi phạm (trộm cắp, gây rối trật tự, cờ bạc, ma túy, lừa đảo, vi phạm giao thông,...). Nhập thời gian và địa điểm xảy ra (hệ thống tự điều phối tin báo về Công an xã Đức Hợp)."
+        "desc": "Chọn đối tượng vi phạm, chọn tối đa 3 hành vi vi phạm, nhập thời gian và địa điểm xảy ra."
       },
       {
         "step": 4,
         "title": "Đính kèm chứng cứ và mô tả nội dung",
-        "desc": "Tải lên tối đa 3 tệp hình ảnh/chứng cứ -> Nhập tóm tắt diễn biến sự việc, đặc điểm nhận dạng của đối tượng và thiệt hại ban đầu."
+        "desc": "Tải lên tối đa 3 tệp hình ảnh chứng cứ và nhập mô tả diễn biến sự việc, đặc điểm nhận dạng."
       },
       {
         "step": 5,
         "title": "Cam kết pháp lý và gửi tin báo",
-        "desc": "Tích chọn cam đoan chịu trách nhiệm trước pháp luật về nội dung trình báo (chống báo tin giả theo Pháp lệnh 02/2022) -> Nhấn 'Gửi yêu cầu' để chuyển thẳng vào hệ thống trực ban Công an."
+        "desc": "Tích cam đoan chịu trách nhiệm pháp lý -> Nhấn 'Gửi yêu cầu' để chuyển vào hệ thống chỉ huy Công an."
       }
     ],
     "processing_time": "Tiếp nhận tức thời 24/7; cán bộ Công an tiến hành xác minh ngay lập tức",
@@ -1744,24 +2191,50 @@
       ],
       "steps": [
         {
+          "step_num": 1,
           "step": 1,
-          "title": "Vào mục Phản ánh ANTT",
-          "action": "Đăng nhập VNeID -> Chọn 'Dịch vụ khác' -> 'Tiếp nhận góp ý, phản ánh' -> Chọn 'Kiến nghị, phản ánh về ANTT'."
+          "title": "Truy cập mục Kiến nghị, phản ánh về ANTT",
+          "description": "Mở tiện ích tố giác tội phạm số trên VNeID.",
+          "sub_steps": [
+            "Đăng nhập tài khoản VNeID Mức 2 trên điện thoại.",
+            "Tại màn hình chính, chọn mục 'Dịch vụ khác' -> Chọn 'Tiếp nhận góp ý, phản ánh & vướng mắc'.",
+            "Nhấn chọn dịch vụ: 'Kiến nghị, phản ánh về ANTT' -> Bấm nút 'Tạo mới yêu cầu'."
+          ]
         },
         {
+          "step_num": 2,
           "step": 2,
-          "title": "Bật chế độ Ẩn danh (nếu cần)",
-          "action": "Bấm 'Tạo mới yêu cầu' -> Tích chọn ô 'Ẩn danh' để bảo mật thông tin cá nhân."
+          "title": "Cấu hình chế độ Ẩn danh bảo vệ người báo",
+          "description": "Bảo đảm an toàn tuyệt đối cho người tố giác tội phạm.",
+          "sub_steps": [
+            "Hệ thống mặc định trích xuất thông tin chủ tài khoản.",
+            "Nếu muốn giữ bí mật thông tin cá nhân: Tích chọn vào ô vuông 'Ẩn danh'.",
+            "Khi chọn ẩn danh, thông tin cá nhân của bạn sẽ được mã hóa an toàn, cán bộ tiếp nhận chỉ thấy nội dung tin báo để xác minh nghiệp vụ."
+          ]
         },
         {
+          "step_num": 3,
           "step": 3,
-          "title": "Mô tả vụ việc và chọn địa bàn xã Đức Hợp",
-          "action": "Chọn hành vi vi phạm -> Chọn địa bàn Tỉnh Hưng Yên, Huyện Kim Động, Xã Đức Hợp -> Nhập mô tả vụ việc."
+          "title": "Khai báo hành vi vi phạm & Địa điểm xảy ra",
+          "description": "Cung cấp chi tiết vụ việc để điều phối lực lượng xử lý.",
+          "sub_steps": [
+            "Chọn nhóm đối tượng vi phạm: 'Cá nhân', 'Tổ chức' hoặc 'Chưa xác định'.",
+            "Lựa chọn tối đa 3 hành vi vi phạm: Trộm cắp, gây rối trật tự, cờ bạc, ma túy, lừa đảo công nghệ cao, vi phạm giao thông,...",
+            "Chọn thời gian xảy ra vụ việc (giờ, phút, ngày tháng).",
+            "Chọn địa điểm xảy ra: Chọn Tỉnh Hưng Yên -> Huyện Kim Động -> Xã Đức Hợp -> Điền thôn xóm cụ thể (hệ thống tự động chuyển tin báo về Công an xã Đức Hợp)."
+          ]
         },
         {
+          "step_num": 4,
           "step": 4,
-          "title": "Đính kèm ảnh và Gửi tin báo",
-          "action": "Tải lên ảnh chụp hiện trường/chứng cứ -> Tích cam đoan chịu trách nhiệm -> Bấm 'Gửi yêu cầu'."
+          "title": "Đính kèm ảnh hiện trường & Gửi tin báo",
+          "description": "Cung cấp chứng cứ và cam kết trách nhiệm công dân.",
+          "sub_steps": [
+            "Tải lên tối đa 3 tệp hình ảnh/chứng cứ sắc nét về hiện trường, tang vật hoặc đối tượng vi phạm.",
+            "Gõ tóm tắt diễn biến sự việc, đặc điểm nhận dạng của kẻ vi phạm và thiệt hại ban đầu.",
+            "Tích chọn cam đoan: 'Tôi xin chịu trách nhiệm trước pháp luật về nội dung trình báo ở trên' (chống tin báo giả theo Pháp lệnh 02/2022).",
+            "Nhấn nút 'Gửi yêu cầu' để chuyển thẳng vào hệ thống trực ban Công an xã Đức Hợp giải quyết."
+          ]
         }
       ],
       "result_format": "Tin báo chuyển trực tiếp đến hệ thống máy chủ chỉ huy Công an xã Đức Hợp; kết quả thụ lý hiển thị trong mục Lịch sử yêu cầu.",
@@ -1792,17 +2265,17 @@
       {
         "step": 2,
         "title": "Nhận diện Trạm Cảnh sát Kiosk",
-        "desc": "Hệ thống tự động gợi ý trạm Kiosk gần nhất qua tọa độ GPS; hoặc Nếu đang đứng tại cabin Kiosk thông minh, dùng camera VNeID quét mã QR trên màn hình Kiosk để liên kết phiên làm việc."
+        "desc": "Hệ thống tự động gợi ý trạm Kiosk gần nhất qua GPS hoặc dùng camera VNeID quét mã QR trên màn hình Kiosk."
       },
       {
         "step": 3,
         "title": "Nhập nội dung can thiệp khẩn cấp",
-        "desc": "Khai báo hành vi cần can thiệp (trộm cắp, gây mất an ninh, tai nạn, hỗ trợ y tế khẩn cấp, tìm người thất lạc) và đính kèm hình ảnh tại khu vực trạm."
+        "desc": "Khai báo hành vi cần can thiệp (trộm cắp, tai nạn, hỗ trợ y tế) và đính kèm hình ảnh."
       },
       {
         "step": 4,
         "title": "Kích hoạt điều phối tuần tra khẩn cấp",
-        "desc": "Xác nhận và bấm 'Gửi yêu cầu'. Cảnh báo tức thì kích hoạt trên hệ thống trực ban Kiosk thông minh và điều phối lực lượng Cảnh sát tuần tra gần nhất đến hiện trường xử lý."
+        "desc": "Cảnh báo tức thì kích hoạt trên hệ thống trực ban Kiosk và điều phối cảnh sát tuần tra gần nhất đến hiện trường."
       }
     ],
     "processing_time": "Kích hoạt báo động tức thì; cảnh sát tuần tra có mặt trong 5 đến 10 phút",
@@ -1827,19 +2300,35 @@
       ],
       "steps": [
         {
+          "step_num": 1,
           "step": 1,
-          "title": "Mở chức năng Phản ánh Kiosk",
-          "action": "Vào VNeID -> Chọn 'Kiến nghị, phản ánh ANTT tại Trạm Cảnh Sát (Kiosk)'."
+          "title": "Mở chức năng Phản ánh Kiosk thông minh",
+          "description": "Truy cập hệ thống kết nối Trạm Cảnh sát số.",
+          "sub_steps": [
+            "Mở ứng dụng VNeID, đăng nhập tài khoản Mức độ 2.",
+            "Chọn mục 'Dịch vụ khác' -> 'Tiếp nhận góp ý, phản ánh' -> Chọn 'Kiến nghị, phản ánh ANTT tại Trạm Cảnh Sát (Kiosk)'."
+          ]
         },
         {
+          "step_num": 2,
           "step": 2,
-          "title": "Định vị hoặc Quét mã QR Kiosk",
-          "action": "Để máy tự định vị Kiosk gần nhất hoặc quét mã QR hiển thị trên màn hình cabin trạm Kiosk."
+          "title": "Liên kết với Cabin Trạm Cảnh sát Kiosk",
+          "description": "Nhận diện vị trí qua định vị hoặc mã QR cabin.",
+          "sub_steps": [
+            "Phương thức 1: Nếu đang đứng trước cabin Kiosk Cảnh sát thông minh, dùng camera VNeID quét mã QR hiển thị trên màn hình cảm ứng của Kiosk để kết nối phiên làm việc.",
+            "Phương thức 2: Nếu ở gần đó, để ứng dụng tự động định vị GPS trạm Kiosk gần nhất."
+          ]
         },
         {
+          "step_num": 3,
           "step": 3,
-          "title": "Khai báo sự việc khẩn cấp & Gửi báo động",
-          "action": "Chọn sự việc cần trợ giúp khẩn -> Bấm 'Gửi yêu cầu' để kích hoạt lực lượng tuần tra tiếp cận."
+          "title": "Khai báo sự việc khẩn cấp & Kích hoạt ứng cứu",
+          "description": "Phát tín hiệu báo động khẩn đến tổ tuần tra.",
+          "sub_steps": [
+            "Chọn sự việc cần can thiệp gấp: Tai nạn giao thông, trộm cắp, ẩu đả gây rối, cấp cứu y tế, tìm trẻ lạc,...",
+            "Chụp ảnh khu vực hiện trường xung quanh trạm Kiosk tải lên.",
+            "Nhấn nút 'Gửi yêu cầu': Tín hiệu báo động lập tức kích hoạt chuông cảnh báo tại Kiosk và điều phối tổ Cảnh sát cơ động gần nhất tiếp cận xử lý trong 5 - 10 phút."
+          ]
         }
       ],
       "result_format": "Xác nhận tiếp nhận tín hiệu khẩn cấp trên màn hình Kiosk và điều phối cán bộ ứng cứu tại chỗ.",
@@ -1866,27 +2355,27 @@
       {
         "step": 1,
         "title": "Khởi tạo yêu cầu giám sát của Đảng",
-        "desc": "Mở VNeID -> 'Tiếp nhận góp ý, phản ánh' -> Chọn 'Kiến nghị, phản ánh về kiểm tra, giám sát của Đảng' -> Nhấn 'Tạo mới yêu cầu'."
+        "desc": "Mở VNeID -> 'Tiếp nhận góp ý, phản ánh' -> Chọn 'Kiến nghị, phản ánh về kiểm tra, giám sát của Đảng'."
       },
       {
         "step": 2,
         "title": "Cung cấp thông tin người gửi",
-        "desc": "Lựa chọn gửi có danh tính hoặc tích chọn 'Ẩn danh' nhằm bảo đảm tuyệt đối tính bí mật và an toàn cho người phản ánh theo quy định bảo vệ người tố giác."
+        "desc": "Lựa chọn gửi có danh tính hoặc tích chọn 'Ẩn danh' nhằm bảo đảm tuyệt đối tính bí mật theo luật."
       },
       {
         "step": 3,
         "title": "Xác định cơ quan tiếp nhận",
-        "desc": "Lựa chọn cấp ủy hoặc Ủy ban Kiểm tra phụ trách thẩm quyền giải quyết (Ủy ban Kiểm tra Trung ương, Tỉnh ủy, Huyện ủy hoặc Đảng ủy cơ sở)."
+        "desc": "Lựa chọn cấp ủy hoặc Ủy ban Kiểm tra phụ trách thẩm quyền giải quyết."
       },
       {
         "step": 4,
         "title": "Kê khai đối tượng và nội dung phản ánh",
-        "desc": "Nêu rõ họ tên cán bộ, đảng viên (chức vụ, nơi công tác) hoặc tổ chức Đảng có dấu hiệu vi phạm. Tóm tắt nội dung sự việc, thời gian, địa điểm và tải lên tài liệu chứng minh."
+        "desc": "Nêu rõ họ tên cán bộ, đảng viên hoặc tổ chức Đảng có dấu hiệu vi phạm kèm tóm tắt nội dung và chứng cứ."
       },
       {
         "step": 5,
         "title": "Cam đoan khách quan và gửi hồ sơ",
-        "desc": "Tích cam đoan thông tin khách quan, đúng sự thật, không mang tính chất vu khống, bôi nhọ -> Nhấn 'Gửi yêu cầu' để chuyển bảo mật đến bộ phận nghiệp vụ của UBKT có thẩm quyền."
+        "desc": "Tích cam đoan thông tin khách quan, không vu khống -> Nhấn 'Gửi yêu cầu' chuyển bảo mật đến UBKT."
       }
     ],
     "processing_time": "Phân phối bảo mật trực tiếp đến UBKT có thẩm quyền xem xét xử lý theo quy định của Đảng",
@@ -1912,24 +2401,37 @@
       ],
       "steps": [
         {
+          "step_num": 1,
           "step": 1,
           "title": "Vào chức năng Giám sát của Đảng",
-          "action": "Mở VNeID -> Chọn 'Kiến nghị, phản ánh về kiểm tra, giám sát của Đảng' -> Bấm 'Tạo mới yêu cầu'."
+          "description": "Mở kênh số hóa phản ánh công tác xây dựng Đảng.",
+          "sub_steps": [
+            "Mở ứng dụng VNeID, đăng nhập tài khoản Mức độ 2.",
+            "Chọn mục 'Dịch vụ khác' -> 'Tiếp nhận góp ý, phản ánh' -> Chọn 'Kiến nghị, phản ánh về kiểm tra, giám sát của Đảng'.",
+            "Bấm nút 'Tạo mới yêu cầu'."
+          ]
         },
         {
+          "step_num": 2,
           "step": 2,
           "title": "Chọn chế độ Ẩn danh & Chọn cơ quan UBKT",
-          "action": "Tích chọn Ẩn danh nếu muốn bảo mật -> Chọn Ủy ban Kiểm tra tiếp nhận xử lý."
+          "description": "Bảo đảm tính độc lập, bí mật và an toàn thông tin.",
+          "sub_steps": [
+            "Tích chọn ô 'Ẩn danh' nếu người phản ánh có nguyện vọng bảo mật danh tính.",
+            "Chọn cấp tiếp nhận: Ủy ban Kiểm tra Trung ương, Tỉnh ủy/Thành ủy, Huyện ủy/Thị ủy hoặc Đảng ủy cơ sở có thẩm quyền thụ lý."
+          ]
         },
         {
+          "step_num": 3,
           "step": 3,
-          "title": "Khai báo đối tượng & Nội dung vi phạm",
-          "action": "Ghi rõ tên, chức vụ cán bộ đảng viên vi phạm -> Tóm tắt diễn biến và tải tài liệu chứng cứ."
-        },
-        {
-          "step": 4,
-          "title": "Gửi phản ánh",
-          "action": "Tích cam kết trung thực, không vu khống -> Nhấn 'Gửi yêu cầu'."
+          "title": "Kê khai đối tượng & Tóm tắt hành vi vi phạm",
+          "description": "Cung cấp thông tin đối tượng và chứng cứ sai phạm.",
+          "sub_steps": [
+            "Ghi rõ họ tên cán bộ, đảng viên (chức vụ, cơ quan, đơn vị công tác) hoặc tên tổ chức Đảng có dấu hiệu sai phạm.",
+            "Trình bày rõ ràng bản chất hành vi: Vi phạm Điều lệ Đảng, suy thoái tư tưởng chính trị, đạo đức, lối sống, tham nhũng, lãng phí, tiêu cực.",
+            "Đính kèm tệp tài liệu, hình ảnh hoặc văn bản số hóa làm căn cứ đối chiếu.",
+            "Tích cam kết thông tin khách quan, không vu khống, bôi nhọ -> Bấm 'Gửi yêu cầu' để chuyển thẳng vào hòm thư bảo mật của Ủy ban Kiểm tra."
+          ]
         }
       ],
       "result_format": "Hồ sơ được mã hóa và chuyển phát bảo mật vào hệ thống xử lý đơn thư của Ủy ban Kiểm tra phụ trách.",
@@ -1955,27 +2457,27 @@
       {
         "step": 1,
         "title": "Chọn chức năng Phản ánh khó khăn, vướng mắc",
-        "desc": "Tại màn hình VNeID, chọn 'Phản ánh khó khăn, vướng mắc' (hoặc truy cập qua mục Cài đặt) -> Chọn 'Tạo phản ánh'."
+        "desc": "Tại màn hình VNeID, chọn 'Phản ánh khó khăn, vướng mắc' -> Chọn 'Tạo phản ánh'."
       },
       {
         "step": 2,
         "title": "Phân loại đối tượng và tính chất sự việc",
-        "desc": "Loại phản ánh: Chọn 'Sai dữ liệu' (thông tin cá nhân, cư trú sai) hoặc 'Lỗi hệ thống / Dịch vụ công'. Chọn nhóm lĩnh vực cần sửa đổi: 'Thông tin cư trú', 'Thông tin nhân thân', 'Tích hợp giấy tờ',..."
+        "desc": "Chọn 'Sai dữ liệu' hoặc 'Lỗi hệ thống / Dịch vụ công'. Chọn nhóm lĩnh vực cần sửa đổi."
       },
       {
         "step": 3,
         "title": "Nhập mô tả nội dung sai lệch chi tiết",
-        "desc": "Nêu cụ thể thông tin hiện đang hiển thị sai (ví dụ: sai số nhà, tên thôn xóm, sai năm sinh, thiếu ngày tháng sinh) và cung cấp thông tin chuẩn xác đề nghị cơ quan Công an hiệu chỉnh cập nhật lại trên hệ thống."
+        "desc": "Nêu cụ thể thông tin hiện đang hiển thị sai và thông tin đúng đề nghị cập nhật."
       },
       {
         "step": 4,
         "title": "Tải lên hồ sơ, giấy tờ chứng minh",
-        "desc": "Đính kèm ảnh chụp rõ nét của thẻ CCCD/Căn cước, Giấy khai sinh, Sổ hộ khẩu giấy cũ hoặc Giấy chứng nhận nhà đất có đóng dấu đỏ để làm căn cứ pháp lý đối chiếu."
+        "desc": "Đính kèm ảnh chụp CCCD, Giấy khai sinh, Sổ hộ khẩu cũ hoặc Giấy chứng nhận nhà đất."
       },
       {
         "step": 5,
         "title": "Cam đoan và gửi phản ánh",
-        "desc": "Tích chọn cam đoan thông tin khai báo hoàn toàn chính xác -> Bấm 'Gửi phản ánh'. Cán bộ Cảnh sát khu vực Công an xã Đức Hợp sẽ kiểm tra kho lưu trữ và duyệt điều chỉnh dữ liệu chuẩn hóa từ 1 đến 3 ngày làm việc."
+        "desc": "Tích chọn cam đoan thông tin chính xác -> Bấm 'Gửi phản ánh' để Công an xã thẩm định làm sạch."
       }
     ],
     "processing_time": "Thẩm định kho hồ sơ dân cư và cập nhật làm sạch dữ liệu từ 01 đến 03 ngày làm việc",
@@ -2000,24 +2502,46 @@
       ],
       "steps": [
         {
+          "step_num": 1,
           "step": 1,
           "title": "Vào mục Phản ánh khó khăn vướng mắc",
-          "action": "Mở VNeID -> Chọn 'Phản ánh khó khăn, vướng mắc' -> Bấm 'Tạo phản ánh'."
+          "description": "Mở tiện ích yêu cầu làm sạch dữ liệu dân cư.",
+          "sub_steps": [
+            "Mở ứng dụng VNeID, đăng nhập tài khoản Mức độ 2.",
+            "Chọn mục 'Cài đặt' ở góc dưới bên phải màn hình hoặc tìm mục 'Phản ánh khó khăn, vướng mắc'.",
+            "Nhấn nút 'Tạo phản ánh' (hoặc Tạo mới yêu cầu)."
+          ]
         },
         {
+          "step_num": 2,
           "step": 2,
-          "title": "Chọn loại 'Sai dữ liệu' & Nhóm lĩnh vực",
-          "action": "Chọn 'Sai dữ liệu' -> Chọn 'Thông tin cư trú' hoặc 'Thông tin nhân thân'."
+          "title": "Phân loại tính chất sự việc sai lệch",
+          "description": "Chọn nhóm thông tin cần cơ quan Công an hiệu chỉnh.",
+          "sub_steps": [
+            "Chọn loại phản ánh: 'Sai dữ liệu' (thông tin cá nhân, cư trú sai) hoặc 'Lỗi hệ thống / Dịch vụ công'.",
+            "Chọn nhóm lĩnh vực: 'Thông tin cư trú', 'Thông tin nhân thân', 'Tích hợp giấy tờ', 'Bảo hiểm y tế',..."
+          ]
         },
         {
+          "step_num": 3,
           "step": 3,
-          "title": "Ghi rõ nội dung sai và thông tin đúng",
-          "action": "Mô tả chi tiết: 'Hiện trên VNeID hiển thị sai địa chỉ thôn X, đề nghị sửa lại thành thôn Nho Lâm, xã Đức Hợp'."
+          "title": "Mô tả chi tiết nội dung sai lệch & Thông tin đúng",
+          "description": "Đối chiếu cụ thể thông tin hiển thị với thực tế.",
+          "sub_steps": [
+            "Nêu rõ thông tin hiện đang hiển thị sai trên VNeID (ví dụ: sai số nhà, tên đường, sai năm sinh, thiếu ngày tháng sinh, sai giới tính).",
+            "Cung cấp thông tin chuẩn xác đề nghị cơ quan Công an hiệu chỉnh cập nhật lại trên hệ thống CSDLQG về dân cư."
+          ]
         },
         {
+          "step_num": 4,
           "step": 4,
-          "title": "Chụp ảnh giấy tờ chứng minh & Gửi",
-          "action": "Chụp ảnh Căn cước/Giấy tờ nhà đất tải lên -> Tích cam kết -> Bấm 'Gửi phản ánh'."
+          "title": "Đính kèm giấy tờ chứng minh & Gửi phản ánh",
+          "description": "Cung cấp căn cứ pháp lý để Cảnh sát khu vực duyệt làm sạch.",
+          "sub_steps": [
+            "Chụp ảnh rõ nét thẻ CCCD/Căn cước, Giấy khai sinh, Sổ hộ khẩu cũ hoặc Giấy chứng nhận quyền sở hữu nhà ở/đất ở.",
+            "Tích chọn ô 'Tôi xin cam đoan thông tin khai báo trên là hoàn toàn chính xác'.",
+            "Nhấn nút 'Gửi phản ánh': Cán bộ Cảnh sát khu vực Công an xã Đức Hợp sẽ kiểm tra kho hồ sơ dân cư và phê duyệt điều chỉnh dữ liệu chuẩn hóa trong thời hạn 1 đến 3 ngày làm việc."
+          ]
         }
       ],
       "result_format": "Cán bộ Công an xã Đức Hợp phê duyệt làm sạch trên phần mềm dân cư, dữ liệu chuẩn hóa tự động cập nhật lại trên VNeID.",

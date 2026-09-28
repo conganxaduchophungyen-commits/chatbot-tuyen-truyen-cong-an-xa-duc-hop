@@ -258,38 +258,55 @@ export default function ProcedureDetailPage() {
                     </h3>
 
                     <div className="space-y-5">
-                      {guide.steps.map((st) => (
-                        <div 
-                          key={st.step_num} 
-                          className="p-5 rounded-2xl border border-slate-200 bg-slate-50/60 hover:bg-white hover:border-police-400 hover:shadow-md transition space-y-2.5"
-                        >
-                          <div className="flex items-start space-x-3">
-                            <span className="w-7 h-7 rounded-xl bg-police-700 text-white font-black text-xs flex items-center justify-center shrink-0 shadow-xs">
-                              {st.step_num}
-                            </span>
-                            <div className="flex-1">
-                              <h4 className="font-extrabold text-sm sm:text-base text-slate-900">
-                                {st.title}
-                              </h4>
-                              <p className="text-xs text-slate-600 mt-0.5">
-                                {st.description}
-                              </p>
-                            </div>
-                          </div>
+                      {guide.steps.map((st, idx) => {
+                        const stepNum = st.step_num || st.step || idx + 1;
+                        const subtitle = st.description || st.desc || '';
+                        
+                        let subList: string[] = [];
+                        if (st.sub_steps && Array.isArray(st.sub_steps) && st.sub_steps.length > 0) {
+                          subList = st.sub_steps;
+                        } else if (st.action) {
+                          subList = st.action
+                            .split(/\s*->\s*|\s*;\s*|\s*\n\s*/)
+                            .map((s) => s.trim())
+                            .filter(Boolean);
+                        }
 
-                          {/* Các bước con / Hướng dẫn bấm nút */}
-                          {st.sub_steps && st.sub_steps.length > 0 && (
-                            <div className="pl-10 space-y-1.5 pt-1">
-                              {st.sub_steps.map((sub, sIdx) => (
-                                <div key={sIdx} className="text-xs text-slate-700 flex items-start space-x-2">
-                                  <span className="text-police-600 font-bold">•</span>
-                                  <span className="leading-relaxed font-medium">{sub}</span>
-                                </div>
-                              ))}
+                        return (
+                          <div 
+                            key={stepNum} 
+                            className="p-6 sm:p-7 rounded-3xl border border-slate-200/90 bg-white hover:border-police-400 hover:shadow-md transition space-y-3"
+                          >
+                            <div className="flex items-start space-x-3.5">
+                              <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-police-800 text-white font-bold text-sm sm:text-base flex items-center justify-center shrink-0 shadow-sm mt-0.5">
+                                {stepNum}
+                              </div>
+                              <div className="flex-1">
+                                <h4 className="font-bold text-base sm:text-lg text-slate-900 leading-snug">
+                                  {st.title}
+                                </h4>
+                                {subtitle && (
+                                  <p className="text-xs sm:text-sm text-slate-500 mt-1 font-medium leading-relaxed">
+                                    {subtitle}
+                                  </p>
+                                )}
+                              </div>
                             </div>
-                          )}
-                        </div>
-                      ))}
+
+                            {/* Các bước con chi tiết dạng danh sách chấm tròn như Ảnh 2 */}
+                            {subList.length > 0 && (
+                              <div className="pl-11 sm:pl-12.5 space-y-2 pt-1">
+                                {subList.map((sub, sIdx) => (
+                                  <div key={sIdx} className="text-xs sm:text-sm text-slate-700 flex items-start space-x-2.5 leading-relaxed">
+                                    <span className="text-police-600 font-bold text-base leading-none mt-0.5 shrink-0">•</span>
+                                    <span className="font-normal">{sub}</span>
+                                  </div>
+                                ))}
+                              </div>
+                            )}
+                          </div>
+                        );
+                      })}
                     </div>
                   </div>
 

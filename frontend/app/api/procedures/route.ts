@@ -21,8 +21,9 @@ export async function GET(req: NextRequest) {
       const data = await res.json();
       if (Array.isArray(data) && data.length > 0) {
         const enriched = data.map((item) => {
-          if (!item.online_guide) {
-            item.online_guide = findMockGuide(item);
+          const localGuide = findMockGuide(item);
+          if (localGuide) {
+            item.online_guide = localGuide;
           }
           return item;
         });

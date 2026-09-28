@@ -21,8 +21,9 @@ export async function GET(
     if (res.ok) {
       const data = await res.json();
       if (data && data.id) {
-        if (!data.online_guide) {
-          data.online_guide = findMockGuide(data);
+        const localGuide = findMockGuide(data);
+        if (localGuide) {
+          data.online_guide = localGuide;
         }
         return NextResponse.json(data);
       }
