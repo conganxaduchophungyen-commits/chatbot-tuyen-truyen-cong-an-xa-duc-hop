@@ -62,13 +62,28 @@ export interface Procedure {
   online_guide?: OnlineGuide;
 }
 
+export interface ScamExecutionStep {
+  step_num: number;
+  title: string;
+  desc: string;
+}
+
 export interface Article {
   id: string;
   category_id?: string;
+  code?: string;
+  category_type?: 'online' | 'offline';
   title: string;
+  raw_title?: string;
   slug: string;
   summary: string;
   content: string;
+  target_audience?: string;
+  psychological_manipulation?: string;
+  execution_steps?: ScamExecutionStep[];
+  sample_dialogue?: string;
+  red_flags?: string[];
+  prevention_measures?: string[];
   image_url?: string;
   is_scam_alert: boolean;
   scam_tricks: string[];

@@ -7,6 +7,7 @@ import Navbar, { NavTabType } from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ChatWidget from '@/components/ChatWidget';
 import LegalQuizSection from '@/components/LegalQuizSection';
+import EmergencyScamGuidelinesCard from '@/components/EmergencyScamGuidelinesCard';
 import { 
   getCategories, 
   getProcedures, 
@@ -56,6 +57,7 @@ function HomePageContent() {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
   const [scamSearchQuery, setScamSearchQuery] = useState('');
+  const [scamCategoryFilter, setScamCategoryFilter] = useState<'all' | 'online' | 'offline'>('all');
   const [loading, setLoading] = useState(false);
   const [procPage, setProcPage] = useState(1);
   const PROCEDURES_PER_PAGE = 6;
@@ -143,11 +145,15 @@ function HomePageContent() {
 
   const featuredAlert = articles.length > 0 ? articles[featuredAlertIndex % articles.length] : null;
 
-  // Lọc bài viết cảnh báo lừa đảo
+  // Lọc bài viết cảnh báo lừa đảo (theo danh mục trực tuyến / trực tiếp và từ khóa)
   const filteredScamArticles = articles.filter(art => {
+    if (scamCategoryFilter === 'online' && art.category_type !== 'online' && !art.code?.startsWith('ON')) return false;
+    if (scamCategoryFilter === 'offline' && art.category_type !== 'offline' && !art.code?.startsWith('OFF')) return false;
     if (!scamSearchQuery.trim()) return true;
     const q = scamSearchQuery.toLowerCase().trim();
-    return art.title.toLowerCase().includes(q) || art.summary.toLowerCase().includes(q);
+    return art.title.toLowerCase().includes(q) || 
+           art.summary.toLowerCase().includes(q) ||
+           (art.code && art.code.toLowerCase().includes(q));
   });
 
   return (
@@ -325,6 +331,11 @@ function HomePageContent() {
                   Bắt đầu làm bài kiểm tra →
                 </button>
               </div>
+            </section>
+
+            {/* FLASH CARD NGUYÊN TẮC PHÒNG NGỪA VÀ CÁC BƯỚC XỬ LÝ KHẨN CẤP */}
+            <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-8">
+              <EmergencyScamGuidelinesCard />
             </section>
 
             {/* CẢNH BÁO LỪA ĐẢO MỚI NHẤT */}
@@ -758,10 +769,10 @@ function HomePageContent() {
                 </span>
               </div>
               <h1 className="text-2xl sm:text-4xl font-black mb-3">
-                Nhận Diện Các Phương Thức & Thủ Đoạn Lừa Đảo
+                Nhận Diện 35 Kịch Bản & Thủ Đoạn Lừa Đảo Của Tội Phạm
               </h1>
-              <p className="text-xs sm:text-base text-red-100 max-w-2xl leading-relaxed">
-                Tổng hợp 22 phương thức & thủ đoạn lừa đảo phổ biến nhất trên không gian mạng hiện nay theo khuyến cáo của Bộ Công an. Bà con nâng cao cảnh giác, tuyệt đối không làm theo lời dụ dỗ của kẻ xấu!
+              <p className="text-xs sm:text-base text-red-100 max-w-3xl leading-relaxed">
+                Hệ thống dữ liệu nghiệp vụ chuẩn hóa 35 kịch bản lừa đảo (25 thủ đoạn trên không gian mạng và 10 thủ đoạn trực tiếp đời thực). Nắm rõ mục tiêu nhắm đến, động cơ tâm lý bị thao túng, diễn biến từng bước, lời thoại thực tế và biện pháp xử lý khẩn cấp!
               </p>
 
               {/* Tìm kiếm bài cảnh báo */}
@@ -769,7 +780,7 @@ function HomePageContent() {
                 <Search className="w-5 h-5 text-red-300 absolute left-3.5 top-3" />
                 <input
                   type="text"
-                  placeholder="Tìm thủ đoạn (VD: VNeID, nạp tiền TikTok, phạt nguội, deepfake...)"
+                  placeholder="Tìm theo mã (ON-01, OFF-01) hoặc từ khóa (VNeID, Deepfake, việc làm, ngân hàng...)"
                   value={scamSearchQuery}
                   onChange={(e) => setScamSearchQuery(e.target.value)}
                   className="w-full pl-11 pr-4 py-2.5 rounded-2xl bg-white/10 border border-white/20 text-white placeholder-red-200 text-xs sm:text-sm focus:outline-none focus:bg-white/20"
@@ -777,64 +788,132 @@ function HomePageContent() {
               </div>
             </div>
 
-            {/* DANH SÁCH 10 BÀI CẢNH BÁO CHI TIẾT */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-              {filteredScamArticles.map((art) => (
-                <div
-                  key={art.id}
-                  className="bg-white rounded-3xl p-6 border border-slate-200 hover:border-red-400 hover:shadow-xl transition flex flex-col justify-between"
+            {/* FLASH CARD NGUYÊN TẮC PHÒNG NGỪA VÀ CÁC BƯỚC XỬ LÝ KHẨN CẤP */}
+            <EmergencyScamGuidelinesCard />
+
+            {/* BỘ LỌC DANH MỤC: TẤT CẢ (35) | KHÔNG GIAN MẠNG (25) | ĐỜI THỰC (10) */}
+            <div className="flex flex-wrap items-center justify-between gap-4 pt-2 border-b border-slate-200 pb-4">
+              <div className="flex flex-wrap items-center gap-2">
+                <button
+                  type="button"
+                  onClick={() => setScamCategoryFilter('all')}
+                  className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition shadow-sm ${
+                    scamCategoryFilter === 'all'
+                      ? 'bg-red-600 text-white shadow-red-600/20'
+                      : 'bg-white text-slate-700 hover:bg-slate-100 border border-slate-200'
+                  }`}
                 >
-                  <div>
-                    <div className="flex items-center space-x-2 text-xs text-red-600 font-bold mb-2">
-                      <AlertTriangle className="w-4 h-4 shrink-0" />
-                      <span>Cảnh báo khẩn</span>
+                  Tất cả ({articles.length})
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setScamCategoryFilter('online')}
+                  className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition shadow-sm ${
+                    scamCategoryFilter === 'online'
+                      ? 'bg-blue-600 text-white shadow-blue-600/20'
+                      : 'bg-white text-slate-700 hover:bg-slate-100 border border-slate-200'
+                  }`}
+                >
+                  🌐 Lừa đảo Không gian mạng (25)
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setScamCategoryFilter('offline')}
+                  className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition shadow-sm ${
+                    scamCategoryFilter === 'offline'
+                      ? 'bg-amber-600 text-white shadow-amber-600/20'
+                      : 'bg-white text-slate-700 hover:bg-slate-100 border border-slate-200'
+                  }`}
+                >
+                  🏠 Lừa đảo Đời thực / Trực tiếp (10)
+                </button>
+              </div>
+
+              <div className="text-xs text-slate-500 font-semibold">
+                Hiển thị <strong className="text-red-600">{filteredScamArticles.length}</strong> kịch bản cảnh báo
+              </div>
+            </div>
+
+            {/* DANH SÁCH BÀI CẢNH BÁO CHI TIẾT */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+              {filteredScamArticles.map((art) => {
+                const isOnline = art.category_type === 'online' || art.code?.startsWith('ON');
+                return (
+                  <div
+                    key={art.id}
+                    className="bg-white rounded-3xl p-6 border border-slate-200 hover:border-red-400 hover:shadow-xl transition flex flex-col justify-between"
+                  >
+                    <div>
+                      {/* Badge bar */}
+                      <div className="flex flex-wrap items-center gap-2 mb-3">
+                        {art.code && (
+                          <span className="bg-slate-900 text-white font-mono text-[11px] font-black px-2.5 py-0.5 rounded-lg shadow-sm">
+                            {art.code}
+                          </span>
+                        )}
+                        <span className={`text-[11px] font-bold px-2.5 py-0.5 rounded-full ${
+                          isOnline ? 'bg-blue-100 text-blue-800' : 'bg-amber-100 text-amber-800'
+                        }`}>
+                          {isOnline ? 'Trực tuyến' : 'Đời thực'}
+                        </span>
+                        <span className="text-[11px] text-slate-400 ml-auto">
+                          Công an xã Đức Hợp
+                        </span>
+                      </div>
+
+                      <Link href={`/canh-bao/${art.slug}`}>
+                        <h3 className="font-black text-lg text-slate-900 hover:text-red-700 transition leading-snug mb-3">
+                          {art.title}
+                        </h3>
+                      </Link>
+
+                      <p className="text-xs sm:text-sm text-slate-600 leading-relaxed mb-4 font-medium">
+                        {art.summary}
+                      </p>
+
+                      {/* Mục tiêu nhắm đến */}
+                      {art.target_audience && (
+                        <div className="text-xs text-slate-700 bg-slate-50 p-2.5 rounded-xl border border-slate-200 mb-3">
+                          <strong className="text-indigo-900 font-bold">🎯 Mục tiêu:</strong> {art.target_audience}
+                        </div>
+                      )}
+
+                      {/* Dấu hiệu nhận diện */}
+                      {(art.red_flags || art.scam_tricks) && (
+                        <div className="mb-4 space-y-1.5 bg-red-50/60 p-3 rounded-2xl border border-red-100">
+                          <span className="text-[11px] font-bold text-red-800 uppercase block">
+                            Dấu hiệu nhận diện (Red Flags):
+                          </span>
+                          {(art.red_flags || art.scam_tricks).slice(0, 2).map((trick, i) => (
+                            <div key={i} className="text-xs text-red-950 font-medium flex items-start space-x-1.5">
+                              <span className="text-red-600 font-bold shrink-0">•</span>
+                              <span>{trick}</span>
+                            </div>
+                          ))}
+                        </div>
+                      )}
                     </div>
 
-                    <Link href={`/canh-bao/${art.slug}`}>
-                      <h3 className="font-black text-lg text-slate-900 hover:text-red-700 transition leading-snug mb-3">
-                        {art.title}
-                      </h3>
-                    </Link>
+                    <div className="pt-4 border-t border-slate-100 flex items-center justify-between text-xs">
+                      <Link
+                        href={`/canh-bao/${art.slug}`}
+                        className="font-bold text-red-600 hover:text-red-700 flex items-center space-x-1"
+                      >
+                        <span>Xem chi tiết kịch bản & đối thoại</span>
+                        <ChevronRight className="w-4 h-4" />
+                      </Link>
 
-                    <p className="text-xs sm:text-sm text-slate-600 leading-relaxed mb-4">
-                      {art.summary}
-                    </p>
-
-                    {/* Thủ đoạn nhận diện */}
-                    {art.scam_tricks && art.scam_tricks.length > 0 && (
-                      <div className="mb-4 space-y-1.5 bg-red-50/50 p-3 rounded-2xl border border-red-100">
-                        <span className="text-[11px] font-bold text-red-800 uppercase block">
-                          Thủ đoạn nhận diện:
-                        </span>
-                        {art.scam_tricks.slice(0, 2).map((trick, i) => (
-                          <div key={i} className="text-xs text-red-950 font-medium flex items-start space-x-1.5">
-                            <span className="text-red-600 font-bold">•</span>
-                            <span>{trick}</span>
-                          </div>
-                        ))}
-                      </div>
-                    )}
+                      <a
+                        href="tel:02213815999"
+                        className="text-slate-500 hover:text-red-600 font-bold flex items-center space-x-1"
+                      >
+                        <PhoneCall className="w-3.5 h-3.5" />
+                        <span>02213.815.999</span>
+                      </a>
+                    </div>
                   </div>
-
-                  <div className="pt-4 border-t border-slate-100 flex items-center justify-between text-xs">
-                    <Link
-                      href={`/canh-bao/${art.slug}`}
-                      className="font-bold text-red-600 hover:text-red-700 flex items-center space-x-1"
-                    >
-                      <span>Xem cẩm nang phòng tránh đầy đủ</span>
-                      <ChevronRight className="w-4 h-4" />
-                    </Link>
-
-                    <a
-                      href="tel:02213815999"
-                      className="text-slate-500 hover:text-red-600 font-bold flex items-center space-x-1"
-                    >
-                      <PhoneCall className="w-3.5 h-3.5" />
-                      <span>Báo tin: 02213.815.999</span>
-                    </a>
-                  </div>
-                </div>
-              ))}
+                );
+              })}
             </div>
           </div>
         )}
