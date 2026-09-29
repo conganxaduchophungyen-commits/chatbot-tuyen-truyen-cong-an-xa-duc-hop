@@ -49,8 +49,10 @@ function HomePageContent() {
   const searchParams = useSearchParams();
   const [activeTab, setActiveTab] = useState<NavTabType>('home');
   const [categories, setCategories] = useState<Category[]>([]);
+  const [allProcedures, setAllProcedures] = useState<Procedure[]>([]);
   const [procedures, setProcedures] = useState<Procedure[]>([]);
   const [articles, setArticles] = useState<Article[]>([]);
+  const [featuredAlertIndex, setFeaturedAlertIndex] = useState<number>(0);
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
   const [scamSearchQuery, setScamSearchQuery] = useState('');
@@ -75,12 +77,31 @@ function HomePageContent() {
         getArticles(true),
       ]);
       setCategories(cats);
+      setAllProcedures(procs);
       setProcedures(procs);
       setArticles(arts);
+      if (arts.length > 0) {
+        setFeaturedAlertIndex(Math.floor(Math.random() * arts.length));
+      }
       setLoading(false);
     }
     initData();
   }, []);
+
+  // Tự động đổi ngẫu nhiên cảnh báo tội phạm trên trang chủ mỗi 5 giây (5000ms)
+  useEffect(() => {
+    if (articles.length <= 1) return;
+    const timer = setInterval(() => {
+      setFeaturedAlertIndex((prev) => {
+        let next = Math.floor(Math.random() * articles.length);
+        if (next === prev) {
+          next = (prev + 1) % articles.length;
+        }
+        return next;
+      });
+    }, 5000);
+    return () => clearInterval(timer);
+  }, [articles.length]);
 
   const handleSearch = async (e?: React.FormEvent) => {
     if (e) e.preventDefault();
@@ -120,7 +141,7 @@ function HomePageContent() {
     canh_bao: 'from-red-600 to-rose-700',
   };
 
-  const featuredAlert = articles.length > 0 ? articles[0] : null;
+  const featuredAlert = articles.length > 0 ? articles[featuredAlertIndex % articles.length] : null;
 
   // Lọc bài viết cảnh báo lừa đảo
   const filteredScamArticles = articles.filter(art => {
@@ -264,7 +285,7 @@ function HomePageContent() {
                       Kiểm tra kiến thức & Thi trắc nghiệm
                     </h3>
                     <p className="text-xs sm:text-sm text-slate-500 line-clamp-2">
-                      Ngân hàng hàng trăm câu hỏi tình huống thực tế, nhận diện bẫy lừa đảo và cấp chứng nhận online.
+                      Trắc nghiệm kiến thức pháp luật về Cư trú, Căn cước VNeID, Giao thông, PCCC và kỹ năng phòng chống lừa đảo trực tuyến.
                     </p>
                   </div>
                   <div className="mt-5 pt-3.5 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-amber-700">
@@ -285,13 +306,13 @@ function HomePageContent() {
                   <div>
                     <div className="inline-flex items-center space-x-1.5 text-xs font-bold text-yellow-300 mb-1">
                       <Sparkles className="w-3.5 h-3.5" />
-                      <span>PHẦN MỚI DÀNH CHO BÀ CON NHÂN DÂN</span>
+                      <span>CHƯƠNG TRÌNH TUYÊN TRUYỀN PHÁP LUẬT TOÀN DÂN</span>
                     </div>
                     <h3 className="text-xl sm:text-2xl font-black">
                       Học tập & Kiểm tra kiến thức pháp luật, nhận diện lừa đảo
                     </h3>
                     <p className="text-xs sm:text-sm text-slate-300 mt-1 max-w-2xl">
-                      Tham gia trả lời 10 câu hỏi tình huống thực tế để nhận diện các thủ đoạn lừa đảo tinh vi và nhận Giấy chứng nhận điện tử "Công dân số cảnh giác"!
+                      Tìm hiểu các quy định pháp luật về Cư trú, Căn cước VNeID, Trật tự ATGT, PCCC và nâng cao kỹ năng phòng tránh tội phạm lừa đảo trên không gian mạng qua các câu hỏi tình huống thực tế.
                     </p>
                   </div>
                 </div>
@@ -309,7 +330,7 @@ function HomePageContent() {
             {/* CẢNH BÁO LỪA ĐẢO MỚI NHẤT */}
             {featuredAlert && (
               <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
-                <div className="bg-gradient-to-r from-red-50 via-rose-50 to-red-50 border-2 border-red-300 rounded-3xl p-6 sm:p-8 shadow-sm">
+                <div className="bg-gradient-to-r from-red-50 via-rose-50 to-red-50 border-2 border-red-300 rounded-3xl p-6 sm:p-8 shadow-sm transition-all duration-300">
                   <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-4">
                     <div className="flex items-center space-x-3">
                       <div className="w-12 h-12 rounded-2xl bg-red-600 text-white flex items-center justify-center shrink-0 shadow-md">
@@ -472,21 +493,24 @@ function HomePageContent() {
                       : 'bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100'
                   }`}
                 >
-                  Tất cả thủ tục ({procedures.length})
+                  Tất cả thủ tục ({allProcedures.length || procedures.length})
                 </button>
-                {categories.map((cat) => (
-                  <button
-                    key={cat.id}
-                    onClick={() => handleSelectCategory(cat.id)}
-                    className={`px-3 py-1.5 rounded-full text-xs font-bold transition border ${
-                      selectedCategory === cat.id
-                        ? 'bg-police-700 text-white border-police-700 shadow-xs'
-                        : 'bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100'
-                    }`}
-                  >
-                    {cat.name}
-                  </button>
-                ))}
+                {categories.map((cat) => {
+                  const count = allProcedures.filter((p) => p.category_id === cat.id).length;
+                  return (
+                    <button
+                      key={cat.id}
+                      onClick={() => handleSelectCategory(cat.id)}
+                      className={`px-3 py-1.5 rounded-full text-xs font-bold transition border ${
+                        selectedCategory === cat.id
+                          ? 'bg-police-700 text-white border-police-700 shadow-xs'
+                          : 'bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100'
+                      }`}
+                    >
+                      {cat.name} ({count})
+                    </button>
+                  );
+                })}
               </div>
             </div>
 
@@ -500,9 +524,6 @@ function HomePageContent() {
                       {procedures.length} thủ tục
                     </span>
                   </h2>
-                  <p className="text-xs text-slate-500 mt-0.5">
-                    Mỗi trang gồm 6 thủ tục (3 thủ tục hàng trên, 3 thủ tục hàng dưới) • Có hướng dẫn thao tác trên VNeID
-                  </p>
                 </div>
                 <span className="text-xs text-slate-400 self-start sm:self-auto font-medium">
                   Trang {procPage} / {Math.ceil(procedures.length / PROCEDURES_PER_PAGE) || 1}

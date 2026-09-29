@@ -99,37 +99,11 @@ export interface ChatResponse {
 const API_BASE = '/api';
 
 export async function getCategories(): Promise<Category[]> {
-  try {
-    const res = await fetch(`${API_BASE}/categories`, { cache: 'no-store' });
-    if (res.ok) {
-      const data = await res.json();
-      if (Array.isArray(data) && data.length > 0) return data;
-    }
-  } catch (err) {
-    // Backend chưa chạy -> Tự động chuyển sang Mock Data
-  }
-  return MOCK_CATEGORIES;
+  return MOCK_CATEGORIES.filter((c) => c.id !== 'canh_bao');
 }
 
 export async function getProcedures(categoryId?: string, query?: string): Promise<Procedure[]> {
-  let results: Procedure[] = [];
-  try {
-    const params = new URLSearchParams();
-    if (categoryId) params.append('category_id', categoryId);
-    if (query) params.append('q', query);
-    
-    const res = await fetch(`${API_BASE}/procedures?${params.toString()}`, { cache: 'no-store' });
-    if (res.ok) {
-      const data = await res.json();
-      if (Array.isArray(data) && data.length > 0) results = data;
-    }
-  } catch (err) {
-    // Backend chưa chạy -> Tự động chuyển sang Mock Data
-  }
-
-  if (results.length === 0) {
-    results = [...MOCK_PROCEDURES];
-  }
+  let results: Procedure[] = [...MOCK_PROCEDURES];
 
   // Đồng bộ với dữ liệu cán bộ đã thêm/chỉnh sửa trên trình duyệt
   if (typeof window !== 'undefined') {
@@ -137,20 +111,22 @@ export async function getProcedures(categoryId?: string, query?: string): Promis
       const saved = localStorage.getItem('admin_custom_procedures');
       if (saved) {
         const custom: Procedure[] = JSON.parse(saved);
-        const map = new Map<string, Procedure>();
-        custom.forEach((p) => map.set(p.id, p));
-        results.forEach((p) => {
-          if (!map.has(p.id)) map.set(p.id, p);
-        });
-        results = Array.from(map.values());
+        if (Array.isArray(custom) && custom.length > 0) {
+          const map = new Map<string, Procedure>();
+          results.forEach((p) => map.set(p.id, p));
+          custom.forEach((p) => map.set(p.id, p));
+          results = Array.from(map.values());
+        }
       }
     } catch (e) {}
   }
 
-  // Lọc dữ liệu
-  if (categoryId) {
+  // Lọc theo phân loại danh mục
+  if (categoryId && categoryId !== 'all') {
     results = results.filter((p) => p.category_id === categoryId);
   }
+
+  // Lọc theo từ khóa tìm kiếm
   if (query && query.trim()) {
     const q = query.toLowerCase().trim();
     results = results.filter(
@@ -161,6 +137,7 @@ export async function getProcedures(categoryId?: string, query?: string): Promis
         p.required_documents.some((d) => d.toLowerCase().includes(q))
     );
   }
+
   return results;
 }
 

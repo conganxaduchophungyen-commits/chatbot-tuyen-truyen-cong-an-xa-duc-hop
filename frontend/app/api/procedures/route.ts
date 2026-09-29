@@ -1,4 +1,3 @@
-import { BACKEND_URL } from '@/lib/config';
 import { NextRequest, NextResponse } from 'next/server';
 import { MOCK_PROCEDURES } from '@/lib/mockData';
 
@@ -7,36 +6,8 @@ export async function GET(req: NextRequest) {
   const categoryId = searchParams.get('category_id');
   const q = searchParams.get('q');
 
-  try {
-    const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), 10000);
-    const backendUrl = `${BACKEND_URL}/api/procedures?${searchParams.toString()}`;
-    const res = await fetch(backendUrl, { 
-      cache: 'no-store',
-      signal: controller.signal 
-    });
-    clearTimeout(timeoutId);
-
-    if (res.ok) {
-      const data = await res.json();
-      if (Array.isArray(data) && data.length > 0) {
-        const enriched = data.map((item) => {
-          const localGuide = findMockGuide(item);
-          if (localGuide) {
-            item.online_guide = localGuide;
-          }
-          return item;
-        });
-        return NextResponse.json(enriched);
-      }
-    }
-  } catch (e) {
-    // Backend offline / timed out -> fallback
-  }
-
-  // Fallback to local mock data
   let results = [...MOCK_PROCEDURES];
-  if (categoryId) {
+  if (categoryId && categoryId !== 'all') {
     results = results.filter((p) => p.category_id === categoryId);
   }
   if (q && q.trim()) {

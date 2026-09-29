@@ -110,7 +110,7 @@ export default function LegalQuizSection() {
             </div>
             <div className="bg-white/15 px-4 py-2 rounded-2xl flex items-center space-x-2">
               <Award className="w-4 h-4 text-yellow-300" />
-              <span>Cấp chứng nhận điện tử khi đạt từ 70% điểm</span>
+              <span>Đánh giá kết quả & Giải thích căn cứ pháp lý từng câu</span>
             </div>
           </div>
         </div>
@@ -261,10 +261,10 @@ export default function LegalQuizSection() {
                   CÔNG AN TỈNH HƯNG YÊN • CÔNG AN XÃ ĐỨC HỢP
                 </div>
                 <h4 className="text-xl sm:text-2xl font-black text-amber-900 uppercase tracking-wide">
-                  GIẤY CHỨNG NHẬN ĐIỆN TỬ
+                  CHỨNG NHẬN HOÀN THÀNH TÌM HIỂU PHÁP LUẬT
                 </h4>
                 <p className="text-xs font-bold text-slate-600 uppercase tracking-wider">
-                  CÔNG DÂN SỐ CẢNH GIÁC & AM HIỂU PHÁP LUẬT
+                  NẮM VỮNG QUY ĐỊNH PHÁP LUẬT & KỸ NĂNG PHÒNG CHỐNG TỘI PHẠM MẠNG
                 </p>
 
                 <div className="my-4 pt-2">
