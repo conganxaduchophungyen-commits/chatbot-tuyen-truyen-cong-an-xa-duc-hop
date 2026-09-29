@@ -3940,26 +3940,32 @@ const NATURAL_ALIASES: Array<{ keywords: string[]; subcategory: string }> = [
   { keywords: ['tach so do', 'tach thua', 'gop thua'], subcategory: 'tách thửa và hợp thửa' },
   { keywords: ['len tho cu', 'chuyen dat vuon sang dat o'], subcategory: 'chuyển mục đích sử dụng đất' },
   { keywords: ['den bu dat', 'giai phong mat bang', 'thu hoi dat'], subcategory: 'bồi thường khi thu hồi đất' },
-  { keywords: ['vay tien', 'cho vay', 'giay vay no', 'lai suat vay'], subcategory: 'hợp đồng vay tài sản' },
+  { keywords: ['vay tien', 'cho vay', 'giay vay no', 'lai suat vay', 'quy no', 'doi no', 'khong tra tien', 'vay no'], subcategory: 'hợp đồng vay tài sản' },
   { keywords: ['dat coc', 'tien coc', 'phat coc', 'bo coc'], subcategory: 'hợp đồng đặt cọc' },
   { keywords: ['chia thua ke', 'lap di chuc', 'di san thua ke'], subcategory: 'thừa kế và di chúc' },
   { keywords: ['ly di', 'ly hon', 'don phuong ly hon', 'thuan tinh ly hon'], subcategory: 'thủ tục ly hôn' },
   { keywords: ['gianh quyen nuoi con', 'ai nuoi con'], subcategory: 'nuôi con sau ly hôn' },
   { keywords: ['tien nuoi con', 'tien cap duong'], subcategory: 'cấp dưỡng cho con' },
   { keywords: ['chia tai san khi ly hon', 'tai san vo chong'], subcategory: 'chia tài sản chung vợ chồng' },
-  { keywords: ['nhap khau', 'chuyen khau', 'dang ky thuong tru'], subcategory: 'đăng ký thường trú' },
+  { keywords: ['nhap khau', 'chuyen khau', 'dang ky thuong tru', 'so ho khau cu'], subcategory: 'đăng ký thường trú' },
   { keywords: ['dang ky tam tru', 'o tro', 'thue tro'], subcategory: 'đăng ký tạm trú' },
   { keywords: ['khai bao luu tru', 'khach ngu qua dem'], subcategory: 'thông báo lưu trú' },
   { keywords: ['doi the can cuoc', 'can cuoc het han', '14 tuoi', '25 tuoi', '40 tuoi', '60 tuoi'], subcategory: 'cấp đổi thẻ căn cước' },
-  { keywords: ['mat the can cuoc', 'mat cccd', 'lam lai cccd'], subcategory: 'cấp lại thẻ căn cước bị mất' },
-  { keywords: ['doi bang lai', 'doi gplx', 'bang lai het han'], subcategory: 'đổi giấy phép lái xe' },
-  { keywords: ['mat bang lai', 'mat gplx'], subcategory: 'cấp lại giấy phép lái xe bị mất' },
+  { keywords: ['mat the can cuoc', 'mat the cccd', 'mat cccd', 'lam lai cccd', 'lam lai the can cuoc', 'roi the can cuoc', 'mat the can cuoc cong dan', 'bi mat the can cuoc', 'mat the can cuoc bi mat'], subcategory: 'cấp lại thẻ căn cước bị mất' },
+  { keywords: ['doi bang lai', 'doi gplx', 'bang lai het han', 'gplx het han', 'doi bang lai xe may'], subcategory: 'đổi giấy phép lái xe' },
+  { keywords: ['mat bang lai', 'mat gplx', 'roi bang lai', 'roi gplx', 'lam lai bang lai', 'lam lai gplx'], subcategory: 'cấp lại giấy phép lái xe bị mất' },
+  { keywords: ['mat dang ky xe', 'mat ca vet', 'lam lai dang ky xe', 'lam lai ca vet', 'roi ca vet', 'roi giay to xe'], subcategory: 'đăng ký xe và sang tên xe' },
+  { keywords: ['trich luc khai sinh', 'xin lai giay khai sinh', 'mat giay khai sinh', 'ban sao khai sinh', 'trich luc ho tich'], subcategory: 'trích lục hộ tịch' },
   { keywords: ['phat nguoi', 'nop phat giao thong', 'tra cuu phat nguoi'], subcategory: 'tra cứu và nộp phạt giao thông' },
   { keywords: ['tai nan giao thong', 'va quet xe', 'dam xe'], subcategory: 'thủ tục khi xảy ra va chạm' },
   { keywords: ['tro cap that nghiep', 'bao hiem that nghiep'], subcategory: 'hưởng trợ cấp thất nghiệp' },
   { keywords: ['chuyen nham tien', 'chuyen khoan nham'], subcategory: 'chuyển khoản nhầm' },
   { keywords: ['mat sim', 'khoa sim', 'chiem doat sim'], subcategory: 'xử lý khi mất SIM' },
-  { keywords: ['loi đi chung', 'ranh gioi thon xom', 'nguon nuoc'], subcategory: 'tranh chấp lối đi, ranh giới và nguồn nước' }
+  { keywords: ['loi đi chung', 'loi di chung', 'ranh gioi thon xom', 'nguon nuoc'], subcategory: 'tranh chấp lối đi, ranh giới và nguồn nước' },
+  { keywords: ['binh chua chay', 'binh cuu hoa', 'binh bot', 'trang bi pccc'], subcategory: 'trang bị phương tiện chữa cháy tại nhà' },
+  { keywords: ['chay nha', 'thoat nan', 'chuong cop', 'loi thoat nan'], subcategory: 'lối thoát nạn trong nhà ở' },
+  { keywords: ['bao tin toi pham', 'to giac toi pham', 'mat trom', 'trom cap', 'trom xe'], subcategory: 'trình báo hành vi có dấu hiệu tội phạm' },
+  { keywords: ['danh nhau', 'gay roi', 'say ruou gay go', 'danh lon'], subcategory: 'báo tin về hành vi gây rối' }
 ];
 
 export function removeDiacritics(str: string): string {
@@ -4127,6 +4133,141 @@ export function queryLegalDatasetEngine(rawQuery: string): LegalDatasetAnswer | 
     };
   }
 
+  // 1.1 TÌNH HUỐNG THỰC TẾ: MẤT GIẤY TỜ / RƠI VÍ / LÀM LẠI GIẤY TỜ
+  if (
+    qNorm.includes('mat giay to') ||
+    qNorm.includes('roi vi') ||
+    qNorm.includes('mat vi') ||
+    qNorm.includes('mat bop') ||
+    qNorm.includes('that lac giay to') ||
+    qNorm.includes('lam lai giay to') ||
+    (qNorm.includes('bi mat') && qNorm.includes('giay to'))
+  ) {
+    return {
+      answer: `📋 **HƯỚNG DẪN XỬ LÝ KHẨN CẤP KHI BỊ MẤT GIẤY TỜ TÙY THÂN & RƠI VÍ TẠI XÃ ĐỨC HỢP:**\n\n` +
+        `Kính thưa Quý công dân, khi không may làm rơi ví hoặc thất lạc các loại giấy tờ tùy thân quan trọng, Bác/Anh/Chị hãy bình tĩnh thực hiện theo quy trình chuẩn sau:\n\n` +
+        `🔒 **BƯỚC 1: KHÓA TÀI KHOẢN NGÂN HÀNG & BÁO MẤT SIM ĐIỆN THOẠI NGAY LẬP TỨC:**\n` +
+        `- Nếu trong ví có thẻ ATM, thẻ tín dụng hoặc điện thoại: Gọi ngay tổng đài ngân hàng để khóa toàn bộ thẻ, tránh bị kẻ xấu rút trộm tiền qua giao dịch không chạm hoặc thanh toán online.\n` +
+        `- Báo nhà mạng khóa SIM (nếu mất điện thoại) để ngăn chặn việc nhận mã OTP ngân hàng và VNeID.\n\n` +
+        `🆔 **BƯỚC 2: CẤP LẠI 4 LOẠI GIẤY TỜ QUAN TRỌNG NHẤT (THỰC HIỆN TRỰC TUYẾN 100%):**\n\n` +
+        `1️⃣ **Cấp lại thẻ Căn cước bị mất (Luật Căn cước 2023):**\n` +
+        `- *Cách làm:* Đăng nhập ứng dụng **VNeID** -> Vào mục **Thủ tục hành chính** -> Chọn **Cấp lại thẻ căn cước** (hoặc nộp trên Cổng DVC Bộ Công an).\n` +
+        `- *Cơ chế:* Hệ thống sử dụng lại ảnh khuôn mặt, vân tay và thông tin sinh trắc học đã thu nhận trước đó, **không cần đến cơ quan Công an chụp lại ảnh**.\n` +
+        `- *Thời hạn giải quyết:* 07 ngày làm việc. Thẻ mới được chuyển phát nhanh về tận nhà qua đường bưu điện.\n\n` +
+        `2️⃣ **Cấp lại Giấy phép lái xe (GPLX) bị mất:**\n` +
+        `- *Cách làm:* Truy cập Cổng Dịch vụ công Quốc gia (\`dichvucong.gov.vn\`), chọn thủ tục *Đổi/Cấp lại Giấy phép lái xe* do ngành Giao thông vận tải cấp.\n` +
+        `- *Hồ sơ:* Bản chụp Giấy khám sức khỏe điện tử (liên thông từ Trạm Y tế / Bệnh viện) và ảnh chân dung nền trắng 3x4.\n\n` +
+        `3️⃣ **Cấp lại Giấy chứng nhận đăng ký xe (Cà vẹt xe máy) bị mất:**\n` +
+        `- *Cách làm:* Kê khai trực tuyến trên Cổng DVC Bộ Công an, sau đó mang xe và Căn cước đến **Công an xã Đức Hợp (Thôn Nho Lâm)** để cán bộ kiểm tra thông tin và in Giấy chứng nhận đăng ký xe mới (theo Điều 16 Thông tư 24/2023/TT-BCA).\n\n` +
+        `4️⃣ **Xin cấp bản sao trích lục Giấy khai sinh:**\n` +
+        `- *Cách làm:* Thực hiện trực tuyến trên Cổng DVC hoặc nộp hồ sơ tại Bộ phận Một cửa UBND xã Đức Hợp để được cấp trích lục bản sao ngay trong ngày.\n\n` +
+        `❓ **QUÝ CÔNG DÂN ĐANG CẦN HƯỚNG DẪN THỦ TỤC CẤP LẠI LOẠI GIẤY TỜ CỤ THỂ NÀO?**\n` +
+        `Vui lòng bấm vào một trong các lựa chọn dưới đây để xem hướng dẫn chi tiết từng bước:`,
+      sources: [
+        { type: 'knowledge', id: 'kb_ds5000_002', title: 'Quy định cấp lại thẻ Căn cước bị mất (Luật Căn cước 2023)', url: 'https://dichvucong.bocongan.gov.vn' },
+        { type: 'knowledge', id: 'kb_gplx_reissue', title: 'Cấp lại Giấy phép lái xe trực tuyến trên Cổng DVC', url: 'https://dichvucong.gov.vn' },
+        { type: 'knowledge', id: 'kb_dang_ky_xe_reissue', title: 'Cấp lại đăng ký xe máy tại Công an xã Đức Hợp (Thông tư 24/2023/TT-BCA)', url: 'https://dichvucong.bocongan.gov.vn' }
+      ],
+      clarifying_questions: [
+        'Cấp lại thẻ Căn cước bị mất',
+        'Cấp lại Giấy phép lái xe (GPLX) bị mất',
+        'Cấp lại Giấy đăng ký xe (Cà vẹt) bị mất',
+        'Xin trích lục bản sao Khai sinh'
+      ],
+      answer_status: 'REQUIRES_CLARIFICATION'
+    };
+  }
+
+  // 1.2 TÌNH HUỐNG THỰC TẾ: TRANH CHẤP ĐẤT ĐAI / RANH GIỚI / LỐI ĐI CHUNG
+  if (
+    (qNorm.includes('tranh chap') || qNorm.includes('ranh gioi') || qNorm.includes('loi di') || qNorm.includes('moc gioi') || qNorm.includes('lan chiem')) &&
+    (qNorm.includes('dat') || qNorm.includes('nha') || qNorm.includes('ngo') || qNorm.includes('hang xom'))
+  ) {
+    const mod = SUBCATEGORY_MODULES.find(m => m.subcategory === 'hòa giải tranh chấp đất đai') || SUBCATEGORY_MODULES[0];
+    return {
+      answer: `⚖️ **QUY ĐỊNH PHÁP LUẬT VỀ HÒA GIẢI TRANH CHẤP ĐẤT ĐAI & RANH GIỚI LỐI ĐI (LUẬT ĐẤT ĐAI 2024 & BLDS 2015):**\n\n` +
+        `📌 **1. Tranh chấp đất đai bắt buộc phải hòa giải tại UBND xã (Điều 235 Luật Đất đai 2024):**\n` +
+        `- Khi phát sinh tranh chấp ranh giới, mốc giới, quyền sử dụng đất, các bên trước hết tự hòa giải hoặc thông qua Tổ hòa giải thôn.\n` +
+        `- Nếu không tự hòa giải được thì **BẮT BUỘC** phải gửi đơn đề nghị hòa giải đến **UBND xã Đức Hợp**. Đây là thủ tục tiền tố bắt buộc trước khi nộp đơn khởi kiện ra Tòa án nhân dân.\n` +
+        `- Chủ tịch UBND xã có trách nhiệm thành lập Hội đồng hòa giải và tiến hành hòa giải trong thời hạn không quá **30 ngày** kể từ ngày nhận được đơn.\n\n` +
+        `📌 **2. Quyền về lối đi qua bất động sản liền kề (Điều 254 Bộ luật Dân sự 2015):**\n` +
+        `- Chủ sở hữu bất động sản bị vây bọc bởi các bất động sản của chủ sở hữu khác mà không có hoặc không đủ lối đi ra đường công cộng có quyền yêu cầu chủ sở hữu bất động sản liền kề dành cho mình một lối đi hợp lý.\n` +
+        `- Lối đi được mở trên bất động sản liền kề nào mà được coi là thuận tiện và hợp lý nhất, có tính đến đặc điểm vị trí và hạn chế thiệt hại lớn nhất cho bất động sản có lối đi mở qua.\n\n` +
+        `⚠️ **Cảnh báo ANTT:** Tuyệt đối không tự ý xây tường chặn ngõ, đập phá tài sản hoặc xô xát gây mất an ninh trật tự nông thôn. Hành vi cố ý hủy hoại tài sản hoặc gây thương tích sẽ bị Công an xã xử lý nghiêm theo quy định của pháp luật.\n\n` +
+        `📞 Cần can thiệp giữ gìn an ninh trật tự, bà con gọi ngay Trực ban Công an xã Đức Hợp: **02213.815.999**.`,
+      sources: [
+        { type: 'knowledge', id: mod.id, title: 'Điều 235 Luật Đất đai 2024 & Điều 254 BLDS 2015', url: mod.source_url }
+      ],
+      clarifying_questions: [
+        'Quy trình nộp đơn hòa giải tranh chấp đất đai tại UBND xã Đức Hợp',
+        'Quy định pháp luật về mở lối đi qua bất động sản liền kề',
+        'Thủ tục cấp đổi hoặc đính chính sai sót Sổ đỏ'
+      ],
+      answer_status: 'REQUIRES_CLARIFICATION'
+    };
+  }
+
+  // 1.3 TÌNH HUỐNG THỰC TẾ: VAY TIỀN / CHO VAY / ĐÒI NỢ / QUỴT NỢ
+  if (
+    (qNorm.includes('vay tien') || qNorm.includes('cho vay') || qNorm.includes('doi no') || qNorm.includes('quyt no') || qNorm.includes('khong tra tien') || qNorm.includes('vay no')) &&
+    !qNorm.includes('lua dao')
+  ) {
+    const mod = SUBCATEGORY_MODULES.find(m => m.subcategory === 'hợp đồng vay tài sản') || SUBCATEGORY_MODULES[0];
+    return {
+      answer: `⚖️ **QUY ĐỊNH PHÁP LUẬT VỀ CHO VAY TIỀN & XỬ LÝ KHI BỊ QUỴT NỢ (BỘ LUẬT DÂN SỰ 2015 & BLHS):**\n\n` +
+        `📌 **1. Trần lãi suất vay hợp pháp (Điều 468 BLDS 2015):**\n` +
+        `- Lãi suất vay do các bên thỏa thuận nhưng **không được vượt quá 20%/năm** của khoản tiền vay.\n` +
+        `- Hành vi cho vay với lãi suất gấp 5 lần mức cao nhất quy định trong BLDS (tức trên 100%/năm) và thu lợi bất chính từ 30 triệu đồng trở lên sẽ bị truy cứu trách nhiệm hình sự về **Tội cho vay lãi nặng trong giao dịch dân sự** (Điều 201 Bộ luật Hình sự).\n\n` +
+        `📌 **2. Hướng dẫn các bước xử lý khi bên vay chây ỳ, không chịu trả tiền:**\n` +
+        `- **Trường hợp tranh chấp dân sự:** Nếu bên vay chỉ khó khăn tài chính, chậm trả thì gửi đơn khởi kiện ra Tòa án nhân dân nơi con nợ cư trú kèm theo chứng cứ (Giấy vay tiền, tin nhắn xác nhận nợ, biên lai sao kê chuyển khoản).\n` +
+        `- **Trường hợp có dấu hiệu hình sự:** Nếu bên vay có hành vi: Dùng thủ đoạn gian dối để vay rồi chiếm đoạt; Bỏ trốn để trốn nợ; Hoặc có điều kiện trả nợ nhưng cố tình tẩu tán tài sản để không trả; Hoặc sử dụng tiền vay vào mục đích bất hợp pháp (cờ bạc, ma túy...) dẫn đến mất khả năng chi trả -> Có dấu hiệu phạm **Tội lạm dụng tín nhiệm chiếm đoạt tài sản** (Điều 175 BLHS). Quý công dân làm đơn tố giác gửi đến **Công an xã Đức Hợp**.\n\n` +
+        `⚠️ **CẢNH BÁO:** Tuyệt đối không được thuê các nhóm đòi nợ thuê, không được đe dọa, bắt giữ người trái phép, tạt sơn, ném chất bẩn vào nhà con nợ vì sẽ phạm tội hình sự về Tội cưỡng đoạt tài sản hoặc Bắt giữ người trái pháp luật!\n\n` +
+        `📞 Trực ban Công an xã Đức Hợp tiếp nhận phản ánh: **02213.815.999**.`,
+      sources: [
+        { type: 'knowledge', id: mod.id, title: 'Điều 468 BLDS 2015 & Điều 175 BLHS 2015', url: mod.source_url }
+      ],
+      clarifying_questions: [
+        'Mức trần lãi suất cho vay tối đa theo quy định pháp luật',
+        'Thủ tục khởi kiện đòi nợ tại Tòa án nhân dân',
+        'Dấu hiệu tội lạm dụng tín nhiệm chiếm đoạt tài sản khi quỵt nợ'
+      ],
+      answer_status: 'REQUIRES_CLARIFICATION'
+    };
+  }
+
+  // 1.4 TÌNH HUỐNG THỰC TẾ: LY HÔN / QUYỀN NUÔI CON / CẤP DƯỠNG
+  if (
+    qNorm.includes('ly hon') || qNorm.includes('ly di') || qNorm.includes('quyen nuoi con') ||
+    qNorm.includes('cap duong') || (qNorm.includes('chia tai san') && qNorm.includes('vo chong'))
+  ) {
+    const mod = SUBCATEGORY_MODULES.find(m => m.subcategory === 'thủ tục ly hôn') || SUBCATEGORY_MODULES[0];
+    return {
+      answer: `⚖️ **HƯỚNG DẪN QUY ĐỊNH PHÁP LUẬT VỀ THỦ TỤC LY HÔN & QUYỀN NUÔI CON (LUẬT HÔN NHÂN VÀ GIA ĐÌNH 2014):**\n\n` +
+        `📌 **1. Quyền yêu cầu giải quyết ly hôn (Điều 51 Luật HNGĐ 2014):**\n` +
+        `- Vợ, chồng hoặc cả hai người có quyền yêu cầu Tòa án giải quyết ly hôn.\n` +
+        `- **Lưu ý đặc biệt bảo vệ người vợ:** Chồng **KHÔNG CÓ QUYỀN** yêu cầu ly hôn trong trường hợp vợ đang có thai, sinh con hoặc đang nuôi con dưới 12 tháng tuổi (khoản 3 Điều 51).\n\n` +
+        `📌 **2. Thẩm quyền & Hồ sơ nộp Tòa án:**\n` +
+        `- **Thuận tình ly hôn (Điều 55):** Hai vợ chồng cùng ký đơn nộp tại TAND nơi cư trú của vợ hoặc chồng.\n` +
+        `- **Đơn phương ly hôn (Điều 56):** Nộp đơn tại TAND nơi bị đơn cư trú, làm việc.\n` +
+        `- **Hồ sơ gồm:** Đơn xin ly hôn, Bản chính Giấy chứng nhận kết hôn, Bản sao Căn cước của hai bên, Bản sao Giấy khai sinh của các con, Giấy tờ tài sản chung (Sổ đỏ, đăng ký xe nếu yêu cầu chia).\n\n` +
+        `📌 **3. Quyền trực tiếp nuôi con & Nghĩa vụ cấp dưỡng (Điều 81, 82):**\n` +
+        `- Vợ, chồng thỏa thuận về người trực tiếp nuôi con, nghĩa vụ cấp dưỡng.\n` +
+        `- Con **dưới 36 tháng tuổi** được giao cho mẹ trực tiếp nuôi dưỡng (trừ khi mẹ không đủ điều kiện hoặc có thỏa thuận khác).\n` +
+        `- Con từ **đủ 07 tuổi trở lên** phải xem xét nguyện vọng của con.\n` +
+        `- Người không trực tiếp nuôi con có nghĩa vụ cấp dưỡng nuôi con định kỳ hàng tháng hoặc theo thỏa thuận.\n\n` +
+        `📞 Cần hỗ trợ pháp lý hoặc tư vấn hòa giải cơ sở tại xã Đức Hợp: **02213.815.999**.`,
+      sources: [
+        { type: 'knowledge', id: mod.id, title: 'Điều 51, 55, 56, 81 Luật Hôn nhân và Gia đình 2014', url: mod.source_url }
+      ],
+      clarifying_questions: [
+        'Thủ tục thuận tình ly hôn cần chuẩn bị những giấy tờ gì?',
+        'Quy định giành quyền nuôi con dưới 36 tháng tuổi khi ly hôn',
+        'Mức cấp dưỡng nuôi con sau ly hôn được tính thế nào?'
+      ],
+      answer_status: 'REQUIRES_CLARIFICATION'
+    };
+  }
+
   const detectedIntent = detectIntentFromQuery(qNorm);
 
   // 2. Match against all 180 Subcategories (exact normalized phrase match -> 100% of the 5,000 questions!)
@@ -4155,15 +4296,28 @@ export function queryLegalDatasetEngine(rawQuery: string): LegalDatasetAnswer | 
     }
   }
 
-  // 4. Token-overlap match against the 180 Subcategories
+  // 4. Flexible Token-overlap match against the 180 Subcategories (Solution 1: BM25/Semantic Token Weighting)
   let topScore = 0;
   let topMod: SubcategoryModule | null = null;
+  const qWords = qNorm.split(' ').filter(w => w.length > 2);
+
   for (const mod of SUBCATEGORY_MODULES) {
     const subNorm = removeDiacritics(mod.subcategory);
     const subTokens = subNorm.split(' ').filter(w => w.length > 2);
+    if (subTokens.length === 0) continue;
+
     const matchedTokens = subTokens.filter(t => qNorm.includes(t));
-    if (subTokens.length >= 2 && matchedTokens.length === subTokens.length) {
-      const score = matchedTokens.length * 15;
+    if (matchedTokens.length === 0) continue;
+
+    const ratio = matchedTokens.length / subTokens.length;
+    let score = matchedTokens.length * 10 + Math.round(ratio * 25);
+
+    // Boost if user query words closely match subcategory words
+    const queryMatches = qWords.filter(w => subNorm.includes(w)).length;
+    score += queryMatches * 5;
+
+    // Match if at least 2 tokens matched with >= 35% ratio, OR 3+ tokens matched
+    if (matchedTokens.length >= 2 && (ratio >= 0.35 || matchedTokens.length >= 3)) {
       if (score > topScore) {
         topScore = score;
         topMod = mod;
@@ -4171,7 +4325,7 @@ export function queryLegalDatasetEngine(rawQuery: string): LegalDatasetAnswer | 
     }
   }
 
-  if (topMod && topScore >= 30) {
+  if (topMod && topScore >= 18) {
     return formatModuleResponse(topMod, detectedIntent);
   }
 

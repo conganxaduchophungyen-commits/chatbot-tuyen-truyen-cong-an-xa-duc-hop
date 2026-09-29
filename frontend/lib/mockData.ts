@@ -544,6 +544,20 @@ export function getSmartLocalChatAnswer(query: string): {
     q.includes('12 điểm') ||
     q.includes('trừ điểm') ||
     q.includes('ghế trẻ em') ||
+    q.includes('mất giấy tờ') ||
+    q.includes('rơi ví') ||
+    q.includes('mất ví') ||
+    q.includes('mất bóp') ||
+    q.includes('làm lại giấy tờ') ||
+    (q.includes('mất') && q.includes('giấy tờ')) ||
+    q.includes('tranh chấp đất') ||
+    q.includes('lối đi chung') ||
+    q.includes('ranh giới') ||
+    q.includes('vay tiền') ||
+    q.includes('quỵt nợ') ||
+    q.includes('đòi nợ') ||
+    q.includes('ly hôn') ||
+    q.includes('ly dị') ||
     (q.includes('sang tên') && (q.includes('nhiều đời chủ') || q.includes('không tìm thấy chủ cũ') || q.includes('giấy viết tay')))
   ) {
     const goldenHit = queryLegalDatasetEngine(query);

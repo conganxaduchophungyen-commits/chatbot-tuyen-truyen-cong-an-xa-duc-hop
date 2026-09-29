@@ -81,20 +81,23 @@ class RAGService:
         # Tách từ khóa tìm kiếm
         keywords = [w.strip() for w in re.split(r'[,.\s]+', query.lower()) if len(w.strip()) > 1]
         
-        # 1. Tìm trong bảng Thủ tục hành chính (Procedures) - Chỉ tìm khi có từ khóa liên quan
+        # 1. Tìm trong bảng Thủ tục hành chính (Procedures) - Hỗ trợ cả trường hợp mất giấy tờ, cấp lại, làm mới
         is_proc_query = any(k in query_lower for k in [
             "thủ tục", "hồ sơ", "làm", "đăng ký", "cư trú", "thường trú", "tạm trú", 
-            "vneid", "gplx", "bằng lái", "đăng ký xe", "khai sinh", "khai tử", "bhyt", "thuế", "lý lịch tư pháp", "biểu mẫu"
+            "vneid", "gplx", "bằng lái", "đăng ký xe", "khai sinh", "khai tử", "bhyt", 
+            "thuế", "lý lịch tư pháp", "biểu mẫu", "mất giấy tờ", "mất", "cấp lại", "rơi ví", 
+            "giấy tờ", "cà vẹt", "sổ đỏ", "đổi thẻ", "đổi bằng"
         ])
         
         if is_proc_query:
             stmt_proc = select(Procedure).where(Procedure.is_active == True)
             if keywords:
                 conditions = []
-                for kw in keywords[:4]:
+                for kw in keywords[:6]:
                     pattern = f"%{kw}%"
                     conditions.append(Procedure.title.ilike(pattern))
                     conditions.append(Procedure.target_audience.ilike(pattern))
+                    conditions.append(Procedure.required_documents.cast(str).ilike(pattern))
                 stmt_proc = stmt_proc.where(or_(*conditions))
                 
             res_proc = await db.execute(stmt_proc.limit(3))
@@ -231,6 +234,26 @@ class RAGService:
                 "Cán bộ chiến sĩ Công an xã Đức Hợp luôn đồng hành và bảo vệ quyền lợi hợp pháp của công dân!"
             )
 
+        # 0.1. Mất giấy tờ tùy thân, rơi ví, làm lại giấy tờ
+        if any(k in q for k in ["mất giấy tờ", "mất ví", "rơi ví", "rơi giấy tờ", "thất lạc giấy tờ", "mất hết giấy tờ", "làm lại giấy tờ", "cấp lại giấy tờ", "mất cccd", "mất bằng lái", "mất đăng ký xe"]):
+            return (
+                f"{greeting}📋 **HƯỚNG DẪN XỬ LÝ KHI BỊ MẤT GIẤY TỜ TÙY THÂN — CÔNG AN XÃ ĐỨC HỢP:**\n\n"
+                "Kính thưa Bác/Anh/Chị, khi không may bị mất hoặc rơi ví chứa giấy tờ tùy thân, xin Quý công dân hãy an tâm và thực hiện theo hướng dẫn sau:\n\n"
+                "🔒 **1. BẢO VỆ TÀI KHOẢN VÀ DỮ LIỆU CÁ NHÂN:**\n"
+                "- Mở App ngân hàng bấm 'Khóa thẻ tạm thời' hoặc gọi tổng đài ngân hàng phong tỏa tài khoản nếu có kèm thẻ ngân hàng trong ví.\n"
+                "- **An tâm về Thẻ Căn cước gắn chip:** Dữ liệu cá nhân và sinh trắc học đã được mã hóa bảo mật cấp cao của Bộ Công an, người nhặt được KHÔNG THỂ trích xuất thông tin để mở thẻ ngân hàng hay vay tín dụng đen.\n\n"
+                "💳 **2. QUY TRÌNH CẤP LẠI GIẤY TỜ TRỰC TUYẾN (100% ONLINE):**\n"
+                "1️⃣ **Cấp lại Thẻ Căn cước bị mất (Luật Căn cước 2023):**\n"
+                "- Nộp hồ sơ hoàn toàn trực tuyến trên ứng dụng **VNeID** hoặc Cổng Dịch vụ công Bộ Công an (\`dichvucong.bocongan.gov.vn\`).\n"
+                "- **Không cần xin đơn báo mất hay xác nhận của Công an xã**.\n"
+                "- **Không cần chụp lại ảnh, không cần lấy lại vân tay** (hệ thống tự động sử dụng thông tin và ảnh sinh trắc học đã lưu trên CSDLQG về dân cư).\n"
+                "- Thẻ Căn cước mới được giao về tận nhà qua bưu điện tại xã Đức Hợp.\n\n"
+                "2️⃣ **Cấp lại Giấy phép lái xe (GPLX) bị mất:** Thực hiện trực tuyến toàn trình trên Cổng DVC Quốc gia (\`dichvucong.gov.vn\`), hệ thống tự động đối soát CSDLQG về dân cư.\n"
+                "3️⃣ **Cấp lại Đăng ký xe máy bị mất:** Kê khai trực tuyến trên Cổng DVC Bộ Công an hoặc đến trực tiếp Trụ sở Công an xã Đức Hợp (Thôn Nho Lâm) để được cấp lại biển số định danh.\n"
+                "4️⃣ **Cấp bản sao trích lục Giấy khai sinh:** Nộp trực tuyến trên Cổng DVC Bộ Tư pháp hoặc nộp tại Bộ phận Một cửa UBND xã Đức Hợp.\n\n"
+                "📞 Mọi thắc mắc cần hỗ trợ trực tiếp, Bác/Anh/Chị gọi ngay Trực ban Công an xã Đức Hợp: **02213.815.999**."
+            )
+
         # 1. Trụ sở & Liên hệ
         if any(k in q for k in ["địa chỉ", "trụ sở", "hotline", "số điện thoại", "trực ban", "ở đâu"]):
             return (
@@ -324,11 +347,60 @@ class RAGService:
                 "✅ PHẢI kiểm chứng trực tiếp với người thân và cơ quan công quyền.\n"
                 "✅ PHẢI báo ngay cho Trực ban Công an xã Đức Hợp: **02213.815.999**."
             )
+
+        # 8. Đất đai, Sổ đỏ, Ranh giới, Tranh chấp
+        elif any(k in q for k in ["sổ đỏ", "đất đai", "tranh chấp đất", "ranh giới", "lối đi chung", "lấn chiếm", "tách thửa", "thổ cư", "sang tên sổ đỏ"]):
+            return (
+                f"{greeting}🏛️ **QUY ĐỊNH PHÁP LUẬT VỀ ĐẤT ĐAI & TRANH CHẤP RANH GIỚI (LUẬT ĐẤT ĐAI 2024):**\n\n"
+                "📌 **1. Bắt buộc hòa giải tranh chấp đất đai tại xã (Điều 235 Luật Đất đai 2024):**\n"
+                "- Tranh chấp đất đai (ranh giới, lối đi chung, mốc giới) mà các bên không tự hòa giải được thì **BẮT BUỘC** phải gửi đơn đến UBND cấp xã nơi có đất (UBND xã Đức Hợp) để hòa giải cơ sở trước khi khởi kiện ra Tòa án.\n"
+                "- Thời hạn hòa giải tại UBND xã: Không quá 30 ngày kể từ ngày nhận được đơn hợp lệ.\n\n"
+                "📌 **2. Quyền về lối đi qua bất động sản liền kề (Điều 254 Bộ luật Dân sự 2015):**\n"
+                "- Chủ sở hữu nhà đất bị vây bọc không có lối đi ra đường công cộng có quyền yêu cầu mở một lối đi hợp lý qua đất liền kề.\n"
+                "- Các bên cần thương lượng hòa giải tại thôn xóm, tuyệt đối không tự ý đập phá rào chắn hay xô xát gây mất ANTT.\n\n"
+                "📌 **3. Đăng ký biến động, sang tên Sổ đỏ:** Nộp hồ sơ tại Chi nhánh Văn phòng Đăng ký đất đai hoặc Bộ phận Một cửa trong thời hạn 30 ngày kể từ ngày công chứng chuyển nhượng.\n\n"
+                "📞 Cần hỗ trợ hòa giải tại cơ sở, mời bà con liên hệ UBND / Công an xã Đức Hợp: **02213.815.999**."
+            )
+
+        # 9. Vay nợ, Hợp đồng, Đặt cọc, Đòi nợ
+        elif any(k in q for k in ["vay tiền", "cho vay", "đòi nợ", "quỵt nợ", "không trả tiền", "đặt cọc", "phạt cọc", "lãi suất", "vay nợ"]):
+            return (
+                f"{greeting}⚖️ **QUY ĐỊNH PHÁP LUẬT VỀ HỢP ĐỒNG VAY TÀI SẢN & XỬ LÝ QUỴT NỢ (BỘ LUẬT DÂN SỰ 2015):**\n\n"
+                "📌 **1. Lãi suất vay hợp pháp (Điều 468 BLDS 2015):**\n"
+                "- Lãi suất vay do các bên thỏa thuận nhưng **KHÔNG ĐƯỢC VƯỢT QUÁ 20%/NĂM** của khoản tiền vay.\n"
+                "- Hành vi cho vay nặng lãi gấp 5 lần mức trần (trên 100%/năm) thu lợi bất chính từ 30 triệu trở lên sẽ bị xử lý hình sự về Tội cho vay lãi nặng theo Điều 201 BLHS.\n\n"
+                "📌 **2. Biện pháp xử lý khi bên vay không chịu trả nợ:**\n"
+                "- **Trường hợp tranh chấp dân sự:** Các bên tự thương lượng hoặc đề nghị Tổ hòa giải thôn / UBND xã Đức Hợp hòa giải; nếu không thành thì nộp Đơn khởi kiện tại Tòa án nhân dân nơi bị đơn cư trú kèm theo giấy vay nợ, sao kê chuyển khoản, tin nhắn làm chứng cứ.\n"
+                "- **Trường hợp có dấu hiệu hình sự:** Nếu bên vay dùng thủ đoạn gian dối vay tiền rồi bỏ trốn, tẩu tán tài sản hoặc sử dụng tiền vào mục đích bất hợp pháp không trả thì có dấu hiệu phạm Tội lạm dụng tín nhiệm chiếm đoạt tài sản (Điều 175 BLHS) hoặc Tội lừa đảo (Điều 174 BLHS). Bác/Anh/Chị đến ngay Công an xã Đức Hợp (Thôn Nho Lâm) nộp đơn tố giác tội phạm.\n\n"
+                "⚠️ **Cảnh báo an toàn:** Tuyệt đối không thuê các đối tượng 'xã hội đen' đòi nợ thuê, đe dọa, tạt sơn, xúc phạm danh dự con nợ vì hành vi này sẽ bị xử lý hình sự về tội Cưỡng đoạt tài sản hoặc Làm nhục người khác!\n\n"
+                "📞 Hotline hỗ trợ Công an xã Đức Hợp: **02213.815.999**."
+            )
+
+        # 10. Hôn nhân, Ly hôn, Nuôi con, Cấp dưỡng
+        elif any(k in q for k in ["ly hôn", "ly dị", "nuôi con", "cấp dưỡng", "chia tài sản", "kết hôn", "hôn nhân"]):
+            return (
+                f"{greeting}⚖️ **HƯỚNG DẪN QUY ĐỊNH PHÁP LUẬT VỀ HÔN NHÂN & THỦ TỤC LY HÔN (LUẬT HNGĐ 2014):**\n\n"
+                "📌 **1. Quyền yêu cầu giải quyết ly hôn (Điều 51, 55, 56 Luật HNGĐ 2014):**\n"
+                "- **Thuận tình ly hôn:** Hai vợ chồng cùng ký tên vào đơn, nộp tại Tòa án nhân dân nơi cư trú của vợ hoặc chồng.\n"
+                "- **Đơn phương ly hôn:** Nộp đơn tại Tòa án nhân dân nơi bị đơn cư trú.\n"
+                "- *Lưu ý bảo vệ phụ nữ:* Chồng KHÔNG CÓ QUYỀN yêu cầu ly hôn khi vợ đang có thai, sinh con hoặc đang nuôi con dưới 12 tháng tuổi (khoản 3 Điều 51).\n\n"
+                "📌 **2. Quyền trực tiếp nuôi con sau khi ly hôn (Điều 81 Luật HNGĐ 2014):**\n"
+                "- Con **dưới 36 tháng tuổi** được giao cho mẹ trực tiếp nuôi dưỡng (trừ khi người mẹ không đủ điều kiện hoặc có thỏa thuận khác vì lợi ích của con).\n"
+                "- Con từ **đủ 07 tuổi trở lên** phải xem xét nguyện vọng của con.\n"
+                "- Người không trực tiếp nuôi con có nghĩa vụ cấp dưỡng nuôi con theo quy định.\n\n"
+                "📞 Cần hỗ trợ hoặc trình báo bạo lực gia đình, gọi ngay Trực ban Công an xã Đức Hợp: **02213.815.999**."
+            )
         else:
             return (
-                f"{greeting}Dựa trên cơ sở dữ liệu của đơn vị, Quý công dân có thể tra cứu nhanh các thủ tục hành chính hoặc nhận diện 22 thủ đoạn lừa đảo mạng trên hệ thống:\n\n"
-                f"{context[:800]}...\n\n"
-                "📞 Mọi vấn đề cần giải đáp trực tiếp, kính mời Quý công dân liên hệ Trực ban Công an xã Đức Hợp qua số điện thoại: **02213.815.999** (Trụ sở tại Thôn Nho Lâm) để được hỗ trợ chu đáo."
+                f"{greeting}Trợ lý số Công an xã Đức Hợp đã ghi nhận câu hỏi của Bác/Anh/Chị.\n\n"
+                "Quý công dân có thể hỏi tôi chi tiết theo các nhóm nội dung nghiệp vụ trọng tâm sau:\n"
+                "1. **Thủ tục hành chính & VNeID:** Đăng ký thường trú, tạm trú, cấp đổi/cấp lại thẻ Căn cước bị mất, kích hoạt VNeID Mức 2, đăng ký xe máy bấm biển số định danh.\n"
+                "2. **Xử lý khi bị mất giấy tờ:** Hướng dẫn các bước cấp lại Căn cước, Giấy phép lái xe, Đăng ký xe, Trích lục khai sinh trực tuyến.\n"
+                "3. **Phòng chống tội phạm & Lừa đảo mạng:** Nhận diện 22 thủ đoạn giả danh Công an, bẫy việc làm Shopee/TikTok, cuộc gọi Deepfake, bẫy nợ chuyển nhầm tiền.\n"
+                "4. **Phòng cháy chữa cháy & Cứu nạn:** Quy định trang bị bình chữa cháy hộ gia đình, mở lối thoát nạn thứ hai, an toàn sạc pin xe điện, xử lý rò rỉ khí gas.\n"
+                "5. **Pháp luật Dân sự & Đất đai:** Tranh chấp ranh giới đất, lối đi chung, hòa giải cơ sở tại xã, hợp đồng vay tài sản, thừa kế di chúc, thủ tục ly hôn và quyền nuôi con.\n\n"
+                "🏛️ **Trụ sở tiếp dân:** Thôn Nho Lâm, xã Đức Hợp, tỉnh Hưng Yên.\n"
+                "📞 **Đường dây nóng Trực ban phục vụ nhân dân 24/24h:** **02213.815.999** (hoặc Tổng đài khẩn cấp **113** / Báo cháy **114**)."
             )
 
     @staticmethod

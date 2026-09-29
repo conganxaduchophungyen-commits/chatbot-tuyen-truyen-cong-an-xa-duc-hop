@@ -163,6 +163,12 @@ export function deleteCustomKnowledgeItem(id: string): boolean {
   return false;
 }
 
+const STOP_WORDS = new Set([
+  'toi', 'minh', 'ban', 'cho', 'hoi', 'lam', 'sao', 'nao', 'the', 'gi',
+  'o', 'dau', 'khi', 'neu', 'thi', 'va', 'cua', 'cac', 'duoc', 'co',
+  'khong', 'voi', 've', 'den', 'la', 'nhu', 'can', 'nen', 'ra', 'lai'
+]);
+
 export function matchExact5000Question(rawQuery: string): LegalDatasetAnswer | null {
   if (!rawQuery || rawQuery.trim().length < 4) return null;
   const qNorm = removeDiacritics(rawQuery);
@@ -171,9 +177,9 @@ export function matchExact5000Question(rawQuery: string): LegalDatasetAnswer | n
 
   const subMap = getSubcategoryMap();
 
-  // 1. Exact or substring question match in the 5,000 JSONL dataset
+  // 1. Exact question match in the 5,000 JSONL dataset
   let matchedRow = rows.find((r) => r.qNorm === qNorm);
-  if (!matchedRow && qNorm.length >= 15) {
+  if (!matchedRow && qNorm.length >= 25) {
     matchedRow = rows.find((r) => r.qNorm.includes(qNorm) || qNorm.includes(r.qNorm));
   }
 
@@ -183,6 +189,32 @@ export function matchExact5000Question(rawQuery: string): LegalDatasetAnswer | n
       subMap.get(removeDiacritics(matchedRow.subcategory)) ||
       SUBCATEGORY_MODULES[0];
     return formatModuleResponse(mod, matchedRow.intent, matchedRow.question, matchedRow.id);
+  }
+
+  // 2. High-confidence token match against 5,000 questions (filtering out stopwords)
+  const qContentWords = qNorm.split(' ').filter((w) => w.length >= 2 && !STOP_WORDS.has(w));
+  if (qContentWords.length >= 3) {
+    let bestRow: Raw5000QuestionRow | null = null;
+    let bestScore = 0;
+    for (const r of rows) {
+      const rContentWords = r.qNorm.split(' ').filter((w) => w.length >= 2 && !STOP_WORDS.has(w));
+      const matched = qContentWords.filter((w) => rContentWords.includes(w));
+      const ratio = matched.length / qContentWords.length;
+      if (ratio >= 0.8 && matched.length >= 3) {
+        const score = matched.length * 10 + Math.round(ratio * 20);
+        if (score > bestScore) {
+          bestScore = score;
+          bestRow = r;
+        }
+      }
+    }
+    if (bestRow && bestScore >= 50) {
+      const mod =
+        subMap.get(bestRow.subcategory.toLowerCase().trim()) ||
+        subMap.get(removeDiacritics(bestRow.subcategory)) ||
+        SUBCATEGORY_MODULES[0];
+      return formatModuleResponse(mod, bestRow.intent, bestRow.question, bestRow.id);
+    }
   }
 
   return null;
