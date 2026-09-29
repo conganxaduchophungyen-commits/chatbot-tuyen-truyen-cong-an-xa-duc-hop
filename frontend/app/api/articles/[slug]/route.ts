@@ -1,6 +1,5 @@
-import { BACKEND_URL } from '@/lib/config';
 import { NextRequest, NextResponse } from 'next/server';
-import { MOCK_ARTICLES } from '@/lib/mockData';
+import { FULL_35_SCAM_ARTICLES } from '@/lib/scamAlertsData';
 
 export async function GET(
   req: NextRequest,
@@ -8,27 +7,9 @@ export async function GET(
 ) {
   const slug = params.slug;
 
-  try {
-    const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), 10000);
-    const backendUrl = `${BACKEND_URL}/api/articles/${slug}`;
-    const res = await fetch(backendUrl, { 
-      cache: 'no-store',
-      signal: controller.signal 
-    });
-    clearTimeout(timeoutId);
-
-    if (res.ok) {
-      const data = await res.json();
-      if (data && data.slug) {
-        return NextResponse.json(data);
-      }
-    }
-  } catch (e) {
-    // Backend offline / timed out
-  }
-
-  const found = MOCK_ARTICLES.find((a) => a.slug === slug);
+  // Luôn tìm trong dữ liệu local 35 kịch bản chuẩn hóa
+  // (không gọi backend vì backend chưa được cập nhật dữ liệu mới)
+  const found = FULL_35_SCAM_ARTICLES.find((a) => a.slug === slug);
   if (found) {
     return NextResponse.json(found);
   }

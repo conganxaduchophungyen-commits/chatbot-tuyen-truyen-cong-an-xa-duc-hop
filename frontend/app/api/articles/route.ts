@@ -1,44 +1,28 @@
-import { BACKEND_URL } from '@/lib/config';
 import { NextRequest, NextResponse } from 'next/server';
-import { MOCK_ARTICLES } from '@/lib/mockData';
+import { FULL_35_SCAM_ARTICLES } from '@/lib/scamAlertsData';
 
 export async function GET(req: NextRequest) {
   const { searchParams } = new URL(req.url);
   const isScamAlert = searchParams.get('is_scam_alert');
   const q = searchParams.get('q');
 
-  try {
-    const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), 10000);
-    const backendUrl = `${BACKEND_URL}/api/articles?${searchParams.toString()}`;
-    const res = await fetch(backendUrl, { 
-      cache: 'no-store',
-      signal: controller.signal 
-    });
-    clearTimeout(timeoutId);
+  // Luôn dùng dữ liệu local 35 kịch bản chuẩn hóa từ Kịch Bản Lừa Đảo.md
+  // (không gọi backend vì backend chưa được cập nhật dữ liệu mới)
+  let results = [...FULL_35_SCAM_ARTICLES];
 
-    if (res.ok) {
-      const data = await res.json();
-      if (Array.isArray(data) && data.length > 0) {
-        return NextResponse.json(data);
-      }
-    }
-  } catch (e) {
-    // Backend offline / timed out
+  // Lọc theo is_scam_alert (tất cả đều là scam alert = true)
+  if (isScamAlert !== null && isScamAlert === 'false') {
+    results = [];
   }
 
-  // Fallback to local mock data
-  let results = [...MOCK_ARTICLES];
-  if (isScamAlert !== null) {
-    const isScam = isScamAlert === 'true';
-    results = results.filter((a) => a.is_scam_alert === isScam);
-  }
+  // Lọc theo từ khóa
   if (q && q.trim()) {
     const query = q.toLowerCase().trim();
     results = results.filter(
       (a) =>
         a.title.toLowerCase().includes(query) ||
-        a.summary.toLowerCase().includes(query)
+        a.summary.toLowerCase().includes(query) ||
+        (a.code && a.code.toLowerCase().includes(query))
     );
   }
 
