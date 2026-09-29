@@ -2,6 +2,7 @@ import { BACKEND_URL } from '@/lib/config';
 import { NextRequest, NextResponse } from 'next/server';
 import { getSmartLocalChatAnswer } from '@/lib/mockData';
 import { queryLegalDatasetEngine } from '@/lib/legalDatasetEngine';
+import { matchExact5000Question } from '@/lib/full5000KnowledgeLoader';
 
 export async function POST(req: NextRequest) {
   let body: { session_id?: string; query?: string } = {};
@@ -12,6 +13,20 @@ export async function POST(req: NextRequest) {
   }
 
   const { session_id = 'default_session', query = '' } = body;
+
+  // 0. Kiểm tra khớp trực tiếp từ 5.000 câu hỏi trong file bo-cau-hoi-phap-luat-5000.jsonl
+  const exact5000Hit = matchExact5000Question(query);
+  if (exact5000Hit && !/chồng đánh|vợ đánh|bị đánh|bạo lực gia đình/i.test(query)) {
+    return NextResponse.json({
+      session_id,
+      answer: exact5000Hit.answer,
+      sources: exact5000Hit.sources,
+      related_questions: exact5000Hit.related_questions || [],
+      clarifying_questions: exact5000Hit.clarifying_questions || [],
+      answer_status: exact5000Hit.answer_status || 'ANSWERABLE',
+      disclaimer: 'Thông tin do Trợ lý số Công an xã Đức Hợp cung cấp dựa trên Bộ 5.000 câu hỏi pháp luật & Dịch vụ công chuẩn hóa 2026.',
+    });
+  }
 
   // 1. Ưu tiên xử lý tức thì bằng Trí tuệ nhân tạo đã huấn luyện trên 5.000 câu hỏi pháp luật & datasetAI.md
   const isUrgentOrDatasetHit =

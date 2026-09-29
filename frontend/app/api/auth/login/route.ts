@@ -7,10 +7,10 @@ import * as crypto from 'crypto';
 // -------------------------------------------------------
 const DEMO_ACCOUNTS = [
   {
-    username: 'admin_duchop',
+    username: 'admin',
     password_sha256: crypto
       .createHash('sha256')
-      .update('CongAnDucHop@2026')
+      .update('admin@123')
       .digest('hex'),
     full_name: 'Quản trị viên Công an xã Đức Hợp',
     role: 'admin',
@@ -28,18 +28,9 @@ const DEMO_ACCOUNTS = [
     username: 'admin_duchop',
     password_sha256: crypto
       .createHash('sha256')
-      .update('admin123')
+      .update('CongAnDucHop@2026')
       .digest('hex'),
     full_name: 'Quản trị viên Công an xã Đức Hợp',
-    role: 'admin',
-  },
-  {
-    username: 'cax',
-    password_sha256: crypto
-      .createHash('sha256')
-      .update('admin123')
-      .digest('hex'),
-    full_name: 'Cán bộ Công an xã Đức Hợp',
     role: 'admin',
   },
 ];
@@ -64,12 +55,36 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ detail: 'Dữ liệu không hợp lệ' }, { status: 400 });
   }
 
-  const { username = '', password = '' } = body;
+  const username = (body.username || '').trim();
+  const password = body.password || '';
 
-  // 1. Thử forward đến FastAPI backend trước
+  // 1. Kiểm tra tài khoản quản trị mặc định (admin / admin@123) trước tiên
+  const inputHash = crypto
+    .createHash('sha256')
+    .update(password)
+    .digest('hex');
+
+  const account = DEMO_ACCOUNTS.find(
+    (a) => a.username === username && a.password_sha256 === inputHash
+  );
+
+  if (account) {
+    const token = generateSimpleToken(account.username);
+    return NextResponse.json({
+      access_token: token,
+      token_type: 'bearer',
+      user: {
+        username: account.username,
+        full_name: account.full_name,
+        role: account.role,
+      },
+    });
+  }
+
+  // 2. Thử forward đến FastAPI backend nếu không khớp tài khoản mặc định
   try {
     const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), 15000);
+    const timeoutId = setTimeout(() => controller.abort(), 5000);
     const res = await fetch(`${BACKEND_URL}/api/auth/login`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -81,40 +96,13 @@ export async function POST(req: NextRequest) {
     if (res.ok) {
       const data = await res.json();
       return NextResponse.json(data);
-    } else if (res.status === 401) {
-      const data = await res.json();
-      return NextResponse.json(data, { status: 401 });
     }
   } catch (e) {
-    // Backend offline -> dùng demo account
+    // Backend offline
   }
 
-  // 2. Fallback: Kiểm tra tài khoản demo
-  const inputHash = crypto
-    .createHash('sha256')
-    .update(password)
-    .digest('hex');
-
-  const account = DEMO_ACCOUNTS.find(
-    (a) => a.username === username && a.password_sha256 === inputHash
+  return NextResponse.json(
+    { detail: 'Tên đăng nhập hoặc mật khẩu không đúng.' },
+    { status: 401 }
   );
-
-  if (!account) {
-    return NextResponse.json(
-      { detail: 'Tên đăng nhập hoặc mật khẩu không đúng.' },
-      { status: 401 }
-    );
-  }
-
-  const token = generateSimpleToken(account.username);
-
-  return NextResponse.json({
-    access_token: token,
-    token_type: 'bearer',
-    user: {
-      username: account.username,
-      full_name: account.full_name,
-      role: account.role,
-    },
-  });
 }

@@ -1,6 +1,6 @@
-import { BACKEND_URL } from '@/lib/config';
 import { NextRequest, NextResponse } from 'next/server';
 import { IN_MEMORY_KNOWLEDGE } from '@/lib/knowledgeStore';
+import { addCustomKnowledgeItem } from '@/lib/full5000KnowledgeLoader';
 
 export async function POST(req: NextRequest) {
   let body: any = {};
@@ -15,31 +15,6 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ detail: 'Vui lòng nhập tiêu đề và nội dung tài liệu.' }, { status: 400 });
   }
 
-  // 1. Thử chuyển tiếp cho Python backend nếu đang chạy
-  try {
-    const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), 2000);
-    const authHeader = req.headers.get('authorization') || '';
-    const res = await fetch(`${BACKEND_URL}/api/admin/knowledge/ingest`, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        Authorization: authHeader
-      },
-      body: JSON.stringify(body),
-      signal: controller.signal
-    });
-    clearTimeout(timeoutId);
-
-    if (res.ok) {
-      const data = await res.json();
-      return NextResponse.json(data);
-    }
-  } catch (e) {
-    // Backend offline -> Xử lý trực tiếp và lưu vào kho tri thức cục bộ
-  }
-
-  // 2. Chia nhỏ văn bản (chunking) và lưu vào bộ nhớ tri thức
   const paragraphs = content
     .split('\n\n')
     .map((p: string) => p.trim())
@@ -47,7 +22,7 @@ export async function POST(req: NextRequest) {
 
   const chunksCount = paragraphs.length > 0 ? paragraphs.length : 1;
 
-  IN_MEMORY_KNOWLEDGE.unshift({
+  const newItem = {
     id: `k_${Date.now()}`,
     category_id: body.category_id || 'cu_tru',
     category_name: body.category_name || 'Cư trú & Căn cước VNeID',
@@ -58,7 +33,10 @@ export async function POST(req: NextRequest) {
     full_content: content.trim(),
     keywords: body.keywords || [source_title.trim()],
     created_at: new Date().toLocaleDateString('vi-VN')
-  });
+  };
+
+  IN_MEMORY_KNOWLEDGE.unshift(newItem);
+  addCustomKnowledgeItem(newItem);
 
   return NextResponse.json({
     success: true,

@@ -3809,7 +3809,7 @@ export const SUBCATEGORY_MODULES: SubcategoryModule[] = [
   }
 ];
 
-const INTENT_GUIDANCE: Record<string, (subcat: string, cat: string, meta: SubcategoryModule) => { title: string; bullet: string }> = {
+export const INTENT_GUIDANCE: Record<string, (subcat: string, cat: string, meta: SubcategoryModule) => { title: string; bullet: string }> = {
   definition: (subcat, cat, meta) => ({
     title: `Khái niệm, bản chất pháp lý & Kênh tra cứu chính thức về "${subcat}"`,
     bullet: `**Giải thích quy định về "${subcat}":** Trong lĩnh vực **${cat}**, vấn đề **${subcat}** là nhóm quyền, nghĩa vụ hoặc quy trình nghiệp vụ được pháp luật quy định cụ thể nhằm bảo vệ quyền và lợi ích hợp pháp của công dân, giữ gìn trật tự an toàn xã hội.\n- **Kênh tìm hiểu chính thức:** Quý công dân có thể tra cứu trực tiếp trên ứng dụng **VNeID**, Cổng Dịch vụ công (${meta.source_url}), hoặc liên hệ trực tiếp **${meta.authority}** để được cán bộ giải thích tận tình, chính xác nhất.`
@@ -4007,7 +4007,7 @@ export function detectIntentFromQuery(qNorm: string): string {
   return 'procedure';
 }
 
-function formatModuleResponse(mod: SubcategoryModule, intentKey: string): LegalDatasetAnswer {
+export function formatModuleResponse(mod: SubcategoryModule, intentKey: string, exactQuestion?: string, questionId?: number): LegalDatasetAnswer {
   const fn = INTENT_GUIDANCE[intentKey] || INTENT_GUIDANCE.procedure;
   const { title, bullet } = fn(mod.subcategory, mod.raw_category, mod);
 

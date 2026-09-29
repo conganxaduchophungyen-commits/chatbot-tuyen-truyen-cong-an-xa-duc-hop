@@ -2237,11 +2237,14 @@ export const MASTER_QUESTIONS: DetailedQuizQuestion[] = [
   }
 ];
 
+import { ADDITIONAL_400_QUESTIONS } from './additional400QuizQuestions';
+
 // =========================================================================
 // HÀM LẤY BỘ CÂU HỎI KẾT HỢP DỮ LIỆU ĐƯỢC CÁN BỘ BIÊN TẬP (LOCAL STORAGE)
+// Tổng ngân hàng: 100 câu gốc + 400 câu bổ sung = 500 câu hỏi trắc nghiệm
 // =========================================================================
 export function getFullQuestionBank(): DetailedQuizQuestion[] {
-  let bank = [...MASTER_QUESTIONS];
+  let bank = [...MASTER_QUESTIONS, ...ADDITIONAL_400_QUESTIONS];
   if (typeof window !== 'undefined') {
     const saved = localStorage.getItem('admin_custom_questions');
     if (saved) {
@@ -2260,7 +2263,7 @@ export function getFullQuestionBank(): DetailedQuizQuestion[] {
 }
 
 export function generateMasterQuestionBank(): DetailedQuizQuestion[] {
-  return [...MASTER_QUESTIONS];
+  return [...MASTER_QUESTIONS, ...ADDITIONAL_400_QUESTIONS];
 }
 
 // =========================================================================

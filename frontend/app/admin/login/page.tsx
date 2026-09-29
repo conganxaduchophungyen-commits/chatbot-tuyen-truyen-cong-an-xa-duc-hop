@@ -7,8 +7,8 @@ import { Shield, Lock, User, AlertCircle, ArrowLeft } from 'lucide-react';
 
 export default function AdminLoginPage() {
   const router = useRouter();
-  const [username, setUsername] = useState('admin_duchop');
-  const [password, setPassword] = useState('CongAnDucHop@2026');
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
 
@@ -102,10 +102,6 @@ export default function AdminLoginPage() {
                 className="w-full pl-11 pr-4 py-3 bg-slate-50 border border-slate-300 rounded-2xl text-sm focus:outline-none focus:ring-2 focus:ring-police-500 focus:bg-white transition"
               />
             </div>
-          </div>
-
-          <div className="bg-slate-50 p-3 rounded-xl border border-slate-200 text-[11px] text-slate-500">
-            Tài khoản quản trị mặc định: <code className="font-bold text-police-700">admin_duchop</code> / <code className="font-bold text-police-700">CongAnDucHop@2026</code>
           </div>
 
           <button

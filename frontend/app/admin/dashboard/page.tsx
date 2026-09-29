@@ -37,6 +37,7 @@ import {
   getFullQuestionBank, 
   generateMasterQuestionBank 
 } from '@/lib/quizBank';
+import LuxuryQRPosterStudio from '@/components/LuxuryQRPosterStudio';
 
 export default function AdminDashboardPage() {
   const router = useRouter();
@@ -53,10 +54,12 @@ export default function AdminDashboardPage() {
   // Search & Filters
   const [quizSearch, setQuizSearch] = useState('');
   const [quizCatFilter, setQuizCatFilter] = useState('all');
+  const [quizPage, setQuizPage] = useState(1);
 
   // Knowledge filters & modal
   const [knowledgeCatFilter, setKnowledgeCatFilter] = useState('all');
   const [knowledgeSearch, setKnowledgeSearch] = useState('');
+  const [knowledgePage, setKnowledgePage] = useState(1);
   const [selectedKnowledgeModal, setSelectedKnowledgeModal] = useState<any | null>(null);
   const [ingestCategory, setIngestCategory] = useState('cu_tru');
   const [legalBasisInput, setLegalBasisInput] = useState('');
@@ -589,9 +592,9 @@ export default function AdminDashboardPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex-1 w-full space-y-6">
         {/* STATS CARDS */}
         {stats && (
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+          <div className="grid grid-cols-2 lg:grid-cols-5 gap-4">
             <div className="bg-white p-5 rounded-3xl border border-slate-200 shadow-sm flex items-center space-x-4">
-              <div className="w-12 h-12 rounded-2xl bg-blue-100 text-police-700 flex items-center justify-center">
+              <div className="w-12 h-12 rounded-2xl bg-blue-100 text-police-700 flex items-center justify-center shrink-0">
                 <FileText className="w-6 h-6" />
               </div>
               <div>
@@ -601,7 +604,7 @@ export default function AdminDashboardPage() {
             </div>
 
             <div className="bg-white p-5 rounded-3xl border border-slate-200 shadow-sm flex items-center space-x-4">
-              <div className="w-12 h-12 rounded-2xl bg-red-100 text-red-600 flex items-center justify-center">
+              <div className="w-12 h-12 rounded-2xl bg-red-100 text-red-600 flex items-center justify-center shrink-0">
                 <AlertTriangle className="w-6 h-6" />
               </div>
               <div>
@@ -611,7 +614,7 @@ export default function AdminDashboardPage() {
             </div>
 
             <div className="bg-white p-5 rounded-3xl border border-slate-200 shadow-sm flex items-center space-x-4">
-              <div className="w-12 h-12 rounded-2xl bg-amber-100 text-amber-700 flex items-center justify-center">
+              <div className="w-12 h-12 rounded-2xl bg-amber-100 text-amber-700 flex items-center justify-center shrink-0">
                 <GraduationCap className="w-6 h-6" />
               </div>
               <div>
@@ -621,7 +624,17 @@ export default function AdminDashboardPage() {
             </div>
 
             <div className="bg-white p-5 rounded-3xl border border-slate-200 shadow-sm flex items-center space-x-4">
-              <div className="w-12 h-12 rounded-2xl bg-emerald-100 text-emerald-600 flex items-center justify-center">
+              <div className="w-12 h-12 rounded-2xl bg-indigo-100 text-indigo-700 flex items-center justify-center shrink-0">
+                <Database className="w-6 h-6" />
+              </div>
+              <div>
+                <div className="text-2xl font-black text-slate-900">{knowledgeList.length.toLocaleString('vi-VN')}</div>
+                <div className="text-xs font-semibold text-slate-500">Câu hỏi Kho tri thức AI</div>
+              </div>
+            </div>
+
+            <div className="bg-white p-5 rounded-3xl border border-slate-200 shadow-sm flex items-center space-x-4">
+              <div className="w-12 h-12 rounded-2xl bg-emerald-100 text-emerald-600 flex items-center justify-center shrink-0">
                 <Sparkles className="w-6 h-6" />
               </div>
               <div>
@@ -637,9 +650,9 @@ export default function AdminDashboardPage() {
           {[
             { id: 'procedures', label: 'Thủ tục hành chính', icon: FileText },
             { id: 'articles', label: 'Cảnh báo tội phạm', icon: AlertTriangle },
-            { id: 'questions', label: 'Ngân hàng câu hỏi trắc nghiệm', icon: GraduationCap },
-            { id: 'knowledge', label: 'Nạp tri thức cho AI', icon: Database },
-            { id: 'qr', label: 'Mã QR Tuyên truyền (Thôn/Xã)', icon: QrCode },
+            { id: 'questions', label: `Ngân hàng trắc nghiệm (${questionBank.length})`, icon: GraduationCap },
+            { id: 'knowledge', label: `Kho tri thức AI (${knowledgeList.length.toLocaleString('vi-VN')})`, icon: Database },
+            { id: 'qr', label: 'Mã QR & Poster Sang Trọng', icon: QrCode },
           ].map((tab) => {
             const Icon = tab.icon;
             const isActive = activeTab === tab.id;
@@ -824,15 +837,18 @@ export default function AdminDashboardPage() {
 
               <div className="flex items-center space-x-2 w-full sm:w-auto overflow-x-auto pb-1 sm:pb-0">
                 {[
-                  { id: 'all', label: 'Tất cả' },
-                  { id: 'lua_dao', label: 'Lừa đảo' },
-                  { id: 'cu_tru', label: 'Cư trú' },
-                  { id: 'giao_thong', label: 'Giao thông' },
-                  { id: 'pccc', label: 'PCCC' },
+                  { id: 'all', label: `Tất cả (${questionBank.length})` },
+                  { id: 'lua_dao', label: `Lừa đảo (${questionBank.filter(q => q.category === 'lua_dao').length})` },
+                  { id: 'cu_tru', label: `Cư trú (${questionBank.filter(q => q.category === 'cu_tru').length})` },
+                  { id: 'giao_thong', label: `Giao thông (${questionBank.filter(q => q.category === 'giao_thong').length})` },
+                  { id: 'pccc', label: `PCCC (${questionBank.filter(q => q.category === 'pccc').length})` },
                 ].map(c => (
                   <button
                     key={c.id}
-                    onClick={() => setQuizCatFilter(c.id)}
+                    onClick={() => {
+                      setQuizCatFilter(c.id);
+                      setQuizPage(1);
+                    }}
                     className={`px-3 py-1.5 rounded-full text-xs font-bold transition whitespace-nowrap border ${
                       quizCatFilter === c.id
                         ? 'bg-amber-600 text-white border-amber-600'
@@ -845,9 +861,9 @@ export default function AdminDashboardPage() {
               </div>
             </div>
 
-            {/* Danh sách câu hỏi */}
+            {/* Danh sách câu hỏi (500 câu có phân trang) */}
             <div className="space-y-3 max-h-[600px] overflow-y-auto pr-1">
-              {filteredQuestions.slice(0, 30).map((q, idx) => (
+              {filteredQuestions.slice((quizPage - 1) * 25, quizPage * 25).map((q) => (
                 <div key={q.id} className="p-4 rounded-2xl border border-slate-200 bg-slate-50/60 hover:bg-white transition flex flex-col sm:flex-row sm:items-start justify-between gap-3">
                   <div className="space-y-1 max-w-3xl">
                     <div className="flex items-center space-x-2">
@@ -885,16 +901,38 @@ export default function AdminDashboardPage() {
                   </div>
                 </div>
               ))}
-              {filteredQuestions.length > 30 && (
-                <p className="text-center text-xs text-slate-400 pt-2 font-medium">
-                  Đang hiển thị 30 / {filteredQuestions.length} câu hỏi. Tìm kiếm để xem câu hỏi cụ thể.
-                </p>
-              )}
             </div>
+
+            {filteredQuestions.length > 25 && (
+              <div className="flex items-center justify-between pt-3 border-t border-slate-100 text-xs">
+                <span className="text-slate-500 font-semibold">
+                  Hiển thị {(quizPage - 1) * 25 + 1} - {Math.min(quizPage * 25, filteredQuestions.length)} / {filteredQuestions.length} câu hỏi
+                </span>
+                <div className="flex items-center space-x-2">
+                  <button
+                    disabled={quizPage <= 1}
+                    onClick={() => setQuizPage(p => Math.max(1, p - 1))}
+                    className="px-3 py-1.5 rounded-xl border border-slate-200 font-bold disabled:opacity-40 hover:bg-slate-50"
+                  >
+                    Trang trước
+                  </button>
+                  <span className="font-extrabold text-slate-800 px-2">
+                    Trang {quizPage} / {Math.ceil(filteredQuestions.length / 25)}
+                  </span>
+                  <button
+                    disabled={quizPage >= Math.ceil(filteredQuestions.length / 25)}
+                    onClick={() => setQuizPage(p => p + 1)}
+                    className="px-3 py-1.5 rounded-xl border border-slate-200 font-bold disabled:opacity-40 hover:bg-slate-50"
+                  >
+                    Trang tiếp
+                  </button>
+                </div>
+              </div>
+            )}
           </div>
         )}
 
-        {/* TAB 4: NẠP & QUẢN LÝ TRI THỨC AI THEO LĨNH VỰC */}
+        {/* TAB 4: NẠP & QUẢN LÝ TRI THỨC AI THEO LĨNH VỰC (ĐÃ TÍCH HỢP 5.000 CÂU HỎI PHÁP LUẬT) */}
         {activeTab === 'knowledge' && (
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
             <div className="lg:col-span-1 bg-white p-6 rounded-3xl border border-slate-200 shadow-sm space-y-4">
@@ -925,10 +963,12 @@ export default function AdminDashboardPage() {
                   >
                     <option value="cu_tru">Cư trú & Căn cước VNeID</option>
                     <option value="giao_thong">Giao thông & Đăng ký xe</option>
+                    <option value="dvc_lien_thong">DVC Liên thông, Hộ tịch & Tư pháp</option>
                     <option value="pccc">Phòng cháy chữa cháy (PCCC)</option>
                     <option value="bao_luc_gia_dinh_antt">Bạo lực gia đình & An ninh trật tự</option>
                     <option value="phong_chong_lua_dao">Phòng chống lừa đảo công nghệ cao</option>
-                    <option value="quan_ly_nganh_nghe">Quản lý ngành nghề & VK-VLN-CCHT</option>
+                    <option value="phap_luat_dan_su_dat_dai">Pháp luật Dân sự, Đất đai & Hôn nhân</option>
+                    <option value="quan_ly_nganh_nghe">Hành chính, Lao động BHXH, Thuế & Ngành nghề</option>
                   </select>
                 </div>
 
@@ -1005,13 +1045,13 @@ export default function AdminDashboardPage() {
               <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
                 <div>
                   <h3 className="font-black text-base text-slate-900 flex items-center space-x-2">
-                    <span>Kho Tri Thức AI Theo Nhóm Lĩnh Vực</span>
+                    <span>Kho Tri Thức AI (5.000+ Câu Hỏi Pháp Luật Chuẩn Hóa)</span>
                     <span className="text-xs font-bold bg-police-100 text-police-800 px-2.5 py-0.5 rounded-full">
-                      {knowledgeList.length} tài liệu
+                      {knowledgeList.length.toLocaleString('vi-VN')} tài liệu
                     </span>
                   </h3>
                   <p className="text-xs text-slate-500 mt-0.5">
-                    Hệ thống đã phân nhóm theo từng lĩnh vực. Bấm 'Xem chi tiết nguồn' để đọc toàn văn và căn cứ pháp lý.
+                    Đã nạp đầy đủ 5.000 câu hỏi pháp luật từ file bo-cau-hoi-phap-luat-5000.jsonl. Bấm 'Xem chi tiết nguồn' để đọc toàn văn.
                   </p>
                 </div>
               </div>
@@ -1019,17 +1059,22 @@ export default function AdminDashboardPage() {
               {/* BỘ LỌC THEO NHÓM LĨNH VỰC */}
               <div className="flex flex-wrap gap-1.5 pt-1">
                 {[
-                  { id: 'all', label: `Tất cả (${knowledgeList.length})` },
+                  { id: 'all', label: `Tất cả (${knowledgeList.length.toLocaleString('vi-VN')})` },
                   { id: 'cu_tru', label: `Cư trú & VNeID (${knowledgeList.filter(k => k.category_id === 'cu_tru').length})` },
                   { id: 'giao_thong', label: `Giao thông & Xe (${knowledgeList.filter(k => k.category_id === 'giao_thong').length})` },
+                  { id: 'dvc_lien_thong', label: `Hộ tịch & DVC (${knowledgeList.filter(k => k.category_id === 'dvc_lien_thong').length})` },
                   { id: 'pccc', label: `PCCC & CNCH (${knowledgeList.filter(k => k.category_id === 'pccc').length})` },
-                  { id: 'bao_luc_gia_dinh_antt', label: `Bạo lực gia đình & ANTT (${knowledgeList.filter(k => k.category_id === 'bao_luc_gia_dinh_antt').length})` },
-                  { id: 'phong_chong_lua_dao', label: `Lừa đảo qua mạng (${knowledgeList.filter(k => k.category_id === 'phong_chong_lua_dao').length})` },
-                  { id: 'quan_ly_nganh_nghe', label: `Quản lý ngành nghề (${knowledgeList.filter(k => k.category_id === 'quan_ly_nganh_nghe').length})` },
+                  { id: 'bao_luc_gia_dinh_antt', label: `Hôn nhân, BLGĐ & ANTT (${knowledgeList.filter(k => k.category_id === 'bao_luc_gia_dinh_antt').length})` },
+                  { id: 'phong_chong_lua_dao', label: `Lừa đảo & An toàn mạng (${knowledgeList.filter(k => k.category_id === 'phong_chong_lua_dao').length})` },
+                  { id: 'phap_luat_dan_su_dat_dai', label: `Dân sự & Đất đai (${knowledgeList.filter(k => k.category_id === 'phap_luat_dan_su_dat_dai').length})` },
+                  { id: 'quan_ly_nganh_nghe', label: `Lao động, BHXH, Thuế & HC (${knowledgeList.filter(k => k.category_id === 'quan_ly_nganh_nghe').length})` },
                 ].map((tab) => (
                   <button
                     key={tab.id}
-                    onClick={() => setKnowledgeCatFilter(tab.id)}
+                    onClick={() => {
+                      setKnowledgeCatFilter(tab.id);
+                      setKnowledgePage(1);
+                    }}
                     className={`px-3 py-1.5 rounded-xl text-xs font-bold transition border ${
                       knowledgeCatFilter === tab.id
                         ? 'bg-police-700 text-white border-police-700 shadow-xs'
@@ -1046,21 +1091,24 @@ export default function AdminDashboardPage() {
                 <Search className="w-4 h-4 text-slate-400 absolute left-3 top-2.5" />
                 <input
                   type="text"
-                  placeholder="Tìm kiếm theo tiêu đề, căn cứ pháp lý hoặc nội dung quy định..."
+                  placeholder="Tìm kiếm trong 5.000+ câu hỏi pháp luật theo từ khóa, điều luật, chuyên đề..."
                   value={knowledgeSearch}
-                  onChange={(e) => setKnowledgeSearch(e.target.value)}
+                  onChange={(e) => {
+                    setKnowledgeSearch(e.target.value);
+                    setKnowledgePage(1);
+                  }}
                   className="w-full pl-9 pr-3 py-2 bg-slate-50 border border-slate-200 rounded-xl text-xs focus:outline-none focus:ring-2 focus:ring-police-500 focus:bg-white"
                 />
               </div>
 
-              {/* DANH SÁCH TÀI LIỆU TRI THỨC */}
+              {/* DANH SÁCH TÀI LIỆU TRI THỨC (PHÂN TRANG MƯỢT MÀ 30 MỤC/TRANG) */}
               <div className="space-y-3 max-h-[560px] overflow-y-auto pr-1">
-                {filteredKnowledge.map((k) => (
+                {filteredKnowledge.slice((knowledgePage - 1) * 30, knowledgePage * 30).map((k) => (
                   <div key={k.id} className="p-4 rounded-2xl border border-slate-200 bg-slate-50/50 hover:bg-white transition space-y-2.5 shadow-2xs">
                     <div className="flex flex-wrap items-center justify-between gap-2">
                       <div className="flex items-center space-x-2">
                         <span className="text-[11px] font-bold bg-amber-50 text-amber-800 border border-amber-200 px-2.5 py-0.5 rounded-md">
-                          {k.category_name || 'Lĩnh vực ANTT'}
+                          {k.category_name || 'Lĩnh vực Pháp luật'}
                         </span>
                         <span className="text-[10px] font-mono font-bold bg-slate-200 text-slate-700 px-2 py-0.5 rounded-md">
                           {k.id}
@@ -1108,64 +1156,40 @@ export default function AdminDashboardPage() {
                   </div>
                 )}
               </div>
+
+              {filteredKnowledge.length > 30 && (
+                <div className="flex items-center justify-between pt-3 border-t border-slate-100 text-xs">
+                  <span className="text-slate-500 font-semibold">
+                    Hiển thị {(knowledgePage - 1) * 30 + 1} - {Math.min(knowledgePage * 30, filteredKnowledge.length)} / {filteredKnowledge.length.toLocaleString('vi-VN')} tài liệu
+                  </span>
+                  <div className="flex items-center space-x-2">
+                    <button
+                      disabled={knowledgePage <= 1}
+                      onClick={() => setKnowledgePage(p => Math.max(1, p - 1))}
+                      className="px-3 py-1.5 rounded-xl border border-slate-200 font-bold disabled:opacity-40 hover:bg-slate-50"
+                    >
+                      Trang trước
+                    </button>
+                    <span className="font-extrabold text-slate-800 px-2">
+                      Trang {knowledgePage} / {Math.ceil(filteredKnowledge.length / 30)}
+                    </span>
+                    <button
+                      disabled={knowledgePage >= Math.ceil(filteredKnowledge.length / 30)}
+                      onClick={() => setKnowledgePage(p => p + 1)}
+                      className="px-3 py-1.5 rounded-xl border border-slate-200 font-bold disabled:opacity-40 hover:bg-slate-50"
+                    >
+                      Trang tiếp
+                    </button>
+                  </div>
+                </div>
+              )}
             </div>
           </div>
         )}
 
-        {/* TAB 5: MÃ QR TUYÊN TRUYỀN (CHỈ CÁN BỘ ĐĂNG NHẬP MỚI CÓ) */}
+        {/* TAB 5: STUDIO MÃ QR & POSTER TUYÊN TRUYỀN SANG TRỌNG */}
         {activeTab === 'qr' && (
-          <div className="bg-white rounded-3xl p-6 sm:p-8 border border-slate-200 shadow-sm space-y-6">
-            <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
-              <div>
-                <h2 className="text-lg sm:text-xl font-black text-slate-900">
-                  Tạo Mẫu Ấn Phẩm Mã QR Tuyên Truyền
-                </h2>
-                <p className="text-xs text-slate-500">
-                  Dành riêng cho cán bộ in ấn Decal / Standee dán tại Bàn tiếp dân (Thôn Nho Lâm) và Nhà văn hóa các thôn
-                </p>
-              </div>
-
-              <Link
-                href="/tuyen-truyen-qr"
-                target="_blank"
-                className="bg-police-700 hover:bg-police-800 text-white px-5 py-2.5 rounded-2xl font-bold text-xs sm:text-sm transition flex items-center space-x-2 shadow"
-              >
-                <Printer className="w-4 h-4" />
-                <span>Mở bản in kích thước chuẩn A4</span>
-              </Link>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center pt-4">
-              <div className="space-y-4">
-                <div>
-                  <label className="block text-xs font-bold text-slate-700 uppercase mb-1">
-                    Đường dẫn Cổng thông tin (URL Web App):
-                  </label>
-                  <input
-                    type="text"
-                    value={qrAppUrl}
-                    onChange={(e) => setQrAppUrl(e.target.value)}
-                    className="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-xs font-mono"
-                  />
-                </div>
-                <p className="text-xs text-slate-600 leading-relaxed">
-                  Khi người dân quét mã QR này bằng Zalo, Camera điện thoại hoặc VNeID, hệ thống sẽ mở trực tiếp Cổng thông tin và Trợ lý số của Công an xã Đức Hợp mà không cần cài đặt ứng dụng.
-                </p>
-              </div>
-
-              <div className="flex flex-col items-center justify-center p-6 bg-slate-50 rounded-3xl border border-slate-200">
-                <div className="w-48 h-48 bg-white p-3 rounded-2xl shadow-md border border-slate-200 mb-3">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src={`https://quickchart.io/qr?text=${encodeURIComponent(qrAppUrl)}&size=300&margin=1&ecLevel=H`}
-                    alt="Mã QR Cổng DVC"
-                    className="w-full h-full object-contain"
-                  />
-                </div>
-                <span className="text-xs font-bold text-police-900">Mã QR chính thức Công an xã Đức Hợp</span>
-              </div>
-            </div>
-          </div>
+          <LuxuryQRPosterStudio initialUrl={qrAppUrl} />
         )}
       </div>
 
