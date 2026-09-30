@@ -4,6 +4,15 @@ from fastapi.staticfiles import StaticFiles
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import text
 import os
+import sys
+
+# Fix encoding cho Windows console (tranh loi cp1252 voi ky tu tieng Viet)
+if hasattr(sys.stdout, 'reconfigure'):
+    try:
+        sys.stdout.reconfigure(encoding='utf-8')
+        sys.stderr.reconfigure(encoding='utf-8')
+    except Exception:
+        pass
 
 from app.core.config import settings
 from app.core.database import get_db
