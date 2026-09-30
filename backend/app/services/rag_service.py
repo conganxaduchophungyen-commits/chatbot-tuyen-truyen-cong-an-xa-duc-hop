@@ -261,8 +261,15 @@ class RAGService:
                 "📞 Mọi thắc mắc cần hỗ trợ trực tiếp, Bác/Anh/Chị gọi ngay Trực ban Công an xã Đức Hợp: **02213.815.999**."
             )
 
-        # 1. Trụ sở & Liên hệ
-        if any(k in q for k in ["địa chỉ", "trụ sở", "hotline", "số điện thoại", "trực ban", "ở đâu"]):
+        # 1. Trụ sở & Liên hệ (Chỉ kích hoạt khi hỏi cụ thể về địa chỉ, hotline, giờ trực ban của đơn vị)
+        is_contact_query = (
+            any(k in q for k in ["địa chỉ công an", "trụ sở công an", "số điện thoại công an", "hotline công an", "trực ban công an", "công an xã ở đâu", "công an ở đâu", "trụ sở ở đâu", "công an xã đức hợp ở đâu"])
+            or (
+                any(k in q for k in ["địa chỉ", "trụ sở", "hotline", "số điện thoại", "trực ban"])
+                and not any(k in q for k in ["căn cước", "cccd", "thường trú", "tạm trú", "khai sinh", "xe", "đất", "vay", "nợ", "lừa", "bị", "ly hôn", "cháy", "tai nạn"])
+            )
+        )
+        if is_contact_query:
             return (
                 f"{greeting}🏛️ **Thông tin liên hệ Công an xã Đức Hợp, tỉnh Hưng Yên:**\n\n"
                 "- **Trụ sở đơn vị:** Thôn Nho Lâm, xã Đức Hợp, tỉnh Hưng Yên.\n"

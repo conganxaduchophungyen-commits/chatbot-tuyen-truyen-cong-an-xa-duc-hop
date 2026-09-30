@@ -1,0 +1,653 @@
+{
+  "summary": {
+    "total": 10,
+    "passed": 10,
+    "avg_time_ms": 4478.4
+  },
+  "tests": [
+    {
+      "id": 1,
+      "title": "Căn cước trẻ em 7 tuổi",
+      "category": "TTHC / Luật Căn cước 2023",
+      "status": "PASS",
+      "elapsed_ms": 25900.8,
+      "answer_len": 830,
+      "sources_count": 8,
+      "matched_kw": [
+        "căn cước",
+        "nhu cầu",
+        "mống mắt",
+        "khuôn mặt"
+      ],
+      "expected_kw": [
+        "căn cước",
+        "nhu cầu",
+        "mống mắt",
+        "khuôn mặt"
+      ],
+      "full_answer": "Kính chào Quý công dân! Trợ lý số Công an xã Đức Hợp xin giải đáp câu hỏi của Bác/Anh/Chị như sau:\n\nVề quy định **Cấp thẻ Căn cước mới theo Luật Căn cước 2023**:\n\n📌 **1. Độ tuổi và hình thức cấp:**\n- Trẻ em từ 0 đến dưới 6 tuổi: Cấp thẻ Căn cước theo **nhu cầu**, phụ huynh kê khai online qua Cổng DVC / VNeID (không thu nhận vân tay, mống mắt).\n- Trẻ em từ 6 đến dưới 14 tuổi: Cấp theo nhu cầu, thu nhận ảnh khuôn mặt, vân tay và **mống mắt**.\n- Người từ đủ 14 tuổi trở lên: **Bắt buộc** cấp thẻ Căn cước.\n\n📌 **2. Giá trị thẻ CCCD cũ & Kích hoạt VNeID Mức 2:**\n- Thẻ CCCD gắn chip đã cấp trước 01/7/2024 vẫn có giá trị sử dụng đến ngày hết hạn in trên thẻ.\n- Kích hoạt định danh điện tử VNeID Mức 2: Trực tiếp đến Trụ sở Công an xã Đức Hợp (Thôn Nho Lâm) để cán bộ hỗ trợ hoàn toàn miễn phí.\n\n📞 Hotline hỗ trợ: **02213.815.999**.",
+      "sources": [
+        {
+          "type": "vector_match",
+          "title": "Muốn thực hiện việc liên quan đến cấp đổi thẻ căn cước, tôi cần chuẩn bị giấy tờ",
+          "score": 0.5203,
+          "category": "Căn cước và VNeID"
+        },
+        {
+          "type": "vector_match",
+          "title": "Tôi ở nông thôn và cần giải quyết cấp đổi thẻ căn cước; có thể hỏi tư vấn từ xa ",
+          "score": 0.5183,
+          "category": "Căn cước và VNeID"
+        },
+        {
+          "type": "vector_match",
+          "title": "Đăng ký khai sinh cho trẻ: cần giấy tờ gì, nộp ở đâu?",
+          "score": 0.5163,
+          "category": "Trẻ em"
+        },
+        {
+          "type": "vector_match",
+          "title": "Trong tình huống đăng ký khai sinh cho trẻ, tôi cần lưu lại giấy tờ hoặc bằng ch",
+          "score": 0.5155,
+          "category": "Trẻ em"
+        },
+        {
+          "type": "vector_match",
+          "title": "Cấp đổi thẻ căn cước: cần giấy tờ gì, nộp ở đâu?",
+          "score": 0.5094,
+          "category": "Căn cước và VNeID"
+        },
+        {
+          "type": "procedure",
+          "id": "9c909609-d60d-4a33-a593-cfb280e606aa",
+          "title": "Cấp thẻ Căn cước cho người dân theo Luật Căn cước 2023",
+          "code": "TTHC-BCA-04",
+          "url": "https://dichvucong.bocongan.gov.vn"
+        },
+        {
+          "type": "procedure",
+          "id": "182f9e80-0698-4cb0-9e07-9811f9693a59",
+          "title": "Đăng ký tham gia lực lượng tham gia bảo vệ an ninh, trật tự ở cơ sở theo Luật 2023",
+          "code": "TTHC-BCA-30",
+          "url": "https://bocongan.gov.vn"
+        },
+        {
+          "type": "procedure",
+          "id": "05df9091-8969-45e5-8f2b-fe529eba85a1",
+          "title": "Thủ tục Khai báo tạm vắng trực tuyến qua ứng dụng VNeID",
+          "code": "TTHC-CT-05",
+          "url": "https://dichvucong.bocongan.gov.vn"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Đăng ký thường trú tại xã",
+      "category": "TTHC / Cư trú",
+      "status": "PASS",
+      "elapsed_ms": 2076.7,
+      "answer_len": 923,
+      "sources_count": 10,
+      "matched_kw": [
+        "thường trú",
+        "ct01",
+        "chỗ ở hợp pháp"
+      ],
+      "expected_kw": [
+        "thường trú",
+        "ct01",
+        "chỗ ở hợp pháp"
+      ],
+      "full_answer": "Kính chào Quý công dân! Trợ lý số Công an xã Đức Hợp xin giải đáp câu hỏi của Bác/Anh/Chị như sau:\n\nVề thủ tục **Đăng ký thường trú / Tạm trú tại xã Đức Hợp**:\n\n📌 **1. Thành phần hồ sơ cần chuẩn bị:**\n- Tờ khai thay đổi thông tin cư trú (Mẫu CT01 do Bộ Công an ban hành).\n- Giấy tờ chứng minh chỗ ở hợp pháp (Sổ đỏ, Hợp đồng mua bán nhà đất, hoặc Hợp đồng thuê nhà trọ hợp pháp).\n- Ý kiến đồng ý của chủ hộ/chủ sở hữu chỗ ở nếu nhập vào hộ khác.\n- Giấy tờ chứng minh quan hệ nhân thân (nếu chưa có trên CSDLQG về dân cư).\n\n📌 **2. Nơi nộp hồ sơ & Thời hạn giải quyết:**\n- Nộp trực tiếp tại Bộ phận Một cửa Công an xã Đức Hợp (Thôn Nho Lâm) hoặc nộp online qua Cổng DVC Bộ Công an.\n- Thời hạn giải quyết: **07 ngày làm việc** (thường trú) hoặc **03 ngày làm việc** (tạm trú).\n- Lệ phí: 20.000 VNĐ (nộp trực tiếp) hoặc 10.000 VNĐ (nộp online).\n\n📞 Cần tư vấn thêm, mời bà con gọi Trực ban Công an xã Đức Hợp: **02213.815.999**.",
+      "sources": [
+        {
+          "type": "vector_match",
+          "title": "Tôi ở nông thôn và cần giải quyết đăng ký thường trú; có thể hỏi tư vấn từ xa kh",
+          "score": 0.6817,
+          "category": "Cư trú"
+        },
+        {
+          "type": "vector_match",
+          "title": "Tôi ở nông thôn và cần giải quyết đăng ký tạm trú; có thể hỏi tư vấn từ xa không",
+          "score": 0.6773,
+          "category": "Cư trú"
+        },
+        {
+          "type": "vector_match",
+          "title": "Nhà tôi thiếu giấy tờ khi làm việc về đăng ký tạm trú; cần xác minh hướng xử lý ",
+          "score": 0.6491,
+          "category": "Cư trú"
+        },
+        {
+          "type": "vector_match",
+          "title": "Trong tình huống đăng ký thường trú, tôi cần lưu lại giấy tờ hoặc bằng chứng nào",
+          "score": 0.64,
+          "category": "Cư trú"
+        },
+        {
+          "type": "vector_match",
+          "title": "Muốn thực hiện việc liên quan đến đăng ký thường trú, tôi cần chuẩn bị giấy tờ g",
+          "score": 0.6386,
+          "category": "Cư trú"
+        },
+        {
+          "type": "procedure",
+          "id": "ee802388-2174-45d9-8f5a-483c0c044f08",
+          "title": "Đăng ký thường trú tại xã Đức Hợp",
+          "code": "TTHC-BCA-01",
+          "url": "https://dichvucong.bocongan.gov.vn/bocongan/bothutuc/tthc?matt=26288"
+        },
+        {
+          "type": "procedure",
+          "id": "04ab145c-aacc-43b4-9d17-7edc085a515b",
+          "title": "Đăng ký, cấp biển số xe mô tô, xe gắn máy lần đầu tại Công an xã",
+          "code": "TTHC-BCA-02",
+          "url": "https://dichvucong.bocongan.gov.vn/bocongan/bothutuc/tthc?matt=26363"
+        },
+        {
+          "type": "procedure",
+          "id": "e43fabff-cca0-472d-adff-0a8f21bacaff",
+          "title": "Đăng ký tạm trú, gia hạn tạm trú tại xã Đức Hợp",
+          "code": "TTHC-BCA-03",
+          "url": "https://dichvucong.bocongan.gov.vn/bocongan/bothutuc/tthc?matt=26291"
+        },
+        {
+          "type": "article",
+          "id": "22a726a3-126b-40ec-bfce-e2b99187aec0",
+          "title": "CẢNH BÁO: Thủ đoạn giả danh Công an gọi điện đe dọa, yêu cầu cài đặt App VNeID giả mạo",
+          "slug": "canh-bao-gia-danh-cong-an-cai-app-vneid-gia-mao"
+        },
+        {
+          "type": "article",
+          "id": "29dbe43f-27ea-40ab-a0bd-bb1bb1656d85",
+          "title": "CẢNH BÁO 2: Lừa đảo tuyển 'Cộng tác viên xử lý đơn hàng ảo' trên Shopee, TikTok, Lazada",
+          "slug": "canh-bao-tuyen-cong-tac-vien-shopee-tiktok"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Đăng ký xe máy & Biển số định danh",
+      "category": "TTHC / Giao thông",
+      "status": "PASS",
+      "elapsed_ms": 2109.2,
+      "answer_len": 813,
+      "sources_count": 5,
+      "matched_kw": [
+        "biển số",
+        "định danh",
+        "xe"
+      ],
+      "expected_kw": [
+        "biển số",
+        "định danh",
+        "xe"
+      ],
+      "full_answer": "Kính chào Quý công dân! Trợ lý số Công an xã Đức Hợp xin giải đáp câu hỏi của Bác/Anh/Chị như sau:\n\nVề thủ tục **Đăng ký xe mô tô, xe máy tại Công an xã Đức Hợp & Xử phạt giao thông**:\n\n📌 **1. Đăng ký xe máy phân cấp về xã (Thông tư 24/2023):**\n- Công an xã Đức Hợp thực hiện đăng ký xe lần đầu và bấm biển số định danh cho bà con cư trú trên địa bàn.\n- Hồ sơ: Căn cước/VNeID mức 2, hóa đơn giá trị gia tăng, chứng từ lệ phí trước bạ, mã hồ sơ kê khai trên Cổng DVC Bộ Công an.\n\n📌 **2. Quy định biển số định danh & Phạt vi phạm:**\n- Biển số định danh đi theo chủ xe suốt đời; khi bán xe phải nộp lại biển số để Công an giữ trong 5 năm cấp lại cho xe mới.\n- Nộp phạt nguội trực tuyến 100% qua Cổng DVC Quốc gia (dichvucong.gov.vn).\n\n📍 Địa điểm: Trụ sở Công an xã Đức Hợp (Thôn Nho Lâm). Hotline: **02213.815.999**.",
+      "sources": [
+        {
+          "type": "vector_match",
+          "title": "Nếu mất giấy tờ hoặc bằng chứng liên quan đến an toàn khi đi xe máy, tôi nên bắt",
+          "score": 0.5298,
+          "category": "Giao thông"
+        },
+        {
+          "type": "vector_match",
+          "title": "Tôi có thể nhờ người thân làm thay việc về an toàn khi đi xe máy không, cần hỏi ",
+          "score": 0.5158,
+          "category": "Giao thông"
+        },
+        {
+          "type": "vector_match",
+          "title": "Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến an toàn khi đi xe máy, tôi c",
+          "score": 0.5047,
+          "category": "Giao thông"
+        },
+        {
+          "type": "vector_match",
+          "title": "Với an toàn khi đi xe máy, trường hợp nào cần xác minh thêm trước khi làm?",
+          "score": 0.5009,
+          "category": "Giao thông"
+        },
+        {
+          "type": "vector_match",
+          "title": "Nếu cần kết quả gấp về an toàn khi đi xe máy, tôi nên hỏi cơ quan tiếp nhận điều",
+          "score": 0.4936,
+          "category": "Giao thông"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Giả danh Công an dọa án rửa tiền",
+      "category": "Cảnh báo Lừa đảo / Online",
+      "status": "PASS",
+      "elapsed_ms": 2102.9,
+      "answer_len": 462,
+      "sources_count": 5,
+      "matched_kw": [
+        "lừa đảo",
+        "không",
+        "tiền"
+      ],
+      "expected_kw": [
+        "lừa đảo",
+        "không",
+        "tiền"
+      ],
+      "full_answer": "Kính chào Quý công dân! Trợ lý số Công an xã Đức Hợp xin tổng hợp thông tin liên quan:\n\n\n**1.** Đây là thủ đoạn lừa đảo giả danh Công an / Viện Kiểm sát / Tòa án. Cơ quan Công an KHÔNG BAO GIỜ gọi điện thoại yêu cầu chuyển tiền hay làm việc qua điện thoại. Hãy cúp máy ngay và gọi xác minh tại Công an xã Đức Hợp: 02213.815.999.\n\n\n📞 Để được tư vấn chi tiết và chính xác nhất, Quý công dân vui lòng liên hệ trực tiếp Trực ban Công an xã Đức Hợp: **02213.815.999**",
+      "sources": [
+        {
+          "type": "vector_rag",
+          "title": "Có người tự xưng là công an gọi điện bảo tôi liên quan đến đường dây ma túy rửa ",
+          "score": 0.4907,
+          "category": "lừa đảo"
+        },
+        {
+          "type": "vector_rag",
+          "title": "Tôi có thể nhờ người thân làm thay việc về xác minh giấy triệu tập điện tử không",
+          "score": 0.4416,
+          "category": "Giả mạo cơ quan nhà nước"
+        },
+        {
+          "type": "vector_rag",
+          "title": "Sau khi gửi yêu cầu liên quan đến xác minh cuộc gọi tự xưng công an, tôi có thể ",
+          "score": 0.4409,
+          "category": "Giả mạo cơ quan nhà nước"
+        },
+        {
+          "type": "vector_rag",
+          "title": "Nếu chưa có đủ thông tin hoặc giấy tờ liên quan đến xác minh cuộc gọi tự xưng cô",
+          "score": 0.4393,
+          "category": "Giả mạo cơ quan nhà nước"
+        },
+        {
+          "type": "vector_rag",
+          "title": "Tôi có thể nhờ người thân làm thay việc về xử lý cuộc gọi giả danh ngân hàng khô",
+          "score": 0.4379,
+          "category": "Giả mạo cơ quan nhà nước"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Bẫy tuyển CTV Shopee làm nhiệm vụ",
+      "category": "Cảnh báo Lừa đảo / Online",
+      "status": "PASS",
+      "elapsed_ms": 2113.7,
+      "answer_len": 964,
+      "sources_count": 7,
+      "matched_kw": [
+        "lừa đảo",
+        "shopee",
+        "không"
+      ],
+      "expected_kw": [
+        "lừa đảo",
+        "shopee",
+        "không"
+      ],
+      "full_answer": "Kính chào Quý công dân! Trợ lý số Công an xã Đức Hợp xin giải đáp câu hỏi của Bác/Anh/Chị như sau:\n\nCông an xã Đức Hợp cảnh báo về **22 phương thức, thủ đoạn lừa đảo phổ biến trên không gian mạng**:\n\n⚠️ **Thủ đoạn nguy hiểm thường gặp:**\n- Giả danh Công an gọi điện cài app VNeID/DVC giả mạo (.apk) chứa mã độc rút sạch tiền ngân hàng.\n- Giả danh Công an, Viện kiểm sát gọi điện dọa lệnh bắt ma túy, ép chuyển tiền vào tài khoản an toàn.\n- Tuyển CTV Shopee, TikTok hoa hồng 20% dụ nạp tiền làm nhiệm vụ rồi chiếm đoạt.\n- Gọi video Deepfake mượn tiền khẩn cấp viện lý do tai nạn cấp cứu.\n\n🚨 **KHUYẾN CÁO VÀNG '4 KHÔNG - 2 PHẢI':**\n❌ KHÔNG bấm link lạ, không tải app .apk.\n❌ KHÔNG cung cấp mật khẩu, mã OTP cho bất kỳ ai.\n❌ KHÔNG chuyển tiền cho người lạ chưa xác minh.\n❌ KHÔNG tin việc nhẹ lương cao, đầu tư tiền ảo sinh lời khủng.\n✅ PHẢI kiểm chứng trực tiếp với người thân và cơ quan công quyền.\n✅ PHẢI báo ngay cho Trực ban Công an xã Đức Hợp: **02213.815.999**.",
+      "sources": [
+        {
+          "type": "vector_match",
+          "title": "Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến lưu bằng ch",
+          "score": 0.4903,
+          "category": "Lừa đảo trực tuyến"
+        },
+        {
+          "type": "vector_match",
+          "title": "Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến xử lý khi n",
+          "score": 0.4751,
+          "category": "Tuyển dụng và đầu tư giả"
+        },
+        {
+          "type": "vector_match",
+          "title": "Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến khiếu nại h",
+          "score": 0.4566,
+          "category": "Mua bán trực tuyến"
+        },
+        {
+          "type": "vector_match",
+          "title": "Có chi phí hoặc lệ phí nào cần xác minh khi xử lý việc liên quan đến trình báo l",
+          "score": 0.4512,
+          "category": "Lừa đảo trực tuyến"
+        },
+        {
+          "type": "vector_match",
+          "title": "Sau khi gửi yêu cầu liên quan đến xử lý khi nộp tiền cho môi giới giả, tôi có th",
+          "score": 0.4488,
+          "category": "Tuyển dụng và đầu tư giả"
+        },
+        {
+          "type": "article",
+          "id": "22a726a3-126b-40ec-bfce-e2b99187aec0",
+          "title": "CẢNH BÁO: Thủ đoạn giả danh Công an gọi điện đe dọa, yêu cầu cài đặt App VNeID giả mạo",
+          "slug": "canh-bao-gia-danh-cong-an-cai-app-vneid-gia-mao"
+        },
+        {
+          "type": "article",
+          "id": "29dbe43f-27ea-40ab-a0bd-bb1bb1656d85",
+          "title": "CẢNH BÁO 2: Lừa đảo tuyển 'Cộng tác viên xử lý đơn hàng ảo' trên Shopee, TikTok, Lazada",
+          "slug": "canh-bao-tuyen-cong-tac-vien-shopee-tiktok"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Bẫy chuyển tiền nhầm vào tài khoản",
+      "category": "Cảnh báo Lừa đảo / Đời thực",
+      "status": "PASS",
+      "elapsed_ms": 2089.2,
+      "answer_len": 1221,
+      "sources_count": 7,
+      "matched_kw": [
+        "công an"
+      ],
+      "expected_kw": [
+        "chuyển tiền",
+        "ngân hàng",
+        "công an"
+      ],
+      "full_answer": "Kính chào Quý công dân! Trợ lý số Công an xã Đức Hợp xin giải đáp câu hỏi của Bác/Anh/Chị như sau:\n\nTrợ lý số Công an xã Đức Hợp đã ghi nhận câu hỏi của Bác/Anh/Chị.\n\nQuý công dân có thể hỏi tôi chi tiết theo các nhóm nội dung nghiệp vụ trọng tâm sau:\n1. **Thủ tục hành chính & VNeID:** Đăng ký thường trú, tạm trú, cấp đổi/cấp lại thẻ Căn cước bị mất, kích hoạt VNeID Mức 2, đăng ký xe máy bấm biển số định danh.\n2. **Xử lý khi bị mất giấy tờ:** Hướng dẫn các bước cấp lại Căn cước, Giấy phép lái xe, Đăng ký xe, Trích lục khai sinh trực tuyến.\n3. **Phòng chống tội phạm & Lừa đảo mạng:** Nhận diện 22 thủ đoạn giả danh Công an, bẫy việc làm Shopee/TikTok, cuộc gọi Deepfake, bẫy nợ chuyển nhầm tiền.\n4. **Phòng cháy chữa cháy & Cứu nạn:** Quy định trang bị bình chữa cháy hộ gia đình, mở lối thoát nạn thứ hai, an toàn sạc pin xe điện, xử lý rò rỉ khí gas.\n5. **Pháp luật Dân sự & Đất đai:** Tranh chấp ranh giới đất, lối đi chung, hòa giải cơ sở tại xã, hợp đồng vay tài sản, thừa kế di chúc, thủ tục ly hôn và quyền nuôi con.\n\n🏛️ **Trụ sở tiếp dân:** Thôn Nho Lâm, xã Đức Hợp, tỉnh Hưng Yên.\n📞 **Đường dây nóng Trực ban phục vụ nhân dân 24/24h:** **02213.815.999** (hoặc Tổng đài khẩn cấp **113** / Báo cháy **114**).",
+      "sources": [
+        {
+          "type": "vector_match",
+          "title": "Chuyển khoản nhầm là gì và tôi có thể tìm hiểu ở đâu?",
+          "score": 0.636,
+          "category": "Ngân hàng và thanh toán số"
+        },
+        {
+          "type": "vector_match",
+          "title": "Nếu đã gửi nhầm thông tin khi xử lý việc chuyển khoản nhầm, nên làm gì tiếp theo",
+          "score": 0.6125,
+          "category": "Ngân hàng và thanh toán số"
+        },
+        {
+          "type": "vector_match",
+          "title": "Sau khi gửi yêu cầu liên quan đến chuyển khoản nhầm, tôi có thể theo dõi tiến độ",
+          "score": 0.6039,
+          "category": "Ngân hàng và thanh toán số"
+        },
+        {
+          "type": "vector_match",
+          "title": "Trong tình huống chuyển khoản nhầm, tôi cần lưu lại giấy tờ hoặc bằng chứng nào?",
+          "score": 0.5978,
+          "category": "Ngân hàng và thanh toán số"
+        },
+        {
+          "type": "vector_match",
+          "title": "Nếu đã gửi nhầm thông tin khi xử lý việc hợp đồng vay tài sản, nên làm gì tiếp t",
+          "score": 0.5932,
+          "category": "Pháp luật dân sự"
+        },
+        {
+          "type": "article",
+          "id": "22a726a3-126b-40ec-bfce-e2b99187aec0",
+          "title": "CẢNH BÁO: Thủ đoạn giả danh Công an gọi điện đe dọa, yêu cầu cài đặt App VNeID giả mạo",
+          "slug": "canh-bao-gia-danh-cong-an-cai-app-vneid-gia-mao"
+        },
+        {
+          "type": "article",
+          "id": "29dbe43f-27ea-40ab-a0bd-bb1bb1656d85",
+          "title": "CẢNH BÁO 2: Lừa đảo tuyển 'Cộng tác viên xử lý đơn hàng ảo' trên Shopee, TikTok, Lazada",
+          "slug": "canh-bao-tuyen-cong-tac-vien-shopee-tiktok"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Bạo lực gia đình khẩn cấp",
+      "category": "ANTT / Khẩn cấp",
+      "status": "PASS",
+      "elapsed_ms": 2099.9,
+      "answer_len": 1417,
+      "sources_count": 8,
+      "matched_kw": [
+        "02213.815.999",
+        "bạo lực gia đình",
+        "công an"
+      ],
+      "expected_kw": [
+        "02213.815.999",
+        "bạo lực gia đình",
+        "công an"
+      ],
+      "full_answer": "Kính chào Quý công dân! Trợ lý số Công an xã Đức Hợp xin giải đáp câu hỏi của Bác/Anh/Chị như sau:\n\n🚨 **HƯỚNG DẪN XỬ LÝ KHẨN CẤP KHI BỊ BẠO LỰC GIA ĐÌNH / HÀNH HUNG:**\n\nHành vi đánh đập, xâm phạm thân thể vợ/chồng là hành vi vi phạm pháp luật nghiêm trọng theo **Luật Phòng, chống bạo lực gia đình năm 2022** và **Nghị định 144/2021/NĐ-CP** (bị phạt tiền từ 5.000.000đ đến 20.000.000đ hoặc bị truy cứu trách nhiệm hình sự theo Điều 134, Điều 185 Bộ luật Hình sự).\n\n📌 **4 BƯỚC TỰ BẢO VỆ AN TOÀN NGAY LẬP TỨC:**\n1️⃣ **Ưu tiên an toàn tính mạng:** Nhanh chóng rời khỏi nơi nguy hiểm, chạy sang nhà hàng xóm, người thân để tạm lánh và kêu gọi trợ giúp.\n2️⃣ **Gọi điện báo ngay cho Công an xã Đức Hợp:**\n- Số điện thoại Trực ban Công an xã Đức Hợp (24/24h): **02213.815.999**\n- Đường dây nóng phản ứng nhanh: **113**\n- Tổng đài Quốc gia bảo vệ nạn nhân: **111**\nCán bộ Công an xã sẽ có mặt kịp thời để khống chế hành vi bạo lực, lập biên bản và bảo vệ an toàn cho Bác/Anh/Chị.\n3️⃣ **Khám thương tích & Lưu giữ bằng chứng:** Đến ngay Trạm y tế xã Đức Hợp hoặc cơ sở y tế gần nhất để điều trị và xin Giấy xác nhận thương tích; chụp lại vết thương, hiện trường làm bằng chứng.\n4️⃣ **Đề nghị áp dụng biện pháp CẤM TIẾP XÚC:** Làm đơn đề nghị Chủ tịch UBND xã Đức Hợp ra quyết định cấm người có hành vi bạo lực tiếp xúc với nạn nhân.\n\nCán bộ chiến sĩ Công an xã Đức Hợp luôn đồng hành và bảo vệ quyền lợi hợp pháp của công dân!",
+      "sources": [
+        {
+          "type": "vector_match",
+          "title": "Tôi ở nông thôn và cần giải quyết tố cáo hành vi vi phạm; có thể hỏi tư vấn từ x",
+          "score": 0.5002,
+          "category": "Khiếu nại và tố cáo"
+        },
+        {
+          "type": "vector_match",
+          "title": "Tôi có thể theo dõi việc hỗ trợ hoặc xử lý vấn đề tố cáo hành vi vi phạm bằng cá",
+          "score": 0.4719,
+          "category": "Khiếu nại và tố cáo"
+        },
+        {
+          "type": "vector_match",
+          "title": "Người dân ở xã xa trung tâm muốn xử lý việc tố cáo hành vi vi phạm thì nên hỏi c",
+          "score": 0.4672,
+          "category": "Khiếu nại và tố cáo"
+        },
+        {
+          "type": "vector_match",
+          "title": "Nếu các bên không thống nhất về tố cáo hành vi vi phạm, có thể đề nghị cơ quan n",
+          "score": 0.4655,
+          "category": "Khiếu nại và tố cáo"
+        },
+        {
+          "type": "vector_match",
+          "title": "Tôi ở nông thôn và cần giải quyết hỗ trợ người bị hại; có thể hỏi tư vấn từ xa k",
+          "score": 0.4587,
+          "category": "Pháp luật hình sự"
+        },
+        {
+          "type": "knowledge",
+          "title": "Hướng dẫn khẩn cấp khi bị bạo lực gia đình (Luật PCBLGĐ 2022)"
+        },
+        {
+          "type": "knowledge",
+          "title": "Xử phạt hành chính và hình sự hành vi đánh đập vợ/chồng (NĐ 144/2021 & BLHS)"
+        },
+        {
+          "type": "knowledge",
+          "title": "Biện pháp Cấm tiếp xúc bảo vệ nạn nhân tại xã Đức Hợp"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Rơi ví mất hết giấy tờ tùy thân",
+      "category": "Thủ tục xử lý mất giấy tờ",
+      "status": "PASS",
+      "elapsed_ms": 2119.1,
+      "answer_len": 1802,
+      "sources_count": 10,
+      "matched_kw": [
+        "mất",
+        "khóa thẻ",
+        "căn cước",
+        "vneid"
+      ],
+      "expected_kw": [
+        "mất",
+        "khóa thẻ",
+        "căn cước",
+        "vneid"
+      ],
+      "full_answer": "Kính chào Quý công dân! Trợ lý số Công an xã Đức Hợp xin giải đáp câu hỏi của Bác/Anh/Chị như sau:\n\n📋 **HƯỚNG DẪN XỬ LÝ KHI BỊ MẤT GIẤY TỜ TÙY THÂN — CÔNG AN XÃ ĐỨC HỢP:**\n\nKính thưa Bác/Anh/Chị, khi không may bị mất hoặc rơi ví chứa giấy tờ tùy thân, xin Quý công dân hãy an tâm và thực hiện theo hướng dẫn sau:\n\n🔒 **1. BẢO VỆ TÀI KHOẢN VÀ DỮ LIỆU CÁ NHÂN:**\n- Mở App ngân hàng bấm 'Khóa thẻ tạm thời' hoặc gọi tổng đài ngân hàng phong tỏa tài khoản nếu có kèm thẻ ngân hàng trong ví.\n- **An tâm về Thẻ Căn cước gắn chip:** Dữ liệu cá nhân và sinh trắc học đã được mã hóa bảo mật cấp cao của Bộ Công an, người nhặt được KHÔNG THỂ trích xuất thông tin để mở thẻ ngân hàng hay vay tín dụng đen.\n\n💳 **2. QUY TRÌNH CẤP LẠI GIẤY TỜ TRỰC TUYẾN (100% ONLINE):**\n1️⃣ **Cấp lại Thẻ Căn cước bị mất (Luật Căn cước 2023):**\n- Nộp hồ sơ hoàn toàn trực tuyến trên ứng dụng **VNeID** hoặc Cổng Dịch vụ công Bộ Công an (\\`dichvucong.bocongan.gov.vn\\`).\n- **Không cần xin đơn báo mất hay xác nhận của Công an xã**.\n- **Không cần chụp lại ảnh, không cần lấy lại vân tay** (hệ thống tự động sử dụng thông tin và ảnh sinh trắc học đã lưu trên CSDLQG về dân cư).\n- Thẻ Căn cước mới được giao về tận nhà qua bưu điện tại xã Đức Hợp.\n\n2️⃣ **Cấp lại Giấy phép lái xe (GPLX) bị mất:** Thực hiện trực tuyến toàn trình trên Cổng DVC Quốc gia (\\`dichvucong.gov.vn\\`), hệ thống tự động đối soát CSDLQG về dân cư.\n3️⃣ **Cấp lại Đăng ký xe máy bị mất:** Kê khai trực tuyến trên Cổng DVC Bộ Công an hoặc đến trực tiếp Trụ sở Công an xã Đức Hợp (Thôn Nho Lâm) để được cấp lại biển số định danh.\n4️⃣ **Cấp bản sao trích lục Giấy khai sinh:** Nộp trực tuyến trên Cổng DVC Bộ Tư pháp hoặc nộp tại Bộ phận Một cửa UBND xã Đức Hợp.\n\n📞 Mọi thắc mắc cần hỗ trợ trực tiếp, Bác/Anh/Chị gọi ngay Trực ban Công an xã Đức Hợp: **02213.815.999**.",
+      "sources": [
+        {
+          "type": "vector_match",
+          "title": "Nếu mất giấy tờ hoặc bằng chứng liên quan đến khóa thẻ khi có rủi ro, tôi nên bắ",
+          "score": 0.609,
+          "category": "Ngân hàng và thanh toán số"
+        },
+        {
+          "type": "vector_match",
+          "title": "Nếu đã gửi nhầm thông tin khi xử lý việc khóa thẻ khi có rủi ro, nên làm gì tiếp",
+          "score": 0.5736,
+          "category": "Ngân hàng và thanh toán số"
+        },
+        {
+          "type": "vector_match",
+          "title": "Tôi có thể nhờ người thân làm thay việc về khóa thẻ khi có rủi ro không, cần hỏi",
+          "score": 0.5617,
+          "category": "Ngân hàng và thanh toán số"
+        },
+        {
+          "type": "vector_match",
+          "title": "Cho mình hỏi về khóa thẻ khi có rủi ro, giờ nên bắt đầu từ bước nào?",
+          "score": 0.559,
+          "category": "Ngân hàng và thanh toán số"
+        },
+        {
+          "type": "vector_match",
+          "title": "Trong tình huống khóa thẻ khi có rủi ro, tôi cần lưu lại giấy tờ hoặc bằng chứng",
+          "score": 0.5562,
+          "category": "Ngân hàng và thanh toán số"
+        },
+        {
+          "type": "procedure",
+          "id": "43ef1929-c4cd-4b9a-8351-c442f8d4ce75",
+          "title": "Nộp phạt vi phạm giao thông (Phạt nguội) trực tuyến",
+          "code": "TTHC-BCA-05",
+          "url": "https://dichvucong.gov.vn/p/home/dvc-thanh-toan-vi-pham-giao-thong.html"
+        },
+        {
+          "type": "procedure",
+          "id": "be7c4666-5efb-402b-bdab-49850ca894d3",
+          "title": "Khai báo tạm vắng đối với công dân",
+          "code": "TTHC-BCA-08",
+          "url": "https://dichvucong.bocongan.gov.vn"
+        },
+        {
+          "type": "procedure",
+          "id": "824d0eba-e53a-4e2b-9fb5-95a0ba180894",
+          "title": "Thu hồi chứng nhận đăng ký xe, biển số xe định danh",
+          "code": "TTHC-BCA-13",
+          "url": "https://dichvucong.bocongan.gov.vn"
+        },
+        {
+          "type": "article",
+          "id": "22a726a3-126b-40ec-bfce-e2b99187aec0",
+          "title": "CẢNH BÁO: Thủ đoạn giả danh Công an gọi điện đe dọa, yêu cầu cài đặt App VNeID giả mạo",
+          "slug": "canh-bao-gia-danh-cong-an-cai-app-vneid-gia-mao"
+        },
+        {
+          "type": "article",
+          "id": "29dbe43f-27ea-40ab-a0bd-bb1bb1656d85",
+          "title": "CẢNH BÁO 2: Lừa đảo tuyển 'Cộng tác viên xử lý đơn hàng ảo' trên Shopee, TikTok, Lazada",
+          "slug": "canh-bao-tuyen-cong-tac-vien-shopee-tiktok"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Tranh chấp đất đai ngõ đi chung",
+      "category": "Pháp luật Dân sự / Đất đai",
+      "status": "PASS",
+      "elapsed_ms": 2097.7,
+      "answer_len": 1221,
+      "sources_count": 5,
+      "matched_kw": [
+        "đất",
+        "hòa giải"
+      ],
+      "expected_kw": [
+        "đất",
+        "hòa giải",
+        "ubnd"
+      ],
+      "full_answer": "Kính chào Quý công dân! Trợ lý số Công an xã Đức Hợp xin giải đáp câu hỏi của Bác/Anh/Chị như sau:\n\nTrợ lý số Công an xã Đức Hợp đã ghi nhận câu hỏi của Bác/Anh/Chị.\n\nQuý công dân có thể hỏi tôi chi tiết theo các nhóm nội dung nghiệp vụ trọng tâm sau:\n1. **Thủ tục hành chính & VNeID:** Đăng ký thường trú, tạm trú, cấp đổi/cấp lại thẻ Căn cước bị mất, kích hoạt VNeID Mức 2, đăng ký xe máy bấm biển số định danh.\n2. **Xử lý khi bị mất giấy tờ:** Hướng dẫn các bước cấp lại Căn cước, Giấy phép lái xe, Đăng ký xe, Trích lục khai sinh trực tuyến.\n3. **Phòng chống tội phạm & Lừa đảo mạng:** Nhận diện 22 thủ đoạn giả danh Công an, bẫy việc làm Shopee/TikTok, cuộc gọi Deepfake, bẫy nợ chuyển nhầm tiền.\n4. **Phòng cháy chữa cháy & Cứu nạn:** Quy định trang bị bình chữa cháy hộ gia đình, mở lối thoát nạn thứ hai, an toàn sạc pin xe điện, xử lý rò rỉ khí gas.\n5. **Pháp luật Dân sự & Đất đai:** Tranh chấp ranh giới đất, lối đi chung, hòa giải cơ sở tại xã, hợp đồng vay tài sản, thừa kế di chúc, thủ tục ly hôn và quyền nuôi con.\n\n🏛️ **Trụ sở tiếp dân:** Thôn Nho Lâm, xã Đức Hợp, tỉnh Hưng Yên.\n📞 **Đường dây nóng Trực ban phục vụ nhân dân 24/24h:** **02213.815.999** (hoặc Tổng đài khẩn cấp **113** / Báo cháy **114**).",
+      "sources": [
+        {
+          "type": "vector_match",
+          "title": "Tôi có thể nhờ người thân làm thay việc về bảo vệ tài sản khu dân cư không, cần ",
+          "score": 0.4234,
+          "category": "An ninh trật tự"
+        },
+        {
+          "type": "vector_match",
+          "title": "Điều kiện hoặc căn cứ áp dụng với bảo vệ tài sản khu dân cư được hướng dẫn thế n",
+          "score": 0.4167,
+          "category": "An ninh trật tự"
+        },
+        {
+          "type": "vector_match",
+          "title": "Nếu cần kết quả gấp về bảo vệ tài sản khu dân cư, tôi nên hỏi cơ quan tiếp nhận ",
+          "score": 0.4158,
+          "category": "An ninh trật tự"
+        },
+        {
+          "type": "vector_match",
+          "title": "Nếu mất giấy tờ hoặc bằng chứng liên quan đến bảo vệ tài sản khu dân cư, tôi nên",
+          "score": 0.4133,
+          "category": "An ninh trật tự"
+        },
+        {
+          "type": "vector_match",
+          "title": "Nếu đã gửi nhầm thông tin khi xử lý việc bảo vệ tài sản khu dân cư, nên làm gì t",
+          "score": 0.4057,
+          "category": "An ninh trật tự"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Cho vay quỵt nợ & Đòi nợ thuê",
+      "category": "Pháp luật Dân sự / Vay nợ",
+      "status": "PASS",
+      "elapsed_ms": 2074.9,
+      "answer_len": 1449,
+      "sources_count": 5,
+      "matched_kw": [
+        "vay",
+        "lãi suất",
+        "20%"
+      ],
+      "expected_kw": [
+        "vay",
+        "lãi suất",
+        "20%"
+      ],
+      "full_answer": "Kính chào Quý công dân! Trợ lý số Công an xã Đức Hợp xin giải đáp câu hỏi của Bác/Anh/Chị như sau:\n\n⚖️ **QUY ĐỊNH PHÁP LUẬT VỀ HỢP ĐỒNG VAY TÀI SẢN & XỬ LÝ QUỴT NỢ (BỘ LUẬT DÂN SỰ 2015):**\n\n📌 **1. Lãi suất vay hợp pháp (Điều 468 BLDS 2015):**\n- Lãi suất vay do các bên thỏa thuận nhưng **KHÔNG ĐƯỢC VƯỢT QUÁ 20%/NĂM** của khoản tiền vay.\n- Hành vi cho vay nặng lãi gấp 5 lần mức trần (trên 100%/năm) thu lợi bất chính từ 30 triệu trở lên sẽ bị xử lý hình sự về Tội cho vay lãi nặng theo Điều 201 BLHS.\n\n📌 **2. Biện pháp xử lý khi bên vay không chịu trả nợ:**\n- **Trường hợp tranh chấp dân sự:** Các bên tự thương lượng hoặc đề nghị Tổ hòa giải thôn / UBND xã Đức Hợp hòa giải; nếu không thành thì nộp Đơn khởi kiện tại Tòa án nhân dân nơi bị đơn cư trú kèm theo giấy vay nợ, sao kê chuyển khoản, tin nhắn làm chứng cứ.\n- **Trường hợp có dấu hiệu hình sự:** Nếu bên vay dùng thủ đoạn gian dối vay tiền rồi bỏ trốn, tẩu tán tài sản hoặc sử dụng tiền vào mục đích bất hợp pháp không trả thì có dấu hiệu phạm Tội lạm dụng tín nhiệm chiếm đoạt tài sản (Điều 175 BLHS) hoặc Tội lừa đảo (Điều 174 BLHS). Bác/Anh/Chị đến ngay Công an xã Đức Hợp (Thôn Nho Lâm) nộp đơn tố giác tội phạm.\n\n⚠️ **Cảnh báo an toàn:** Tuyệt đối không thuê các đối tượng 'xã hội đen' đòi nợ thuê, đe dọa, tạt sơn, xúc phạm danh dự con nợ vì hành vi này sẽ bị xử lý hình sự về tội Cưỡng đoạt tài sản hoặc Làm nhục người khác!\n\n📞 Hotline hỗ trợ Công an xã Đức Hợp: **02213.815.999**.",
+      "sources": [
+        {
+          "type": "vector_match",
+          "title": "Nếu đã gửi nhầm thông tin khi xử lý việc hợp đồng vay tài sản, nên làm gì tiếp t",
+          "score": 0.4916,
+          "category": "Pháp luật dân sự"
+        },
+        {
+          "type": "vector_match",
+          "title": "Tôi không rành điện thoại thông minh, làm sao hỏi và làm việc về xử lý sau khi c",
+          "score": 0.4806,
+          "category": "Lừa đảo trực tuyến"
+        },
+        {
+          "type": "vector_match",
+          "title": "Nếu đã gửi nhầm thông tin khi xử lý việc xác minh giấy triệu tập điện tử, nên là",
+          "score": 0.4654,
+          "category": "Giả mạo cơ quan nhà nước"
+        },
+        {
+          "type": "vector_match",
+          "title": "Có thể làm thủ tục về hợp đồng vay tài sản trên điện thoại không, cần chuẩn bị g",
+          "score": 0.4648,
+          "category": "Pháp luật dân sự"
+        },
+        {
+          "type": "vector_match",
+          "title": "Tôi ở nông thôn và cần giải quyết xử lý sau khi chuyển tiền cho kẻ gian; có thể ",
+          "score": 0.4598,
+          "category": "Lừa đảo trực tuyến"
+        }
+      ]
+    }
+  ]
+}
