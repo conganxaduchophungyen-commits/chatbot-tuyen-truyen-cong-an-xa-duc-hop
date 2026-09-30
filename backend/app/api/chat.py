@@ -66,7 +66,8 @@ async def query_ai(request: ChatQueryRequest, db: AsyncSession = Depends(get_db)
             answer = await RAGService.generate_response(
                 query=request.query,
                 context=context,
-                history=request.history
+                history=request.history,
+                category=matched_cat
             )
             method_used = f"vector_guided_fallback (cat={matched_cat}, conf={confidence:.2f})"
 
