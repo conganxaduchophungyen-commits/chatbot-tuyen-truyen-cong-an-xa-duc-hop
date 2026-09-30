@@ -38,8 +38,9 @@ backend/.env
 Thumbs.db
 desktop.ini
 
-# IDEs
+# IDEs & Agents
 .idea/
 .vscode/
 *.swp
 *.swo
+.agents/

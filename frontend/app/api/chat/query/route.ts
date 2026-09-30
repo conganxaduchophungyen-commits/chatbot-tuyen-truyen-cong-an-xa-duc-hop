@@ -3,6 +3,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { getSmartLocalChatAnswer } from '@/lib/mockData';
 import { queryLegalDatasetEngine } from '@/lib/legalDatasetEngine';
 import { matchExact5000Question } from '@/lib/full5000KnowledgeLoader';
+import { matchCustomKnowledge } from '@/lib/customKnowledgeStore';
 
 export async function POST(req: NextRequest) {
   let body: { session_id?: string; query?: string } = {};
@@ -13,6 +14,24 @@ export async function POST(req: NextRequest) {
   }
 
   const { session_id = 'default_session', query = '' } = body;
+
+  // 0. ƯU TIÊN SỐ 0: Tri thức mới do Quản trị viên Công an xã nạp vào hệ thống
+  try {
+    const customHit = await matchCustomKnowledge(query);
+    if (customHit) {
+      return NextResponse.json({
+        session_id,
+        answer: customHit.answer,
+        sources: customHit.sources,
+        related_questions: customHit.related_questions || [],
+        clarifying_questions: customHit.clarifying_questions || [],
+        answer_status: customHit.answer_status || 'ANSWERABLE',
+        disclaimer: customHit.disclaimer || 'Thông tin do Công an xã Đức Hợp cập nhật trực tiếp.',
+      });
+    }
+  } catch (e) {
+    console.warn('[API Chat Route] Error matching custom knowledge:', e);
+  }
 
   // 1. ƯU TIÊN SỐ 1: Trí tuệ nhân tạo Backend RAG Python (Vector DB ChromaDB + 5.000 Q&A + 35 kịch bản lừa đảo)
   console.log('[API Chat Route] Querying backend at:', `${BACKEND_URL}/api/chat/query`);

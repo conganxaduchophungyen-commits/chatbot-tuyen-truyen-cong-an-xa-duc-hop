@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { IN_MEMORY_KNOWLEDGE } from '@/lib/knowledgeStore';
 import { addCustomKnowledgeItem } from '@/lib/full5000KnowledgeLoader';
+import { addCustomKnowledge } from '@/lib/customKnowledgeStore';
 
 export async function POST(req: NextRequest) {
   let body: any = {};
@@ -37,6 +38,7 @@ export async function POST(req: NextRequest) {
 
   IN_MEMORY_KNOWLEDGE.unshift(newItem);
   addCustomKnowledgeItem(newItem);
+  await addCustomKnowledge(newItem);
 
   return NextResponse.json({
     success: true,

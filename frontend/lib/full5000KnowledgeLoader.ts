@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { IN_MEMORY_KNOWLEDGE, KnowledgeItem } from './knowledgeStore';
+import { getAllCustomKnowledgeSync } from './customKnowledgeStore';
 import {
   SUBCATEGORY_MODULES,
   INTENT_GUIDANCE,
@@ -84,8 +85,16 @@ export function load5000Rows(): Raw5000QuestionRow[] {
 }
 
 export function getAll5000KnowledgeItems(): KnowledgeItem[] {
+  const customStoreItems = getAllCustomKnowledgeSync();
+  const allCustom = [...CUSTOM_ADDED_ITEMS];
+  for (const c of customStoreItems) {
+    if (!allCustom.some((x) => x.id === c.id)) {
+      allCustom.push(c);
+    }
+  }
+
   if (CACHED_ALL_KNOWLEDGE_ITEMS) {
-    return [...CUSTOM_ADDED_ITEMS, ...CACHED_ALL_KNOWLEDGE_ITEMS];
+    return [...allCustom, ...CACHED_ALL_KNOWLEDGE_ITEMS];
   }
 
   const subMap = getSubcategoryMap();
@@ -140,27 +149,27 @@ export function getAll5000KnowledgeItems(): KnowledgeItem[] {
   });
 
   CACHED_ALL_KNOWLEDGE_ITEMS = [...coreItems, ...datasetItems];
-  return [...CUSTOM_ADDED_ITEMS, ...CACHED_ALL_KNOWLEDGE_ITEMS];
+  return [...allCustom, ...CACHED_ALL_KNOWLEDGE_ITEMS];
 }
 
 export function addCustomKnowledgeItem(item: KnowledgeItem): void {
-  CUSTOM_ADDED_ITEMS.unshift(item);
+  if (!CUSTOM_ADDED_ITEMS.some((x) => x.id === item.id)) {
+    CUSTOM_ADDED_ITEMS.unshift(item);
+  }
 }
 
 export function deleteCustomKnowledgeItem(id: string): boolean {
   const idx = CUSTOM_ADDED_ITEMS.findIndex((i) => i.id === id);
   if (idx !== -1) {
     CUSTOM_ADDED_ITEMS.splice(idx, 1);
-    return true;
   }
   if (CACHED_ALL_KNOWLEDGE_ITEMS) {
     const cIdx = CACHED_ALL_KNOWLEDGE_ITEMS.findIndex((i) => i.id === id);
     if (cIdx !== -1) {
       CACHED_ALL_KNOWLEDGE_ITEMS.splice(cIdx, 1);
-      return true;
     }
   }
-  return false;
+  return true;
 }
 
 const STOP_WORDS = new Set([

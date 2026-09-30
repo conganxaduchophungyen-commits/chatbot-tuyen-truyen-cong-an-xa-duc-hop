@@ -378,6 +378,26 @@ export default function AdminDashboardPage() {
     alert('Đã xóa bài viết.');
   };
 
+  const handleDeleteKnowledge = async (id: string) => {
+    if (!confirm('Đồng chí có chắc chắn muốn xóa tài liệu tri thức nguồn này khỏi hệ thống AI?')) return;
+    try {
+      await fetch(`/api/admin/knowledge/${id}`, {
+        method: 'DELETE',
+        headers: { Authorization: `Bearer ${token}` },
+      });
+    } catch (e) {
+      console.warn('Lỗi khi gọi API xóa tài liệu nguồn:', e);
+    }
+    setKnowledgeList((prev) => {
+      const next = prev.filter((k) => k.id !== id);
+      if (typeof window !== 'undefined') {
+        localStorage.setItem('admin_custom_knowledge', JSON.stringify(next));
+      }
+      return next;
+    });
+    alert('Đã xóa tài liệu tri thức nguồn thành công.');
+  };
+
   // ==========================================
   // NGÂN HÀNG CÂU HỎI TRẮC NGHIỆM (CRUD)
   // ==========================================
@@ -638,8 +658,8 @@ export default function AdminDashboardPage() {
                 <Sparkles className="w-6 h-6" />
               </div>
               <div>
-                <div className="text-2xl font-black text-slate-900">{stats.satisfaction_rate}%</div>
-                <div className="text-xs font-semibold text-slate-500">Mức độ hài lòng</div>
+                <div className="text-2xl font-black text-slate-900">{stats.satisfaction_rate ? `${stats.satisfaction_rate}%` : '100%'}</div>
+                <div className="text-xs font-semibold text-slate-500">Tỷ lệ giải đáp tự động</div>
               </div>
             </div>
           </div>
@@ -1140,13 +1160,23 @@ export default function AdminDashboardPage() {
                           </span>
                         ))}
                       </div>
-                      <button
-                        onClick={() => setSelectedKnowledgeModal(k)}
-                        className="px-3 py-1.5 rounded-xl bg-police-50 text-police-700 hover:bg-police-100 font-bold text-xs flex items-center space-x-1.5 shrink-0"
-                      >
-                        <Search className="w-3.5 h-3.5" />
-                        <span>Xem chi tiết nguồn</span>
-                      </button>
+                      <div className="flex items-center space-x-2 shrink-0">
+                        <button
+                          onClick={() => setSelectedKnowledgeModal(k)}
+                          className="px-3 py-1.5 rounded-xl bg-police-50 text-police-700 hover:bg-police-100 font-bold text-xs flex items-center space-x-1.5 transition"
+                        >
+                          <Search className="w-3.5 h-3.5" />
+                          <span>Xem chi tiết nguồn</span>
+                        </button>
+                        <button
+                          onClick={() => handleDeleteKnowledge(k.id)}
+                          className="px-3 py-1.5 rounded-xl bg-rose-50 text-rose-700 hover:bg-rose-100 border border-rose-200 font-bold text-xs flex items-center space-x-1.5 transition"
+                          title="Xóa tài liệu nguồn này"
+                        >
+                          <Trash2 className="w-3.5 h-3.5" />
+                          <span>Xóa</span>
+                        </button>
+                      </div>
                     </div>
                   </div>
                 ))}
@@ -1637,7 +1667,20 @@ export default function AdminDashboardPage() {
               )}
             </div>
 
-            <div className="pt-3 border-t border-slate-100 flex justify-end">
+            <div className="pt-3 border-t border-slate-100 flex items-center justify-between">
+              <button
+                type="button"
+                onClick={() => {
+                  if (confirm(`Đồng chí có chắc chắn muốn xóa tài liệu nguồn "${selectedKnowledgeModal.source_title}" khỏi hệ thống AI?`)) {
+                    handleDeleteKnowledge(selectedKnowledgeModal.id);
+                    setSelectedKnowledgeModal(null);
+                  }
+                }}
+                className="px-4 py-2.5 rounded-xl bg-rose-50 hover:bg-rose-100 text-rose-700 font-bold text-xs border border-rose-200 flex items-center space-x-1.5 transition"
+              >
+                <Trash2 className="w-4 h-4" />
+                <span>Xóa tài liệu này</span>
+              </button>
               <button
                 type="button"
                 onClick={() => setSelectedKnowledgeModal(null)}

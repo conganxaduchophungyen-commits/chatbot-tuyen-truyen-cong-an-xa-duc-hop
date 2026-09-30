@@ -7,14 +7,12 @@ import {
   Send, 
   Bot, 
   User, 
-  ThumbsUp, 
-  ThumbsDown, 
   ShieldCheck, 
   ExternalLink,
   Sparkles,
   PhoneCall
 } from 'lucide-react';
-import { sendChatQuery, sendChatFeedback, ChatSource } from '@/lib/api';
+import { sendChatQuery, ChatSource } from '@/lib/api';
 
 interface Message {
   id: string;
@@ -87,7 +85,6 @@ export default function ChatWidget() {
   const [inputQuery, setInputQuery] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const [sessionId, setSessionId] = useState('');
-  const [feedbackSent, setFeedbackSent] = useState<Record<string, number>>({});
   
   const [messages, setMessages] = useState<Message[]>([
     {
@@ -153,15 +150,6 @@ export default function ChatWidget() {
       setMessages((prev) => [...prev, errorMsg]);
     } finally {
       setIsLoading(false);
-    }
-  };
-
-  const handleFeedback = async (msgId: string, rating: number) => {
-    setFeedbackSent((prev) => ({ ...prev, [msgId]: rating }));
-    try {
-      await sendChatFeedback(sessionId, rating);
-    } catch (e) {
-      console.warn('Lỗi gửi feedback:', e);
     }
   };
 
@@ -336,34 +324,6 @@ export default function ChatWidget() {
                       </div>
                     )}
                   </div>
-
-                  {/* Feedback Buttons for Bot answers */}
-                  {m.sender === 'bot' && m.id !== 'welcome' && (
-                    <div className="flex items-center space-x-3 mt-1.5 pl-1 text-[11px] text-slate-400">
-                      <span>Câu trả lời hữu ích?</span>
-                      <button
-                        onClick={() => handleFeedback(m.id, 1)}
-                        className={`flex items-center space-x-1 hover:text-emerald-600 transition ${
-                          feedbackSent[m.id] === 1 ? 'text-emerald-600 font-bold' : ''
-                        }`}
-                      >
-                        <ThumbsUp className="w-3 h-3" />
-                        <span>Có</span>
-                      </button>
-                      <button
-                        onClick={() => handleFeedback(m.id, -1)}
-                        className={`flex items-center space-x-1 hover:text-rose-600 transition ${
-                          feedbackSent[m.id] === -1 ? 'text-rose-600 font-bold' : ''
-                        }`}
-                      >
-                        <ThumbsDown className="w-3 h-3" />
-                        <span>Chưa rõ</span>
-                      </button>
-                      {feedbackSent[m.id] && (
-                        <span className="text-emerald-600">✓ Đã ghi nhận</span>
-                      )}
-                    </div>
-                  )}
                 </div>
               </div>
             ))}
