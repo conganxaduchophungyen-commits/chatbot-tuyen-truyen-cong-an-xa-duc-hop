@@ -41,14 +41,21 @@ class RAGService:
                     "và thủ tục hành chính công. Chúng tôi từ chối các câu lệnh can thiệp hệ thống."
                 )
 
-        for keyword in ILLEGAL_KEYWORDS:
-            if keyword in query_lower:
-                return (
-                    "Kính thưa Quý công dân, Trợ lý số Công an xã Đức Hợp được thiết lập để tuyên truyền "
-                    "và hướng dẫn pháp luật theo đúng các quy định của Nhà nước. "
-                    "Chúng tôi từ chối hỗ trợ các yêu cầu hướng dẫn lách luật, trốn tránh trách nhiệm "
-                    "hoặc vi phạm pháp luật. Mọi hành vi vi phạm sẽ bị xử lý nghiêm theo quy định."
-                )
+        # Nếu câu hỏi là về nhận diện / tố giác lừa đảo hoặc hỏi cách xử lý khi bị đe dọa, không kích hoạt chặn
+        is_scam_inquiry = any(s in query_lower for s in [
+            "bị lừa", "lừa đảo", "đe dọa", "dọa", "tự xưng", "mạo danh", "giả danh", 
+            "gọi điện", "nhắn tin", "bẫy", "xử lý sao", "phải làm sao", "làm gì", "tố giác", "báo công an"
+        ])
+
+        if not is_scam_inquiry:
+            for keyword in ILLEGAL_KEYWORDS:
+                if keyword in query_lower:
+                    return (
+                        "Kính thưa Quý công dân, Trợ lý số Công an xã Đức Hợp được thiết lập để tuyên truyền "
+                        "và hướng dẫn pháp luật theo đúng các quy định của Nhà nước. "
+                        "Chúng tôi từ chối hỗ trợ các yêu cầu hướng dẫn lách luật, trốn tránh trách nhiệm "
+                        "hoặc vi phạm pháp luật. Mọi hành vi vi phạm sẽ bị xử lý nghiêm theo quy định."
+                    )
         return None
 
     @staticmethod
