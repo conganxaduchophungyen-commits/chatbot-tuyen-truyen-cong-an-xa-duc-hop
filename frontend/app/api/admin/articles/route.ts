@@ -1,6 +1,7 @@
 import { BACKEND_URL } from '@/lib/config';
 import { NextRequest, NextResponse } from 'next/server';
 import { MOCK_ARTICLES } from '@/lib/mockData';
+import { supabaseUpsert } from '@/lib/supabaseClient';
 
 export async function POST(req: NextRequest) {
   let body: any = {};
@@ -47,5 +48,20 @@ export async function POST(req: NextRequest) {
   };
 
   MOCK_ARTICLES.unshift(newArt);
+
+  // Persist to Supabase
+  await supabaseUpsert('articles', {
+    id: newArt.id,
+    category_id: newArt.category_id,
+    title: newArt.title,
+    slug: newArt.slug,
+    summary: newArt.summary,
+    content: newArt.content,
+    is_scam_alert: newArt.is_scam_alert,
+    scam_tricks: newArt.scam_tricks,
+    prevention_advice: newArt.prevention_advice,
+    is_published: true,
+  });
+
   return NextResponse.json(newArt);
 }

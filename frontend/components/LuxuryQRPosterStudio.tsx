@@ -119,35 +119,35 @@ export default function LuxuryQRPosterStudio({
         ctx.closePath();
       };
 
-      // 1. Nền tổng thể Royal Navy sang trọng
+      // 1. Nền tổng thể Tươi Sáng - Hoàng gia Trang nhã (Trắng ngà ánh kim)
       const bgGrad = ctx.createLinearGradient(0, 0, W, H);
-      bgGrad.addColorStop(0, '#070e22');
-      bgGrad.addColorStop(0.5, '#0f1e42');
-      bgGrad.addColorStop(1, '#081026');
+      bgGrad.addColorStop(0, '#ffffff');
+      bgGrad.addColorStop(0.5, '#fffef8');
+      bgGrad.addColorStop(1, '#fff9eb');
       ctx.fillStyle = bgGrad;
       ctx.fillRect(0, 0, W, H);
 
-      // 2. Viền kim loại vàng kép (Double Metallic Gold Frame)
-      const goldGrad = ctx.createLinearGradient(0, 0, W, H);
-      goldGrad.addColorStop(0, '#f7d774');
-      goldGrad.addColorStop(0.5, '#d49b27');
-      goldGrad.addColorStop(1, '#f9df87');
-
-      ctx.strokeStyle = goldGrad;
+      // 2. Viền kim loại kép trang trọng (Viền đỏ cờ uy nghiêm & chỉ vàng kim)
+      ctx.strokeStyle = '#991b1b';
       ctx.lineWidth = 8;
       roundRect(28, 28, W - 56, H - 56, 36);
       ctx.stroke();
 
-      ctx.strokeStyle = 'rgba(247, 215, 116, 0.45)';
-      ctx.lineWidth = 2;
-      roundRect(44, 44, W - 88, H - 88, 28);
+      const goldGrad = ctx.createLinearGradient(0, 0, W, H);
+      goldGrad.addColorStop(0, '#f59e0b');
+      goldGrad.addColorStop(0.5, '#d49b27');
+      goldGrad.addColorStop(1, '#fbbf24');
+
+      ctx.strokeStyle = goldGrad;
+      ctx.lineWidth = 3;
+      roundRect(42, 42, W - 84, H - 84, 28);
       ctx.stroke();
 
-      // 3. Banner Đỏ Công an Nhân dân phía trên
+      // 3. Banner Đỏ Công an Nhân dân phía trên (Rực rỡ, tươi sáng)
       const headerGrad = ctx.createLinearGradient(48, 48, W - 48, 430);
-      headerGrad.addColorStop(0, '#7f1111');
-      headerGrad.addColorStop(0.5, '#b91c1c');
-      headerGrad.addColorStop(1, '#7f1111');
+      headerGrad.addColorStop(0, '#991b1b');
+      headerGrad.addColorStop(0.5, '#dc2626');
+      headerGrad.addColorStop(1, '#991b1b');
       ctx.fillStyle = headerGrad;
       roundRect(48, 48, W - 96, 375, 24);
       ctx.fill();
@@ -161,7 +161,7 @@ export default function LuxuryQRPosterStudio({
       ctx.beginPath();
       ctx.arc(W / 2, 138, 62, 0, Math.PI * 2);
       ctx.fillStyle = '#ffffff';
-      ctx.shadowColor = 'rgba(0,0,0,0.45)';
+      ctx.shadowColor = 'rgba(0,0,0,0.35)';
       ctx.shadowBlur = 18;
       ctx.fill();
       ctx.lineWidth = 5;
@@ -188,7 +188,7 @@ export default function LuxuryQRPosterStudio({
 
       // Chữ tiêu đề trên Header
       ctx.textAlign = 'center';
-      ctx.fillStyle = '#fde047';
+      ctx.fillStyle = '#fef08a';
       ctx.font = 'bold 24px Arial, sans-serif';
       ctx.fillText('CÔNG AN TỈNH HƯNG YÊN', W / 2, 238);
 
@@ -201,16 +201,16 @@ export default function LuxuryQRPosterStudio({
       roundRect(W / 2 - 330, 326, 660, 52, 26);
       ctx.fill();
 
-      ctx.fillStyle = '#450a0a';
+      ctx.fillStyle = '#7f1d1d';
       ctx.font = '900 21px Arial, sans-serif';
       ctx.fillText('ĐỀ ÁN 06/CP • CHUYỂN ĐỔI SỐ PHỤC VỤ NHÂN DÂN', W / 2, 360);
 
-      // 5. Tiêu đề chính dưới Header
-      ctx.fillStyle = '#fde047';
+      // 5. Tiêu đề chính dưới Header (Tươi sáng, rõ nét)
+      ctx.fillStyle = '#881337';
       ctx.font = '900 32px Arial, sans-serif';
       ctx.fillText(posterSubtitle.toUpperCase(), W / 2, 490);
 
-      ctx.fillStyle = '#cbd5e1';
+      ctx.fillStyle = '#475569';
       ctx.font = '600 22px Arial, sans-serif';
       ctx.fillText(
         'Mở Camera điện thoại hoặc ứng dụng Zalo quét mã QR để tra cứu & hỏi đáp ngay',
@@ -218,14 +218,14 @@ export default function LuxuryQRPosterStudio({
         532
       );
 
-      // 6. Khung Pedestal Đặt Mã QR Sang Trọng
+      // 6. Khung Pedestal Đặt Mã QR Sang Trọng (Nền trắng viền vàng kim)
       const qrBoxSize = 480;
       const qrBoxX = (W - qrBoxSize) / 2;
       const qrBoxY = 568;
 
       ctx.save();
-      ctx.shadowColor = 'rgba(245, 197, 66, 0.28)';
-      ctx.shadowBlur = 35;
+      ctx.shadowColor = 'rgba(217, 119, 6, 0.25)';
+      ctx.shadowBlur = 30;
       ctx.fillStyle = '#ffffff';
       roundRect(qrBoxX, qrBoxY, qrBoxSize, qrBoxSize, 36);
       ctx.fill();
@@ -252,46 +252,46 @@ export default function LuxuryQRPosterStudio({
         // ignore
       }
 
-      // 7. Thanh hiển thị đường link trực tiếp dưới mã QR
-      ctx.fillStyle = 'rgba(255, 255, 255, 0.08)';
+      // 7. Thanh hiển thị đường link trực tiếp dưới mã QR (Nền kem sáng rõ ràng)
+      ctx.fillStyle = '#fef3c7';
       roundRect(130, 1074, W - 260, 56, 28);
       ctx.fill();
       ctx.lineWidth = 1.5;
-      ctx.strokeStyle = 'rgba(247, 215, 116, 0.5)';
+      ctx.strokeStyle = '#f59e0b';
       ctx.stroke();
 
-      ctx.fillStyle = '#fde047';
+      ctx.fillStyle = '#0f172a';
       ctx.font = 'bold 21px monospace';
       const displayUrl =
         appUrl.length > 58 ? appUrl.slice(0, 55) + '...' : appUrl;
       ctx.fillText(`🔗 ${displayUrl}`, W / 2, 1110);
 
-      // 8. 4 Ô Tính Năng Trọng Tâm (2x2 Grid)
+      // 8. 4 Ô Tính Năng Trọng Tâm (Nền Trắng Sứ Viền Vàng Sáng, Chữ Rõ Nét)
       const features = [
         {
-          title: 'HƯỚNG DẪN THỦ TỤC & VNeID',
-          desc: 'Tra cứu hồ sơ cư trú, căn cước, đăng ký xe chi tiết từng bước.',
+          title: 'HƯỚNG DẪN DỊCH VỤ CÔNG & VNeID',
+          desc: 'Tra cứu quy trình chuẩn làm Căn cước, đăng ký thường trú, tạm trú, bấm biển số xe máy tại xã và kích hoạt VNeID Mức 2 dễ dàng.',
         },
         {
-          title: 'TRỢ LÝ AI PHÁP LUẬT 24/7',
-          desc: 'Giải đáp 5.000+ câu hỏi pháp luật chính xác, tận tình suốt ngày đêm.',
+          title: 'TRỢ LÝ SỐ PHÁP LUẬT 24/7',
+          desc: 'Trợ lý AI giải đáp tức thì 5.000+ câu hỏi pháp luật, trích dẫn chính xác quy định của Bộ Công an mọi lúc, mọi nơi hoàn toàn miễn phí.',
         },
         {
-          title: 'CẢNH BÁO TỘI PHẠM CÔNG NGHỆ CAO',
-          desc: 'Nhận diện sớm các thủ đoạn giả danh Công an, lừa đảo qua mạng.',
+          title: 'CẢNH BÁO LỪA ĐẢO & AN TOÀN SỐ',
+          desc: 'Nhận diện sớm 22 thủ đoạn lừa đảo qua mạng tinh vi (app giả mạo, gọi điện đe dọa, việc làm ảo) và bí kíp "4 Không - 2 Phải" giữ an toàn tài sản.',
         },
         {
-          title: 'TRẮC NGHIỆM CÔNG DÂN SỐ',
-          desc: '500 câu hỏi tình huống thực tế - Nhận chứng nhận Công dân số.',
+          title: 'TRẮC NGHIỆM PHÁP LUẬT CÔNG DÂN SỐ',
+          desc: 'Luyện tập 500+ tình huống thực tế thường gặp trong đời sống; đạt kết quả xuất sắc được cấp ngay Giấy chứng nhận điện tử trang trọng.',
         },
       ];
 
       const cardW = 510;
-      const cardH = 128;
+      const cardH = 136;
       const startX = 76;
-      const startY = 1162;
+      const startY = 1156;
       const gapX = 28;
-      const gapY = 24;
+      const gapY = 22;
 
       features.forEach((f, idx) => {
         const col = idx % 2;
@@ -299,48 +299,64 @@ export default function LuxuryQRPosterStudio({
         const cx = startX + col * (cardW + gapX);
         const cy = startY + row * (cardH + gapY);
 
-        ctx.fillStyle = 'rgba(15, 33, 72, 0.92)';
+        // Nền thẻ trắng ngà sang trọng, đổ bóng nhẹ
+        ctx.fillStyle = '#ffffff';
         roundRect(cx, cy, cardW, cardH, 20);
         ctx.fill();
-        ctx.lineWidth = 2;
-        ctx.strokeStyle = 'rgba(247, 215, 116, 0.45)';
+        ctx.lineWidth = 2.5;
+        ctx.strokeStyle = '#f59e0b';
         ctx.stroke();
 
         ctx.textAlign = 'left';
-        ctx.fillStyle = '#fde047';
+        ctx.fillStyle = '#991b1b';
         ctx.font = '900 21px Arial, sans-serif';
-        ctx.fillText(`✦ ${f.title}`, cx + 24, cy + 46);
+        ctx.fillText(`★ ${f.title}`, cx + 22, cy + 40);
 
-        ctx.fillStyle = '#e2e8f0';
-        ctx.font = '500 18px Arial, sans-serif';
-        ctx.fillText(f.desc, cx + 24, cy + 88, cardW - 44);
+        // Mô tả chia 2 dòng để hiển thị trọn vẹn, không bị tràn
+        ctx.fillStyle = '#334155';
+        ctx.font = '500 17px Arial, sans-serif';
+        
+        const words = f.desc.split(' ');
+        let l1 = '';
+        let l2 = '';
+        for (const w of words) {
+          if ((l1 + ' ' + w).length <= 48) {
+            l1 = l1 ? l1 + ' ' + w : w;
+          } else {
+            l2 = l2 ? l2 + ' ' + w : w;
+          }
+        }
+        ctx.fillText(l1, cx + 22, cy + 74, cardW - 44);
+        if (l2) {
+          ctx.fillText(l2, cx + 22, cy + 102, cardW - 44);
+        }
       });
 
-      // 9. Footer Đường dây nóng trực ban 24/24h
-      const footY = 1476;
+      // 9. Footer Đường dây nóng trực ban 24/24h (Tươi sáng, rực rỡ)
+      const footY = 1482;
       const footGrad = ctx.createLinearGradient(76, footY, W - 76, footY + 185);
-      footGrad.addColorStop(0, '#881313');
-      footGrad.addColorStop(0.5, '#b91c1c');
-      footGrad.addColorStop(1, '#7f1d1d');
+      footGrad.addColorStop(0, '#991b1b');
+      footGrad.addColorStop(0.5, '#dc2626');
+      footGrad.addColorStop(1, '#991b1b');
       ctx.fillStyle = footGrad;
-      roundRect(76, footY, W - 152, 188, 24);
+      roundRect(76, footY, W - 152, 185, 24);
       ctx.fill();
-      ctx.lineWidth = 3;
-      ctx.strokeStyle = goldGrad;
+      ctx.lineWidth = 3.5;
+      ctx.strokeStyle = '#facc15';
       ctx.stroke();
 
       ctx.textAlign = 'center';
-      ctx.fillStyle = '#fde047';
+      ctx.fillStyle = '#fef08a';
       ctx.font = 'bold 22px Arial, sans-serif';
-      ctx.fillText('ĐƯỜNG DÂY NÓNG TRỰC BAN TIẾP DÂN & TỐ GIÁC TỘI PHẠM (24/24H)', W / 2, footY + 52);
+      ctx.fillText('ĐƯỜNG DÂY NÓNG TRỰC BAN TIẾP DÂN & TỐ GIÁC TỘI PHẠM (24/24H)', W / 2, footY + 50);
 
       ctx.fillStyle = '#ffffff';
       ctx.font = '900 54px Arial, sans-serif';
-      ctx.fillText('📞 02213.815.999', W / 2, footY + 118);
+      ctx.fillText('📞 02213.815.999', W / 2, footY + 116);
 
-      ctx.fillStyle = '#fef08a';
+      ctx.fillStyle = '#fef3c7';
       ctx.font = '600 21px Arial, sans-serif';
-      ctx.fillText('📍 Trụ sở: Thôn Nho Lâm, xã Đức Hợp, tỉnh Hưng Yên', W / 2, footY + 162);
+      ctx.fillText('📍 Trụ sở: Thôn Nho Lâm, xã Đức Hợp, tỉnh Hưng Yên', W / 2, footY + 158);
 
       // Xuất file PNG chất lượng cao
       const pngUrl = canvas.toDataURL('image/png', 1.0);
@@ -508,15 +524,15 @@ export default function LuxuryQRPosterStudio({
       {/* BẢN XEM TRƯỚC POSTER LUXURY HIỆN ĐẠI - SANG TRỌNG - CHUẨN CÔNG AN XÃ */}
       {/* ===================================================================== */}
       <div className="max-w-3xl mx-auto">
-        <div className="relative rounded-[36px] p-3 sm:p-5 bg-gradient-to-b from-[#070e22] via-[#0e1c3f] to-[#070e22] shadow-[0_25px_70px_rgba(7,14,34,0.65)] border-4 border-[#e5b84b] overflow-hidden print:shadow-none print:m-0">
+        <div className="relative rounded-[36px] p-3 sm:p-5 bg-gradient-to-b from-[#FFFDF8] via-[#FFFBF2] to-[#FFF8EA] shadow-[0_20px_60px_rgba(212,155,39,0.22)] border-4 border-[#d49b27] overflow-hidden print:shadow-none print:m-0">
           {/* Viền chỉ vàng kim bên trong */}
-          <div className="relative rounded-[28px] border-2 border-[#f7d774]/45 overflow-hidden">
-            {/* Họa tiết ánh sáng nền sang trọng */}
-            <div className="absolute -top-24 -left-24 w-72 h-72 bg-red-600/20 rounded-full blur-3xl pointer-events-none" />
-            <div className="absolute -bottom-24 -right-24 w-72 h-72 bg-amber-500/20 rounded-full blur-3xl pointer-events-none" />
+          <div className="relative rounded-[28px] border-2 border-[#f59e0b]/40 overflow-hidden bg-white/70">
+            {/* Họa tiết ánh sáng nền sang trọng tươi sáng */}
+            <div className="absolute -top-24 -left-24 w-72 h-72 bg-red-400/10 rounded-full blur-3xl pointer-events-none" />
+            <div className="absolute -bottom-24 -right-24 w-72 h-72 bg-amber-400/15 rounded-full blur-3xl pointer-events-none" />
 
-            {/* HEADER ĐỎ NHUNG VIỀN VÀNG KIM */}
-            <div className="relative bg-gradient-to-r from-[#7f1111] via-[#b91c1c] to-[#7f1111] text-white text-center px-6 py-8 sm:py-10 border-b-4 border-[#f7d774]">
+            {/* HEADER ĐỎ CỜ VIỀN VÀNG KIM RỰC RỠ */}
+            <div className="relative bg-gradient-to-r from-[#991b1b] via-[#dc2626] to-[#991b1b] text-white text-center px-6 py-8 sm:py-10 border-b-4 border-[#facc15] shadow-md">
               <div className="w-24 h-24 rounded-full bg-white p-1.5 flex items-center justify-center mx-auto mb-3.5 shadow-[0_0_30px_rgba(250,204,21,0.55)] border-4 border-[#fde047]">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
@@ -529,30 +545,30 @@ export default function LuxuryQRPosterStudio({
                 />
               </div>
 
-              <p className="text-xs sm:text-sm font-black tracking-[0.25em] uppercase text-[#fde047]">
+              <p className="text-xs sm:text-sm font-black tracking-[0.25em] uppercase text-[#fef08a]">
                 CÔNG AN TỈNH HƯNG YÊN
               </p>
               <h3 className="text-2xl sm:text-4xl font-black tracking-wider uppercase mt-1 text-white drop-shadow">
                 CÔNG AN XÃ ĐỨC HỢP
               </h3>
 
-              <div className="inline-flex items-center space-x-2 bg-gradient-to-r from-[#f7d774] via-[#eab308] to-[#f7d774] text-red-950 font-black px-5 py-1.5 rounded-full text-[11px] sm:text-xs uppercase tracking-widest mt-4 shadow-lg">
+              <div className="inline-flex items-center space-x-2 bg-gradient-to-r from-[#fef08a] via-[#facc15] to-[#fef08a] text-red-950 font-black px-5 py-1.5 rounded-full text-[11px] sm:text-xs uppercase tracking-widest mt-4 shadow-md border border-amber-400">
                 <ShieldCheck className="w-4 h-4 text-red-900" />
                 <span>ĐỀ ÁN 06/CP • CHUYỂN ĐỔI SỐ PHỤC VỤ NHÂN DÂN</span>
               </div>
             </div>
 
-            {/* THÂN POSTER */}
+            {/* THÂN POSTER NỀN SÁNG TRANG NHÃ */}
             <div className="px-6 py-8 sm:px-12 sm:py-10 text-center relative z-10">
-              <h4 className="text-base sm:text-2xl font-black text-[#fde047] uppercase tracking-wide leading-snug mb-2">
+              <h4 className="text-base sm:text-2xl font-black text-[#881337] uppercase tracking-wide leading-snug mb-2">
                 {posterSubtitle}
               </h4>
-              <p className="text-xs sm:text-sm text-slate-300 font-medium mb-8 max-w-xl mx-auto">
-                Mở Camera điện thoại hoặc ứng dụng <strong className="text-white">Zalo</strong> quét mã QR bên dưới để truy cập ngay hệ thống hướng dẫn thủ tục & hỏi đáp Trợ lý AI
+              <p className="text-xs sm:text-sm text-slate-600 font-semibold mb-8 max-w-xl mx-auto leading-relaxed">
+                Mở Camera điện thoại hoặc ứng dụng <strong className="text-red-700 font-black">Zalo</strong> quét mã QR bên dưới để tra cứu thủ tục, hỏi đáp pháp luật và nhận cảnh báo an toàn số:
               </p>
 
               {/* BỆ ĐẶT MÃ QR LUXURY TRUNG TÂM */}
-              <div className="relative inline-block p-5 sm:p-7 bg-white rounded-[32px] border-[5px] border-[#e5b84b] shadow-[0_0_50px_rgba(245,197,66,0.28)] mb-6">
+              <div className="relative inline-block p-5 sm:p-7 bg-white rounded-[32px] border-[5px] border-[#d49b27] shadow-[0_10px_40px_rgba(212,155,39,0.25)] mb-6">
                 {/* 4 Góc trang trí mạ vàng */}
                 <span className="absolute top-2.5 left-2.5 w-5 h-5 border-t-4 border-l-4 border-red-700 rounded-tl-lg" />
                 <span className="absolute top-2.5 right-2.5 w-5 h-5 border-t-4 border-r-4 border-red-700 rounded-tr-lg" />
@@ -596,80 +612,80 @@ export default function LuxuryQRPosterStudio({
               </div>
 
               {/* PILL HIỂN THỊ ĐƯỜNG LINK ĐANG MÃ HÓA */}
-              <div className="max-w-xl mx-auto mb-8 px-4 py-2.5 rounded-full bg-white/10 border border-[#f7d774]/40 text-[#fde047] text-xs sm:text-sm font-mono truncate shadow-inner">
+              <div className="max-w-xl mx-auto mb-8 px-4 py-2.5 rounded-full bg-amber-100/70 border border-amber-300 text-police-950 text-xs sm:text-sm font-mono font-bold truncate shadow-xs">
                 🔗 {appUrl || 'https://conganxaduchop.hungyen.gov.vn'}
               </div>
 
-              {/* 4 TRỤ CỘT TIỆN ÍCH SỐ SANG TRỌNG */}
+              {/* 4 TRỤ CỘT TIỆN ÍCH SỐ - NỀN SÁNG VIỀN VÀNG RỰC RỠ */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5 text-left max-w-2xl mx-auto mb-8">
-                <div className="bg-[#0f2148]/90 p-4 rounded-2xl border border-[#f7d774]/35 flex items-start space-x-3 shadow-md">
-                  <CheckCircle2 className="w-5 h-5 text-[#fde047] shrink-0 mt-0.5" />
+                <div className="bg-white p-4.5 rounded-2xl border-2 border-amber-300 hover:border-amber-400 flex items-start space-x-3.5 shadow-sm transition hover:shadow-md">
+                  <CheckCircle2 className="w-5 h-5 text-red-600 shrink-0 mt-0.5" />
                   <div>
-                    <div className="text-xs font-black text-[#fde047] uppercase tracking-wider">
-                      HƯỚNG DẪN THỦ TỤC & VNeID
+                    <div className="text-xs sm:text-sm font-black text-red-800 uppercase tracking-wider">
+                      HƯỚNG DẪN DỊCH VỤ CÔNG & VNeID
                     </div>
-                    <p className="text-xs text-slate-200 mt-1 leading-relaxed">
-                      Tra cứu thành phần hồ sơ cư trú, căn cước, đăng ký xe chi tiết từng bước.
+                    <p className="text-xs text-slate-700 mt-1 leading-relaxed font-medium">
+                      Tra cứu quy trình chuẩn làm Căn cước, đăng ký thường trú, tạm trú, bấm biển số xe máy tại xã và kích hoạt VNeID Mức 2 dễ dàng.
                     </p>
                   </div>
                 </div>
 
-                <div className="bg-[#0f2148]/90 p-4 rounded-2xl border border-[#f7d774]/35 flex items-start space-x-3 shadow-md">
-                  <CheckCircle2 className="w-5 h-5 text-[#fde047] shrink-0 mt-0.5" />
+                <div className="bg-white p-4.5 rounded-2xl border-2 border-amber-300 hover:border-amber-400 flex items-start space-x-3.5 shadow-sm transition hover:shadow-md">
+                  <CheckCircle2 className="w-5 h-5 text-red-600 shrink-0 mt-0.5" />
                   <div>
-                    <div className="text-xs font-black text-[#fde047] uppercase tracking-wider">
-                      TRỢ LÝ AI PHÁP LUẬT 24/7
+                    <div className="text-xs sm:text-sm font-black text-red-800 uppercase tracking-wider">
+                      TRỢ LÝ SỐ PHÁP LUẬT 24/7
                     </div>
-                    <p className="text-xs text-slate-200 mt-1 leading-relaxed">
-                      Giải đáp 5.000+ câu hỏi pháp luật chính xác, tận tình suốt ngày đêm.
+                    <p className="text-xs text-slate-700 mt-1 leading-relaxed font-medium">
+                      Trợ lý AI giải đáp tức thì 5.000+ câu hỏi pháp luật, trích dẫn chính xác quy định của Bộ Công an mọi lúc, mọi nơi hoàn toàn miễn phí.
                     </p>
                   </div>
                 </div>
 
-                <div className="bg-[#0f2148]/90 p-4 rounded-2xl border border-[#f7d774]/35 flex items-start space-x-3 shadow-md">
-                  <CheckCircle2 className="w-5 h-5 text-[#fde047] shrink-0 mt-0.5" />
+                <div className="bg-white p-4.5 rounded-2xl border-2 border-amber-300 hover:border-amber-400 flex items-start space-x-3.5 shadow-sm transition hover:shadow-md">
+                  <CheckCircle2 className="w-5 h-5 text-red-600 shrink-0 mt-0.5" />
                   <div>
-                    <div className="text-xs font-black text-[#fde047] uppercase tracking-wider">
-                      CẢNH BÁO LỪA ĐẢO MẠNG
+                    <div className="text-xs sm:text-sm font-black text-red-800 uppercase tracking-wider">
+                      CẢNH BÁO LỪA ĐẢO & AN TOÀN SỐ
                     </div>
-                    <p className="text-xs text-slate-200 mt-1 leading-relaxed">
-                      Nhận diện sớm các thủ đoạn giả danh Công an, Viện kiểm sát, tuyển CTV.
+                    <p className="text-xs text-slate-700 mt-1 leading-relaxed font-medium">
+                      Nhận diện sớm 22 thủ đoạn lừa đảo qua mạng tinh vi (app giả mạo, gọi điện đe dọa, việc làm ảo) và bí kíp &quot;4 Không - 2 Phải&quot; giữ an toàn tài sản.
                     </p>
                   </div>
                 </div>
 
-                <div className="bg-[#0f2148]/90 p-4 rounded-2xl border border-[#f7d774]/35 flex items-start space-x-3 shadow-md">
-                  <CheckCircle2 className="w-5 h-5 text-[#fde047] shrink-0 mt-0.5" />
+                <div className="bg-white p-4.5 rounded-2xl border-2 border-amber-300 hover:border-amber-400 flex items-start space-x-3.5 shadow-sm transition hover:shadow-md">
+                  <CheckCircle2 className="w-5 h-5 text-red-600 shrink-0 mt-0.5" />
                   <div>
-                    <div className="text-xs font-black text-[#fde047] uppercase tracking-wider">
-                      TRẮC NGHIỆM CÔNG DÂN SỐ
+                    <div className="text-xs sm:text-sm font-black text-red-800 uppercase tracking-wider">
+                      TRẮC NGHIỆM PHÁP LUẬT CÔNG DÂN SỐ
                     </div>
-                    <p className="text-xs text-slate-200 mt-1 leading-relaxed">
-                      500 câu hỏi tình huống thực tế — Cấp chứng nhận Công dân số cảnh giác.
+                    <p className="text-xs text-slate-700 mt-1 leading-relaxed font-medium">
+                      Luyện tập 500+ tình huống thực tế thường gặp trong đời sống; đạt kết quả xuất sắc được cấp ngay Giấy chứng nhận điện tử trang trọng.
                     </p>
                   </div>
                 </div>
               </div>
 
               {/* BANNER ĐƯỜNG DÂY NÓNG TRỰC BAN KHẨN CẤP 24/24H */}
-              <div className="bg-gradient-to-r from-[#881313] via-[#b91c1c] to-[#7f1d1d] border-2 border-[#f7d774] rounded-2xl p-5 flex flex-col sm:flex-row items-center justify-between gap-4 text-white shadow-xl">
+              <div className="bg-gradient-to-r from-[#991b1b] via-[#dc2626] to-[#991b1b] border-2 border-[#facc15] rounded-2xl p-5 flex flex-col sm:flex-row items-center justify-between gap-4 text-white shadow-xl">
                 <div className="flex items-center space-x-3.5 text-left">
-                  <div className="w-12 h-12 rounded-full bg-[#fde047] text-red-950 flex items-center justify-center shrink-0 shadow-lg">
+                  <div className="w-12 h-12 rounded-full bg-[#fef08a] text-red-950 flex items-center justify-center shrink-0 shadow-lg">
                     <Phone className="w-6 h-6 animate-pulse" />
                   </div>
                   <div>
-                    <div className="text-[11px] font-extrabold uppercase tracking-wider text-[#fde047]">
+                    <div className="text-[11px] font-extrabold uppercase tracking-wider text-[#fef08a]">
                       Đường dây nóng Trực ban & Tố giác tội phạm (24/24h)
                     </div>
-                    <div className="text-xl sm:text-2xl font-black text-white tracking-wide">
+                    <div className="text-xl sm:text-2xl font-black text-yellow-300 tracking-wide drop-shadow">
                       02213.815.999
                     </div>
                   </div>
                 </div>
 
-                <div className="text-left sm:text-right text-xs text-yellow-100 flex items-center space-x-1.5 shrink-0 bg-black/25 px-3.5 py-2 rounded-xl border border-white/15">
-                  <MapPin className="w-4 h-4 text-[#fde047] shrink-0" />
-                  <span>Trụ sở: Thôn Nho Lâm, xã Đức Hợp, tỉnh Hưng Yên</span>
+                <div className="text-left sm:text-right text-xs text-amber-100 flex items-center space-x-1.5 shrink-0 bg-black/25 px-3.5 py-2 rounded-xl border border-white/20">
+                  <MapPin className="w-4 h-4 text-[#fef08a] shrink-0" />
+                  <span>Trụ sở: Thôn Nho Lâm, xã Đức Hợp, Hưng Yên</span>
                 </div>
               </div>
             </div>

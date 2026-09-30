@@ -1,6 +1,7 @@
 import { BACKEND_URL } from '@/lib/config';
 import { NextRequest, NextResponse } from 'next/server';
 import { MOCK_ARTICLES } from '@/lib/mockData';
+import { supabaseDelete, supabaseUpsert } from '@/lib/supabaseClient';
 
 export async function PUT(
   req: NextRequest,
@@ -42,9 +43,11 @@ export async function PUT(
       ...body,
       id
     };
+    await supabaseUpsert('articles', MOCK_ARTICLES[idx]);
     return NextResponse.json(MOCK_ARTICLES[idx]);
   }
 
+  await supabaseUpsert('articles', { ...body, id });
   return NextResponse.json({ detail: 'Đã cập nhật bài viết.' });
 }
 
@@ -76,5 +79,6 @@ export async function DELETE(
     MOCK_ARTICLES.splice(idx, 1);
   }
 
+  await supabaseDelete('articles', id);
   return NextResponse.json({ success: true, message: 'Đã xóa bài viết thành công.' });
 }

@@ -1,6 +1,7 @@
 import { BACKEND_URL } from '@/lib/config';
 import { NextRequest, NextResponse } from 'next/server';
 import { MOCK_PROCEDURES } from '@/lib/mockData';
+import { supabaseUpsert } from '@/lib/supabaseClient';
 
 export async function POST(req: NextRequest) {
   let body: any = {};
@@ -32,7 +33,7 @@ export async function POST(req: NextRequest) {
     // Backend offline
   }
 
-  // Fallback: Thêm vào danh sách MOCK_PROCEDURES
+  // Fallback: Thêm vào danh sách MOCK_PROCEDURES và lưu Supabase
   const newProc = {
     id: body.id || `proc_${Date.now()}`,
     category_id: body.category_id || 'cu_tru',
@@ -52,6 +53,12 @@ export async function POST(req: NextRequest) {
     views_count: 0,
     forms: []
   };
+
+  try {
+    await supabaseUpsert('procedures', [newProc]);
+  } catch (err) {
+    console.warn('[procedures POST] Supabase error:', err);
+  }
 
   MOCK_PROCEDURES.unshift(newProc);
   return NextResponse.json(newProc);

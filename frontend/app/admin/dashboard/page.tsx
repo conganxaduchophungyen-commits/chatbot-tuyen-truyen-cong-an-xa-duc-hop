@@ -610,9 +610,9 @@ export default function AdminDashboardPage() {
 
       {/* Main Content Area */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex-1 w-full space-y-6">
-        {/* STATS CARDS */}
+        {/* STATS OVERVIEW CARDS (4 THẺ CÂN ĐỐI) */}
         {stats && (
-          <div className="grid grid-cols-2 lg:grid-cols-5 gap-4">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
             <div className="bg-white p-5 rounded-3xl border border-slate-200 shadow-sm flex items-center space-x-4">
               <div className="w-12 h-12 rounded-2xl bg-blue-100 text-police-700 flex items-center justify-center shrink-0">
                 <FileText className="w-6 h-6" />
@@ -650,16 +650,6 @@ export default function AdminDashboardPage() {
               <div>
                 <div className="text-2xl font-black text-slate-900">{knowledgeList.length.toLocaleString('vi-VN')}</div>
                 <div className="text-xs font-semibold text-slate-500">Câu hỏi Kho tri thức AI</div>
-              </div>
-            </div>
-
-            <div className="bg-white p-5 rounded-3xl border border-slate-200 shadow-sm flex items-center space-x-4">
-              <div className="w-12 h-12 rounded-2xl bg-emerald-100 text-emerald-600 flex items-center justify-center shrink-0">
-                <Sparkles className="w-6 h-6" />
-              </div>
-              <div>
-                <div className="text-2xl font-black text-slate-900">{stats.satisfaction_rate ? `${stats.satisfaction_rate}%` : '100%'}</div>
-                <div className="text-xs font-semibold text-slate-500">Tỷ lệ giải đáp tự động</div>
               </div>
             </div>
           </div>

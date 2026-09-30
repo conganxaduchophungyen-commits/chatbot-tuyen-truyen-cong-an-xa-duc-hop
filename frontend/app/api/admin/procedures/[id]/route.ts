@@ -1,6 +1,7 @@
 import { BACKEND_URL } from '@/lib/config';
 import { NextRequest, NextResponse } from 'next/server';
 import { MOCK_PROCEDURES } from '@/lib/mockData';
+import { supabaseUpsert, supabaseDelete } from '@/lib/supabaseClient';
 
 export async function PUT(
   req: NextRequest,
@@ -36,6 +37,13 @@ export async function PUT(
     // Backend offline
   }
 
+  // Cập nhật Supabase
+  try {
+    await supabaseUpsert('procedures', [{ ...body, id }]);
+  } catch (err) {
+    console.warn('[procedures PUT] Supabase error:', err);
+  }
+
   // Cập nhật trong MOCK_PROCEDURES
   const idx = MOCK_PROCEDURES.findIndex(p => p.id === id);
   if (idx !== -1) {
@@ -47,7 +55,7 @@ export async function PUT(
     return NextResponse.json(MOCK_PROCEDURES[idx]);
   }
 
-  return NextResponse.json({ detail: 'Đã cập nhật thủ tục.' });
+  return NextResponse.json({ detail: 'Đã cập nhật thủ tục.', ...body, id });
 }
 
 export async function DELETE(
@@ -71,6 +79,13 @@ export async function DELETE(
     }
   } catch (e) {
     // Backend offline
+  }
+
+  // Xóa khỏi Supabase
+  try {
+    await supabaseDelete('procedures', id);
+  } catch (err) {
+    console.warn('[procedures DELETE] Supabase error:', err);
   }
 
   const idx = MOCK_PROCEDURES.findIndex(p => p.id === id);

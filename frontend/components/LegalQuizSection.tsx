@@ -92,10 +92,10 @@ export default function LegalQuizSection() {
         return {
           badgeTitle: 'AN TOÀN MẠNG & PHÒNG CHỐNG LỪA ĐẢO',
           mainTitle: 'TÌM HIỂU KỸ NĂNG PHÒNG CHỐNG LỪA ĐẢO QUA MẠNG',
-          subTitle: 'NẮM VỮNG 22 THỦ ĐOẠN LỪA ĐẢO & BỘ QUY TẮC "4 KHÔNG - 2 PHẢI"',
+          subTitle: '22 THỦ ĐOẠN LỪA ĐẢO • BỘ QUY TẮC "4 KHÔNG - 2 PHẢI"',
           topicName: 'Phòng chống lừa đảo công nghệ cao',
           examLevel: total >= 30 ? 'Chuyên sâu (30 câu)' : total >= 20 ? 'Nâng cao (20 câu)' : 'Tiêu chuẩn (10 câu)',
-          description: `Đã hoàn thành xuất sắc bài kiểm tra trắc nghiệm chuyên đề Phòng chống tội phạm công nghệ cao với điểm số ${score}/${total} câu đúng (${rate}%), nắm vững 22 thủ đoạn lừa đảo qua mạng, thành thạo kỹ năng tự bảo vệ tài sản và bảo mật thông tin cá nhân.`,
+          description: `Đã hoàn thành xuất sắc bài kiểm tra trắc nghiệm kỹ năng phòng chống tội phạm công nghệ cao, nắm vững 22 thủ đoạn lừa đảo qua mạng và kỹ năng tự bảo vệ an toàn số.`,
           honorTitle: 'CÔNG DÂN AN TOÀN TRÊN KHÔNG GIAN MẠNG'
         };
       case 'cu_tru':
@@ -105,38 +105,38 @@ export default function LegalQuizSection() {
           subTitle: 'LUẬT CƯ TRÚ 2020 • LUẬT CĂN CƯỚC 2023 • ĐỀ ÁN 06/CP',
           topicName: 'Cư trú & Căn cước VNeID',
           examLevel: total >= 30 ? 'Chuyên sâu (30 câu)' : total >= 20 ? 'Nâng cao (20 câu)' : 'Tiêu chuẩn (10 câu)',
-          description: `Đã hoàn thành xuất sắc bài kiểm tra trắc nghiệm chuyên đề Cư trú & Căn cước với điểm số ${score}/${total} câu đúng (${rate}%), nắm vững quy định về Sổ hộ khẩu điện tử, kích hoạt VNeID Mức 2 và thực hiện dịch vụ công trực tuyến.`,
+          description: `Đã hoàn thành xuất sắc bài kiểm tra trắc nghiệm pháp luật về Cư trú, Căn cước công dân và thành thạo sử dụng dịch vụ công trực tuyến trên VNeID.`,
           honorTitle: 'CÔNG DÂN SỐ AM HIỂU THỦ TỤC HÀNH CHÍNH'
         };
       case 'giao_thong':
         return {
           badgeTitle: 'TRẬT TỰ AN TOÀN GIAO THÔNG',
           mainTitle: 'TÌM HIỂU PHÁP LUẬT TRẬT TỰ AN TOÀN GIAO THÔNG',
-          subTitle: 'QUY TẮC ĐIỀU KHIỂN PHƯƠNG TIỆN • BẤM BIỂN SỐ XE ĐỊNH DANH CẤP XÃ',
+          subTitle: 'QUY TẮC ĐIỀU KHIỂN PHƯƠNG TIỆN • ĐĂNG KÝ XE ĐỊNH DANH CẤP XÃ',
           topicName: 'Giao thông & Đăng ký xe',
           examLevel: total >= 30 ? 'Chuyên sâu (30 câu)' : total >= 20 ? 'Nâng cao (20 câu)' : 'Tiêu chuẩn (10 câu)',
-          description: `Đã hoàn thành xuất sắc bài kiểm tra trắc nghiệm Luật Trật tự ATGT đường bộ với điểm số ${score}/${total} câu đúng (${rate}%), nắm vững hệ thống biển báo, quy định trừ điểm GPLX 2025 và quy trình đăng ký xe định danh tại Công an xã.`,
+          description: `Đã hoàn thành xuất sắc bài kiểm tra trắc nghiệm pháp luật Trật tự an toàn giao thông đường bộ và quy trình đăng ký xe định danh tại Công an xã.`,
           honorTitle: 'CÔNG DÂN GƯƠNG MẪU CHẤP HÀNH ATGT'
         };
       case 'pccc':
         return {
           badgeTitle: 'PHÒNG CHÁY CHỮA CHÁY & CỨU NẠN CỨU HỘ',
           mainTitle: 'TÌM HIỂU KIẾN THỨC VÀ KỸ NĂNG PCCC GIA ĐÌNH',
-          subTitle: 'CHỈ THỊ 01/CT-TTG • KỸ NĂNG THOÁT NẠN THOÁT HIỂM & XỬ LÝ KHÍ GAS',
+          subTitle: 'KỸ NĂNG THOÁT HIỂM • XỬ LÝ KHÍ GAS • AN TOÀN ĐIỆN',
           topicName: 'PCCC & Cứu nạn cứu hộ',
           examLevel: total >= 30 ? 'Chuyên sâu (30 câu)' : total >= 20 ? 'Nâng cao (20 câu)' : 'Tiêu chuẩn (10 câu)',
-          description: `Đã hoàn thành xuất sắc bài kiểm tra trắc nghiệm kỹ năng PCCC & CNCH với điểm số ${score}/${total} câu đúng (${rate}%), thành thạo thao tác sử dụng bình chữa cháy gia đình, kỹ năng thoát hiểm khi xảy ra sự cố cháy nổ và rò rỉ khí gas.`,
+          description: `Đã hoàn thành xuất sắc bài kiểm tra trắc nghiệm kỹ năng PCCC gia đình, thành thạo kỹ năng thoát nạn và xử lý tình huống cháy nổ khẩn cấp.`,
           honorTitle: 'CÔNG DÂN VÌ PHONG TRÀO TOÀN DÂN PCCC'
         };
       case 'all':
       default:
         return {
           badgeTitle: 'PHÁP LUẬT TỔNG HỢP & DỊCH VỤ CÔNG',
-          mainTitle: 'HOÀN THÀNH TÌM HIỂU KIẾN THỨC PHÁP LUẬT TỔNG HỢP',
-          subTitle: 'NẮM VỮNG 4 CHUYÊN ĐỀ: CƯ TRÚ, GIAO THÔNG, PCCC & PHÒNG CHỐNG LỪA ĐẢO',
+          mainTitle: 'KIẾN THỨC PHÁP LUẬT TỔNG HỢP & KỸ NĂNG SỐ',
+          subTitle: 'CƯ TRÚ • GIAO THÔNG • PCCC • PHÒNG CHỐNG LỪA ĐẢO',
           topicName: 'Pháp luật tổng hợp & Dịch vụ công',
-          examLevel: total >= 50 ? 'Bộ đề tổng lực toàn diện (50 câu)' : total >= 30 ? 'Bộ đề chuyên sâu (30 câu)' : total >= 20 ? 'Bộ đề nâng cao (20 câu)' : 'Bộ đề tiêu chuẩn (10 câu)',
-          description: `Đã hoàn thành xuất sắc bài kiểm tra trắc nghiệm kiến thức pháp luật tổng hợp với điểm số ${score}/${total} câu đúng (${rate}%), nắm vững các quy định pháp luật thiết thực về cư trú, an toàn giao thông, kỹ năng PCCC và phòng chống tội phạm công nghệ cao trên địa bàn xã Đức Hợp.`,
+          examLevel: total >= 50 ? 'Toàn diện (50 câu)' : total >= 30 ? 'Chuyên sâu (30 câu)' : total >= 20 ? 'Nâng cao (20 câu)' : 'Tiêu chuẩn (10 câu)',
+          description: `Đã hoàn thành xuất sắc bài kiểm tra trắc nghiệm kiến thức pháp luật tổng hợp, kỹ năng phòng chống tội phạm và thực hiện dịch vụ công số.`,
           honorTitle: 'CÔNG DÂN GƯƠNG MẪU VỀ PHÁP LUẬT & ANTT'
         };
     }
@@ -225,42 +225,26 @@ export default function LegalQuizSection() {
       ctx.lineTo(1100, 550);
       ctx.stroke();
 
-      // Description lines
-      ctx.font = 'normal 18px "Times New Roman", Arial, sans-serif';
-      ctx.fillStyle = '#333333';
+      // Description lines (Ngắn gọn, súc tích, chuẩn mực)
+      ctx.font = 'normal 21px "Times New Roman", Times, serif';
+      ctx.fillStyle = '#2d3748';
       ctx.textAlign = 'center';
 
-      const line1 = `Đã hoàn thành xuất sắc bài kiểm tra trắc nghiệm pháp luật chuyên đề: ${cert.topicName}.`;
-      const line2 = `Kết quả đạt được: ${score}/${total} câu đúng (${Math.round(passRate * 100)}%) - Phân hạng: ${cert.examLevel}.`;
+      ctx.fillText(`Đã hoàn thành xuất sắc chương trình trắc nghiệm kiến thức: ${cert.topicName}`, 800, 605);
       
-      const words = cert.description.split(' ');
-      let currentLine = '';
-      const descLines = [line1, line2, ''];
-      for (const w of words) {
-        if ((currentLine + ' ' + w).length > 85) {
-          descLines.push(currentLine);
-          currentLine = w;
-        } else {
-          currentLine = currentLine ? currentLine + ' ' + w : w;
-        }
-      }
-      if (currentLine) descLines.push(currentLine);
-
-      let startY = 600;
-      for (const dl of descLines) {
-        if (dl) ctx.fillText(dl, 800, startY);
-        startY += 28;
-      }
+      ctx.font = 'bold 20px "Times New Roman", Times, serif';
+      ctx.fillStyle = '#8B0000';
+      ctx.fillText(`Kết quả: ${score}/${total} câu đúng (${Math.round(passRate * 100)}%)   •   Phân hạng: ${cert.examLevel}`, 800, 642);
 
       // Honor badge
       ctx.fillStyle = '#FEF3C7';
       ctx.strokeStyle = '#D97706';
       ctx.lineWidth = 1.5;
       ctx.beginPath();
-      ctx.roundRect(450, startY + 15, 700, 42, [21]);
+      ctx.roundRect(430, 672, 740, 44, [22]);
       ctx.fill();
       ctx.stroke();
-      drawCenterText(`DANH HIỆU: ${cert.honorTitle}`, startY + 42, 'bold 16px "Times New Roman", Arial, sans-serif', '#92400E');
+      drawCenterText(`★ ${cert.honorTitle} ★`, 701, 'bold 18px "Times New Roman", Arial, sans-serif', '#92400E');
 
       // Footer divider
       ctx.strokeStyle = '#E2E8F0';
