@@ -22,7 +22,9 @@ import {
   ChevronDown,
   Layers,
   Check,
-  Scale
+  Scale,
+  Download,
+  FileCheck
 } from 'lucide-react';
 
 export default function LegalQuizSection() {
@@ -32,6 +34,7 @@ export default function LegalQuizSection() {
   const [userAnswers, setUserAnswers] = useState<Record<string, 'A' | 'B' | 'C' | 'D'>>({});
   const [showResults, setShowResults] = useState(false);
   const [citizenName, setCitizenName] = useState('');
+  const [isDownloading, setIsDownloading] = useState(false);
   const [totalBankCount, setTotalBankCount] = useState<number>(400);
 
   // Khởi tạo đề thi ngẫu nhiên khi component mount hoặc khi đổi tiêu chí
@@ -81,6 +84,270 @@ export default function LegalQuizSection() {
   const answeredCount = Object.keys(userAnswers).length;
   const passRate = total > 0 ? (score / total) : 0;
   const isPassed = passRate >= 0.7; // Đạt từ 70% trở lên
+
+  const getCertDetails = () => {
+    const rate = total > 0 ? Math.round((score / total) * 100) : 0;
+    switch (selectedCategory) {
+      case 'lua_dao':
+        return {
+          badgeTitle: 'AN TOÀN MẠNG & PHÒNG CHỐNG LỪA ĐẢO',
+          mainTitle: 'TÌM HIỂU KỸ NĂNG PHÒNG CHỐNG LỪA ĐẢO QUA MẠNG',
+          subTitle: 'NẮM VỮNG 22 THỦ ĐOẠN LỪA ĐẢO & BỘ QUY TẮC "4 KHÔNG - 2 PHẢI"',
+          topicName: 'Phòng chống lừa đảo công nghệ cao',
+          examLevel: total >= 30 ? 'Chuyên sâu (30 câu)' : total >= 20 ? 'Nâng cao (20 câu)' : 'Tiêu chuẩn (10 câu)',
+          description: `Đã hoàn thành xuất sắc bài kiểm tra trắc nghiệm chuyên đề Phòng chống tội phạm công nghệ cao với điểm số ${score}/${total} câu đúng (${rate}%), nắm vững 22 thủ đoạn lừa đảo qua mạng, thành thạo kỹ năng tự bảo vệ tài sản và bảo mật thông tin cá nhân.`,
+          honorTitle: 'CÔNG DÂN AN TOÀN TRÊN KHÔNG GIAN MẠNG'
+        };
+      case 'cu_tru':
+        return {
+          badgeTitle: 'CƯ TRÚ & CĂN CƯỚC VNEID',
+          mainTitle: 'TÌM HIỂU PHÁP LUẬT CƯ TRÚ & CĂN CƯỚC ĐIỆN TỬ VNEID',
+          subTitle: 'LUẬT CƯ TRÚ 2020 • LUẬT CĂN CƯỚC 2023 • ĐỀ ÁN 06/CP',
+          topicName: 'Cư trú & Căn cước VNeID',
+          examLevel: total >= 30 ? 'Chuyên sâu (30 câu)' : total >= 20 ? 'Nâng cao (20 câu)' : 'Tiêu chuẩn (10 câu)',
+          description: `Đã hoàn thành xuất sắc bài kiểm tra trắc nghiệm chuyên đề Cư trú & Căn cước với điểm số ${score}/${total} câu đúng (${rate}%), nắm vững quy định về Sổ hộ khẩu điện tử, kích hoạt VNeID Mức 2 và thực hiện dịch vụ công trực tuyến.`,
+          honorTitle: 'CÔNG DÂN SỐ AM HIỂU THỦ TỤC HÀNH CHÍNH'
+        };
+      case 'giao_thong':
+        return {
+          badgeTitle: 'TRẬT TỰ AN TOÀN GIAO THÔNG',
+          mainTitle: 'TÌM HIỂU PHÁP LUẬT TRẬT TỰ AN TOÀN GIAO THÔNG',
+          subTitle: 'QUY TẮC ĐIỀU KHIỂN PHƯƠNG TIỆN • BẤM BIỂN SỐ XE ĐỊNH DANH CẤP XÃ',
+          topicName: 'Giao thông & Đăng ký xe',
+          examLevel: total >= 30 ? 'Chuyên sâu (30 câu)' : total >= 20 ? 'Nâng cao (20 câu)' : 'Tiêu chuẩn (10 câu)',
+          description: `Đã hoàn thành xuất sắc bài kiểm tra trắc nghiệm Luật Trật tự ATGT đường bộ với điểm số ${score}/${total} câu đúng (${rate}%), nắm vững hệ thống biển báo, quy định trừ điểm GPLX 2025 và quy trình đăng ký xe định danh tại Công an xã.`,
+          honorTitle: 'CÔNG DÂN GƯƠNG MẪU CHẤP HÀNH ATGT'
+        };
+      case 'pccc':
+        return {
+          badgeTitle: 'PHÒNG CHÁY CHỮA CHÁY & CỨU NẠN CỨU HỘ',
+          mainTitle: 'TÌM HIỂU KIẾN THỨC VÀ KỸ NĂNG PCCC GIA ĐÌNH',
+          subTitle: 'CHỈ THỊ 01/CT-TTG • KỸ NĂNG THOÁT NẠN THOÁT HIỂM & XỬ LÝ KHÍ GAS',
+          topicName: 'PCCC & Cứu nạn cứu hộ',
+          examLevel: total >= 30 ? 'Chuyên sâu (30 câu)' : total >= 20 ? 'Nâng cao (20 câu)' : 'Tiêu chuẩn (10 câu)',
+          description: `Đã hoàn thành xuất sắc bài kiểm tra trắc nghiệm kỹ năng PCCC & CNCH với điểm số ${score}/${total} câu đúng (${rate}%), thành thạo thao tác sử dụng bình chữa cháy gia đình, kỹ năng thoát hiểm khi xảy ra sự cố cháy nổ và rò rỉ khí gas.`,
+          honorTitle: 'CÔNG DÂN VÌ PHONG TRÀO TOÀN DÂN PCCC'
+        };
+      case 'all':
+      default:
+        return {
+          badgeTitle: 'PHÁP LUẬT TỔNG HỢP & DỊCH VỤ CÔNG',
+          mainTitle: 'HOÀN THÀNH TÌM HIỂU KIẾN THỨC PHÁP LUẬT TỔNG HỢP',
+          subTitle: 'NẮM VỮNG 4 CHUYÊN ĐỀ: CƯ TRÚ, GIAO THÔNG, PCCC & PHÒNG CHỐNG LỪA ĐẢO',
+          topicName: 'Pháp luật tổng hợp & Dịch vụ công',
+          examLevel: total >= 50 ? 'Bộ đề tổng lực toàn diện (50 câu)' : total >= 30 ? 'Bộ đề chuyên sâu (30 câu)' : total >= 20 ? 'Bộ đề nâng cao (20 câu)' : 'Bộ đề tiêu chuẩn (10 câu)',
+          description: `Đã hoàn thành xuất sắc bài kiểm tra trắc nghiệm kiến thức pháp luật tổng hợp với điểm số ${score}/${total} câu đúng (${rate}%), nắm vững các quy định pháp luật thiết thực về cư trú, an toàn giao thông, kỹ năng PCCC và phòng chống tội phạm công nghệ cao trên địa bàn xã Đức Hợp.`,
+          honorTitle: 'CÔNG DÂN GƯƠNG MẪU VỀ PHÁP LUẬT & ANTT'
+        };
+    }
+  };
+
+  const certInfo = getCertDetails();
+
+  const handleDownloadCertificatePNG = () => {
+    setIsDownloading(true);
+    const cert = getCertDetails();
+    const canvas = document.createElement('canvas');
+    canvas.width = 1600;
+    canvas.height = 1130;
+    const ctx = canvas.getContext('2d');
+    if (!ctx) {
+      setIsDownloading(false);
+      return;
+    }
+
+    // 1. Background
+    const bgGrad = ctx.createLinearGradient(0, 0, 0, 1130);
+    bgGrad.addColorStop(0, '#FFFDF8');
+    bgGrad.addColorStop(0.5, '#FFFFFF');
+    bgGrad.addColorStop(1, '#FFF8EA');
+    ctx.fillStyle = bgGrad;
+    ctx.fillRect(0, 0, 1600, 1130);
+
+    // 2. Borders
+    ctx.strokeStyle = '#8B0000';
+    ctx.lineWidth = 14;
+    ctx.strokeRect(30, 30, 1540, 1070);
+
+    ctx.strokeStyle = '#C59B27';
+    ctx.lineWidth = 3;
+    ctx.strokeRect(48, 48, 1504, 1034);
+
+    ctx.strokeStyle = '#E0BF62';
+    ctx.lineWidth = 1.5;
+    ctx.strokeRect(55, 55, 1490, 1020);
+
+    // Corner ornaments
+    const drawCorner = (x: number, y: number) => {
+      ctx.fillStyle = '#8B0000';
+      ctx.fillRect(x - 12, y - 12, 24, 24);
+      ctx.strokeStyle = '#C59B27';
+      ctx.lineWidth = 2;
+      ctx.strokeRect(x - 14, y - 14, 28, 28);
+    };
+    drawCorner(55, 55);
+    drawCorner(1545, 55);
+    drawCorner(55, 1075);
+    drawCorner(1545, 1075);
+
+    const drawCenterText = (text: string, y: number, font: string, color: string) => {
+      ctx.font = font;
+      ctx.fillStyle = color;
+      ctx.textAlign = 'center';
+      ctx.fillText(text, 800, y);
+    };
+
+    // Header Quoc hieu
+    drawCenterText('CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM', 105, 'bold 22px "Times New Roman", Times, serif', '#8B0000');
+    drawCenterText('Độc lập - Tự do - Hạnh phúc', 135, 'bold italic 19px "Times New Roman", Times, serif', '#333333');
+    drawCenterText('------------------ o0o ------------------', 156, 'normal 15px "Times New Roman", Times, serif', '#C59B27');
+
+    const renderContents = () => {
+      // Unit name
+      drawCenterText('CÔNG AN TỈNH HƯNG YÊN • CÔNG AN XÃ ĐỨC HỢP', 285, 'bold 20px "Times New Roman", Arial, sans-serif', '#8B0000');
+
+      // Title
+      drawCenterText('CHỨNG NHẬN HOÀN THÀNH', 345, 'bold 44px "Times New Roman", Arial, serif', '#8B0000');
+      drawCenterText(cert.mainTitle, 390, 'bold 25px "Times New Roman", Arial, sans-serif', '#996515');
+      drawCenterText(cert.subTitle, 425, 'bold 15px "Times New Roman", Arial, sans-serif', '#555555');
+
+      // Recipient
+      drawCenterText('Chứng nhận trao tặng công dân:', 480, 'italic 18px "Times New Roman", Arial, sans-serif', '#666666');
+
+      const nameToPrint = citizenName.trim() || 'CÔNG DÂN TIÊU BIỂU';
+      drawCenterText(nameToPrint.toUpperCase(), 535, 'bold 38px "Times New Roman", Arial, sans-serif', '#0B2447');
+
+      // Underline
+      ctx.strokeStyle = '#C59B27';
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      ctx.moveTo(500, 550);
+      ctx.lineTo(1100, 550);
+      ctx.stroke();
+
+      // Description lines
+      ctx.font = 'normal 18px "Times New Roman", Arial, sans-serif';
+      ctx.fillStyle = '#333333';
+      ctx.textAlign = 'center';
+
+      const line1 = `Đã hoàn thành xuất sắc bài kiểm tra trắc nghiệm pháp luật chuyên đề: ${cert.topicName}.`;
+      const line2 = `Kết quả đạt được: ${score}/${total} câu đúng (${Math.round(passRate * 100)}%) - Phân hạng: ${cert.examLevel}.`;
+      
+      const words = cert.description.split(' ');
+      let currentLine = '';
+      const descLines = [line1, line2, ''];
+      for (const w of words) {
+        if ((currentLine + ' ' + w).length > 85) {
+          descLines.push(currentLine);
+          currentLine = w;
+        } else {
+          currentLine = currentLine ? currentLine + ' ' + w : w;
+        }
+      }
+      if (currentLine) descLines.push(currentLine);
+
+      let startY = 600;
+      for (const dl of descLines) {
+        if (dl) ctx.fillText(dl, 800, startY);
+        startY += 28;
+      }
+
+      // Honor badge
+      ctx.fillStyle = '#FEF3C7';
+      ctx.strokeStyle = '#D97706';
+      ctx.lineWidth = 1.5;
+      ctx.beginPath();
+      ctx.roundRect(450, startY + 15, 700, 42, [21]);
+      ctx.fill();
+      ctx.stroke();
+      drawCenterText(`DANH HIỆU: ${cert.honorTitle}`, startY + 42, 'bold 16px "Times New Roman", Arial, sans-serif', '#92400E');
+
+      // Footer divider
+      ctx.strokeStyle = '#E2E8F0';
+      ctx.lineWidth = 1.5;
+      ctx.beginPath();
+      ctx.moveTo(100, 930);
+      ctx.lineTo(1500, 930);
+      ctx.stroke();
+
+      // Footer Left
+      ctx.textAlign = 'left';
+      ctx.fillStyle = '#475569';
+      ctx.font = 'normal 15px "Times New Roman", Arial, sans-serif';
+      const certCode = `CAX-DH-${total}Q-${Date.now().toString().slice(-6)}`;
+      ctx.fillText(`Mã số chứng nhận: ${certCode}`, 100, 965);
+      ctx.fillText(`Số lượng câu hỏi: ${total} câu | Điểm số đạt được: ${score}/${total} (${Math.round(passRate * 100)}%)`, 100, 995);
+      ctx.fillText(`Cơ quan xác thực: Trợ lý số Công an xã Đức Hợp`, 100, 1025);
+      ctx.fillText(`Trụ sở: Thôn Nho Lâm, xã Đức Hợp, huyện Kim Động, tỉnh Hưng Yên`, 100, 1055);
+
+      // Footer Right
+      ctx.textAlign = 'center';
+      const now = new Date();
+      ctx.fillText(`Đức Hợp, ngày ${now.getDate()} tháng ${now.getMonth() + 1} năm ${now.getFullYear()}`, 1300, 965);
+      ctx.font = 'bold 16px "Times New Roman", Arial, sans-serif';
+      ctx.fillStyle = '#8B0000';
+      ctx.fillText('TM. CÔNG AN XÃ ĐỨC HỢP', 1300, 995);
+      ctx.font = 'bold 14px "Times New Roman", Arial, sans-serif';
+      ctx.fillText('TRỢ LÝ SỐ PHÁP LUẬT & DỊCH VỤ CÔNG', 1300, 1020);
+
+      // Red Seal
+      ctx.save();
+      ctx.translate(1300, 1030);
+      ctx.strokeStyle = '#DC2626';
+      ctx.lineWidth = 2.5;
+      ctx.beginPath();
+      ctx.arc(0, 0, 36, 0, Math.PI * 2);
+      ctx.stroke();
+
+      ctx.strokeStyle = '#DC2626';
+      ctx.lineWidth = 1;
+      ctx.beginPath();
+      ctx.arc(0, 0, 31, 0, Math.PI * 2);
+      ctx.stroke();
+
+      ctx.font = 'bold 8px Arial, sans-serif';
+      ctx.fillStyle = '#DC2626';
+      ctx.textAlign = 'center';
+      ctx.fillText('★ CÔNG AN XÃ ĐỨC HỢP ★', 0, -10);
+      ctx.font = 'bold 10px Arial, sans-serif';
+      ctx.fillText('ĐÃ XÁC THỰC', 0, 4);
+      ctx.font = 'bold 8px Arial, sans-serif';
+      ctx.fillText('TRỢ LÝ SỐ AI', 0, 16);
+      ctx.restore();
+
+      // Download
+      const dataUrl = canvas.toDataURL('image/png');
+      const a = document.createElement('a');
+      a.href = dataUrl;
+      const cleanFileName = citizenName.trim()
+        ? citizenName.trim().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-zA-Z0-9]/g, '_')
+        : 'Cong_Dan';
+      a.download = `Giay_Chung_Nhan_${cleanFileName}_CAX_Duc_Hop.png`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      setIsDownloading(false);
+    };
+
+    const logo = new Image();
+    logo.crossOrigin = 'anonymous';
+    logo.src = '/logo-cong-an.png';
+    logo.onload = () => {
+      ctx.drawImage(logo, 800 - 45, 175, 90, 90);
+      renderContents();
+    };
+    logo.onerror = () => {
+      ctx.fillStyle = '#B22222';
+      ctx.beginPath();
+      ctx.arc(800, 220, 38, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.fillStyle = '#F59E0B';
+      ctx.font = 'bold 36px serif';
+      ctx.textAlign = 'center';
+      ctx.fillText('★', 800, 233);
+      renderContents();
+    };
+  };
 
   const handlePrintCertificate = () => {
     window.print();
@@ -251,45 +518,122 @@ export default function LegalQuizSection() {
 
           {/* CHỨNG NHẬN ĐIỆN TỬ NẾU ĐẠT TỪ 70% TRỞ LÊN */}
           {isPassed && (
-            <div className="bg-white rounded-3xl p-6 sm:p-8 border-4 border-double border-amber-400 shadow-md relative overflow-hidden">
-              <div className="text-center space-y-3 max-w-xl mx-auto">
-                <div className="w-16 h-16 mx-auto rounded-full bg-red-50 p-1 border-2 border-red-500 shadow-xs">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src="/logo-cong-an.png" alt="Logo Công an" width={64} height={64} style={{ width: '64px', height: '64px', objectFit: 'contain' }} className="w-full h-full object-contain" />
-                </div>
-                <div className="text-xs uppercase font-black tracking-widest text-red-700">
-                  CÔNG AN TỈNH HƯNG YÊN • CÔNG AN XÃ ĐỨC HỢP
-                </div>
-                <h4 className="text-xl sm:text-2xl font-black text-amber-900 uppercase tracking-wide">
-                  CHỨNG NHẬN HOÀN THÀNH TÌM HIỂU PHÁP LUẬT
-                </h4>
-                <p className="text-xs font-bold text-slate-600 uppercase tracking-wider">
-                  NẮM VỮNG QUY ĐỊNH PHÁP LUẬT & KỸ NĂNG PHÒNG CHỐNG TỘI PHẠM MẠNG
-                </p>
+            <div className="space-y-4">
+              <div 
+                id="printable-certificate"
+                className="bg-gradient-to-b from-[#FFFDF9] via-white to-[#FFFDF9] rounded-3xl p-6 sm:p-10 lg:p-12 border-4 border-double border-amber-500 shadow-2xl relative overflow-hidden max-w-4xl mx-auto"
+              >
+                {/* Viền hoa văn góc sang trọng */}
+                <div className="absolute top-2 left-2 w-8 h-8 border-t-2 border-l-2 border-amber-600 rounded-tl-lg pointer-events-none" />
+                <div className="absolute top-2 right-2 w-8 h-8 border-t-2 border-r-2 border-amber-600 rounded-tr-lg pointer-events-none" />
+                <div className="absolute bottom-2 left-2 w-8 h-8 border-b-2 border-l-2 border-amber-600 rounded-bl-lg pointer-events-none" />
+                <div className="absolute bottom-2 right-2 w-8 h-8 border-b-2 border-r-2 border-amber-600 rounded-br-lg pointer-events-none" />
 
-                <div className="my-4 pt-2">
-                  <p className="text-xs text-slate-500 mb-1">Chứng nhận cấp cho công dân:</p>
-                  <input
-                    type="text"
-                    placeholder="Nhập họ và tên của bạn để in chứng nhận..."
-                    value={citizenName}
-                    onChange={(e) => setCitizenName(e.target.value)}
-                    className="text-center font-black text-base sm:text-xl text-police-900 border-b-2 border-dashed border-amber-500 bg-transparent focus:outline-none w-full max-w-md pb-1 placeholder:font-normal placeholder:text-slate-400"
-                  />
-                </div>
+                <div className="text-center space-y-4 max-w-2xl mx-auto">
+                  {/* Quốc hiệu & Tiêu ngữ */}
+                  <div className="space-y-1">
+                    <div className="text-xs sm:text-sm font-black uppercase text-red-800 tracking-wider">
+                      CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+                    </div>
+                    <div className="text-xs sm:text-sm font-bold italic text-slate-700">
+                      Độc lập - Tự do - Hạnh phúc
+                    </div>
+                    <div className="text-xs text-amber-600 font-semibold tracking-widest">
+                      ------------------ o0o ------------------
+                    </div>
+                  </div>
 
-                <p className="text-xs text-slate-600 leading-relaxed italic max-w-lg mx-auto">
-                  Đã hoàn thành xuất sắc bài kiểm tra trắc nghiệm với điểm số <strong>{score}/{total}</strong> ({Math.round(passRate * 100)}%), nắm vững quy định cư trú, PCCC, đăng ký xe máy và có kỹ năng nhận diện tinh tường các thủ đoạn lừa đảo trên không gian mạng.
-                </p>
+                  {/* Logo Công an */}
+                  <div className="w-16 h-16 sm:w-20 sm:h-20 mx-auto rounded-full bg-red-50 p-1.5 border-2 border-red-500 shadow-md">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img src="/logo-cong-an.png" alt="Logo Công an" width={80} height={80} style={{ width: '80px', height: '80px', objectFit: 'contain' }} className="w-full h-full object-contain" />
+                  </div>
 
-                <div className="pt-4 flex flex-col sm:flex-row items-center justify-between text-xs border-t border-slate-200 gap-2">
-                  <span className="text-slate-500">
-                    Xác nhận bởi: <strong>Trợ lý số Công an xã Đức Hợp</strong>
-                  </span>
-                  <span className="text-slate-500">
-                    Trụ sở: <strong>Thôn Nho Lâm, xã Đức Hợp, tỉnh Hưng Yên</strong>
-                  </span>
+                  <div className="text-xs sm:text-sm uppercase font-black tracking-widest text-red-700">
+                    CÔNG AN TỈNH HƯNG YÊN • CÔNG AN XÃ ĐỨC HỢP
+                  </div>
+
+                  {/* Tiêu đề chính chứng nhận - KHÔNG BAO GIỜ BỊ RỚT 1 CHỮ */}
+                  <div className="space-y-1.5 py-1">
+                    <h3 className="text-2xl sm:text-3xl lg:text-4xl font-black text-amber-950 uppercase tracking-wide">
+                      CHỨNG NHẬN HOÀN THÀNH
+                    </h3>
+                    <div className="text-sm sm:text-lg lg:text-xl font-black text-amber-800 uppercase tracking-wide px-2 leading-relaxed">
+                      {certInfo.mainTitle}
+                    </div>
+                    <div className="text-[11px] sm:text-xs font-bold text-slate-600 uppercase tracking-wider px-4">
+                      {certInfo.subTitle}
+                    </div>
+                  </div>
+
+                  {/* Nhập tên công dân */}
+                  <div className="my-4 pt-2">
+                    <p className="text-xs sm:text-sm font-medium text-slate-500 mb-1">
+                      Chứng nhận trân trọng trao tặng công dân:
+                    </p>
+                    <input
+                      type="text"
+                      placeholder="Nhập họ và tên để in giấy chứng nhận (VD: Nguyễn Văn Tiệp)..."
+                      value={citizenName}
+                      onChange={(e) => setCitizenName(e.target.value)}
+                      className="text-center font-black text-lg sm:text-2xl lg:text-3xl text-police-950 border-b-2 border-dashed border-amber-500 bg-amber-50/40 hover:bg-amber-50/70 focus:bg-white rounded-lg px-3 py-1.5 focus:outline-none w-full max-w-md pb-1 placeholder:font-normal placeholder:text-slate-400 placeholder:text-sm transition"
+                    />
+                  </div>
+
+                  {/* Mô tả chi tiết nội dung đạt được theo chuyên đề & số câu */}
+                  <div className="space-y-2 bg-amber-50/60 p-4 rounded-2xl border border-amber-200/80">
+                    <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-medium">
+                      {certInfo.description}
+                    </p>
+                    <div className="flex flex-wrap items-center justify-center gap-2 pt-1 text-[11px] sm:text-xs font-bold">
+                      <span className="bg-white px-3 py-1 rounded-full border border-amber-300 text-amber-900 shadow-2xs">
+                        🎯 Kết quả: <strong>{score}/{total} câu đúng</strong> ({Math.round(passRate * 100)}%)
+                      </span>
+                      <span className="bg-white px-3 py-1 rounded-full border border-amber-300 text-amber-900 shadow-2xs">
+                        📑 Phân hạng: <strong>{certInfo.examLevel}</strong>
+                      </span>
+                      <span className="bg-amber-600 text-white px-3 py-1 rounded-full shadow-2xs">
+                        🏆 {certInfo.honorTitle}
+                      </span>
+                    </div>
+                  </div>
+
+                  {/* Chân trang chứng thực */}
+                  <div className="pt-4 flex flex-col sm:flex-row items-center justify-between text-[11px] sm:text-xs border-t border-amber-200/80 gap-3 text-slate-500">
+                    <div className="text-left space-y-0.5">
+                      <div>Mã xác thực: <strong className="text-slate-700">CAX-DH-{total}Q-{Math.abs(score * 31 + total * 17)}</strong></div>
+                      <div>Cơ quan cấp: <strong>Công an xã Đức Hợp</strong></div>
+                      <div>Trụ sở: <strong>Thôn Nho Lâm, xã Đức Hợp, Hưng Yên</strong></div>
+                    </div>
+                    <div className="text-right space-y-0.5">
+                      <div>Đức Hợp, ngày {new Date().getDate()} tháng {new Date().getMonth() + 1} năm {new Date().getFullYear()}</div>
+                      <div className="font-bold text-police-900 uppercase">TM. CÔNG AN XÃ ĐỨC HỢP</div>
+                      <div className="text-amber-800 font-semibold text-[10px]">TRỢ LÝ SỐ PHÁP LUẬT & DỊCH VỤ CÔNG (AI)</div>
+                    </div>
+                  </div>
                 </div>
+              </div>
+
+              {/* THANH CÔNG CỤ TẢI VỀ & IN ẤN CHO CÔNG DÂN */}
+              <div className="flex flex-wrap items-center justify-center gap-3 pt-2">
+                <button
+                  type="button"
+                  onClick={handleDownloadCertificatePNG}
+                  disabled={isDownloading}
+                  className="px-6 py-3 rounded-2xl bg-gradient-to-r from-red-600 to-amber-600 hover:from-red-700 hover:to-amber-700 text-white font-black text-xs sm:text-sm shadow-lg hover:shadow-xl transition flex items-center space-x-2 active:scale-95 disabled:opacity-50 cursor-pointer"
+                >
+                  <Download className="w-4 h-4 sm:w-5 sm:h-5 text-yellow-300" />
+                  <span>{isDownloading ? 'Đang tạo ảnh...' : 'Tải về Giấy chứng nhận (Ảnh PNG chất lượng cao)'}</span>
+                </button>
+
+                <button
+                  type="button"
+                  onClick={handlePrintCertificate}
+                  className="px-5 py-3 rounded-2xl bg-white border-2 border-slate-300 hover:bg-slate-50 text-slate-800 font-bold text-xs sm:text-sm shadow-sm transition flex items-center space-x-2 active:scale-95 cursor-pointer"
+                >
+                  <Printer className="w-4 h-4 text-slate-600" />
+                  <span>In / Lưu file PDF</span>
+                </button>
               </div>
             </div>
           )}
