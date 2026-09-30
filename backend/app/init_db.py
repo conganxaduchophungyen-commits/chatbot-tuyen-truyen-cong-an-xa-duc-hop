@@ -1,4 +1,9 @@
+import sys
 import asyncio
+
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8')
+
 from app.core.database import engine, Base, AsyncSessionLocal
 from app.core.security import get_password_hash
 from app.models import Category, Procedure, ProcedureForm, Article, AdminUser
