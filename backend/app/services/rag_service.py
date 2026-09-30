@@ -1,7 +1,7 @@
 import re
 from typing import List, Dict, Any, Optional, Tuple
 from sqlalchemy.ext.asyncio import AsyncSession
-from sqlalchemy import select, or_
+from sqlalchemy import select, or_, String, cast
 from app.core.config import settings
 from app.models import Procedure, Article, ChatLog
 
@@ -97,7 +97,7 @@ class RAGService:
                     pattern = f"%{kw}%"
                     conditions.append(Procedure.title.ilike(pattern))
                     conditions.append(Procedure.target_audience.ilike(pattern))
-                    conditions.append(Procedure.required_documents.cast(str).ilike(pattern))
+                    conditions.append(cast(Procedure.required_documents, String).ilike(pattern))
                 stmt_proc = stmt_proc.where(or_(*conditions))
                 
             res_proc = await db.execute(stmt_proc.limit(3))

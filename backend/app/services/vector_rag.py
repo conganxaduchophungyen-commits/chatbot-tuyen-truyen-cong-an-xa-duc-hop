@@ -20,7 +20,19 @@ _embed_model = None
 # Đường dẫn tuyệt đối
 BASE_DIR = Path(__file__).parent.parent.parent  # backend/
 DATA_DIR = BASE_DIR / "app" / "data"
-CHROMA_DIR = BASE_DIR / "chroma_db"
+
+# Đường dẫn lưu vector database: dùng thư mục ASCII an toàn để tránh lỗi Rust HNSW với ký tự tiếng Việt (Lập trình)
+def _get_chroma_dir() -> Path:
+    env_dir = os.environ.get("CHROMA_DIR")
+    if env_dir:
+        return Path(env_dir)
+    try:
+        str(BASE_DIR).encode('ascii')
+        return BASE_DIR / "chroma_db"
+    except UnicodeEncodeError:
+        return Path.home() / ".chatbot_rag_chroma"
+
+CHROMA_DIR = _get_chroma_dir()
 LEGAL_DATA_PATH = DATA_DIR / "bo-cau-hoi-phap-luat-5000.jsonl"
 
 COLLECTION_LEGAL = "legal_qa"       # 5000 câu hỏi pháp luật
