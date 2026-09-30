@@ -25,6 +25,21 @@ async def lifespan(app: FastAPI):
         print("-> Khởi tạo Database thành công.")
     except Exception as e:
         print(f"Lỗi khởi tạo Database: {e}")
+
+    # Khởi tạo Vector RAG Index (ChromaDB + Sentence-Transformers)
+    try:
+        import asyncio
+        from app.services.vector_rag import is_index_ready, build_index
+        if not is_index_ready():
+            print("-> Đang build Vector RAG Index lần đầu (có thể mất 2-5 phút)...")
+            loop = asyncio.get_event_loop()
+            await loop.run_in_executor(None, lambda: build_index(force_rebuild=False))
+            print("-> Vector RAG Index đã sẵn sàng!")
+        else:
+            print("-> Vector RAG Index đã tồn tại, bỏ qua rebuild.")
+    except Exception as e:
+        print(f"[RAG] Cảnh báo: Không thể khởi tạo Vector RAG: {e}")
+        print("[RAG] Chatbot sẽ dùng Fallback Engine thay thế.")
     yield
 
 app = FastAPI(
