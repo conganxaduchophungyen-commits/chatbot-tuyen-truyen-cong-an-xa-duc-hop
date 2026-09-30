@@ -227,6 +227,25 @@ class RAGService:
         cat = (category or "").lower()
         greeting = "Kính chào Quý công dân! Trợ lý số Công an xã Đức Hợp xin giải đáp câu hỏi của Bác/Anh/Chị như sau:\n\n"
 
+        # -1. Chống ảo giác pháp luật (Trap cases / Anti-hallucination)
+        if "điều 999" in q or "dieu 999" in q or ("bộ luật dân sự" in q and ("phạt tù" in q or "đi tù" in q)):
+            return (
+                f"{greeting}⚠️ **CẢNH BÁO THÔNG TIN PHÁP LÝ KHÔNG TỒN TẠI (CHỐNG ẢO GIÁC PHÁP LUẬT):**\n\n"
+                "1. **Không tồn tại 'Điều 999 Bộ luật Dân sự 2015':** Bộ luật Dân sự số 91/2015/QH13 hiện hành chỉ có tổng cộng **689 Điều** (từ Điều 1 đến Điều 689). Hoàn toàn không có Điều 999.\n"
+                "2. **Bộ luật Dân sự KHÔNG quy định hình phạt tù:** Hình phạt tù là chế tài hình sự chỉ được quy định duy nhất trong **Bộ luật Hình sự số 100/2015/QH13 (sửa đổi, bổ sung năm 2017)**.\n"
+                "3. **Hành vi chậm sang tên xe máy:** Chỉ bị xử phạt vi phạm hành chính bằng tiền theo Nghị định 168/2024/NĐ-CP và Thông tư 24/2023/TT-BCA, hoàn toàn không bị xử lý hình sự phạt tù."
+            )
+
+        if "cmnd 9 số" in q or "chứng minh nhân dân 9 số" in q or ("sổ hộ khẩu giấy" in q and ("còn dùng" in q or "còn giá trị" in q or "cấp lại" in q)):
+            return (
+                f"{greeting}⚖️ **THÔNG BÁO HIỆU LỰC VĂN BẢN PHÁP LUẬT (CẬP NHẬT MỐC 2026):**\n\n"
+                "1. **Chứng minh nhân dân (CMND 9 số và 12 số) đã HẾT HIỆU LỰC 100%:**\n"
+                "- Theo **khoản 2 Điều 46 Luật Căn cước số 26/2023/QH15**, toàn bộ Chứng minh nhân dân đã hết giá trị sử dụng kể từ sau ngày **31/12/2024**.\n"
+                "- Quý công dân bắt buộc phải thực hiện thủ tục cấp **Thẻ Căn cước mới** để thực hiện các giao dịch ngân hàng, đất đai, công chứng và thủ tục hành chính.\n\n"
+                "2. **Sổ hộ khẩu giấy và Sổ tạm trú giấy đã HẾT HIỆU LỰC từ 01/01/2023:**\n"
+                "- Theo **khoản 3 Điều 38 Luật Cư trú 2020**, Sổ hộ khẩu giấy không còn giá trị sử dụng. Mọi thông tin cư trú được khai thác trực tiếp trên **ứng dụng VNeID Mức 2** hoặc Cơ sở dữ liệu quốc gia về dân cư."
+            )
+
         # 0. Bạo lực gia đình & Cứu trợ khẩn cấp (Ưu tiên số 1)
         if any(k in q for k in ["bị chồng đánh", "chồng đánh", "vợ đánh", "đánh đập", "bạo lực gia đình", "bị đánh", "hành hung", "ngược đãi", "cấm tiếp xúc", "bạo hành", "đánh người"]):
             return (
@@ -243,7 +262,7 @@ class RAGService:
             )
 
         # 0.1. Mất giấy tờ tùy thân, rơi ví
-        if any(k in q for k in ["mất giấy tờ", "mất ví", "rơi ví", "rơi giấy tờ", "thất lạc giấy tờ", "mất hết giấy tờ", "làm lại giấy tờ", "cấp lại giấy tờ", "mất cccd", "mất bằng lái", "mất đăng ký xe"]):
+        if any(k in q for k in ["mất giấy tờ", "mất ví", "rơi ví", "rơi giấy tờ", "thất lạc giấy tờ", "mất hết giấy tờ", "làm lại giấy tờ", "cấp lại giấy tờ", "mất cccd", "mất căn cước", "mất thẻ căn cước", "làm lại căn cước", "làm lại thẻ căn cước", "làm lại cccd", "mất bằng lái", "mất đăng ký xe"]):
             return (
                 f"{greeting}📋 **HƯỚNG DẪN XỬ LÝ KHI BỊ MẤT GIẤY TỜ TÙY THÂN — CÔNG AN XÃ ĐỨC HỢP:**\n\n"
                 "🔒 **1. BẢO VỆ TÀI KHOẢN VÀ DỮ LIỆU CÁ NHÂN:**\n"
@@ -273,8 +292,22 @@ class RAGService:
                 "Cán bộ chiến sĩ Công an xã Đức Hợp luôn sẵn sàng tiếp đón và phục vụ nhân dân!"
             )
 
-        # 2. Xử lý khi bị lừa đảo (tiền bạc, chuyển nhầm tiền, OTP)
-        if any(k in q for k in ["bị lừa", "lấy lại tiền", "mất tiền", "chuyển tiền", "hack", "khóa thẻ"]):
+        # 2. Cảnh báo lừa đảo & Xử lý khi bị lừa (Giả danh công an, VNeID giả mạo, chiếm đoạt tiền)
+        if any(k in q for k in ["lừa đảo", "lừa", "giả danh", "xưng là công an", "xưng cán bộ", "gọi điện xưng", "công an gọi điện", "cập nhật vneid", "cài vneid", "cài app", "bị lừa", "lấy lại tiền", "mất tiền", "chuyển tiền", "hack", "khóa thẻ", "ctv shopee", "việc nhẹ lương cao", "deepfake", "mã otp", "chiếm đoạt"]) or cat == "lừa đảo":
+            if any(k in q for k in ["công an", "cán bộ", "vneid", "định danh", "link lạ", "cài app"]):
+                return (
+                    f"{greeting}⚠️ **CẢNH BÁO: ĐÂY LÀ HÀNH VI LỪA ĐẢO GIẢ DANH CÔNG AN 100%!**\n\n"
+                    "Công an xã Đức Hợp trân trọng thông báo tới toàn thể bà con nhân dân:\n\n"
+                    "🚫 **1. NGUYÊN TẮC '3 KHÔNG' CỦA LỰC LƯỢNG CÔNG AN:**\n"
+                    "- Cơ quan Công an **KHÔNG BAO GIỜ** gọi điện thoại yêu cầu công dân cài đặt ứng dụng qua đường link lạ (.apk, web lạ).\n"
+                    "- **KHÔNG BAO GIỜ** yêu cầu công dân cung cấp mật khẩu, mã OTP ngân hàng hoặc chuyển tiền vào 'tài khoản tạm giữ'.\n"
+                    "- **KHÔNG BAO GIỜ** làm việc, lấy lời khai hoặc giải quyết vụ việc qua điện thoại hay gọi video Zalo.\n\n"
+                    "🏛️ **2. QUY TRÌNH KÍCH HOẠT VNeID MỨC 2 CHUẨN:**\n"
+                    "- Việc kích hoạt VNeID Mức 2 **BẮT BUỘC** phải do chính công dân trực tiếp đến Trụ sở Công an xã Đức Hợp (Thôn Nho Lâm) để thu nhận vân tay, ảnh khuôn mặt. Không một ai có thể làm thay hoặc kích hoạt từ xa qua điện thoại!\n\n"
+                    "📞 **3. BIỆN PHÁP XỬ LÝ NGAY:**\n"
+                    "- Cúp máy ngay lập tức, chặn số điện thoại đối tượng.\n"
+                    "- Gọi điện xác minh hoặc báo tin cho Trực ban Công an xã Đức Hợp (24/24h): **02213.815.999**."
+                )
             return (
                 f"{greeting}🚨 **4 BƯỚC KHẨN CẤP KHI PHÁT HIỆN BỊ LỪA ĐẢO QUA MẠNG:**\n\n"
                 "1️⃣ **Khóa tài khoản ngân hàng ngay lập tức:** Vào App ngân hàng bấm 'Khóa thẻ' hoặc gọi tổng đài ngân hàng yêu cầu phong tỏa tài khoản để ngăn kẻ gian tẩu tán tiền.\n"

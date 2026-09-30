@@ -3954,7 +3954,7 @@ const NATURAL_ALIASES: Array<{ keywords: string[]; subcategory: string }> = [
   { keywords: ['mat the can cuoc', 'mat the cccd', 'mat cccd', 'lam lai cccd', 'lam lai the can cuoc', 'roi the can cuoc', 'mat the can cuoc cong dan', 'bi mat the can cuoc', 'mat the can cuoc bi mat'], subcategory: 'cấp lại thẻ căn cước bị mất' },
   { keywords: ['doi bang lai', 'doi gplx', 'bang lai het han', 'gplx het han', 'doi bang lai xe may'], subcategory: 'đổi giấy phép lái xe' },
   { keywords: ['mat bang lai', 'mat gplx', 'roi bang lai', 'roi gplx', 'lam lai bang lai', 'lam lai gplx'], subcategory: 'cấp lại giấy phép lái xe bị mất' },
-  { keywords: ['mat dang ky xe', 'mat ca vet', 'lam lai dang ky xe', 'lam lai ca vet', 'roi ca vet', 'roi giay to xe'], subcategory: 'đăng ký xe và sang tên xe' },
+  { keywords: ['mat dang ky xe', 'mat ca vet', 'lam lai dang ky xe', 'lam lai ca vet', 'roi ca vet', 'roi giay to xe', 'dang ky xe', 'bam bien so', 'bam bien', 'bien so dinh danh', 'mua xe may', 'xe may moi', 'mua xe moi', 'cap bien so', 'bien so xe', 'bien so di theo', 'bien so suot doi', 'bien dinh danh', 'dang ky xe may', 'thu tuc dang ky xe'], subcategory: 'đăng ký xe và sang tên xe' },
   { keywords: ['trich luc khai sinh', 'xin lai giay khai sinh', 'mat giay khai sinh', 'ban sao khai sinh', 'trich luc ho tich'], subcategory: 'trích lục hộ tịch' },
   { keywords: ['phat nguoi', 'nop phat giao thong', 'tra cuu phat nguoi'], subcategory: 'tra cứu và nộp phạt giao thông' },
   { keywords: ['tai nan giao thong', 'va quet xe', 'dam xe'], subcategory: 'thủ tục khi xảy ra va chạm' },
@@ -3992,7 +3992,7 @@ export function detectIntentFromQuery(qNorm: string): string {
   if (qNorm.includes('chua co du thong tin hoac giay to')) return 'incomplete_application';
   if (qNorm.includes('o xa xa trung tam') || qNorm.includes('xa trung tam')) return 'rural_access';
   if (qNorm.includes('khong thong nhat ve') || qNorm.includes('de nghi co quan nao huong dan')) return 'dispute_resolution';
-  if (qNorm.includes('can chuan bi giay to gi')) return 'documents';
+  if (qNorm.includes('can chuan bi giay to gi') || qNorm.includes('can mang theo') || qNorm.includes('mang theo nhung gi') || qNorm.includes('ho so gom') || qNorm.includes('can mang gi')) return 'documents';
   if (qNorm.includes('moc thoi gian nao can luu y') || qNorm.includes('thoi han giai quyet') || qNorm.includes('bao lau')) return 'processing_time';
   if (qNorm.includes('bi sai hoac thay doi') || qNorm.includes('dinh chinh')) return 'correction';
   if (qNorm.includes('theo doi tien do the nao') || qNorm.includes('theo doi tien do')) return 'status_check';
@@ -4296,14 +4296,15 @@ export function queryLegalDatasetEngine(rawQuery: string): LegalDatasetAnswer | 
     }
   }
 
-  // 4. Flexible Token-overlap match against the 180 Subcategories (Solution 1: BM25/Semantic Token Weighting)
+  // 4. Flexible Token-overlap match against the 180 Subcategories (Filter out generic common words)
+  const GENERIC_COMMON_WORDS = new Set(['mua', 'ban', 'qua', 'mang', 'cho', 'lam', 've', 'moi', 'cac', 'nhung', 'theo', 'trong', 'ngoai', 'tien', 'khi', 'duoc']);
   let topScore = 0;
   let topMod: SubcategoryModule | null = null;
-  const qWords = qNorm.split(' ').filter(w => w.length > 2);
+  const qWords = qNorm.split(' ').filter(w => w.length > 2 && !GENERIC_COMMON_WORDS.has(w));
 
   for (const mod of SUBCATEGORY_MODULES) {
     const subNorm = removeDiacritics(mod.subcategory);
-    const subTokens = subNorm.split(' ').filter(w => w.length > 2);
+    const subTokens = subNorm.split(' ').filter(w => w.length > 2 && !GENERIC_COMMON_WORDS.has(w));
     if (subTokens.length === 0) continue;
 
     const matchedTokens = subTokens.filter(t => qNorm.includes(t));
@@ -4316,8 +4317,8 @@ export function queryLegalDatasetEngine(rawQuery: string): LegalDatasetAnswer | 
     const queryMatches = qWords.filter(w => subNorm.includes(w)).length;
     score += queryMatches * 5;
 
-    // Match if at least 2 tokens matched with >= 35% ratio, OR 3+ tokens matched
-    if (matchedTokens.length >= 2 && (ratio >= 0.35 || matchedTokens.length >= 3)) {
+    // Match if at least 2 significant tokens matched with >= 50% ratio, OR 3+ tokens matched
+    if (matchedTokens.length >= 2 && (ratio >= 0.5 || matchedTokens.length >= 3)) {
       if (score > topScore) {
         topScore = score;
         topMod = mod;
@@ -4325,7 +4326,7 @@ export function queryLegalDatasetEngine(rawQuery: string): LegalDatasetAnswer | 
     }
   }
 
-  if (topMod && topScore >= 18) {
+  if (topMod && topScore >= 20) {
     return formatModuleResponse(topMod, detectedIntent);
   }
 
