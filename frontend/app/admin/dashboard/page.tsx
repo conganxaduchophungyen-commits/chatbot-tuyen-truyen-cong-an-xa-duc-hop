@@ -1002,7 +1002,7 @@ export default function AdminDashboardPage() {
                   </label>
                   <input
                     type="text"
-                    placeholder="VD: Điều 25 Luật PCBLGĐ 2022; Điều 52 NĐ 144/2021..."
+                    placeholder="VD: Điều 25 Luật PCBLGĐ 2022; Nghị định 282/2025/NĐ-CP..."
                     value={legalBasisInput}
                     onChange={(e) => setLegalBasisInput(e.target.value)}
                     className="w-full px-3 py-2 border border-slate-200 rounded-xl text-xs focus:outline-none focus:ring-2 focus:ring-police-500"

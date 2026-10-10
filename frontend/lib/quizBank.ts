@@ -729,7 +729,7 @@ export const MASTER_QUESTIONS: DetailedQuizQuestion[] = [
       C: 'Sai lầm nguy hiểm: Nhờ người trên mạng là bẫy lừa đảo chiếm đoạt tài khoản định danh.',
       D: 'Sai: Trưởng thôn không có thẩm quyền và thiết bị kỹ thuật chuyên dụng để kích hoạt Mức 2.'
     },
-    legalBasis: 'Điều 14 Nghị định số 59/2022/NĐ-CP của Chính phủ.'
+    legalBasis: 'Nghị định số 69/2024/NĐ-CP và Luật Căn cước số 26/2023/QH15 (thay thế Nghị định 59/2022/NĐ-CP).'
   },
   {
     id: 'CT-08',
@@ -991,9 +991,9 @@ export const MASTER_QUESTIONS: DetailedQuizQuestion[] = [
       A: 'Chính xác! VNeID Mức 2 tích hợp đa dạng giấy tờ: CCCD, bằng lái xe, thẻ BHYT, đăng ký xe.',
       B: 'Sai: Giá trị sử dụng của VNeID Mức 2 rộng lớn trong toàn bộ các giao dịch công và tư.',
       C: 'Sai: VNeID là ứng dụng định danh, không phải ví điện tử chứa tiền mặt.',
-      D: 'Sai: Nghị định 59/2022/NĐ-CP công nhận giá trị pháp lý tương đương bản giấy của VNeID.'
+      D: 'Sai: Nghị định 69/2024/NĐ-CP và Luật Căn cước 2023 công nhận giá trị pháp lý tương đương bản giấy của thông tin trên VNeID.'
     },
-    legalBasis: 'Điều 13 Nghị định số 59/2022/NĐ-CP của Chính phủ.'
+    legalBasis: 'Nghị định số 69/2024/NĐ-CP của Chính phủ về định danh và xác thực điện tử (thay thế NĐ 59/2022/NĐ-CP).'
   },
   {
     id: 'CT-20',
@@ -1103,7 +1103,7 @@ export const MASTER_QUESTIONS: DetailedQuizQuestion[] = [
       C: 'Sai lầm: Làm lộ thêm thông tin cho kẻ gian trên mạng xã hội.',
       D: 'Sai lầm: Thẻ CCCD là giấy tờ tùy thân quan trọng, không được vứt bỏ.'
     },
-    legalBasis: 'Điều 19 Nghị định số 59/2022/NĐ-CP của Chính phủ.'
+    legalBasis: 'Nghị định số 69/2024/NĐ-CP và Luật Căn cước năm 2023 (thay thế NĐ 59/2022/NĐ-CP).'
   },
   {
     id: 'CT-25',
@@ -1125,7 +1125,7 @@ export const MASTER_QUESTIONS: DetailedQuizQuestion[] = [
       C: 'Sai: Đây là chiêu trò của kẻ xấu mạo danh để vòi tiền nhân dân.',
       D: 'Sai: Mọi công dân đều được phục vụ miễn phí như nhau.'
     },
-    legalBasis: 'Nghị định số 59/2022/NĐ-CP và chỉ đạo của Bộ Công an.'
+    legalBasis: 'Nghị định số 69/2024/NĐ-CP của Chính phủ và chỉ đạo của Bộ Công an.'
   },
 
   // -----------------------------------------------------------------------
@@ -1261,7 +1261,7 @@ export const MASTER_QUESTIONS: DetailedQuizQuestion[] = [
       C: 'Sai: Uống 1 lon bia vẫn có cồn trong hơi thở và sẽ bị xử phạt nghiêm khắc.',
       D: 'Sai: Quy định áp dụng bình đẳng đối với cả người điều khiển ô tô, xe máy và xe đạp điện.'
     },
-    legalBasis: 'Luật Phòng, chống tác hại của rượu, bia và Nghị định số 100/2019/NĐ-CP.'
+    legalBasis: 'Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15 và Nghị định số 168/2024/NĐ-CP (thay thế Nghị định 100/2019/NĐ-CP và 123/2021/NĐ-CP).'
   },
   {
     id: 'GT-07',
@@ -1276,14 +1276,14 @@ export const MASTER_QUESTIONS: DetailedQuizQuestion[] = [
       { key: 'D', text: 'Bị tịch thu xe máy' },
     ],
     correctKey: 'A',
-    explanation: 'Nghị định 100/2019/NĐ-CP (sửa đổi bổ sung bởi Nghị định 123/2021/NĐ-CP) quy định phạt tiền từ 400.000đ - 600.000đ đối với hành vi không đội mũ bảo hiểm cho người đi xe mô tô, xe máy.',
+    explanation: 'Nghị định số 168/2024/NĐ-CP (thay thế Nghị định 100/2019/NĐ-CP và 123/2021/NĐ-CP) quy định phạt tiền từ 400.000đ - 600.000đ đối với hành vi không đội mũ bảo hiểm cho người đi xe mô tô, xe máy.',
     whyWrong: {
-      A: 'Chính xác! Mức phạt tiền theo Nghị định 123/2021/NĐ-CP là từ 400.000đ đến 600.000đ.',
+      A: 'Chính xác! Mức phạt tiền theo Nghị định số 168/2024/NĐ-CP là từ 400.000đ đến 600.000đ.',
       B: 'Sai: Hành vi này bị phạt tiền trực tiếp, không chỉ dừng lại ở nhắc nhở.',
       C: 'Sai: Không áp dụng biện pháp tạm giữ phương tiện 30 ngày đối với lỗi mũ bảo hiểm thông thường.',
       D: 'Sai: Lỗi không đội mũ bảo hiểm không thuộc diện tịch thu phương tiện.'
     },
-    legalBasis: 'Khoản 3 Điều 6 Nghị định số 100/2019/NĐ-CP (sửa đổi bởi Nghị định 123/2021/NĐ-CP).'
+    legalBasis: 'Nghị định số 168/2024/NĐ-CP và Luật Trật tự an toàn giao thông đường bộ 2024 (thay thế Nghị định 100/2019/NĐ-CP và 123/2021/NĐ-CP).'
   },
   {
     id: 'GT-08',
@@ -1342,14 +1342,14 @@ export const MASTER_QUESTIONS: DetailedQuizQuestion[] = [
       { key: 'D', text: 'Không giới hạn độ tuổi' },
     ],
     correctKey: 'A',
-    explanation: 'Luật Giao thông đường bộ quy định người từ đủ 18 tuổi trở lên mới đủ điều kiện về sức khỏe và độ tuổi để thi sát hạch cấp Giấy phép lái xe mô tô hạng A1 (từ 50cm3 trở lên).',
+    explanation: 'Luật Trật tự, an toàn giao thông đường bộ 2024 quy định người từ đủ 18 tuổi trở lên mới đủ điều kiện về sức khỏe và độ tuổi để thi sát hạch cấp Giấy phép lái xe mô tô hạng A1 (từ 50cm3 trở lên).',
     whyWrong: {
-      A: 'Chính xác! Điều 60 Luật Giao thông đường bộ quy định người từ đủ 18 tuổi mới được lái xe mô tô từ 50cm3.',
+      A: 'Chính xác! Điều 60 Luật Trật tự, an toàn giao thông đường bộ 2024 quy định người từ đủ 18 tuổi mới được lái xe mô tô từ 50cm3.',
       B: 'Sai: Người đủ 16 tuổi chỉ được điều khiển xe dưới 50cm3 hoặc xe máy điện.',
       C: 'Sai: Dưới 16 tuổi chưa đủ tuổi điều khiển bất kỳ loại xe máy cơ giới nào.',
       D: 'Sai: Pháp luật quy định nghiêm ngặt về độ tuổi để bảo đảm an toàn giao thông.'
     },
-    legalBasis: 'Điều 60 Luật Giao thông đường bộ năm 2008.'
+    legalBasis: 'Điều 60 Luật Trật tự, an toàn giao thông đường bộ năm 2024 (số 36/2024/QH15).'
   },
   {
     id: 'GT-11',
@@ -1393,7 +1393,7 @@ export const MASTER_QUESTIONS: DetailedQuizQuestion[] = [
       C: 'Sai: Đây là hành vi vi phạm trật tự an toàn giao thông đường bộ quốc gia.',
       D: 'Sai: Nhà trường quản lý giáo dục, trách nhiệm pháp lý giao xe thuộc về gia đình.'
     },
-    legalBasis: 'Khoản 5 Điều 30 Nghị định số 100/2019/NĐ-CP và Điều 264 Bộ luật Hình sự.'
+    legalBasis: 'Nghị định số 168/2024/NĐ-CP và Điều 264 Bộ luật Hình sự (thay thế Nghị định 100/2019/NĐ-CP).'
   },
   {
     id: 'GT-13',
@@ -1437,7 +1437,7 @@ export const MASTER_QUESTIONS: DetailedQuizQuestion[] = [
       C: 'Sai: Hình phạt bổ sung bắt buộc là tước quyền sử dụng giấy phép lái xe.',
       D: 'Sai: Mọi hành vi vi phạm đều bị lập biên bản xử phạt hành chính.'
     },
-    legalBasis: 'Điểm a Khoản 5 Điều 6 Nghị định số 100/2019/NĐ-CP (sửa đổi bởi Nghị định 123/2021/NĐ-CP).'
+    legalBasis: 'Nghị định số 168/2024/NĐ-CP và Luật Trật tự an toàn giao thông đường bộ 2024 (thay thế Nghị định 100/2019/NĐ-CP và 123/2021/NĐ-CP).'
   },
   {
     id: 'GT-15',
@@ -1459,7 +1459,7 @@ export const MASTER_QUESTIONS: DetailedQuizQuestion[] = [
       C: 'Sai: Quay clip câu like cản trở công tác cấp cứu là hành vi đáng lên án.',
       D: 'Sai: Xáo trộn hiện trường làm sai lệch công tác điều tra nguyên nhân vụ tai nạn.'
     },
-    legalBasis: 'Điều 38 Luật Giao thông đường bộ năm 2008 và Điều 132 Bộ luật Hình sự.'
+    legalBasis: 'Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15 và Điều 132 Bộ luật Hình sự.'
   },
   {
     id: 'GT-16',
@@ -1474,14 +1474,14 @@ export const MASTER_QUESTIONS: DetailedQuizQuestion[] = [
       { key: 'D', text: 'Cứ muốn chở bao nhiêu người cũng được' },
     ],
     correctKey: 'A',
-    explanation: 'Luật Giao thông đường bộ quy định chỉ được chở 2 người ngồi sau trong 3 trường hợp ngoại lệ: đi cấp cứu, áp giải tội phạm hoặc chở trẻ em dưới 14 tuổi.',
+    explanation: 'Luật Trật tự, an toàn giao thông đường bộ 2024 quy định chỉ được chở 2 người ngồi sau trong 3 trường hợp ngoại lệ: đi cấp cứu, áp giải tội phạm hoặc chở trẻ em dưới 14 tuổi.',
     whyWrong: {
-      A: 'Chính xác! Khoản 1 Điều 30 Luật Giao thông đường bộ quy định 3 trường hợp ngoại lệ này.',
+      A: 'Chính xác! Khoản 1 Điều 30 Luật Trật tự, an toàn giao thông đường bộ 2024 quy định 3 trường hợp ngoại lệ này.',
       B: 'Sai: Chở 3 người lớn đi chơi là vi phạm lỗi kẹp ba và bị xử phạt nặng.',
       C: 'Sai: Chở quá số người quy định sẽ bị xử phạt hành chính.',
       D: 'Sai: Xe máy chỉ thiết kế chở tối đa 2 người để đảm bảo an toàn thăng bằng.'
     },
-    legalBasis: 'Khoản 1 Điều 30 Luật Giao thông đường bộ năm 2008.'
+    legalBasis: 'Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15 (thay thế Luật Giao thông đường bộ 2008).'
   },
   {
     id: 'GT-17',
@@ -1503,7 +1503,7 @@ export const MASTER_QUESTIONS: DetailedQuizQuestion[] = [
       C: 'Sai: Thiết bị ưu tiên phải do cơ quan có thẩm quyền cấp giấy phép.',
       D: 'Sai: Đây là hành vi vi phạm trật tự an toàn giao thông.'
     },
-    legalBasis: 'Nghị định số 100/2019/NĐ-CP và Luật Giao thông đường bộ.'
+    legalBasis: 'Nghị định số 168/2024/NĐ-CP và Luật Trật tự an toàn giao thông đường bộ 2024 (thay thế Nghị định 100/2019/NĐ-CP).'
   },
   {
     id: 'GT-18',
@@ -1525,7 +1525,7 @@ export const MASTER_QUESTIONS: DetailedQuizQuestion[] = [
       C: 'Sai: Vi phạm trên mọi tuyến đường đều bị lực lượng Công an xử lý.',
       D: 'Sai: Điều 30 Nghị định 100 quy định mức phạt rất rõ ràng đối với lỗi tự ý thay đổi kết cấu xe.'
     },
-    legalBasis: 'Khoản 5 Điều 30 Nghị định số 100/2019/NĐ-CP.'
+    legalBasis: 'Nghị định số 168/2024/NĐ-CP và Luật Trật tự an toàn giao thông đường bộ 2024 (thay thế Nghị định 100/2019/NĐ-CP).'
   },
   {
     id: 'GT-19',
@@ -1562,14 +1562,14 @@ export const MASTER_QUESTIONS: DetailedQuizQuestion[] = [
       { key: 'D', text: 'Tịch thu phương tiện vĩnh viễn' },
     ],
     correctKey: 'A',
-    explanation: 'Theo Nghị định 100 (sửa đổi bổ sung bởi Nghị định 123), lỗi vượt đèn đỏ đối với xe máy phạt tiền từ 800.000đ - 1.000.000đ và tước quyền sử dụng Giấy phép lái xe từ 1 - 3 tháng.',
+    explanation: 'Theo Nghị định số 168/2024/NĐ-CP (thay thế Nghị định 100 và 123), lỗi vượt đèn đỏ đối với xe máy phạt tiền từ 800.000đ - 1.000.000đ và tước quyền sử dụng Giấy phép lái xe từ 1 - 3 tháng.',
     whyWrong: {
       A: 'Chính xác! Vượt đèn đỏ bị phạt tiền từ 800.000đ đến 1.000.000đ và bị tước bằng lái.',
       B: 'Sai: 100.000đ - 200.000đ là mức phạt quá cũ không còn áp dụng.',
       C: 'Sai: Vượt đèn đỏ là lỗi nguy hiểm cao, bắt buộc phải lập biên bản xử phạt.',
       D: 'Sai: Không áp dụng tịch thu phương tiện đối với lỗi vượt đèn đỏ.'
     },
-    legalBasis: 'Điểm e Khoản 4 Điều 6 Nghị định số 100/2019/NĐ-CP (sửa đổi bởi Nghị định 123/2021/NĐ-CP).'
+    legalBasis: 'Nghị định số 168/2024/NĐ-CP và Luật Trật tự an toàn giao thông đường bộ 2024 (thay thế Nghị định 100/2019/NĐ-CP và 123/2021/NĐ-CP).'
   },
   {
     id: 'GT-21',
@@ -1591,7 +1591,7 @@ export const MASTER_QUESTIONS: DetailedQuizQuestion[] = [
       C: 'Sai: Quy định áp dụng cho cả phương tiện sử dụng động cơ điện.',
       D: 'Sai: Biển số là phương thức quản lý bắt buộc của cơ quan nhà nước.'
     },
-    legalBasis: 'Luật Giao thông đường bộ và Thông tư số 24/2023/TT-BCA.'
+    legalBasis: 'Luật Trật tự an toàn giao thông đường bộ số 36/2024/QH15 và Thông tư số 24/2023/TT-BCA.'
   },
   {
     id: 'GT-22',
@@ -1609,11 +1609,11 @@ export const MASTER_QUESTIONS: DetailedQuizQuestion[] = [
     explanation: 'Sử dụng điện thoại khi lái xe làm giảm 50% khả năng phản xạ, rất dễ đâm vào chướng ngại vật hoặc người đi bộ. Mức phạt tiền từ 800.000đ - 1.000.000đ và tước bằng lái.',
     whyWrong: {
       A: 'Chính xác! Dùng điện thoại khi lái xe máy bị phạt từ 800.000đ - 1.000.000đ và tước GPLX.',
-      B: 'Sai: Mức phạt tiền đã được tăng nặng theo Nghị định 123/2021/NĐ-CP.',
+      B: 'Sai: Mức phạt tiền theo Nghị định số 168/2024/NĐ-CP quy định xử phạt nghiêm khắc.',
       C: 'Sai: Sử dụng tai nghe / thiết bị âm thanh khi lái xe máy cũng bị xử phạt tương tự.',
       D: 'Sai: Luật cấm hoàn toàn hành vi dùng điện thoại khi điều khiển phương tiện trên đường.'
     },
-    legalBasis: 'Điểm h Khoản 4 Điều 6 Nghị định số 100/2019/NĐ-CP (sửa đổi bởi Nghị định 123/2021/NĐ-CP).'
+    legalBasis: 'Nghị định số 168/2024/NĐ-CP và Luật Trật tự an toàn giao thông đường bộ 2024 (thay thế Nghị định 100/2019/NĐ-CP và 123/2021/NĐ-CP).'
   },
   {
     id: 'GT-23',
@@ -1622,7 +1622,7 @@ export const MASTER_QUESTIONS: DetailedQuizQuestion[] = [
     question: 'Hành vi thanh niên tụ tập điều khiển xe máy đi dàn hàng ngang từ 3 xe trở lên trên đường làng, ngõ xóm có vi phạm luật không?',
     scenario: 'Quy tắc di chuyển trật tự trên các tuyến đường nông thôn.',
     options: [
-      { key: 'A', text: 'Vi phạm Luật Giao thông đường bộ và bị xử phạt tiền' },
+      { key: 'A', text: 'Vi phạm Luật Trật tự, an toàn giao thông đường bộ và bị xử phạt tiền' },
       { key: 'B', text: 'Không vi phạm vì đường làng không có CSGT' },
       { key: 'C', text: 'Được phép nếu đi vào ban ngày' },
       { key: 'D', text: 'Chỉ vi phạm khi đi trên đường cao tốc' },
@@ -1635,7 +1635,7 @@ export const MASTER_QUESTIONS: DetailedQuizQuestion[] = [
       C: 'Sai: Nghiêm cấm dàn hàng ngang trong mọi khung giờ.',
       D: 'Sai: Quy định áp dụng trên tất cả các tuyến đường giao thông đường bộ.'
     },
-    legalBasis: 'Điểm b Khoản 1 Điều 6 Nghị định số 100/2019/NĐ-CP.'
+    legalBasis: 'Nghị định số 168/2024/NĐ-CP và Luật Trật tự an toàn giao thông đường bộ 2024 (thay thế Nghị định 100/2019/NĐ-CP).'
   },
   {
     id: 'GT-24',

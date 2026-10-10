@@ -148,7 +148,7 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
     ],
     correctKey: 'C',
     explanation: 'Tài khoản VNeID Mức 2 chứa dữ liệu sinh trắc học (vân tay, ảnh khuôn mặt) đối sánh với cơ sở dữ liệu quốc gia, bắt buộc phải được cán bộ Công an trực tiếp thu nhận bằng thiết bị chuyên dụng tại trụ sở Công an.',
-    legalBasis: 'Nghị định 59/2022/NĐ-CP về định danh và xác thực điện tử.'
+    legalBasis: 'Nghị định số 69/2024/NĐ-CP và Luật Căn cước năm 2023 (thay thế Nghị định 59/2022/NĐ-CP).'
   },
   {
     id: 10,

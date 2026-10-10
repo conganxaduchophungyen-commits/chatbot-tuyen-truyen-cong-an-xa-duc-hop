@@ -164,12 +164,12 @@ export function getSmartLocalChatAnswer(query: string): {
         `- Giữ lại ảnh chụp vết thương, quần áo rách, đồ đạc bị đập phá, tin nhắn/ghi âm đe dọa.\n\n` +
         `4️⃣ **BƯỚC 4: ÁP DỤNG CÁC BIỆN PHÁP BẢO VỆ PHÁP LUẬT:**\n` +
         `- **Ra Quyết định cấm tiếp xúc:** Theo Điều 25 Luật Phòng, chống bạo lực gia đình năm 2022, Chủ tịch UBND xã Đức Hợp hoặc Tòa án có quyền ra Quyết định cấm người có hành vi bạo lực đến gần nạn nhân (dưới 30m).\n` +
-        `- **Xử phạt hành chính:** Theo Điều 52 Nghị định 144/2021/NĐ-CP, phạt tiền từ **5.000.000đ - 20.000.000đ** đối với hành vi đánh đập, hành hạ thành viên gia đình.\n` +
+        `- **Xử phạt hành chính:** Theo quy định tại Nghị định số 282/2025/NĐ-CP (thay thế Nghị định 144/2021/NĐ-CP) và Luật Phòng, chống bạo lực gia đình 2022, phạt tiền từ **5.000.000đ - 20.000.000đ** đối với hành vi đánh đập, hành hạ thành viên gia đình.\n` +
         `- **Khởi tố hình sự:** Người có hành vi bạo hành dã man hoặc gây thương tích sẽ bị khởi tố theo **Điều 134 Bộ luật Hình sự** (Tội Cố ý gây thương tích) hoặc **Điều 185 Bộ luật Hình sự** (Tội Ngược đãi, hành hạ vợ/chồng/con) với khung hình phạt tù từ 06 tháng đến 05 năm.\n\n` +
         `📍 **Trụ sở tiếp nhận tin báo:** Công an xã Đức Hợp (Thôn Nho Lâm, xã Đức Hợp, huyện Kim Động, tỉnh Hưng Yên). Lực lượng Công an luôn đồng hành bảo vệ người dân!`,
       sources: [
         { type: 'knowledge', id: 'kb_blgd_01', title: 'Hướng dẫn khẩn cấp khi bị bạo lực gia đình (Luật PCBLGĐ 2022)' },
-        { type: 'knowledge', id: 'kb_blgd_04', title: 'Mức phạt tiền và hình sự hành vi đánh đập vợ/chồng (NĐ 144/2021 & BLHS)' },
+        { type: 'knowledge', id: 'kb_blgd_04', title: 'Mức phạt tiền và hình sự hành vi đánh đập vợ/chồng (NĐ 282/2025/NĐ-CP & BLHS)' },
         { type: 'knowledge', id: 'kb_blgd_02', title: 'Quy định Biện pháp Cấm tiếp xúc bảo vệ nạn nhân' }
       ]
     };

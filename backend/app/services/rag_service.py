@@ -80,7 +80,7 @@ class RAGService:
             context_parts.append(dv_text)
             sources = [
                 {"type": "knowledge", "title": "Hướng dẫn khẩn cấp khi bị bạo lực gia đình (Luật PCBLGĐ 2022)"},
-                {"type": "knowledge", "title": "Xử phạt hành chính và hình sự hành vi đánh đập vợ/chồng (NĐ 144/2021 & BLHS)"},
+                {"type": "knowledge", "title": "Xử phạt hành chính và hình sự hành vi đánh đập vợ/chồng (NĐ 282/2025/NĐ-CP & BLHS)"},
                 {"type": "knowledge", "title": "Biện pháp Cấm tiếp xúc bảo vệ nạn nhân tại xã Đức Hợp"}
             ]
             return dv_text, sources
@@ -250,7 +250,7 @@ class RAGService:
         if any(k in q for k in ["bị chồng đánh", "chồng đánh", "vợ đánh", "đánh đập", "bạo lực gia đình", "bị đánh", "hành hung", "ngược đãi", "cấm tiếp xúc", "bạo hành", "đánh người"]):
             return (
                 f"{greeting}🚨 **HƯỚNG DẪN XỬ LÝ KHẨN CẤP KHI BỊ BẠO LỰC GIA ĐÌNH / HÀNH HUNG:**\n\n"
-                "Hành vi đánh đập, xâm phạm thân thể vợ/chồng là hành vi vi phạm pháp luật nghiêm trọng theo **Luật Phòng, chống bạo lực gia đình năm 2022** và **Nghị định 144/2021/NĐ-CP** (bị phạt tiền từ 5.000.000đ đến 20.000.000đ hoặc bị truy cứu trách nhiệm hình sự theo Điều 134, Điều 185 Bộ luật Hình sự).\n\n"
+                "Hành vi đánh đập, xâm phạm thân thể vợ/chồng là hành vi vi phạm pháp luật nghiêm trọng theo **Luật Phòng, chống bạo lực gia đình năm 2022** và **Nghị định số 282/2025/NĐ-CP** (bị phạt tiền từ 5.000.000đ đến 20.000.000đ hoặc bị truy cứu trách nhiệm hình sự theo Điều 134, Điều 185 Bộ luật Hình sự).\n\n"
                 "📌 **4 BƯỚC TỰ BẢO VỆ AN TOÀN NGAY LẬP TỨC:**\n"
                 "1️⃣ **Ưu tiên an toàn tính mạng:** Nhanh chóng rời khỏi nơi nguy hiểm, tạm lánh tại nhà người thân, hàng xóm.\n"
                 "2️⃣ **Gọi điện báo ngay cho Công an xã Đức Hợp:**\n"
@@ -466,7 +466,7 @@ class RAGService:
                 "- Người dân phát hiện các điểm nghi vấn mua bán, tàng trữ, sử dụng trái phép chất ma túy hoặc tụ điểm đánh bạc, ghi số đề xin hãy báo ngay cho Công an xã Đức Hợp qua số điện thoại: **02213.815.999** (bảo đảm giữ bí mật thông tin người báo).\n\n"
                 "📌 **2. Thủ tục cai nghiện ma túy tự nguyện:**\n"
                 "- Người nghiện hoặc gia đình có thể đăng ký cai nghiện tự nguyện tại UBND cấp xã hoặc đăng ký vào cơ sở cai nghiện công lập để được Nhà nước hỗ trợ chính sách theo quy định.\n\n"
-                "📌 **3. Xử phạt hành vi gây rối trật tự công cộng:** Bị xử phạt tiền từ 1 - 8 triệu đồng theo NĐ 144/2021/NĐ-CP hoặc bị xử lý hình sự theo Điều 318 BLHS.\n\n"
+                "📌 **3. Xử phạt hành vi gây rối trật tự công cộng:** Bị xử phạt tiền từ 1 - 8 triệu đồng theo Nghị định số 282/2025/NĐ-CP (thay thế Nghị định số 282/2025/NĐ-CP) hoặc bị xử lý hình sự theo Điều 318 BLHS.\n\n"
                 "📞 Trực ban 24/24h Công an xã Đức Hợp: **02213.815.999**."
             )
 

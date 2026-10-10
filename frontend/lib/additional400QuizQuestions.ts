@@ -287,19 +287,19 @@ const CU_TRU_SEEDS: TopicSeed[] = [
   },
   {
     topicTitle: 'Quy định xử phạt hành chính đối với hành vi không thực hiện đúng quy định về đăng ký thường trú, đăng ký tạm trú, thông báo lưu trú',
-    coreFact: 'Theo Điều 9 Nghị định 144/2021/NĐ-CP, cá nhân không thực hiện đúng quy định về đăng ký thường trú, đăng ký tạm trú, xóa đăng ký thường trú/tạm trú hoặc thông báo lưu trú sẽ bị phạt tiền từ 500.000 đồng đến 1.000.000 đồng',
+    coreFact: 'Theo Nghị định số 282/2025/NĐ-CP (thay thế Nghị định 144/2021/NĐ-CP), cá nhân không thực hiện đúng quy định về đăng ký thường trú, đăng ký tạm trú, xóa đăng ký thường trú/tạm trú hoặc thông báo lưu trú sẽ bị phạt tiền từ 500.000 đồng đến 1.000.000 đồng',
     wrongA: 'Không đăng ký tạm trú hoặc không thông báo lưu trú hoàn toàn không bị xử phạt gì',
     wrongB: 'Hành vi quên đăng ký tạm trú 1 tuần sẽ bị tịch thu toàn bộ ngôi nhà',
     wrongC: 'Chỉ người nước ngoài mới bị xử phạt về cư trú, công dân Việt Nam được miễn phạt',
-    legalBasis: 'Khoản 1 Điều 9 Nghị định số 144/2021/NĐ-CP của Chính phủ.'
+    legalBasis: 'Khoản 1 Điều 9 Nghị định số 282/2025/NĐ-CP của Chính phủ (thay thế Nghị định 144/2021/NĐ-CP).'
   },
   {
     topicTitle: 'Nghiêm cấm hành vi cầm cố, thế chấp hoặc thuê, mượn Thẻ Căn cước công dân / Thẻ Căn cước',
-    coreFact: 'Pháp luật nghiêm cấm mua bán, thuê, mượn, cầm cố, thế chấp, giữ trái phép thẻ Căn cước; người vi phạm bị phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng theo khoản 4 Điều 10 Nghị định 144/2021/NĐ-CP và buộc thu hồi thẻ',
+    coreFact: 'Pháp luật nghiêm cấm mua bán, thuê, mượn, cầm cố, thế chấp, giữ trái phép thẻ Căn cước; người vi phạm bị phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng theo Nghị định số 282/2025/NĐ-CP (thay thế Nghị định 144/2021/NĐ-CP) và buộc thu hồi thẻ',
     wrongA: 'Công dân được phép mang thẻ Căn cước đi cầm đồ lấy tiền tiêu xài vì đó là tài sản cá nhân',
     wrongB: 'Chủ quán game, nhà nghỉ có quyền thu giữ thẻ Căn cước của khách hàng suốt nhiều tháng để trừ nợ',
     wrongC: 'Cho người lạ thuê thẻ Căn cước mở tài khoản ngân hàng là việc làm hợp pháp',
-    legalBasis: 'Điều 7 Luật Căn cước 2023 & Khoản 4 Điều 10 Nghị định 144/2021/NĐ-CP.'
+    legalBasis: 'Điều 7 Luật Căn cước 2023 & Nghị định số 282/2025/NĐ-CP (thay thế Nghị định 144/2021/NĐ-CP).'
   },
   {
     topicTitle: 'Cách xử lý khi đổi điện thoại mới hoặc mất điện thoại đã đăng nhập tài khoản VNeID',
@@ -589,11 +589,11 @@ const PCCC_SEEDS: TopicSeed[] = [
   },
   {
     topicTitle: 'Chế tài xử phạt đối với hành vi gọi điện thoại báo cháy giả đến số khẩn cấp 114',
-    coreFact: 'Theo khoản 3 Điều 42 Nghị định 144/2021/NĐ-CP, hành vi báo cháy giả hoặc báo tin sự cố, tai nạn giả đến số điện thoại khẩn cấp 114 sẽ bị phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng (đồng thời làm chậm trễ việc cứu nạn các vụ cháy thật)',
+    coreFact: 'Theo Nghị định số 282/2025/NĐ-CP (thay thế Nghị định 144/2021/NĐ-CP), hành vi báo cháy giả hoặc báo tin sự cố, tai nạn giả đến số điện thoại khẩn cấp 114 sẽ bị phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng (đồng thời làm chậm trễ việc cứu nạn các vụ cháy thật)',
     wrongA: 'Gọi 114 báo cháy giả để trêu đùa là miễn phí và không thể truy ra chủ thuê bao',
     wrongB: 'Trẻ em lấy điện thoại của bố mẹ gọi 114 báo cháy giả thì gia đình không phải chịu trách nhiệm gì',
     wrongC: 'Báo cháy giả chỉ bị nhà mạng trừ 1.000 đồng trong tài khoản khuyến mãi',
-    legalBasis: 'Khoản 3 Điều 42 Nghị định số 144/2021/NĐ-CP của Chính phủ.'
+    legalBasis: 'Khoản 3 Điều 42 Nghị định số 282/2025/NĐ-CP của Chính phủ (thay thế Nghị định 144/2021/NĐ-CP).'
   },
   {
     topicTitle: 'Quy định an toàn PCCC đối với hoạt động hàn cắt kim loại khi sửa chữa nhà ở, biển quảng cáo',
@@ -617,7 +617,7 @@ const PCCC_SEEDS: TopicSeed[] = [
     wrongA: 'Mua 100 lít xăng đựng trong can nhựa để dưới gầm cầu thang nhà ống dự trữ dùng dần là an toàn',
     wrongB: 'Học sinh tự mua hóa chất trên mạng về đun nấu chế thuốc pháo tại nhà là trò chơi khoa học vô hại',
     wrongC: 'Đêm Giao thừa mọi hộ dân đều được phép đốt pháo bánh, pháo hoa nổ thoải mái',
-    legalBasis: 'Nghị định 137/2020/NĐ-CP về quản lý, sử dụng pháo & Nghị định 144/2021/NĐ-CP.'
+    legalBasis: 'Nghị định 137/2020/NĐ-CP về quản lý, sử dụng pháo & Nghị định số 282/2025/NĐ-CP (thay thế Nghị định 144/2021/NĐ-CP).'
   },
   {
     topicTitle: 'An toàn sử dụng hệ thống điện và thiết bị tiêu thụ điện công suất lớn trong mùa nắng nóng / mùa đông',
