@@ -4045,10 +4045,47 @@ export function formatModuleResponse(mod: SubcategoryModule, intentKey: string, 
   };
 }
 
-export function queryLegalDatasetEngine(rawQuery: string): LegalDatasetAnswer | null {
+export function queryLegalDatasetEngine(rawQuery: string, categoryId?: string): LegalDatasetAnswer | null {
   if (!rawQuery || rawQuery.trim().length < 3) return null;
   const qLower = rawQuery.toLowerCase().trim();
   const qNorm = removeDiacritics(rawQuery);
+
+  // 1. TÌNH HUỐNG TRỌNG ĐIỂM SỐ 1: MUA XE MÁY MỚI, BẤM BIỂN SỐ TẠI CÔNG AN XÃ ĐỨC HỢP & BIỂN SỐ ĐỊNH DANH SUỐT ĐỜI
+  const isBikePlateQuestion =
+    (qNorm.includes('mua xe') || qNorm.includes('xe may') || qNorm.includes('bam bien') || qNorm.includes('bien so') || qNorm.includes('dang ky xe') || qNorm.includes('cap bien')) &&
+    (qNorm.includes('suot doi') || qNorm.includes('di theo') || qNorm.includes('mang theo') || qNorm.includes('giay to gi') || qNorm.includes('can nhung gi') || qNorm.includes('xa duc hop') || qNorm.includes('tai xa'));
+
+  if (isBikePlateQuestion) {
+    return {
+      answer: `🏛️ **CÔNG AN XÃ ĐỨC HỢP - HƯỚNG DẪN ĐĂNG KÝ XE MÁY MỚI & BIỂN SỐ ĐỊNH DANH**\n\n` +
+        `Kính chào Quý công dân! Công an xã Đức Hợp xin giải đáp trực tiếp, cụ thể **02 vấn đề** Bác/Anh/Chị đang quan tâm:\n\n` +
+        `📋 **1. BẤM BIỂN SỐ XE MÁY MỚI TẠI CÔNG AN XÃ ĐỨC HỢP CẦN MANG THEO NHỮNG GÌ?**\n` +
+        `Để làm thủ tục đăng ký và bấm biển số xe máy mới tại Trụ sở Công an xã Đức Hợp (Thôn Nho Lâm), Bác/Anh/Chị mang phương tiện đến và chuẩn bị đầy đủ **04 loại giấy tờ** sau:\n` +
+        `- 1️⃣ **Giấy tờ tùy thân:** Thẻ Căn cước công dân gắn chip hoặc xuất trình tài khoản định danh điện tử **VNeID Mức 2** (chính chủ).\n` +
+        `- 2️⃣ **Hóa đơn nguồn gốc xe:** Hóa đơn giá trị gia tăng (GTGT) do cửa hàng/đại lý bán xe xuất cho người mua.\n` +
+        `- 3️⃣ **Phiếu chất lượng xuất xưởng:** Phiếu kiểm tra chất lượng xuất xưởng của xe máy (bản gốc do nhà sản xuất phương tiện cấp).\n` +
+        `- 4️⃣ **Chứng từ nộp lệ phí trước bạ:** Giấy nộp tiền vào ngân sách nhà nước hoặc Mã nộp thuế điện tử (đã nộp lệ phí trước bạ xe máy qua Cổng Dịch vụ công hoặc ứng dụng ngân hàng số).\n\n` +
+        `💡 *Mẹo thực hiện nhanh nhất:* Bác/Anh/Chị nên kê khai trước **"Tờ khai đăng ký xe"** trên Cổng Dịch vụ công Bộ Công an hoặc ứng dụng VNeID để lấy **Mã hồ sơ trực tuyến**. Khi mang xe đến Công an xã Đức Hợp, cán bộ chỉ cần quét mã hồ sơ, kiểm tra số khung, số máy thực tế và tiến hành cho Bác/Anh/Chị bấm biển số ngay trong khoảng **15 - 20 phút**!\n` +
+        `💰 **Lệ phí cấp biển số:** Tại xã Đức Hợp (khu vực nông thôn) chỉ từ **50.000đ - 100.000đ/xe** theo quy định.\n\n` +
+        `🔢 **2. BIỂN SỐ NÀY CÓ ĐI THEO BÁC/ANH/CHỊ SUỐT ĐỜI KHÔNG?**\n` +
+        `👉 **CÂU TRẢ LỜI LÀ: ĐÚNG VẬY, BIỂN SỐ ĐI THEO BÁC/ANH/CHỊ SUỐT ĐỜI.**\n` +
+        `- Theo **Thông tư số 24/2023/TT-BCA và Thông tư số 28/2024/TT-BCA** của Bộ Công an, toàn bộ biển số xe 5 số hiện nay là **BIỂN SỐ ĐỊNH DANH**, được cấp và quản lý theo mã số định danh cá nhân (12 số Căn cước) của chủ xe.\n` +
+        `- **Khi bán hoặc chuyển nhượng xe sau này:** Bác/Anh/Chị **bắt buộc phải giữ lại biển số và giấy đăng ký xe** nộp lại cho Công an làm thủ tục thu hồi (tuyệt đối không bán kèm biển số cho người mua xe).\n` +
+        `- Cơ quan Công an sẽ lưu giữ biển số định danh này trong hệ thống dữ liệu trong thời hạn **05 năm**. Trong 05 năm đó, bất cứ khi nào Bác/Anh/Chị mua chiếc xe mới khác thì sẽ được cơ quan Công an **cấp lại chính biển số này** mà không phải bấm biển số mới!\n\n` +
+        `📍 **Địa điểm tiếp nhận:** Bộ phận Đăng ký xe - Trụ sở Công an xã Đức Hợp (Thôn Nho Lâm, xã Đức Hợp, tỉnh Hưng Yên).\n` +
+        `📞 **Hotline Trực ban Công an xã hỗ trợ 24/24h:** **02213.815.999**.`,
+      sources: [
+        { type: 'knowledge', id: 'kb_ds5000_015', title: 'Thông tư 24/2023/TT-BCA & Thông tư 28/2024/TT-BCA về Đăng ký biển số định danh', url: 'https://csgt.vn' },
+        { type: 'procedure', id: 'proc_dang_ky_xe', title: 'Thủ tục Đăng ký, cấp biển số xe mô tô tại Công an xã Đức Hợp', code: 'TTHC-BCA-02' }
+      ],
+      related_questions: [
+        'Cách kê khai trước tờ khai đăng ký xe máy trên VNeID để lấy mã hồ sơ?',
+        'Thủ tục nộp lệ phí trước bạ xe máy trực tuyến qua ngân hàng hoặc Cổng DVC?',
+        'Khi bán xe máy cũ thì làm thủ tục thu hồi biển số định danh như thế nào?'
+      ],
+      answer_status: 'ANSWERABLE'
+    };
+  }
 
   // 1. Check Anti-Hallucination & Golden Edge-Cases from datasetAI.md
   if (qLower.includes('điều 999') || qNorm.includes('dieu 999') || (qNorm.includes('bo luat dan su') && (qNorm.includes('phat tu') || qNorm.includes('sang ten xe')))) {
@@ -4268,13 +4305,36 @@ export function queryLegalDatasetEngine(rawQuery: string): LegalDatasetAnswer | 
     };
   }
 
+  const isVehicleQuery = qNorm.includes('xe') || qNorm.includes('bien so') || qNorm.includes('gplx') || qNorm.includes('bang lai') || qNorm.includes('ca vet') || qNorm.includes('bam bien');
+
+  // Filter modules based on categoryId if specified
+  const DOMAIN_TO_CAT_MAP: Record<string, string[]> = {
+    dang_ky_xe: ['giao_thong'],
+    giao_thong: ['giao_thong'],
+    can_cuoc_vneid: ['cu_tru'],
+    cu_tru: ['cu_tru'],
+    canh_bao_lua_dao: ['phong_chong_lua_dao'],
+    phong_chong_lua_dao: ['phong_chong_lua_dao'],
+    pccc_cnch: ['pccc'],
+    pccc: ['pccc'],
+    antt_phap_luat: ['phap_luat_dan_su_dat_dai', 'bao_luc_gia_dinh_antt'],
+    quan_ly_nganh_nghe: ['quan_ly_nganh_nghe']
+  };
+
+  const allowedCategories = categoryId && DOMAIN_TO_CAT_MAP[categoryId] ? DOMAIN_TO_CAT_MAP[categoryId] : null;
+
+  const candidateModules = allowedCategories 
+    ? SUBCATEGORY_MODULES.filter(m => allowedCategories.includes(m.category_id))
+    : SUBCATEGORY_MODULES;
+
   const detectedIntent = detectIntentFromQuery(qNorm);
 
-  // 2. Match against all 180 Subcategories (exact normalized phrase match -> 100% of the 5,000 questions!)
+  // 2. Match against candidate Subcategories (exact normalized phrase match -> 100% of the 5,000 questions!)
   let bestMod: SubcategoryModule | null = null;
   let bestLen = 0;
 
-  for (const mod of SUBCATEGORY_MODULES) {
+  for (const mod of candidateModules) {
+    if (isVehicleQuery && mod.category_id !== 'giao_thong') continue;
     const subNorm = removeDiacritics(mod.subcategory);
     if (qNorm.includes(subNorm) && subNorm.length > bestLen) {
       bestLen = subNorm.length;
@@ -4289,20 +4349,27 @@ export function queryLegalDatasetEngine(rawQuery: string): LegalDatasetAnswer | 
   // 3. Match against Natural Conversational Aliases
   for (const alias of NATURAL_ALIASES) {
     if (alias.keywords.some(kw => qNorm.includes(kw))) {
-      const mod = SUBCATEGORY_MODULES.find(m => m.subcategory === alias.subcategory);
+      const mod = candidateModules.find(m => m.subcategory === alias.subcategory) ||
+        SUBCATEGORY_MODULES.find(m => m.subcategory === alias.subcategory);
       if (mod) {
+        if (isVehicleQuery && mod.category_id !== 'giao_thong') continue;
         return formatModuleResponse(mod, detectedIntent);
       }
     }
   }
 
-  // 4. Flexible Token-overlap match against the 180 Subcategories (Filter out generic common words)
-  const GENERIC_COMMON_WORDS = new Set(['mua', 'ban', 'qua', 'mang', 'cho', 'lam', 've', 'moi', 'cac', 'nhung', 'theo', 'trong', 'ngoai', 'tien', 'khi', 'duoc']);
+  // 4. Flexible Token-overlap match against candidate Subcategories (Filter out generic common words)
+  const GENERIC_COMMON_WORDS = new Set(['mua', 'ban', 'qua', 'mang', 'cho', 'lam', 've', 'moi', 'cac', 'nhung', 'theo', 'trong', 'ngoai', 'tien', 'khi', 'duoc', 'toi', 'minh']);
   let topScore = 0;
   let topMod: SubcategoryModule | null = null;
   const qWords = qNorm.split(' ').filter(w => w.length > 2 && !GENERIC_COMMON_WORDS.has(w));
 
-  for (const mod of SUBCATEGORY_MODULES) {
+  for (const mod of candidateModules) {
+    if (isVehicleQuery && mod.category_id !== 'giao_thong') continue;
+    if (mod.subcategory.includes('mua qua mang') || mod.subcategory.includes('mua ban truc tuyen')) {
+      if (isVehicleQuery || qNorm.includes('xe')) continue;
+    }
+
     const subNorm = removeDiacritics(mod.subcategory);
     const subTokens = subNorm.split(' ').filter(w => w.length > 2 && !GENERIC_COMMON_WORDS.has(w));
     if (subTokens.length === 0) continue;

@@ -256,12 +256,12 @@ export async function getArticleBySlug(slug: string): Promise<Article | null> {
   return found || null;
 }
 
-export async function sendChatQuery(sessionId: string, query: string): Promise<ChatResponse> {
+export async function sendChatQuery(sessionId: string, query: string, categoryId?: string): Promise<ChatResponse> {
   try {
     const res = await fetch(`${API_BASE}/chat/query`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ session_id: sessionId, query }),
+      body: JSON.stringify({ session_id: sessionId, query, category_id: categoryId }),
     });
     if (res.ok) {
       const data = await res.json();
