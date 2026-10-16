@@ -11,10 +11,11 @@ import {
   Lock, 
   GraduationCap, 
   Home,
-  UserCheck
+  UserCheck,
+  BookOpen
 } from 'lucide-react';
 
-export type NavTabType = 'home' | 'procedures' | 'scam' | 'quiz';
+export type NavTabType = 'home' | 'procedures' | 'scam' | 'handbook' | 'quiz';
 
 interface NavbarProps {
   activeTab?: NavTabType;
@@ -101,12 +102,12 @@ export default function Navbar({ activeTab = 'home', onSelectTab }: NavbarProps)
           </Link>
 
           {/* Desktop Nav Links: Các mục tách biệt nhau, viền bo tròn */}
-          <nav className="hidden xl:flex items-center space-x-2 font-bold text-xs lg:text-sm">
+          <nav className="hidden xl:flex items-center space-x-1.5 font-bold text-xs lg:text-sm">
             {/* 1. Trang chủ */}
             <button
               type="button"
               onClick={() => handleTabClick('home')}
-              className={`px-4 py-2 rounded-full border transition flex items-center space-x-1.5 whitespace-nowrap shadow-xs ${
+              className={`px-3.5 py-2 rounded-full border transition flex items-center space-x-1.5 whitespace-nowrap shadow-xs ${
                 activeTab === 'home'
                   ? 'bg-police-700 text-white border-police-700 shadow-sm'
                   : 'bg-white border-slate-200 text-slate-700 hover:border-police-400 hover:text-police-700 hover:bg-slate-50'
@@ -120,7 +121,7 @@ export default function Navbar({ activeTab = 'home', onSelectTab }: NavbarProps)
             <button
               type="button"
               onClick={() => handleTabClick('procedures')}
-              className={`px-4 py-2 rounded-full border transition flex items-center space-x-1.5 whitespace-nowrap shadow-xs ${
+              className={`px-3.5 py-2 rounded-full border transition flex items-center space-x-1.5 whitespace-nowrap shadow-xs ${
                 activeTab === 'procedures'
                   ? 'bg-police-700 text-white border-police-700 shadow-sm'
                   : 'bg-white border-slate-200 text-slate-700 hover:border-police-400 hover:text-police-700 hover:bg-slate-50'
@@ -134,7 +135,7 @@ export default function Navbar({ activeTab = 'home', onSelectTab }: NavbarProps)
             <button
               type="button"
               onClick={() => handleTabClick('scam')}
-              className={`px-4 py-2 rounded-full border transition flex items-center space-x-1.5 whitespace-nowrap shadow-xs ${
+              className={`px-3.5 py-2 rounded-full border transition flex items-center space-x-1.5 whitespace-nowrap shadow-xs ${
                 activeTab === 'scam'
                   ? 'bg-red-600 text-white border-red-600 shadow-sm'
                   : 'bg-white border-slate-200 text-red-600 hover:border-red-400 hover:bg-red-50'
@@ -144,11 +145,25 @@ export default function Navbar({ activeTab = 'home', onSelectTab }: NavbarProps)
               <span>Cảnh báo tội phạm</span>
             </button>
 
-            {/* 4. Học tập & Kiểm tra kiến thức pháp luật */}
+            {/* 4. Sổ tay tuyên truyền pháp luật */}
+            <button
+              type="button"
+              onClick={() => handleTabClick('handbook')}
+              className={`px-3.5 py-2 rounded-full border transition flex items-center space-x-1.5 whitespace-nowrap shadow-xs ${
+                activeTab === 'handbook'
+                  ? 'bg-orange-600 text-white border-orange-600 shadow-sm'
+                  : 'bg-white border-slate-200 text-orange-700 hover:border-orange-400 hover:bg-orange-50'
+              }`}
+            >
+              <BookOpen className="w-4 h-4" />
+              <span>Sổ tay tuyên truyền</span>
+            </button>
+
+            {/* 5. Học tập & Kiểm tra kiến thức pháp luật */}
             <button
               type="button"
               onClick={() => handleTabClick('quiz')}
-              className={`px-4 py-2 rounded-full border transition flex items-center space-x-1.5 whitespace-nowrap shadow-xs ${
+              className={`px-3.5 py-2 rounded-full border transition flex items-center space-x-1.5 whitespace-nowrap shadow-xs ${
                 activeTab === 'quiz'
                   ? 'bg-amber-600 text-white border-amber-600 shadow-sm'
                   : 'bg-white border-slate-200 text-amber-700 hover:border-amber-400 hover:bg-amber-50'
@@ -230,6 +245,18 @@ export default function Navbar({ activeTab = 'home', onSelectTab }: NavbarProps)
           >
             <AlertTriangle className="w-5 h-5 text-red-600" />
             <span>Cảnh báo tội phạm & Lừa đảo mạng</span>
+          </button>
+
+          <button
+            onClick={() => handleTabClick('handbook')}
+            className={`w-full flex items-center space-x-3 px-4 py-3 rounded-2xl font-bold text-sm transition ${
+              activeTab === 'handbook'
+                ? 'bg-orange-600 text-white'
+                : 'text-orange-700 hover:bg-orange-50'
+            }`}
+          >
+            <BookOpen className="w-5 h-5 text-orange-600" />
+            <span>Sổ tay tuyên truyền pháp luật (Đọc sách 3D)</span>
           </button>
 
           <button

@@ -7,6 +7,7 @@ import Navbar, { NavTabType } from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ChatWidget from '@/components/ChatWidget';
 import LegalQuizSection from '@/components/LegalQuizSection';
+import LegalHandbookSection from '@/components/LegalHandbookSection';
 import EmergencyScamGuidelinesCard from '@/components/EmergencyScamGuidelinesCard';
 import { 
   getCategories, 
@@ -62,10 +63,16 @@ function HomePageContent() {
   const [procPage, setProcPage] = useState(1);
   const PROCEDURES_PER_PAGE = 6;
 
-  // Đồng bộ tab từ URL search params (VD: ?tab=procedures, ?tab=scam, ?tab=quiz)
+  // Đồng bộ tab từ URL search params (VD: ?tab=procedures, ?tab=scam, ?tab=handbook, ?tab=quiz)
   useEffect(() => {
     const tabParam = searchParams.get('tab');
-    if (tabParam === 'procedures' || tabParam === 'scam' || tabParam === 'quiz' || tabParam === 'home') {
+    if (
+      tabParam === 'procedures' ||
+      tabParam === 'scam' ||
+      tabParam === 'handbook' ||
+      tabParam === 'quiz' ||
+      tabParam === 'home'
+    ) {
       setActiveTab(tabParam as NavTabType);
     }
   }, [searchParams]);
@@ -231,9 +238,9 @@ function HomePageContent() {
               </div>
             </section>
 
-            {/* 3 KHỐI CHỨC NĂNG CHÍNH ĐIỀU HƯỚNG */}
+            {/* 4 KHỐI CHỨC NĂNG CHÍNH ĐIỀU HƯỚNG */}
             <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-10 relative z-10 mb-12">
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
                 {/* 1. Thủ tục hành chính */}
                 <div
                   onClick={() => setActiveTab('procedures')}
@@ -278,7 +285,32 @@ function HomePageContent() {
                   </div>
                 </div>
 
-                {/* 3. Kiểm tra kiến thức pháp luật */}
+                {/* 3. Sổ tay tuyên truyền pháp luật (Flipbook 3D) */}
+                <div
+                  onClick={() => setActiveTab('handbook')}
+                  className="bg-white rounded-3xl p-6 shadow-lg border-2 border-orange-300 hover:border-orange-500 hover:shadow-xl transition cursor-pointer flex flex-col justify-between group relative overflow-hidden"
+                >
+                  <span className="absolute top-3 right-3 text-[10px] font-black uppercase bg-red-600 text-white px-2.5 py-0.5 rounded-full shadow-xs">
+                    Sách 3D mới
+                  </span>
+                  <div>
+                    <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-orange-500 to-red-600 text-white flex items-center justify-center shadow-md mb-4 group-hover:scale-110 transition">
+                      <BookOpen className="w-6 h-6" />
+                    </div>
+                    <h3 className="font-extrabold text-base sm:text-lg text-slate-900 group-hover:text-orange-700 transition mb-1.5">
+                      Sổ tay tuyên truyền pháp luật
+                    </h3>
+                    <p className="text-xs sm:text-sm text-slate-500 line-clamp-2">
+                      Đọc cẩm nang Infographic PCCC cho hộ gia đình & hộ kinh doanh, An toàn giao thông như một quyển sách thật.
+                    </p>
+                  </div>
+                  <div className="mt-5 pt-3.5 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-orange-700">
+                    <span>Mở đọc sổ tay ngay</span>
+                    <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition" />
+                  </div>
+                </div>
+
+                {/* 4. Kiểm tra kiến thức pháp luật */}
                 <div
                   onClick={() => setActiveTab('quiz')}
                   className="bg-white rounded-3xl p-6 shadow-lg border border-slate-200 hover:border-amber-500 hover:shadow-xl transition cursor-pointer flex flex-col justify-between group"
@@ -919,7 +951,16 @@ function HomePageContent() {
         )}
 
         {/* ========================================================= */}
-        {/* 4. MÀN HÌNH CHUYÊN BIỆT: HỌC TẬP & KIỂM TRA KIẾN THỨC     */}
+        {/* 4. MÀN HÌNH CHUYÊN BIỆT: SỔ TAY TUYÊN TRUYỀN PHÁP LUẬT     */}
+        {/* ========================================================= */}
+        {activeTab === 'handbook' && (
+          <div className="py-8 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <LegalHandbookSection />
+          </div>
+        )}
+
+        {/* ========================================================= */}
+        {/* 5. MÀN HÌNH CHUYÊN BIỆT: HỌC TẬP & KIỂM TRA KIẾN THỨC     */}
         {/* ========================================================= */}
         {activeTab === 'quiz' && (
           <div className="py-8 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
