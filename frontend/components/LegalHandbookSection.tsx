@@ -22,9 +22,9 @@ import {
   FileImage,
   Sparkles,
   CheckCircle2,
-  PhoneCall,
   BookMarked,
-  Eye
+  Eye,
+  Loader2
 } from 'lucide-react';
 
 export interface HandbookPage {
@@ -61,7 +61,7 @@ export const HANDBOOK_LIBRARY: HandbookItem[] = [
     subtitle: 'Dành cho Nhà ở Gia đình kết hợp Sản xuất, Kinh doanh tại xã Đức Hợp',
     badge: '16 Trang Infographic HD • Đọc ngay',
     isReady: true,
-    coverUrl: '/handbooks/pccc/page-0.png',
+    coverUrl: '/handbooks/pccc/page-0.jpg',
     accentColor: 'from-red-700 via-orange-600 to-amber-600',
     totalPages: 16,
     issuedBy: 'Công an xã Đức Hợp - Tỉnh Hưng Yên',
@@ -72,112 +72,112 @@ export const HANDBOOK_LIBRARY: HandbookItem[] = [
         label: 'Trang bìa',
         title: 'Bìa Cẩm nang An toàn PCCC và Thoát nạn',
         summary: 'Tổng quan nhận diện nguy cơ cháy nổ, giải pháp kỹ thuật ngăn cháy lan, lối thoát nạn thứ 2 và kỹ năng sinh tồn cho hộ gia đình kết hợp sản xuất kinh doanh.',
-        imageUrl: '/handbooks/pccc/page-0.png'
+        imageUrl: '/handbooks/pccc/page-0.jpg'
       },
       {
         pageNumber: 1,
         label: 'Trang 01',
         title: 'Nhận diện 5 "Điểm nghẽn" sinh hỏa hoạn chí mạng',
         summary: 'Phân tích 5 nguy cơ lớn nhất: Hệ thống điện quá tải, tồn chứa hàng hóa chắn lối đi, sơ suất đun nấu/thờ cúng, sạc xe điện qua đêm và "chuồng cọp" bịt kín ban công.',
-        imageUrl: '/handbooks/pccc/page-1.png'
+        imageUrl: '/handbooks/pccc/page-1.jpg'
       },
       {
         pageNumber: 2,
         label: 'Trang 02',
         title: 'Hiểm họa Hiệu ứng ống khói trong nhà ống',
         summary: 'Giải thích cơ chế khói độc và nhiệt độ cao bốc lên dọc giếng trời, cầu thang bộ trong nhà ống làm nạn nhân ngạt khói chỉ sau vài phút.',
-        imageUrl: '/handbooks/pccc/page-2.png'
+        imageUrl: '/handbooks/pccc/page-2.jpg'
       },
       {
         pageNumber: 3,
         label: 'Trang 03',
         title: 'Trách nhiệm pháp lý PCCC của Chủ hộ kinh doanh',
         summary: 'Quy định của Luật PCCC và CNCH về điều kiện an toàn PCCC bắt buộc, hồ sơ quản lý và chế tài xử phạt khi vi phạm quy định an toàn phòng cháy.',
-        imageUrl: '/handbooks/pccc/page-3.png'
+        imageUrl: '/handbooks/pccc/page-3.jpg'
       },
       {
         pageNumber: 4,
         label: 'Trang 04',
         title: 'Giải pháp kỹ thuật Vách ngăn cháy & Ngăn khói',
         summary: 'Hướng dẫn thi công vách ngăn cháy, cửa chống cháy ngăn cách khu vực kinh doanh/kho hàng ở tầng 1 với cầu thang và khu vực sinh hoạt ngủ nghỉ.',
-        imageUrl: '/handbooks/pccc/page-4.png'
+        imageUrl: '/handbooks/pccc/page-4.jpg'
       },
       {
         pageNumber: 5,
         label: 'Trang 05',
         title: 'Tiêu chuẩn An toàn hệ thống điện hộ kinh doanh',
         summary: 'Nguyên tắc tách biệt mạch điện kinh doanh và sinh hoạt, lắp đặt aptomat chống quá tải (MCB/RCCB), luồn ống chống cháy và không cắm chồng phích điện.',
-        imageUrl: '/handbooks/pccc/page-5.png'
+        imageUrl: '/handbooks/pccc/page-5.jpg'
       },
       {
         pageNumber: 6,
         label: 'Trang 06',
         title: 'Nguyên tắc An toàn khi sạc xe điện tại nhà',
         summary: 'Phòng ngừa hiện tượng nổ cell pin Lithium-ion ở 1.200°C: Không sạc xe điện qua đêm, bố trí khu vực sạc thông thoáng cách xa hàng hóa dễ cháy.',
-        imageUrl: '/handbooks/pccc/page-6.png'
+        imageUrl: '/handbooks/pccc/page-6.jpg'
       },
       {
         pageNumber: 7,
         label: 'Trang 07',
         title: 'Tiêu chuẩn trang bị & Kiểm tra Bình chữa cháy',
         summary: 'Cách phân biệt và bố trí bình bột chữa cháy ABC, bình khí CO2 tại hộ gia đình và cửa hàng kinh doanh; cách kiểm tra đồng hồ áp suất định kỳ.',
-        imageUrl: '/handbooks/pccc/page-7.png'
+        imageUrl: '/handbooks/pccc/page-7.jpg'
       },
       {
         pageNumber: 8,
         label: 'Trang 08',
         title: 'Bộ Dụng cụ Phá dỡ & Cứu nạn gia đình thiết yếu',
         summary: 'Trang bị mặt nạ phòng độc lọc khói khí CO/HCN, búa rìu phá dỡ, kìm cộng lực cắt khóa, thang dây hạ chậm và đèn pin chiếu sáng sự cố.',
-        imageUrl: '/handbooks/pccc/page-8.png'
+        imageUrl: '/handbooks/pccc/page-8.jpg'
       },
       {
         pageNumber: 9,
         label: 'Trang 09',
         title: 'Quy trình xử lý khẩn cấp khi phát hiện hỏa hoạn',
         summary: 'Quy trình chuẩn trong "Giờ vàng": Hô hoán báo động -> Cắt cầu dao điện tổng -> Dùng bình chữa cháy dập lửa ban đầu -> Gọi ngay 114 & Công an xã.',
-        imageUrl: '/handbooks/pccc/page-9.png'
+        imageUrl: '/handbooks/pccc/page-9.jpg'
       },
       {
         pageNumber: 10,
         label: 'Trang 10',
         title: 'Kỹ thuật sinh tồn thoát hiểm qua vùng khói độc',
         summary: 'Kỹ năng bò thấp sát mặt sàn (dưới 0.5m), dùng khăn ướt che kín mũi miệng, kiểm tra nhiệt độ tay nắm cửa bằng mu bàn tay và chèn khăn ướt ngăn khói.',
-        imageUrl: '/handbooks/pccc/page-10.png'
+        imageUrl: '/handbooks/pccc/page-10.jpg'
       },
       {
         pageNumber: 11,
         label: 'Trang 11',
         title: 'Bộ Quy tắc An toàn PCCC hàng ngày tại gia đình',
         summary: 'Checklist kiểm tra an toàn trước khi đóng cửa hàng và trước khi đi ngủ: Tắt thiết bị điện không cần thiết, khóa van bình gas, kiểm tra nơi thờ cúng.',
-        imageUrl: '/handbooks/pccc/page-11.png'
+        imageUrl: '/handbooks/pccc/page-11.jpg'
       },
       {
         pageNumber: 12,
         label: 'Trang 12',
         title: 'Hướng dẫn bố trí & Mở lối thoát nạn thứ 2',
         summary: 'Bắt buộc mở ô cửa thoát hiểm kích thước tối thiểu 60x80cm trên lồng sắt "chuồng cọp", không khóa chết hoặc để chìa khóa tại vị trí cố định mọi thành viên đều biết.',
-        imageUrl: '/handbooks/pccc/page-12.png'
+        imageUrl: '/handbooks/pccc/page-12.jpg'
       },
       {
         pageNumber: 13,
         label: 'Trang 13',
         title: 'Quy trình thao tác dập cháy ban đầu an toàn',
         summary: 'Hướng dẫn 4 bước chuẩn: Rút chốt hãm -> Hướng loa phun vào gốc lửa (đứng xuôi chiều gió) -> Bóp van -> Quét qua lại cho đến khi đám cháy tắt hẳn.',
-        imageUrl: '/handbooks/pccc/page-13.png'
+        imageUrl: '/handbooks/pccc/page-13.jpg'
       },
       {
         pageNumber: 14,
         label: 'Trang 14',
         title: 'Quy trình chữa cháy sự cố Pin xe điện chuyên biệt',
         summary: 'Lưu ý đặc thù khi pin xe điện bốc cháy: Ngắt nguồn sạc ngay, di chuyển các vật dễ cháy ra xa, làm mát liên tục và gọi lực lượng PCCC chuyên nghiệp.',
-        imageUrl: '/handbooks/pccc/page-14.png'
+        imageUrl: '/handbooks/pccc/page-14.jpg'
       },
       {
         pageNumber: 15,
         label: 'Trang 15',
         title: 'Mô hình Tổ liên gia an toàn PCCC tại xã Đức Hợp',
         summary: 'Phát huy sức mạnh phương châm "4 tại chỗ", kết nối chuông báo cháy liên gia và Điểm chữa cháy công cộng tại các thôn thuộc xã Đức Hợp.',
-        imageUrl: '/handbooks/pccc/page-15.png'
+        imageUrl: '/handbooks/pccc/page-15.jpg'
       }
     ]
   },
@@ -347,19 +347,88 @@ export const HANDBOOK_LIBRARY: HandbookItem[] = [
   }
 ];
 
+/**
+ * Component hiển thị từng trang ảnh Infographic với trạng thái tải mượt mà,
+ * đảm bảo hiển thị đủ 100% khung hình (tỷ lệ 9:16 chuẩn của Infographic) không bị khuyết/cắt chữ.
+ */
+function HandbookPageImage({
+  imageUrl,
+  label,
+  title,
+  zoomLevel,
+  onOpenLightbox
+}: {
+  imageUrl: string;
+  label: string;
+  title: string;
+  zoomLevel: number;
+  onOpenLightbox: () => void;
+}) {
+  const [loading, setLoading] = useState(true);
+  const imgRef = useRef<HTMLImageElement | null>(null);
+
+  useEffect(() => {
+    if (imgRef.current && imgRef.current.complete && imgRef.current.naturalWidth > 0) {
+      setLoading(false);
+    } else {
+      setLoading(true);
+    }
+  }, [imageUrl]);
+
+  return (
+    <div className="relative w-full aspect-[1152/2064] flex items-center justify-center bg-[#faf6ee] overflow-hidden rounded-lg group/img mx-auto">
+      {loading && (
+        <div className="absolute inset-0 flex flex-col items-center justify-center bg-[#faf6ee] text-amber-900 z-10 space-y-2 p-4 text-center pointer-events-none">
+          <Loader2 className="w-8 h-8 animate-spin text-red-600" />
+          <span className="text-xs font-bold text-slate-600">
+            Đang tải {label}...
+          </span>
+        </div>
+      )}
+
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+        ref={imgRef}
+        key={imageUrl}
+        src={imageUrl}
+        alt={`${label} - ${title}`}
+        loading="eager"
+        decoding="async"
+        onLoad={() => setLoading(false)}
+        onError={() => setLoading(false)}
+        style={{
+          transform: zoomLevel !== 1 ? `scale(${zoomLevel})` : undefined,
+          transition: 'transform 0.2s ease-out'
+        }}
+        className="w-full h-full object-contain rounded-lg cursor-zoom-in block relative z-10"
+        onClick={(e) => {
+          e.stopPropagation();
+          onOpenLightbox();
+        }}
+      />
+
+      {/* Nút phóng to toàn màn hình hiển thị rõ ràng */}
+      <button
+        type="button"
+        onClick={(e) => {
+          e.stopPropagation();
+          onOpenLightbox();
+        }}
+        className="absolute bottom-2.5 left-1/2 -translate-x-1/2 opacity-90 sm:opacity-0 sm:group-hover/img:opacity-100 transition-opacity bg-slate-900/85 hover:bg-red-700 text-white text-[11px] font-bold px-3 py-1.5 rounded-full shadow-lg flex items-center space-x-1.5 backdrop-blur-xs z-20 whitespace-nowrap"
+      >
+        <Eye className="w-3.5 h-3.5 text-yellow-300 shrink-0" />
+        <span>Bấm phóng to đọc rõ chữ</span>
+      </button>
+    </div>
+  );
+}
+
 export default function LegalHandbookSection() {
   const [selectedCategory, setSelectedCategory] = useState<'all' | 'pccc' | 'giao_thong' | 'lua_dao' | 'cu_tru'>('all');
   const [activeBookId, setActiveBookId] = useState<string>('so-tay-pccc-hkd');
-  // currentPageIndex:
-  // In 'spread' mode (2 pages like a real open book):
-  //   index 0 = Cover (Page 0)
-  //   index 1 = Spread [Page 1 (left), Page 2 (right)]
-  //   index 3 = Spread [Page 3 (left), Page 4 (right)] ...
-  // In 'single' mode:
-  //   index 0..15 = single page
   const [viewMode, setViewMode] = useState<'book' | 'single'>('book');
   const [currentPage, setCurrentPage] = useState<number>(0);
-  const [flipDirection, setFlipDirection] = useState<'next' | 'prev' | null>(null);
+  const [isFlipping, setIsFlipping] = useState<boolean>(false);
   const [zoomLevel, setZoomLevel] = useState<number>(1);
   const [isFullscreen, setIsFullscreen] = useState<boolean>(false);
   const [isAutoPlay, setIsAutoPlay] = useState<boolean>(false);
@@ -372,7 +441,7 @@ export default function LegalHandbookSection() {
   const activeBook = HANDBOOK_LIBRARY.find((b) => b.id === activeBookId) || HANDBOOK_LIBRARY[0];
   const totalPages = activeBook.pages.length;
 
-  // Responsive auto-switch to single page on small mobile screens while allowing toggle
+  // Tự động chuyển sang chế độ 1 trang trên màn hình điện thoại để đọc to rõ và lật trang mượt nhất
   useEffect(() => {
     const checkViewport = () => {
       if (window.innerWidth < 768) {
@@ -386,39 +455,59 @@ export default function LegalHandbookSection() {
     return () => window.removeEventListener('resize', checkViewport);
   }, []);
 
-  // Reset page when switching book
+  // Preload (Tải trước thông minh) các trang kế tiếp và trang trước để bấm sang trang hiển thị ngay lập tức
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    const pagesToPreload = [
+      currentPage,
+      currentPage + 1,
+      currentPage + 2,
+      currentPage + 3,
+      currentPage - 1
+    ].filter((idx) => idx >= 0 && idx < totalPages);
+
+    pagesToPreload.forEach((idx) => {
+      const url = activeBook.pages[idx]?.imageUrl;
+      if (url) {
+        const img = new window.Image();
+        img.src = url;
+      }
+    });
+  }, [activeBook, currentPage, totalPages]);
+
+  // Chuyển cuốn sách khác
   const handleSelectBook = (bookId: string) => {
     setActiveBookId(bookId);
     setCurrentPage(0);
     setZoomLevel(1);
     setIsAutoPlay(false);
-    setFlipDirection(null);
+    setIsFlipping(false);
     readerContainerRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
   };
 
-  // Trigger page flip animation
-  const triggerFlip = useCallback((targetPage: number, direction: 'next' | 'prev') => {
-    setFlipDirection(direction);
+  // Hiệu ứng lật trang nhẹ nhàng, tương thích 100% với Safari iOS & Chrome Android
+  const triggerFlip = useCallback((targetPage: number) => {
+    setIsFlipping(true);
     setZoomLevel(1);
     setCurrentPage(targetPage);
     const timer = setTimeout(() => {
-      setFlipDirection(null);
-    }, 520);
+      setIsFlipping(false);
+    }, 220);
     return () => clearTimeout(timer);
   }, []);
 
   const handleNextPage = useCallback(() => {
     if (viewMode === 'book') {
       if (currentPage === 0) {
-        if (totalPages > 1) triggerFlip(1, 'next');
+        if (totalPages > 1) triggerFlip(1);
       } else if (currentPage + 2 < totalPages) {
-        triggerFlip(currentPage + 2, 'next');
+        triggerFlip(currentPage + 2);
       } else if (currentPage + 1 < totalPages) {
-        triggerFlip(currentPage + 1, 'next');
+        triggerFlip(currentPage + 1);
       }
     } else {
       if (currentPage + 1 < totalPages) {
-        triggerFlip(currentPage + 1, 'next');
+        triggerFlip(currentPage + 1);
       }
     }
   }, [viewMode, currentPage, totalPages, triggerFlip]);
@@ -426,32 +515,29 @@ export default function LegalHandbookSection() {
   const handlePrevPage = useCallback(() => {
     if (viewMode === 'book') {
       if (currentPage <= 1) {
-        if (currentPage > 0) triggerFlip(0, 'prev');
+        if (currentPage > 0) triggerFlip(0);
       } else {
         const prevSpreadStart = currentPage % 2 === 0 ? currentPage - 1 : currentPage - 2;
-        triggerFlip(Math.max(0, prevSpreadStart), 'prev');
+        triggerFlip(Math.max(0, prevSpreadStart));
       }
     } else {
       if (currentPage > 0) {
-        triggerFlip(currentPage - 1, 'prev');
+        triggerFlip(currentPage - 1);
       }
     }
   }, [viewMode, currentPage, triggerFlip]);
 
   const jumpToPage = (pageNum: number) => {
-    if (pageNum === currentPage) return;
-    const dir = pageNum > currentPage ? 'next' : 'prev';
     if (viewMode === 'book' && pageNum > 0) {
-      // Align to odd left page (1, 3, 5, 7...) for spread view
       const aligned = pageNum % 2 === 0 ? pageNum - 1 : pageNum;
-      triggerFlip(aligned, dir);
+      triggerFlip(aligned);
     } else {
-      triggerFlip(pageNum, dir);
+      triggerFlip(pageNum);
     }
     setShowToc(false);
   };
 
-  // Keyboard navigation
+  // Điều hướng bằng phím mũi tên trên máy tính
   useEffect(() => {
     const onKeyDown = (e: KeyboardEvent) => {
       if (lightboxImage) {
@@ -470,7 +556,7 @@ export default function LegalHandbookSection() {
     return () => window.removeEventListener('keydown', onKeyDown);
   }, [handleNextPage, handlePrevPage, isFullscreen, lightboxImage]);
 
-  // Auto-play flip timer
+  // Tự động lật trang
   useEffect(() => {
     if (!isAutoPlay) return;
     const interval = setInterval(() => {
@@ -482,7 +568,7 @@ export default function LegalHandbookSection() {
           : currentPage + 1 >= totalPages;
 
       if (isAtEnd) {
-        triggerFlip(0, 'prev');
+        triggerFlip(0);
         setIsAutoPlay(false);
       } else {
         handleNextPage();
@@ -491,7 +577,7 @@ export default function LegalHandbookSection() {
     return () => clearInterval(interval);
   }, [isAutoPlay, viewMode, currentPage, totalPages, handleNextPage, triggerFlip]);
 
-  // Touch swipe handlers
+  // Vuốt ngang trên điện thoại để lật trang
   const handleTouchStart = (e: React.TouchEvent) => {
     touchStartXRef.current = e.touches[0].clientX;
   };
@@ -509,24 +595,19 @@ export default function LegalHandbookSection() {
     touchStartXRef.current = null;
   };
 
-  // Toggle Fullscreen
   const toggleFullscreen = () => {
-    if (!isFullscreen) {
-      setIsFullscreen(true);
-    } else {
-      setIsFullscreen(false);
-    }
+    setIsFullscreen((prev) => !prev);
   };
 
   const filteredBooks = HANDBOOK_LIBRARY.filter(
     (b) => selectedCategory === 'all' || b.category === selectedCategory
   );
 
-  // Determine pages currently visible in the book
+  // Xác định trang bên trái và trang bên phải đang mở
   const leftPage: HandbookPage | null =
     viewMode === 'book'
       ? currentPage === 0
-        ? null // Cover has special presentation on the left
+        ? null
         : activeBook.pages[currentPage] || null
       : activeBook.pages[currentPage] || null;
 
@@ -545,7 +626,7 @@ export default function LegalHandbookSection() {
         : currentPage + 2 < totalPages
       : currentPage + 1 < totalPages;
 
-  // Render a single page content (either Infographic image or structured summary page)
+  // Hiển thị 1 tờ trang sách (không bị cắt ảnh trên mọi kích thước màn hình)
   const renderPageSheet = (
     page: HandbookPage,
     side: 'left' | 'right' | 'single',
@@ -556,68 +637,44 @@ export default function LegalHandbookSection() {
 
     return (
       <div
-        className={`relative w-full h-full bg-[#fffdf8] flex flex-col justify-between select-none overflow-hidden transition-transform duration-500 ${
+        className={`relative w-full h-full min-h-0 bg-[#fffdf8] flex flex-col justify-between select-none overflow-hidden ${
           isLeft
-            ? 'rounded-l-2xl border-r border-amber-900/20 shadow-[inset_-18px_0_28px_-12px_rgba(15,23,42,0.22)]'
+            ? 'rounded-l-2xl border-r border-amber-900/20 shadow-[inset_-14px_0_24px_-12px_rgba(15,23,42,0.22)]'
             : isRight
-            ? 'rounded-r-2xl border-l border-amber-900/10 shadow-[inset_18px_0_28px_-12px_rgba(15,23,42,0.22)]'
+            ? 'rounded-r-2xl border-l border-amber-900/10 shadow-[inset_14px_0_24px_-12px_rgba(15,23,42,0.22)]'
             : 'rounded-2xl shadow-xl border border-amber-900/15'
         }`}
       >
-        {/* Top subtle book header bar */}
-        <div className="px-4 py-2 bg-gradient-to-r from-amber-50/90 via-stone-50 to-amber-50/90 border-b border-amber-200/70 flex items-center justify-between text-[11px] font-bold text-slate-600 shrink-0">
-          <span className="truncate max-w-[70%] text-red-800 uppercase tracking-wider flex items-center space-x-1.5">
+        {/* Thanh tiêu đề đầu trang sách */}
+        <div className="px-3.5 py-2 bg-gradient-to-r from-amber-50/90 via-stone-50 to-amber-50/90 border-b border-amber-200/70 flex items-center justify-between text-[11px] font-bold text-slate-600 shrink-0">
+          <span className="truncate max-w-[72%] text-red-800 uppercase tracking-wider flex items-center space-x-1.5">
             <BookMarked className="w-3.5 h-3.5 text-red-700 shrink-0" />
             <span className="truncate">{activeBook.title}</span>
           </span>
-          <span className="px-2 py-0.5 rounded-full bg-red-100 text-red-800 font-black text-[10px] shrink-0">
+          <span className="px-2.5 py-0.5 rounded-full bg-red-100 text-red-800 font-black text-[10px] shrink-0">
             {page.label}
           </span>
         </div>
 
-        {/* Main Page Body */}
-        <div className="flex-1 relative flex items-center justify-center bg-[#faf6ee] overflow-hidden p-1.5 sm:p-2.5">
+        {/* Nội dung chính của trang sách (Tỷ lệ 9:16 vừa khít 100% ảnh Infographic, không bị khuyết) */}
+        <div className="flex-1 min-h-0 relative flex items-center justify-center bg-[#faf6ee] p-1.5 sm:p-2.5">
           {page.imageUrl ? (
-            <div className="relative w-full h-full flex items-center justify-center group/img">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src={page.imageUrl}
-                alt={`${page.label} - ${page.title}`}
-                style={{
-                  transform: `scale(${zoomLevel})`,
-                  transition: 'transform 0.25s ease-out'
-                }}
-                className="max-h-full max-w-full w-auto h-auto object-contain rounded-lg shadow-sm cursor-zoom-in"
-                onClick={(e) => {
-                  e.stopPropagation();
-                  setLightboxImage({
-                    url: page.imageUrl!,
-                    title: page.title,
-                    label: page.label
-                  });
-                }}
-              />
-
-              {/* Hover button to view ultra-sharp full zoom */}
-              <button
-                type="button"
-                onClick={(e) => {
-                  e.stopPropagation();
-                  setLightboxImage({
-                    url: page.imageUrl!,
-                    title: page.title,
-                    label: page.label
-                  });
-                }}
-                className="absolute bottom-3 left-1/2 -translate-x-1/2 opacity-0 group-hover/img:opacity-100 transition-opacity bg-slate-900/85 hover:bg-red-700 text-white text-[11px] font-bold px-3 py-1.5 rounded-full shadow-lg flex items-center space-x-1.5 backdrop-blur-xs"
-              >
-                <Eye className="w-3.5 h-3.5 text-yellow-300" />
-                <span>Phóng to đọc rõ từng chữ</span>
-              </button>
-            </div>
+            <HandbookPageImage
+              imageUrl={page.imageUrl}
+              label={page.label}
+              title={page.title}
+              zoomLevel={zoomLevel}
+              onOpenLightbox={() =>
+                setLightboxImage({
+                  url: page.imageUrl!,
+                  title: page.title,
+                  label: page.label
+                })
+              }
+            />
           ) : (
-            /* Structured Text Page for Handbooks awaiting Infographic images */
-            <div className="w-full h-full p-5 sm:p-7 flex flex-col justify-between bg-gradient-to-b from-[#fffdf9] to-[#f8f1e3] rounded-xl border border-amber-200/80 overflow-y-auto">
+            /* Trang nội dung văn bản cho các sổ tay chưa có ảnh Infographic */
+            <div className="w-full aspect-[9/16] max-h-[78vh] p-5 sm:p-7 flex flex-col justify-between bg-gradient-to-b from-[#fffdf9] to-[#f8f1e3] rounded-xl border border-amber-200/80 overflow-y-auto">
               <div>
                 <div className="inline-flex items-center space-x-1.5 bg-red-700 text-yellow-300 text-[11px] font-extrabold px-3 py-1 rounded-full mb-3 uppercase tracking-wide">
                   <Sparkles className="w-3.5 h-3.5" />
@@ -655,44 +712,51 @@ export default function LegalHandbookSection() {
             </div>
           )}
 
-          {/* Interactive Page Curl Corner Effect */}
-          {isRight && canGoNext && onClickCorner && (
+          {/* Hiệu ứng gấp góc trang sách bên phải để lật tiếp */}
+          {(isRight || side === 'single') && canGoNext && onClickCorner && (
             <button
               type="button"
-              onClick={onClickCorner}
+              onClick={(e) => {
+                e.stopPropagation();
+                onClickCorner();
+              }}
               title="Bấm để lật sang trang tiếp theo"
-              className="group/curl absolute bottom-0 right-0 w-16 h-16 z-20 flex items-end justify-end focus:outline-none"
+              className="group/curl absolute bottom-0 right-0 w-14 h-14 z-20 flex items-end justify-end focus:outline-none"
             >
-              <div className="w-10 h-10 group-hover/curl:w-14 group-hover/curl:h-14 transition-all duration-300 bg-gradient-to-tl from-amber-200 via-amber-100 to-white rounded-tl-2xl shadow-[-4px_-4px_10px_rgba(0,0,0,0.18)] border-t border-l border-amber-300 flex items-center justify-center">
+              <div className="w-10 h-10 group-hover/curl:w-12 group-hover/curl:h-12 transition-all duration-200 bg-gradient-to-tl from-amber-300 via-amber-100 to-white rounded-tl-2xl shadow-[-4px_-4px_10px_rgba(0,0,0,0.2)] border-t border-l border-amber-400 flex items-center justify-center">
                 <ChevronRight className="w-4 h-4 text-red-700 group-hover/curl:translate-x-0.5 transition" />
               </div>
             </button>
           )}
 
+          {/* Hiệu ứng gấp góc trang sách bên trái để lật lại */}
           {isLeft && canGoPrev && onClickCorner && (
             <button
               type="button"
-              onClick={onClickCorner}
+              onClick={(e) => {
+                e.stopPropagation();
+                onClickCorner();
+              }}
               title="Bấm để lật về trang trước"
-              className="group/curl absolute bottom-0 left-0 w-16 h-16 z-20 flex items-end justify-start focus:outline-none"
+              className="group/curl absolute bottom-0 left-0 w-14 h-14 z-20 flex items-end justify-start focus:outline-none"
             >
-              <div className="w-10 h-10 group-hover/curl:w-14 group-hover/curl:h-14 transition-all duration-300 bg-gradient-to-tr from-amber-200 via-amber-100 to-white rounded-tr-2xl shadow-[4px_-4px_10px_rgba(0,0,0,0.18)] border-t border-r border-amber-300 flex items-center justify-center">
+              <div className="w-10 h-10 group-hover/curl:w-12 group-hover/curl:h-12 transition-all duration-200 bg-gradient-to-tr from-amber-300 via-amber-100 to-white rounded-tr-2xl shadow-[4px_-4px_10px_rgba(0,0,0,0.2)] border-t border-r border-amber-400 flex items-center justify-center">
                 <ChevronLeft className="w-4 h-4 text-red-700 group-hover/curl:-translate-x-0.5 transition" />
               </div>
             </button>
           )}
         </div>
 
-        {/* Bottom Page Footer Caption */}
-        <div className="px-4 py-2 bg-gradient-to-r from-amber-50/90 via-stone-50 to-amber-50/90 border-t border-amber-200/70 flex items-center justify-between text-xs shrink-0">
-          <div className="truncate font-bold text-slate-800 pr-2" title={page.title}>
+        {/* Chân trang sách */}
+        <div className="px-3.5 py-2 bg-gradient-to-r from-amber-50/90 via-stone-50 to-amber-50/90 border-t border-amber-200/70 flex items-center justify-between text-xs shrink-0">
+          <div className="truncate font-bold text-slate-800 pr-2 text-[11px] sm:text-xs" title={page.title}>
             {page.title}
           </div>
           <div className="flex items-center space-x-2 shrink-0">
             {page.imageUrl && (
               <a
                 href={page.imageUrl}
-                download={`So-tay-PCCC-Duc-Hop-${page.label.replace(/\s+/g, '-')}.png`}
+                download={`So-tay-PCCC-Duc-Hop-${page.label.replace(/\s+/g, '-')}.jpg`}
                 onClick={(e) => e.stopPropagation()}
                 className="inline-flex items-center space-x-1 text-[11px] font-bold text-police-700 hover:text-red-700 bg-white px-2 py-0.5 rounded-md border border-slate-200 shadow-2xs transition"
                 title="Tải trang này về điện thoại/máy tính"
@@ -728,13 +792,12 @@ export default function LegalHandbookSection() {
             <p className="text-sm sm:text-base text-red-100 leading-relaxed font-medium">
               Trải nghiệm đọc cẩm nang pháp luật, kỹ năng Phòng cháy chữa cháy, An toàn giao thông và Phòng chống lừa đảo với{' '}
               <strong className="text-yellow-300 underline decoration-yellow-400/60">
-                chế độ lật trang 3D như một quyển sách thật
+                chế độ lật trang như một quyển sách thật
               </strong>
               . Dễ nhìn, dễ nhớ, áp dụng ngay tại mỗi gia đình và hộ kinh doanh!
             </p>
           </div>
 
-          {/* Quick stats */}
           <div className="grid grid-cols-2 gap-3 shrink-0">
             <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-4 text-center">
               <div className="text-2xl sm:text-3xl font-black text-yellow-300">04</div>
@@ -758,7 +821,6 @@ export default function LegalHandbookSection() {
             <span>Chọn Cuốn Sổ Tay Tuyên Truyền Cần Đọc:</span>
           </h2>
 
-          {/* Category filter pills */}
           <div className="flex flex-wrap items-center gap-2">
             {[
               { id: 'all', label: '📚 Tất cả sổ tay', icon: BookOpen },
@@ -783,7 +845,7 @@ export default function LegalHandbookSection() {
           </div>
         </div>
 
-        {/* Bookshelf Cards */}
+        {/* Danh sách các cuốn sổ tay trên kệ */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           {filteredBooks.map((book) => {
             const isSelected = book.id === activeBookId;
@@ -837,7 +899,7 @@ export default function LegalHandbookSection() {
       </div>
 
       {/* ================================================================= */}
-      {/* 3. TRÌNH ĐỌC SÁCH LẬT TRANG 3D (INTERACTIVE 3D BOOK FLIPBOOK)      */}
+      {/* 3. TRÌNH ĐỌC SÁCH LẬT TRANG (INTERACTIVE BOOK FLIPBOOK)             */}
       {/* ================================================================= */}
       <div
         ref={readerContainerRef}
@@ -847,33 +909,33 @@ export default function LegalHandbookSection() {
             : 'bg-gradient-to-b from-slate-900 via-slate-900 to-slate-950 rounded-3xl p-3 sm:p-6 shadow-2xl border border-slate-800'
         } text-white transition-all`}
       >
-        {/* TOP BOOK READER CONTROL BAR */}
-        <div className="flex flex-wrap items-center justify-between gap-3 pb-4 border-b border-slate-800">
+        {/* THANH CÔNG CỤ ĐỌC SÁCH PHÍA TRÊN */}
+        <div className="flex flex-wrap items-center justify-between gap-3 pb-3 border-b border-slate-800">
           <div className="flex items-center space-x-3">
             <div className="w-10 h-10 rounded-2xl bg-gradient-to-br from-red-600 to-amber-600 flex items-center justify-center shadow-md shrink-0">
               <BookOpen className="w-5 h-5 text-yellow-200" />
             </div>
             <div>
-              <div className="flex items-center space-x-2">
-                <h3 className="font-black text-sm sm:text-lg text-white leading-tight">
-                  {activeBook.title}
-                </h3>
-              </div>
+              <h3 className="font-black text-sm sm:text-lg text-white leading-tight">
+                {activeBook.title}
+              </h3>
               <p className="text-xs text-amber-300/90 font-medium">
                 {viewMode === 'book'
                   ? currentPage === 0
-                    ? 'Đang xem: Trang Bìa (Bấm vào trang sách hoặc nút mũi tên để lật mở sách)'
+                    ? 'Đang xem: Trang Bìa (Bấm nút Lật trang tiếp theo hoặc mũi tên phải để mở sách)'
                     : `Đang mở: Trang ${currentPage}${
                         currentPage + 1 < totalPages ? ` - Trang ${currentPage + 1}` : ''
                       } / Tổng ${totalPages - 1} trang nội dung`
-                  : `Đang xem: ${activeBook.pages[currentPage]?.label} (${currentPage}/${totalPages - 1})`}
+                  : `Đang xem: ${activeBook.pages[currentPage]?.label} (${
+                      currentPage === 0 ? 'Trang Bìa' : `Trang ${currentPage}/${totalPages - 1}`
+                    })`}
               </p>
             </div>
           </div>
 
-          {/* Reader Toolbar Buttons */}
+          {/* Các nút điều khiển chế độ xem */}
           <div className="flex flex-wrap items-center gap-1.5 sm:gap-2">
-            {/* Switch 2-page Book Mode vs 1-page Mode */}
+            {/* Chuyển chế độ Sách mở đôi (2 trang) / 1 Trang lớn */}
             <div className="hidden md:flex items-center bg-slate-800 p-1 rounded-xl border border-slate-700">
               <button
                 type="button"
@@ -908,7 +970,7 @@ export default function LegalHandbookSection() {
               </button>
             </div>
 
-            {/* Table of Contents Button */}
+            {/* Nút Mục lục */}
             <button
               type="button"
               onClick={() => setShowToc(!showToc)}
@@ -922,7 +984,7 @@ export default function LegalHandbookSection() {
               <span>Mục lục ({totalPages})</span>
             </button>
 
-            {/* Auto-Flip Play/Pause */}
+            {/* Nút Tự động lật */}
             <button
               type="button"
               onClick={() => setIsAutoPlay(!isAutoPlay)}
@@ -937,7 +999,7 @@ export default function LegalHandbookSection() {
               <span className="hidden sm:inline">{isAutoPlay ? 'Dừng lật' : 'Tự động lật'}</span>
             </button>
 
-            {/* Zoom Controls */}
+            {/* Thu phóng */}
             <div className="flex items-center bg-slate-800 rounded-xl border border-slate-700 p-0.5">
               <button
                 type="button"
@@ -962,7 +1024,7 @@ export default function LegalHandbookSection() {
               </button>
             </div>
 
-            {/* Reset to cover */}
+            {/* Quay về Trang bìa */}
             <button
               type="button"
               onClick={() => jumpToPage(0)}
@@ -973,7 +1035,7 @@ export default function LegalHandbookSection() {
               <RotateCcw className="w-4 h-4" />
             </button>
 
-            {/* Fullscreen Toggle */}
+            {/* Toàn màn hình */}
             <button
               type="button"
               onClick={toggleFullscreen}
@@ -985,9 +1047,57 @@ export default function LegalHandbookSection() {
           </div>
         </div>
 
-        {/* TABLE OF CONTENTS DRAWER (MỤC LỤC NHANH) */}
+        {/* THANH CHUYỂN TRANG NHANH NGAY PHÍA TRÊN SÁCH (DỄ BẤM TRÊN ĐIỆN THOẠI & MÁY TÍNH) */}
+        <div className="flex items-center justify-between gap-2 py-2.5 border-b border-slate-800/80">
+          <button
+            type="button"
+            onClick={handlePrevPage}
+            disabled={!canGoPrev}
+            className="px-3.5 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 active:scale-95 disabled:opacity-35 text-white font-bold text-xs flex items-center space-x-1.5 border border-slate-700 transition"
+          >
+            <ChevronLeft className="w-4 h-4 text-amber-400" />
+            <span>Trang trước</span>
+          </button>
+
+          <div className="flex items-center space-x-1.5 overflow-x-auto max-w-[55vw] sm:max-w-md md:max-w-xl py-0.5 scrollbar-none">
+            {activeBook.pages.map((p) => {
+              const isSelected =
+                viewMode === 'book'
+                  ? currentPage === 0
+                    ? p.pageNumber === 0
+                    : p.pageNumber === currentPage || p.pageNumber === currentPage + 1
+                  : p.pageNumber === currentPage;
+              return (
+                <button
+                  key={p.pageNumber}
+                  type="button"
+                  onClick={() => jumpToPage(p.pageNumber)}
+                  className={`px-2.5 py-1 rounded-lg text-[11px] font-extrabold transition shrink-0 border ${
+                    isSelected
+                      ? 'bg-red-600 text-yellow-200 border-yellow-400 shadow-sm'
+                      : 'bg-slate-800/90 text-slate-300 border-slate-700 hover:bg-slate-700 hover:text-white'
+                  }`}
+                >
+                  {p.pageNumber === 0 ? 'Bìa' : p.pageNumber}
+                </button>
+              );
+            })}
+          </div>
+
+          <button
+            type="button"
+            onClick={handleNextPage}
+            disabled={!canGoNext}
+            className="px-3.5 py-2 rounded-xl bg-gradient-to-r from-amber-500 to-yellow-400 hover:from-amber-400 hover:to-yellow-300 active:scale-95 disabled:opacity-35 text-slate-950 font-black text-xs flex items-center space-x-1.5 shadow-md transition"
+          >
+            <span>Trang tiếp</span>
+            <ChevronRight className="w-4 h-4" />
+          </button>
+        </div>
+
+        {/* NGĂN MỤC LỤC NHANH */}
         {showToc && (
-          <div className="my-4 bg-slate-800/95 border border-slate-700 rounded-2xl p-4 animate-in fade-in slide-in-from-top-3 duration-200">
+          <div className="my-3 bg-slate-800/95 border border-slate-700 rounded-2xl p-4">
             <div className="flex items-center justify-between mb-3">
               <h4 className="text-xs sm:text-sm font-black text-amber-300 uppercase tracking-wider flex items-center space-x-2">
                 <List className="w-4 h-4" />
@@ -1032,63 +1142,54 @@ export default function LegalHandbookSection() {
         )}
 
         {/* =============================================================== */}
-        {/* MAIN 3D BOOK STAGE (BÀN ĐỌC SÁCH & HIỆU ỨNG LẬT TRANG)          */}
+        {/* SÂN KHẤU ĐỌC SÁCH (HIỂN THỊ ĐỦ 100% ẢNH TRÊN CẢ PC & MOBILE)    */}
         {/* =============================================================== */}
         <div
-          className="relative my-4 sm:my-6 flex items-center justify-center"
+          className="relative my-3 sm:my-5 flex items-center justify-center"
           onTouchStart={handleTouchStart}
           onTouchEnd={handleTouchEnd}
         >
-          {/* Left Floating Prev Arrow */}
+          {/* Nút mũi tên Trái (Hiển thị trên cả Điện thoại và Máy tính) */}
           <button
             type="button"
             onClick={handlePrevPage}
             disabled={!canGoPrev}
             aria-label="Trang trước"
-            className="hidden sm:flex items-center justify-center w-11 h-11 lg:w-12 lg:h-12 rounded-full bg-slate-800/90 hover:bg-red-700 disabled:opacity-25 disabled:hover:bg-slate-800 text-white border border-slate-600 shadow-xl transition transform hover:scale-105 active:scale-95 mr-3 lg:mr-5 shrink-0 z-30"
+            className="flex items-center justify-center w-9 h-9 sm:w-11 sm:h-11 lg:w-12 lg:h-12 rounded-full bg-slate-800/95 hover:bg-red-700 disabled:opacity-20 text-white border border-slate-600 shadow-xl transition transform active:scale-90 mr-1.5 sm:mr-3 lg:mr-5 shrink-0 z-30"
           >
-            <ChevronLeft className="w-6 h-6" />
+            <ChevronLeft className="w-5 h-5 sm:w-6 sm:h-6" />
           </button>
 
-          {/* THE BOOK FRAME WITH REALISTIC LAYERED PAPER & LEATHER COVER */}
-          <div className="relative w-full max-w-5xl mx-auto">
-            {/* Outer Hardcover Book Binding Frame */}
-            <div className="relative bg-gradient-to-b from-[#4a1c17] via-[#38130f] to-[#290c09] p-2 sm:p-3.5 md:p-4 rounded-[22px] shadow-[0_25px_60px_-15px_rgba(0,0,0,0.85)] border-2 border-amber-700/40">
-              {/* Multi-layered paper stack effect on left & right edges */}
+          {/* KHUNG BÌA SÁCH & GIẤY NHIỀU LỚP */}
+          <div className={`relative w-full ${viewMode === 'book' ? 'max-w-4xl' : 'max-w-md'} mx-auto`}>
+            <div className="relative bg-gradient-to-b from-[#4a1c17] via-[#38130f] to-[#290c09] p-1.5 sm:p-3 rounded-[22px] shadow-[0_25px_60px_-15px_rgba(0,0,0,0.85)] border-2 border-amber-700/40">
               <div className="relative bg-[#e6dec8] p-1 sm:p-1.5 rounded-2xl shadow-inner">
                 <div
-                  className={`relative transition-all duration-500 ease-out ${
-                    flipDirection === 'next'
-                      ? 'animate-[bookFlipNext_0.48s_ease-in-out]'
-                      : flipDirection === 'prev'
-                      ? 'animate-[bookFlipPrev_0.48s_ease-in-out]'
-                      : ''
+                  className={`relative transition-opacity duration-200 ${
+                    isFlipping ? 'opacity-80' : 'opacity-100'
                   }`}
                 >
                   {viewMode === 'book' ? (
                     /* ===================================================== */
-                    /* 2-PAGE OPEN BOOK SPREAD MODE                          */
+                    /* CHẾ ĐỘ SÁCH MỞ ĐÔI 2 TRANG (MÁY TÍNH)                 */
                     /* ===================================================== */
-                    <div className="grid grid-cols-1 md:grid-cols-2 h-[540px] sm:h-[640px] lg:h-[720px] relative rounded-2xl overflow-hidden">
-                      {/* Center 3D Book Spine Binding (Gáy sách ở giữa) */}
-                      <div className="hidden md:block absolute top-0 bottom-0 left-1/2 -translate-x-1/2 w-8 z-30 pointer-events-none bg-gradient-to-r from-black/25 via-amber-950/60 to-black/25 shadow-inner" />
+                    <div className="grid grid-cols-1 md:grid-cols-2 relative rounded-2xl overflow-hidden items-stretch">
+                      {/* Gáy sách 3D ở chính giữa */}
+                      <div className="hidden md:block absolute top-0 bottom-0 left-1/2 -translate-x-1/2 w-7 z-30 pointer-events-none bg-gradient-to-r from-black/25 via-amber-950/60 to-black/25 shadow-inner" />
                       <div className="hidden md:block absolute top-0 bottom-0 left-1/2 -translate-x-1/2 w-[2px] z-30 pointer-events-none bg-amber-200/30" />
 
-                      {/* LEFT PAGE OF SPREAD */}
-                      <div
-                        onClick={() => canGoPrev && handlePrevPage()}
-                        className={`h-full relative ${canGoPrev ? 'cursor-pointer' : ''}`}
-                      >
+                      {/* TRANG BÊN TRÁI */}
+                      <div className="min-h-0 flex flex-col relative">
                         {currentPage === 0 ? (
-                          /* Inside Front Cover (Trang lót bìa trái khi mở Trang Bìa) */
-                          <div className="w-full h-full bg-gradient-to-br from-red-900 via-red-800 to-amber-950 p-6 sm:p-8 flex flex-col justify-between text-white rounded-l-2xl border-r border-amber-500/30 shadow-[inset_-18px_0_30px_-10px_rgba(0,0,0,0.55)] select-none">
+                          /* Trang lót bìa trái khi đang ở Trang Bìa */
+                          <div className="w-full h-full bg-gradient-to-br from-red-900 via-red-800 to-amber-950 p-5 sm:p-7 flex flex-col justify-between text-white rounded-l-2xl border-r border-amber-500/30 shadow-[inset_-18px_0_30px_-10px_rgba(0,0,0,0.55)] select-none">
                             <div className="space-y-4">
-                              <div className="flex items-center space-x-3 border-b border-yellow-400/30 pb-4">
+                              <div className="flex items-center space-x-3 border-b border-yellow-400/30 pb-3.5">
                                 {/* eslint-disable-next-line @next/next/no-img-element */}
                                 <img
                                   src="/logo-cong-an.png"
                                   alt="Công an nhân dân"
-                                  className="w-12 h-12 object-contain bg-white rounded-full p-1 shadow"
+                                  className="w-11 h-11 object-contain bg-white rounded-full p-1 shadow"
                                 />
                                 <div>
                                   <div className="text-xs font-bold text-yellow-300 uppercase tracking-wider">
@@ -1104,7 +1205,7 @@ export default function LegalHandbookSection() {
                                 Ấn phẩm tuyên truyền pháp luật số
                               </div>
 
-                              <h2 className="text-xl sm:text-2xl font-black text-yellow-300 leading-snug">
+                              <h2 className="text-lg sm:text-2xl font-black text-yellow-300 leading-snug">
                                 {activeBook.title}
                               </h2>
 
@@ -1116,20 +1217,17 @@ export default function LegalHandbookSection() {
                                 <div className="font-black text-yellow-300 uppercase">
                                   📖 Hướng dẫn đọc sổ tay:
                                 </div>
-                                <p>• Bấm vào <strong>mép trang bên phải</strong> hoặc nút mũi tên để lật từng trang sách.</p>
+                                <p>• Bấm vào <strong>mép góc trang phải</strong> hoặc nút mũi tên để lật từng trang sách.</p>
                                 <p>• Bấm trực tiếp vào hình ảnh trang sách để <strong>phóng to toàn màn hình</strong> đọc rõ từng chi tiết nhỏ.</p>
-                                <p>• Bấm nút <strong>Mục lục ({totalPages})</strong> phía trên để chuyển nhanh đến chuyên đề cần xem.</p>
+                                <p>• Có thể chuyển sang chế độ <strong>1 Trang lớn</strong> trên thanh công cụ nếu muốn xem từng trang khổ lớn.</p>
                               </div>
                             </div>
 
                             <div className="pt-4 border-t border-yellow-400/25 flex items-center justify-between text-xs text-yellow-200">
-                              <span className="font-bold">📞 Trực ban 24/24h: 02213.815.999</span>
+                              <span className="font-bold">📞 Trực ban: 02213.815.999</span>
                               <button
                                 type="button"
-                                onClick={(e) => {
-                                  e.stopPropagation();
-                                  handleNextPage();
-                                }}
+                                onClick={handleNextPage}
                                 className="bg-yellow-400 hover:bg-yellow-300 text-red-950 font-black px-4 py-2 rounded-xl shadow-lg flex items-center space-x-1.5 transition transform hover:scale-105"
                               >
                                 <span>Mở trang 1</span>
@@ -1142,15 +1240,12 @@ export default function LegalHandbookSection() {
                         )}
                       </div>
 
-                      {/* RIGHT PAGE OF SPREAD */}
-                      <div
-                        onClick={() => canGoNext && handleNextPage()}
-                        className={`h-full relative ${canGoNext ? 'cursor-pointer' : ''}`}
-                      >
+                      {/* TRANG BÊN PHẢI */}
+                      <div className="min-h-0 flex flex-col relative">
                         {rightPage ? (
                           renderPageSheet(rightPage, 'right', handleNextPage)
                         ) : (
-                          /* Back Cover when odd total pages reached the end */
+                          /* Bìa sau khi đọc hết trang cuối */
                           <div className="w-full h-full bg-gradient-to-br from-amber-950 via-red-900 to-red-950 p-6 sm:p-8 flex flex-col items-center justify-center text-center text-white rounded-r-2xl shadow-[inset_18px_0_30px_-10px_rgba(0,0,0,0.55)] select-none space-y-4">
                             {/* eslint-disable-next-line @next/next/no-img-element */}
                             <img
@@ -1170,10 +1265,7 @@ export default function LegalHandbookSection() {
                             </div>
                             <button
                               type="button"
-                              onClick={(e) => {
-                                e.stopPropagation();
-                                jumpToPage(0);
-                              }}
+                              onClick={() => jumpToPage(0)}
                               className="bg-yellow-400 hover:bg-yellow-300 text-red-950 font-black px-5 py-2.5 rounded-xl shadow-lg flex items-center space-x-2 transition"
                             >
                               <RotateCcw className="w-4 h-4" />
@@ -1185,9 +1277,9 @@ export default function LegalHandbookSection() {
                     </div>
                   ) : (
                     /* ===================================================== */
-                    /* 1-PAGE LARGE CLEAR VIEW MODE                          */
+                    /* CHẾ ĐỘ 1 TRANG LỚN (ĐIỆN THOẠI & MÁY TÍNH)            */
                     /* ===================================================== */
-                    <div className="h-[540px] sm:h-[680px] lg:h-[760px] max-w-2xl mx-auto">
+                    <div className="w-full mx-auto">
                       {leftPage &&
                         renderPageSheet(
                           leftPage,
@@ -1201,26 +1293,26 @@ export default function LegalHandbookSection() {
             </div>
           </div>
 
-          {/* Right Floating Next Arrow */}
+          {/* Nút mũi tên Phải (Hiển thị trên cả Điện thoại và Máy tính) */}
           <button
             type="button"
             onClick={handleNextPage}
             disabled={!canGoNext}
             aria-label="Trang tiếp theo"
-            className="hidden sm:flex items-center justify-center w-11 h-11 lg:w-12 lg:h-12 rounded-full bg-amber-500 hover:bg-amber-400 disabled:opacity-25 text-slate-950 border-2 border-yellow-200 shadow-xl transition transform hover:scale-105 active:scale-95 ml-3 lg:ml-5 shrink-0 z-30"
+            className="flex items-center justify-center w-9 h-9 sm:w-11 sm:h-11 lg:w-12 lg:h-12 rounded-full bg-amber-500 hover:bg-amber-400 disabled:opacity-20 text-slate-950 border-2 border-yellow-200 shadow-xl transition transform active:scale-90 ml-1.5 sm:ml-3 lg:ml-5 shrink-0 z-30"
           >
-            <ChevronRight className="w-6 h-6" />
+            <ChevronRight className="w-5 h-5 sm:w-6 sm:h-6" />
           </button>
         </div>
 
-        {/* MOBILE NAVIGATION BUTTONS & CURRENT PAGE SUMMARY */}
-        <div className="flex flex-col sm:flex-row items-center justify-between gap-3 pt-2 border-t border-slate-800">
+        {/* THANH ĐIỀU HƯỚNG DƯỚI CÙNG */}
+        <div className="flex flex-col sm:flex-row items-center justify-between gap-3 pt-3 border-t border-slate-800">
           <div className="flex items-center space-x-2 w-full sm:w-auto justify-between sm:justify-start">
             <button
               type="button"
               onClick={handlePrevPage}
               disabled={!canGoPrev}
-              className="flex-1 sm:flex-initial px-4 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 disabled:opacity-40 text-white font-bold text-xs flex items-center justify-center space-x-1.5 border border-slate-700 transition"
+              className="flex-1 sm:flex-initial px-4 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 active:scale-95 disabled:opacity-40 text-white font-bold text-xs flex items-center justify-center space-x-1.5 border border-slate-700 transition"
             >
               <ChevronLeft className="w-4 h-4" />
               <span>Lật trang trước</span>
@@ -1230,38 +1322,15 @@ export default function LegalHandbookSection() {
               type="button"
               onClick={handleNextPage}
               disabled={!canGoNext}
-              className="flex-1 sm:flex-initial px-5 py-2.5 rounded-xl bg-gradient-to-r from-amber-500 to-yellow-400 hover:from-amber-400 hover:to-yellow-300 disabled:opacity-40 text-slate-950 font-black text-xs flex items-center justify-center space-x-1.5 shadow-md transition"
+              className="flex-1 sm:flex-initial px-5 py-2.5 rounded-xl bg-gradient-to-r from-amber-500 to-yellow-400 hover:from-amber-400 hover:to-yellow-300 active:scale-95 disabled:opacity-40 text-slate-950 font-black text-xs flex items-center justify-center space-x-1.5 shadow-md transition"
             >
               <span>Lật trang tiếp theo</span>
               <ChevronRight className="w-4 h-4" />
             </button>
           </div>
 
-          {/* Page Thumbnail Quick Scrubber Strip */}
-          <div className="flex items-center space-x-1.5 overflow-x-auto max-w-full py-1 scrollbar-none">
-            {activeBook.pages.map((p) => {
-              const isSelected =
-                viewMode === 'book'
-                  ? currentPage === 0
-                    ? p.pageNumber === 0
-                    : p.pageNumber === currentPage || p.pageNumber === currentPage + 1
-                  : p.pageNumber === currentPage;
-              return (
-                <button
-                  key={p.pageNumber}
-                  type="button"
-                  onClick={() => jumpToPage(p.pageNumber)}
-                  title={`${p.label}: ${p.title}`}
-                  className={`px-2.5 py-1 rounded-lg text-[11px] font-extrabold transition shrink-0 border ${
-                    isSelected
-                      ? 'bg-red-600 text-yellow-200 border-yellow-400 shadow-sm scale-105'
-                      : 'bg-slate-800 text-slate-400 border-slate-700 hover:bg-slate-700 hover:text-white'
-                  }`}
-                >
-                  {p.pageNumber === 0 ? 'Bìa' : p.pageNumber}
-                </button>
-              );
-            })}
+          <div className="text-xs text-slate-400 text-center sm:text-right">
+            💡 Mẹo: Vuốt ngang trang sách hoặc bấm vào số trang để chuyển nhanh.
           </div>
         </div>
       </div>
@@ -1271,7 +1340,7 @@ export default function LegalHandbookSection() {
       {/* ================================================================= */}
       {lightboxImage && (
         <div
-          className="fixed inset-0 z-50 bg-black/90 backdrop-blur-sm flex flex-col items-center justify-between p-3 sm:p-6 animate-in fade-in duration-150"
+          className="fixed inset-0 z-50 bg-black/90 backdrop-blur-sm flex flex-col items-center justify-between p-2 sm:p-6 animate-in fade-in duration-150"
           onClick={() => setLightboxImage(null)}
         >
           <div
@@ -1287,7 +1356,7 @@ export default function LegalHandbookSection() {
             <div className="flex items-center space-x-2 shrink-0">
               <a
                 href={lightboxImage.url}
-                download={`Cam-nang-PCCC-${lightboxImage.label}.png`}
+                download={`Cam-nang-PCCC-${lightboxImage.label}.jpg`}
                 className="px-3 py-1.5 rounded-xl bg-police-700 hover:bg-police-600 text-white text-xs font-bold flex items-center space-x-1"
               >
                 <Download className="w-3.5 h-3.5" />
@@ -1304,52 +1373,22 @@ export default function LegalHandbookSection() {
           </div>
 
           <div
-            className="flex-1 w-full overflow-auto flex items-center justify-center my-3"
+            className="flex-1 w-full overflow-auto flex items-center justify-center my-2"
             onClick={(e) => e.stopPropagation()}
           >
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={lightboxImage.url}
               alt={lightboxImage.title}
-              className="max-h-full w-auto object-contain rounded-xl shadow-2xl"
+              className="max-h-full max-w-full w-auto h-auto object-contain rounded-xl shadow-2xl"
             />
           </div>
 
           <div className="text-xs text-slate-400 text-center">
-            Mẹo: Bạn có thể cuộn hoặc phóng to trên màn hình cảm ứng để đọc rõ từng chi tiết. Bấm ra ngoài để đóng.
+            Mẹo: Bạn có thể dùng 2 ngón tay phóng to trên điện thoại để đọc rõ từng chi tiết. Bấm Đóng để quay lại.
           </div>
         </div>
       )}
-
-      {/* Keyframe animations for realistic page flip */}
-      <style jsx>{`
-        @keyframes bookFlipNext {
-          0% {
-            transform: perspective(1800px) rotateY(0deg) scale(0.99);
-            opacity: 0.85;
-          }
-          45% {
-            transform: perspective(1800px) rotateY(-6deg) scale(0.985);
-          }
-          100% {
-            transform: perspective(1800px) rotateY(0deg) scale(1);
-            opacity: 1;
-          }
-        }
-        @keyframes bookFlipPrev {
-          0% {
-            transform: perspective(1800px) rotateY(0deg) scale(0.99);
-            opacity: 0.85;
-          }
-          45% {
-            transform: perspective(1800px) rotateY(6deg) scale(0.985);
-          }
-          100% {
-            transform: perspective(1800px) rotateY(0deg) scale(1);
-            opacity: 1;
-          }
-        }
-      `}</style>
     </div>
   );
 }
