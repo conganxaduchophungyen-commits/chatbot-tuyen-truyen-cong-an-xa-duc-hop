@@ -184,62 +184,128 @@ export const HANDBOOK_LIBRARY: HandbookItem[] = [
   {
     id: 'so-tay-atgt-2026',
     category: 'giao_thong',
-    categoryName: 'An toàn giao thông & Đăng ký xe',
-    title: 'Sổ tay Pháp luật Trật tự An toàn giao thông & Biển số định danh',
-    subtitle: 'Quy định mới theo Luật TTATGT đường bộ số 36/2024/QH15 & Nghị định 168/2024/NĐ-CP',
-    badge: 'Chuyên đề tóm tắt • Đang cập nhật ảnh',
+    categoryName: 'An toàn giao thông đường bộ',
+    title: 'Sổ tay Kỹ năng & Pháp luật An toàn Giao thông Đường bộ',
+    subtitle: 'Cẩm nang lái xe phòng vệ, biển báo, vạch kẻ đường, xử lý sự cố khẩn cấp & tra cứu mức phạt mới',
+    badge: '16 Trang Infographic HD • Đọc ngay',
     isReady: true,
+    coverUrl: '/handbooks/atgt/page-0.jpg',
     accentColor: 'from-emerald-700 via-teal-600 to-cyan-700',
-    totalPages: 4,
+    totalPages: 16,
     issuedBy: 'Công an xã Đức Hợp - Tỉnh Hưng Yên',
     updatedAt: 'Năm 2026',
     pages: [
       {
         pageNumber: 0,
         label: 'Trang bìa',
-        title: 'Cẩm nang Luật Trật tự, An toàn giao thông đường bộ & Đăng ký xe tại xã',
-        summary: 'Tổng hợp những điểm mới quan trọng nhất người dân xã Đức Hợp cần nắm vững khi tham gia giao thông và làm thủ tục đăng ký xe máy tại Công an xã.',
-        keyPoints: [
-          'Hệ thống 12 điểm Giấy phép lái xe áp dụng toàn quốc từ 01/01/2025.',
-          'Quy định Biển số định danh đi theo công dân suốt đời (Thông tư 24/2023/TT-BCA & 28/2024/TT-BCA).',
-          'Mức xử phạt mới nghiêm khắc theo Nghị định 168/2024/NĐ-CP đối với nồng độ cồn, vượt đèn đỏ.',
-          'Thẩm quyền bấm biển số xe mô tô, xe gắn máy, xe máy điện ngay tại Công an xã Đức Hợp.'
-        ]
+        title: 'Bìa Cẩm nang An toàn Giao thông Đường bộ',
+        summary: 'Tổng hợp kỹ năng lái xe phòng vệ, quy tắc nhường đường, điểm mù xe tải, xử lý sự cố khẩn cấp và quy định xử phạt, trừ điểm GPLX theo Luật TTATGT đường bộ.',
+        imageUrl: '/handbooks/atgt/page-0.jpg'
       },
       {
         pageNumber: 1,
         label: 'Trang 01',
-        title: 'Thủ tục Bấm biển số xe máy mới tại Công an xã Đức Hợp',
-        summary: 'Người dân thường trú hoặc tạm trú tại xã Đức Hợp mua xe máy mới thực hiện bấm biển số định danh trực tiếp tại Trụ sở Công an xã (Thôn Nho Lâm).',
-        keyPoints: [
-          'Hồ sơ cần mang: (1) Thẻ Căn cước / VNeID Mức 2; (2) Hóa đơn GTGT mua xe; (3) Phiếu kiểm tra chất lượng xuất xưởng bản gốc; (4) Chứng từ nộp lệ phí trước bạ.',
-          'Kê khai trước Tờ khai đăng ký xe trên Cổng DVC Bộ Công an hoặc VNeID để lấy Mã hồ sơ trực tuyến.',
-          'Lệ phí cấp biển số tại xã nông thôn: Chỉ từ 50.000đ - 100.000đ/xe.',
-          'Bấm biển số tự động trên hệ thống và nhận biển số ngay; nhận đăng ký xe sau không quá 02 ngày làm việc.'
-        ]
+        title: 'Tư duy lái xe phòng vệ & Mô hình SIPDE',
+        summary: 'Quy trình 5 bước chủ động phòng ngừa tai nạn (Quan sát - Nhận diện - Dự đoán - Quyết định - Thực thi) giúp người lái xe làm chủ mọi tình huống bất ngờ trên đường.',
+        imageUrl: '/handbooks/atgt/page-1.jpg'
       },
       {
         pageNumber: 2,
         label: 'Trang 02',
-        title: 'Quy định Biển số định danh & Sang tên xe qua nhiều đời chủ',
-        summary: 'Biển số xe 5 số được quản lý theo mã số định danh cá nhân (12 số Căn cước) và đi theo công dân suốt đời.',
-        keyPoints: [
-          'Khi bán, tặng cho xe: Chủ xe BẮT BUỘC phải giữ lại Biển số và Đăng ký xe để nộp cho Công an làm thủ tục thu hồi (không giao biển số cho người mua).',
-          'Biển số định danh được lưu giữ cho chủ xe trong 05 năm để cấp lại khi mua xe mới.',
-          'Xe mua qua nhiều đời chủ, không tìm được chủ cũ (Điều 31 Thông tư 24/2023/TT-BCA): Đến Công an xã Đức Hợp viết cam kết nguồn gốc xe, niêm yết 30 ngày để được cấp biển định danh mới.'
-        ]
+        title: 'Quy tắc nhường quyền ưu tiên tại các điểm giao cắt',
+        summary: 'Thứ tự ưu tiên chuẩn xác khi qua ngã tư, vòng xuyến, đường nhánh giao đường chính và quy tắc nhường đường cho xe ưu tiên, người đi bộ.',
+        imageUrl: '/handbooks/atgt/page-2.jpg'
       },
       {
         pageNumber: 3,
         label: 'Trang 03',
-        title: 'Quy định 12 điểm Giấy phép lái xe & Phân hạng GPLX mới',
-        summary: 'Theo Điều 57, 58 Luật Trật tự, an toàn giao thông đường bộ 2024 và Nghị định 168/2024/NĐ-CP:',
-        keyPoints: [
-          'Mỗi GPLX có 12 điểm/năm. Vi phạm giao thông bị trừ từ 02 đến 12 điểm tùy mức độ nguy hiểm.',
-          'Nếu còn điểm và không vi phạm trong 12 tháng tiếp theo sẽ được tự động phục hồi đủ 12 điểm.',
-          'Nếu bị trừ hết 12 điểm: Không được điều khiển phương tiện; sau ít nhất 06 tháng phải kiểm tra lại kiến thức pháp luật TTATGT do CSGT tổ chức.',
-          'Phân hạng mới: Hạng A1 (đến 125cm³ hoặc 11kW), Hạng A (trên 125cm³), Hạng B (gộp B1, B2 cũ cho ô tô đến 8 chỗ và xe tải đến 3.500kg).'
-        ]
+        title: '5 Nhóm hành vi nguy cơ hàng đầu gây tai nạn giao thông',
+        summary: 'Cảnh báo 5 nguyên nhân trực tiếp dẫn đến tai nạn nghiêm trọng: Vi phạm nồng độ cồn, chạy quá tốc độ, đi sai làn đường/phần đường, vượt ẩu và sử dụng điện thoại khi lái xe.',
+        imageUrl: '/handbooks/atgt/page-3.jpg'
+      },
+      {
+        pageNumber: 4,
+        label: 'Trang 04',
+        title: 'An toàn cho người đi bộ & Kỹ năng sang đường',
+        summary: 'Hướng dẫn nguyên tắc sang đường an toàn tại vạch kẻ đường, cầu vượt, quan sát 2 chiều, giao tiếp ánh mắt với tài xế và bảo vệ trẻ em, người cao tuổi.',
+        imageUrl: '/handbooks/atgt/page-4.jpg'
+      },
+      {
+        pageNumber: 5,
+        label: 'Trang 05',
+        title: 'Kỹ thuật an toàn cho người đi xe hai bánh',
+        summary: 'Đội mũ bảo hiểm đạt chuẩn cài quai đúng quy cách, kỹ năng phanh kết hợp trước - sau, giữ khoảng cách an toàn và bật đèn báo rẽ sớm khi chuyển hướng.',
+        imageUrl: '/handbooks/atgt/page-5.jpg'
+      },
+      {
+        pageNumber: 6,
+        label: 'Trang 06',
+        title: 'Thắt dây an toàn & Thiết bị an toàn cho trẻ em (CRS) trên ô tô',
+        summary: 'Quy định bắt buộc thắt dây an toàn ở mọi vị trí ghế ngồi và sử dụng ghế an toàn chuyên dụng (CRS) cho trẻ em theo Luật Trật tự, an toàn giao thông đường bộ.',
+        imageUrl: '/handbooks/atgt/page-6.jpg'
+      },
+      {
+        pageNumber: 7,
+        label: 'Trang 07',
+        title: 'Chỉnh gương BGE & Khoảng cách an toàn khi lái ô tô',
+        summary: 'Phương pháp chỉnh gương chiếu hậu góc rộng BGE xóa điểm mù hai bên hông xe và quy tắc "3 giây" giữ khoảng cách an toàn theo tốc độ lưu thông.',
+        imageUrl: '/handbooks/atgt/page-7.jpg'
+      },
+      {
+        pageNumber: 8,
+        label: 'Trang 08',
+        title: 'Bản đồ "Vùng tử thần" (Điểm mù xe tải & Container)',
+        summary: 'Nhận diện 4 vùng điểm mù nguy hiểm phía trước đầu xe, ngay sau đuôi xe và hai bên hông xe tải nặng/container; tuyệt đối không chạy song song hoặc cắt đầu xe lớn khi ôm cua.',
+        imageUrl: '/handbooks/atgt/page-8.jpg'
+      },
+      {
+        pageNumber: 9,
+        label: 'Trang 09',
+        title: 'Kỹ năng xử lý sự cố khẩn cấp (Nổ lốp & Mất phanh)',
+        summary: 'Cách giữ chặt vô lăng, giảm tốc bằng số thấp (phanh động cơ), tuyệt đối không đạp phanh gấp khi nổ lốp và cách xử lý bình tĩnh khi xe mất phanh trên đường dốc.',
+        imageUrl: '/handbooks/atgt/page-9.jpg'
+      },
+      {
+        pageNumber: 10,
+        label: 'Trang 10',
+        title: 'Kỹ năng xử lý sự cố khẩn cấp (Trượt nước & Xe chết máy đường sắt)',
+        summary: 'Kỹ thuật thoát hiện tượng trượt nước (Hydroplaning) khi trời mưa lớn và quy trình thoát hiểm khẩn cấp khi phương tiện bất ngờ chết máy trên đường ngang giao cắt đường sắt.',
+        imageUrl: '/handbooks/atgt/page-10.jpg'
+      },
+      {
+        pageNumber: 11,
+        label: 'Trang 11',
+        title: 'Quy trình cấp cứu tai nạn giao thông chuẩn DRSABCD',
+        summary: 'Các bước sơ cứu nạn nhân TNGT khoa học trong "giờ vàng", bảo vệ cột sống cổ, cầm máu đúng cách và gọi cấp cứu 115 kết hợp báo Công an xã Đức Hợp.',
+        imageUrl: '/handbooks/atgt/page-11.jpg'
+      },
+      {
+        pageNumber: 12,
+        label: 'Trang 12',
+        title: 'Hệ thống Biển báo hiệu đường bộ cốt lõi (QCVN 41:2019)',
+        summary: 'Cách nhận biết nhanh 5 nhóm biển báo hiệu đường bộ: Biển báo cấm, biển báo nguy hiểm, biển hiệu lệnh, biển chỉ dẫn và biển phụ.',
+        imageUrl: '/handbooks/atgt/page-12.jpg'
+      },
+      {
+        pageNumber: 13,
+        label: 'Trang 13',
+        title: 'Hệ thống Vạch kẻ đường cốt lõi về phân làn & mắt võng',
+        summary: 'Phân biệt rõ vạch trắng/vàng nét đứt và nét liền, vạch xương cá kênh hóa dòng xe và quy tắc di chuyển qua vạch mắt võng không bị phạt lỗi không chấp hành vạch kẻ đường.',
+        imageUrl: '/handbooks/atgt/page-13.jpg'
+      },
+      {
+        pageNumber: 14,
+        label: 'Trang 14',
+        title: 'Tra cứu mức xử phạt & Trừ điểm Giấy phép lái xe mới',
+        summary: 'Tổng hợp mức phạt tiền và số điểm bị trừ trên hệ thống 12 điểm GPLX đối với các lỗi phổ biến của ô tô, xe máy theo Nghị định 168/2024/NĐ-CP.',
+        imageUrl: '/handbooks/atgt/page-14.jpg'
+      },
+      {
+        pageNumber: 15,
+        label: 'Trang 15',
+        title: 'Quy trình Checklist 60 giây kiểm tra xe trước khi khởi hành',
+        summary: 'Danh mục kiểm tra nhanh Lốp - Phanh - Đèn - Gương - Giấy tờ (VNeID) chỉ trong 60 giây trước mỗi chuyến đi để đảm bảo hành trình vạn dặm bình an.',
+        imageUrl: '/handbooks/atgt/page-15.jpg'
       }
     ]
   },
@@ -756,7 +822,7 @@ export default function LegalHandbookSection() {
             {page.imageUrl && (
               <a
                 href={page.imageUrl}
-                download={`So-tay-PCCC-Duc-Hop-${page.label.replace(/\s+/g, '-')}.jpg`}
+                download={`So-tay-${activeBook.category}-Duc-Hop-${page.label.replace(/\s+/g, '-')}.jpg`}
                 onClick={(e) => e.stopPropagation()}
                 className="inline-flex items-center space-x-1 text-[11px] font-bold text-police-700 hover:text-red-700 bg-white px-2 py-0.5 rounded-md border border-slate-200 shadow-2xs transition"
                 title="Tải trang này về điện thoại/máy tính"
@@ -804,8 +870,8 @@ export default function LegalHandbookSection() {
               <div className="text-xs font-bold text-red-100 mt-0.5">Chuyên đề Sổ tay</div>
             </div>
             <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-4 text-center">
-              <div className="text-2xl sm:text-3xl font-black text-yellow-300">16</div>
-              <div className="text-xs font-bold text-red-100 mt-0.5">Trang Infographic PCCC</div>
+              <div className="text-2xl sm:text-3xl font-black text-yellow-300">32</div>
+              <div className="text-xs font-bold text-red-100 mt-0.5">Trang Infographic HD</div>
             </div>
           </div>
         </div>
@@ -888,8 +954,14 @@ export default function LegalHandbookSection() {
                     <BookOpen className="w-3.5 h-3.5" />
                     <span>{isSelected ? 'Đang mở đọc' : 'Mở đọc sách'}</span>
                   </span>
-                  <span className="text-[10px] font-bold px-2 py-0.5 rounded bg-amber-100 text-amber-900">
-                    {book.id === 'so-tay-pccc-hkd' ? 'Infographic HD' : 'Tóm tắt'}
+                  <span
+                    className={`text-[10px] font-bold px-2 py-0.5 rounded ${
+                      book.coverUrl
+                        ? 'bg-emerald-100 text-emerald-900 border border-emerald-300'
+                        : 'bg-amber-100 text-amber-900'
+                    }`}
+                  >
+                    {book.coverUrl ? 'Infographic HD' : 'Tóm tắt'}
                   </span>
                 </div>
               </button>
