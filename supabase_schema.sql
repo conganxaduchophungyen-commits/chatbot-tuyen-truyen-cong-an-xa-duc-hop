@@ -100,6 +100,31 @@ CREATE TABLE IF NOT EXISTS chat_logs (
     created_at TIMESTAMP WITHOUT TIME ZONE DEFAULT NOW()
 );
 
+-- 8. Bảng Thống kê Lượt truy cập (site_visits)
+CREATE TABLE IF NOT EXISTS site_visits (
+    id VARCHAR(36) PRIMARY KEY,
+    page_path VARCHAR(255) NOT NULL,
+    page_title VARCHAR(255),
+    referrer VARCHAR(500),
+    device_type VARCHAR(50) DEFAULT 'desktop',
+    visitor_hash VARCHAR(64),
+    created_at TIMESTAMP WITHOUT TIME ZONE DEFAULT NOW()
+);
+
+-- 9. Bảng Đánh giá & Góp ý của nhân dân về trang web (website_reviews)
+CREATE TABLE IF NOT EXISTS website_reviews (
+    id VARCHAR(36) PRIMARY KEY,
+    rating INTEGER NOT NULL,
+    category VARCHAR(100) DEFAULT 'Toàn diện trang web',
+    comment TEXT NOT NULL,
+    citizen_name VARCHAR(100) DEFAULT 'Công dân xã Đức Hợp',
+    citizen_phone VARCHAR(20),
+    is_approved BOOLEAN DEFAULT TRUE,
+    admin_reply TEXT,
+    replied_at TIMESTAMP WITHOUT TIME ZONE,
+    created_at TIMESTAMP WITHOUT TIME ZONE DEFAULT NOW()
+);
+
 -- Tạo Index tăng tốc truy vấn
 CREATE INDEX IF NOT EXISTS idx_categories_code ON categories(code);
 CREATE INDEX IF NOT EXISTS idx_procedures_category ON procedures(category_id);
@@ -107,6 +132,10 @@ CREATE INDEX IF NOT EXISTS idx_procedures_code ON procedures(code);
 CREATE INDEX IF NOT EXISTS idx_articles_slug ON articles(slug);
 CREATE INDEX IF NOT EXISTS idx_articles_scam ON articles(is_scam_alert);
 CREATE INDEX IF NOT EXISTS idx_chat_logs_session ON chat_logs(session_id);
+CREATE INDEX IF NOT EXISTS idx_site_visits_path ON site_visits(page_path);
+CREATE INDEX IF NOT EXISTS idx_site_visits_created ON site_visits(created_at);
+CREATE INDEX IF NOT EXISTS idx_website_reviews_rating ON website_reviews(rating);
+CREATE INDEX IF NOT EXISTS idx_website_reviews_created ON website_reviews(created_at);
 
 -- Dữ liệu ban đầu (Seed Data)
 INSERT INTO categories (id, code, name, description, icon, order_num, is_active)

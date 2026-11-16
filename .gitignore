@@ -44,3 +44,8 @@ desktop.ini
 *.swp
 *.swo
 .agents/
+
+# Raw design assets (Handbooks are hosted under frontend/public/handbooks)
+/Infographic hướng dẫn PCCC đối với HKD/
+/Sổ tay An toàn giao thông/
+/tai_lieu_huong_dan/

@@ -9,6 +9,7 @@ import ChatWidget from '@/components/ChatWidget';
 import LegalQuizSection from '@/components/LegalQuizSection';
 import LegalHandbookSection from '@/components/LegalHandbookSection';
 import EmergencyScamGuidelinesCard from '@/components/EmergencyScamGuidelinesCard';
+import WebsiteRatingSection from '@/components/WebsiteRatingSection';
 import { 
   getCategories, 
   getProcedures, 
@@ -480,6 +481,9 @@ function HomePageContent() {
                 </div>
               </div>
             </section>
+
+            {/* KHỐI ĐÁNH GIÁ & MỨC ĐỘ HÀI LÒNG CỦA NHÂN DÂN */}
+            <WebsiteRatingSection />
           </div>
         )}
 

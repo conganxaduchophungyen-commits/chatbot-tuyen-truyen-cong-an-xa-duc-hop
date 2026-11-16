@@ -28,6 +28,11 @@ export async function GET(req: NextRequest) {
     total_articles: MOCK_ARTICLES.length,
     total_chat_queries: 182,
     satisfaction_rate: 98.5,
+    total_visits: 15420,
+    today_visits: 342,
+    website_avg_rating: 4.9,
+    total_website_reviews: 356,
+    website_satisfaction_rate: 98.6,
     recent_queries: [
       { id: '1', query: 'Hướng dẫn thủ tục làm tạm trú tại Thôn Nho Lâm', rating: 1, created_at: '10:30 Hôm nay' },
       { id: '2', query: 'Có người gọi điện dọa khóa VNeID thì làm sao?', rating: 1, created_at: '09:15 Hôm nay' },

@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
+import PageVisitTracker from "@/components/PageVisitTracker";
 
 export const viewport: Viewport = {
   width: "device-width",
@@ -21,6 +22,7 @@ export default function RootLayout({
   return (
     <html lang="vi">
       <body className="min-h-screen flex flex-col bg-slate-50 text-slate-900 antialiased selection:bg-police-100 selection:text-police-900">
+        <PageVisitTracker />
         {children}
       </body>
     </html>

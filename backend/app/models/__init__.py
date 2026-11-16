@@ -113,3 +113,28 @@ class AdminUser(Base):
     role = Column(String(50), default="officer") # officer | admin
     is_active = Column(Boolean, default=True)
     created_at = Column(DateTime, default=datetime.utcnow)
+
+class SiteVisit(Base):
+    __tablename__ = "site_visits"
+
+    id = Column(String(36), primary_key=True, default=generate_uuid)
+    page_path = Column(String(255), nullable=False, index=True)
+    page_title = Column(String(255), nullable=True)
+    referrer = Column(String(500), nullable=True)
+    device_type = Column(String(50), default="desktop") # mobile | desktop | tablet
+    visitor_hash = Column(String(64), nullable=True, index=True) # Zero PII: mã băm ẩn danh bảo vệ người dân
+    created_at = Column(DateTime, default=datetime.utcnow, index=True)
+
+class WebsiteReview(Base):
+    __tablename__ = "website_reviews"
+
+    id = Column(String(36), primary_key=True, default=generate_uuid)
+    rating = Column(Integer, nullable=False) # 1 - 5 sao
+    category = Column(String(100), default="Toàn diện trang web") # Thủ tục, AI Chatbot, Cảnh báo, Giao diện...
+    comment = Column(Text, nullable=False)
+    citizen_name = Column(String(100), default="Công dân xã Đức Hợp")
+    citizen_phone = Column(String(20), nullable=True)
+    is_approved = Column(Boolean, default=True) # Trạng thái hiển thị công khai
+    admin_reply = Column(Text, nullable=True) # Cán bộ Công an xã phản hồi góp ý
+    replied_at = Column(DateTime, nullable=True)
+    created_at = Column(DateTime, default=datetime.utcnow, index=True)
